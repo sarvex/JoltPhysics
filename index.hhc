@@ -3104,7 +3104,8 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Create"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#a498148010910c0736193305edad9f1a8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreBinaryState"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#ab8e46ff04235b682c8bcc8f75ba55533"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#af65c6d2e4d155aee0337c8dee8deecec"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCommonPoint"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#aba2a74f202e6e43921f0c32624c2eb41"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mPoint1"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#af710ceb8e970eb81441c0d89bf312d45"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mPoint2"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#ab281c0c0d3a9cccf0de363c839136e75"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PointConvexSupport"><param name="Local" value="struct_j_p_h_1_1_point_convex_support.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -8587,7 +8588,8 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="Create"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#a498148010910c0736193305edad9f1a8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreBinaryState"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#ab8e46ff04235b682c8bcc8f75ba55533"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#af65c6d2e4d155aee0337c8dee8deecec"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="mCommonPoint"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#aba2a74f202e6e43921f0c32624c2eb41"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mPoint1"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#af710ceb8e970eb81441c0d89bf312d45"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="mPoint2"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#ab281c0c0d3a9cccf0de363c839136e75"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PointConvexSupport"><param name="Local" value="struct_j_p_h_1_1_point_convex_support.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -17067,7 +17069,8 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="Create"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#a498148010910c0736193305edad9f1a8"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreBinaryState"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#ab8e46ff04235b682c8bcc8f75ba55533"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#af65c6d2e4d155aee0337c8dee8deecec"><param name="ImageNumber" value="11"></OBJECT>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="mCommonPoint"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#aba2a74f202e6e43921f0c32624c2eb41"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mPoint1"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#af710ceb8e970eb81441c0d89bf312d45"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="mPoint2"><param name="Local" value="class_j_p_h_1_1_point_constraint_settings.html#ab281c0c0d3a9cccf0de363c839136e75"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="JPH::PointConstraint"><param name="Local" value="class_j_p_h_1_1_point_constraint.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
