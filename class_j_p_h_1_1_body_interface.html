@@ -102,6 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2348a70452fe3be33d36492186cf44a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e9713aefa23295a3d896b27c0553b1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_interface.html#a0e9713aefa23295a3d896b27c0553b1d">CreateAndAddBody</a> (const <a class="el" href="class_j_p_h_1_1_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings, <a class="el" href="namespace_j_p_h.html#a400137dab0c4d43f999020d19ee7d60b">EActivation</a> inActivationMode)</td></tr>
 <tr class="separator:a0e9713aefa23295a3d896b27c0553b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6893f4030ce70189c0500781f7bae205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_interface.html#a6893f4030ce70189c0500781f7bae205">ActivateConstraint</a> (const <a class="el" href="class_j_p_h_1_1_two_body_constraint.html">TwoBodyConstraint</a> *inConstraint)</td></tr>
+<tr class="memdesc:a6893f4030ce70189c0500781f7bae205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate non-static bodies attached to a constraint.  <a href="class_j_p_h_1_1_body_interface.html#a6893f4030ce70189c0500781f7bae205">More...</a><br /></td></tr>
+<tr class="separator:a6893f4030ce70189c0500781f7bae205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f09525365fbf4afc0a5e3166204b2ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body_interface.html#a0f09525365fbf4afc0a5e3166204b2ad">MoveKinematic</a> (const <a class="el" href="class_j_p_h_1_1_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inTargetPosition, <a class="el" href="namespace_j_p_h.html#a08eb0672d985143ff0fcdd489184a8b4">QuatArg</a> inTargetRotation, float inDeltaTime)</td></tr>
 <tr class="memdesc:a0f09525365fbf4afc0a5e3166204b2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set velocity of body such that it will be positioned at inTargetPosition/Rotation in inDeltaTime seconds (will activate body if needed)  <a href="class_j_p_h_1_1_body_interface.html#a0f09525365fbf4afc0a5e3166204b2ad">More...</a><br /></td></tr>
 <tr class="separator:a0f09525365fbf4afc0a5e3166204b2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,6 +361,26 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6893f4030ce70189c0500781f7bae205" name="a6893f4030ce70189c0500781f7bae205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6893f4030ce70189c0500781f7bae205">&#9670;&nbsp;</a></span>ActivateConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JPH::BodyInterface::ActivateConstraint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_j_p_h_1_1_two_body_constraint.html">TwoBodyConstraint</a> *&#160;</td>
+          <td class="paramname"><em>inConstraint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activate non-static bodies attached to a constraint. </p>
 
 </div>
 </div>
