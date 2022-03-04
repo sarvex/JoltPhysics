@@ -1938,6 +1938,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CanCollide"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#a8686912b962aee7fdccf3cad75d25d9f"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DisableCollision"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#ad4232d268a08a73871e21c04e4b53b3e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EnableCollision"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#ab38a9cadb01b7a690d6d8c902d1d4110"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionEnabled"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#aec173a6188bb73b863b41764b3c1e376"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreBinaryState"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#a6d04ddbd5ee5218a16efad0f985202fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#afec28e3af99cbac912053cee66190fe1"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -3300,6 +3301,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateBodyIndexToConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ac67c1c0ba18861694ddad980436c0f9c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateConstraintIndexToBodyIdxPair"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ab61b765db39247e438630c6db0cc0928"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateRagdoll"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ab229b35ea80c1b599b1aec71e636e60c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DisableParentChildCollisions"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a5f652eb64cb32ec51c6adca5806d01c3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyIndexToConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a36862ba1539650ebed8a5478d694b9e1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyIndicesForConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a337827c13f30657816e3d7347406486e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintIndexForBodyIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a101a5ab963e4cd2a494854ef2ed0861a"><param name="ImageNumber" value="11"></OBJECT>
@@ -3807,6 +3809,8 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="JointVector"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a9fd12a47fb647eb4dd717dca63e57aa8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SkeletonResult"><param name="Local" value="class_j_p_h_1_1_skeleton.html#af9728dba3673be3456b06d39ed52c343"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#afa1d9f01d4988f1692431260bfd93808"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#ad23bed92af668d45d654f850063f27a1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateParentJointIndices"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a28a773d66602829a495cdc908f168a99"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#ab5a94a5cb1ed20ad7ccdeaa8834c3dea"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a6256c8a66fd987f134d0ac4d612b7ea7"><param name="ImageNumber" value="11"></OBJECT>
@@ -7430,6 +7434,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CanCollide"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#a8686912b962aee7fdccf3cad75d25d9f"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="DisableCollision"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#ad4232d268a08a73871e21c04e4b53b3e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="EnableCollision"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#ab38a9cadb01b7a690d6d8c902d1d4110"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionEnabled"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#aec173a6188bb73b863b41764b3c1e376"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreBinaryState"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#a6d04ddbd5ee5218a16efad0f985202fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#afec28e3af99cbac912053cee66190fe1"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -8792,6 +8797,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateBodyIndexToConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ac67c1c0ba18861694ddad980436c0f9c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateConstraintIndexToBodyIdxPair"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ab61b765db39247e438630c6db0cc0928"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateRagdoll"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ab229b35ea80c1b599b1aec71e636e60c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DisableParentChildCollisions"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a5f652eb64cb32ec51c6adca5806d01c3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyIndexToConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a36862ba1539650ebed8a5478d694b9e1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyIndicesForConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a337827c13f30657816e3d7347406486e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintIndexForBodyIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a101a5ab963e4cd2a494854ef2ed0861a"><param name="ImageNumber" value="11"></OBJECT>
@@ -9299,6 +9305,8 @@
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="JointVector"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a9fd12a47fb647eb4dd717dca63e57aa8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="SkeletonResult"><param name="Local" value="class_j_p_h_1_1_skeleton.html#af9728dba3673be3456b06d39ed52c343"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#afa1d9f01d4988f1692431260bfd93808"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#ad23bed92af668d45d654f850063f27a1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateParentJointIndices"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a28a773d66602829a495cdc908f168a99"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#ab5a94a5cb1ed20ad7ccdeaa8834c3dea"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="GetJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a6256c8a66fd987f134d0ac4d612b7ea7"><param name="ImageNumber" value="11"></OBJECT>
@@ -16338,6 +16346,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CanCollide"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#a8686912b962aee7fdccf3cad75d25d9f"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DisableCollision"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#ad4232d268a08a73871e21c04e4b53b3e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="EnableCollision"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#ab38a9cadb01b7a690d6d8c902d1d4110"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IsCollisionEnabled"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#aec173a6188bb73b863b41764b3c1e376"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="RestoreBinaryState"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#a6d04ddbd5ee5218a16efad0f985202fe"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="SaveBinaryState"><param name="Local" value="class_j_p_h_1_1_group_filter_table.html#afec28e3af99cbac912053cee66190fe1"><param name="ImageNumber" value="11"></OBJECT>
               </UL>
@@ -17344,6 +17353,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateBodyIndexToConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ac67c1c0ba18861694ddad980436c0f9c"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateConstraintIndexToBodyIdxPair"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ab61b765db39247e438630c6db0cc0928"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateRagdoll"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#ab229b35ea80c1b599b1aec71e636e60c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="DisableParentChildCollisions"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a5f652eb64cb32ec51c6adca5806d01c3"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyIndexToConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a36862ba1539650ebed8a5478d694b9e1"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetBodyIndicesForConstraintIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a337827c13f30657816e3d7347406486e"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetConstraintIndexForBodyIndex"><param name="Local" value="class_j_p_h_1_1_ragdoll_settings.html#a101a5ab963e4cd2a494854ef2ed0861a"><param name="ImageNumber" value="11"></OBJECT>
@@ -18465,6 +18475,8 @@
               </UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="JointVector"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a9fd12a47fb647eb4dd717dca63e57aa8"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SkeletonResult"><param name="Local" value="class_j_p_h_1_1_skeleton.html#af9728dba3673be3456b06d39ed52c343"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="AddJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#afa1d9f01d4988f1692431260bfd93808"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="AddJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#ad23bed92af668d45d654f850063f27a1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="CalculateParentJointIndices"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a28a773d66602829a495cdc908f168a99"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#ab5a94a5cb1ed20ad7ccdeaa8834c3dea"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="GetJoint"><param name="Local" value="class_j_p_h_1_1_skeleton.html#a6256c8a66fd987f134d0ac4d612b7ea7"><param name="ImageNumber" value="11"></OBJECT>
