@@ -102,8 +102,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05cbb4afcb0c70cafea4782582d4487d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a05cbb4afcb0c70cafea4782582d4487d">CanBeKinematicOrDynamic</a> () const</td></tr>
 <tr class="memdesc:a05cbb4afcb0c70cafea4782582d4487d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a body could be made kinematic or dynamic (if it was created dynamic or with mAllowDynamicOrKinematic set to true)  <a href="class_j_p_h_1_1_body.html#a05cbb4afcb0c70cafea4782582d4487d">More...</a><br /></td></tr>
 <tr class="separator:a05cbb4afcb0c70cafea4782582d4487d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f743191924ab0b9baf50db6047a432"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#a12f743191924ab0b9baf50db6047a432">SetIsSensor</a> (bool inIsSensor)</td></tr>
+<tr class="separator:a12f743191924ab0b9baf50db6047a432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6117a81cfe1434111a86ee58dd3750a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#aa6117a81cfe1434111a86ee58dd3750a">IsSensor</a> () const</td></tr>
-<tr class="memdesc:aa6117a81cfe1434111a86ee58dd3750a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body is a sensor. A sensor will receive collision callbacks, but will not cause any collision responses and can be used as a trigger volume.  <a href="class_j_p_h_1_1_body.html#aa6117a81cfe1434111a86ee58dd3750a">More...</a><br /></td></tr>
+<tr class="memdesc:aa6117a81cfe1434111a86ee58dd3750a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body is a sensor.  <a href="class_j_p_h_1_1_body.html#aa6117a81cfe1434111a86ee58dd3750a">More...</a><br /></td></tr>
 <tr class="separator:aa6117a81cfe1434111a86ee58dd3750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef8376b2d69c808092c20b96fd2f9580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_j_p_h.html#a157eb85d18ed953a6d127b17c9761ee5">EMotionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#aef8376b2d69c808092c20b96fd2f9580">GetMotionType</a> () const</td></tr>
 <tr class="memdesc:aef8376b2d69c808092c20b96fd2f9580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Motion type of this body.  <a href="class_j_p_h_1_1_body.html#aef8376b2d69c808092c20b96fd2f9580">More...</a><br /></td></tr>
@@ -1769,7 +1771,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check if this body is a sensor. A sensor will receive collision callbacks, but will not cause any collision responses and can be used as a trigger volume. </p>
+<p>Check if this body is a sensor. </p>
 
 </div>
 </div>
@@ -2027,6 +2029,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Flag if body is in the broadphase (should only be called by the <a class="el" href="class_j_p_h_1_1_broad_phase.html" title="Used to do coarse collision detection operations to quickly prune out bodies that will not collide.">BroadPhase</a>) </p>
+
+</div>
+</div>
+<a id="a12f743191924ab0b9baf50db6047a432" name="a12f743191924ab0b9baf50db6047a432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f743191924ab0b9baf50db6047a432">&#9670;&nbsp;</a></span>SetIsSensor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JPH::Body::SetIsSensor </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inIsSensor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Change the body to a sensor or to a regular static body. A sensor will receive collision callbacks, but will not cause any collision responses and can be used as a trigger volume. Note that Sensors need to be of motion type Static (they can be moved around using <a class="el" href="class_j_p_h_1_1_body_interface.html#a5eee8ed91a03d7c1c3ab1d24f1ab13c1">BodyInterface::SetPosition</a>/SetPositionAndRotation). </p>
 
 </div>
 </div>
