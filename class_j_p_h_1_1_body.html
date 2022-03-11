@@ -165,8 +165,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a48d608ea5071a12680ffef4aeff4d0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity of point inPoint (in world space, e.g. on the surface of the body) of the body (unit: m/s)  <a href="class_j_p_h_1_1_body.html#a48d608ea5071a12680ffef4aeff4d0d2">More...</a><br /></td></tr>
 <tr class="separator:a48d608ea5071a12680ffef4aeff4d0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf7b667b72330ad769846ccc841b3366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#abf7b667b72330ad769846ccc841b3366">AddForce</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inForce)</td></tr>
-<tr class="memdesc:abf7b667b72330ad769846ccc841b3366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add force (unit: N) for the next time step, will be reset after the next call to PhysicsSimulation::Update.  <a href="class_j_p_h_1_1_body.html#abf7b667b72330ad769846ccc841b3366">More...</a><br /></td></tr>
+<tr class="memdesc:abf7b667b72330ad769846ccc841b3366"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add force (unit: N) at center of mass for the next time step, will be reset after the next call to PhysicsSimulation::Update.  <a href="class_j_p_h_1_1_body.html#abf7b667b72330ad769846ccc841b3366">More...</a><br /></td></tr>
 <tr class="separator:abf7b667b72330ad769846ccc841b3366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d5f3b467be9f6101701af663d16a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#aa1d5f3b467be9f6101701af663d16a24">AddForce</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inForce, <a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inPosition)</td></tr>
+<tr class="memdesc:aa1d5f3b467be9f6101701af663d16a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add force (unit: N) at inPosition for the next time step, will be reset after the next call to PhysicsSimulation::Update.  <a href="class_j_p_h_1_1_body.html#aa1d5f3b467be9f6101701af663d16a24">More...</a><br /></td></tr>
+<tr class="separator:aa1d5f3b467be9f6101701af663d16a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f1bcc8801e9c6703d1af877c4e1d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_body.html#ae7f1bcc8801e9c6703d1af877c4e1d3f">AddTorque</a> (<a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a> inTorque)</td></tr>
 <tr class="memdesc:ae7f1bcc8801e9c6703d1af877c4e1d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add torque (unit: N m) for the next time step, will be reset after the next call to PhysicsSimulation::Update.  <a href="class_j_p_h_1_1_body.html#ae7f1bcc8801e9c6703d1af877c4e1d3f">More...</a><br /></td></tr>
 <tr class="separator:ae7f1bcc8801e9c6703d1af877c4e1d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -432,7 +435,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a id="abf7b667b72330ad769846ccc841b3366" name="abf7b667b72330ad769846ccc841b3366"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf7b667b72330ad769846ccc841b3366">&#9670;&nbsp;</a></span>AddForce()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf7b667b72330ad769846ccc841b3366">&#9670;&nbsp;</a></span>AddForce() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,7 +458,45 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add force (unit: N) for the next time step, will be reset after the next call to PhysicsSimulation::Update. </p>
+<p>Add force (unit: N) at center of mass for the next time step, will be reset after the next call to PhysicsSimulation::Update. </p>
+
+</div>
+</div>
+<a id="aa1d5f3b467be9f6101701af663d16a24" name="aa1d5f3b467be9f6101701af663d16a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d5f3b467be9f6101701af663d16a24">&#9670;&nbsp;</a></span>AddForce() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JPH::Body::AddForce </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inForce</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_j_p_h.html#a0b295e20795f9fa0dfbe4ef459f11311">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add force (unit: N) at inPosition for the next time step, will be reset after the next call to PhysicsSimulation::Update. </p>
 
 </div>
 </div>
