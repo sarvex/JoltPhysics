@@ -119,6 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afaa7e6e556a78f5a016ace4953f19ec9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#afaa7e6e556a78f5a016ace4953f19ec9">GetInverseMass</a> () const</td></tr>
 <tr class="memdesc:afaa7e6e556a78f5a016ace4953f19ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inverse mass (1 / mass). Should only be called on a dynamic object (static or kinematic bodies have infinite mass so should be treated as 1 / mass = 0)  <a href="class_j_p_h_1_1_motion_properties.html#afaa7e6e556a78f5a016ace4953f19ec9">More...</a><br /></td></tr>
 <tr class="separator:afaa7e6e556a78f5a016ace4953f19ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268c30a5ad1dbe729f2191a0be9c6cb4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#a268c30a5ad1dbe729f2191a0be9c6cb4">GetInverseMassUnchecked</a> () const</td></tr>
+<tr class="separator:a268c30a5ad1dbe729f2191a0be9c6cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af562bcc59417fadce4706c979ec0b000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#af562bcc59417fadce4706c979ec0b000">SetInverseMass</a> (float inInverseMass)</td></tr>
 <tr class="separator:af562bcc59417fadce4706c979ec0b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17e3390ac62765da56cf6b53b92c24f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#ab17e3390ac62765da56cf6b53b92c24f">GetInverseInertiaDiagonal</a> () const</td></tr>
@@ -133,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba4383c4f202814d47f796f92132115c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#aba4383c4f202814d47f796f92132115c">GetLocalSpaceInverseInertia</a> () const</td></tr>
 <tr class="memdesc:aba4383c4f202814d47f796f92132115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inverse inertia matrix ( \(I_{body}^{-1}\)). Will be a matrix of zeros for a static or kinematic object.  <a href="class_j_p_h_1_1_motion_properties.html#aba4383c4f202814d47f796f92132115c">More...</a><br /></td></tr>
 <tr class="separator:aba4383c4f202814d47f796f92132115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8380412f25dfac8a94216a733cd1b9af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#a8380412f25dfac8a94216a733cd1b9af">GetLocalSpaceInverseInertiaUnchecked</a> () const</td></tr>
+<tr class="memdesc:a8380412f25dfac8a94216a733cd1b9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="class_j_p_h_1_1_motion_properties.html#aba4383c4f202814d47f796f92132115c" title="Get inverse inertia matrix ( ). Will be a matrix of zeros for a static or kinematic object.">GetLocalSpaceInverseInertia()</a> but doesn't check if the body is dynamic.  <a href="class_j_p_h_1_1_motion_properties.html#a8380412f25dfac8a94216a733cd1b9af">More...</a><br /></td></tr>
+<tr class="separator:a8380412f25dfac8a94216a733cd1b9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b7dac06d239ccfc5f5e4e886e34d38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_j_p_h_1_1_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_p_h_1_1_motion_properties.html#a65b7dac06d239ccfc5f5e4e886e34d38">GetInverseInertiaForRotation</a> (<a class="el" href="namespace_j_p_h.html#ae85f8da8374893b61a0e4288b77aec1b">Mat44Arg</a> inRotation) const</td></tr>
 <tr class="memdesc:a65b7dac06d239ccfc5f5e4e886e34d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inverse inertia matrix ( \(I^{-1}\)) for a given object rotation (translation will be ignored). Zero if object is static or kinematic.  <a href="class_j_p_h_1_1_motion_properties.html#a65b7dac06d239ccfc5f5e4e886e34d38">More...</a><br /></td></tr>
 <tr class="separator:a65b7dac06d239ccfc5f5e4e886e34d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -561,6 +566,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a268c30a5ad1dbe729f2191a0be9c6cb4" name="a268c30a5ad1dbe729f2191a0be9c6cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268c30a5ad1dbe729f2191a0be9c6cb4">&#9670;&nbsp;</a></span>GetInverseMassUnchecked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float JPH::MotionProperties::GetInverseMassUnchecked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a09c07e6a44b5e39059a8f1534cb07308" name="a09c07e6a44b5e39059a8f1534cb07308"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09c07e6a44b5e39059a8f1534cb07308">&#9670;&nbsp;</a></span>GetIslandIndexInternal()</h2>
 
@@ -666,6 +696,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get inverse inertia matrix ( \(I_{body}^{-1}\)). Will be a matrix of zeros for a static or kinematic object. </p>
+
+</div>
+</div>
+<a id="a8380412f25dfac8a94216a733cd1b9af" name="a8380412f25dfac8a94216a733cd1b9af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8380412f25dfac8a94216a733cd1b9af">&#9670;&nbsp;</a></span>GetLocalSpaceInverseInertiaUnchecked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_j_p_h_1_1_mat44.html">Mat44</a> JPH::MotionProperties::GetLocalSpaceInverseInertiaUnchecked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="class_j_p_h_1_1_motion_properties.html#aba4383c4f202814d47f796f92132115c" title="Get inverse inertia matrix ( ). Will be a matrix of zeros for a static or kinematic object.">GetLocalSpaceInverseInertia()</a> but doesn't check if the body is dynamic. </p>
 
 </div>
 </div>
