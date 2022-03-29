@@ -142,6 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4b76f55d8fcbb5bb8c170069d03c1f79"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a4b76f55d8fcbb5bb8c170069d03c1f79">GetMaterial</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID) const</td></tr>
 <tr class="memdesc:a4b76f55d8fcbb5bb8c170069d03c1f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the material for a particular sub shape.  <a href="class_body_interface.html#a4b76f55d8fcbb5bb8c170069d03c1f79">More...</a><br /></td></tr>
 <tr class="separator:a4b76f55d8fcbb5bb8c170069d03c1f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af554a69ffbdfb5290c03cc9562ed21e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#af554a69ffbdfb5290c03cc9562ed21e5">InvalidateContactCache</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
+<tr class="memdesc:af554a69ffbdfb5290c03cc9562ed21e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Body::EFlags::InvalidateContactCache flag for the specified body. This means that the collision cache is invalid for any body pair involving that body until the next physics step.  <a href="class_body_interface.html#af554a69ffbdfb5290c03cc9562ed21e5">More...</a><br /></td></tr>
+<tr class="separator:af554a69ffbdfb5290c03cc9562ed21e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Batch adding interface, see Broadphase for further documentation.</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p >Note that ioBodies array must be kept constant while the add is in progress. </p>
 </div></td></tr>
@@ -1340,6 +1343,26 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af554a69ffbdfb5290c03cc9562ed21e5" name="af554a69ffbdfb5290c03cc9562ed21e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af554a69ffbdfb5290c03cc9562ed21e5">&#9670;&nbsp;</a></span>InvalidateContactCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyInterface::InvalidateContactCache </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Body::EFlags::InvalidateContactCache flag for the specified body. This means that the collision cache is invalid for any body pair involving that body until the next physics step. </p>
 
 </div>
 </div>

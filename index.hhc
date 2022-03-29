@@ -465,6 +465,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTransformedShape"><param name="Local" value="class_body_interface.html#ae468b34e460759f4cf4e76486e404ee4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetUserData"><param name="Local" value="class_body_interface.html#a34942329fd9b3230e938f4418302138c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_body_interface.html#aa5441f4c343d16199c7045989125b1e6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateContactCache"><param name="Local" value="class_body_interface.html#af554a69ffbdfb5290c03cc9562ed21e5"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_body_interface.html#a762f492665332fe71e31d0e37d4355c7"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="IsAdded"><param name="Local" value="class_body_interface.html#a1a67ebf158316c8ce40768aab624680b"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="MoveKinematic"><param name="Local" value="class_body_interface.html#a06926986e2181b7e439101fee846c34e"><param name="ImageNumber" value="11"></OBJECT>
@@ -8554,6 +8555,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetTransformedShape"><param name="Local" value="class_body_interface.html#ae468b34e460759f4cf4e76486e404ee4"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetUserData"><param name="Local" value="class_body_interface.html#a34942329fd9b3230e938f4418302138c"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="GetWorldTransform"><param name="Local" value="class_body_interface.html#aa5441f4c343d16199c7045989125b1e6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="InvalidateContactCache"><param name="Local" value="class_body_interface.html#af554a69ffbdfb5290c03cc9562ed21e5"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsActive"><param name="Local" value="class_body_interface.html#a762f492665332fe71e31d0e37d4355c7"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="IsAdded"><param name="Local" value="class_body_interface.html#a1a67ebf158316c8ce40768aab624680b"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="MoveKinematic"><param name="Local" value="class_body_interface.html#a06926986e2181b7e439101fee846c34e"><param name="ImageNumber" value="11"></OBJECT>
