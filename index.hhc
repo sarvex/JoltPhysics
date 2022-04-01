@@ -443,6 +443,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="AddTorque"><param name="Local" value="class_body_interface.html#a1eaab07990cc15ff9120e75767cf3386"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateAndAddBody"><param name="Local" value="class_body_interface.html#a1484650a796607c688529fe600dc9e9f"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBody"><param name="Local" value="class_body_interface.html#ad1baf0b6645e34cc5db1df73de724bf7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBodies"><param name="Local" value="class_body_interface.html#a0dea3b8edb237b9dd29fb05da84a1331"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBody"><param name="Local" value="class_body_interface.html#a62255f9678f727b3838fc7f25d3c47e0"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBodies"><param name="Local" value="class_body_interface.html#a95b819fbbcd8a85c25cbce1a319a9037"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBody"><param name="Local" value="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a"><param name="ImageNumber" value="11"></OBJECT>
@@ -8533,6 +8534,7 @@
               <LI><OBJECT type="text/sitemap"><param name="Name" value="AddTorque"><param name="Local" value="class_body_interface.html#a1eaab07990cc15ff9120e75767cf3386"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateAndAddBody"><param name="Local" value="class_body_interface.html#a1484650a796607c688529fe600dc9e9f"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="CreateBody"><param name="Local" value="class_body_interface.html#ad1baf0b6645e34cc5db1df73de724bf7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBodies"><param name="Local" value="class_body_interface.html#a0dea3b8edb237b9dd29fb05da84a1331"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DeactivateBody"><param name="Local" value="class_body_interface.html#a62255f9678f727b3838fc7f25d3c47e0"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBodies"><param name="Local" value="class_body_interface.html#a95b819fbbcd8a85c25cbce1a319a9037"><param name="ImageNumber" value="11"></OBJECT>
               <LI><OBJECT type="text/sitemap"><param name="Name" value="DestroyBody"><param name="Local" value="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a"><param name="ImageNumber" value="11"></OBJECT>
