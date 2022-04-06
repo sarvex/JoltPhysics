@@ -89,6 +89,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae68d25802b5bbe3e86cb3cb71698b78b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#ae68d25802b5bbe3e86cb3cb71698b78b">MustBeStatic</a> () const override</td></tr>
 <tr class="memdesc:ae68d25802b5bbe3e86cb3cb71698b78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this shape can only be used to create a static body or if it can also be dynamic/kinematic.  <a href="class_decorated_shape.html#ae68d25802b5bbe3e86cb3cb71698b78b">More...</a><br /></td></tr>
 <tr class="separator:ae68d25802b5bbe3e86cb3cb71698b78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17a9fb29ce78eafc01cc8140d754dd6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">GetCenterOfMass</a> () const override</td></tr>
+<tr class="memdesc:aa17a9fb29ce78eafc01cc8140d754dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">All shapes are centered around their center of mass. This function returns the center of mass position that needs to be applied to transform the shape to where it was created.  <a href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">More...</a><br /></td></tr>
+<tr class="separator:aa17a9fb29ce78eafc01cc8140d754dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0369b0f4e52b29f3625022bfd98a6924"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#a0369b0f4e52b29f3625022bfd98a6924">GetSubShapeIDBitsRecursive</a> () const override</td></tr>
 <tr class="memdesc:a0369b0f4e52b29f3625022bfd98a6924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max number of sub shape ID bits that are needed to be able to address any leaf shape in this shape. Used mainly for checking that it is smaller or equal than <a class="el" href="class_sub_shape_i_d.html#a74d6785fe41b99c0d783fb6e66c39f4d" title="How many bits we can store in this ID.">SubShapeID::MaxBits</a>.  <a href="class_decorated_shape.html#a0369b0f4e52b29f3625022bfd98a6924">More...</a><br /></td></tr>
 <tr class="separator:a0369b0f4e52b29f3625022bfd98a6924"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,6 +374,37 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa17a9fb29ce78eafc01cc8140d754dd6" name="aa17a9fb29ce78eafc01cc8140d754dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17a9fb29ce78eafc01cc8140d754dd6">&#9670;&nbsp;</a></span>GetCenterOfMass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_vec3.html">Vec3</a> DecoratedShape::GetCenterOfMass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All shapes are centered around their center of mass. This function returns the center of mass position that needs to be applied to transform the shape to where it was created. </p>
+
+<p>Reimplemented from <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a">Shape</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_offset_center_of_mass_shape.html#a9479ac77a9f53c5664f85b7a93135d95">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a7d7b6b0edc6dd89125cab13d77eb3585">RotatedTranslatedShape</a>, and <a class="el" href="class_scaled_shape.html#af9e8b8bdbc341d1b0f0caa497505d0f7">ScaledShape</a>.</p>
+
+</div>
+</div>
 <a id="a23b4182bc69407c3c9f6e33419a8cbed" name="a23b4182bc69407c3c9f6e33419a8cbed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23b4182bc69407c3c9f6e33419a8cbed">&#9670;&nbsp;</a></span>GetInnerShape()</h2>
 

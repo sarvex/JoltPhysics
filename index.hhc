@@ -1728,6 +1728,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="DecoratedShape"><param name="Local" value="class_decorated_shape.html#ae746ea75877f5ab69290e95bd83e8452"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="DecoratedShape"><param name="Local" value="class_decorated_shape.html#abacdd80b00fe8afc00c50db7eac53a28"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="DecoratedShape"><param name="Local" value="class_decorated_shape.html#a1c95daf857b7433b85e88da194e53147"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMass"><param name="Local" value="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInnerShape"><param name="Local" value="class_decorated_shape.html#a23b4182bc69407c3c9f6e33419a8cbed"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterial"><param name="Local" value="class_decorated_shape.html#a14df32d1573050287d989ce5171a1a86"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetStatsRecursive"><param name="Local" value="class_decorated_shape.html#a24a5fc486a279b6afaf2cada33f28272"><param name="ImageNumber" value="11"></OBJECT>
@@ -9819,6 +9820,7 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="DecoratedShape"><param name="Local" value="class_decorated_shape.html#ae746ea75877f5ab69290e95bd83e8452"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="DecoratedShape"><param name="Local" value="class_decorated_shape.html#abacdd80b00fe8afc00c50db7eac53a28"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="DecoratedShape"><param name="Local" value="class_decorated_shape.html#a1c95daf857b7433b85e88da194e53147"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="GetCenterOfMass"><param name="Local" value="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetInnerShape"><param name="Local" value="class_decorated_shape.html#a23b4182bc69407c3c9f6e33419a8cbed"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterial"><param name="Local" value="class_decorated_shape.html#a14df32d1573050287d989ce5171a1a86"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetStatsRecursive"><param name="Local" value="class_decorated_shape.html#a24a5fc486a279b6afaf2cada33f28272"><param name="ImageNumber" value="11"></OBJECT>

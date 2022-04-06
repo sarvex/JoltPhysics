@@ -140,6 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae68d25802b5bbe3e86cb3cb71698b78b inherit pub_methods_class_decorated_shape"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#ae68d25802b5bbe3e86cb3cb71698b78b">MustBeStatic</a> () const override</td></tr>
 <tr class="memdesc:ae68d25802b5bbe3e86cb3cb71698b78b inherit pub_methods_class_decorated_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this shape can only be used to create a static body or if it can also be dynamic/kinematic.  <a href="class_decorated_shape.html#ae68d25802b5bbe3e86cb3cb71698b78b">More...</a><br /></td></tr>
 <tr class="separator:ae68d25802b5bbe3e86cb3cb71698b78b inherit pub_methods_class_decorated_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17a9fb29ce78eafc01cc8140d754dd6 inherit pub_methods_class_decorated_shape"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">GetCenterOfMass</a> () const override</td></tr>
+<tr class="memdesc:aa17a9fb29ce78eafc01cc8140d754dd6 inherit pub_methods_class_decorated_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">All shapes are centered around their center of mass. This function returns the center of mass position that needs to be applied to transform the shape to where it was created.  <a href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">More...</a><br /></td></tr>
+<tr class="separator:aa17a9fb29ce78eafc01cc8140d754dd6 inherit pub_methods_class_decorated_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0369b0f4e52b29f3625022bfd98a6924 inherit pub_methods_class_decorated_shape"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#a0369b0f4e52b29f3625022bfd98a6924">GetSubShapeIDBitsRecursive</a> () const override</td></tr>
 <tr class="memdesc:a0369b0f4e52b29f3625022bfd98a6924 inherit pub_methods_class_decorated_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max number of sub shape ID bits that are needed to be able to address any leaf shape in this shape. Used mainly for checking that it is smaller or equal than <a class="el" href="class_sub_shape_i_d.html#a74d6785fe41b99c0d783fb6e66c39f4d" title="How many bits we can store in this ID.">SubShapeID::MaxBits</a>.  <a href="class_decorated_shape.html#a0369b0f4e52b29f3625022bfd98a6924">More...</a><br /></td></tr>
 <tr class="separator:a0369b0f4e52b29f3625022bfd98a6924 inherit pub_methods_class_decorated_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,7 +616,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>All shapes are centered around their center of mass. This function returns the center of mass position that needs to be applied to transform the shape to where it was created. </p>
 
-<p>Reimplemented from <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a">Shape</a>.</p>
+<p>Reimplemented from <a class="el" href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">DecoratedShape</a>.</p>
 
 </div>
 </div>
