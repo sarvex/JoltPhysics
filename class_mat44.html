@@ -205,6 +205,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a983f2d2f5f00970a86ab52dedc17a67e"><td class="memItemLeft" align="right" valign="top">JPH_INLINE const <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mat44.html#a983f2d2f5f00970a86ab52dedc17a67e">GetDirectionPreservingMatrix</a> () const</td></tr>
 <tr class="memdesc:a983f2d2f5f00970a86ab52dedc17a67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get matrix that transforms a direction with the same transform as this matrix (length is not preserved)  <a href="class_mat44.html#a983f2d2f5f00970a86ab52dedc17a67e">More...</a><br /></td></tr>
 <tr class="separator:a983f2d2f5f00970a86ab52dedc17a67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f19b423139db52503bb8d6526d947f"><td class="memItemLeft" align="right" valign="top">JPH_INLINE <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mat44.html#a16f19b423139db52503bb8d6526d947f">PreTranslated</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inTranslation) const</td></tr>
+<tr class="memdesc:a16f19b423139db52503bb8d6526d947f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre multiply by translation matrix: result = this * Mat44::sTranslation(inTranslation)  <a href="class_mat44.html#a16f19b423139db52503bb8d6526d947f">More...</a><br /></td></tr>
+<tr class="separator:a16f19b423139db52503bb8d6526d947f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b90363d2e120bd570c4200e29f5ba6"><td class="memItemLeft" align="right" valign="top">JPH_INLINE <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mat44.html#a16b90363d2e120bd570c4200e29f5ba6">PostTranslated</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inTranslation) const</td></tr>
+<tr class="memdesc:a16b90363d2e120bd570c4200e29f5ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post multiply by translation matrix: result = Mat44::sTranslation(inTranslation) * this (i.e. add inTranslation to the 4-th column)  <a href="class_mat44.html#a16b90363d2e120bd570c4200e29f5ba6">More...</a><br /></td></tr>
+<tr class="separator:a16b90363d2e120bd570c4200e29f5ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9c9948eced621a54424f05c397824dd"><td class="memItemLeft" align="right" valign="top">JPH_INLINE <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mat44.html#af9c9948eced621a54424f05c397824dd">PreScaled</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale) const</td></tr>
 <tr class="memdesc:af9c9948eced621a54424f05c397824dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale a matrix: result = this * Mat44::sScale(inScale)  <a href="class_mat44.html#af9c9948eced621a54424f05c397824dd">More...</a><br /></td></tr>
 <tr class="separator:af9c9948eced621a54424f05c397824dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1282,6 +1288,26 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a16b90363d2e120bd570c4200e29f5ba6" name="a16b90363d2e120bd570c4200e29f5ba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b90363d2e120bd570c4200e29f5ba6">&#9670;&nbsp;</a></span>PostTranslated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mat44.html">Mat44</a> Mat44::PostTranslated </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inTranslation</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Post multiply by translation matrix: result = Mat44::sTranslation(inTranslation) * this (i.e. add inTranslation to the 4-th column) </p>
+
+</div>
+</div>
 <a id="af9c9948eced621a54424f05c397824dd" name="af9c9948eced621a54424f05c397824dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9c9948eced621a54424f05c397824dd">&#9670;&nbsp;</a></span>PreScaled()</h2>
 
@@ -1299,6 +1325,26 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Scale a matrix: result = this * Mat44::sScale(inScale) </p>
+
+</div>
+</div>
+<a id="a16f19b423139db52503bb8d6526d947f" name="a16f19b423139db52503bb8d6526d947f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f19b423139db52503bb8d6526d947f">&#9670;&nbsp;</a></span>PreTranslated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mat44.html">Mat44</a> Mat44::PreTranslated </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inTranslation</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pre multiply by translation matrix: result = this * Mat44::sTranslation(inTranslation) </p>
 
 </div>
 </div>

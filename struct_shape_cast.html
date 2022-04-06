@@ -50,6 +50,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="struct_shape_cast-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ShapeCast Struct Reference</div></div>
@@ -73,6 +74,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae13ff73985515cec719d0f9bf440ff8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform this shape cast using inTransform. Multiply transform on the left left hand side.  <a href="struct_shape_cast.html#ae13ff73985515cec719d0f9bf440ff8d">More...</a><br /></td></tr>
 <tr class="separator:ae13ff73985515cec719d0f9bf440ff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a272417b7737310e7b368467b2d7dffd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_shape_cast.html">ShapeCast</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_shape_cast.html#a272417b7737310e7b368467b2d7dffd9">sFromWorldTransform</a> (const <a class="el" href="class_shape.html">Shape</a> *inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, <a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inWorldTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDirection)</td></tr>
+<tr class="memdesc:a272417b7737310e7b368467b2d7dffd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a shape cast using a world transform for a shape instead of a center of mass transform.  <a href="struct_shape_cast.html#a272417b7737310e7b368467b2d7dffd9">More...</a><br /></td></tr>
+<tr class="separator:a272417b7737310e7b368467b2d7dffd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5723635ca8709eb1af56b13d6ffccdc0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_shape.html">Shape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_shape_cast.html#a5723635ca8709eb1af56b13d6ffccdc0">mShape</a></td></tr>
@@ -82,7 +89,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a3f560fb219100beed4d35874522edf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale in local space of the shape being cast.  <a href="struct_shape_cast.html#a3f560fb219100beed4d35874522edf4b">More...</a><br /></td></tr>
 <tr class="separator:a3f560fb219100beed4d35874522edf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4529f5d7794da642d080fb9aa43f10fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_shape_cast.html#a4529f5d7794da642d080fb9aa43f10fd">mCenterOfMassStart</a></td></tr>
-<tr class="memdesc:a4529f5d7794da642d080fb9aa43f10fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start position and orientation of the center of mass of the shape (i.e. mCenterOfMassStart = Start * <a class="el" href="class_mat44.html#a8cc7184902ce670d0822a28a8906df52" title="Get matrix that translates.">Mat44::sTranslation</a>(mShape-&gt;GetCenterOfMass()) if you want to cast the shape in the space it was created)  <a href="struct_shape_cast.html#a4529f5d7794da642d080fb9aa43f10fd">More...</a><br /></td></tr>
+<tr class="memdesc:a4529f5d7794da642d080fb9aa43f10fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start position and orientation of the center of mass of the shape (construct using sFromWorldTransform if you have a world transform for your shape)  <a href="struct_shape_cast.html#a4529f5d7794da642d080fb9aa43f10fd">More...</a><br /></td></tr>
 <tr class="separator:a4529f5d7794da642d080fb9aa43f10fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b60ca8c32b47498172b2fd607a542f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_shape_cast.html#a6b60ca8c32b47498172b2fd607a542f1">mDirection</a></td></tr>
 <tr class="memdesc:a6b60ca8c32b47498172b2fd607a542f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction and length of the cast (anything beyond this length will not be reported as a hit)  <a href="struct_shape_cast.html#a6b60ca8c32b47498172b2fd607a542f1">More...</a><br /></td></tr>
@@ -229,6 +236,56 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a272417b7737310e7b368467b2d7dffd9" name="a272417b7737310e7b368467b2d7dffd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a272417b7737310e7b368467b2d7dffd9">&#9670;&nbsp;</a></span>sFromWorldTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_shape_cast.html">ShapeCast</a> ShapeCast::sFromWorldTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_shape.html">Shape</a> *&#160;</td>
+          <td class="paramname"><em>inShape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inScale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inWorldTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDirection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a shape cast using a world transform for a shape instead of a center of mass transform. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4529f5d7794da642d080fb9aa43f10fd" name="a4529f5d7794da642d080fb9aa43f10fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4529f5d7794da642d080fb9aa43f10fd">&#9670;&nbsp;</a></span>mCenterOfMassStart</h2>
@@ -242,7 +299,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Start position and orientation of the center of mass of the shape (i.e. mCenterOfMassStart = Start * <a class="el" href="class_mat44.html#a8cc7184902ce670d0822a28a8906df52" title="Get matrix that translates.">Mat44::sTranslation</a>(mShape-&gt;GetCenterOfMass()) if you want to cast the shape in the space it was created) </p>
+<p>Start position and orientation of the center of mass of the shape (construct using sFromWorldTransform if you have a world transform for your shape) </p>
 
 </div>
 </div>

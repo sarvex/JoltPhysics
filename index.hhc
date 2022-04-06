@@ -2363,7 +2363,9 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="operator-"><param name="Local" value="class_mat44.html#acb281c6516de9bfd045aa029f95ba0d0"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="operator=="><param name="Local" value="class_mat44.html#a3be30e0ae2ded68ebb5ceea9afbfe5c1"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PostScaled"><param name="Local" value="class_mat44.html#a6503ccd1384b6681d191c327961fbb6d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PostTranslated"><param name="Local" value="class_mat44.html#a16b90363d2e120bd570c4200e29f5ba6"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PreScaled"><param name="Local" value="class_mat44.html#af9c9948eced621a54424f05c397824dd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PreTranslated"><param name="Local" value="class_mat44.html#a16f19b423139db52503bb8d6526d947f"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SetAxisX"><param name="Local" value="class_mat44.html#a04aad46839683a6d3d82a400c3bbe576"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SetAxisY"><param name="Local" value="class_mat44.html#ada218e0e59422cb1b0b38a534b7379b8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="SetAxisZ"><param name="Local" value="class_mat44.html#a469e83f0fb0c2975b4506c682721c3e3"><param name="ImageNumber" value="11"></OBJECT>
@@ -7525,7 +7527,9 @@
             <LI><OBJECT type="text/sitemap"><param name="Name" value="operator-"><param name="Local" value="class_mat44.html#acb281c6516de9bfd045aa029f95ba0d0"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="operator=="><param name="Local" value="class_mat44.html#a3be30e0ae2ded68ebb5ceea9afbfe5c1"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="PostScaled"><param name="Local" value="class_mat44.html#a6503ccd1384b6681d191c327961fbb6d"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="PostTranslated"><param name="Local" value="class_mat44.html#a16b90363d2e120bd570c4200e29f5ba6"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="PreScaled"><param name="Local" value="class_mat44.html#af9c9948eced621a54424f05c397824dd"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="PreTranslated"><param name="Local" value="class_mat44.html#a16f19b423139db52503bb8d6526d947f"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SetAxisX"><param name="Local" value="class_mat44.html#a04aad46839683a6d3d82a400c3bbe576"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SetAxisY"><param name="Local" value="class_mat44.html#ada218e0e59422cb1b0b38a534b7379b8"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SetAxisZ"><param name="Local" value="class_mat44.html#a469e83f0fb0c2975b4506c682721c3e3"><param name="ImageNumber" value="11"></OBJECT>
