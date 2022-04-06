@@ -102,6 +102,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a78ab194a4c2f30c0e0f22160ba06fd37"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_shape.html#a78ab194a4c2f30c0e0f22160ba06fd37">GetMaterial</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID) const override</td></tr>
 <tr class="memdesc:a78ab194a4c2f30c0e0f22160ba06fd37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the material assigned to a particular sub shape ID.  <a href="class_mesh_shape.html#a78ab194a4c2f30c0e0f22160ba06fd37">More...</a><br /></td></tr>
 <tr class="separator:a78ab194a4c2f30c0e0f22160ba06fd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc932809f3332fac2caafb8cb9ff6daf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_physics_material_8h.html#a1b83937cfd0227fefa6aa764d6a6216d">PhysicsMaterialList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_shape.html#abc932809f3332fac2caafb8cb9ff6daf">GetMaterialList</a> () const</td></tr>
+<tr class="memdesc:abc932809f3332fac2caafb8cb9ff6daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of all materials.  <a href="class_mesh_shape.html#abc932809f3332fac2caafb8cb9ff6daf">More...</a><br /></td></tr>
+<tr class="separator:abc932809f3332fac2caafb8cb9ff6daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe7babd3e7126cb8cb089b7a33d3410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_shape.html#affe7babd3e7126cb8cb089b7a33d3410">GetMaterialIndex</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID) const</td></tr>
+<tr class="separator:affe7babd3e7126cb8cb089b7a33d3410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9c34de931c5c15d19cfc7ac200583a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_shape.html#aad9c34de931c5c15d19cfc7ac200583a">GetSurfaceNormal</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inLocalSurfacePosition) const override</td></tr>
 <tr class="separator:aad9c34de931c5c15d19cfc7ac200583a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70a6a50967decae2c6bbb3b435857893"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_shape.html#a70a6a50967decae2c6bbb3b435857893">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="class_ray_cast_result.html">RayCastResult</a> &amp;ioHit) const override</td></tr>
@@ -613,6 +618,52 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the material assigned to a particular sub shape ID. </p>
 
 <p>Implements <a class="el" href="class_shape.html#a7f92a050d292158b83ef016eb5d3f168">Shape</a>.</p>
+
+</div>
+</div>
+<a id="affe7babd3e7126cb8cb089b7a33d3410" name="affe7babd3e7126cb8cb089b7a33d3410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe7babd3e7126cb8cb089b7a33d3410">&#9670;&nbsp;</a></span>GetMaterialIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> MeshShape::GetMaterialIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSubShapeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Determine which material index a particular sub shape uses (note that if there are no materials this function will return 0 so check the array size) Note: This could for example be used to create a decorator shape around a mesh shape that overrides the GetMaterial call to replace a material with another material. </p>
+
+</div>
+</div>
+<a id="abc932809f3332fac2caafb8cb9ff6daf" name="abc932809f3332fac2caafb8cb9ff6daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc932809f3332fac2caafb8cb9ff6daf">&#9670;&nbsp;</a></span>GetMaterialList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="_physics_material_8h.html#a1b83937cfd0227fefa6aa764d6a6216d">PhysicsMaterialList</a> &amp; MeshShape::GetMaterialList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the list of all materials. </p>
 
 </div>
 </div>

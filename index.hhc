@@ -2443,6 +2443,8 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLocalBounds"><param name="Local" value="class_mesh_shape.html#a81ce8f3c413f4a72f2a5a5fb00fcc256"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMassProperties"><param name="Local" value="class_mesh_shape.html#aeb665b7fb7702d516f965441b421f997"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterial"><param name="Local" value="class_mesh_shape.html#a78ab194a4c2f30c0e0f22160ba06fd37"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterialIndex"><param name="Local" value="class_mesh_shape.html#affe7babd3e7126cb8cb089b7a33d3410"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterialList"><param name="Local" value="class_mesh_shape.html#abc932809f3332fac2caafb8cb9ff6daf"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetStats"><param name="Local" value="class_mesh_shape.html#a9996003623615ba708c420e90e86349e"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetSubmergedVolume"><param name="Local" value="class_mesh_shape.html#a85c6f6e31010590603ffbf4b98dc11ca"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="GetSubShapeIDBitsRecursive"><param name="Local" value="class_mesh_shape.html#a7e26f8abf395dc62026f5c4789e3c378"><param name="ImageNumber" value="11"></OBJECT>
@@ -10023,6 +10025,8 @@
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetLocalBounds"><param name="Local" value="class_mesh_shape.html#a81ce8f3c413f4a72f2a5a5fb00fcc256"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMassProperties"><param name="Local" value="class_mesh_shape.html#aeb665b7fb7702d516f965441b421f997"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterial"><param name="Local" value="class_mesh_shape.html#a78ab194a4c2f30c0e0f22160ba06fd37"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterialIndex"><param name="Local" value="class_mesh_shape.html#affe7babd3e7126cb8cb089b7a33d3410"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="GetMaterialList"><param name="Local" value="class_mesh_shape.html#abc932809f3332fac2caafb8cb9ff6daf"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetStats"><param name="Local" value="class_mesh_shape.html#a9996003623615ba708c420e90e86349e"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetSubmergedVolume"><param name="Local" value="class_mesh_shape.html#a85c6f6e31010590603ffbf4b98dc11ca"><param name="ImageNumber" value="11"></OBJECT>
                 <LI><OBJECT type="text/sitemap"><param name="Name" value="GetSubShapeIDBitsRecursive"><param name="Local" value="class_mesh_shape.html#a7e26f8abf395dc62026f5c4789e3c378"><param name="ImageNumber" value="11"></OBJECT>
