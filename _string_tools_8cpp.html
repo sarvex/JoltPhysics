@@ -66,18 +66,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ab7af668641560a430a1bf46446dc9a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">JPH_SUPPRESS_WARNINGS_STD_BEGIN</a> <a class="el" href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a> <a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#ab7af668641560a430a1bf46446dc9a4d">StringFormat</a> (const char *inFMT,...)</td></tr>
 <tr class="memdesc:ab7af668641560a430a1bf46446dc9a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a formatted text string.  <a href="_string_tools_8cpp.html#ab7af668641560a430a1bf46446dc9a4d">More...</a><br /></td></tr>
 <tr class="separator:ab7af668641560a430a1bf46446dc9a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac79cfd29a69f18964dd54393ae98a8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#aac79cfd29a69f18964dd54393ae98a8a">StringReplace</a> (string &amp;ioString, string inSearch, string inReplace)</td></tr>
-<tr class="memdesc:aac79cfd29a69f18964dd54393ae98a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace substring with other string.  <a href="_string_tools_8cpp.html#aac79cfd29a69f18964dd54393ae98a8a">More...</a><br /></td></tr>
-<tr class="separator:aac79cfd29a69f18964dd54393ae98a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1149bd0b7a0f9e774219fbd356f6b995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#a1149bd0b7a0f9e774219fbd356f6b995">StringToVector</a> (const string &amp;inString, vector&lt; string &gt; &amp;outVector, const string &amp;inDelimiter, bool inClearVector)</td></tr>
-<tr class="memdesc:a1149bd0b7a0f9e774219fbd356f6b995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a delimited string to an array of strings.  <a href="_string_tools_8cpp.html#a1149bd0b7a0f9e774219fbd356f6b995">More...</a><br /></td></tr>
-<tr class="separator:a1149bd0b7a0f9e774219fbd356f6b995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8189461544e6fc6541e6af735090be91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#a8189461544e6fc6541e6af735090be91">VectorToString</a> (const vector&lt; string &gt; &amp;inVector, string &amp;outString, const string &amp;inDelimiter)</td></tr>
-<tr class="memdesc:a8189461544e6fc6541e6af735090be91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an array strings to a delimited string.  <a href="_string_tools_8cpp.html#a8189461544e6fc6541e6af735090be91">More...</a><br /></td></tr>
-<tr class="separator:a8189461544e6fc6541e6af735090be91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15926f67e8c158f1fb640debccb9337b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#a15926f67e8c158f1fb640debccb9337b">ToLower</a> (const string &amp;inString)</td></tr>
-<tr class="memdesc:a15926f67e8c158f1fb640debccb9337b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to lower case.  <a href="_string_tools_8cpp.html#a15926f67e8c158f1fb640debccb9337b">More...</a><br /></td></tr>
-<tr class="separator:a15926f67e8c158f1fb640debccb9337b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca76833794de79415ae1f7abec18149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#afca76833794de79415ae1f7abec18149">StringReplace</a> (string &amp;ioString, const string_view &amp;inSearch, const string_view &amp;inReplace)</td></tr>
+<tr class="memdesc:afca76833794de79415ae1f7abec18149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace substring with other string.  <a href="_string_tools_8cpp.html#afca76833794de79415ae1f7abec18149">More...</a><br /></td></tr>
+<tr class="separator:afca76833794de79415ae1f7abec18149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47029327677ef47dacf814d436605dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#a47029327677ef47dacf814d436605dc5">StringToVector</a> (const string &amp;inString, vector&lt; string &gt; &amp;outVector, const string_view &amp;inDelimiter, bool inClearVector)</td></tr>
+<tr class="memdesc:a47029327677ef47dacf814d436605dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a delimited string to an array of strings.  <a href="_string_tools_8cpp.html#a47029327677ef47dacf814d436605dc5">More...</a><br /></td></tr>
+<tr class="separator:a47029327677ef47dacf814d436605dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fd4eddde0907c681eaf34bef33f0b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#ab5fd4eddde0907c681eaf34bef33f0b8">VectorToString</a> (const vector&lt; string &gt; &amp;inVector, string &amp;outString, const string_view &amp;inDelimiter)</td></tr>
+<tr class="memdesc:ab5fd4eddde0907c681eaf34bef33f0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an array strings to a delimited string.  <a href="_string_tools_8cpp.html#ab5fd4eddde0907c681eaf34bef33f0b8">More...</a><br /></td></tr>
+<tr class="separator:ab5fd4eddde0907c681eaf34bef33f0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6369813c534bd8c705104341c08cd821"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#a6369813c534bd8c705104341c08cd821">ToLower</a> (const string_view &amp;inString)</td></tr>
+<tr class="memdesc:a6369813c534bd8c705104341c08cd821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to lower case.  <a href="_string_tools_8cpp.html#a6369813c534bd8c705104341c08cd821">More...</a><br /></td></tr>
+<tr class="separator:a6369813c534bd8c705104341c08cd821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a479eac2df35b47887f8dbfa014f6923d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#a479eac2df35b47887f8dbfa014f6923d">NibbleToBinary</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNibble)</td></tr>
 <tr class="memdesc:a479eac2df35b47887f8dbfa014f6923d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the lower 4 bits of inNibble to a string that represents the number in binary format.  <a href="_string_tools_8cpp.html#a479eac2df35b47887f8dbfa014f6923d">More...</a><br /></td></tr>
 <tr class="separator:a479eac2df35b47887f8dbfa014f6923d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,8 +133,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aac79cfd29a69f18964dd54393ae98a8a" name="aac79cfd29a69f18964dd54393ae98a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac79cfd29a69f18964dd54393ae98a8a">&#9670;&nbsp;</a></span>StringReplace()</h2>
+<a id="afca76833794de79415ae1f7abec18149" name="afca76833794de79415ae1f7abec18149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca76833794de79415ae1f7abec18149">&#9670;&nbsp;</a></span>StringReplace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,13 +148,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string&#160;</td>
+          <td class="paramtype">const string_view &amp;&#160;</td>
           <td class="paramname"><em>inSearch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string&#160;</td>
+          <td class="paramtype">const string_view &amp;&#160;</td>
           <td class="paramname"><em>inReplace</em>&#160;</td>
         </tr>
         <tr>
@@ -169,8 +169,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1149bd0b7a0f9e774219fbd356f6b995" name="a1149bd0b7a0f9e774219fbd356f6b995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1149bd0b7a0f9e774219fbd356f6b995">&#9670;&nbsp;</a></span>StringToVector()</h2>
+<a id="a47029327677ef47dacf814d436605dc5" name="a47029327677ef47dacf814d436605dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47029327677ef47dacf814d436605dc5">&#9670;&nbsp;</a></span>StringToVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +190,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramtype">const string_view &amp;&#160;</td>
           <td class="paramname"><em>inDelimiter</em>, </td>
         </tr>
         <tr>
@@ -211,8 +211,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a15926f67e8c158f1fb640debccb9337b" name="a15926f67e8c158f1fb640debccb9337b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15926f67e8c158f1fb640debccb9337b">&#9670;&nbsp;</a></span>ToLower()</h2>
+<a id="a6369813c534bd8c705104341c08cd821" name="a6369813c534bd8c705104341c08cd821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6369813c534bd8c705104341c08cd821">&#9670;&nbsp;</a></span>ToLower()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +220,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">string ToLower </td>
           <td>(</td>
-          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramtype">const string_view &amp;&#160;</td>
           <td class="paramname"><em>inString</em></td><td>)</td>
           <td></td>
         </tr>
@@ -231,8 +231,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8189461544e6fc6541e6af735090be91" name="a8189461544e6fc6541e6af735090be91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8189461544e6fc6541e6af735090be91">&#9670;&nbsp;</a></span>VectorToString()</h2>
+<a id="ab5fd4eddde0907c681eaf34bef33f0b8" name="ab5fd4eddde0907c681eaf34bef33f0b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5fd4eddde0907c681eaf34bef33f0b8">&#9670;&nbsp;</a></span>VectorToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,7 +252,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramtype">const string_view &amp;&#160;</td>
           <td class="paramname"><em>inDelimiter</em>&#160;</td>
         </tr>
         <tr>
