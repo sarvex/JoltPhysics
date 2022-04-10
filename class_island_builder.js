@@ -5,7 +5,7 @@ var class_island_builder =
     [ "GetBodiesInIsland", "class_island_builder.html#ace0201e247b5fcb9639bba23b385e718", null ],
     [ "GetConstraintsInIsland", "class_island_builder.html#abb0ec0d343289ee4294fa3abbde16a82", null ],
     [ "GetContactsInIsland", "class_island_builder.html#a39454ff17c3dc0d7b133c79ac2d0d7e0", null ],
-    [ "GetNumIslands", "class_island_builder.html#ab81c8aa8394c4a2b04df9e19a3055141", null ],
+    [ "GetNumIslands", "class_island_builder.html#a6f0d6d67425a9d02cf561a06784431f4", null ],
     [ "Init", "class_island_builder.html#a060b323839a30c3096ec581b4684290d", null ],
     [ "LinkBodies", "class_island_builder.html#ad3c6e43cef523989bab88ed8cc11575f", null ],
     [ "LinkConstraint", "class_island_builder.html#a323b5204fe8c9fdb7a15791469780259", null ],

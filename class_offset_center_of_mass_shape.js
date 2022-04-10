@@ -10,7 +10,7 @@ var class_offset_center_of_mass_shape =
     [ "GetInnerRadius", "class_offset_center_of_mass_shape.html#a032a8fc143be25c8194a28c3a491c702", null ],
     [ "GetLocalBounds", "class_offset_center_of_mass_shape.html#a68d4124fd359bd6f37718080371617f0", null ],
     [ "GetMassProperties", "class_offset_center_of_mass_shape.html#ac1699a722db6d84580b59a3058af572c", null ],
-    [ "GetOffset", "class_offset_center_of_mass_shape.html#aa97a382c0e70461e54b2402baa591eb7", null ],
+    [ "GetOffset", "class_offset_center_of_mass_shape.html#a39dd403b80dac228ece27bae9f03cf90", null ],
     [ "GetStats", "class_offset_center_of_mass_shape.html#a656e5b4eee8f07b32ef59fb20858771b", null ],
     [ "GetSubmergedVolume", "class_offset_center_of_mass_shape.html#ab191184f5054ff81800253d59049e5a5", null ],
     [ "GetSubShapeTransformedShape", "class_offset_center_of_mass_shape.html#adcef4fa526642a2cdd565352f278c9f5", null ],

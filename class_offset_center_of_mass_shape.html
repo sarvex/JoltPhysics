@@ -110,9 +110,10 @@ Inheritance diagram for OffsetCenterOfMassShape:</div>
  <div class="center">
   <img src="class_offset_center_of_mass_shape.png" usemap="#OffsetCenterOfMassShape_map" alt=""/>
   <map id="OffsetCenterOfMassShape_map" name="OffsetCenterOfMassShape_map">
-<area href="class_decorated_shape.html" title="Base class for shapes that decorate another shape with extra functionality (e.g. scale,..." alt="DecoratedShape" shape="rect" coords="0,112,164,136"/>
-<area href="class_shape.html" title="Base class for all shapes (collision volume of a body). Defines a virtual interface for collision det..." alt="Shape" shape="rect" coords="0,56,164,80"/>
+<area href="class_decorated_shape.html" title="Base class for shapes that decorate another shape with extra functionality (e.g. scale,..." alt="DecoratedShape" shape="rect" coords="87,112,251,136"/>
+<area href="class_shape.html" title="Base class for all shapes (collision volume of a body). Defines a virtual interface for collision det..." alt="Shape" shape="rect" coords="87,56,251,80"/>
 <area href="class_ref_target.html" alt="RefTarget&lt; Shape &gt;" shape="rect" coords="0,0,164,24"/>
+<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="174,0,338,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -123,9 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad8d092e39b5a6af1b33bd2c26261de11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e82168a95eb463f51e2c109b789c22b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a8e82168a95eb463f51e2c109b789c22b">OffsetCenterOfMassShape</a> (const <a class="el" href="class_offset_center_of_mass_shape_settings.html">OffsetCenterOfMassShapeSettings</a> &amp;inSettings, <a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a> &amp;outResult)</td></tr>
 <tr class="separator:a8e82168a95eb463f51e2c109b789c22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa97a382c0e70461e54b2402baa591eb7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#aa97a382c0e70461e54b2402baa591eb7">GetOffset</a> () const</td></tr>
-<tr class="memdesc:aa97a382c0e70461e54b2402baa591eb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the offset that is applied to the center of mass.  <a href="class_offset_center_of_mass_shape.html#aa97a382c0e70461e54b2402baa591eb7">More...</a><br /></td></tr>
-<tr class="separator:aa97a382c0e70461e54b2402baa591eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39dd403b80dac228ece27bae9f03cf90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a39dd403b80dac228ece27bae9f03cf90">GetOffset</a> () const</td></tr>
+<tr class="memdesc:a39dd403b80dac228ece27bae9f03cf90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the offset that is applied to the center of mass.  <a href="class_offset_center_of_mass_shape.html#a39dd403b80dac228ece27bae9f03cf90">More...</a><br /></td></tr>
+<tr class="separator:a39dd403b80dac228ece27bae9f03cf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9479ac77a9f53c5664f85b7a93135d95"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a9479ac77a9f53c5664f85b7a93135d95">GetCenterOfMass</a> () const override</td></tr>
 <tr class="memdesc:a9479ac77a9f53c5664f85b7a93135d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">All shapes are centered around their center of mass. This function returns the center of mass position that needs to be applied to transform the shape to where it was created.  <a href="class_offset_center_of_mass_shape.html#a9479ac77a9f53c5664f85b7a93135d95">More...</a><br /></td></tr>
 <tr class="separator:a9479ac77a9f53c5664f85b7a93135d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,9 +291,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a29511616de01507e714e8187686bc9f1 inherit pub_methods_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save this shape, all its children and its materials. Pass in an empty map in ioShapeMap / ioMaterialMap or reuse the same map while saving multiple shapes to the same stream in order to avoid writing duplicates.  <a href="class_shape.html#a29511616de01507e714e8187686bc9f1">More...</a><br /></td></tr>
 <tr class="separator:a29511616de01507e714e8187686bc9f1 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ref_target"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ref_target')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ref_target.html">RefTarget&lt; Shape &gt;</a></td></tr>
-<tr class="memitem:a6cca58a2d3333c12eacfffd0f2b8bac9 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a6cca58a2d3333c12eacfffd0f2b8bac9">RefTarget</a> ()</td></tr>
-<tr class="memdesc:a6cca58a2d3333c12eacfffd0f2b8bac9 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_ref_target.html#a6cca58a2d3333c12eacfffd0f2b8bac9">More...</a><br /></td></tr>
-<tr class="separator:a6cca58a2d3333c12eacfffd0f2b8bac9 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17">RefTarget</a> ()=default</td></tr>
+<tr class="memdesc:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17">More...</a><br /></td></tr>
+<tr class="separator:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50444e3b659c6f93c64aee224a93f6ab inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a50444e3b659c6f93c64aee224a93f6ab">RefTarget</a> (const <a class="el" href="class_ref_target.html">RefTarget</a> &amp;)</td></tr>
 <tr class="separator:a50444e3b659c6f93c64aee224a93f6ab inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3110b9f511287f881d7afaf26871e1b inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#ac3110b9f511287f881d7afaf26871e1b">~RefTarget</a> ()</td></tr>
@@ -300,9 +301,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3110b9f511287f881d7afaf26871e1b inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95564da01497c62572a6718dad400097 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a95564da01497c62572a6718dad400097">SetEmbedded</a> ()</td></tr>
 <tr class="separator:a95564da01497c62572a6718dad400097 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabdb226a703f122e18be508a345fe312 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_target.html">RefTarget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#aabdb226a703f122e18be508a345fe312">operator=</a> (const <a class="el" href="class_ref_target.html">RefTarget</a> &amp;inRHS)</td></tr>
-<tr class="memdesc:aabdb226a703f122e18be508a345fe312 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="class_ref_target.html#aabdb226a703f122e18be508a345fe312">More...</a><br /></td></tr>
-<tr class="separator:aabdb226a703f122e18be508a345fe312 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc15bfe979bc43a7fa71c7c34f87ed0 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_target.html">RefTarget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0">operator=</a> (const <a class="el" href="class_ref_target.html">RefTarget</a> &amp;)</td></tr>
+<tr class="memdesc:a1fc15bfe979bc43a7fa71c7c34f87ed0 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0">More...</a><br /></td></tr>
+<tr class="separator:a1fc15bfe979bc43a7fa71c7c34f87ed0 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaf07366183c51cd8460c7d3dcd07c2d inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#acaf07366183c51cd8460c7d3dcd07c2d">GetRefCount</a> () const</td></tr>
 <tr class="memdesc:acaf07366183c51cd8460c7d3dcd07c2d inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current refcount of this object.  <a href="class_ref_target.html#acaf07366183c51cd8460c7d3dcd07c2d">More...</a><br /></td></tr>
 <tr class="separator:acaf07366183c51cd8460c7d3dcd07c2d inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,6 +315,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0b5e98a214b523944d1fcd9d47a5475 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#ac0b5e98a214b523944d1fcd9d47a5475">SetRefCountInternal</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inRefCount)</td></tr>
 <tr class="memdesc:ac0b5e98a214b523944d1fcd9d47a5475 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">INTERNAL HELPER FUNCTION TO OVERRIDE THE REFCOUNT OF AN OBJECT. USE WITH GREAT CARE!  <a href="class_ref_target.html#ac0b5e98a214b523944d1fcd9d47a5475">More...</a><br /></td></tr>
 <tr class="separator:ac0b5e98a214b523944d1fcd9d47a5475 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_non_copyable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_non_copyable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_non_copyable.html">NonCopyable</a></td></tr>
+<tr class="memitem:a809b6e4ade7ae32f6d248f2a3b783d45 inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#a809b6e4ade7ae32f6d248f2a3b783d45">NonCopyable</a> ()=default</td></tr>
+<tr class="separator:a809b6e4ade7ae32f6d248f2a3b783d45 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#a501d34ffcc34b30de6d541887a901057">NonCopyable</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
+<tr class="separator:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#aaf9b12dcaae80c9d304df7a941d4e21f">operator=</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
+<tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -749,8 +757,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa97a382c0e70461e54b2402baa591eb7" name="aa97a382c0e70461e54b2402baa591eb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa97a382c0e70461e54b2402baa591eb7">&#9670;&nbsp;</a></span>GetOffset()</h2>
+<a id="a39dd403b80dac228ece27bae9f03cf90" name="a39dd403b80dac228ece27bae9f03cf90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39dd403b80dac228ece27bae9f03cf90">&#9670;&nbsp;</a></span>GetOffset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -759,7 +767,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_vec3.html">Vec3</a> OffsetCenterOfMassShape::GetOffset </td>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> OffsetCenterOfMassShape::GetOffset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

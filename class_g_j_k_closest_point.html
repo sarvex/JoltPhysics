@@ -117,8 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb7cfdd49d708007d75b4c2e9b90ebb9"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B &gt; </td></tr>
 <tr class="memitem:abb7cfdd49d708007d75b4c2e9b90ebb9"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_g_j_k_closest_point.html#abb7cfdd49d708007d75b4c2e9b90ebb9">GetClosestPoints</a> (const A &amp;inA, const B &amp;inB, float inTolerance, float inMaxDistSq, <a class="el" href="class_vec3.html">Vec3</a> &amp;ioV, <a class="el" href="class_vec3.html">Vec3</a> &amp;outPointA, <a class="el" href="class_vec3.html">Vec3</a> &amp;outPointB)</td></tr>
 <tr class="separator:abb7cfdd49d708007d75b4c2e9b90ebb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44070413b1022ff3c20febf1eb2029d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_j_k_closest_point.html#a44070413b1022ff3c20febf1eb2029d9">GetClosestPointsSimplex</a> (<a class="el" href="class_vec3.html">Vec3</a> *outY, <a class="el" href="class_vec3.html">Vec3</a> *outP, <a class="el" href="class_vec3.html">Vec3</a> *outQ, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> &amp;outNumPoints)</td></tr>
-<tr class="separator:a44070413b1022ff3c20febf1eb2029d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d6f276fb275026a0126ca7361fb2bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_j_k_closest_point.html#a73d6f276fb275026a0126ca7361fb2bf">GetClosestPointsSimplex</a> (<a class="el" href="class_vec3.html">Vec3</a> *outY, <a class="el" href="class_vec3.html">Vec3</a> *outP, <a class="el" href="class_vec3.html">Vec3</a> *outQ, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> &amp;outNumPoints) const</td></tr>
+<tr class="separator:a73d6f276fb275026a0126ca7361fb2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade3cde48252b6f77f749f9ac29685ec7"><td class="memTemplParams" colspan="2">template&lt;typename A &gt; </td></tr>
 <tr class="memitem:ade3cde48252b6f77f749f9ac29685ec7"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_g_j_k_closest_point.html#ade3cde48252b6f77f749f9ac29685ec7">CastRay</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inRayOrigin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inRayDirection, float inTolerance, const A &amp;inA, float &amp;ioLambda)</td></tr>
 <tr class="separator:ade3cde48252b6f77f749f9ac29685ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -474,8 +474,8 @@ template&lt;typename A , typename B &gt; </div>
 
 </div>
 </div>
-<a id="a44070413b1022ff3c20febf1eb2029d9" name="a44070413b1022ff3c20febf1eb2029d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44070413b1022ff3c20febf1eb2029d9">&#9670;&nbsp;</a></span>GetClosestPointsSimplex()</h2>
+<a id="a73d6f276fb275026a0126ca7361fb2bf" name="a73d6f276fb275026a0126ca7361fb2bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d6f276fb275026a0126ca7361fb2bf">&#9670;&nbsp;</a></span>GetClosestPointsSimplex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,7 +510,7 @@ template&lt;typename A , typename B &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>

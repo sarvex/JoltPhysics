@@ -108,7 +108,8 @@ Inheritance diagram for TempAllocatorImpl:</div>
  <div class="center">
   <img src="class_temp_allocator_impl.png" usemap="#TempAllocatorImpl_map" alt=""/>
   <map id="TempAllocatorImpl_map" name="TempAllocatorImpl_map">
-<area href="class_temp_allocator.html" alt="TempAllocator" shape="rect" coords="0,0,115,24"/>
+<area href="class_temp_allocator.html" alt="TempAllocator" shape="rect" coords="0,56,115,80"/>
+<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="0,0,115,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -136,6 +137,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d9399cbf93c253a7f03d8ffea249bfe inherit pub_methods_class_temp_allocator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_temp_allocator.html#a1d9399cbf93c253a7f03d8ffea249bfe">Free</a> (void *inAddress, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inSize)=0</td></tr>
 <tr class="memdesc:a1d9399cbf93c253a7f03d8ffea249bfe inherit pub_methods_class_temp_allocator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees inSize bytes of memory located at inAddress.  <a href="class_temp_allocator.html#a1d9399cbf93c253a7f03d8ffea249bfe">More...</a><br /></td></tr>
 <tr class="separator:a1d9399cbf93c253a7f03d8ffea249bfe inherit pub_methods_class_temp_allocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_non_copyable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_non_copyable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_non_copyable.html">NonCopyable</a></td></tr>
+<tr class="memitem:a809b6e4ade7ae32f6d248f2a3b783d45 inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#a809b6e4ade7ae32f6d248f2a3b783d45">NonCopyable</a> ()=default</td></tr>
+<tr class="separator:a809b6e4ade7ae32f6d248f2a3b783d45 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#a501d34ffcc34b30de6d541887a901057">NonCopyable</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
+<tr class="separator:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#aaf9b12dcaae80c9d304df7a941d4e21f">operator=</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
+<tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Default implementation of the temp allocator that allocates a large block through malloc upfront. </p>

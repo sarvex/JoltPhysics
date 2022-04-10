@@ -17,7 +17,7 @@ var searchData=
   ['hashstring_14',['HashString',['../_string_tools_8h.html#aa8f608a4239b6a863e405b05f5318fe6',1,'StringTools.h']]],
   ['haslimits_15',['HasLimits',['../class_hinge_constraint.html#af1934023ab6d537ecc04cb605c6fada3',1,'HingeConstraint::HasLimits()'],['../class_slider_constraint.html#a7b5b4709994b7a7f4133e0e7d129d3c5',1,'SliderConstraint::HasLimits()']]],
   ['hasmassproperties_16',['HasMassProperties',['../class_body_creation_settings.html#a9386fbbcc940bfb89b8442f342748e32',1,'BodyCreationSettings']]],
-  ['hasnexttriangle_17',['HasNextTriangle',['../class_e_p_a_convex_hull_builder.html#a91e002c2d738ef1e07bc212f26c6f00c',1,'EPAConvexHullBuilder']]],
+  ['hasnexttriangle_17',['HasNextTriangle',['../class_e_p_a_convex_hull_builder.html#a233403c7274da823fb6b96b539dc5f95',1,'EPAConvexHullBuilder']]],
   ['header_18',['Header',['../struct_node_codec_quad_tree_half_float_1_1_header.html',1,'NodeCodecQuadTreeHalfFloat']]],
   ['headersize_19',['HeaderSize',['../class_node_codec_quad_tree_half_float.html#a1baa2067968afa2567f2e6081926f80b',1,'NodeCodecQuadTreeHalfFloat::HeaderSize()'],['../class_a_a_b_b_tree_to_buffer.html#a950a3efaf390fd647e012bc2179e79ac',1,'AABBTreeToBuffer::HeaderSize()']]],
   ['heightfield_20',['HeightField',['../_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba9a7e8772035f8412fc62cd830d0ba944',1,'HeightField():&#160;Shape.h'],['../_shape_8h.html#ad64a1c665070a3100e456e54073554a5a9a7e8772035f8412fc62cd830d0ba944',1,'HeightField():&#160;Shape.h']]],

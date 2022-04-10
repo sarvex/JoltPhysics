@@ -69,7 +69,7 @@ var searchData=
   ['reference_66',['reference',['../class_s_t_l_temp_allocator.html#a3f90b804920b11315e04932909db7b76',1,'STLTempAllocator::reference()'],['../class_s_t_l_aligned_allocator.html#a56b7aed0a19cfcdb3265edd1b2f128c9',1,'STLAlignedAllocator::reference()']]],
   ['reference_2eh_67',['Reference.h',['../_reference_8h.html',1,'']]],
   ['refreshcontacts_68',['RefreshContacts',['../class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc',1,'CharacterVirtual']]],
-  ['reftarget_69',['RefTarget',['../class_ref_target.html#a6cca58a2d3333c12eacfffd0f2b8bac9',1,'RefTarget::RefTarget()'],['../class_ref_target.html#a50444e3b659c6f93c64aee224a93f6ab',1,'RefTarget::RefTarget(const RefTarget &amp;)'],['../class_ref_target.html',1,'RefTarget&lt; T &gt;']]],
+  ['reftarget_69',['RefTarget',['../class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17',1,'RefTarget::RefTarget()=default'],['../class_ref_target.html#a50444e3b659c6f93c64aee224a93f6ab',1,'RefTarget::RefTarget(const RefTarget &amp;)'],['../class_ref_target.html',1,'RefTarget&lt; T &gt;']]],
   ['reftarget_3c_20characterbase_20_3e_70',['RefTarget&lt; CharacterBase &gt;',['../class_ref_target.html',1,'']]],
   ['reftarget_3c_20characterbasesettings_20_3e_71',['RefTarget&lt; CharacterBaseSettings &gt;',['../class_ref_target.html',1,'']]],
   ['reftarget_3c_20constraint_20_3e_72',['RefTarget&lt; Constraint &gt;',['../class_ref_target.html',1,'']]],

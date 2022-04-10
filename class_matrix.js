@@ -14,7 +14,7 @@ var class_matrix =
     [ "operator()", "class_matrix.html#a67cd0d0e04d64a43b570bba1ac87110f", null ],
     [ "operator()", "class_matrix.html#aa2c6fb4dd5793351db17038cb563a56e", null ],
     [ "operator*", "class_matrix.html#afd8729a9684ca684a16e95dac59b9499", null ],
-    [ "operator*", "class_matrix.html#a3e4b1758ad8985a95b7430d433c30a84", null ],
+    [ "operator*", "class_matrix.html#a08c8beaf4e7332332cf1ca3e08a4e736", null ],
     [ "operator*", "class_matrix.html#a9daf57728f2ba01747ef258a12aec758", null ],
     [ "operator+", "class_matrix.html#ab11023ceac2685bb1d103620c348cdd2", null ],
     [ "operator-", "class_matrix.html#a863621d29437a8ef7c38b3e214ca1f9c", null ],

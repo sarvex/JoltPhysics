@@ -18,13 +18,6 @@ var hierarchy =
       [ "RagdollSettings::Part", "class_ragdoll_settings_1_1_part.html", null ]
     ] ],
     [ "BodyID", "class_body_i_d.html", null ],
-    [ "BodyLockMultiBase< Write, BodyType >", "class_body_lock_multi_base.html", null ],
-    [ "BodyLockMultiBase< false, const Body >", "class_body_lock_multi_base.html", [
-      [ "BodyLockMultiRead", "class_body_lock_multi_read.html", null ]
-    ] ],
-    [ "BodyLockMultiBase< true, Body >", "class_body_lock_multi_base.html", [
-      [ "BodyLockMultiWrite", "class_body_lock_multi_write.html", null ]
-    ] ],
     [ "BodyPair", "struct_body_pair.html", null ],
     [ "PhysicsUpdateContext::BodyPairQueue", "struct_physics_update_context_1_1_body_pair_queue.html", null ],
     [ "BodyManager::BodyStats", "struct_body_manager_1_1_body_stats.html", null ],
@@ -140,6 +133,12 @@ var hierarchy =
       [ "BodyLockBase< true, Body >", "class_body_lock_base.html", [
         [ "BodyLockWrite", "class_body_lock_write.html", null ]
       ] ],
+      [ "BodyLockMultiBase< false, const Body >", "class_body_lock_multi_base.html", [
+        [ "BodyLockMultiRead", "class_body_lock_multi_read.html", null ]
+      ] ],
+      [ "BodyLockMultiBase< true, Body >", "class_body_lock_multi_base.html", [
+        [ "BodyLockMultiWrite", "class_body_lock_multi_write.html", null ]
+      ] ],
       [ "FixedSizeFreeList< Node >", "class_fixed_size_free_list.html", null ],
       [ "FixedSizeFreeList< Job >", "class_fixed_size_free_list.html", null ],
       [ "LockFreeHashMap< SubShapeIDPair, CachedManifold >", "class_lock_free_hash_map.html", null ],
@@ -159,6 +158,7 @@ var hierarchy =
         [ "BodyLockInterfaceLocking", "class_body_lock_interface_locking.html", null ],
         [ "BodyLockInterfaceNoLock", "class_body_lock_interface_no_lock.html", null ]
       ] ],
+      [ "BodyLockMultiBase< Write, BodyType >", "class_body_lock_multi_base.html", null ],
       [ "BodyManager", "class_body_manager.html", null ],
       [ "BroadPhaseLayerFilter", "class_broad_phase_layer_filter.html", [
         [ "DefaultBroadPhaseLayerFilter", "class_default_broad_phase_layer_filter.html", null ],
@@ -175,21 +175,21 @@ var hierarchy =
         [ "Character", "class_character.html", null ],
         [ "CharacterVirtual", "class_character_virtual.html", null ]
       ] ],
-      [ "ConstraintManager", "class_constraint_manager.html", null ],
-      [ "ConstraintSettings", "class_constraint_settings.html", [
-        [ "TwoBodyConstraintSettings", "class_two_body_constraint_settings.html", [
-          [ "ConeConstraintSettings", "class_cone_constraint_settings.html", null ],
-          [ "DistanceConstraintSettings", "class_distance_constraint_settings.html", null ],
-          [ "FixedConstraintSettings", "class_fixed_constraint_settings.html", null ],
-          [ "HingeConstraintSettings", "class_hinge_constraint_settings.html", null ],
-          [ "PathConstraintSettings", "class_path_constraint_settings.html", null ],
-          [ "PointConstraintSettings", "class_point_constraint_settings.html", null ],
-          [ "SixDOFConstraintSettings", "class_six_d_o_f_constraint_settings.html", null ],
-          [ "SliderConstraintSettings", "class_slider_constraint_settings.html", null ],
-          [ "SwingTwistConstraintSettings", "class_swing_twist_constraint_settings.html", null ]
+      [ "Constraint", "class_constraint.html", [
+        [ "TwoBodyConstraint", "class_two_body_constraint.html", [
+          [ "ConeConstraint", "class_cone_constraint.html", null ],
+          [ "DistanceConstraint", "class_distance_constraint.html", null ],
+          [ "FixedConstraint", "class_fixed_constraint.html", null ],
+          [ "HingeConstraint", "class_hinge_constraint.html", null ],
+          [ "PathConstraint", "class_path_constraint.html", null ],
+          [ "PointConstraint", "class_point_constraint.html", null ],
+          [ "SixDOFConstraint", "class_six_d_o_f_constraint.html", null ],
+          [ "SliderConstraint", "class_slider_constraint.html", null ],
+          [ "SwingTwistConstraint", "class_swing_twist_constraint.html", null ]
         ] ],
-        [ "VehicleConstraintSettings", "class_vehicle_constraint_settings.html", null ]
+        [ "VehicleConstraint", "class_vehicle_constraint.html", null ]
       ] ],
+      [ "ConstraintManager", "class_constraint_manager.html", null ],
       [ "ContactConstraintManager", "class_contact_constraint_manager.html", null ],
       [ "ConvexHullBuilder", "class_convex_hull_builder.html", null ],
       [ "ConvexHullBuilder2D", "class_convex_hull_builder2_d.html", null ],
@@ -223,7 +223,36 @@ var hierarchy =
       [ "ProfileThread", "class_profile_thread.html", null ],
       [ "Profiler", "class_profiler.html", null ],
       [ "QuadTree", "class_quad_tree.html", null ],
+      [ "Ragdoll", "class_ragdoll.html", null ],
+      [ "Shape", "class_shape.html", [
+        [ "CompoundShape", "class_compound_shape.html", [
+          [ "MutableCompoundShape", "class_mutable_compound_shape.html", null ],
+          [ "StaticCompoundShape", "class_static_compound_shape.html", null ]
+        ] ],
+        [ "ConvexShape", "class_convex_shape.html", [
+          [ "BoxShape", "class_box_shape.html", null ],
+          [ "CapsuleShape", "class_capsule_shape.html", null ],
+          [ "ConvexHullShape", "class_convex_hull_shape.html", null ],
+          [ "CylinderShape", "class_cylinder_shape.html", null ],
+          [ "SphereShape", "class_sphere_shape.html", null ],
+          [ "TaperedCapsuleShape", "class_tapered_capsule_shape.html", null ],
+          [ "TriangleShape", "class_triangle_shape.html", null ]
+        ] ],
+        [ "DecoratedShape", "class_decorated_shape.html", [
+          [ "OffsetCenterOfMassShape", "class_offset_center_of_mass_shape.html", null ],
+          [ "RotatedTranslatedShape", "class_rotated_translated_shape.html", null ],
+          [ "ScaledShape", "class_scaled_shape.html", null ]
+        ] ],
+        [ "HeightFieldShape", "class_height_field_shape.html", null ],
+        [ "MeshShape", "class_mesh_shape.html", null ]
+      ] ],
       [ "ShapeFilter", "class_shape_filter.html", null ],
+      [ "SharedLock< LockType >", "class_shared_lock.html", null ],
+      [ "TempAllocator", "class_temp_allocator.html", [
+        [ "TempAllocatorImpl", "class_temp_allocator_impl.html", null ],
+        [ "TempAllocatorMalloc", "class_temp_allocator_malloc.html", null ]
+      ] ],
+      [ "UniqueLock< LockType >", "class_unique_lock.html", null ],
       [ "WheelSettings", "class_wheel_settings.html", [
         [ "WheelSettingsTV", "class_wheel_settings_t_v.html", null ],
         [ "WheelSettingsWV", "class_wheel_settings_w_v.html", null ]
@@ -291,23 +320,23 @@ var hierarchy =
       ] ]
     ] ],
     [ "RefTarget< Constraint >", "class_ref_target.html", [
-      [ "Constraint", "class_constraint.html", [
-        [ "TwoBodyConstraint", "class_two_body_constraint.html", [
-          [ "ConeConstraint", "class_cone_constraint.html", null ],
-          [ "DistanceConstraint", "class_distance_constraint.html", null ],
-          [ "FixedConstraint", "class_fixed_constraint.html", null ],
-          [ "HingeConstraint", "class_hinge_constraint.html", null ],
-          [ "PathConstraint", "class_path_constraint.html", null ],
-          [ "PointConstraint", "class_point_constraint.html", null ],
-          [ "SixDOFConstraint", "class_six_d_o_f_constraint.html", null ],
-          [ "SliderConstraint", "class_slider_constraint.html", null ],
-          [ "SwingTwistConstraint", "class_swing_twist_constraint.html", null ]
-        ] ],
-        [ "VehicleConstraint", "class_vehicle_constraint.html", null ]
-      ] ]
+      [ "Constraint", "class_constraint.html", null ]
     ] ],
     [ "RefTarget< ConstraintSettings >", "class_ref_target.html", [
-      [ "ConstraintSettings", "class_constraint_settings.html", null ]
+      [ "ConstraintSettings", "class_constraint_settings.html", [
+        [ "TwoBodyConstraintSettings", "class_two_body_constraint_settings.html", [
+          [ "ConeConstraintSettings", "class_cone_constraint_settings.html", null ],
+          [ "DistanceConstraintSettings", "class_distance_constraint_settings.html", null ],
+          [ "FixedConstraintSettings", "class_fixed_constraint_settings.html", null ],
+          [ "HingeConstraintSettings", "class_hinge_constraint_settings.html", null ],
+          [ "PathConstraintSettings", "class_path_constraint_settings.html", null ],
+          [ "PointConstraintSettings", "class_point_constraint_settings.html", null ],
+          [ "SixDOFConstraintSettings", "class_six_d_o_f_constraint_settings.html", null ],
+          [ "SliderConstraintSettings", "class_slider_constraint_settings.html", null ],
+          [ "SwingTwistConstraintSettings", "class_swing_twist_constraint_settings.html", null ]
+        ] ],
+        [ "VehicleConstraintSettings", "class_vehicle_constraint_settings.html", null ]
+      ] ]
     ] ],
     [ "RefTarget< Geometry >", "class_ref_target.html", [
       [ "DebugRenderer::Geometry", "class_debug_renderer_1_1_geometry.html", null ]
@@ -345,28 +374,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "RefTarget< Shape >", "class_ref_target.html", [
-      [ "Shape", "class_shape.html", [
-        [ "CompoundShape", "class_compound_shape.html", [
-          [ "MutableCompoundShape", "class_mutable_compound_shape.html", null ],
-          [ "StaticCompoundShape", "class_static_compound_shape.html", null ]
-        ] ],
-        [ "ConvexShape", "class_convex_shape.html", [
-          [ "BoxShape", "class_box_shape.html", null ],
-          [ "CapsuleShape", "class_capsule_shape.html", null ],
-          [ "ConvexHullShape", "class_convex_hull_shape.html", null ],
-          [ "CylinderShape", "class_cylinder_shape.html", null ],
-          [ "SphereShape", "class_sphere_shape.html", null ],
-          [ "TaperedCapsuleShape", "class_tapered_capsule_shape.html", null ],
-          [ "TriangleShape", "class_triangle_shape.html", null ]
-        ] ],
-        [ "DecoratedShape", "class_decorated_shape.html", [
-          [ "OffsetCenterOfMassShape", "class_offset_center_of_mass_shape.html", null ],
-          [ "RotatedTranslatedShape", "class_rotated_translated_shape.html", null ],
-          [ "ScaledShape", "class_scaled_shape.html", null ]
-        ] ],
-        [ "HeightFieldShape", "class_height_field_shape.html", null ],
-        [ "MeshShape", "class_mesh_shape.html", null ]
-      ] ]
+      [ "Shape", "class_shape.html", null ]
     ] ],
     [ "RefTarget< ShapeSettings >", "class_ref_target.html", [
       [ "ShapeSettings", "class_shape_settings.html", [
@@ -436,7 +444,6 @@ var hierarchy =
     ] ],
     [ "ShapeCast", "struct_shape_cast.html", null ],
     [ "ShapeFunctions", "class_shape_functions.html", null ],
-    [ "SharedLock< LockType >", "class_shared_lock.html", null ],
     [ "SharedMutexBase", null, [
       [ "SharedMutex", "class_shared_mutex.html", null ]
     ] ],
@@ -494,10 +501,6 @@ var hierarchy =
     ] ],
     [ "ConvexShape::SupportBuffer", "class_convex_shape_1_1_support_buffer.html", null ],
     [ "SwingTwistConstraintPart", "class_swing_twist_constraint_part.html", null ],
-    [ "TempAllocator", "class_temp_allocator.html", [
-      [ "TempAllocatorImpl", "class_temp_allocator_impl.html", null ],
-      [ "TempAllocatorMalloc", "class_temp_allocator_malloc.html", null ]
-    ] ],
     [ "DebugRendererRecorder::TextBlob", "struct_debug_renderer_recorder_1_1_text_blob.html", null ],
     [ "QuadTree::Tracking", "struct_quad_tree_1_1_tracking.html", null ],
     [ "TransformedConvexObject< ConvexObject >", "struct_transformed_convex_object.html", null ],
@@ -522,7 +525,6 @@ var hierarchy =
       [ "TriangleSplitterMorton", "class_triangle_splitter_morton.html", null ]
     ] ],
     [ "TriangleShape::TSGetTrianglesContext", "class_triangle_shape_1_1_t_s_get_triangles_context.html", null ],
-    [ "UniqueLock< LockType >", "class_unique_lock.html", null ],
     [ "BroadPhase::UpdateState", "struct_broad_phase_1_1_update_state.html", null ],
     [ "QuadTree::UpdateState", "struct_quad_tree_1_1_update_state.html", null ],
     [ "UVec4", "class_u_vec4.html", null ],

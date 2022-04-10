@@ -10,7 +10,7 @@ var class_swing_twist_constraint_part =
     [ "RestoreState", "class_swing_twist_constraint_part.html#a2964a0ed18137258a244d1b4926fa290", null ],
     [ "SaveState", "class_swing_twist_constraint_part.html#a901f23c5450f15ee2c8979776fcdbf15", null ],
     [ "SetLimits", "class_swing_twist_constraint_part.html#abfe618169e74378f5639140d36799f3f", null ],
-    [ "SolvePositionConstraint", "class_swing_twist_constraint_part.html#a1ba8c03a55333f8321f799ad52b6f2ad", null ],
+    [ "SolvePositionConstraint", "class_swing_twist_constraint_part.html#ae8a947eca657db9a653b0d3de921e7c1", null ],
     [ "SolveVelocityConstraint", "class_swing_twist_constraint_part.html#ad62155a6ac18bfc95a038b72df927e02", null ],
     [ "WarmStart", "class_swing_twist_constraint_part.html#a507f0506fd29b63f244e73670d85d55d", null ]
 ];

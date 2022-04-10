@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9a7e556643d4162eb300045d9a40df1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#af9a7e556643d4162eb300045d9a40df1">SolveVelocityConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2)</td></tr>
 <tr class="memdesc:af9a7e556643d4162eb300045d9a40df1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively update the velocity constraint. Makes sure d/dt C(...) = 0, where C is the constraint equation.  <a href="class_rotation_euler_constraint_part.html#af9a7e556643d4162eb300045d9a40df1">More...</a><br /></td></tr>
 <tr class="separator:af9a7e556643d4162eb300045d9a40df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae23169abeb8355af8636b8b029ca40d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#ae23169abeb8355af8636b8b029ca40d7">SolvePositionConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inInvInitialOrientation, float inBaumgarte)</td></tr>
-<tr class="memdesc:ae23169abeb8355af8636b8b029ca40d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively update the position constraint. Makes sure C(...) = 0.  <a href="class_rotation_euler_constraint_part.html#ae23169abeb8355af8636b8b029ca40d7">More...</a><br /></td></tr>
-<tr class="separator:ae23169abeb8355af8636b8b029ca40d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2276b37dd0f8eaf4229469def2627b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#ab2276b37dd0f8eaf4229469def2627b6">SolvePositionConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inInvInitialOrientation, float inBaumgarte) const</td></tr>
+<tr class="memdesc:ab2276b37dd0f8eaf4229469def2627b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively update the position constraint. Makes sure C(...) = 0.  <a href="class_rotation_euler_constraint_part.html#ab2276b37dd0f8eaf4229469def2627b6">More...</a><br /></td></tr>
+<tr class="separator:ab2276b37dd0f8eaf4229469def2627b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aada1e7c8fcf62c1674aa5080cd70687e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#aada1e7c8fcf62c1674aa5080cd70687e">GetTotalLambda</a> () const</td></tr>
 <tr class="memdesc:aada1e7c8fcf62c1674aa5080cd70687e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return lagrange multiplier.  <a href="class_rotation_euler_constraint_part.html#aada1e7c8fcf62c1674aa5080cd70687e">More...</a><br /></td></tr>
 <tr class="separator:aada1e7c8fcf62c1674aa5080cd70687e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -386,8 +386,8 @@ E = identity matrix.<br  />
 
 </div>
 </div>
-<a id="ae23169abeb8355af8636b8b029ca40d7" name="ae23169abeb8355af8636b8b029ca40d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae23169abeb8355af8636b8b029ca40d7">&#9670;&nbsp;</a></span>SolvePositionConstraint()</h2>
+<a id="ab2276b37dd0f8eaf4229469def2627b6" name="ab2276b37dd0f8eaf4229469def2627b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2276b37dd0f8eaf4229469def2627b6">&#9670;&nbsp;</a></span>SolvePositionConstraint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,7 +422,7 @@ E = identity matrix.<br  />
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>

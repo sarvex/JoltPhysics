@@ -122,9 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aabd46260672295ed6df506bf81a2f326"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_rotation_constraint_part.html#aabd46260672295ed6df506bf81a2f326">SolveVelocityConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2)</td></tr>
 <tr class="memdesc:aabd46260672295ed6df506bf81a2f326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively update the velocity constraint. Makes sure d/dt C(...) = 0, where C is the constraint equation.  <a href="class_hinge_rotation_constraint_part.html#aabd46260672295ed6df506bf81a2f326">More...</a><br /></td></tr>
 <tr class="separator:aabd46260672295ed6df506bf81a2f326"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a856f28090dd9a8aef35428f46b2ad313"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_rotation_constraint_part.html#a856f28090dd9a8aef35428f46b2ad313">SolvePositionConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2, float inBaumgarte)</td></tr>
-<tr class="memdesc:a856f28090dd9a8aef35428f46b2ad313"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively update the position constraint. Makes sure C(...) = 0.  <a href="class_hinge_rotation_constraint_part.html#a856f28090dd9a8aef35428f46b2ad313">More...</a><br /></td></tr>
-<tr class="separator:a856f28090dd9a8aef35428f46b2ad313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4c769c027f4efb2511d74f9658d8eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_rotation_constraint_part.html#a0f4c769c027f4efb2511d74f9658d8eb">SolvePositionConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2, float inBaumgarte) const</td></tr>
+<tr class="memdesc:a0f4c769c027f4efb2511d74f9658d8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively update the position constraint. Makes sure C(...) = 0.  <a href="class_hinge_rotation_constraint_part.html#a0f4c769c027f4efb2511d74f9658d8eb">More...</a><br /></td></tr>
+<tr class="separator:a0f4c769c027f4efb2511d74f9658d8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa99c7f68df35ac1e3bef098c7e20225b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_hinge_rotation_constraint_part.html#ac0464fe586004502d840466631aaa7b0">Vec2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_rotation_constraint_part.html#aa99c7f68df35ac1e3bef098c7e20225b">GetTotalLambda</a> () const</td></tr>
 <tr class="memdesc:aa99c7f68df35ac1e3bef098c7e20225b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return lagrange multiplier.  <a href="class_hinge_rotation_constraint_part.html#aa99c7f68df35ac1e3bef098c7e20225b">More...</a><br /></td></tr>
 <tr class="separator:aa99c7f68df35ac1e3bef098c7e20225b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,8 +360,8 @@ E = identity matrix. </p>
 
 </div>
 </div>
-<a id="a856f28090dd9a8aef35428f46b2ad313" name="a856f28090dd9a8aef35428f46b2ad313"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a856f28090dd9a8aef35428f46b2ad313">&#9670;&nbsp;</a></span>SolvePositionConstraint()</h2>
+<a id="a0f4c769c027f4efb2511d74f9658d8eb" name="a0f4c769c027f4efb2511d74f9658d8eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4c769c027f4efb2511d74f9658d8eb">&#9670;&nbsp;</a></span>SolvePositionConstraint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,7 +390,7 @@ E = identity matrix. </p>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
