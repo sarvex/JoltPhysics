@@ -7,7 +7,7 @@ var class_r_t_t_i =
     [ "pDestructObjectFunction", "class_r_t_t_i.html#aaf310985dd3df418f3ac0ca410ded276", null ],
     [ "RTTI", "class_r_t_t_i.html#ac675bf369baae1c03b33fdc404072252", null ],
     [ "RTTI", "class_r_t_t_i.html#a200b9e466fc9653a73e2a4f7cc5c8d11", null ],
-    [ "AddAttribute", "class_r_t_t_i.html#a50f8f5c4caf26dea8b3e0e69331a787d", null ],
+    [ "AddAttribute", "class_r_t_t_i.html#aedd8ee7b7efa6d431c627ca8416da99d", null ],
     [ "AddBaseClass", "class_r_t_t_i.html#ae4671375bc88cf535f4de98414c84405", null ],
     [ "CastTo", "class_r_t_t_i.html#a762f7b979423d8cbbc5aa6796611f190", null ],
     [ "CreateObject", "class_r_t_t_i.html#a97cb905567f96a8e766aa8f769394ee0", null ],

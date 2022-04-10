@@ -145,7 +145,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span>    <a class="code hl_function" href="_object_stream_out_8h.html#a07015e7fe8334cff9351dda7cfc3f0fc">OSWriteDataType</a>(<a class="code hl_class" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, name *inNull)                        \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span>    <a class="code hl_function" href="_object_stream_out_8h.html#a62ef3dbc22d81934bef4a246ac20f76a">OSWriteDataType</a>(<a class="code hl_class" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, name *)                              \</div>
 <div class="line">    {                                                                                       \</div>
 <div class="line">        ioStream.WriteDataType(ObjectStream::EDataType::T_##name);                          \</div>
 <div class="line">    }                                                                                       \</div>
@@ -154,8 +154,8 @@ Macros</h2></td></tr>
 <div class="line">        ioStream.HintNextItem();                                                            \</div>
 <div class="line">        ioStream.WritePrimitiveData(inPrimitive);                                           \</div>
 <div class="line">    }</div>
-<div class="ttc" id="a_object_stream_out_8h_html_a07015e7fe8334cff9351dda7cfc3f0fc"><div class="ttname"><a href="_object_stream_out_8h.html#a07015e7fe8334cff9351dda7cfc3f0fc">OSWriteDataType</a></div><div class="ttdeci">void OSWriteDataType(ObjectStreamOut &amp;ioStream, vector&lt; T &gt; *inNull)</div><div class="ttdef"><b>Definition:</b> ObjectStreamOut.h:132</div></div>
 <div class="ttc" id="a_object_stream_out_8h_html_a5c1849fe159cc8995532ce5f7fa2cd7b"><div class="ttname"><a href="_object_stream_out_8h.html#a5c1849fe159cc8995532ce5f7fa2cd7b">OSWriteData</a></div><div class="ttdeci">void OSWriteData(ObjectStreamOut &amp;ioStream, const vector&lt; T &gt; &amp;inArray)</div><div class="ttdef"><b>Definition:</b> ObjectStreamOut.h:139</div></div>
+<div class="ttc" id="a_object_stream_out_8h_html_a62ef3dbc22d81934bef4a246ac20f76a"><div class="ttname"><a href="_object_stream_out_8h.html#a62ef3dbc22d81934bef4a246ac20f76a">OSWriteDataType</a></div><div class="ttdeci">void OSWriteDataType(ObjectStreamOut &amp;ioStream, vector&lt; T &gt; *)</div><div class="ttdef"><b>Definition:</b> ObjectStreamOut.h:132</div></div>
 <div class="ttc" id="aclass_object_stream_out_html"><div class="ttname"><a href="class_object_stream_out.html">ObjectStreamOut</a></div><div class="ttdef"><b>Definition:</b> ObjectStreamOut.h:21</div></div>
 </div><!-- fragment -->
 </div>

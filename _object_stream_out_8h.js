@@ -7,9 +7,9 @@ var _object_stream_out_8h =
     [ "OSWriteData", "_object_stream_out_8h.html#aa49dc7e4f02a12ad3dd55d3a3a969863", null ],
     [ "OSWriteData", "_object_stream_out_8h.html#a9d6398a928389c30d3a3adbf9d064beb", null ],
     [ "OSWriteData", "_object_stream_out_8h.html#a5c1849fe159cc8995532ce5f7fa2cd7b", null ],
-    [ "OSWriteDataType", "_object_stream_out_8h.html#acffcf79ddd9009c09f0fda204aa6f948", null ],
-    [ "OSWriteDataType", "_object_stream_out_8h.html#a131fb5223b66636b926b960b6d57536c", null ],
-    [ "OSWriteDataType", "_object_stream_out_8h.html#a48e4adff77dd39e8f22fe15b62b63061", null ],
-    [ "OSWriteDataType", "_object_stream_out_8h.html#aee24e8236765f358ace1285e05749e38", null ],
-    [ "OSWriteDataType", "_object_stream_out_8h.html#a07015e7fe8334cff9351dda7cfc3f0fc", null ]
+    [ "OSWriteDataType", "_object_stream_out_8h.html#a9aa2b9330f0c2f4d81434cc9f28ee2a4", null ],
+    [ "OSWriteDataType", "_object_stream_out_8h.html#abcf1da99ddcefb1cb0647f5b3571bd88", null ],
+    [ "OSWriteDataType", "_object_stream_out_8h.html#ab2d74fc6354cb6ec36a8e2701b02f86f", null ],
+    [ "OSWriteDataType", "_object_stream_out_8h.html#a0400450dce7d3fe0e264f0e90e5a2fce", null ],
+    [ "OSWriteDataType", "_object_stream_out_8h.html#a62ef3dbc22d81934bef4a246ac20f76a", null ]
 ];

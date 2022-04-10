@@ -13,7 +13,7 @@ var class_convex_hull_builder =
     ] ],
     [ "ConvexHullBuilder", "class_convex_hull_builder.html#a245e3c9f2ac5137c9ee5d66c9f7a7b9d", null ],
     [ "~ConvexHullBuilder", "class_convex_hull_builder.html#a3182f05659156aba23773cd1cdb5c0cd", null ],
-    [ "ContainsFace", "class_convex_hull_builder.html#a55f847c201e2240bb5f7e381043e8bc4", null ],
+    [ "ContainsFace", "class_convex_hull_builder.html#abb248ae4c9b90fcf32bc7e0c32ae6707", null ],
     [ "DetermineMaxError", "class_convex_hull_builder.html#aae519c2ae09443413ef0c9e91dd26076", null ],
     [ "GetCenterOfMassAndVolume", "class_convex_hull_builder.html#a4e3fbe324250233f9a3d527004d08c09", null ],
     [ "GetFaces", "class_convex_hull_builder.html#a2eade6ba63e25c3bda4eaf159d1128ce", null ],

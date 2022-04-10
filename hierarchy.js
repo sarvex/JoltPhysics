@@ -18,17 +18,6 @@ var hierarchy =
       [ "RagdollSettings::Part", "class_ragdoll_settings_1_1_part.html", null ]
     ] ],
     [ "BodyID", "class_body_i_d.html", null ],
-    [ "BodyLockBase< Write, BodyType >", "class_body_lock_base.html", null ],
-    [ "BodyLockBase< false, const Body >", "class_body_lock_base.html", [
-      [ "BodyLockRead", "class_body_lock_read.html", null ]
-    ] ],
-    [ "BodyLockBase< true, Body >", "class_body_lock_base.html", [
-      [ "BodyLockWrite", "class_body_lock_write.html", null ]
-    ] ],
-    [ "BodyLockInterface", "class_body_lock_interface.html", [
-      [ "BodyLockInterfaceLocking", "class_body_lock_interface_locking.html", null ],
-      [ "BodyLockInterfaceNoLock", "class_body_lock_interface_no_lock.html", null ]
-    ] ],
     [ "BodyLockMultiBase< Write, BodyType >", "class_body_lock_multi_base.html", null ],
     [ "BodyLockMultiBase< false, const Body >", "class_body_lock_multi_base.html", [
       [ "BodyLockMultiRead", "class_body_lock_multi_read.html", null ]
@@ -145,6 +134,12 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Node", "struct_node_codec_quad_tree_half_float_1_1_node.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >", "class_node_codec_quad_tree_half_float.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [
+      [ "BodyLockBase< false, const Body >", "class_body_lock_base.html", [
+        [ "BodyLockRead", "class_body_lock_read.html", null ]
+      ] ],
+      [ "BodyLockBase< true, Body >", "class_body_lock_base.html", [
+        [ "BodyLockWrite", "class_body_lock_write.html", null ]
+      ] ],
       [ "FixedSizeFreeList< Node >", "class_fixed_size_free_list.html", null ],
       [ "FixedSizeFreeList< Job >", "class_fixed_size_free_list.html", null ],
       [ "LockFreeHashMap< SubShapeIDPair, CachedManifold >", "class_lock_free_hash_map.html", null ],
@@ -159,6 +154,11 @@ var hierarchy =
         [ "IgnoreSingleBodyFilter", "class_ignore_single_body_filter.html", null ]
       ] ],
       [ "BodyInterface", "class_body_interface.html", null ],
+      [ "BodyLockBase< Write, BodyType >", "class_body_lock_base.html", null ],
+      [ "BodyLockInterface", "class_body_lock_interface.html", [
+        [ "BodyLockInterfaceLocking", "class_body_lock_interface_locking.html", null ],
+        [ "BodyLockInterfaceNoLock", "class_body_lock_interface_no_lock.html", null ]
+      ] ],
       [ "BodyManager", "class_body_manager.html", null ],
       [ "BroadPhaseLayerFilter", "class_broad_phase_layer_filter.html", [
         [ "DefaultBroadPhaseLayerFilter", "class_default_broad_phase_layer_filter.html", null ],

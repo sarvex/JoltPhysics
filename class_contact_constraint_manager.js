@@ -24,11 +24,11 @@ var class_contact_constraint_manager =
     [ "SetCombineFriction", "class_contact_constraint_manager.html#aae82d70c097d2c5a514faebd73ee4873", null ],
     [ "SetCombineRestitution", "class_contact_constraint_manager.html#ae324c787f7d2ab43ed3adb13d3e7f24e", null ],
     [ "SetContactListener", "class_contact_constraint_manager.html#acf262d3235f4eea01cd2aa8a9a3bfe83", null ],
-    [ "SetupVelocityConstraints", "class_contact_constraint_manager.html#a6de39789197f2b7dc378a4d6b4b27030", null ],
+    [ "SetupVelocityConstraints", "class_contact_constraint_manager.html#a3e175c70964531d96d77791bc45ca960", null ],
     [ "SolvePositionConstraints", "class_contact_constraint_manager.html#a45d8cb39a9e2a3644149661f4e01d2bd", null ],
     [ "SolveVelocityConstraints", "class_contact_constraint_manager.html#a6be90138088b291b35baed7974887729", null ],
     [ "SortContacts", "class_contact_constraint_manager.html#af45077f4de2c4ec57ebecf450e9b88f0", null ],
-    [ "StoreAppliedImpulses", "class_contact_constraint_manager.html#a344b30a737c5b27117e24f1648881223", null ],
+    [ "StoreAppliedImpulses", "class_contact_constraint_manager.html#ac825a74176ec59d9e2995e67fc8d43c1", null ],
     [ "ValidateContactPoint", "class_contact_constraint_manager.html#a748b8caa1695e7192ae7a59492210a7b", null ],
     [ "WarmStartVelocityConstraints", "class_contact_constraint_manager.html#a185466194a8e52da526a77bc3b6cc405", null ]
 ];
