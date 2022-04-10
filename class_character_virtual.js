@@ -9,6 +9,8 @@ var class_character_virtual =
     [ "GetRotation", "class_character_virtual.html#afdec9f01a8b449ba9b29f39c42afe0d8", null ],
     [ "GetWorldTransform", "class_character_virtual.html#aed594d0612a17175fa6267f2ee140a25", null ],
     [ "RefreshContacts", "class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc", null ],
+    [ "RestoreState", "class_character_virtual.html#a34ce1577ff0641d5a326af721a3c9b71", null ],
+    [ "SaveState", "class_character_virtual.html#a4eec1547ca605d2556bf781237b40ee7", null ],
     [ "SetLinearVelocity", "class_character_virtual.html#a25da7eb8e9ff5316e357cbf59027b57e", null ],
     [ "SetListener", "class_character_virtual.html#af7bfe39cc6f67eeb4cd8d4d453d8b179", null ],
     [ "SetMass", "class_character_virtual.html#a93a6110e80e08ef092d7f010a45e3bb5", null ],

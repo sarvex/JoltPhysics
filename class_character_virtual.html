@@ -162,6 +162,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47a90c0f4fb66b3cf2f94f4eac390a66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a47a90c0f4fb66b3cf2f94f4eac390a66">SetShape</a> (const <a class="el" href="class_shape.html">Shape</a> *inShape, float inMaxPenetrationDepth, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a47a90c0f4fb66b3cf2f94f4eac390a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eec1547ca605d2556bf781237b40ee7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a4eec1547ca605d2556bf781237b40ee7">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const override</td></tr>
+<tr class="separator:a4eec1547ca605d2556bf781237b40ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ce1577ff0641d5a326af721a3c9b71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a34ce1577ff0641d5a326af721a3c9b71">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) override</td></tr>
+<tr class="separator:a34ce1577ff0641d5a326af721a3c9b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_character_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_character_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_character_base.html">CharacterBase</a></td></tr>
 <tr class="memitem:ae105fe52be09ccb14a7e7aa57b83e8ca inherit pub_methods_class_character_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ae105fe52be09ccb14a7e7aa57b83e8ca">CharacterBase</a> (const <a class="el" href="class_character_base_settings.html">CharacterBaseSettings</a> *inSettings, <a class="el" href="class_physics_system.html">PhysicsSystem</a> *inSystem)</td></tr>
 <tr class="memdesc:ae105fe52be09ccb14a7e7aa57b83e8ca inherit pub_methods_class_character_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_character_base.html#ae105fe52be09ccb14a7e7aa57b83e8ca">More...</a><br /></td></tr>
@@ -557,6 +561,62 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This function can be used after a character has teleported to determine the new contacts with the world. </p>
+
+</div>
+</div>
+<a id="a34ce1577ff0641d5a326af721a3c9b71" name="a34ce1577ff0641d5a326af721a3c9b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ce1577ff0641d5a326af721a3c9b71">&#9670;&nbsp;</a></span>RestoreState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterVirtual::RestoreState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
+          <td class="paramname"><em>inStream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_character_base.html#ad9d1540df7d44b3aaeee88a527df7d7d">CharacterBase</a>.</p>
+
+</div>
+</div>
+<a id="a4eec1547ca605d2556bf781237b40ee7" name="a4eec1547ca605d2556bf781237b40ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eec1547ca605d2556bf781237b40ee7">&#9670;&nbsp;</a></span>SaveState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterVirtual::SaveState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
+          <td class="paramname"><em>inStream</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_character_base.html#ab28f7afaa654cf8461f3638dd01334e0">CharacterBase</a>.</p>
 
 </div>
 </div>

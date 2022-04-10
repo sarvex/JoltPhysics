@@ -218,6 +218,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8c2a236d46c2e362021c1ab3364c432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ae8c2a236d46c2e362021c1ab3364c432">GetGroundUserData</a> () const</td></tr>
 <tr class="memdesc:ae8c2a236d46c2e362021c1ab3364c432"><td class="mdescLeft">&#160;</td><td class="mdescRight">User data value of the body that we're standing on.  <a href="class_character_base.html#ae8c2a236d46c2e362021c1ab3364c432">More...</a><br /></td></tr>
 <tr class="separator:ae8c2a236d46c2e362021c1ab3364c432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28f7afaa654cf8461f3638dd01334e0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ab28f7afaa654cf8461f3638dd01334e0">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
+<tr class="separator:ab28f7afaa654cf8461f3638dd01334e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d1540df7d44b3aaeee88a527df7d7d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ad9d1540df7d44b3aaeee88a527df7d7d">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
+<tr class="separator:ad9d1540df7d44b3aaeee88a527df7d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -566,6 +570,62 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the current shape that the character is using. </p>
+
+</div>
+</div>
+<a id="ad9d1540df7d44b3aaeee88a527df7d7d" name="ad9d1540df7d44b3aaeee88a527df7d7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d1540df7d44b3aaeee88a527df7d7d">&#9670;&nbsp;</a></span>RestoreState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterBase::RestoreState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
+          <td class="paramname"><em>inStream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_character_virtual.html#a34ce1577ff0641d5a326af721a3c9b71">CharacterVirtual</a>.</p>
+
+</div>
+</div>
+<a id="ab28f7afaa654cf8461f3638dd01334e0" name="ab28f7afaa654cf8461f3638dd01334e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28f7afaa654cf8461f3638dd01334e0">&#9670;&nbsp;</a></span>SaveState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterBase::SaveState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
+          <td class="paramname"><em>inStream</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_character_virtual.html#a4eec1547ca605d2556bf781237b40ee7">CharacterVirtual</a>.</p>
 
 </div>
 </div>

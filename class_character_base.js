@@ -16,6 +16,8 @@ var class_character_base =
     [ "GetGroundUserData", "class_character_base.html#ae8c2a236d46c2e362021c1ab3364c432", null ],
     [ "GetGroundVelocity", "class_character_base.html#a692578285569b48d19d53684360a5656", null ],
     [ "GetShape", "class_character_base.html#afe046cfb3333be1fcb186f42821ddb19", null ],
+    [ "RestoreState", "class_character_base.html#ad9d1540df7d44b3aaeee88a527df7d7d", null ],
+    [ "SaveState", "class_character_base.html#ab28f7afaa654cf8461f3638dd01334e0", null ],
     [ "SetMaxSlopeAngle", "class_character_base.html#a0c2099dfbf12c1bd6f839a3eda5c9726", null ],
     [ "mCosMaxSlopeAngle", "class_character_base.html#a9da1e29d9257f3cce909487da437a0c9", null ],
     [ "mGroundBodyID", "class_character_base.html#a893268ea23759f36ebe8e317a54afa7e", null ],
