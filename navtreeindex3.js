@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"_ray_triangle_8h.html#a78f049474454fce771b6c23635462a8c":[4,0,1,2,25,1],
-"_ray_triangle_8h_source.html":[4,0,1,2,25],
 "_reference_8h.html":[4,0,1,1,31],
 "_reference_8h_source.html":[4,0,1,1,31],
 "_register_types_8cpp.html":[4,0,1,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "_triangle_splitter_binning_8h_source.html":[4,0,1,9,3],
 "_triangle_splitter_fixed_leaf_size_8cpp.html":[4,0,1,9,4],
 "_triangle_splitter_fixed_leaf_size_8h.html":[4,0,1,9,5],
-"_triangle_splitter_fixed_leaf_size_8h_source.html":[4,0,1,9,5]
+"_triangle_splitter_fixed_leaf_size_8h_source.html":[4,0,1,9,5],
+"_triangle_splitter_longest_axis_8cpp.html":[4,0,1,9,6],
+"_triangle_splitter_longest_axis_8h.html":[4,0,1,9,7]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"_triangle_splitter_longest_axis_8cpp.html":[4,0,1,9,6],
-"_triangle_splitter_longest_axis_8h.html":[4,0,1,9,7],
 "_triangle_splitter_longest_axis_8h_source.html":[4,0,1,9,7],
 "_triangle_splitter_mean_8cpp.html":[4,0,1,9,8],
 "_triangle_splitter_mean_8h.html":[4,0,1,9,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "class_body.html#a4d36599b8691c422cece99598750f1a9a93264bf5e739b984ef79c2fbc76863c6":[3,0,12,0,1],
 "class_body.html#a4d36599b8691c422cece99598750f1a9af6565583dd53a537e5c7376048299104":[3,0,12,0,0],
 "class_body.html#a4fcb04dbca94ff4cf4b48289f26c26b4":[3,0,12,57],
-"class_body.html#a5657cc63a5fd9ee1e4a8408ac51affcc":[3,0,12,38]
+"class_body.html#a5657cc63a5fd9ee1e4a8408ac51affcc":[3,0,12,38],
+"class_body.html#a569382f029bfdceaaf24dc56c5d48f32":[3,0,12,35],
+"class_body.html#a5865492b92c7c2e321c6916e80f5b7cb":[3,0,12,21]
 };
