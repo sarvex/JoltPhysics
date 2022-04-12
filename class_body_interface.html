@@ -118,11 +118,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6ed562cb3b4f052ee20c0d979548af16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a6ed562cb3b4f052ee20c0d979548af16">BodyInterface</a> ()=default</td></tr>
-<tr class="memdesc:a6ed562cb3b4f052ee20c0d979548af16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_body_interface.html#a6ed562cb3b4f052ee20c0d979548af16">More...</a><br /></td></tr>
-<tr class="separator:a6ed562cb3b4f052ee20c0d979548af16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7be30cbf4a5620b0faf86591b49a930"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#ad7be30cbf4a5620b0faf86591b49a930">BodyInterface</a> (<a class="el" href="class_body_lock_interface.html">BodyLockInterface</a> &amp;inBodyLockInterface, <a class="el" href="class_body_manager.html">BodyManager</a> &amp;inBodyManager, <a class="el" href="class_broad_phase.html">BroadPhase</a> &amp;inBroadPhase)</td></tr>
-<tr class="separator:ad7be30cbf4a5620b0faf86591b49a930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d3b19282c77d972f684abeb16b42a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a53d3b19282c77d972f684abeb16b42a8">Init</a> (<a class="el" href="class_body_lock_interface.html">BodyLockInterface</a> &amp;inBodyLockInterface, <a class="el" href="class_body_manager.html">BodyManager</a> &amp;inBodyManager, <a class="el" href="class_broad_phase.html">BroadPhase</a> &amp;inBroadPhase)</td></tr>
+<tr class="memdesc:a53d3b19282c77d972f684abeb16b42a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the interface (should only be called by <a class="el" href="class_physics_system.html">PhysicsSystem</a>)  <a href="class_body_interface.html#a53d3b19282c77d972f684abeb16b42a8">More...</a><br /></td></tr>
+<tr class="separator:a53d3b19282c77d972f684abeb16b42a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1baf0b6645e34cc5db1df73de724bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#ad1baf0b6645e34cc5db1df73de724bf7">CreateBody</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings)</td></tr>
 <tr class="separator:ad1baf0b6645e34cc5db1df73de724bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">DestroyBody</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
@@ -306,76 +304,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Broadphase add state handle, used to keep track of a batch while ading to the broadphase. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6ed562cb3b4f052ee20c0d979548af16" name="a6ed562cb3b4f052ee20c0d979548af16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ed562cb3b4f052ee20c0d979548af16">&#9670;&nbsp;</a></span>BodyInterface() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">BodyInterface::BodyInterface </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor. </p>
-
-</div>
-</div>
-<a id="ad7be30cbf4a5620b0faf86591b49a930" name="ad7be30cbf4a5620b0faf86591b49a930"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7be30cbf4a5620b0faf86591b49a930">&#9670;&nbsp;</a></span>BodyInterface() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">BodyInterface::BodyInterface </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_body_lock_interface.html">BodyLockInterface</a> &amp;&#160;</td>
-          <td class="paramname"><em>inBodyLockInterface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_body_manager.html">BodyManager</a> &amp;&#160;</td>
-          <td class="paramname"><em>inBodyManager</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_broad_phase.html">BroadPhase</a> &amp;&#160;</td>
-          <td class="paramname"><em>inBroadPhase</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1416,6 +1344,50 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53d3b19282c77d972f684abeb16b42a8" name="a53d3b19282c77d972f684abeb16b42a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d3b19282c77d972f684abeb16b42a8">&#9670;&nbsp;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyInterface::Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_body_lock_interface.html">BodyLockInterface</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyLockInterface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_body_manager.html">BodyManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_broad_phase.html">BroadPhase</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBroadPhase</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the interface (should only be called by <a class="el" href="class_physics_system.html">PhysicsSystem</a>) </p>
 
 </div>
 </div>

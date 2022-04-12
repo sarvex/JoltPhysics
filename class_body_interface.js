@@ -1,8 +1,6 @@
 var class_body_interface =
 [
     [ "AddState", "class_body_interface.html#af4706607b933c4e7d04aace99feca333", null ],
-    [ "BodyInterface", "class_body_interface.html#a6ed562cb3b4f052ee20c0d979548af16", null ],
-    [ "BodyInterface", "class_body_interface.html#ad7be30cbf4a5620b0faf86591b49a930", null ],
     [ "ActivateBodies", "class_body_interface.html#aa9ac89ba91cff574fb148dfe155c272e", null ],
     [ "ActivateBody", "class_body_interface.html#ab6ccbc72a1df04bd16c5dc5dee7bdf30", null ],
     [ "ActivateConstraint", "class_body_interface.html#a7b4ab713c9ed9369f43930510791562b", null ],
@@ -44,6 +42,7 @@ var class_body_interface =
     [ "GetTransformedShape", "class_body_interface.html#ae468b34e460759f4cf4e76486e404ee4", null ],
     [ "GetUserData", "class_body_interface.html#a34942329fd9b3230e938f4418302138c", null ],
     [ "GetWorldTransform", "class_body_interface.html#aa5441f4c343d16199c7045989125b1e6", null ],
+    [ "Init", "class_body_interface.html#a53d3b19282c77d972f684abeb16b42a8", null ],
     [ "InvalidateContactCache", "class_body_interface.html#af554a69ffbdfb5290c03cc9562ed21e5", null ],
     [ "IsActive", "class_body_interface.html#a762f492665332fe71e31d0e37d4355c7", null ],
     [ "IsAdded", "class_body_interface.html#a1a67ebf158316c8ce40768aab624680b", null ],
