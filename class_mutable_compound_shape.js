@@ -2,7 +2,6 @@ var class_mutable_compound_shape =
 [
     [ "MutableCompoundShape", "class_mutable_compound_shape.html#a9458aa61fe8880812c3268442fe3e2a3", null ],
     [ "MutableCompoundShape", "class_mutable_compound_shape.html#aa1412a6fbb245ef5476d7c72597f7aa9", null ],
-    [ "~MutableCompoundShape", "class_mutable_compound_shape.html#a8e76e9020025fe5e4ef19c3e1fbf0c88", null ],
     [ "AddShape", "class_mutable_compound_shape.html#a66c4e1e058a06ddb1718604254d15c4d", null ],
     [ "AdjustCenterOfMass", "class_mutable_compound_shape.html#aadb711e8d328adc04397be0cf44d4f4c", null ],
     [ "CastRay", "class_mutable_compound_shape.html#a03ecefafab9159c863fd07bbcd016d08", null ],
