@@ -4,6 +4,8 @@ var class_cylinder_shape =
     [ "CylinderShape", "class_cylinder_shape.html#ac4b1523127d65a73b9f6156963d6906d", null ],
     [ "CylinderShape", "class_cylinder_shape.html#a1079164769598081f54bd33700747b57", null ],
     [ "CylinderShape", "class_cylinder_shape.html#afcb1b0ed67b7cfbfd8d85bdad5744808", null ],
+    [ "CastRay", "class_cylinder_shape.html#a2419aaf2c43ccd190ee54c387c3bed83", null ],
+    [ "CastRay", "class_cylinder_shape.html#af2943e795c49300d95d68950231de8a3", null ],
     [ "CastRay", "class_cylinder_shape.html#a6685737b774a4fdbcc626aae25f27770", null ],
     [ "CollidePoint", "class_cylinder_shape.html#a26be2d75a8ad2cec21f1ebe77ae3854a", null ],
     [ "GetHalfHeight", "class_cylinder_shape.html#a6ed4653b983e5e91e0a86f16b4186a25", null ],

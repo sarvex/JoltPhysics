@@ -5,6 +5,8 @@ var class_capsule_shape =
     [ "CapsuleShape", "class_capsule_shape.html#aa42e46fcbcc42ff0a6bd44d256f985cf", null ],
     [ "CapsuleShape", "class_capsule_shape.html#a28722612eca063d47b2e99c5d1a2e16c", null ],
     [ "CapsuleShape", "class_capsule_shape.html#ab5b3085112fe4348a5831f9e94441f7c", null ],
+    [ "CastRay", "class_capsule_shape.html#a2419aaf2c43ccd190ee54c387c3bed83", null ],
+    [ "CastRay", "class_capsule_shape.html#af2943e795c49300d95d68950231de8a3", null ],
     [ "CastRay", "class_capsule_shape.html#a4db465fc9986e3c869fa5c0b65733403", null ],
     [ "CollidePoint", "class_capsule_shape.html#adbbebeb96469c64e91aedee297faeb75", null ],
     [ "GetHalfHeightOfCylinder", "class_capsule_shape.html#a24208af1f0e53c7de6e62c821699a2c3", null ],

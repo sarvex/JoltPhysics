@@ -114,9 +114,12 @@ Inheritance diagram for SerializableAttribute:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ce8198d888add94eee458cf44882684"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a5ce8198d888add94eee458cf44882684">SerializableAttribute</a> (const char *inName)</td></tr>
-<tr class="memdesc:a5ce8198d888add94eee458cf44882684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_serializable_attribute.html#a5ce8198d888add94eee458cf44882684">More...</a><br /></td></tr>
-<tr class="separator:a5ce8198d888add94eee458cf44882684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5adda746ce2f978f802ee502d55be5d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a5adda746ce2f978f802ee502d55be5d8">RTTIAttribute</a> ()</td></tr>
+<tr class="memdesc:a5adda746ce2f978f802ee502d55be5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_serializable_attribute.html#a5adda746ce2f978f802ee502d55be5d8">More...</a><br /></td></tr>
+<tr class="separator:a5adda746ce2f978f802ee502d55be5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5442a4659379b9d5a5467d8c98a71b38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a5442a4659379b9d5a5467d8c98a71b38">RTTIAttribute</a> (const char *inName)</td></tr>
+<tr class="memdesc:a5442a4659379b9d5a5467d8c98a71b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_serializable_attribute.html#a5442a4659379b9d5a5467d8c98a71b38">More...</a><br /></td></tr>
+<tr class="separator:a5442a4659379b9d5a5467d8c98a71b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Serialization operations</div></td></tr>
 <tr class="memitem:a2d40958a6b502a91521e4bc2483452cc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a2d40958a6b502a91521e4bc2483452cc">IsType</a> (int inArrayDepth, <a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08">ObjectStream::EDataType</a> inDataType, const char *inClassName) const =0</td></tr>
 <tr class="separator:a2d40958a6b502a91521e4bc2483452cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,36 +193,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Attributes are members of classes that need to be serialized. This extends the basic attribute defined in <a class="el" href="_r_t_t_i_8h.html">RTTI.h</a> </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5ce8198d888add94eee458cf44882684" name="a5ce8198d888add94eee458cf44882684"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ce8198d888add94eee458cf44882684">&#9670;&nbsp;</a></span>SerializableAttribute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">SerializableAttribute::SerializableAttribute </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>inName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2d40958a6b502a91521e4bc2483452cc" name="a2d40958a6b502a91521e4bc2483452cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d40958a6b502a91521e4bc2483452cc">&#9670;&nbsp;</a></span>IsType()</h2>
 
@@ -299,6 +273,61 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="class_serializable_attribute_enum.html#a459671301b225eefb88f355743d6cd0c">SerializableAttributeEnum&lt; Class, T &gt;</a>, and <a class="el" href="class_serializable_attribute_typed.html#a523ed263abde021f8baf2a51391a71db">SerializableAttributeTyped&lt; Class, T &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a5adda746ce2f978f802ee502d55be5d8" name="a5adda746ce2f978f802ee502d55be5d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5adda746ce2f978f802ee502d55be5d8">&#9670;&nbsp;</a></span>RTTIAttribute() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTTIAttribute::RTTIAttribute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a id="a5442a4659379b9d5a5467d8c98a71b38" name="a5442a4659379b9d5a5467d8c98a71b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5442a4659379b9d5a5467d8c98a71b38">&#9670;&nbsp;</a></span>RTTIAttribute() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTTIAttribute::RTTIAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>inName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
 
 </div>
 </div>

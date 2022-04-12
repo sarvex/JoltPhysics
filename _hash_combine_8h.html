@@ -109,11 +109,13 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa8f52e080e3d54c72bd2f6040c05eb94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#aa8f52e080e3d54c72bd2f6040c05eb94">hash_combine</a> (std::size_t &amp;ioSeed)</td></tr>
-<tr class="separator:aa8f52e080e3d54c72bd2f6040c05eb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a850a66da047ffbed2d459833cde45088"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Rest&gt; </td></tr>
-<tr class="memitem:a850a66da047ffbed2d459833cde45088"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#a850a66da047ffbed2d459833cde45088">hash_combine</a> (std::size_t &amp;ioSeed, const T &amp;inValue, Rest... inRest)</td></tr>
-<tr class="separator:a850a66da047ffbed2d459833cde45088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43a7470eeaae9d8022fd8ab9116b97f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af43a7470eeaae9d8022fd8ab9116b97f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#af43a7470eeaae9d8022fd8ab9116b97f">hash_combine_helper</a> (std::size_t &amp;ioSeed, const T &amp;inValue)</td></tr>
+<tr class="memdesc:af43a7470eeaae9d8022fd8ab9116b97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that hashes a single value into ioSeed Taken from: <a href="https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x">https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x</a>.  <a href="_hash_combine_8h.html#af43a7470eeaae9d8022fd8ab9116b97f">More...</a><br /></td></tr>
+<tr class="separator:af43a7470eeaae9d8022fd8ab9116b97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a00464051860d1901fc430551d37546"><td class="memTemplParams" colspan="2">template&lt;typename... Values&gt; </td></tr>
+<tr class="memitem:a0a00464051860d1901fc430551d37546"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#a0a00464051860d1901fc430551d37546">hash_combine</a> (std::size_t &amp;ioSeed, Values... inValues)</td></tr>
+<tr class="separator:a0a00464051860d1901fc430551d37546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aedd0cd83dae14bf34f99338587ab043d" name="aedd0cd83dae14bf34f99338587ab043d"></a>
@@ -151,12 +153,12 @@ Functions</h2></td></tr>
 <div class="line">    {                                                       \</div>
 <div class="line">        std::size_t operator()(<span class="keyword">const</span> type &amp;t) <span class="keyword">const</span>         \</div>
 <div class="line">        {                                                   \</div>
-<div class="line">            std::size_t ret = 0;                            <a class="code hl_function" href="_hash_combine_8h.html#aa8f52e080e3d54c72bd2f6040c05eb94">\</a></div>
-<div class="line"><a class="code hl_function" href="_hash_combine_8h.html#aa8f52e080e3d54c72bd2f6040c05eb94">            ::JPH::hash_combine</a>(ret, __VA_ARGS__);          \</div>
+<div class="line">            std::size_t ret = 0;                            <a class="code hl_function" href="_hash_combine_8h.html#a0a00464051860d1901fc430551d37546">\</a></div>
+<div class="line"><a class="code hl_function" href="_hash_combine_8h.html#a0a00464051860d1901fc430551d37546">            ::JPH::hash_combine</a>(ret, __VA_ARGS__);          \</div>
 <div class="line">            return ret;                                     \</div>
 <div class="line">        }                                                   \</div>
 <div class="line">    };</div>
-<div class="ttc" id="a_hash_combine_8h_html_aa8f52e080e3d54c72bd2f6040c05eb94"><div class="ttname"><a href="_hash_combine_8h.html#aa8f52e080e3d54c72bd2f6040c05eb94">hash_combine</a></div><div class="ttdeci">JPH_NAMESPACE_BEGIN void hash_combine(std::size_t &amp;ioSeed)</div><div class="ttdef"><b>Definition:</b> HashCombine.h:8</div></div>
+<div class="ttc" id="a_hash_combine_8h_html_a0a00464051860d1901fc430551d37546"><div class="ttname"><a href="_hash_combine_8h.html#a0a00464051860d1901fc430551d37546">hash_combine</a></div><div class="ttdeci">void hash_combine(std::size_t &amp;ioSeed, Values... inValues)</div><div class="ttdef"><b>Definition:</b> HashCombine.h:30</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -193,45 +195,19 @@ Functions</h2></td></tr>
 <div class="line"><a class="code hl_define" href="_hash_combine_8h.html#aedd0cd83dae14bf34f99338587ab043d">		JPH_MAKE_HASH_STRUCT</a>(type, hash&lt;type&gt;, __VA_ARGS__)   \</div>
 <div class="line">    }                                                       \</div>
 <div class="line">    JPH_SUPPRESS_WARNING_POP</div>
-<div class="ttc" id="a_hash_combine_8h_html_aedd0cd83dae14bf34f99338587ab043d"><div class="ttname"><a href="_hash_combine_8h.html#aedd0cd83dae14bf34f99338587ab043d">JPH_MAKE_HASH_STRUCT</a></div><div class="ttdeci">#define JPH_MAKE_HASH_STRUCT(type, name,...)</div><div class="ttdef"><b>Definition:</b> HashCombine.h:38</div></div>
+<div class="ttc" id="a_hash_combine_8h_html_aedd0cd83dae14bf34f99338587ab043d"><div class="ttname"><a href="_hash_combine_8h.html#aedd0cd83dae14bf34f99338587ab043d">JPH_MAKE_HASH_STRUCT</a></div><div class="ttdeci">#define JPH_MAKE_HASH_STRUCT(type, name,...)</div><div class="ttdef"><b>Definition:</b> HashCombine.h:41</div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> Reference.h:197</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aa8f52e080e3d54c72bd2f6040c05eb94" name="aa8f52e080e3d54c72bd2f6040c05eb94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8f52e080e3d54c72bd2f6040c05eb94">&#9670;&nbsp;</a></span>hash_combine() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void hash_combine </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t &amp;&#160;</td>
-          <td class="paramname"><em>ioSeed</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a850a66da047ffbed2d459833cde45088" name="a850a66da047ffbed2d459833cde45088"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a850a66da047ffbed2d459833cde45088">&#9670;&nbsp;</a></span>hash_combine() <span class="overload">[2/2]</span></h2>
+<a id="a0a00464051860d1901fc430551d37546" name="a0a00464051860d1901fc430551d37546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a00464051860d1901fc430551d37546">&#9670;&nbsp;</a></span>hash_combine()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename... Rest&gt; </div>
+template&lt;typename... Values&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -245,14 +221,8 @@ template&lt;typename T , typename... Rest&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>inValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rest...&#160;</td>
-          <td class="paramname"><em>inRest</em>&#160;</td>
+          <td class="paramtype">Values...&#160;</td>
+          <td class="paramname"><em>inValues</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -266,7 +236,7 @@ template&lt;typename T , typename... Rest&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Hash combiner to use a custom struct in an unordered map or set Taken from: <a href="https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x">https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x</a></p>
+<p >Hash combiner to use a custom struct in an unordered map or set</p>
 <p >Usage: </p><pre class="fragment">struct SomeHashKey 
 {
     std::string key1;
@@ -276,6 +246,46 @@ template&lt;typename T , typename... Rest&gt; </div>
 
 JPH_MAKE_HASHABLE(SomeHashKey, t.key1, t.key2, t.key3) 
 </pre> 
+</div>
+</div>
+<a id="af43a7470eeaae9d8022fd8ab9116b97f" name="af43a7470eeaae9d8022fd8ab9116b97f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af43a7470eeaae9d8022fd8ab9116b97f">&#9670;&nbsp;</a></span>hash_combine_helper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void hash_combine_helper </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t &amp;&#160;</td>
+          <td class="paramname"><em>ioSeed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>inValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that hashes a single value into ioSeed Taken from: <a href="https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x">https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x</a>. </p>
+
 </div>
 </div>
 </div><!-- contents -->
