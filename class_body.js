@@ -25,7 +25,6 @@ var class_body =
     [ "GetCenterOfMassTransform", "class_body.html#a1d0aa19c3ac9375c7cd441e2c7a57b90", null ],
     [ "GetCollisionGroup", "class_body.html#aca55936886e8c9d4dc072efa6e7baa47", null ],
     [ "GetCollisionGroup", "class_body.html#a5865492b92c7c2e321c6916e80f5b7cb", null ],
-    [ "GetDebugName", "class_body.html#a6346435d7746eb6385e4cb18d7900948", null ],
     [ "GetFriction", "class_body.html#abb35a0778672e9f3622d8cfa93b428b3", null ],
     [ "GetID", "class_body.html#ab76a68b10378fdc8eb6572b995a0d7d7", null ],
     [ "GetIndexInActiveBodiesInternal", "class_body.html#a61c94ac7d927ff8e5b3c980fc11af5a1", null ],

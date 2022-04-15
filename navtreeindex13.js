@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"class_path_constraint.html#ab2fd78b89e5df020c5ed865c900326d4":[3,0,157,4],
 "class_path_constraint.html#abd2aea13b507f29abea6a5b3d8e0d6da":[3,0,157,16],
 "class_path_constraint.html#acbf28a034310eaba5910867ebbdc932a":[3,0,157,11],
 "class_path_constraint.html#ad6901dcd63274ede819db76d1e68607e":[3,0,157,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "class_quat.html#aab09b7638f6936a9ad7a1e4ffce606e8":[3,0,181,0],
 "class_quat.html#ab226b2147a748e53008556bcf1a3cd76":[3,0,181,43],
 "class_quat.html#ab93ff288ad62172d343e11ce4fbf07d0":[3,0,181,24],
-"class_quat.html#abba5ae611cba89b67e967945ffe32c8f":[3,0,181,9]
+"class_quat.html#abba5ae611cba89b67e967945ffe32c8f":[3,0,181,9],
+"class_quat.html#abdb3a55008ba319143df69f97b94d7e5":[3,0,181,35]
 };
