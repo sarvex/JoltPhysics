@@ -103,7 +103,6 @@ $(document).ready(function(){initNavTree('_string_tools_8cpp.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab7af668641560a430a1bf46446dc9a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">JPH_SUPPRESS_WARNINGS_STD_BEGIN</a> <a class="el" href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a> <a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#ab7af668641560a430a1bf46446dc9a4d">StringFormat</a> (const char *inFMT,...)</td></tr>
-<tr class="memdesc:ab7af668641560a430a1bf46446dc9a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a formatted text string.  <a href="_string_tools_8cpp.html#ab7af668641560a430a1bf46446dc9a4d">More...</a><br /></td></tr>
 <tr class="separator:ab7af668641560a430a1bf46446dc9a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afca76833794de79415ae1f7abec18149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8cpp.html#afca76833794de79415ae1f7abec18149">StringReplace</a> (string &amp;ioString, const string_view &amp;inSearch, const string_view &amp;inReplace)</td></tr>
 <tr class="memdesc:afca76833794de79415ae1f7abec18149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace substring with other string.  <a href="_string_tools_8cpp.html#afca76833794de79415ae1f7abec18149">More...</a><br /></td></tr>
@@ -167,8 +166,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Create a formatted text string. </p>
+<p >Create a formatted text string for debugging purposes. Note that this function has an internal buffer of 1024 characters, so long strings will be trimmed. </p>
 
 </div>
 </div>

@@ -190,7 +190,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Called whenever a new contact point is detected. Note that this callback is called when all bodies are locked, so don't use any locking functions! <a class="el" href="class_body.html">Body</a> 1 and 2 will be sorted such that body 1 ID &lt; body 2 ID, so body 1 may not be dynamic </p>
+<p >Called whenever a new contact point is detected. Note that this callback is called when all bodies are locked, so don't use any locking functions! <a class="el" href="class_body.html">Body</a> 1 and 2 will be sorted such that body 1 ID &lt; body 2 ID, so body 1 may not be dynamic. Note that only active bodies will report contacts, as soon as a body goes to sleep the contacts between that body and all other bodies will receive an OnContactRemoved callback, if this is the case then <a class="el" href="class_body.html#ae172c10ebdda3e473ae54f7e35c62cd1" title="If this body is currently actively simulating (true) or sleeping (false)">Body::IsActive()</a> will return false during the callback. When contacts are added, the constraint solver has not run yet, so the collision impulse is unknown at that point. The velocities of inBody1 and inBody2 are the velocities before the contact has been resolved, so you can use this to estimate the collision impulse to e.g. determine the volume of the impact sound to play. </p>
 
 </div>
 </div>
@@ -239,7 +239,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Called whenever a contact is detected that was also detected last update. Note that this callback is called when all bodies are locked, so don't use any locking functions! <a class="el" href="class_body.html">Body</a> 1 and 2 will be sorted such that body 1 ID &lt; body 2 ID, so body 1 may not be dynamic </p>
+<p >Called whenever a contact is detected that was also detected last update. Note that this callback is called when all bodies are locked, so don't use any locking functions! <a class="el" href="class_body.html">Body</a> 1 and 2 will be sorted such that body 1 ID &lt; body 2 ID, so body 1 may not be dynamic. </p>
 
 </div>
 </div>
@@ -266,7 +266,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Called whenever a contact was detected last update but is not detected anymore. Note that this callback is called when all bodies are locked, so don't use any locking functions! Note that we're using <a class="el" href="class_body_i_d.html" title="ID of a body. This is a way of reasoning about bodies in a multithreaded simulation while avoiding ra...">BodyID</a>'s since the bodies may have been removed at the time of callback. <a class="el" href="class_body.html">Body</a> 1 and 2 will be sorted such that body 1 ID &lt; body 2 ID, so body 1 may not be dynamic </p>
+<p >Called whenever a contact was detected last update but is not detected anymore. Note that this callback is called when all bodies are locked, so don't use any locking functions! Note that we're using <a class="el" href="class_body_i_d.html" title="ID of a body. This is a way of reasoning about bodies in a multithreaded simulation while avoiding ra...">BodyID</a>'s since the bodies may have been removed at the time of callback. <a class="el" href="class_body.html">Body</a> 1 and 2 will be sorted such that body 1 ID &lt; body 2 ID, so body 1 may not be dynamic. </p>
 
 </div>
 </div>

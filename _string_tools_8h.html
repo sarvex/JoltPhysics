@@ -102,7 +102,6 @@ $(document).ready(function(){initNavTree('_string_tools_8h.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5004c90c251322f4cb9abbfe111f8909"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_tools_8h.html#a5004c90c251322f4cb9abbfe111f8909">StringFormat</a> (const char *inFMT,...)</td></tr>
-<tr class="memdesc:a5004c90c251322f4cb9abbfe111f8909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a formatted text string.  <a href="_string_tools_8h.html#a5004c90c251322f4cb9abbfe111f8909">More...</a><br /></td></tr>
 <tr class="separator:a5004c90c251322f4cb9abbfe111f8909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac14c45935d876f8bd80a547f3705b58"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aac14c45935d876f8bd80a547f3705b58"><td class="memTemplItemLeft" align="right" valign="top">string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_string_tools_8h.html#aac14c45935d876f8bd80a547f3705b58">ConvertToString</a> (const T &amp;inValue)</td></tr>
@@ -221,8 +220,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Create a formatted text string. </p>
+<p >Create a formatted text string for debugging purposes. Note that this function has an internal buffer of 1024 characters, so long strings will be trimmed. </p>
 
 </div>
 </div>

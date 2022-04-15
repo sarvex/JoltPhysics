@@ -134,10 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a76dd6be632967ea1f0348eca8155be44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collide_shape_result.html#a76dd6be632967ea1f0348eca8155be44">mContactPointOn1</a></td></tr>
-<tr class="memdesc:a76dd6be632967ea1f0348eca8155be44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contact point on shape 1 (in world space)  <a href="class_collide_shape_result.html#a76dd6be632967ea1f0348eca8155be44">More...</a><br /></td></tr>
+<tr class="memdesc:a76dd6be632967ea1f0348eca8155be44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contact point on the surface of shape 1 (in world space)  <a href="class_collide_shape_result.html#a76dd6be632967ea1f0348eca8155be44">More...</a><br /></td></tr>
 <tr class="separator:a76dd6be632967ea1f0348eca8155be44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f09d3bbc9e1563c974836c2327f73a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collide_shape_result.html#a2f09d3bbc9e1563c974836c2327f73a7">mContactPointOn2</a></td></tr>
-<tr class="memdesc:a2f09d3bbc9e1563c974836c2327f73a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contact point on shape 2 (in world space)  <a href="class_collide_shape_result.html#a2f09d3bbc9e1563c974836c2327f73a7">More...</a><br /></td></tr>
+<tr class="memdesc:a2f09d3bbc9e1563c974836c2327f73a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contact point on the surface of shape 2 (in world space). If the penetration depth is 0, this will be the same as mContactPointOn1.  <a href="class_collide_shape_result.html#a2f09d3bbc9e1563c974836c2327f73a7">More...</a><br /></td></tr>
 <tr class="separator:a2f09d3bbc9e1563c974836c2327f73a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3704397b8c4c6e39f2bb94bb477a7bc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collide_shape_result.html#a3704397b8c4c6e39f2bb94bb477a7bc7">mPenetrationAxis</a></td></tr>
 <tr class="memdesc:a3704397b8c4c6e39f2bb94bb477a7bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction to move shape 2 out of collision along the shortest path (magnitude is meaningless, in world space). You can use -mPenetrationAxis.Normalized() as contact normal.  <a href="class_collide_shape_result.html#a3704397b8c4c6e39f2bb94bb477a7bc7">More...</a><br /></td></tr>
@@ -331,7 +331,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Contact point on shape 1 (in world space) </p>
+<p>Contact point on the surface of shape 1 (in world space) </p>
 
 </div>
 </div>
@@ -347,7 +347,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Contact point on shape 2 (in world space) </p>
+<p>Contact point on the surface of shape 2 (in world space). If the penetration depth is 0, this will be the same as mContactPointOn1. </p>
 
 </div>
 </div>
