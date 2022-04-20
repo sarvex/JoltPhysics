@@ -297,110 +297,112 @@ $(document).ready(function(){initNavTree('_core_8h_source.html',''); initResizab
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">  201</a></span><span class="preprocessor">#define JPH_SUPPRESS_WARNINGS_STD_BEGIN     \</span></div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="preprocessor">    JPH_SUPPRESS_WARNING_PUSH               \</span></div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="preprocessor">    JPH_MSVC_SUPPRESS_WARNING(4710)         \</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="preprocessor">    JPH_MSVC_SUPPRESS_WARNING(4711)</span></div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno"><a class="line" href="_core_8h.html#a5f6b64537a538d9204b253532b799467">  206</a></span><span class="preprocessor">#define JPH_SUPPRESS_WARNINGS_STD_END       \</span></div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">    JPH_SUPPRESS_WARNING_POP</span></div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="comment">// Standard C++ includes</span></div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><a class="code hl_define" href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">JPH_SUPPRESS_WARNINGS_STD_BEGIN</a></div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="preprocessor">#include &lt;cmath&gt;</span></div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><a class="code hl_define" href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="preprocessor">#if defined(JPH_USE_SSE)</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span><span class="preprocessor">    #include &lt;immintrin.h&gt;</span></div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="preprocessor">#elif defined(JPH_USE_NEON)</span></div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="preprocessor">    #include &lt;arm_neon.h&gt;</span></div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><a class="code hl_define" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="preprocessor">    JPH_MSVC_SUPPRESS_WARNING(4711)         \</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="preprocessor">    JPH_MSVC_SUPPRESS_WARNING(4820)         \</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="preprocessor">    JPH_MSVC_SUPPRESS_WARNING(4514)</span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="_core_8h.html#a5f6b64537a538d9204b253532b799467">  208</a></span><span class="preprocessor">#define JPH_SUPPRESS_WARNINGS_STD_END       \</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">    JPH_SUPPRESS_WARNING_POP</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="comment">// Standard C++ includes</span></div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><a class="code hl_define" href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">JPH_SUPPRESS_WARNINGS_STD_BEGIN</a></div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span><a class="code hl_define" href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a></div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="preprocessor">#if defined(JPH_USE_SSE)</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="preprocessor">    #include &lt;immintrin.h&gt;</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span><span class="preprocessor">#elif defined(JPH_USE_NEON)</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span><span class="preprocessor">    #include &lt;arm_neon.h&gt;</span></div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespacestd.html">std</a>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><a class="code hl_define" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="comment">// Standard types</span></div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">  229</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> = <span class="keywordtype">unsigned</span> int;</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">  230</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> = uint8_t;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">  231</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">uint16</a> = uint16_t;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">  232</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> = uint32_t;</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno"><a class="line" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">  233</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> = uint64_t;</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="comment">// Assert sizes of types</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>) &gt;= 4, <span class="stringliteral">&quot;Invalid size of uint&quot;</span>);</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>) == 1, <span class="stringliteral">&quot;Invalid size of uint8&quot;</span>);</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">uint16</a>) == 2, <span class="stringliteral">&quot;Invalid size of uint16&quot;</span>);</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>) == 4, <span class="stringliteral">&quot;Invalid size of uint32&quot;</span>);</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>) == 8, <span class="stringliteral">&quot;Invalid size of uint64&quot;</span>);</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<span class="keywordtype">void</span> *) == 8, <span class="stringliteral">&quot;Invalid size of pointer&quot;</span>);</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="comment">// Define inline macro</span></div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC)</span></div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">    #define JPH_INLINE __inline__ __attribute__((always_inline))</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">    #define JPH_INLINE __forceinline</span></div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">    #error Undefined</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="comment">// Cache line size (used for aligning to cache line)</span></div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#ifndef JPH_CACHE_LINE_SIZE</span></div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">  254</a></span><span class="preprocessor">    #define JPH_CACHE_LINE_SIZE 64</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="comment">// Define macro to get current function name</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC)</span></div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">    #define JPH_FUNCTION_NAME   __PRETTY_FUNCTION__</span></div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">    #define JPH_FUNCTION_NAME   __FUNCTION__</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="preprocessor">    #error Undefined</span></div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="comment">// Stack allocation</span></div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno"><a class="line" href="_core_8h.html#a438e7b853f86742bcbdf0faeaa2094a2">  267</a></span><span class="preprocessor">#define JPH_STACK_ALLOC(n)      alloca(n)</span></div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="comment">// Shorthand for #ifdef _DEBUG / #endif</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#ifdef _DEBUG</span></div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span><span class="preprocessor">    #define JPH_IF_DEBUG(...)   __VA_ARGS__</span></div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="_core_8h.html#a3feba9adfefa0cf951f6b4aeb4990fb4">  273</a></span><span class="preprocessor">    #define JPH_IF_DEBUG(...)</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="comment">// Macro to indicate that a parameter / variable is unused</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="_core_8h.html#a719a73b9e445920bf5969f05d01ce69c">  277</a></span><span class="preprocessor">#define JPH_UNUSED(x)           (void)x</span></div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="comment">// Macro to enable floating point precise mode and to disable fused multiply add instructions</span></div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC)</span></div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="comment">// In clang it appears you cannot turn off -ffast-math and -ffp-contract=fast for a code block</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    <span class="comment">// There is #pragma clang fp contract (off) but that doesn&#39;t seem to work under clang 9 &amp; 10 when -ffast-math is specified on the commandline (you override it to turn it on, but not off)</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="comment">// There is #pragma float_control(precise, on) but that doesn&#39;t work under clang 9.</span></div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">// So for now we compile clang without -ffast-math so the macros are empty</span></div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    <span class="comment">// Unfortunately there is no way to push the state of fp_contract, so we have to assume it was turned on before JPH_PRECISE_MATH_ON</span></div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON                     \</span></div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">        __pragma(float_control(precise, on, push))  \</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span><span class="preprocessor">        __pragma(fp_contract(off))</span></div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF                    \</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="preprocessor">        __pragma(fp_contract(on))                   \</span></div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="preprocessor">        __pragma(float_control(pop))</span></div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span><span class="preprocessor">    #error Undefined</span></div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespacestd.html">std</a>;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="comment">// Standard types</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">  231</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> = <span class="keywordtype">unsigned</span> int;</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">  232</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> = uint8_t;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno"><a class="line" href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">  233</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">uint16</a> = uint16_t;</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">  234</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> = uint32_t;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">  235</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> = uint64_t;</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="comment">// Assert sizes of types</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>) &gt;= 4, <span class="stringliteral">&quot;Invalid size of uint&quot;</span>);</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>) == 1, <span class="stringliteral">&quot;Invalid size of uint8&quot;</span>);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">uint16</a>) == 2, <span class="stringliteral">&quot;Invalid size of uint16&quot;</span>);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>) == 4, <span class="stringliteral">&quot;Invalid size of uint32&quot;</span>);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<a class="code hl_typedef" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>) == 8, <span class="stringliteral">&quot;Invalid size of uint64&quot;</span>);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(<span class="keywordtype">void</span> *) == 8, <span class="stringliteral">&quot;Invalid size of pointer&quot;</span>);</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="comment">// Define inline macro</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC)</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">    #define JPH_INLINE __inline__ __attribute__((always_inline))</span></div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">    #define JPH_INLINE __forceinline</span></div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">    #error Undefined</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="comment">// Cache line size (used for aligning to cache line)</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#ifndef JPH_CACHE_LINE_SIZE</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno"><a class="line" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">  256</a></span><span class="preprocessor">    #define JPH_CACHE_LINE_SIZE 64</span></div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="comment">// Define macro to get current function name</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC)</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">    #define JPH_FUNCTION_NAME   __PRETTY_FUNCTION__</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="preprocessor">    #define JPH_FUNCTION_NAME   __FUNCTION__</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span><span class="preprocessor">    #error Undefined</span></div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="comment">// Stack allocation</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="_core_8h.html#a438e7b853f86742bcbdf0faeaa2094a2">  269</a></span><span class="preprocessor">#define JPH_STACK_ALLOC(n)      alloca(n)</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span><span class="comment">// Shorthand for #ifdef _DEBUG / #endif</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="preprocessor">#ifdef _DEBUG</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">    #define JPH_IF_DEBUG(...)   __VA_ARGS__</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="_core_8h.html#a3feba9adfefa0cf951f6b4aeb4990fb4">  275</a></span><span class="preprocessor">    #define JPH_IF_DEBUG(...)</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="comment">// Macro to indicate that a parameter / variable is unused</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno"><a class="line" href="_core_8h.html#a719a73b9e445920bf5969f05d01ce69c">  279</a></span><span class="preprocessor">#define JPH_UNUSED(x)           (void)x</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="comment">// Macro to enable floating point precise mode and to disable fused multiply add instructions</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC)</span></div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="comment">// In clang it appears you cannot turn off -ffast-math and -ffp-contract=fast for a code block</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">// There is #pragma clang fp contract (off) but that doesn&#39;t seem to work under clang 9 &amp; 10 when -ffast-math is specified on the commandline (you override it to turn it on, but not off)</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="comment">// There is #pragma float_control(precise, on) but that doesn&#39;t work under clang 9.</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="comment">// So for now we compile clang without -ffast-math so the macros are empty</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <span class="comment">// Unfortunately there is no way to push the state of fp_contract, so we have to assume it was turned on before JPH_PRECISE_MATH_ON</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON                     \</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span><span class="preprocessor">        __pragma(float_control(precise, on, push))  \</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="preprocessor">        __pragma(fp_contract(off))</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF                    \</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">        __pragma(fp_contract(on))                   \</span></div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span><span class="preprocessor">        __pragma(float_control(pop))</span></div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="preprocessor">    #error Undefined</span></div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span> </div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
 <div class="ttc" id="a_core_8h_html_a4ac413403e9ca00d24a3e2f244cf5456"><div class="ttname"><a href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">JPH_SUPPRESS_WARNINGS_STD_BEGIN</a></div><div class="ttdeci">#define JPH_SUPPRESS_WARNINGS_STD_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:201</div></div>
-<div class="ttc" id="a_core_8h_html_a5522c54735d837fae7d6ba026b858441"><div class="ttname"><a href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></div><div class="ttdeci">uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Core.h:232</div></div>
-<div class="ttc" id="a_core_8h_html_a5f6b64537a538d9204b253532b799467"><div class="ttname"><a href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a></div><div class="ttdeci">#define JPH_SUPPRESS_WARNINGS_STD_END</div><div class="ttdef"><b>Definition:</b> Core.h:206</div></div>
-<div class="ttc" id="a_core_8h_html_a69aa29b598b851b0640aa225a9e5d61d"><div class="ttname"><a href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> Core.h:229</div></div>
+<div class="ttc" id="a_core_8h_html_a5522c54735d837fae7d6ba026b858441"><div class="ttname"><a href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></div><div class="ttdeci">uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Core.h:234</div></div>
+<div class="ttc" id="a_core_8h_html_a5f6b64537a538d9204b253532b799467"><div class="ttname"><a href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a></div><div class="ttdeci">#define JPH_SUPPRESS_WARNINGS_STD_END</div><div class="ttdef"><b>Definition:</b> Core.h:208</div></div>
+<div class="ttc" id="a_core_8h_html_a69aa29b598b851b0640aa225a9e5d61d"><div class="ttname"><a href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> Core.h:231</div></div>
 <div class="ttc" id="a_core_8h_html_a73da8725998b00321a9db341202d650d"><div class="ttname"><a href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div><div class="ttdeci">#define JPH_NAMESPACE_END</div><div class="ttdef"><b>Definition:</b> Core.h:196</div></div>
-<div class="ttc" id="a_core_8h_html_aa17fc6cc2c9a4ad80e9fcdd3f64320e1"><div class="ttname"><a href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a></div><div class="ttdeci">uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Core.h:230</div></div>
-<div class="ttc" id="a_core_8h_html_aa720ba8c0d1dcc513c82c51d3f6e9995"><div class="ttname"><a href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">uint16</a></div><div class="ttdeci">uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Core.h:231</div></div>
-<div class="ttc" id="a_core_8h_html_aca0ba831b19773ec091e57f5cf76a1fb"><div class="ttname"><a href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a></div><div class="ttdeci">uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Core.h:233</div></div>
+<div class="ttc" id="a_core_8h_html_aa17fc6cc2c9a4ad80e9fcdd3f64320e1"><div class="ttname"><a href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a></div><div class="ttdeci">uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Core.h:232</div></div>
+<div class="ttc" id="a_core_8h_html_aa720ba8c0d1dcc513c82c51d3f6e9995"><div class="ttname"><a href="_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995">uint16</a></div><div class="ttdeci">uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Core.h:233</div></div>
+<div class="ttc" id="a_core_8h_html_aca0ba831b19773ec091e57f5cf76a1fb"><div class="ttname"><a href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a></div><div class="ttdeci">uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Core.h:235</div></div>
 <div class="ttc" id="a_core_8h_html_ad14098b68b8c44ea6112601031268405"><div class="ttname"><a href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define JPH_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:190</div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> Reference.h:197</div></div>
 </div><!-- fragment --></div><!-- contents -->
