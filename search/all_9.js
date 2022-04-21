@@ -8,7 +8,7 @@ var searchData=
   ['jobsystem_5',['JobSystem',['../class_job_system.html',1,'']]],
   ['jobsystem_2eh_6',['JobSystem.h',['../_job_system_8h.html',1,'']]],
   ['jobsystem_2einl_7',['JobSystem.inl',['../_job_system_8inl.html',1,'']]],
-  ['jobsystemthreadpool_8',['JobSystemThreadPool',['../class_job_system_thread_pool.html',1,'JobSystemThreadPool'],['../class_job_system_thread_pool.html#adaccd4fc1faa23f3883c2d16e32d0382',1,'JobSystemThreadPool::JobSystemThreadPool()']]],
+  ['jobsystemthreadpool_8',['JobSystemThreadPool',['../class_job_system_thread_pool.html#acf4a8888977261556ec87fea4ceb64aa',1,'JobSystemThreadPool::JobSystemThreadPool()=default'],['../class_job_system_thread_pool.html#adaccd4fc1faa23f3883c2d16e32d0382',1,'JobSystemThreadPool::JobSystemThreadPool(uint inMaxJobs, uint inMaxBarriers, int inNumThreads=-1)'],['../class_job_system_thread_pool.html',1,'JobSystemThreadPool']]],
   ['jobsystemthreadpool_2ecpp_9',['JobSystemThreadPool.cpp',['../_job_system_thread_pool_8cpp.html',1,'']]],
   ['jobsystemthreadpool_2eh_10',['JobSystemThreadPool.h',['../_job_system_thread_pool_8h.html',1,'']]],
   ['joint_11',['Joint',['../class_skeleton_1_1_joint.html',1,'Skeleton']]],
