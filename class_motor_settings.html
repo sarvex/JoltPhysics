@@ -140,22 +140,22 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a1d0006b3a5ecda5f0defa968280305a0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a1d0006b3a5ecda5f0defa968280305a0">mFrequency</a> = 2.0f</td></tr>
-<tr class="memdesc:a1d0006b3a5ecda5f0defa968280305a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oscillation frequency when solving position target (Hz)  <a href="class_motor_settings.html#a1d0006b3a5ecda5f0defa968280305a0">More...</a><br /></td></tr>
+<tr class="memdesc:a1d0006b3a5ecda5f0defa968280305a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oscillation frequency when solving position target (Hz). Should be in the range (0, 0.5 * simulation frequency]. When simulating at 60 Hz, 20 is a good value for a strong motor. Only used for position motors.  <a href="class_motor_settings.html#a1d0006b3a5ecda5f0defa968280305a0">More...</a><br /></td></tr>
 <tr class="separator:a1d0006b3a5ecda5f0defa968280305a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a1eb523e1f92e0a9bc5e6073681e31a12">mDamping</a> = 1.0f</td></tr>
-<tr class="memdesc:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damping when solving position target (0 = minimal damping, 1 = critical damping)  <a href="class_motor_settings.html#a1eb523e1f92e0a9bc5e6073681e31a12">More...</a><br /></td></tr>
+<tr class="memdesc:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damping when solving position target (0 = minimal damping, 1 = critical damping). Only used for position motors.  <a href="class_motor_settings.html#a1eb523e1f92e0a9bc5e6073681e31a12">More...</a><br /></td></tr>
 <tr class="separator:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#ac8b066324ceb0052a8ff637e77d4e9c1">mMinForceLimit</a> = -FLT_MAX</td></tr>
-<tr class="memdesc:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum force to apply in case of a linear constraint (N)  <a href="class_motor_settings.html#ac8b066324ceb0052a8ff637e77d4e9c1">More...</a><br /></td></tr>
+<tr class="memdesc:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum force to apply in case of a linear constraint (N). Usually this is -mMaxForceLimit unless you want a motor that can e.g. push but not pull. Not used when motor is an angular motor.  <a href="class_motor_settings.html#ac8b066324ceb0052a8ff637e77d4e9c1">More...</a><br /></td></tr>
 <tr class="separator:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacf73d5d1dc3d729ed505b01f2b91425"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#aacf73d5d1dc3d729ed505b01f2b91425">mMaxForceLimit</a> = FLT_MAX</td></tr>
-<tr class="memdesc:aacf73d5d1dc3d729ed505b01f2b91425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum force to apply in case of a linear constraint (N)  <a href="class_motor_settings.html#aacf73d5d1dc3d729ed505b01f2b91425">More...</a><br /></td></tr>
+<tr class="memdesc:aacf73d5d1dc3d729ed505b01f2b91425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum force to apply in case of a linear constraint (N). Not used when motor is an angular motor.  <a href="class_motor_settings.html#aacf73d5d1dc3d729ed505b01f2b91425">More...</a><br /></td></tr>
 <tr class="separator:aacf73d5d1dc3d729ed505b01f2b91425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7073ab453c838bef080a3386da6927bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a7073ab453c838bef080a3386da6927bd">mMinTorqueLimit</a> = -FLT_MAX</td></tr>
-<tr class="memdesc:a7073ab453c838bef080a3386da6927bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum torque to apply in case of a angular constraint (N m)  <a href="class_motor_settings.html#a7073ab453c838bef080a3386da6927bd">More...</a><br /></td></tr>
+<tr class="memdesc:a7073ab453c838bef080a3386da6927bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum torque to apply in case of a angular constraint (N m). Usually this is -mMaxTorqueLimit unless you want a motor that can e.g. push but not pull. Not used when motor is a position motor.  <a href="class_motor_settings.html#a7073ab453c838bef080a3386da6927bd">More...</a><br /></td></tr>
 <tr class="separator:a7073ab453c838bef080a3386da6927bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53921d266a57d01aa6833ca3fe09c3a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a53921d266a57d01aa6833ca3fe09c3a7">mMaxTorqueLimit</a> = FLT_MAX</td></tr>
-<tr class="memdesc:a53921d266a57d01aa6833ca3fe09c3a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum torque to apply in case of a angular constraint (N m)  <a href="class_motor_settings.html#a53921d266a57d01aa6833ca3fe09c3a7">More...</a><br /></td></tr>
+<tr class="memdesc:a53921d266a57d01aa6833ca3fe09c3a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum torque to apply in case of a angular constraint (N m). Not used when motor is a position motor.  <a href="class_motor_settings.html#a53921d266a57d01aa6833ca3fe09c3a7">More...</a><br /></td></tr>
 <tr class="separator:a53921d266a57d01aa6833ca3fe09c3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -511,7 +511,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Damping when solving position target (0 = minimal damping, 1 = critical damping) </p>
+<p>Damping when solving position target (0 = minimal damping, 1 = critical damping). Only used for position motors. </p>
 
 </div>
 </div>
@@ -527,7 +527,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Oscillation frequency when solving position target (Hz) </p>
+<p>Oscillation frequency when solving position target (Hz). Should be in the range (0, 0.5 * simulation frequency]. When simulating at 60 Hz, 20 is a good value for a strong motor. Only used for position motors. </p>
 
 </div>
 </div>
@@ -543,7 +543,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximum force to apply in case of a linear constraint (N) </p>
+<p>Maximum force to apply in case of a linear constraint (N). Not used when motor is an angular motor. </p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximum torque to apply in case of a angular constraint (N m) </p>
+<p>Maximum torque to apply in case of a angular constraint (N m). Not used when motor is a position motor. </p>
 
 </div>
 </div>
@@ -575,7 +575,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Minimum force to apply in case of a linear constraint (N) </p>
+<p>Minimum force to apply in case of a linear constraint (N). Usually this is -mMaxForceLimit unless you want a motor that can e.g. push but not pull. Not used when motor is an angular motor. </p>
 
 </div>
 </div>
@@ -591,7 +591,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Minimum torque to apply in case of a angular constraint (N m) </p>
+<p>Minimum torque to apply in case of a angular constraint (N m). Usually this is -mMaxTorqueLimit unless you want a motor that can e.g. push but not pull. Not used when motor is a position motor. </p>
 
 </div>
 </div>
