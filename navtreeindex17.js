@@ -98,6 +98,7 @@ var NAVTREEINDEX17 =
 "class_temp_allocator_impl.html":[3,0,247],
 "class_temp_allocator_impl.html#a7ced1650e61db4a4917ac8eb2e1cbe30":[3,0,247,1],
 "class_temp_allocator_impl.html#aa7b2ea67b67c57c776d4c2a415b430ba":[3,0,247,3],
+"class_temp_allocator_impl.html#ac998e260e54f25b3493d30e24b15bef2":[3,0,247,4],
 "class_temp_allocator_impl.html#adf9ef85969afed92a4fb14b1e6ff1ac5":[3,0,247,2],
 "class_temp_allocator_impl.html#af50a17b8fda06c2491ca0fe85e11ee1c":[3,0,247,0],
 "class_temp_allocator_malloc.html":[3,0,248],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "class_triangle_shape_settings.html#a4f21dc83442b7f3ebafa9fd5f2e84d66":[3,0,260,6],
 "class_triangle_shape_settings.html#abbb22ef04b44f97c24dfbd48b8446dbc":[3,0,260,1],
 "class_triangle_shape_settings.html#ace7ea628317505174644ccca3da1974e":[3,0,260,4],
-"class_triangle_shape_settings.html#ae2a8bff03ce1978d9e0f04b97e6c7966":[3,0,260,2],
-"class_triangle_shape_settings.html#af83ef4f5df583764de2506f2903c2e7b":[3,0,260,3]
+"class_triangle_shape_settings.html#ae2a8bff03ce1978d9e0f04b97e6c7966":[3,0,260,2]
 };

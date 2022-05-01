@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_wheeled_vehicle_controller.html#a00e70f705f6b7770e3e1e8461998e0bb":[3,0,292,14],
 "class_wheeled_vehicle_controller.html#a064bc3d019a1997828bc46c9201a0283":[3,0,292,19],
 "class_wheeled_vehicle_controller.html#a0a8a164e3c506f3763973ac2ae4cc656":[3,0,292,18],
 "class_wheeled_vehicle_controller.html#a22bd29e8d76290ee6fbfb10b8c207f83":[3,0,292,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "struct_body_manager_1_1_body_stats.html#a3130890dd64c4f77e59e0e7c2d67fa7d":[3,0,27,0,6],
 "struct_body_manager_1_1_body_stats.html#a511161e1cafdb900a27757884c8b909f":[3,0,27,0,4],
 "struct_body_manager_1_1_body_stats.html#a7ded35b48e2adbb4ce2f8ccb1740d7e8":[3,0,27,0,2],
-"struct_body_manager_1_1_body_stats.html#a90093dbd0710776837eb79efe56e976d":[3,0,27,0,1],
-"struct_body_manager_1_1_body_stats.html#a92eda2694c18702a18cf0fb0655bf2d7":[3,0,27,0,3]
+"struct_body_manager_1_1_body_stats.html#a90093dbd0710776837eb79efe56e976d":[3,0,27,0,1]
 };
