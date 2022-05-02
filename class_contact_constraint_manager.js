@@ -2,7 +2,7 @@ var class_contact_constraint_manager =
 [
     [ "ContactAllocator", "class_contact_constraint_manager_1_1_contact_allocator.html", "class_contact_constraint_manager_1_1_contact_allocator" ],
     [ "BodyPairHandle", "class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754", null ],
-    [ "CombineFunction", "class_contact_constraint_manager.html#ad014cb3f79e194113abc13db68b00062", null ],
+    [ "CombineFunction", "class_contact_constraint_manager.html#ad0b40a0f57d994f32b069744541fce56", null ],
     [ "ContactConstraintManager", "class_contact_constraint_manager.html#ad99d5188de106b071b28914b4bece25f", null ],
     [ "~ContactConstraintManager", "class_contact_constraint_manager.html#a99bbf2c00ef2ee156223858f2a2d6597", null ],
     [ "AddBodyPair", "class_contact_constraint_manager.html#a1527877d78511ca6896722d9416e09d1", null ],
