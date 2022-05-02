@@ -121,7 +121,6 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ad0b40a0f57d994f32b069744541fce56"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#ad0b40a0f57d994f32b069744541fce56">CombineFunction</a> = float(*)(const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID2)</td></tr>
-<tr class="memdesc:ad0b40a0f57d994f32b069744541fce56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function to combine the restitution or friction of two bodies.  <a href="class_contact_constraint_manager.html#ad0b40a0f57d994f32b069744541fce56">More...</a><br /></td></tr>
 <tr class="separator:ad0b40a0f57d994f32b069744541fce56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7bb30c442d466ba19b92f8b5ffb754"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754">BodyPairHandle</a> = void *</td></tr>
 <tr class="memdesc:a5d7bb30c442d466ba19b92f8b5ffb754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle used to keep track of the current body pair.  <a href="class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754">More...</a><br /></td></tr>
@@ -243,8 +242,7 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Callback function to combine the restitution or friction of two bodies. </p>
+<p >Callback function to combine the restitution or friction of two bodies Note that when merging manifolds (when <a class="el" href="struct_physics_settings.html#af715e8c12331e908a82768501d09db97" title="Whether or not to reduce manifolds with similar contact normals into one contact manifold.">PhysicsSettings::mUseManifoldReduction</a> is true) you will only get a callback for the merged manifold. It is not possible in that case to get all sub shape ID pairs that were colliding, you'll get the first encountered pair. </p>
 
 </div>
 </div>
