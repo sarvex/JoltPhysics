@@ -158,20 +158,20 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordtype">float</span> v_len_sq = v.<a class="code hl_function" href="class_vec3.html#aba501a6a474028084799f871c9083dc1">LengthSq</a>();</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordflow">if</span> (v_len_sq &gt;= inPrevVLenSq)</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordflow">if</span> (v_len_sq &lt; inPrevVLenSq) <span class="comment">// Note, comparison order important: If v_len_sq is NaN then this expression will be false so we will return false</span></div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        {</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            <span class="comment">// No better match found</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;New closer point is further away, failed to converge&quot;</span>);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            <span class="comment">// Return closest point</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            outV = v;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            outVLenSq = v_len_sq;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            outSet = set;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="comment">// Return closest point</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        outV = v;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        outVLenSq = v_len_sq;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        outSet = set;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="comment">// No better match found</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;New closer point is further away, failed to converge&quot;</span>);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="comment">// Get max(|Y_0|^2 .. |Y_n|^2)</span></div>
