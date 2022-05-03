@@ -24,7 +24,9 @@ var dir_cda60321bbaaff8ea6d2d4f4167dc560 =
       [ "ObjectStreamTextOut", "class_object_stream_text_out.html", "class_object_stream_text_out" ]
     ] ],
     [ "ObjectStreamTypes.h", "_object_stream_types_8h.html", null ],
-    [ "SerializableAttribute.h", "_serializable_attribute_8h.html", "_serializable_attribute_8h" ],
+    [ "SerializableAttribute.h", "_serializable_attribute_8h.html", [
+      [ "SerializableAttribute", "class_serializable_attribute.html", "class_serializable_attribute" ]
+    ] ],
     [ "SerializableAttributeEnum.h", "_serializable_attribute_enum_8h.html", "_serializable_attribute_enum_8h" ],
     [ "SerializableAttributeTyped.h", "_serializable_attribute_typed_8h.html", "_serializable_attribute_typed_8h" ],
     [ "SerializableObject.cpp", "_serializable_object_8cpp.html", "_serializable_object_8cpp" ],
