@@ -16,7 +16,7 @@ var class_debug_renderer_recorder =
     [ "CreateTriangleBatch", "class_debug_renderer_recorder.html#ad025c082a09dd0c9c981e71db1d9eb65", null ],
     [ "DrawGeometry", "class_debug_renderer_recorder.html#a52276221846a9d492e2e61ef2e3303bc", null ],
     [ "DrawLine", "class_debug_renderer_recorder.html#a3661f878a444838edeeaa39353931c65", null ],
-    [ "DrawText3D", "class_debug_renderer_recorder.html#ac320c69efa5e34245a57da487f9b6506", null ],
+    [ "DrawText3D", "class_debug_renderer_recorder.html#a826da5e3c241a054fc3a02c129d78aab", null ],
     [ "DrawTriangle", "class_debug_renderer_recorder.html#ae529a27de3547b012b6761b07e639c8c", null ],
     [ "EndFrame", "class_debug_renderer_recorder.html#a1beee4021111b00774e99dd134716b44", null ]
 ];

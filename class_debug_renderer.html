@@ -248,9 +248,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a52573899d288024e91ab3795c0d5ca47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01f8e16d8b5162ee31bd731b21733bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#a01f8e16d8b5162ee31bd731b21733bb8">DrawGeometry</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inModelMatrix, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inModelColor, const <a class="el" href="class_debug_renderer.html#a14f985628f2a9b8fe574ba2ba6e2c1bb">GeometryRef</a> &amp;inGeometry, <a class="el" href="class_debug_renderer.html#a54c5367f9b1f976cfe292dfa9ad2160a">ECullMode</a> inCullMode=<a class="el" href="class_debug_renderer.html#a54c5367f9b1f976cfe292dfa9ad2160aa770a11f4b59edd066dda0effd9752ce5">ECullMode::CullBackFace</a>, <a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9">ECastShadow</a> inCastShadow=<a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9a521c36a31c2762741cf0f8890cbe05e3">ECastShadow::On</a>, <a class="el" href="class_debug_renderer.html#ab9951f7e2a6dd10b4e8f3b40f01bba32">EDrawMode</a> inDrawMode=<a class="el" href="class_debug_renderer.html#ab9951f7e2a6dd10b4e8f3b40f01bba32ae41480b6bbfbf7407974a88d3d34f4fa">EDrawMode::Solid</a>)</td></tr>
 <tr class="separator:a01f8e16d8b5162ee31bd731b21733bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26dbfacf9ba8fa59f09b4ff27bbe71f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#a26dbfacf9ba8fa59f09b4ff27bbe71f3">DrawText3D</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, const string &amp;inString, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor=<a class="el" href="class_color.html#a6cb92698ec2b1bd630695716aaaf3bbd">Color::sWhite</a>, float inHeight=0.5f)=0</td></tr>
-<tr class="memdesc:a26dbfacf9ba8fa59f09b4ff27bbe71f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw text.  <a href="class_debug_renderer.html#a26dbfacf9ba8fa59f09b4ff27bbe71f3">More...</a><br /></td></tr>
-<tr class="separator:a26dbfacf9ba8fa59f09b4ff27bbe71f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a2d7527aebc261456e5a18a3da9a49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#ab9a2d7527aebc261456e5a18a3da9a49">DrawText3D</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, const string_view &amp;inString, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor=<a class="el" href="class_color.html#a6cb92698ec2b1bd630695716aaaf3bbd">Color::sWhite</a>, float inHeight=0.5f)=0</td></tr>
+<tr class="memdesc:ab9a2d7527aebc261456e5a18a3da9a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw text.  <a href="class_debug_renderer.html#ab9a2d7527aebc261456e5a18a3da9a49">More...</a><br /></td></tr>
+<tr class="separator:ab9a2d7527aebc261456e5a18a3da9a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1548,8 +1548,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a26dbfacf9ba8fa59f09b4ff27bbe71f3" name="a26dbfacf9ba8fa59f09b4ff27bbe71f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26dbfacf9ba8fa59f09b4ff27bbe71f3">&#9670;&nbsp;</a></span>DrawText3D()</h2>
+<a id="ab9a2d7527aebc261456e5a18a3da9a49" name="ab9a2d7527aebc261456e5a18a3da9a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9a2d7527aebc261456e5a18a3da9a49">&#9670;&nbsp;</a></span>DrawText3D()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1566,7 +1566,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramtype">const string_view &amp;&#160;</td>
           <td class="paramname"><em>inString</em>, </td>
         </tr>
         <tr>
@@ -1596,7 +1596,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Draw text. </p>
 
-<p>Implemented in <a class="el" href="class_debug_renderer_recorder.html#ac320c69efa5e34245a57da487f9b6506">DebugRendererRecorder</a>.</p>
+<p>Implemented in <a class="el" href="class_debug_renderer_recorder.html#a826da5e3c241a054fc3a02c129d78aab">DebugRendererRecorder</a>.</p>
 
 </div>
 </div>

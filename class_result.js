@@ -15,7 +15,7 @@ var class_result =
     [ "Set", "class_result.html#adc15ff63a9f642741226e8e40d808017", null ],
     [ "Set", "class_result.html#a2d4677e046c9d429f9a512342bdd479b", null ],
     [ "SetError", "class_result.html#a22ac380ffc00f33d49466729d22241b0", null ],
-    [ "SetError", "class_result.html#acd6e5bfe62556a9a9a1633ad2035dbb1", null ],
+    [ "SetError", "class_result.html#ad71493b9c42c291fed54ffd80f9b75ab", null ],
     [ "SetError", "class_result.html#a9a08f54bbd0fe07e5000d7a5e567e2c4", null ],
     [ "mError", "class_result.html#aaab9368e563d8b9033a9f74780a65d00", null ],
     [ "mResult", "class_result.html#a2540c24a649431bd9bdc679737c7df1d", null ]

@@ -18,5 +18,5 @@ var class_convex_hull_builder =
     [ "GetCenterOfMassAndVolume", "class_convex_hull_builder.html#a4e3fbe324250233f9a3d527004d08c09", null ],
     [ "GetFaces", "class_convex_hull_builder.html#a2eade6ba63e25c3bda4eaf159d1128ce", null ],
     [ "GetNumVerticesUsed", "class_convex_hull_builder.html#af5deecbd010d00845107696af6797e63", null ],
-    [ "Initialize", "class_convex_hull_builder.html#aee943ea71e749f012c3d23259e60a22e", null ]
+    [ "Initialize", "class_convex_hull_builder.html#afa4a4a97fc8ae9e58c039b3c36d10c54", null ]
 ];

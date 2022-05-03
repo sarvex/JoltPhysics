@@ -108,8 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a573d120362b45d1088d19c76001507db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a573d120362b45d1088d19c76001507db">GetPessimisticMemoryEstimate</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inTriangleCount) const</td></tr>
 <tr class="memdesc:a573d120362b45d1088d19c76001507db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an upper bound on the amount of bytes needed to store inTriangleCount triangles.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a573d120362b45d1088d19c76001507db">More...</a><br /></td></tr>
 <tr class="separator:a573d120362b45d1088d19c76001507db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a919ff9aedb64fa5211da123535b35dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a919ff9aedb64fa5211da123535b35dfc">Pack</a> (const <a class="el" href="_float3_8h.html#a6ee8949524ccdd223d8d7a8cab105e09">VertexList</a> &amp;inVertices, const <a class="el" href="_indexed_triangle_8h.html#ab39aee565a7fb2e5dbb15246dc102dcb">IndexedTriangleList</a> &amp;inTriangles, <a class="el" href="class_byte_buffer.html">ByteBuffer</a> &amp;ioBuffer, string &amp;outError)</td></tr>
-<tr class="separator:a919ff9aedb64fa5211da123535b35dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907af62c94f2eb920bde2291edb4fc59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a907af62c94f2eb920bde2291edb4fc59">Pack</a> (const <a class="el" href="_float3_8h.html#a6ee8949524ccdd223d8d7a8cab105e09">VertexList</a> &amp;inVertices, const <a class="el" href="_indexed_triangle_8h.html#ab39aee565a7fb2e5dbb15246dc102dcb">IndexedTriangleList</a> &amp;inTriangles, <a class="el" href="class_byte_buffer.html">ByteBuffer</a> &amp;ioBuffer, const char *&amp;outError)</td></tr>
+<tr class="separator:a907af62c94f2eb920bde2291edb4fc59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad35c4a81c082d0c810561a840ca6c01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#aad35c4a81c082d0c810561a840ca6c01">Finalize</a> (<a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html">TriangleHeader</a> *ioHeader, <a class="el" href="class_byte_buffer.html">ByteBuffer</a> &amp;ioBuffer) const</td></tr>
 <tr class="memdesc:aad35c4a81c082d0c810561a840ca6c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">After all triangles have been packed, this finalizes the header and triangle buffer.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#aad35c4a81c082d0c810561a840ca6c01">More...</a><br /></td></tr>
 <tr class="separator:aad35c4a81c082d0c810561a840ca6c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,8 +221,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a919ff9aedb64fa5211da123535b35dfc" name="a919ff9aedb64fa5211da123535b35dfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a919ff9aedb64fa5211da123535b35dfc">&#9670;&nbsp;</a></span>Pack()</h2>
+<a id="a907af62c94f2eb920bde2291edb4fc59" name="a907af62c94f2eb920bde2291edb4fc59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907af62c94f2eb920bde2291edb4fc59">&#9670;&nbsp;</a></span>Pack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +251,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramtype">const char *&amp;&#160;</td>
           <td class="paramname"><em>outError</em>&#160;</td>
         </tr>
         <tr>

@@ -5,7 +5,7 @@ var _string_tools_8h =
     [ "NibbleToBinary", "_string_tools_8h.html#a479eac2df35b47887f8dbfa014f6923d", null ],
     [ "StringFormat", "_string_tools_8h.html#a5004c90c251322f4cb9abbfe111f8909", null ],
     [ "StringReplace", "_string_tools_8h.html#afca76833794de79415ae1f7abec18149", null ],
-    [ "StringToVector", "_string_tools_8h.html#ae11a02d80f9f5aa4ae0d3ac8069f8ef9", null ],
+    [ "StringToVector", "_string_tools_8h.html#adfdec671aaeab706784422b86d1ce728", null ],
     [ "ToLower", "_string_tools_8h.html#a6369813c534bd8c705104341c08cd821", null ],
     [ "VectorToString", "_string_tools_8h.html#a175db19f98ec2ac1a2735d6f01d50a58", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_wheel_w_v.html#af5db5f73435db5c8f5d0422aea901897":[3,0,298,4],
+"class_wheeled_vehicle_controller.html":[3,0,292],
 "class_wheeled_vehicle_controller.html#a00e70f705f6b7770e3e1e8461998e0bb":[3,0,292,14],
 "class_wheeled_vehicle_controller.html#a064bc3d019a1997828bc46c9201a0283":[3,0,292,19],
 "class_wheeled_vehicle_controller.html#a0a8a164e3c506f3763973ac2ae4cc656":[3,0,292,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "struct_add_convex_radius.html#aa75c5abeaac64104be1a5520b8d141d1":[3,0,7,3],
 "struct_body_manager_1_1_body_stats.html":[3,0,27,0],
 "struct_body_manager_1_1_body_stats.html#a3130890dd64c4f77e59e0e7c2d67fa7d":[3,0,27,0,6],
-"struct_body_manager_1_1_body_stats.html#a511161e1cafdb900a27757884c8b909f":[3,0,27,0,4],
-"struct_body_manager_1_1_body_stats.html#a7ded35b48e2adbb4ce2f8ccb1740d7e8":[3,0,27,0,2],
-"struct_body_manager_1_1_body_stats.html#a90093dbd0710776837eb79efe56e976d":[3,0,27,0,1]
+"struct_body_manager_1_1_body_stats.html#a511161e1cafdb900a27757884c8b909f":[3,0,27,0,4]
 };

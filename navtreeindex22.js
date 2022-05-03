@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"struct_physics_settings.html#ae1969d17d76a46e36471e1289d02355f":[3,0,165,1],
+"struct_physics_settings.html#aefc600483ad1234713fbd572f80f00da":[3,0,165,6],
+"struct_physics_settings.html#af715e8c12331e908a82768501d09db97":[3,0,165,23],
+"struct_physics_settings.html#af9a3ca565935d36351a646e82ffe0867":[3,0,165,19],
 "struct_physics_update_context_1_1_body_pair_queue.html":[3,0,168,0],
 "struct_physics_update_context_1_1_body_pair_queue.html#a2022c7c479b154d1c42d4351c8d12ea4":[3,0,168,0,0],
 "struct_physics_update_context_1_1_body_pair_queue.html#abbf11d72c4fe4c3e5f7558f1b87c0495":[3,0,168,0,1],

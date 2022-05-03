@@ -45,7 +45,7 @@ var class_debug_renderer =
     [ "DrawPlane", "class_debug_renderer.html#af04cc11431633d15ed53c811d880d847", null ],
     [ "DrawSphere", "class_debug_renderer.html#a35f8fb04bfd4286a9b5f5d4d3cba451a", null ],
     [ "DrawSwingLimits", "class_debug_renderer.html#a532372b0da123ec504ed296647181f9d", null ],
-    [ "DrawText3D", "class_debug_renderer.html#a26dbfacf9ba8fa59f09b4ff27bbe71f3", null ],
+    [ "DrawText3D", "class_debug_renderer.html#ab9a2d7527aebc261456e5a18a3da9a49", null ],
     [ "DrawTriangle", "class_debug_renderer.html#a0e8454b8f01adfff89ac66f757c9a86a", null ],
     [ "DrawUnitSphere", "class_debug_renderer.html#afdf37987e2a27d20159dd66d18ca15a3", null ],
     [ "DrawWireBox", "class_debug_renderer.html#ab53b82d3cf818165e290e21691271de0", null ],
