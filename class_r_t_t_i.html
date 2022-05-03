@@ -246,8 +246,8 @@ JPH_IMPLEMENT_RTTI_VIRTUAL(Bar)
 { 
     JPH_ADD_BASE_CLASS(Bar, Foo)
 }
-</pre><p> Example of usage in a program: </p><pre class="fragment">pFoo foo_ptr = new Foo;
-pFoo bar_ptr = new Bar;
+</pre><p> Example of usage in a program: </p><pre class="fragment">Foo *foo_ptr = new Foo;
+Bar *bar_ptr = new Bar;
 
 IsType(foo_ptr, RTTI(Bar)) returns false
 IsType(bar_ptr, RTTI(Bar)) returns true
