@@ -134,8 +134,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afad98c73b77e9cef11cf5083a5866d49"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_object.html#afad98c73b77e9cef11cf5083a5866d49">~SerializableObject</a> ()=default</td></tr>
 <tr class="memdesc:afad98c73b77e9cef11cf5083a5866d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_serializable_object.html#afad98c73b77e9cef11cf5083a5866d49">More...</a><br /></td></tr>
 <tr class="separator:afad98c73b77e9cef11cf5083a5866d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07dbca09c48caf0bfe3275010c2cbc2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_object.html#ab07dbca09c48caf0bfe3275010c2cbc2">OnLoaded</a> ()</td></tr>
-<tr class="separator:ab07dbca09c48caf0bfe3275010c2cbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Classes must be derived from <a class="el" href="class_serializable_object.html">SerializableObject</a> if you want to be able to save pointers or reference counting pointers to objects of this or derived classes. The type will automatically be determined during serialization and upon deserialization it will be restored correctly. </p>
@@ -164,33 +162,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab07dbca09c48caf0bfe3275010c2cbc2" name="ab07dbca09c48caf0bfe3275010c2cbc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07dbca09c48caf0bfe3275010c2cbc2">&#9670;&nbsp;</a></span>OnLoaded()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void SerializableObject::OnLoaded </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Callback given when object has been loaded from an object stream This is called when all links have been resolved. Objects that this object point to have already received their OnLoaded callback. </p>
 
 </div>
 </div>

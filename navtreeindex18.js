@@ -1,17 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"class_triangle_shape_settings.html#ace7ea628317505174644ccca3da1974e":[3,0,260,4],
-"class_triangle_shape_settings.html#ae2a8bff03ce1978d9e0f04b97e6c7966":[3,0,260,2],
-"class_triangle_shape_settings.html#af83ef4f5df583764de2506f2903c2e7b":[3,0,260,3],
-"class_triangle_shape_settings.html#af98052e609dd5012dc60dc23e6fc811d":[3,0,260,0],
-"class_triangle_shape_settings.html#afdc5c0d06ca166fe0bf4fbec095588e3":[3,0,260,5],
-"class_triangle_splitter.html":[3,0,261],
-"class_triangle_splitter.html#a1264db44ab782cdb4d8e3b7857422c1a":[3,0,261,9],
-"class_triangle_splitter.html#a29fdff34f24303ee9d3c52dec0ad73b3":[3,0,261,3],
-"class_triangle_splitter.html#a3c2194216f5d24f127479da12dcd5cdf":[3,0,261,2],
-"class_triangle_splitter.html#a4ca9c0334863bd8615fbe9e498cfde44":[3,0,261,7],
-"class_triangle_splitter.html#a537998b55d090598c884630c73bde5f1":[3,0,261,13],
-"class_triangle_splitter.html#a86e7bc3a0bf6791a7eff53a5afe64475":[3,0,261,11],
 "class_triangle_splitter.html#ad58e7ea8a806e7e9df8ea5117ff2ebe8":[3,0,261,5],
 "class_triangle_splitter.html#ad9cb9d125c24255c964427e186e5076e":[3,0,261,8],
 "class_triangle_splitter.html#ae13f91686abe55d9a87f2f5685b6268e":[3,0,261,12],
@@ -249,5 +237,17 @@ var NAVTREEINDEX18 =
 "class_vec8.html#a3af12a0d40c2e64712a16b6e5d596eac":[3,0,274,1],
 "class_vec8.html#a4eabbb36d0b5c18dd521daa41d202b3c":[3,0,274,9],
 "class_vec8.html#a50640aa38e3cd80153dbac7f98fe111b":[3,0,274,18],
-"class_vec8.html#a535af944b1f32c306fb37a393ec16bd4":[3,0,274,3]
+"class_vec8.html#a535af944b1f32c306fb37a393ec16bd4":[3,0,274,3],
+"class_vec8.html#a5b527ce885b1b22c56173d4e48425bb3":[3,0,274,6],
+"class_vec8.html#a606b5595b25bd34a37820541b9e14c3e":[3,0,274,4],
+"class_vec8.html#a7ba524244b34059777fa93a63d551fda":[3,0,274,10],
+"class_vec8.html#a7e104be6684316118f94a6a0f2a8f488":[3,0,274,16],
+"class_vec8.html#a87dec3a15cde53d9ab439daa4ffe95d3":[3,0,274,2],
+"class_vec8.html#a8c58ab6a636af411c1aa0484c2378f0c":[3,0,274,7],
+"class_vec8.html#ac1997a67bd8996f29bf165b26f45ab06":[3,0,274,12],
+"class_vec8.html#ac6b079a5fb892087e7f29eb49d8de0ed":[3,0,274,5],
+"class_vec8.html#ad43ee4cb80f186dcdd2f0a71fc64fe13":[3,0,274,11],
+"class_vec8.html#ae0db0da7d3c6ce86e916b3e31825c4e0":[3,0,274,19],
+"class_vec8.html#aefa8b1857e93a3e0afc29f5ffc2eed8e":[3,0,274,8],
+"class_vec8.html#af61fb3312354c3fef8a753fd42d40ba9":[3,0,274,0]
 };

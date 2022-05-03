@@ -1,17 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_vec8.html#a5b527ce885b1b22c56173d4e48425bb3":[3,0,274,6],
-"class_vec8.html#a606b5595b25bd34a37820541b9e14c3e":[3,0,274,4],
-"class_vec8.html#a7ba524244b34059777fa93a63d551fda":[3,0,274,10],
-"class_vec8.html#a7e104be6684316118f94a6a0f2a8f488":[3,0,274,16],
-"class_vec8.html#a87dec3a15cde53d9ab439daa4ffe95d3":[3,0,274,2],
-"class_vec8.html#a8c58ab6a636af411c1aa0484c2378f0c":[3,0,274,7],
-"class_vec8.html#ac1997a67bd8996f29bf165b26f45ab06":[3,0,274,12],
-"class_vec8.html#ac6b079a5fb892087e7f29eb49d8de0ed":[3,0,274,5],
-"class_vec8.html#ad43ee4cb80f186dcdd2f0a71fc64fe13":[3,0,274,11],
-"class_vec8.html#ae0db0da7d3c6ce86e916b3e31825c4e0":[3,0,274,19],
-"class_vec8.html#aefa8b1857e93a3e0afc29f5ffc2eed8e":[3,0,274,8],
-"class_vec8.html#af61fb3312354c3fef8a753fd42d40ba9":[3,0,274,0],
 "class_vec8.html#afa43e457f8368acb7b249d9f13e484eb":[3,0,274,15],
 "class_vector.html":[3,0,275],
 "class_vector.html#a06ffa8aa3d40e7c93dde19725e77ff3a":[3,0,275,24],
@@ -249,5 +237,17 @@ var NAVTREEINDEX19 =
 "class_wheel_w_v.html#a5824fc9dc6c81f4bd1d03b8a51f1fcb8":[3,0,298,0],
 "class_wheel_w_v.html#a6f359594d9d3a9844a1b5c17960974d2":[3,0,298,6],
 "class_wheel_w_v.html#a8d82611fb63ebf51e726d0aff2db4cab":[3,0,298,1],
-"class_wheel_w_v.html#af4a4bb2b7d6fbc7100be7a6b9d189ea7":[3,0,298,5]
+"class_wheel_w_v.html#af4a4bb2b7d6fbc7100be7a6b9d189ea7":[3,0,298,5],
+"class_wheel_w_v.html#af5db5f73435db5c8f5d0422aea901897":[3,0,298,4],
+"class_wheeled_vehicle_controller.html":[3,0,292],
+"class_wheeled_vehicle_controller.html#a00e70f705f6b7770e3e1e8461998e0bb":[3,0,292,14],
+"class_wheeled_vehicle_controller.html#a064bc3d019a1997828bc46c9201a0283":[3,0,292,19],
+"class_wheeled_vehicle_controller.html#a0a8a164e3c506f3763973ac2ae4cc656":[3,0,292,18],
+"class_wheeled_vehicle_controller.html#a22bd29e8d76290ee6fbfb10b8c207f83":[3,0,292,21],
+"class_wheeled_vehicle_controller.html#a3a14cc53afb7a84709927cd9b5fc863b":[3,0,292,8],
+"class_wheeled_vehicle_controller.html#a3a3b66c895677f66890ddde7b5e6f9ba":[3,0,292,13],
+"class_wheeled_vehicle_controller.html#a3d1069e60f64ca74c667e120f06d34bf":[3,0,292,16],
+"class_wheeled_vehicle_controller.html#a459374f72146ee0bfe05ead3151d346c":[3,0,292,6],
+"class_wheeled_vehicle_controller.html#a4f7bcd7200890610de12f3eb207541e5":[3,0,292,17],
+"class_wheeled_vehicle_controller.html#a5138b0898fa52c09e75c3f583459c519":[3,0,292,20]
 };

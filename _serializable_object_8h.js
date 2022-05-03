@@ -1,7 +1,6 @@
 var _serializable_object_8h =
 [
     [ "SerializableObject", "class_serializable_object.html", "class_serializable_object" ],
-    [ "JPH_DECLARE_PRIMITIVE", "_serializable_object_8h.html#a7d32f5239cd276fd0012072a2a4ccd23", null ],
     [ "JPH_DECLARE_SERIALIZABLE_ABSTRACT", "_serializable_object_8h.html#ac0885ae38a6b8cd63fc03faca1bd0b43", null ],
     [ "JPH_DECLARE_SERIALIZABLE_ABSTRACT_BASE", "_serializable_object_8h.html#aeda845bb1f1c295d27ef50d70b319823", null ],
     [ "JPH_DECLARE_SERIALIZABLE_NON_VIRTUAL", "_serializable_object_8h.html#ab5be2aa0350f70375cd87ec1e4a1a44c", null ],
@@ -15,11 +14,5 @@ var _serializable_object_8h =
     [ "JPH_IMPLEMENT_SERIALIZABLE_OUTSIDE_CLASS", "_serializable_object_8h.html#a8d52ce16aca23d1e5a6933b4607f7f8a", null ],
     [ "JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL", "_serializable_object_8h.html#ad9a7708c6cfef4f2b257db2f06f17b6b", null ],
     [ "JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL_BASE", "_serializable_object_8h.html#aa59eb84cc23028203085e2c3fce663d2", null ],
-    [ "JPH_IMPLEMENT_SERIALIZATION_FUNCTIONS", "_serializable_object_8h.html#a9ff80255cadbb579a6be539451245df7", null ],
-    [ "OSVisitCompounds", "_serializable_object_8h.html#a0042be0a8507367441fb7514d6cf06a0", null ],
-    [ "OSVisitCompounds", "_serializable_object_8h.html#a0ec564e3cba18f386f7af2660b86017d", null ],
-    [ "OSVisitCompounds", "_serializable_object_8h.html#afe08583e9d38019009e9d1de5df0f821", null ],
-    [ "OSVisitCompounds", "_serializable_object_8h.html#a6d0d1d325bba959b2c451e01a5f6af3a", null ],
-    [ "OSVisitCompounds", "_serializable_object_8h.html#a86dc290e24bc315107970dfb3b79437e", null ],
-    [ "OSVisitCompounds", "_serializable_object_8h.html#a87b2d7eae26e4744985e4d77a942ebbc", null ]
+    [ "JPH_IMPLEMENT_SERIALIZATION_FUNCTIONS", "_serializable_object_8h.html#a9ff80255cadbb579a6be539451245df7", null ]
 ];
