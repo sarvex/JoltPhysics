@@ -3,7 +3,6 @@ var hierarchy =
     [ "AABBTreeBuilder", "class_a_a_b_b_tree_builder.html", null ],
     [ "AABBTreeBuilderStats", "struct_a_a_b_b_tree_builder_stats.html", null ],
     [ "AABBTreeToBuffer< TriangleCodec, NodeCodec >", "class_a_a_b_b_tree_to_buffer.html", null ],
-    [ "AABBTreeToBufferStats", "struct_a_a_b_b_tree_to_buffer_stats.html", null ],
     [ "AABox", "class_a_a_box.html", null ],
     [ "AABoxCast", "struct_a_a_box_cast.html", null ],
     [ "AddConvexRadius< ConvexObject >", "struct_add_convex_radius.html", null ],

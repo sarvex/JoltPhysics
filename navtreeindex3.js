@@ -1,11 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"_reference_8h.html":[4,0,1,1,31],
-"_reference_8h_source.html":[4,0,1,1,31],
-"_register_types_8cpp.html":[4,0,1,12],
-"_register_types_8cpp.html#a85816665d61c7a3736ef8f286d11f907":[4,0,1,12,0],
-"_register_types_8h.html":[4,0,1,13],
-"_register_types_8h.html#a85816665d61c7a3736ef8f286d11f907":[4,0,1,13,0],
 "_register_types_8h_source.html":[4,0,1,13],
 "_result_8h.html":[4,0,1,1,32],
 "_result_8h_source.html":[4,0,1,1,32],
@@ -249,5 +243,11 @@ var NAVTREEINDEX3 =
 "_triangle_splitter_morton_8h.html":[4,0,1,9,11],
 "_triangle_splitter_morton_8h_source.html":[4,0,1,9,11],
 "_two_body_constraint_8cpp.html":[4,0,1,5,3,31],
-"_two_body_constraint_8cpp.html#ab5fb5645c9d70816376dbc17a2ef8319":[4,0,1,5,3,31,0]
+"_two_body_constraint_8cpp.html#ab5fb5645c9d70816376dbc17a2ef8319":[4,0,1,5,3,31,0],
+"_two_body_constraint_8h.html":[4,0,1,5,3,32],
+"_two_body_constraint_8h_source.html":[4,0,1,5,3,32],
+"_type_declarations_8cpp.html":[4,0,1,4,21],
+"_type_declarations_8cpp.html#a0d364d20a949b53123721b4a1dadd211":[4,0,1,4,21,3],
+"_type_declarations_8cpp.html#a14368ea43f4ce4f5ea0ba52e37759e07":[4,0,1,4,21,6],
+"_type_declarations_8cpp.html#a221b2591d49ca3ada970057fcc3f2225":[4,0,1,4,21,9]
 };

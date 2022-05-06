@@ -116,9 +116,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3651bcf91b1455bb60523615b8f3b956"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_a_b_b_tree_to_buffer.html#a3651bcf91b1455bb60523615b8f3b956">Convert</a> (const <a class="el" href="_float3_8h.html#a6ee8949524ccdd223d8d7a8cab105e09">VertexList</a> &amp;inVertices, const <a class="el" href="class_a_a_b_b_tree_builder_1_1_node.html">AABBTreeBuilder::Node</a> *inRoot, <a class="el" href="struct_a_a_b_b_tree_to_buffer_stats.html">AABBTreeToBufferStats</a> &amp;outStats, const char *&amp;outError, <a class="el" href="_a_a_b_b_tree_to_buffer_8h.html#afea559fff05dcc1095a2c872c89490be">EAABBTreeToBufferConvertMode</a> inConvertMode=<a class="el" href="_a_a_b_b_tree_to_buffer_8h.html#afea559fff05dcc1095a2c872c89490beaef14bbc82271ba8488c94a6dd351ade3">EAABBTreeToBufferConvertMode::DepthFirst</a>)</td></tr>
-<tr class="memdesc:a3651bcf91b1455bb60523615b8f3b956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert AABB tree. Returns false if failed.  <a href="class_a_a_b_b_tree_to_buffer.html#a3651bcf91b1455bb60523615b8f3b956">More...</a><br /></td></tr>
-<tr class="separator:a3651bcf91b1455bb60523615b8f3b956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ce085b937332db1147e9c35b4e091b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_a_b_b_tree_to_buffer.html#a03ce085b937332db1147e9c35b4e091b">Convert</a> (const <a class="el" href="_float3_8h.html#a6ee8949524ccdd223d8d7a8cab105e09">VertexList</a> &amp;inVertices, const <a class="el" href="class_a_a_b_b_tree_builder_1_1_node.html">AABBTreeBuilder::Node</a> *inRoot, const char *&amp;outError)</td></tr>
+<tr class="memdesc:a03ce085b937332db1147e9c35b4e091b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert AABB tree. Returns false if failed.  <a href="class_a_a_b_b_tree_to_buffer.html#a03ce085b937332db1147e9c35b4e091b">More...</a><br /></td></tr>
+<tr class="separator:a03ce085b937332db1147e9c35b4e091b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a841bb385899da6eb30c41c225ff61ddf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_byte_buffer.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_a_b_b_tree_to_buffer.html#a841bb385899da6eb30c41c225ff61ddf">GetBuffer</a> () const</td></tr>
 <tr class="memdesc:a841bb385899da6eb30c41c225ff61ddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get resulting data.  <a href="class_a_a_b_b_tree_to_buffer.html#a841bb385899da6eb30c41c225ff61ddf">More...</a><br /></td></tr>
 <tr class="separator:a841bb385899da6eb30c41c225ff61ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,8 +188,8 @@ template&lt;class <a class="el" href="_mesh_shape_8cpp.html#ac66250df9dfa2a3f10f
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3651bcf91b1455bb60523615b8f3b956" name="a3651bcf91b1455bb60523615b8f3b956"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3651bcf91b1455bb60523615b8f3b956">&#9670;&nbsp;</a></span>Convert()</h2>
+<a id="a03ce085b937332db1147e9c35b4e091b" name="a03ce085b937332db1147e9c35b4e091b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ce085b937332db1147e9c35b4e091b">&#9670;&nbsp;</a></span>Convert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,20 +214,8 @@ template&lt;class <a class="el" href="_mesh_shape_8cpp.html#ac66250df9dfa2a3f10f
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_a_a_b_b_tree_to_buffer_stats.html">AABBTreeToBufferStats</a> &amp;&#160;</td>
-          <td class="paramname"><em>outStats</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const char *&amp;&#160;</td>
-          <td class="paramname"><em>outError</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_a_a_b_b_tree_to_buffer_8h.html#afea559fff05dcc1095a2c872c89490be">EAABBTreeToBufferConvertMode</a>&#160;</td>
-          <td class="paramname"><em>inConvertMode</em> = <code><a class="el" href="_a_a_b_b_tree_to_buffer_8h.html#afea559fff05dcc1095a2c872c89490beaef14bbc82271ba8488c94a6dd351ade3">EAABBTreeToBufferConvertMode::DepthFirst</a></code>&#160;</td>
+          <td class="paramname"><em>outError</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -1,7 +1,7 @@
 var class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context =
 [
-    [ "Finalize", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#aad35c4a81c082d0c810561a840ca6c01", null ],
+    [ "EncodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a1a7a9c8bdd917bf0e4b95a88694c8630", null ],
+    [ "Finalize", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a795673261b70c6dcf35cc2b95cc6e901", null ],
     [ "GetPessimisticMemoryEstimate", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a573d120362b45d1088d19c76001507db", null ],
-    [ "GetStats", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#ac5816fd3a858ec26f64f39cf00972834", null ],
-    [ "Pack", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a907af62c94f2eb920bde2291edb4fc59", null ]
+    [ "Pack", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a50a1460500545669a8ace0085df1de47", null ]
 ];

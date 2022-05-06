@@ -8,7 +8,6 @@ var annotated_dup =
     [ "AABBTreeBuilder", "class_a_a_b_b_tree_builder.html", "class_a_a_b_b_tree_builder" ],
     [ "AABBTreeBuilderStats", "struct_a_a_b_b_tree_builder_stats.html", "struct_a_a_b_b_tree_builder_stats" ],
     [ "AABBTreeToBuffer", "class_a_a_b_b_tree_to_buffer.html", "class_a_a_b_b_tree_to_buffer" ],
-    [ "AABBTreeToBufferStats", "struct_a_a_b_b_tree_to_buffer_stats.html", "struct_a_a_b_b_tree_to_buffer_stats" ],
     [ "AABox", "class_a_a_box.html", "class_a_a_box" ],
     [ "AABoxCast", "struct_a_a_box_cast.html", "struct_a_a_box_cast" ],
     [ "AddConvexRadius", "struct_add_convex_radius.html", "struct_add_convex_radius" ],
