@@ -8,6 +8,5 @@ var class_ref_target =
     [ "operator=", "class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0", null ],
     [ "Release", "class_ref_target.html#a0451661dd5d85b01f969319e767993eb", null ],
     [ "SetEmbedded", "class_ref_target.html#a95564da01497c62572a6718dad400097", null ],
-    [ "SetRefCountInternal", "class_ref_target.html#ac0b5e98a214b523944d1fcd9d47a5475", null ],
     [ "mRefCount", "class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231", null ]
 ];

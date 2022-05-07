@@ -126,9 +126,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acf02c18a343bc9de9d6afb7c966f0363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0451661dd5d85b01f969319e767993eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a0451661dd5d85b01f969319e767993eb">Release</a> () const</td></tr>
 <tr class="separator:a0451661dd5d85b01f969319e767993eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0b5e98a214b523944d1fcd9d47a5475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#ac0b5e98a214b523944d1fcd9d47a5475">SetRefCountInternal</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inRefCount)</td></tr>
-<tr class="memdesc:ac0b5e98a214b523944d1fcd9d47a5475"><td class="mdescLeft">&#160;</td><td class="mdescRight">INTERNAL HELPER FUNCTION TO OVERRIDE THE REFCOUNT OF AN OBJECT. USE WITH GREAT CARE!  <a href="class_ref_target.html#ac0b5e98a214b523944d1fcd9d47a5475">More...</a><br /></td></tr>
-<tr class="separator:ac0b5e98a214b523944d1fcd9d47a5475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -381,36 +378,6 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Mark this class as embedded, this means the type can be used in a compound or constructed on the stack. The Release function will never destruct the object, it is assumed the destructor will be called by whoever allocated the object and at that point in time it is checked that no references are left to the structure. </p>
-
-</div>
-</div>
-<a id="ac0b5e98a214b523944d1fcd9d47a5475" name="ac0b5e98a214b523944d1fcd9d47a5475"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0b5e98a214b523944d1fcd9d47a5475">&#9670;&nbsp;</a></span>SetRefCountInternal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::SetRefCountInternal </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
-          <td class="paramname"><em>inRefCount</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>INTERNAL HELPER FUNCTION TO OVERRIDE THE REFCOUNT OF AN OBJECT. USE WITH GREAT CARE! </p>
 
 </div>
 </div>
