@@ -390,7 +390,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
 <div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
 <div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        <span class="comment">// Generate the hull of the Minkowski difference for visualization</span></div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        <a class="code hl_struct" href="struct_minkowski_difference.html">MinkowskiDifference&lt;A, B&gt;</a> diff(inA, inB);</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        <a class="code hl_struct" href="struct_minkowski_difference.html">MinkowskiDifference</a> diff(inA, inB);</div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>        mGeometry = <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a1bdabf1f8c704744a26370c5c9829b14">CreateTriangleGeometryForConvex</a>([&amp;diff](<a class="code hl_class" href="class_vec3.html">Vec3Arg</a> inDirection) { <span class="keywordflow">return</span> diff.<a class="code hl_function" href="struct_minkowski_difference.html#ad9e15e934b19be1df6e09a926a1e26dd">GetSupport</a>(inDirection); });</div>
 <div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i)</div>
@@ -703,286 +703,284 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00666" name="l00666"></a><span class="lineno"><a class="line" href="class_g_j_k_closest_point.html#a66d20557ad6d34a1c1f29b6df058b523">  666</a></span>    <span class="keywordtype">bool</span>        <a class="code hl_function" href="class_g_j_k_closest_point.html#a66d20557ad6d34a1c1f29b6df058b523">CastShape</a>(<a class="code hl_class" href="class_mat44.html">Mat44Arg</a> inStart, <a class="code hl_class" href="class_vec3.html">Vec3Arg</a> inDirection, <span class="keywordtype">float</span> inTolerance, <span class="keyword">const</span> A &amp;inA, <span class="keyword">const</span> B &amp;inB, <span class="keywordtype">float</span> &amp;ioLambda)</div>
 <div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    {</div>
 <div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>        <span class="comment">// Transform the shape to be cast to the starting position</span></div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>        <span class="keyword">using</span> TransformedA = <a class="code hl_struct" href="struct_transformed_convex_object.html">TransformedConvexObject&lt;A&gt;</a>;</div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>        TransformedA transformed_a(inStart, inA);</div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span> </div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>        <span class="comment">// Calculate the minkowski difference inB - inA</span></div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>        <span class="comment">// inA is moving, so we need to add the back side of inB to the front side of inA</span></div>
-<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>        <a class="code hl_struct" href="struct_minkowski_difference.html">MinkowskiDifference&lt;B, TransformedA&gt;</a> difference(inB, transformed_a);</div>
-<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span> </div>
-<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>        <span class="comment">// Do a raycast against the Minkowski difference</span></div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_g_j_k_closest_point.html#ade3cde48252b6f77f749f9ac29685ec7">CastRay</a>(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>(), inDirection, inTolerance, difference, ioLambda);</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>    }</div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span> </div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> A, <span class="keyword">typename</span> B&gt;</div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno"><a class="line" href="class_g_j_k_closest_point.html#aa5b19da7e23744cb5c1af8fe2fee2940">  698</a></span>    <span class="keywordtype">bool</span>        <a class="code hl_function" href="class_g_j_k_closest_point.html#aa5b19da7e23744cb5c1af8fe2fee2940">CastShape</a>(<a class="code hl_class" href="class_mat44.html">Mat44Arg</a> inStart, <a class="code hl_class" href="class_vec3.html">Vec3Arg</a> inDirection, <span class="keywordtype">float</span> inTolerance, <span class="keyword">const</span> A &amp;inA, <span class="keyword">const</span> B &amp;inB, <span class="keywordtype">float</span> inConvexRadiusA, <span class="keywordtype">float</span> inConvexRadiusB, <span class="keywordtype">float</span> &amp;ioLambda, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outPointA, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outPointB, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outSeparatingAxis)</div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>    {</div>
-<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>        <span class="keywordtype">float</span> tolerance_sq = <a class="code hl_function" href="_math_8h.html#ae503305e611d695797d7a7a8a55de891">Square</a>(inTolerance);</div>
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span> </div>
-<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>        <span class="comment">// Calculate how close A and B (without their convex radius) need to be to eachother in order for us to consider this a collision</span></div>
-<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>        <span class="keywordtype">float</span> sum_convex_radius = inConvexRadiusA + inConvexRadiusB;</div>
-<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span> </div>
-<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>        <span class="comment">// Transform the shape to be cast to the starting position</span></div>
-<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>        <span class="keyword">using</span> TransformedA = <a class="code hl_struct" href="struct_transformed_convex_object.html">TransformedConvexObject&lt;A&gt;</a>;</div>
-<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>        TransformedA transformed_a(inStart, inA);</div>
-<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span> </div>
-<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>        <span class="comment">// Reset state</span></div>
-<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>        mNumPoints = 0;</div>
-<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span> </div>
-<div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>        <span class="keywordtype">float</span> lambda = 0.0f;</div>
-<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> x = <a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>(); <span class="comment">// Since A is already transformed we can start the cast from zero</span></div>
-<div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> v = -inA.GetSupport(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>());</div>
-<div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>        <span class="keywordtype">float</span> v_len_sq = FLT_MAX;</div>
-<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>        <span class="keywordtype">bool</span> allow_restart = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span> </div>
-<div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>        <span class="comment">// Keeps track of separating axis of the previous iteration.</span></div>
-<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>        <span class="comment">// Initialized at zero as we don&#39;t know if our first v is actually a separating axis.</span></div>
-<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> prev_v = <a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>();</div>
-<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span> </div>
-<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>        <span class="keywordflow">for</span> (;;)</div>
-<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>        {</div>
-<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;v = [%s], num_points = %d&quot;</span>, <a class="code hl_function" href="_string_tools_8h.html#aac14c45935d876f8bd80a547f3705b58">ConvertToString</a>(v).c_str(), mNumPoints);</div>
-<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span> </div>
-<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>            <span class="comment">// Calculate the minkowski difference inB - inA</span></div>
-<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>            <span class="comment">// inA is moving, so we need to add the back side of inB to the front side of inA</span></div>
-<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>            <span class="comment">// Keep the support points on A and B separate so that in the end we can calculate a contact point</span></div>
-<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> p = transformed_a.GetSupport(-v);</div>
-<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> q = inB.GetSupport(v);</div>
-<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> w = x - (q - p);</div>
-<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span> </div>
-<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;w = [%s]&quot;</span>, <a class="code hl_function" href="_string_tools_8h.html#aac14c45935d876f8bd80a547f3705b58">ConvertToString</a>(w).c_str());</div>
-<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span> </div>
-<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>            <span class="comment">// Difference from article to this code:</span></div>
-<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>            <span class="comment">// We did not include the convex radius in p and q in order to be able to calculate a good separating axis at the end of the algorithm.</span></div>
-<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>            <span class="comment">// However when moving forward along inDirection we do need to take this into account so that we keep A and B separated by the sum of their convex radii.</span></div>
-<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>            <span class="comment">// From p we have to subtract: inConvexRadiusA * v / |v|</span></div>
-<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>            <span class="comment">// To q we have to add: inConvexRadiusB * v / |v|</span></div>
-<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>            <span class="comment">// This means that to w we have to add: -(inConvexRadiusA + inConvexRadiusB) * v / |v|</span></div>
-<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>            <span class="comment">// So to v . w we have to add: v . (-(inConvexRadiusA + inConvexRadiusB) * v / |v|) = -(inConvexRadiusA + inConvexRadiusB) * |v|</span></div>
-<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>            <span class="keywordtype">float</span> v_dot_w = v.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(w) - sum_convex_radius * v.<a class="code hl_function" href="class_vec3.html#a38a9efffc3f9413f3dd702abc73eb9a2">Length</a>();</div>
-<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;v . w = %g&quot;</span>, v_dot_w);</div>
-<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>            <span class="keywordflow">if</span> (v_dot_w &gt; 0.0f)</div>
-<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>            {</div>
-<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>                <span class="comment">// If ray and normal are in the same direction, we&#39;ve passed A and there&#39;s no collision</span></div>
-<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>                <span class="keywordtype">float</span> v_dot_r = v.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(inDirection);</div>
-<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;v . r = %g&quot;</span>, v_dot_r);</div>
-<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span>                <span class="keywordflow">if</span> (v_dot_r &gt;= 0.0f)</div>
-<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span> </div>
-<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>                <span class="comment">// Update the lower bound for lambda</span></div>
-<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>                <span class="keywordtype">float</span> delta = v_dot_w / v_dot_r;</div>
-<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span>                <span class="keywordtype">float</span> old_lambda = lambda;</div>
-<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>                lambda -= delta;</div>
-<div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;lambda = %g, delta = %g&quot;</span>, lambda, delta);</div>
-<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span> </div>
-<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>                <span class="comment">// If lambda didn&#39;t change, we cannot converge any further and we assume a hit</span></div>
-<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span>                <span class="keywordflow">if</span> (old_lambda == lambda)</div>
-<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span> </div>
-<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>                <span class="comment">// If lambda is bigger or equal than max, we don&#39;t have a hit</span></div>
-<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span>                <span class="keywordflow">if</span> (lambda &gt;= ioLambda)</div>
-<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span> </div>
-<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>                <span class="comment">// Update x to new closest point on the ray</span></div>
-<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>                x = lambda * inDirection;</div>
-<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>                </div>
-<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>                <span class="comment">// We&#39;ve shifted x, so reset v_len_sq so that it is not used as early out when GetClosest returns false</span></div>
-<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>                v_len_sq = FLT_MAX;</div>
-<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span> </div>
-<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>                <span class="comment">// Now that we&#39;ve moved, we know that A and B are not intersecting at lambda = 0, so we can update our tolerance to stop iterating</span></div>
-<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>                <span class="comment">// as soon as A and B are inConvexRadiusA + inConvexRadiusB apart</span></div>
-<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>                tolerance_sq = <a class="code hl_function" href="_math_8h.html#ae503305e611d695797d7a7a8a55de891">Square</a>(inTolerance + sum_convex_radius);</div>
-<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span> </div>
-<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>                <span class="comment">// We allow rebuilding the simplex once after x changes because the simplex was built</span></div>
-<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>                <span class="comment">// for another x and numerical round off builds up as you keep adding points to an</span></div>
-<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>                <span class="comment">// existing simplex</span></div>
-<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span>                allow_restart = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>            }</div>
-<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span> </div>
-<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>            <span class="comment">// Add p to set P, q to set Q: P = P U {p}, Q = Q U {q}</span></div>
-<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>            mP[mNumPoints] = p;</div>
-<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>            mQ[mNumPoints] = q;</div>
-<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>            ++mNumPoints;</div>
-<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span> </div>
-<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>            <span class="comment">// Calculate Y = {x} - (Q - P)</span></div>
-<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
-<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>                mY[i] = x - (mQ[i] - mP[i]);</div>
-<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span> </div>
-<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>            <span class="comment">// Determine the new closest point from Y to origin</span></div>
-<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>            <span class="keywordtype">bool</span> needs_restart = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>            <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;                     <span class="comment">// Set of points that form the new simplex</span></div>
-<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span>            <span class="keywordflow">if</span> (!GetClosest(v_len_sq, v, v_len_sq, set))</div>
-<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>            {</div>
-<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Failed to converge&quot;</span>);</div>
-<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span> </div>
-<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>                <span class="comment">// We failed to converge, restart</span></div>
-<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>                needs_restart = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>            }</div>
-<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (set == 0xf)</div>
-<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>            {</div>
-<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Full simplex&quot;</span>);</div>
-<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span> </div>
-<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>                <span class="comment">// If there are 4 points, x is inside the tetrahedron and we&#39;ve found a hit</span></div>
-<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>                <span class="comment">// Double check that A and B are indeed touching according to our tolerance</span></div>
-<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span>                <span class="keywordflow">if</span> (v_len_sq &lt;= tolerance_sq)</div>
-<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span> </div>
-<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>                <span class="comment">// We failed to converge, restart</span></div>
-<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>                needs_restart = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>            }</div>
-<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span> </div>
-<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>            <span class="keywordflow">if</span> (needs_restart)</div>
-<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>            {</div>
-<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>                <span class="comment">// Only allow 1 restart, if we still can&#39;t get a closest point </span></div>
-<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>                <span class="comment">// we&#39;re so close that we return this as a hit</span></div>
-<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span>                <span class="keywordflow">if</span> (!allow_restart)</div>
-<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span> </div>
-<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>                <span class="comment">// If we fail to converge, we start again with the last point as simplex</span></div>
-<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Restarting&quot;</span>);</div>
-<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span>                allow_restart = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00840" name="l00840"></a><span class="lineno">  840</span>                mP[0] = p;</div>
-<div class="line"><a id="l00841" name="l00841"></a><span class="lineno">  841</span>                mQ[0] = q;</div>
-<div class="line"><a id="l00842" name="l00842"></a><span class="lineno">  842</span>                mNumPoints = 1;</div>
-<div class="line"><a id="l00843" name="l00843"></a><span class="lineno">  843</span>                v = x - q;</div>
-<div class="line"><a id="l00844" name="l00844"></a><span class="lineno">  844</span>                v_len_sq = FLT_MAX;</div>
-<div class="line"><a id="l00845" name="l00845"></a><span class="lineno">  845</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00846" name="l00846"></a><span class="lineno">  846</span>            }</div>
-<div class="line"><a id="l00847" name="l00847"></a><span class="lineno">  847</span> </div>
-<div class="line"><a id="l00848" name="l00848"></a><span class="lineno">  848</span>            <span class="comment">// Update the points P and Q to form the new simplex</span></div>
-<div class="line"><a id="l00849" name="l00849"></a><span class="lineno">  849</span>            <span class="comment">// Note: We&#39;re not updating Y as Y will shift with x so we have to calculate it every iteration</span></div>
-<div class="line"><a id="l00850" name="l00850"></a><span class="lineno">  850</span>            UpdatePointSetPQ(set);</div>
-<div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span> </div>
-<div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>            <span class="comment">// Check if A and B are touching according to our tolerance</span></div>
-<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>            <span class="keywordflow">if</span> (v_len_sq &lt;= tolerance_sq)</div>
-<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>            {</div>
-<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Converged&quot;</span>);</div>
-<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>            }</div>
-<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span> </div>
-<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>            <span class="comment">// Store our v to return as separating axis</span></div>
-<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span>            prev_v = v;</div>
-<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>        }</div>
-<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span> </div>
-<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>        <span class="comment">// Calculate Y = {x} - (Q - P) again so we can calculate the contact points</span></div>
-<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
-<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>            mY[i] = x - (mQ[i] - mP[i]);</div>
-<div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span> </div>
-<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>        <span class="comment">// Calculate the offset we need to apply to A and B to correct for the convex radius</span></div>
-<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> normalized_v = v.<a class="code hl_function" href="class_vec3.html#a6c6409cad56e4e357f73d43cd719ffe8">NormalizedOr</a>(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>());</div>
-<div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> convex_radius_a = inConvexRadiusA * normalized_v;</div>
-<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> convex_radius_b = inConvexRadiusB * normalized_v;</div>
-<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span> </div>
-<div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span>        <span class="comment">// Get the contact point</span></div>
-<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>        <span class="comment">// Note that A and B will coincide when lambda &gt; 0. In this case we calculate only B as it is more accurate as it contains less terms.</span></div>
-<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>        <span class="keywordflow">switch</span> (mNumPoints)     </div>
-<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>        {</div>
-<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>        <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>            outPointB = mQ[0] + convex_radius_b; </div>
-<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>            outPointA = lambda &gt; 0.0f? outPointB : mP[0] - convex_radius_a;</div>
-<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span> </div>
-<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>        <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>            {</div>
-<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>                <span class="keywordtype">float</span> bu, bv;</div>
-<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>                <a class="code hl_function" href="namespace_closest_point.html#a292e497d840ac56d4004212fd10b18e4">ClosestPoint::GetBaryCentricCoordinates</a>(mY[0], mY[1], bu, bv);</div>
-<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>                outPointB = bu * mQ[0] + bv * mQ[1] + convex_radius_b;</div>
-<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span>                outPointA = lambda &gt; 0.0f? outPointB : bu * mP[0] + bv * mP[1] - convex_radius_a;</div>
-<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>            }</div>
-<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span> </div>
-<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>        <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>        <span class="keywordflow">case</span> 4: <span class="comment">// A full simplex, we can&#39;t properly determine a contact point! As contact point we take the closest point of the previous iteration.</span></div>
-<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>            {</div>
-<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>                <span class="keywordtype">float</span> bu, bv, bw;</div>
-<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>                <a class="code hl_function" href="namespace_closest_point.html#a292e497d840ac56d4004212fd10b18e4">ClosestPoint::GetBaryCentricCoordinates</a>(mY[0], mY[1], mY[2], bu, bv, bw);</div>
-<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>                outPointB = bu * mQ[0] + bv * mQ[1] + bw * mQ[2] + convex_radius_b;</div>
-<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>                outPointA = lambda &gt; 0.0f? outPointB : bu * mP[0] + bv * mP[1] + bw * mP[2] - convex_radius_a;</div>
-<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>            }</div>
-<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>        }</div>
-<div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span> </div>
-<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>        <span class="comment">// Store separating axis, in case we have a convex radius we can just return v, </span></div>
-<div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span>        <span class="comment">// otherwise v will be very small and we resort to returning previous v as an approximation.</span></div>
-<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>        outSeparatingAxis = sum_convex_radius &gt; 0.0f? -v : -prev_v;</div>
-<div class="line"><a id="l00906" name="l00906"></a><span class="lineno">  906</span> </div>
-<div class="line"><a id="l00907" name="l00907"></a><span class="lineno">  907</span>        <span class="comment">// Store hit fraction</span></div>
-<div class="line"><a id="l00908" name="l00908"></a><span class="lineno">  908</span>        ioLambda = lambda;</div>
-<div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span>    }</div>
-<div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span> </div>
-<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>    <span class="keywordtype">void</span>        DrawState()</div>
-<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>    {</div>
-<div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span>        <a class="code hl_class" href="class_mat44.html">Mat44</a> origin = <a class="code hl_function" href="class_mat44.html#a8cc7184902ce670d0822a28a8906df52">Mat44::sTranslation</a>(mOffset);</div>
-<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span> </div>
-<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span>        <span class="comment">// Draw origin</span></div>
-<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a5aafc8cd9f2ecb5cd6da3a1d226a819f">DrawCoordinateSystem</a>(origin, 1.0f);</div>
-<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span> </div>
-<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>        <span class="comment">// Draw the hull</span></div>
-<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a52573899d288024e91ab3795c0d5ca47">DrawGeometry</a>(origin, mGeometry-&gt;mBounds, mGeometry-&gt;mBounds.GetExtent().LengthSq(), <a class="code hl_variable" href="class_color.html#afbce637a66704fc3e3cf7d26819d4ab5">Color::sYellow</a>, mGeometry);</div>
-<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span> </div>
-<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>        <span class="comment">// Draw Y</span></div>
-<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
-<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>        {</div>
-<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>            <span class="comment">// Draw support point</span></div>
-<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> y_i = origin * mY[i];</div>
-<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>            <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#aceee340f194c6b73130964bee3e66118">DrawMarker</a>(y_i, <a class="code hl_variable" href="class_color.html#afa2aabd04284f9231b26176663f67083">Color::sRed</a>, 1.0f);</div>
-<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = i + 1; j &lt; mNumPoints; ++j)</div>
-<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>            {</div>
-<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span>                <span class="comment">// Draw edge</span></div>
-<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span>                <a class="code hl_class" href="class_vec3.html">Vec3</a> y_j = origin * mY[j];</div>
-<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>                <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#ae490edf709cd25848bde9d5ccd2614f7">DrawLine</a>(y_i, y_j, <a class="code hl_variable" href="class_color.html#afa2aabd04284f9231b26176663f67083">Color::sRed</a>);</div>
-<div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span>                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = j + 1; k &lt; mNumPoints; ++k)</div>
-<div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>                {</div>
-<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span>                    <span class="comment">// Make sure triangle faces the origin</span></div>
-<div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span>                    <a class="code hl_class" href="class_vec3.html">Vec3</a> y_k = origin * mY[k];</div>
-<div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span>                    <a class="code hl_class" href="class_vec3.html">Vec3</a> center = (y_i + y_j + y_k) / 3.0f;</div>
-<div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span>                    <a class="code hl_class" href="class_vec3.html">Vec3</a> normal = (y_j - y_i).Cross(y_k - y_i);</div>
-<div class="line"><a id="l00942" name="l00942"></a><span class="lineno">  942</span>                    <span class="keywordflow">if</span> (normal.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(center) &lt; 0.0f)</div>
-<div class="line"><a id="l00943" name="l00943"></a><span class="lineno">  943</span>                        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;DrawTriangle(y_i, y_j, y_k, <a class="code hl_variable" href="class_color.html#a952b07c63d2b23a6b3c81efcd9fad9fe">Color::sLightGrey</a>);</div>
-<div class="line"><a id="l00944" name="l00944"></a><span class="lineno">  944</span>                    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00945" name="l00945"></a><span class="lineno">  945</span>                        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a0e8454b8f01adfff89ac66f757c9a86a">DrawTriangle</a>(y_i, y_k, y_j, <a class="code hl_variable" href="class_color.html#a952b07c63d2b23a6b3c81efcd9fad9fe">Color::sLightGrey</a>);</div>
-<div class="line"><a id="l00946" name="l00946"></a><span class="lineno">  946</span>                }</div>
-<div class="line"><a id="l00947" name="l00947"></a><span class="lineno">  947</span>            }</div>
-<div class="line"><a id="l00948" name="l00948"></a><span class="lineno">  948</span>        }</div>
-<div class="line"><a id="l00949" name="l00949"></a><span class="lineno">  949</span> </div>
-<div class="line"><a id="l00950" name="l00950"></a><span class="lineno">  950</span>        <span class="comment">// Offset to the right</span></div>
-<div class="line"><a id="l00951" name="l00951"></a><span class="lineno">  951</span>        mOffset += <a class="code hl_class" href="class_vec3.html">Vec3</a>(mGeometry-&gt;mBounds.GetSize().GetX() + 2.0f, 0, 0);</div>
-<div class="line"><a id="l00952" name="l00952"></a><span class="lineno">  952</span>    }</div>
-<div class="line"><a id="l00953" name="l00953"></a><span class="lineno">  953</span><span class="preprocessor">#endif </span><span class="comment">// JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00954" name="l00954"></a><span class="lineno">  954</span> </div>
-<div class="line"><a id="l00955" name="l00955"></a><span class="lineno">  955</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mY[4];                      </div>
-<div class="line"><a id="l00956" name="l00956"></a><span class="lineno">  956</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mP[4];                      </div>
-<div class="line"><a id="l00957" name="l00957"></a><span class="lineno">  957</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mQ[4];                      </div>
-<div class="line"><a id="l00958" name="l00958"></a><span class="lineno">  958</span>    <span class="keywordtype">int</span>         mNumPoints = 0;             </div>
-<div class="line"><a id="l00959" name="l00959"></a><span class="lineno">  959</span> </div>
-<div class="line"><a id="l00960" name="l00960"></a><span class="lineno">  960</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
-<div class="line"><a id="l00961" name="l00961"></a><span class="lineno">  961</span>    <a class="code hl_class" href="class_ref.html">DebugRenderer::GeometryRef</a>  mGeometry;  </div>
-<div class="line"><a id="l00962" name="l00962"></a><span class="lineno">  962</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mOffset = <a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>();    </div>
-<div class="line"><a id="l00963" name="l00963"></a><span class="lineno">  963</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00964" name="l00964"></a><span class="lineno">  964</span>};</div>
-<div class="line"><a id="l00965" name="l00965"></a><span class="lineno">  965</span> </div>
-<div class="line"><a id="l00966" name="l00966"></a><span class="lineno">  966</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>        <a class="code hl_struct" href="struct_transformed_convex_object.html">TransformedConvexObject</a> transformed_a(inStart, inA);</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span> </div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>        <span class="comment">// Calculate the minkowski difference inB - inA</span></div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>        <span class="comment">// inA is moving, so we need to add the back side of inB to the front side of inA</span></div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>        <a class="code hl_struct" href="struct_minkowski_difference.html">MinkowskiDifference</a> difference(inB, transformed_a);</div>
+<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span> </div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>        <span class="comment">// Do a raycast against the Minkowski difference</span></div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_g_j_k_closest_point.html#ade3cde48252b6f77f749f9ac29685ec7">CastRay</a>(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>(), inDirection, inTolerance, difference, ioLambda);</div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    }</div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span> </div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> A, <span class="keyword">typename</span> B&gt;</div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno"><a class="line" href="class_g_j_k_closest_point.html#aa5b19da7e23744cb5c1af8fe2fee2940">  697</a></span>    <span class="keywordtype">bool</span>        <a class="code hl_function" href="class_g_j_k_closest_point.html#aa5b19da7e23744cb5c1af8fe2fee2940">CastShape</a>(<a class="code hl_class" href="class_mat44.html">Mat44Arg</a> inStart, <a class="code hl_class" href="class_vec3.html">Vec3Arg</a> inDirection, <span class="keywordtype">float</span> inTolerance, <span class="keyword">const</span> A &amp;inA, <span class="keyword">const</span> B &amp;inB, <span class="keywordtype">float</span> inConvexRadiusA, <span class="keywordtype">float</span> inConvexRadiusB, <span class="keywordtype">float</span> &amp;ioLambda, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outPointA, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outPointB, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outSeparatingAxis)</div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>    {</div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>        <span class="keywordtype">float</span> tolerance_sq = <a class="code hl_function" href="_math_8h.html#ae503305e611d695797d7a7a8a55de891">Square</a>(inTolerance);</div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span> </div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>        <span class="comment">// Calculate how close A and B (without their convex radius) need to be to eachother in order for us to consider this a collision</span></div>
+<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>        <span class="keywordtype">float</span> sum_convex_radius = inConvexRadiusA + inConvexRadiusB;</div>
+<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span> </div>
+<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>        <span class="comment">// Transform the shape to be cast to the starting position</span></div>
+<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>        <a class="code hl_struct" href="struct_transformed_convex_object.html">TransformedConvexObject</a> transformed_a(inStart, inA);</div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span> </div>
+<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>        <span class="comment">// Reset state</span></div>
+<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>        mNumPoints = 0;</div>
+<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span> </div>
+<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>        <span class="keywordtype">float</span> lambda = 0.0f;</div>
+<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> x = <a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>(); <span class="comment">// Since A is already transformed we can start the cast from zero</span></div>
+<div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> v = -inB.GetSupport(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>()) + transformed_a.<a class="code hl_function" href="struct_transformed_convex_object.html#a0fa745b8d15e71629ebb719716d16fa8">GetSupport</a>(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>()); <span class="comment">// See CastRay: v = x - inA.GetSupport(Vec3::sZero()) where inA is the Minkowski difference inB - transformed_a (see CastShape above) and x is zero</span></div>
+<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>        <span class="keywordtype">float</span> v_len_sq = FLT_MAX;</div>
+<div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span>        <span class="keywordtype">bool</span> allow_restart = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span> </div>
+<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>        <span class="comment">// Keeps track of separating axis of the previous iteration.</span></div>
+<div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span>        <span class="comment">// Initialized at zero as we don&#39;t know if our first v is actually a separating axis.</span></div>
+<div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> prev_v = <a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>();</div>
+<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span> </div>
+<div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span>        <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>        {</div>
+<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;v = [%s], num_points = %d&quot;</span>, <a class="code hl_function" href="_string_tools_8h.html#aac14c45935d876f8bd80a547f3705b58">ConvertToString</a>(v).c_str(), mNumPoints);</div>
+<div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span> </div>
+<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span>            <span class="comment">// Calculate the minkowski difference inB - inA</span></div>
+<div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>            <span class="comment">// inA is moving, so we need to add the back side of inB to the front side of inA</span></div>
+<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>            <span class="comment">// Keep the support points on A and B separate so that in the end we can calculate a contact point</span></div>
+<div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> p = transformed_a.<a class="code hl_function" href="struct_transformed_convex_object.html#a0fa745b8d15e71629ebb719716d16fa8">GetSupport</a>(-v);</div>
+<div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> q = inB.GetSupport(v);</div>
+<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> w = x - (q - p);</div>
+<div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span> </div>
+<div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;w = [%s]&quot;</span>, <a class="code hl_function" href="_string_tools_8h.html#aac14c45935d876f8bd80a547f3705b58">ConvertToString</a>(w).c_str());</div>
+<div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span> </div>
+<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>            <span class="comment">// Difference from article to this code:</span></div>
+<div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span>            <span class="comment">// We did not include the convex radius in p and q in order to be able to calculate a good separating axis at the end of the algorithm.</span></div>
+<div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>            <span class="comment">// However when moving forward along inDirection we do need to take this into account so that we keep A and B separated by the sum of their convex radii.</span></div>
+<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>            <span class="comment">// From p we have to subtract: inConvexRadiusA * v / |v|</span></div>
+<div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>            <span class="comment">// To q we have to add: inConvexRadiusB * v / |v|</span></div>
+<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>            <span class="comment">// This means that to w we have to add: -(inConvexRadiusA + inConvexRadiusB) * v / |v|</span></div>
+<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>            <span class="comment">// So to v . w we have to add: v . (-(inConvexRadiusA + inConvexRadiusB) * v / |v|) = -(inConvexRadiusA + inConvexRadiusB) * |v|</span></div>
+<div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>            <span class="keywordtype">float</span> v_dot_w = v.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(w) - sum_convex_radius * v.<a class="code hl_function" href="class_vec3.html#a38a9efffc3f9413f3dd702abc73eb9a2">Length</a>();</div>
+<div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;v . w = %g&quot;</span>, v_dot_w);</div>
+<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>            <span class="keywordflow">if</span> (v_dot_w &gt; 0.0f)</div>
+<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>            {</div>
+<div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span>                <span class="comment">// If ray and normal are in the same direction, we&#39;ve passed A and there&#39;s no collision</span></div>
+<div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>                <span class="keywordtype">float</span> v_dot_r = v.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(inDirection);</div>
+<div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;v . r = %g&quot;</span>, v_dot_r);</div>
+<div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span>                <span class="keywordflow">if</span> (v_dot_r &gt;= 0.0f)</div>
+<div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span> </div>
+<div class="line"><a id="l00758" name="l00758"></a><span class="lineno">  758</span>                <span class="comment">// Update the lower bound for lambda</span></div>
+<div class="line"><a id="l00759" name="l00759"></a><span class="lineno">  759</span>                <span class="keywordtype">float</span> delta = v_dot_w / v_dot_r;</div>
+<div class="line"><a id="l00760" name="l00760"></a><span class="lineno">  760</span>                <span class="keywordtype">float</span> old_lambda = lambda;</div>
+<div class="line"><a id="l00761" name="l00761"></a><span class="lineno">  761</span>                lambda -= delta;</div>
+<div class="line"><a id="l00762" name="l00762"></a><span class="lineno">  762</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00763" name="l00763"></a><span class="lineno">  763</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;lambda = %g, delta = %g&quot;</span>, lambda, delta);</div>
+<div class="line"><a id="l00764" name="l00764"></a><span class="lineno">  764</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00765" name="l00765"></a><span class="lineno">  765</span> </div>
+<div class="line"><a id="l00766" name="l00766"></a><span class="lineno">  766</span>                <span class="comment">// If lambda didn&#39;t change, we cannot converge any further and we assume a hit</span></div>
+<div class="line"><a id="l00767" name="l00767"></a><span class="lineno">  767</span>                <span class="keywordflow">if</span> (old_lambda == lambda)</div>
+<div class="line"><a id="l00768" name="l00768"></a><span class="lineno">  768</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00769" name="l00769"></a><span class="lineno">  769</span> </div>
+<div class="line"><a id="l00770" name="l00770"></a><span class="lineno">  770</span>                <span class="comment">// If lambda is bigger or equal than max, we don&#39;t have a hit</span></div>
+<div class="line"><a id="l00771" name="l00771"></a><span class="lineno">  771</span>                <span class="keywordflow">if</span> (lambda &gt;= ioLambda)</div>
+<div class="line"><a id="l00772" name="l00772"></a><span class="lineno">  772</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00773" name="l00773"></a><span class="lineno">  773</span> </div>
+<div class="line"><a id="l00774" name="l00774"></a><span class="lineno">  774</span>                <span class="comment">// Update x to new closest point on the ray</span></div>
+<div class="line"><a id="l00775" name="l00775"></a><span class="lineno">  775</span>                x = lambda * inDirection;</div>
+<div class="line"><a id="l00776" name="l00776"></a><span class="lineno">  776</span>                </div>
+<div class="line"><a id="l00777" name="l00777"></a><span class="lineno">  777</span>                <span class="comment">// We&#39;ve shifted x, so reset v_len_sq so that it is not used as early out when GetClosest returns false</span></div>
+<div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>                v_len_sq = FLT_MAX;</div>
+<div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span> </div>
+<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>                <span class="comment">// Now that we&#39;ve moved, we know that A and B are not intersecting at lambda = 0, so we can update our tolerance to stop iterating</span></div>
+<div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>                <span class="comment">// as soon as A and B are inConvexRadiusA + inConvexRadiusB apart</span></div>
+<div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>                tolerance_sq = <a class="code hl_function" href="_math_8h.html#ae503305e611d695797d7a7a8a55de891">Square</a>(inTolerance + sum_convex_radius);</div>
+<div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span> </div>
+<div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span>                <span class="comment">// We allow rebuilding the simplex once after x changes because the simplex was built</span></div>
+<div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>                <span class="comment">// for another x and numerical round off builds up as you keep adding points to an</span></div>
+<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>                <span class="comment">// existing simplex</span></div>
+<div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span>                allow_restart = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>            }</div>
+<div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span> </div>
+<div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>            <span class="comment">// Add p to set P, q to set Q: P = P U {p}, Q = Q U {q}</span></div>
+<div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span>            mP[mNumPoints] = p;</div>
+<div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>            mQ[mNumPoints] = q;</div>
+<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>            ++mNumPoints;</div>
+<div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span> </div>
+<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>            <span class="comment">// Calculate Y = {x} - (Q - P)</span></div>
+<div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
+<div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>                mY[i] = x - (mQ[i] - mP[i]);</div>
+<div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span> </div>
+<div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>            <span class="comment">// Determine the new closest point from Y to origin</span></div>
+<div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span>            <span class="keywordtype">bool</span> needs_restart = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>            <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;                     <span class="comment">// Set of points that form the new simplex</span></div>
+<div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span>            <span class="keywordflow">if</span> (!GetClosest(v_len_sq, v, v_len_sq, set))</div>
+<div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>            {</div>
+<div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00805" name="l00805"></a><span class="lineno">  805</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Failed to converge&quot;</span>);</div>
+<div class="line"><a id="l00806" name="l00806"></a><span class="lineno">  806</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00807" name="l00807"></a><span class="lineno">  807</span> </div>
+<div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span>                <span class="comment">// We failed to converge, restart</span></div>
+<div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>                needs_restart = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>            }</div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (set == 0xf)</div>
+<div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>            {</div>
+<div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Full simplex&quot;</span>);</div>
+<div class="line"><a id="l00815" name="l00815"></a><span class="lineno">  815</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00816" name="l00816"></a><span class="lineno">  816</span> </div>
+<div class="line"><a id="l00817" name="l00817"></a><span class="lineno">  817</span>                <span class="comment">// If there are 4 points, x is inside the tetrahedron and we&#39;ve found a hit</span></div>
+<div class="line"><a id="l00818" name="l00818"></a><span class="lineno">  818</span>                <span class="comment">// Double check that A and B are indeed touching according to our tolerance</span></div>
+<div class="line"><a id="l00819" name="l00819"></a><span class="lineno">  819</span>                <span class="keywordflow">if</span> (v_len_sq &lt;= tolerance_sq)</div>
+<div class="line"><a id="l00820" name="l00820"></a><span class="lineno">  820</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00821" name="l00821"></a><span class="lineno">  821</span> </div>
+<div class="line"><a id="l00822" name="l00822"></a><span class="lineno">  822</span>                <span class="comment">// We failed to converge, restart</span></div>
+<div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>                needs_restart = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>            }</div>
+<div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span> </div>
+<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>            <span class="keywordflow">if</span> (needs_restart)</div>
+<div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>            {</div>
+<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>                <span class="comment">// Only allow 1 restart, if we still can&#39;t get a closest point </span></div>
+<div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>                <span class="comment">// we&#39;re so close that we return this as a hit</span></div>
+<div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>                <span class="keywordflow">if</span> (!allow_restart)</div>
+<div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00832" name="l00832"></a><span class="lineno">  832</span> </div>
+<div class="line"><a id="l00833" name="l00833"></a><span class="lineno">  833</span>                <span class="comment">// If we fail to converge, we start again with the last point as simplex</span></div>
+<div class="line"><a id="l00834" name="l00834"></a><span class="lineno">  834</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00835" name="l00835"></a><span class="lineno">  835</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Restarting&quot;</span>);</div>
+<div class="line"><a id="l00836" name="l00836"></a><span class="lineno">  836</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00837" name="l00837"></a><span class="lineno">  837</span>                allow_restart = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00838" name="l00838"></a><span class="lineno">  838</span>                mP[0] = p;</div>
+<div class="line"><a id="l00839" name="l00839"></a><span class="lineno">  839</span>                mQ[0] = q;</div>
+<div class="line"><a id="l00840" name="l00840"></a><span class="lineno">  840</span>                mNumPoints = 1;</div>
+<div class="line"><a id="l00841" name="l00841"></a><span class="lineno">  841</span>                v = x - q;</div>
+<div class="line"><a id="l00842" name="l00842"></a><span class="lineno">  842</span>                v_len_sq = FLT_MAX;</div>
+<div class="line"><a id="l00843" name="l00843"></a><span class="lineno">  843</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00844" name="l00844"></a><span class="lineno">  844</span>            }</div>
+<div class="line"><a id="l00845" name="l00845"></a><span class="lineno">  845</span> </div>
+<div class="line"><a id="l00846" name="l00846"></a><span class="lineno">  846</span>            <span class="comment">// Update the points P and Q to form the new simplex</span></div>
+<div class="line"><a id="l00847" name="l00847"></a><span class="lineno">  847</span>            <span class="comment">// Note: We&#39;re not updating Y as Y will shift with x so we have to calculate it every iteration</span></div>
+<div class="line"><a id="l00848" name="l00848"></a><span class="lineno">  848</span>            UpdatePointSetPQ(set);</div>
+<div class="line"><a id="l00849" name="l00849"></a><span class="lineno">  849</span> </div>
+<div class="line"><a id="l00850" name="l00850"></a><span class="lineno">  850</span>            <span class="comment">// Check if A and B are touching according to our tolerance</span></div>
+<div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span>            <span class="keywordflow">if</span> (v_len_sq &lt;= tolerance_sq)</div>
+<div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>            {</div>
+<div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00854" name="l00854"></a><span class="lineno">  854</span>                <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;Converged&quot;</span>);</div>
+<div class="line"><a id="l00855" name="l00855"></a><span class="lineno">  855</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00856" name="l00856"></a><span class="lineno">  856</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00857" name="l00857"></a><span class="lineno">  857</span>            }</div>
+<div class="line"><a id="l00858" name="l00858"></a><span class="lineno">  858</span> </div>
+<div class="line"><a id="l00859" name="l00859"></a><span class="lineno">  859</span>            <span class="comment">// Store our v to return as separating axis</span></div>
+<div class="line"><a id="l00860" name="l00860"></a><span class="lineno">  860</span>            prev_v = v;</div>
+<div class="line"><a id="l00861" name="l00861"></a><span class="lineno">  861</span>        }</div>
+<div class="line"><a id="l00862" name="l00862"></a><span class="lineno">  862</span> </div>
+<div class="line"><a id="l00863" name="l00863"></a><span class="lineno">  863</span>        <span class="comment">// Calculate Y = {x} - (Q - P) again so we can calculate the contact points</span></div>
+<div class="line"><a id="l00864" name="l00864"></a><span class="lineno">  864</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
+<div class="line"><a id="l00865" name="l00865"></a><span class="lineno">  865</span>            mY[i] = x - (mQ[i] - mP[i]);</div>
+<div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span> </div>
+<div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>        <span class="comment">// Calculate the offset we need to apply to A and B to correct for the convex radius</span></div>
+<div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> normalized_v = v.<a class="code hl_function" href="class_vec3.html#a6c6409cad56e4e357f73d43cd719ffe8">NormalizedOr</a>(<a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>());</div>
+<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> convex_radius_a = inConvexRadiusA * normalized_v;</div>
+<div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> convex_radius_b = inConvexRadiusB * normalized_v;</div>
+<div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span> </div>
+<div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>        <span class="comment">// Get the contact point</span></div>
+<div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>        <span class="comment">// Note that A and B will coincide when lambda &gt; 0. In this case we calculate only B as it is more accurate as it contains less terms.</span></div>
+<div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span>        <span class="keywordflow">switch</span> (mNumPoints)     </div>
+<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>        {</div>
+<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>            outPointB = mQ[0] + convex_radius_b; </div>
+<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>            outPointA = lambda &gt; 0.0f? outPointB : mP[0] - convex_radius_a;</div>
+<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span> </div>
+<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>            {</div>
+<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>                <span class="keywordtype">float</span> bu, bv;</div>
+<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>                <a class="code hl_function" href="namespace_closest_point.html#a292e497d840ac56d4004212fd10b18e4">ClosestPoint::GetBaryCentricCoordinates</a>(mY[0], mY[1], bu, bv);</div>
+<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>                outPointB = bu * mQ[0] + bv * mQ[1] + convex_radius_b;</div>
+<div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>                outPointA = lambda &gt; 0.0f? outPointB : bu * mP[0] + bv * mP[1] - convex_radius_a;</div>
+<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>            }</div>
+<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span> </div>
+<div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span>        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>        <span class="keywordflow">case</span> 4: <span class="comment">// A full simplex, we can&#39;t properly determine a contact point! As contact point we take the closest point of the previous iteration.</span></div>
+<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>            {</div>
+<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>                <span class="keywordtype">float</span> bu, bv, bw;</div>
+<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>                <a class="code hl_function" href="namespace_closest_point.html#a292e497d840ac56d4004212fd10b18e4">ClosestPoint::GetBaryCentricCoordinates</a>(mY[0], mY[1], mY[2], bu, bv, bw);</div>
+<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>                outPointB = bu * mQ[0] + bv * mQ[1] + bw * mQ[2] + convex_radius_b;</div>
+<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>                outPointA = lambda &gt; 0.0f? outPointB : bu * mP[0] + bv * mP[1] + bw * mP[2] - convex_radius_a;</div>
+<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>            }</div>
+<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>        }</div>
+<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span> </div>
+<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>        <span class="comment">// Store separating axis, in case we have a convex radius we can just return v, </span></div>
+<div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span>        <span class="comment">// otherwise v will be very small and we resort to returning previous v as an approximation.</span></div>
+<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>        outSeparatingAxis = sum_convex_radius &gt; 0.0f? -v : -prev_v;</div>
+<div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span> </div>
+<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>        <span class="comment">// Store hit fraction</span></div>
+<div class="line"><a id="l00906" name="l00906"></a><span class="lineno">  906</span>        ioLambda = lambda;</div>
+<div class="line"><a id="l00907" name="l00907"></a><span class="lineno">  907</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00908" name="l00908"></a><span class="lineno">  908</span>    }</div>
+<div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span> </div>
+<div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span>    <span class="keywordtype">void</span>        DrawState()</div>
+<div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span>    {</div>
+<div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>        <a class="code hl_class" href="class_mat44.html">Mat44</a> origin = <a class="code hl_function" href="class_mat44.html#a8cc7184902ce670d0822a28a8906df52">Mat44::sTranslation</a>(mOffset);</div>
+<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span> </div>
+<div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span>        <span class="comment">// Draw origin</span></div>
+<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a5aafc8cd9f2ecb5cd6da3a1d226a819f">DrawCoordinateSystem</a>(origin, 1.0f);</div>
+<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span> </div>
+<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>        <span class="comment">// Draw the hull</span></div>
+<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a52573899d288024e91ab3795c0d5ca47">DrawGeometry</a>(origin, mGeometry-&gt;mBounds, mGeometry-&gt;mBounds.GetExtent().LengthSq(), <a class="code hl_variable" href="class_color.html#afbce637a66704fc3e3cf7d26819d4ab5">Color::sYellow</a>, mGeometry);</div>
+<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span> </div>
+<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>        <span class="comment">// Draw Y</span></div>
+<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
+<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>        {</div>
+<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>            <span class="comment">// Draw support point</span></div>
+<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>            <a class="code hl_class" href="class_vec3.html">Vec3</a> y_i = origin * mY[i];</div>
+<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>            <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#aceee340f194c6b73130964bee3e66118">DrawMarker</a>(y_i, <a class="code hl_variable" href="class_color.html#afa2aabd04284f9231b26176663f67083">Color::sRed</a>, 1.0f);</div>
+<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = i + 1; j &lt; mNumPoints; ++j)</div>
+<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>            {</div>
+<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span>                <span class="comment">// Draw edge</span></div>
+<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>                <a class="code hl_class" href="class_vec3.html">Vec3</a> y_j = origin * mY[j];</div>
+<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span>                <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#ae490edf709cd25848bde9d5ccd2614f7">DrawLine</a>(y_i, y_j, <a class="code hl_variable" href="class_color.html#afa2aabd04284f9231b26176663f67083">Color::sRed</a>);</div>
+<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span>                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = j + 1; k &lt; mNumPoints; ++k)</div>
+<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>                {</div>
+<div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span>                    <span class="comment">// Make sure triangle faces the origin</span></div>
+<div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>                    <a class="code hl_class" href="class_vec3.html">Vec3</a> y_k = origin * mY[k];</div>
+<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span>                    <a class="code hl_class" href="class_vec3.html">Vec3</a> center = (y_i + y_j + y_k) / 3.0f;</div>
+<div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span>                    <a class="code hl_class" href="class_vec3.html">Vec3</a> normal = (y_j - y_i).Cross(y_k - y_i);</div>
+<div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span>                    <span class="keywordflow">if</span> (normal.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(center) &lt; 0.0f)</div>
+<div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span>                        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;DrawTriangle(y_i, y_j, y_k, <a class="code hl_variable" href="class_color.html#a952b07c63d2b23a6b3c81efcd9fad9fe">Color::sLightGrey</a>);</div>
+<div class="line"><a id="l00942" name="l00942"></a><span class="lineno">  942</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00943" name="l00943"></a><span class="lineno">  943</span>                        <a class="code hl_variable" href="class_debug_renderer.html#a8b92e7678965c488b8d68230816aa000">DebugRenderer::sInstance</a>-&gt;<a class="code hl_function" href="class_debug_renderer.html#a0e8454b8f01adfff89ac66f757c9a86a">DrawTriangle</a>(y_i, y_k, y_j, <a class="code hl_variable" href="class_color.html#a952b07c63d2b23a6b3c81efcd9fad9fe">Color::sLightGrey</a>);</div>
+<div class="line"><a id="l00944" name="l00944"></a><span class="lineno">  944</span>                }</div>
+<div class="line"><a id="l00945" name="l00945"></a><span class="lineno">  945</span>            }</div>
+<div class="line"><a id="l00946" name="l00946"></a><span class="lineno">  946</span>        }</div>
+<div class="line"><a id="l00947" name="l00947"></a><span class="lineno">  947</span> </div>
+<div class="line"><a id="l00948" name="l00948"></a><span class="lineno">  948</span>        <span class="comment">// Offset to the right</span></div>
+<div class="line"><a id="l00949" name="l00949"></a><span class="lineno">  949</span>        mOffset += <a class="code hl_class" href="class_vec3.html">Vec3</a>(mGeometry-&gt;mBounds.GetSize().GetX() + 2.0f, 0, 0);</div>
+<div class="line"><a id="l00950" name="l00950"></a><span class="lineno">  950</span>    }</div>
+<div class="line"><a id="l00951" name="l00951"></a><span class="lineno">  951</span><span class="preprocessor">#endif </span><span class="comment">// JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00952" name="l00952"></a><span class="lineno">  952</span> </div>
+<div class="line"><a id="l00953" name="l00953"></a><span class="lineno">  953</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mY[4];                      </div>
+<div class="line"><a id="l00954" name="l00954"></a><span class="lineno">  954</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mP[4];                      </div>
+<div class="line"><a id="l00955" name="l00955"></a><span class="lineno">  955</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mQ[4];                      </div>
+<div class="line"><a id="l00956" name="l00956"></a><span class="lineno">  956</span>    <span class="keywordtype">int</span>         mNumPoints = 0;             </div>
+<div class="line"><a id="l00957" name="l00957"></a><span class="lineno">  957</span> </div>
+<div class="line"><a id="l00958" name="l00958"></a><span class="lineno">  958</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
+<div class="line"><a id="l00959" name="l00959"></a><span class="lineno">  959</span>    <a class="code hl_class" href="class_ref.html">DebugRenderer::GeometryRef</a>  mGeometry;  </div>
+<div class="line"><a id="l00960" name="l00960"></a><span class="lineno">  960</span>    <a class="code hl_class" href="class_vec3.html">Vec3</a>        mOffset = <a class="code hl_function" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>();    </div>
+<div class="line"><a id="l00961" name="l00961"></a><span class="lineno">  961</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00962" name="l00962"></a><span class="lineno">  962</span>};</div>
+<div class="line"><a id="l00963" name="l00963"></a><span class="lineno">  963</span> </div>
+<div class="line"><a id="l00964" name="l00964"></a><span class="lineno">  964</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
 <div class="ttc" id="a_closest_point_8h_html"><div class="ttname"><a href="_closest_point_8h.html">ClosestPoint.h</a></div></div>
 <div class="ttc" id="a_convex_support_8h_html"><div class="ttname"><a href="_convex_support_8h.html">ConvexSupport.h</a></div></div>
 <div class="ttc" id="a_core_8h_html_a5522c54735d837fae7d6ba026b858441"><div class="ttname"><a href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></div><div class="ttdeci">uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Core.h:234</div></div>
@@ -1017,7 +1015,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="ttc" id="aclass_g_j_k_closest_point_html_a20ab4d36efcf62ceae244ec75eb4bc23"><div class="ttname"><a href="class_g_j_k_closest_point.html#a20ab4d36efcf62ceae244ec75eb4bc23">GJKClosestPoint::Intersects</a></div><div class="ttdeci">bool Intersects(const A &amp;inA, const B &amp;inB, float inTolerance, Vec3 &amp;ioV)</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:204</div></div>
 <div class="ttc" id="aclass_g_j_k_closest_point_html_a66d20557ad6d34a1c1f29b6df058b523"><div class="ttname"><a href="class_g_j_k_closest_point.html#a66d20557ad6d34a1c1f29b6df058b523">GJKClosestPoint::CastShape</a></div><div class="ttdeci">bool CastShape(Mat44Arg inStart, Vec3Arg inDirection, float inTolerance, const A &amp;inA, const B &amp;inB, float &amp;ioLambda)</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:666</div></div>
 <div class="ttc" id="aclass_g_j_k_closest_point_html_a73d6f276fb275026a0126ca7361fb2bf"><div class="ttname"><a href="class_g_j_k_closest_point.html#a73d6f276fb275026a0126ca7361fb2bf">GJKClosestPoint::GetClosestPointsSimplex</a></div><div class="ttdeci">void GetClosestPointsSimplex(Vec3 *outY, Vec3 *outP, Vec3 *outQ, uint &amp;outNumPoints) const</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:492</div></div>
-<div class="ttc" id="aclass_g_j_k_closest_point_html_aa5b19da7e23744cb5c1af8fe2fee2940"><div class="ttname"><a href="class_g_j_k_closest_point.html#aa5b19da7e23744cb5c1af8fe2fee2940">GJKClosestPoint::CastShape</a></div><div class="ttdeci">bool CastShape(Mat44Arg inStart, Vec3Arg inDirection, float inTolerance, const A &amp;inA, const B &amp;inB, float inConvexRadiusA, float inConvexRadiusB, float &amp;ioLambda, Vec3 &amp;outPointA, Vec3 &amp;outPointB, Vec3 &amp;outSeparatingAxis)</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:698</div></div>
+<div class="ttc" id="aclass_g_j_k_closest_point_html_aa5b19da7e23744cb5c1af8fe2fee2940"><div class="ttname"><a href="class_g_j_k_closest_point.html#aa5b19da7e23744cb5c1af8fe2fee2940">GJKClosestPoint::CastShape</a></div><div class="ttdeci">bool CastShape(Mat44Arg inStart, Vec3Arg inDirection, float inTolerance, const A &amp;inA, const B &amp;inB, float inConvexRadiusA, float inConvexRadiusB, float &amp;ioLambda, Vec3 &amp;outPointA, Vec3 &amp;outPointB, Vec3 &amp;outSeparatingAxis)</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:697</div></div>
 <div class="ttc" id="aclass_g_j_k_closest_point_html_abb7cfdd49d708007d75b4c2e9b90ebb9"><div class="ttname"><a href="class_g_j_k_closest_point.html#abb7cfdd49d708007d75b4c2e9b90ebb9">GJKClosestPoint::GetClosestPoints</a></div><div class="ttdeci">float GetClosestPoints(const A &amp;inA, const B &amp;inB, float inTolerance, float inMaxDistSq, Vec3 &amp;ioV, Vec3 &amp;outPointA, Vec3 &amp;outPointB)</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:324</div></div>
 <div class="ttc" id="aclass_g_j_k_closest_point_html_ade3cde48252b6f77f749f9ac29685ec7"><div class="ttname"><a href="class_g_j_k_closest_point.html#ade3cde48252b6f77f749f9ac29685ec7">GJKClosestPoint::CastRay</a></div><div class="ttdeci">bool CastRay(Vec3Arg inRayOrigin, Vec3Arg inRayDirection, float inTolerance, const A &amp;inA, float &amp;ioLambda)</div><div class="ttdef"><b>Definition:</b> GJKClosestPoint.h:513</div></div>
 <div class="ttc" id="aclass_mat44_html"><div class="ttname"><a href="class_mat44.html">Mat44</a></div><div class="ttdoc">Holds a 4x4 matrix of floats, but supports also operations on the 3x3 upper left part of the matrix.</div><div class="ttdef"><b>Definition:</b> Mat44.h:12</div></div>
@@ -1037,6 +1035,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="ttc" id="astruct_minkowski_difference_html"><div class="ttname"><a href="struct_minkowski_difference.html">MinkowskiDifference</a></div><div class="ttdoc">Structure that performs a Minkowski difference A - B.</div><div class="ttdef"><b>Definition:</b> ConvexSupport.h:66</div></div>
 <div class="ttc" id="astruct_minkowski_difference_html_ad9e15e934b19be1df6e09a926a1e26dd"><div class="ttname"><a href="struct_minkowski_difference.html#ad9e15e934b19be1df6e09a926a1e26dd">MinkowskiDifference::GetSupport</a></div><div class="ttdeci">Vec3 GetSupport(Vec3Arg inDirection) const</div><div class="ttdoc">Calculate the support vector for this convex shape.</div><div class="ttdef"><b>Definition:</b> ConvexSupport.h:74</div></div>
 <div class="ttc" id="astruct_transformed_convex_object_html"><div class="ttname"><a href="struct_transformed_convex_object.html">TransformedConvexObject</a></div><div class="ttdef"><b>Definition:</b> ConvexSupport.h:14</div></div>
+<div class="ttc" id="astruct_transformed_convex_object_html_a0fa745b8d15e71629ebb719716d16fa8"><div class="ttname"><a href="struct_transformed_convex_object.html#a0fa745b8d15e71629ebb719716d16fa8">TransformedConvexObject::GetSupport</a></div><div class="ttdeci">Vec3 GetSupport(Vec3Arg inDirection) const</div><div class="ttdoc">Calculate the support vector for this convex shape.</div><div class="ttdef"><b>Definition:</b> ConvexSupport.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
