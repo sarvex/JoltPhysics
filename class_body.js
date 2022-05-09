@@ -14,7 +14,7 @@ var class_body =
     [ "AddPositionStep", "class_body.html#af98f831df76bd7e54eeb92d79fa3c8cd", null ],
     [ "AddRotationStep", "class_body.html#a3385650a73d75c7d9c16d13ea2d5519f", null ],
     [ "AddTorque", "class_body.html#aec30d437f934327d261e8ebdc23a2c8c", null ],
-    [ "ApplyBuoyancyImpulse", "class_body.html#a65e767b0ffe7e2519d214a92f7fff300", null ],
+    [ "ApplyBuoyancyImpulse", "class_body.html#a0bbe975cc8662d7ea191fd17e947aec8", null ],
     [ "CalculateWorldSpaceBoundsInternal", "class_body.html#a1aace226a07f37492739bf10fd16a720", null ],
     [ "CanBeKinematicOrDynamic", "class_body.html#a97addaa630b716fbc5b21ba19fdcf6ec", null ],
     [ "GetAllowSleeping", "class_body.html#a1de301b3077fe2ae6339b910573ef3c6", null ],

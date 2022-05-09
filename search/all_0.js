@@ -84,7 +84,7 @@ var searchData=
   ['animatedjointvector_81',['AnimatedJointVector',['../class_skeletal_animation.html#aee59831744bb6e00a5ef597a05e6cebe',1,'SkeletalAnimation']]],
   ['anyhitcollisioncollector_82',['AnyHitCollisionCollector',['../class_any_hit_collision_collector.html',1,'']]],
   ['appendvector_83',['AppendVector',['../class_byte_buffer.html#ac62d8f4b009a8d2428b702b7a0754f87',1,'ByteBuffer']]],
-  ['applybuoyancyimpulse_84',['ApplyBuoyancyImpulse',['../class_body.html#a65e767b0ffe7e2519d214a92f7fff300',1,'Body']]],
+  ['applybuoyancyimpulse_84',['ApplyBuoyancyImpulse',['../class_body.html#a0bbe975cc8662d7ea191fd17e947aec8',1,'Body']]],
   ['applyforcetorqueanddraginternal_85',['ApplyForceTorqueAndDragInternal',['../class_motion_properties.html#ae1d0e7670106211909852cd6844286d9',1,'MotionProperties']]],
   ['applytorque_86',['ApplyTorque',['../class_wheel_w_v.html#a8d82611fb63ebf51e726d0aff2db4cab',1,'WheelWV']]],
   ['architecture_20of_20jolt_20physics_87',['Architecture of Jolt Physics',['../index.html',1,'']]],

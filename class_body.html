@@ -225,8 +225,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adea0b8f59bc47cd3b94d738aa5d65ebe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#adea0b8f59bc47cd3b94d738aa5d65ebe">MoveKinematic</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inTargetPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inTargetRotation, float inDeltaTime)</td></tr>
 <tr class="memdesc:adea0b8f59bc47cd3b94d738aa5d65ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set velocity of body such that it will be positioned at inTargetPosition/Rotation in inDeltaTime seconds.  <a href="class_body.html#adea0b8f59bc47cd3b94d738aa5d65ebe">More...</a><br /></td></tr>
 <tr class="separator:adea0b8f59bc47cd3b94d738aa5d65ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65e767b0ffe7e2519d214a92f7fff300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a65e767b0ffe7e2519d214a92f7fff300">ApplyBuoyancyImpulse</a> (const <a class="el" href="class_plane.html">Plane</a> &amp;inSurface, float inBuoyancy, float inLinearDrag, float inAngularDrag, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inFluidVelocity, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, float inDeltaTime)</td></tr>
-<tr class="separator:a65e767b0ffe7e2519d214a92f7fff300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bbe975cc8662d7ea191fd17e947aec8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a0bbe975cc8662d7ea191fd17e947aec8">ApplyBuoyancyImpulse</a> (const <a class="el" href="class_plane.html">Plane</a> &amp;inSurface, float inBuoyancy, float inLinearDrag, float inAngularDrag, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inFluidVelocity, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, float inDeltaTime)</td></tr>
+<tr class="separator:a0bbe975cc8662d7ea191fd17e947aec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d17f6ccde9ed070cdead2585ee87446"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a0d17f6ccde9ed070cdead2585ee87446">IsInBroadPhase</a> () const</td></tr>
 <tr class="memdesc:a0d17f6ccde9ed070cdead2585ee87446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body has been added to the physics system.  <a href="class_body.html#a0d17f6ccde9ed070cdead2585ee87446">More...</a><br /></td></tr>
 <tr class="separator:a0d17f6ccde9ed070cdead2585ee87446"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -687,14 +687,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a65e767b0ffe7e2519d214a92f7fff300" name="a65e767b0ffe7e2519d214a92f7fff300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65e767b0ffe7e2519d214a92f7fff300">&#9670;&nbsp;</a></span>ApplyBuoyancyImpulse()</h2>
+<a id="a0bbe975cc8662d7ea191fd17e947aec8" name="a0bbe975cc8662d7ea191fd17e947aec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bbe975cc8662d7ea191fd17e947aec8">&#9670;&nbsp;</a></span>ApplyBuoyancyImpulse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Body::ApplyBuoyancyImpulse </td>
+          <td class="memname">bool Body::ApplyBuoyancyImpulse </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_plane.html">Plane</a> &amp;&#160;</td>
           <td class="paramname"><em>inSurface</em>, </td>
@@ -754,6 +754,7 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if an impulse was applied, false if the body was not in the fluid </dd></dl>
 
 </div>
 </div>
