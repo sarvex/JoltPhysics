@@ -128,8 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5196ad5105338e4ba90d92b43527ba41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a5196ad5105338e4ba90d92b43527ba41">WritePointerData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, const void *inPointer)</td></tr>
 <tr class="separator:a5196ad5105338e4ba90d92b43527ba41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Output type specific operations</div></td></tr>
-<tr class="memitem:a2376b7f13109cf0a8092fa15898381e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a2376b7f13109cf0a8092fa15898381e7">WriteDataType</a> (<a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08">EDataType</a> inType)=0</td></tr>
-<tr class="separator:a2376b7f13109cf0a8092fa15898381e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de6a2a8df9d41183a2d8f85e6e1cb8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a1de6a2a8df9d41183a2d8f85e6e1cb8b">WriteDataType</a> (<a class="el" href="_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a">EOSDataType</a> inType)=0</td></tr>
+<tr class="separator:a1de6a2a8df9d41183a2d8f85e6e1cb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b33fcf0ac95c157df824016fe8a7197"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a8b33fcf0ac95c157df824016fe8a7197">WriteName</a> (const char *inName)=0</td></tr>
 <tr class="separator:a8b33fcf0ac95c157df824016fe8a7197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3479358abacab5c74b435728fb25975"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#af3479358abacab5c74b435728fb25975">WriteIdentifier</a> (<a class="el" href="class_object_stream.html#a03085cd2aa375ca2c773579947434455">Identifier</a> inIdentifier)=0</td></tr>
@@ -198,19 +198,6 @@ Additional Inherited Members</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a5feef3b87da292623ebf2a04c7c3482e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream type.  <a href="class_object_stream.html#a5feef3b87da292623ebf2a04c7c3482e">More...</a><br /></td></tr>
 <tr class="separator:a5feef3b87da292623ebf2a04c7c3482e inherit pub_types_class_object_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9803711616c926dd41418f5fa7002b08 inherit pub_types_class_object_stream"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08">EDataType</a> { <br />
-&#160;&#160;<a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08a2709046ed364cc54b91f908e85e512ed">Declare</a>
-, <a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08a497031794414a552435f90151ac3b54b">Object</a>
-, <a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08ad9a17c1c9e8ef6866e4dbeef41c741b2">Instance</a>
-, <a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08a61cf8510205077b6f5491d38cd44c0f7">Pointer</a>
-, <br />
-&#160;&#160;<a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08a4410ec34d9e6c1a68100ca0ce033fb17">Array</a>
-, <a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08a988ddd4859f990b5618fb95f0dbfdaf6">JPH_DECLARE_PRIMITIVE</a>
-, <a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08a4bbb8f967da6d1a610596d7257179c2b">Invalid</a>
-<br />
- }</td></tr>
-<tr class="memdesc:a9803711616c926dd41418f5fa7002b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data type.  <a href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08">More...</a><br /></td></tr>
-<tr class="separator:a9803711616c926dd41418f5fa7002b08 inherit pub_types_class_object_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_types_class_object_stream"><td colspan="2" onclick="javascript:toggleInherit('pro_types_class_object_stream')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="class_object_stream.html">ObjectStream</a></td></tr>
 <tr class="memitem:a03085cd2aa375ca2c773579947434455 inherit pro_types_class_object_stream"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream.html#a03085cd2aa375ca2c773579947434455">Identifier</a> = <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></td></tr>
 <tr class="memdesc:a03085cd2aa375ca2c773579947434455 inherit pro_types_class_object_stream"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier for objects.  <a href="class_object_stream.html#a03085cd2aa375ca2c773579947434455">More...</a><br /></td></tr>
@@ -572,8 +559,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a2376b7f13109cf0a8092fa15898381e7" name="a2376b7f13109cf0a8092fa15898381e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2376b7f13109cf0a8092fa15898381e7">&#9670;&nbsp;</a></span>WriteDataType()</h2>
+<a id="a1de6a2a8df9d41183a2d8f85e6e1cb8b" name="a1de6a2a8df9d41183a2d8f85e6e1cb8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de6a2a8df9d41183a2d8f85e6e1cb8b">&#9670;&nbsp;</a></span>WriteDataType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -584,7 +571,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">virtual void ObjectStreamOut::WriteDataType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_object_stream.html#a9803711616c926dd41418f5fa7002b08">EDataType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a">EOSDataType</a>&#160;</td>
           <td class="paramname"><em>inType</em></td><td>)</td>
           <td></td>
         </tr>
@@ -596,7 +583,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_object_stream_binary_out.html#acbaa221deb217b31751ac90f88bd782b">ObjectStreamBinaryOut</a>, and <a class="el" href="class_object_stream_text_out.html#ab3749d6ddf086a20b258abcd57eb7942">ObjectStreamTextOut</a>.</p>
+<p>Implemented in <a class="el" href="class_object_stream_binary_out.html#a3e4c46b7af4d61764078ce1f0910e1e1">ObjectStreamBinaryOut</a>, and <a class="el" href="class_object_stream_text_out.html#a27ba41722490a37f58523464135861eb">ObjectStreamTextOut</a>.</p>
 
 </div>
 </div>

@@ -8,7 +8,7 @@ var class_object_stream_out =
     [ "Write", "class_object_stream_out.html#a00ac10a63cae82e5aa420739d243bb5e", null ],
     [ "WriteClassData", "class_object_stream_out.html#a55ae906eab414c0c34f50182ac952b58", null ],
     [ "WriteCount", "class_object_stream_out.html#a12188b4c469a9c521dfff1175a756be6", null ],
-    [ "WriteDataType", "class_object_stream_out.html#a2376b7f13109cf0a8092fa15898381e7", null ],
+    [ "WriteDataType", "class_object_stream_out.html#a1de6a2a8df9d41183a2d8f85e6e1cb8b", null ],
     [ "WriteIdentifier", "class_object_stream_out.html#af3479358abacab5c74b435728fb25975", null ],
     [ "WriteName", "class_object_stream_out.html#a8b33fcf0ac95c157df824016fe8a7197", null ],
     [ "WriteObject", "class_object_stream_out.html#a9277b8858ca05bb673daefecab467901", null ],

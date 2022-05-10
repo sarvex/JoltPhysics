@@ -118,19 +118,44 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c5c5cba0d5101b5d33302cd102d8546"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_factory.html#a2c5c5cba0d5101b5d33302cd102d8546">Register</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI)</td></tr>
 <tr class="memdesc:a2c5c5cba0d5101b5d33302cd102d8546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register an object with the factory. Returns false on failure.  <a href="class_factory.html#a2c5c5cba0d5101b5d33302cd102d8546">More...</a><br /></td></tr>
 <tr class="separator:a2c5c5cba0d5101b5d33302cd102d8546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d9b51fede200c603359bc2ffc8bc8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_factory.html#ad0d9b51fede200c603359bc2ffc8bc8f">Register</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> **inRTTIs, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumber)</td></tr>
+<tr class="memdesc:ad0d9b51fede200c603359bc2ffc8bc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a list of objects with the factory. Returns false on failure.  <a href="class_factory.html#ad0d9b51fede200c603359bc2ffc8bc8f">More...</a><br /></td></tr>
+<tr class="separator:ad0d9b51fede200c603359bc2ffc8bc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8797d6707e3873ad2a3482d04782dc6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_factory.html#a8797d6707e3873ad2a3482d04782dc6a">Clear</a> ()</td></tr>
+<tr class="memdesc:a8797d6707e3873ad2a3482d04782dc6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters all types.  <a href="class_factory.html#a8797d6707e3873ad2a3482d04782dc6a">More...</a><br /></td></tr>
+<tr class="separator:a8797d6707e3873ad2a3482d04782dc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2c5ffa9bc3e77daa4599eed5356a7c"><td class="memItemLeft" align="right" valign="top">vector&lt; const <a class="el" href="class_r_t_t_i.html">RTTI</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_factory.html#a4e2c5ffa9bc3e77daa4599eed5356a7c">GetAllClasses</a> () const</td></tr>
 <tr class="memdesc:a4e2c5ffa9bc3e77daa4599eed5356a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all registered classes.  <a href="class_factory.html#a4e2c5ffa9bc3e77daa4599eed5356a7c">More...</a><br /></td></tr>
 <tr class="separator:a4e2c5ffa9bc3e77daa4599eed5356a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a2d393dabfd3521e6c7b27085a6e559d1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_factory.html">Factory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_factory.html#a2d393dabfd3521e6c7b27085a6e559d1">sInstance</a></td></tr>
-<tr class="memdesc:a2d393dabfd3521e6c7b27085a6e559d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton factory instance.  <a href="class_factory.html#a2d393dabfd3521e6c7b27085a6e559d1">More...</a><br /></td></tr>
-<tr class="separator:a2d393dabfd3521e6c7b27085a6e559d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbac3e3e59f7981d7dec696e914e69f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_factory.html">Factory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_factory.html#afdbac3e3e59f7981d7dec696e914e69f">sInstance</a> = nullptr</td></tr>
+<tr class="memdesc:afdbac3e3e59f7981d7dec696e914e69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton factory instance.  <a href="class_factory.html#afdbac3e3e59f7981d7dec696e914e69f">More...</a><br /></td></tr>
+<tr class="separator:afdbac3e3e59f7981d7dec696e914e69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="class_factory.html" title="Factory, to create RTTI objects.">Factory</a>, to create <a class="el" href="class_r_t_t_i.html">RTTI</a> objects. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8797d6707e3873ad2a3482d04782dc6a" name="a8797d6707e3873ad2a3482d04782dc6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8797d6707e3873ad2a3482d04782dc6a">&#9670;&nbsp;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Factory::Clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unregisters all types. </p>
+
+</div>
+</div>
 <a id="a8952fd138cc4a7625f009fda6d47f078" name="a8952fd138cc4a7625f009fda6d47f078"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8952fd138cc4a7625f009fda6d47f078">&#9670;&nbsp;</a></span>CreateObject()</h2>
 
@@ -210,8 +235,38 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad0d9b51fede200c603359bc2ffc8bc8f" name="ad0d9b51fede200c603359bc2ffc8bc8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0d9b51fede200c603359bc2ffc8bc8f">&#9670;&nbsp;</a></span>Register() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Factory::Register </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_r_t_t_i.html">RTTI</a> **&#160;</td>
+          <td class="paramname"><em>inRTTIs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td>
+          <td class="paramname"><em>inNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register a list of objects with the factory. Returns false on failure. </p>
+
+</div>
+</div>
 <a id="a2c5c5cba0d5101b5d33302cd102d8546" name="a2c5c5cba0d5101b5d33302cd102d8546"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c5c5cba0d5101b5d33302cd102d8546">&#9670;&nbsp;</a></span>Register()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5c5cba0d5101b5d33302cd102d8546">&#9670;&nbsp;</a></span>Register() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,8 +286,8 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2d393dabfd3521e6c7b27085a6e559d1" name="a2d393dabfd3521e6c7b27085a6e559d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d393dabfd3521e6c7b27085a6e559d1">&#9670;&nbsp;</a></span>sInstance</h2>
+<a id="afdbac3e3e59f7981d7dec696e914e69f" name="afdbac3e3e59f7981d7dec696e914e69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdbac3e3e59f7981d7dec696e914e69f">&#9670;&nbsp;</a></span>sInstance</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +296,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> <a class="el" href="class_factory.html">Factory</a> Factory::sInstance</td>
+          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> <a class="el" href="class_factory.html">Factory</a> * Factory::sInstance = nullptr</td>
         </tr>
       </table>
   </td>

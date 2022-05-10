@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('_serializable_attribute_typed_8h.html'
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">SerializableAttributeTyped.h File Reference</div></div>
@@ -100,25 +99,21 @@ $(document).ready(function(){initNavTree('_serializable_attribute_typed_8h.html'
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="_serializable_attribute_8h_source.html">Jolt/ObjectStream/SerializableAttribute.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_get_primitive_type_of_type_8h_source.html">Jolt/ObjectStream/GetPrimitiveTypeOfType.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_object_stream_in_8h_source.html">Jolt/ObjectStream/ObjectStreamIn.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_object_stream_out_8h_source.html">Jolt/ObjectStream/ObjectStreamOut.h</a>&gt;</code><br />
 </div>
 <p><a href="_serializable_attribute_typed_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute_typed.html">SerializableAttributeTyped&lt; Class, T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains a serializable attribute of any type (except enum)  <a href="class_serializable_attribute_typed.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a564e5bd12360a28431c73574690dd1b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_serializable_attribute_typed_8h.html#a564e5bd12360a28431c73574690dd1b8">JPH_ADD_ATTRIBUTE</a>(class_name,  member_name)&#160;&#160;&#160;								<a class="el" href="_serializable_attribute_typed_8h.html#af1035fd001f226e67344fecb46789d46">AddSerializableAttributeTyped</a>(inRTTI, &amp;class_name::member_name, #member_name);</td></tr>
+<tr class="memitem:a564e5bd12360a28431c73574690dd1b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_serializable_attribute_typed_8h.html#a564e5bd12360a28431c73574690dd1b8">JPH_ADD_ATTRIBUTE</a>(class_name,  member_name)&#160;&#160;&#160;	<a class="el" href="_serializable_attribute_typed_8h.html#a3d653de5dabcb867e559260596e8ac43">AddSerializableAttributeTyped</a>&lt;decltype(class_name::member_name)&gt;(inRTTI, offsetof(class_name, member_name), #member_name);</td></tr>
 <tr class="separator:a564e5bd12360a28431c73574690dd1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af1035fd001f226e67344fecb46789d46"><td class="memTemplParams" colspan="2">template&lt;class Class , class T &gt; </td></tr>
-<tr class="memitem:af1035fd001f226e67344fecb46789d46"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_serializable_attribute_typed_8h.html#af1035fd001f226e67344fecb46789d46">AddSerializableAttributeTyped</a> (<a class="el" href="class_r_t_t_i.html">RTTI</a> &amp;inRTTI, T Class::*inMember, const char *inName)</td></tr>
-<tr class="separator:af1035fd001f226e67344fecb46789d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d653de5dabcb867e559260596e8ac43"><td class="memTemplParams" colspan="2">template&lt;class MemberType &gt; </td></tr>
+<tr class="memitem:a3d653de5dabcb867e559260596e8ac43"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_serializable_attribute_typed_8h.html#a3d653de5dabcb867e559260596e8ac43">AddSerializableAttributeTyped</a> (<a class="el" href="class_r_t_t_i.html">RTTI</a> &amp;inRTTI, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inOffset, const char *inName)</td></tr>
+<tr class="separator:a3d653de5dabcb867e559260596e8ac43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a564e5bd12360a28431c73574690dd1b8" name="a564e5bd12360a28431c73574690dd1b8"></a>
@@ -142,7 +137,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;								<a class="el" href="_serializable_attribute_typed_8h.html#af1035fd001f226e67344fecb46789d46">AddSerializableAttributeTyped</a>(inRTTI, &amp;class_name::member_name, #member_name);</td>
+          <td></td><td>&#160;&#160;&#160;	<a class="el" href="_serializable_attribute_typed_8h.html#a3d653de5dabcb867e559260596e8ac43">AddSerializableAttributeTyped</a>&lt;decltype(class_name::member_name)&gt;(inRTTI, offsetof(class_name, member_name), #member_name);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -150,19 +145,19 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="af1035fd001f226e67344fecb46789d46" name="af1035fd001f226e67344fecb46789d46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1035fd001f226e67344fecb46789d46">&#9670;&nbsp;</a></span>AddSerializableAttributeTyped()</h2>
+<a id="a3d653de5dabcb867e559260596e8ac43" name="a3d653de5dabcb867e559260596e8ac43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d653de5dabcb867e559260596e8ac43">&#9670;&nbsp;</a></span>AddSerializableAttributeTyped()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class Class , class T &gt; </div>
+template&lt;class MemberType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSerializableAttributeTyped </td>
+          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void AddSerializableAttributeTyped </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_r_t_t_i.html">RTTI</a> &amp;&#160;</td>
           <td class="paramname"><em>inRTTI</em>, </td>
@@ -170,8 +165,8 @@ template&lt;class Class , class T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T Class::*&#160;</td>
-          <td class="paramname"><em>inMember</em>, </td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td>
+          <td class="paramname"><em>inOffset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

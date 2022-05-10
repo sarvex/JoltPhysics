@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['declare_0',['Declare',['../class_object_stream.html#a9803711616c926dd41418f5fa7002b08a2709046ed364cc54b91f908e85e512ed',1,'ObjectStream']]],
+  ['declare_0',['Declare',['../_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974aa2709046ed364cc54b91f908e85e512ed',1,'SerializableAttribute.h']]],
   ['decorated_1',['Decorated',['../_shape_8h.html#ad64a1c665070a3100e456e54073554a5a37c71f1e0f41cdad32aa3d4add9f2f86',1,'Shape.h']]],
   ['degenerate_2',['Degenerate',['../class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d',1,'ConvexHullBuilder']]],
   ['discrete_3',['Discrete',['../_motion_quality_8h.html#af43db3453103c2e62526f54dd8542d3aa4984667940802dedc139aa7a430a6553',1,'MotionQuality.h']]],

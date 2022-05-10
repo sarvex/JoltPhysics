@@ -2,7 +2,7 @@ var class_object_stream_text_in =
 [
     [ "ObjectStreamTextIn", "class_object_stream_text_in.html#af134b8a2a22f563c4b550f48aff21741", null ],
     [ "ReadCount", "class_object_stream_text_in.html#acaef815639a4298f6a576140de8cb6a8", null ],
-    [ "ReadDataType", "class_object_stream_text_in.html#a9ce7fc1910bd31c0a9e2e072153a2943", null ],
+    [ "ReadDataType", "class_object_stream_text_in.html#adc4196beb9e42a5b479b5cf7c9fbd736", null ],
     [ "ReadIdentifier", "class_object_stream_text_in.html#a92609c6794b05cee7bf47018ade56136", null ],
     [ "ReadName", "class_object_stream_text_in.html#a66ab0e5af0c2be38f72c6ecfe4f325ab", null ],
     [ "ReadPrimitiveData", "class_object_stream_text_in.html#af69f711f9957bacae5aebfdac9d60b56", null ],

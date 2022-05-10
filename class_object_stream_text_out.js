@@ -5,7 +5,7 @@ var class_object_stream_text_out =
     [ "HintIndentUp", "class_object_stream_text_out.html#a9fc1cac8ca74e8897ec19b2df8de1eb9", null ],
     [ "HintNextItem", "class_object_stream_text_out.html#acc5aff4eec5365eaf3b43070cd893485", null ],
     [ "WriteCount", "class_object_stream_text_out.html#ae879ce81e2b436adc60a15dfd60ce6f7", null ],
-    [ "WriteDataType", "class_object_stream_text_out.html#ab3749d6ddf086a20b258abcd57eb7942", null ],
+    [ "WriteDataType", "class_object_stream_text_out.html#a27ba41722490a37f58523464135861eb", null ],
     [ "WriteIdentifier", "class_object_stream_text_out.html#a7825ca05bdb8a4af27f109ede048d761", null ],
     [ "WriteName", "class_object_stream_text_out.html#a9aa76251bab9b55c4d341da5193c3bff", null ],
     [ "WritePrimitiveData", "class_object_stream_text_out.html#ab2ca6f858d4f8f4101407705879a9d0d", null ],

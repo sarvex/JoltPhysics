@@ -100,7 +100,6 @@ $(document).ready(function(){initNavTree('_object_stream_out_8cpp.html',''); ini
 <code>#include &lt;<a class="el" href="_object_stream_out_8h_source.html">Jolt/ObjectStream/ObjectStreamOut.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_object_stream_text_out_8h_source.html">Jolt/ObjectStream/ObjectStreamTextOut.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_object_stream_binary_out_8h_source.html">Jolt/ObjectStream/ObjectStreamBinaryOut.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_serializable_attribute_8h_source.html">Jolt/ObjectStream/SerializableAttribute.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_type_declarations_8h_source.html">Jolt/ObjectStream/TypeDeclarations.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_object_stream_types_8h_source.html">Jolt/ObjectStream/ObjectStreamTypes.h</a>&gt;</code><br />
 </div><table class="memberdecls">
@@ -147,7 +146,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span>    <a class="code hl_function" href="_object_stream_out_8h.html#a62ef3dbc22d81934bef4a246ac20f76a">OSWriteDataType</a>(<a class="code hl_class" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, name *)                              \</div>
 <div class="line">    {                                                                                       \</div>
-<div class="line">        ioStream.WriteDataType(ObjectStream::EDataType::T_##name);                          \</div>
+<div class="line">        ioStream.WriteDataType(EOSDataType::T_##name);                                      \</div>
 <div class="line">    }                                                                                       \</div>
 <div class="line">    void    <a class="code hl_function" href="_object_stream_out_8h.html#a5c1849fe159cc8995532ce5f7fa2cd7b">OSWriteData</a>(<a class="code hl_class" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, <span class="keyword">const</span> name &amp;inPrimitive)                 \</div>
 <div class="line">    {                                                                                       \</div>

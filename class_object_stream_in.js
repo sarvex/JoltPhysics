@@ -5,7 +5,7 @@ var class_object_stream_in =
     [ "ReadClassData", "class_object_stream_in.html#a4daab06db7b5dd9f474973ade72da4b0", null ],
     [ "ReadClassData", "class_object_stream_in.html#a9918789956492451260e1af1fa1c2db8", null ],
     [ "ReadCount", "class_object_stream_in.html#a7f2d1ab3a5bb3e1de6fa19dc70d66a93", null ],
-    [ "ReadDataType", "class_object_stream_in.html#a8fd11c0ffa085746474f49d0b0770ef0", null ],
+    [ "ReadDataType", "class_object_stream_in.html#a364f6944589b1eb9d7ed4548647de1d2", null ],
     [ "ReadIdentifier", "class_object_stream_in.html#a428cbbead9677815020c3e3a2b8f1760", null ],
     [ "ReadName", "class_object_stream_in.html#a797c491ae115f9310ee15bd49bc01230", null ],
     [ "ReadObject", "class_object_stream_in.html#a27fa5f9b8e00504d57a6440c81b3f6ff", null ],
@@ -24,6 +24,6 @@ var class_object_stream_in =
     [ "ReadPrimitiveData", "class_object_stream_in.html#a9975f9d706e5b2730d2eb3bd27e82bbf", null ],
     [ "ReadPrimitiveData", "class_object_stream_in.html#a15e09d6f6f5e5ab23421c920ed74d8d9", null ],
     [ "ReadRTTI", "class_object_stream_in.html#aba38d15deacd14fb875da3b6d4a8f2d3", null ],
-    [ "SkipAttributeData", "class_object_stream_in.html#ac74605966fc4d8948b873682e48f83de", null ],
+    [ "SkipAttributeData", "class_object_stream_in.html#af6fad54cdc53d20f00a438c2b41af54b", null ],
     [ "mStream", "class_object_stream_in.html#af192dd2e7103ba17cf40d13bed1ee123", null ]
 ];

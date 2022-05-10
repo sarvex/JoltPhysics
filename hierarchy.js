@@ -364,14 +364,6 @@ var hierarchy =
     [ "RefTarget< RagdollSettings >", "class_ref_target.html", [
       [ "RagdollSettings", "class_ragdoll_settings.html", null ]
     ] ],
-    [ "RefTarget< RTTIAttribute >", "class_ref_target.html", [
-      [ "RTTIAttribute", "class_r_t_t_i_attribute.html", [
-        [ "SerializableAttribute", "class_serializable_attribute.html", [
-          [ "SerializableAttributeEnum< Class, T >", "class_serializable_attribute_enum.html", null ],
-          [ "SerializableAttributeTyped< Class, T >", "class_serializable_attribute_typed.html", null ]
-        ] ]
-      ] ]
-    ] ],
     [ "RefTarget< Shape >", "class_ref_target.html", [
       [ "Shape", "class_shape.html", null ]
     ] ],
@@ -432,6 +424,7 @@ var hierarchy =
     [ "RotationEulerConstraintPart", "class_rotation_euler_constraint_part.html", null ],
     [ "RotationQuatConstraintPart", "class_rotation_quat_constraint_part.html", null ],
     [ "RTTI", "class_r_t_t_i.html", null ],
+    [ "SerializableAttribute", "class_serializable_attribute.html", null ],
     [ "SerializableObject", "class_serializable_object.html", [
       [ "ConstraintSettings", "class_constraint_settings.html", null ],
       [ "GroupFilter", "class_group_filter.html", null ],
@@ -456,6 +449,8 @@ var hierarchy =
     [ "StaticArray< BodyPairQueue, cMaxConcurrency >", "class_static_array.html", null ],
     [ "StaticArray< JobHandle, cMaxConcurrency >", "class_static_array.html", null ],
     [ "StaticArray< Part, 3 >", "class_static_array.html", null ],
+    [ "StaticArray< RTTI::BaseClass, 4 >", "class_static_array.html", null ],
+    [ "StaticArray< SerializableAttribute, 32 >", "class_static_array.html", null ],
     [ "StaticArray< Step, cMaxSteps >", "class_static_array.html", null ],
     [ "StaticArray< SubStep, cMaxSubSteps >", "class_static_array.html", null ],
     [ "StaticArray< Vec3, 32 >", "class_static_array.html", null ],

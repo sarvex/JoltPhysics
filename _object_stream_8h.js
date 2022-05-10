@@ -2,10 +2,9 @@ var _object_stream_8h =
 [
     [ "ObjectStream", "class_object_stream.html", "class_object_stream" ],
     [ "JPH_DECLARE_PRIMITIVE", "_object_stream_8h.html#a7d32f5239cd276fd0012072a2a4ccd23", null ],
-    [ "JPH_DECLARE_PRIMITIVE", "_object_stream_8h.html#a7d32f5239cd276fd0012072a2a4ccd23", null ],
-    [ "OSIsType", "_object_stream_8h.html#a8fd372373b95d669579178d39cb25404", null ],
-    [ "OSIsType", "_object_stream_8h.html#a7f8bc50bb99a88fa4bd9f04ce9165076", null ],
-    [ "OSIsType", "_object_stream_8h.html#adc5f25e6faf844829997b86252201eeb", null ],
-    [ "OSIsType", "_object_stream_8h.html#a75ebab72c401ec81e3c89d89467861d3", null ],
-    [ "OSIsType", "_object_stream_8h.html#a3e99c829e0dae8d8d5c0f9b159fd0a60", null ]
+    [ "OSIsType", "_object_stream_8h.html#a0084d42d85c675f42282b38b31be8173", null ],
+    [ "OSIsType", "_object_stream_8h.html#a046ca0bf5695cd0bf7e3f4421f27f080", null ],
+    [ "OSIsType", "_object_stream_8h.html#a2d4f6a65eacb30124ed4d3221fe6f360", null ],
+    [ "OSIsType", "_object_stream_8h.html#a652b1b1dc359b5107edbcc394b3b22fd", null ],
+    [ "OSIsType", "_object_stream_8h.html#afc624c35740942f180e80d3c409c4be9", null ]
 ];

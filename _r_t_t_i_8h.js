@@ -2,7 +2,6 @@ var _r_t_t_i_8h =
 [
     [ "RTTI", "class_r_t_t_i.html", "class_r_t_t_i" ],
     [ "RTTI::BaseClass", "struct_r_t_t_i_1_1_base_class.html", "struct_r_t_t_i_1_1_base_class" ],
-    [ "RTTIAttribute", "class_r_t_t_i_attribute.html", "class_r_t_t_i_attribute" ],
     [ "JPH_ADD_BASE_CLASS", "_r_t_t_i_8h.html#a6b6dec4b6f44b7b759575042b90f1e0e", null ],
     [ "JPH_BASE_CLASS_OFFSET", "_r_t_t_i_8h.html#a668438b38455c6832cd177af4462cdec", null ],
     [ "JPH_DECLARE_RTTI_ABSTRACT", "_r_t_t_i_8h.html#a2efd84e8e04dc18e83f9f0d14192ca39", null ],

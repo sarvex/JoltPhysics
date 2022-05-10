@@ -2,7 +2,7 @@ var class_object_stream_binary_out =
 [
     [ "ObjectStreamBinaryOut", "class_object_stream_binary_out.html#a95c257e2db19513f1222b8b8a7e96bc7", null ],
     [ "WriteCount", "class_object_stream_binary_out.html#a9a8860b8189ef78d0ed13b4d06bb2086", null ],
-    [ "WriteDataType", "class_object_stream_binary_out.html#acbaa221deb217b31751ac90f88bd782b", null ],
+    [ "WriteDataType", "class_object_stream_binary_out.html#a3e4c46b7af4d61764078ce1f0910e1e1", null ],
     [ "WriteIdentifier", "class_object_stream_binary_out.html#afc5f227a73e002dbf0e7fd61e6bfa041", null ],
     [ "WriteName", "class_object_stream_binary_out.html#a49bb92e7db5bc0206b8784456b20a34e", null ],
     [ "WritePrimitiveData", "class_object_stream_binary_out.html#a61fa64a09b0a198016555a219a3cea19", null ],

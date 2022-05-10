@@ -2,7 +2,7 @@ var class_object_stream_binary_in =
 [
     [ "ObjectStreamBinaryIn", "class_object_stream_binary_in.html#a5b06493c2d5b32cbe534183d2452e48b", null ],
     [ "ReadCount", "class_object_stream_binary_in.html#af7e2608beec6934dd8a83fe5602a2568", null ],
-    [ "ReadDataType", "class_object_stream_binary_in.html#aa4357d6414d36413db128cb15b6dcdc1", null ],
+    [ "ReadDataType", "class_object_stream_binary_in.html#a530608ffb7d8b12b9bc58afd9169d8f6", null ],
     [ "ReadIdentifier", "class_object_stream_binary_in.html#aef0b7299dfe253b7824e116edd9d3257", null ],
     [ "ReadName", "class_object_stream_binary_in.html#a50780cd54ac8f1438d260f9b936b0a02", null ],
     [ "ReadPrimitiveData", "class_object_stream_binary_in.html#aa74809f20beb6f9621abc3e2333c614e", null ],
