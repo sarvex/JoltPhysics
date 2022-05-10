@@ -123,7 +123,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acfae9c6e70eef7f2fdb2d12fd718f187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the contents of the constraint settings in binary form to inStream.  <a href="class_slider_constraint_settings.html#acfae9c6e70eef7f2fdb2d12fd718f187">More...</a><br /></td></tr>
 <tr class="separator:acfae9c6e70eef7f2fdb2d12fd718f187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf465eb2615ffac5ecb0047f682a31c2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#abf465eb2615ffac5ecb0047f682a31c2">Create</a> (<a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2) const override</td></tr>
-<tr class="memdesc:abf465eb2615ffac5ecb0047f682a31c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an an instance of this constraint.  <a href="class_slider_constraint_settings.html#abf465eb2615ffac5ecb0047f682a31c2">More...</a><br /></td></tr>
 <tr class="separator:abf465eb2615ffac5ecb0047f682a31c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34683e3a31305b6623cea0ee632c64e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a34683e3a31305b6623cea0ee632c64e4">SetPoint</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2)</td></tr>
 <tr class="memdesc:a34683e3a31305b6623cea0ee632c64e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple way of setting the anchor points in world space so that the current relative position is chosen as the '0' position.  <a href="class_slider_constraint_settings.html#a34683e3a31305b6623cea0ee632c64e4">More...</a><br /></td></tr>
@@ -264,8 +263,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Create an an instance of this constraint. </p>
+<p >Create an an instance of this constraint. Note that the rotation constraint will be solved from body 1. This means that if body 1 and body 2 have different masses (kinematic body = infinite mass), body 1 should be the heaviest body. </p>
 
 <p>Implements <a class="el" href="class_two_body_constraint_settings.html#a42e353e736b0254b02008b050a28f55b">TwoBodyConstraintSettings</a>.</p>
 
