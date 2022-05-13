@@ -6,6 +6,7 @@ var class_character =
     [ "AddImpulse", "class_character.html#aa33a41b66f31c085eeb3f262f09972b7", null ],
     [ "AddLinearVelocity", "class_character.html#af00e186740a38260f2987984045051c0", null ],
     [ "AddToPhysicsSystem", "class_character.html#ad4ce42b7ef3dbd8a9a864033d3c71e14", null ],
+    [ "CheckCollision", "class_character.html#afa64be03f4b0addccf0fa0cf3dcc5342", null ],
     [ "GetBodyID", "class_character.html#a3d54e80af16da4731c1ec83f2a2f06f2", null ],
     [ "GetCenterOfMassPosition", "class_character.html#ac0e76b9197a398b6536737492473e36a", null ],
     [ "GetLinearVelocity", "class_character.html#a38468a2f17e15c84019c98496909c7a9", null ],

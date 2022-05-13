@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_triangle_splitter_mean.html#a8b8904aefe3c646d907b89a55730f9a9":[3,0,261,2],
+"class_triangle_splitter_morton.html":[3,0,262],
 "class_triangle_splitter_morton.html#a5216ad05fe273a370120be3bb7025c43":[3,0,262,0],
 "class_triangle_splitter_morton.html#a874a5423ed55acbabc662812a0a5ec4f":[3,0,262,1],
 "class_triangle_splitter_morton.html#af5f1aebe70225e7be5d67573ef7dd63e":[3,0,262,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_vector.html#a9068b99f1e6ca351876bea81de170b29":[3,0,271,27],
 "class_vector.html#a97ea23f0596e27b87424d91cd79e19da":[3,0,271,11],
 "class_vector.html#ab1368364228755bfe9e64af3654ea995":[3,0,271,7],
-"class_vector.html#ac3bd9feb76f783d2e4168f2cf9fb3b2a":[3,0,271,2],
-"class_vector.html#accad08b149fe8c9527974434f1620032":[3,0,271,17],
-"class_vector.html#acdfe438fc30b6e340cfecfd8bb04ab19":[3,0,271,0]
+"class_vector.html#ac3bd9feb76f783d2e4168f2cf9fb3b2a":[3,0,271,2]
 };
