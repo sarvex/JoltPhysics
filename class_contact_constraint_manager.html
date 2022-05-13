@@ -156,12 +156,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae52944ca4945e6255a0f31794cf2aed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#ae52944ca4945e6255a0f31794cf2aed5">GetContactAllocator</a> ()</td></tr>
 <tr class="memdesc:ae52944ca4945e6255a0f31794cf2aed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new allocator context for storing contacts. Note that you should call this once and then add multiple contacts using the context.  <a href="class_contact_constraint_manager.html#ae52944ca4945e6255a0f31794cf2aed5">More...</a><br /></td></tr>
 <tr class="separator:ae52944ca4945e6255a0f31794cf2aed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d504589370e85048dc47a2488987c01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a8d504589370e85048dc47a2488987c01">GetContactsFromCache</a> (<a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, bool &amp;outPairHandled, bool &amp;outContactFound)</td></tr>
-<tr class="separator:a8d504589370e85048dc47a2488987c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac438b9748b641a504658e700f0e43305"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#ac438b9748b641a504658e700f0e43305">GetContactsFromCache</a> (<a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, bool &amp;outPairHandled, bool &amp;outConstraintCreated)</td></tr>
+<tr class="separator:ac438b9748b641a504658e700f0e43305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1527877d78511ca6896722d9416e09d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754">BodyPairHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a1527877d78511ca6896722d9416e09d1">AddBodyPair</a> (<a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2)</td></tr>
 <tr class="separator:a1527877d78511ca6896722d9416e09d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed78e6dd58a7114713a15338da42313f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#aed78e6dd58a7114713a15338da42313f">AddContactConstraint</a> (<a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754">BodyPairHandle</a> inBodyPair, <a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold)</td></tr>
-<tr class="separator:aed78e6dd58a7114713a15338da42313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad54fa2fc8b0cbc1cd6cb5c5846e781be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#ad54fa2fc8b0cbc1cd6cb5c5846e781be">AddContactConstraint</a> (<a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754">BodyPairHandle</a> inBodyPair, <a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold)</td></tr>
+<tr class="separator:ad54fa2fc8b0cbc1cd6cb5c5846e781be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53dd8991bde80970f83be4be9d123534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a53dd8991bde80970f83be4be9d123534">FinalizeContactCache</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inExpectedNumBodyPairs, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inExpectedNumManifolds)</td></tr>
 <tr class="separator:a53dd8991bde80970f83be4be9d123534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c167c100a86f3944dcfac5f5e38b88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a03c167c100a86f3944dcfac5f5e38b88">ContactPointRemovedCallbacks</a> ()</td></tr>
@@ -328,14 +328,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aed78e6dd58a7114713a15338da42313f" name="aed78e6dd58a7114713a15338da42313f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed78e6dd58a7114713a15338da42313f">&#9670;&nbsp;</a></span>AddContactConstraint()</h2>
+<a id="ad54fa2fc8b0cbc1cd6cb5c5846e781be" name="ad54fa2fc8b0cbc1cd6cb5c5846e781be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54fa2fc8b0cbc1cd6cb5c5846e781be">&#9670;&nbsp;</a></span>AddContactConstraint()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ContactConstraintManager::AddContactConstraint </td>
+          <td class="memname">bool ContactConstraintManager::AddContactConstraint </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;&#160;</td>
           <td class="paramname"><em>ioContactAllocator</em>, </td>
@@ -378,10 +378,11 @@ Static Public Attributes</h2></td></tr>
     <tr><td class="paramname">inBodyPair</td><td>The handle for the contact cache for this body pair </td></tr>
     <tr><td class="paramname">inBody1</td><td>The first body that is colliding </td></tr>
     <tr><td class="paramname">inBody2</td><td>The second body that is colliding </td></tr>
-    <tr><td class="paramname">inManifold</td><td>The manifold that describes the collision</td></tr>
+    <tr><td class="paramname">inManifold</td><td>The manifold that describes the collision </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if a contact constraint was created (can be false in the case of a sensor)</dd></dl>
 <p>This is using the approach described in 'Modeling and Solving Constraints' by Erin Catto presented at GDC 2009 (and later years with slight modifications). We're using the formulas from slide 50 - 53 combined.</p>
 <p >Euler velocity integration:</p>
 <p >v1' = v1 + M^-1 P</p>
@@ -518,8 +519,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d504589370e85048dc47a2488987c01" name="a8d504589370e85048dc47a2488987c01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d504589370e85048dc47a2488987c01">&#9670;&nbsp;</a></span>GetContactsFromCache()</h2>
+<a id="ac438b9748b641a504658e700f0e43305" name="ac438b9748b641a504658e700f0e43305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac438b9748b641a504658e700f0e43305">&#9670;&nbsp;</a></span>GetContactsFromCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -552,7 +553,7 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>outContactFound</em>&#160;</td>
+          <td class="paramname"><em>outConstraintCreated</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -561,7 +562,7 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Check if the contact points from the previous frame are reusable and if so copy them. When the cache was usable and the pair has been handled: outPairHandled = true. When a contact was produced: outContactFound = true. </p>
+<p >Check if the contact points from the previous frame are reusable and if so copy them. When the cache was usable and the pair has been handled: outPairHandled = true. When a contact constraint was produced: outConstraintCreated = true. </p>
 
 </div>
 </div>

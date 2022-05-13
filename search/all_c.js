@@ -244,7 +244,7 @@ var searchData=
   ['mislastofall_241',['mIsLastOfAll',['../struct_physics_update_context_1_1_sub_step.html#a24cdea3b868f58ba8ba5c050bb6e2c98',1,'PhysicsUpdateContext::SubStep']]],
   ['misparallel_242',['mIsParallel',['../class_ray_inv_direction.html#a0188d384cbde315c79e1986a67efd7ce',1,'RayInvDirection']]],
   ['misrotationidentity_243',['mIsRotationIdentity',['../struct_compound_shape_1_1_sub_shape.html#a25c797febba76594f53b5303867fe0fb',1,'CompoundShape::SubShape']]],
-  ['missensor_244',['mIsSensor',['../class_body_creation_settings.html#ad327b3b479e63fe5bfbecf0510d69d44',1,'BodyCreationSettings']]],
+  ['missensor_244',['mIsSensor',['../class_body_creation_settings.html#ad327b3b479e63fe5bfbecf0510d69d44',1,'BodyCreationSettings::mIsSensor()'],['../class_contact_settings.html#a1c5f448521399a40a9384dcc1aa1474f',1,'ContactSettings::mIsSensor()']]],
   ['mjobsystem_245',['mJobSystem',['../class_physics_update_context.html#a736edcba88a4a7bd3bc37d417e317ed7',1,'PhysicsUpdateContext']]],
   ['mjointname_246',['mJointName',['../class_skeletal_animation_1_1_animated_joint.html#a9a1ec5412dc0ee2f6f2a4cfdfc8bb435',1,'SkeletalAnimation::AnimatedJoint']]],
   ['mkeyframes_247',['mKeyframes',['../class_skeletal_animation_1_1_animated_joint.html#a6f522c5bab57cda9b07238a6eed41637',1,'SkeletalAnimation::AnimatedJoint']]],
