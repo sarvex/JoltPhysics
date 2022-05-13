@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_triangle_splitter_mean.html#a24f3c71cb6b178fc31c5e1c3d71240be":[3,0,261,0],
+"class_triangle_splitter_mean.html#a32235dae954e916c9e3235ebe3704345":[3,0,261,1],
 "class_triangle_splitter_mean.html#a8b8904aefe3c646d907b89a55730f9a9":[3,0,261,2],
 "class_triangle_splitter_morton.html":[3,0,262],
 "class_triangle_splitter_morton.html#a5216ad05fe273a370120be3bb7025c43":[3,0,262,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_vector.html#a83748e43a3d85e50140c24f0aa093cb9":[3,0,271,8],
 "class_vector.html#a8c1387fdaa60b9569f5e9acb1363b7fb":[3,0,271,4],
 "class_vector.html#a9068b99f1e6ca351876bea81de170b29":[3,0,271,27],
-"class_vector.html#a97ea23f0596e27b87424d91cd79e19da":[3,0,271,11],
-"class_vector.html#ab1368364228755bfe9e64af3654ea995":[3,0,271,7],
-"class_vector.html#ac3bd9feb76f783d2e4168f2cf9fb3b2a":[3,0,271,2]
+"class_vector.html#a97ea23f0596e27b87424d91cd79e19da":[3,0,271,11]
 };

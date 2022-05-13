@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"class_quat.html#ac69dfd8cdf79a19b8c3f385125ff5ddc":[3,0,180,4],
+"class_quat.html#ac72ff53fa4780399aa0755e2ca31b450":[3,0,180,10],
 "class_quat.html#ad591c3ca827733b3be275ffaf808e838":[3,0,180,41],
 "class_quat.html#ada769d2a82345ec6a2abd706216d46e2":[3,0,180,32],
 "class_quat.html#adb1d1a70ed64c0a6fadc849126306706":[3,0,180,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "class_s_t_l_temp_allocator.html#a1768c0cbf15081f1ce4a9108e482c564":[3,0,229,4],
 "class_s_t_l_temp_allocator.html#a28c490b7839022b6de78f7067eda7ff8":[3,0,229,14],
 "class_s_t_l_temp_allocator.html#a3f90b804920b11315e04932909db7b76":[3,0,229,5],
-"class_s_t_l_temp_allocator.html#a53ff9f68e553b59d0a80e9115d3d8205":[3,0,229,3],
-"class_s_t_l_temp_allocator.html#a584223fe52d48aafd4ab2b9f3d30ecd8":[3,0,229,9],
-"class_s_t_l_temp_allocator.html#a5e6754289f3e5c92f7d3a94aaf4d9488":[3,0,229,10]
+"class_s_t_l_temp_allocator.html#a53ff9f68e553b59d0a80e9115d3d8205":[3,0,229,3]
 };

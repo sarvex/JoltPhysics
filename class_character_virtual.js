@@ -1,6 +1,7 @@
 var class_character_virtual =
 [
     [ "CharacterVirtual", "class_character_virtual.html#aae8d3ce9f1208881c5cbd3eb42707434", null ],
+    [ "CanWalkStairs", "class_character_virtual.html#ab5f08935a0be3ec1bb841468b8c8be12", null ],
     [ "CheckCollision", "class_character_virtual.html#a4f9387d5c212c8d1d0b52e19703b8664", null ],
     [ "GetCenterOfMassTransform", "class_character_virtual.html#ae82d09c4482151440bbee3663b8b6b29", null ],
     [ "GetCharacterPadding", "class_character_virtual.html#a643ed04caa01ba9e4e4fc9d5058dc3d7", null ],
@@ -19,5 +20,6 @@ var class_character_virtual =
     [ "SetPosition", "class_character_virtual.html#aef49aeba105a035b972b9a17aebee12e", null ],
     [ "SetRotation", "class_character_virtual.html#ac0b74d1e4ec29a6a4853bc8cbb72578d", null ],
     [ "SetShape", "class_character_virtual.html#a47a90c0f4fb66b3cf2f94f4eac390a66", null ],
-    [ "Update", "class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058", null ]
+    [ "Update", "class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058", null ],
+    [ "WalkStairs", "class_character_virtual.html#aee269433ae4dee22c427e9f5b52b8458", null ]
 ];

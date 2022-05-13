@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a643ed04caa01ba9e4e4fc9d5058dc3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aa87739165551d5e23aa91c94b24058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058">Update</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a5aa87739165551d5e23aa91c94b24058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f08935a0be3ec1bb841468b8c8be12"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#ab5f08935a0be3ec1bb841468b8c8be12">CanWalkStairs</a> () const</td></tr>
+<tr class="separator:ab5f08935a0be3ec1bb841468b8c8be12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee269433ae4dee22c427e9f5b52b8458"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#aee269433ae4dee22c427e9f5b52b8458">WalkStairs</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepUp, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepForward, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepForwardTest, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepDownExtra, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
+<tr class="separator:aee269433ae4dee22c427e9f5b52b8458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc">RefreshContacts</a> (const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="memdesc:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function can be used after a character has teleported to determine the new contacts with the world.  <a href="class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc">More...</a><br /></td></tr>
 <tr class="separator:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -333,6 +337,24 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab5f08935a0be3ec1bb841468b8c8be12" name="ab5f08935a0be3ec1bb841468b8c8be12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f08935a0be3ec1bb841468b8c8be12">&#9670;&nbsp;</a></span>CanWalkStairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterVirtual::CanWalkStairs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This function will return true if the character has moved into a slope that is too steep (e.g. a vertical wall). You would call WalkStairs to attempt to step up stairs. </p>
+
+</div>
+</div>
 <a id="a4f9387d5c212c8d1d0b52e19703b8664" name="a4f9387d5c212c8d1d0b52e19703b8664"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f9387d5c212c8d1d0b52e19703b8664">&#9670;&nbsp;</a></span>CheckCollision()</h2>
 
@@ -998,6 +1020,98 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aee269433ae4dee22c427e9f5b52b8458" name="aee269433ae4dee22c427e9f5b52b8458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee269433ae4dee22c427e9f5b52b8458">&#9670;&nbsp;</a></span>WalkStairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterVirtual::WalkStairs </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inDeltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inGravity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inStepUp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inStepForward</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inStepForwardTest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inStepDownExtra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBroadPhaseLayerFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inObjectLayerFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;&#160;</td>
+          <td class="paramname"><em>inAllocator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >When stair walking is needed, you can call the WalkStairs function to cast up, forward and down again to try to find a valid position </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inDeltaTime</td><td>Time step to simulate. </td></tr>
+    <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2) </td></tr>
+    <tr><td class="paramname">inStepUp</td><td>The direction and distance to step up (this corresponds to the max step height) </td></tr>
+    <tr><td class="paramname">inStepForward</td><td>The direction and distance to step forward after the step up </td></tr>
+    <tr><td class="paramname">inStepForwardTest</td><td>When running at a high frequency, inStepForward can be very small and it's likely that you hit the side of the stairs on the way down. This could produce a normal that violates the max slope angle. If this happens, we test again using this distance from the up position to see if we find a valid slope. </td></tr>
+    <tr><td class="paramname">inStepDownExtra</td><td>An additional translation that is added when stepping down at the end. Allows you to step further down than up. Set to zero if you don't want this. </td></tr>
+    <tr><td class="paramname">inBroadPhaseLayerFilter</td><td>Filter that is used to check if the character collides with something in the broadphase. </td></tr>
+    <tr><td class="paramname">inObjectLayerFilter</td><td>Filter that is used to check if a character collides with a layer. </td></tr>
+    <tr><td class="paramname">inBodyFilter</td><td>Filter that is used to check if a character collides with a body. </td></tr>
+    <tr><td class="paramname">inAllocator</td><td>An allocator for temporary allocations. All memory will be freed by the time this function returns. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the stair walk was successful </dd></dl>
 
 </div>
 </div>
