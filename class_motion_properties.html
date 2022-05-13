@@ -169,7 +169,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a300d1a36925946850e301155c70b7bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation (R) that takes inverse inertia diagonal to local space: \(I_{body}^{-1} = R \: D \: R^{-1}\).  <a href="class_motion_properties.html#a300d1a36925946850e301155c70b7bef">More...</a><br /></td></tr>
 <tr class="separator:a300d1a36925946850e301155c70b7bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a509aafb031d301cbef7e2efdd16ee3dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a509aafb031d301cbef7e2efdd16ee3dd">SetInverseInertia</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDiagonal, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRot)</td></tr>
-<tr class="memdesc:a509aafb031d301cbef7e2efdd16ee3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the inverse inertia tensor in local space by setting the diagonal and the rotation: \(I_{body}^{-1} = R \: D \: R^{-1}\).  <a href="class_motion_properties.html#a509aafb031d301cbef7e2efdd16ee3dd">More...</a><br /></td></tr>
 <tr class="separator:a509aafb031d301cbef7e2efdd16ee3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad52e9ac8d614918a8dc9c80f22b4847e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#ad52e9ac8d614918a8dc9c80f22b4847e">GetLocalSpaceInverseInertia</a> () const</td></tr>
 <tr class="memdesc:ad52e9ac8d614918a8dc9c80f22b4847e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inverse inertia matrix ( \(I_{body}^{-1}\)). Will be a matrix of zeros for a static or kinematic object.  <a href="class_motion_properties.html#ad52e9ac8d614918a8dc9c80f22b4847e">More...</a><br /></td></tr>
@@ -1184,8 +1183,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Set the inverse inertia tensor in local space by setting the diagonal and the rotation: \(I_{body}^{-1} = R \: D \: R^{-1}\). </p>
+<p >Set the inverse inertia tensor in local space by setting the diagonal and the rotation: \(I_{body}^{-1} = R \: D \: R^{-1}\). Note that mass and inertia are linearly related (e.g. inertia of a sphere with mass m and radius r is \(2/5 \: m \: r^2\)). If you change inertia, mass should probably change as well. See <a class="el" href="class_mass_properties.html#aff72522796c853cdd8b250082e15a2cf" title="Set the mass and scale the inertia tensor to match the mass.">MassProperties::ScaleToMass</a>. </p>
 
 </div>
 </div>
@@ -1212,6 +1210,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Set the inverse mass (1 / mass). Note that mass and inertia are linearly related (e.g. inertia of a sphere with mass m and radius r is \(2/5 \: m \: r^2\)). If you change mass, inertia should probably change as well. See <a class="el" href="class_mass_properties.html#aff72522796c853cdd8b250082e15a2cf" title="Set the mass and scale the inertia tensor to match the mass.">MassProperties::ScaleToMass</a>. </p>
 
 </div>
 </div>
