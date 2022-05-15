@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_wheeled_vehicle_controller_settings.html#a6ab2f1877dd58bc447f4392b553bfb6a":[3,0,289,0],
+"class_wheeled_vehicle_controller_settings.html#ae82335336bab2f06e41dc7ae4325f394":[3,0,289,2],
 "classes.html":[3,1],
 "dir_04619acb54372862c3ed306d2905e80d.html":[4,0,1,5,2,0],
 "dir_08a9edf434844c45d3c1f760a0f11af5.html":[4,0,1,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "struct_compound_shape_1_1_cast_ray_visitor_collector.html#aa482aff5292c183077270554b7053fb5":[3,0,66,1,4],
 "struct_compound_shape_1_1_cast_ray_visitor_collector.html#adcc33d30649befa932d49742db59986d":[3,0,66,1,1],
 "struct_compound_shape_1_1_cast_ray_visitor_collector.html#ae3f99e2d7e252767a5060616c2924a68":[3,0,66,1,0],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html#afe91b86d85eebf7f35660efeb535ae9d":[3,0,66,1,5],
-"struct_compound_shape_1_1_cast_shape_visitor.html":[3,0,66,2],
-"struct_compound_shape_1_1_cast_shape_visitor.html#a012a8f770d2d7c6722d0ea074a0ce272":[3,0,66,2,9]
+"struct_compound_shape_1_1_cast_ray_visitor_collector.html#afe91b86d85eebf7f35660efeb535ae9d":[3,0,66,1,5]
 };

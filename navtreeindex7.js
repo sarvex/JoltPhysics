@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"class_character_base_settings.html#a6daeb1476d88ee8f13118e85a9c07b67":[3,0,46,0],
+"class_character_base_settings.html#aee9be06866efe751ab7e2df57edee6b1":[3,0,46,1],
 "class_character_contact_listener.html":[3,0,47],
 "class_character_contact_listener.html#a1cbf56ca2333e878c3d7da75b9dfc0ba":[3,0,47,0],
 "class_character_contact_listener.html#a1f19fb2f4d5e64785c32e01a628e9a3e":[3,0,47,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "class_constraint.html#aac2087f1c1b69189f93b0feb99cb0ef6":[3,0,70,0],
 "class_constraint.html#ab56e6bf0b53acdae13075d7e580828e6":[3,0,70,4],
 "class_constraint.html#abb0ee6b5bf11fb8b8aeb45271b24f1a7":[3,0,70,12],
-"class_constraint.html#ad0bf54a2be7863a42cdd8ee748f89582":[3,0,70,13],
-"class_constraint.html#adeae5677da3f7d76ca6af382be14e4eb":[3,0,70,10],
-"class_constraint.html#af62388f6f234f8cd7d24af34e49180fd":[3,0,70,2]
+"class_constraint.html#ad0bf54a2be7863a42cdd8ee748f89582":[3,0,70,13]
 };

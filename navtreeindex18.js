@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_triangle_splitter_longest_axis.html#a922ae63ab23366905d3a15f5e7c06630":[3,0,260,0],
+"class_triangle_splitter_mean.html":[3,0,261],
 "class_triangle_splitter_mean.html#a24f3c71cb6b178fc31c5e1c3d71240be":[3,0,261,0],
 "class_triangle_splitter_mean.html#a32235dae954e916c9e3235ebe3704345":[3,0,261,1],
 "class_triangle_splitter_mean.html#a8b8904aefe3c646d907b89a55730f9a9":[3,0,261,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_vector.html#a5d3e058866ab4898fd9d1b6860159303":[3,0,271,13],
 "class_vector.html#a75eedde4d36c47ec408dc454dcf236a7":[3,0,271,18],
 "class_vector.html#a83748e43a3d85e50140c24f0aa093cb9":[3,0,271,8],
-"class_vector.html#a8c1387fdaa60b9569f5e9acb1363b7fb":[3,0,271,4],
-"class_vector.html#a9068b99f1e6ca351876bea81de170b29":[3,0,271,27],
-"class_vector.html#a97ea23f0596e27b87424d91cd79e19da":[3,0,271,11]
+"class_vector.html#a8c1387fdaa60b9569f5e9acb1363b7fb":[3,0,271,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"class_swing_twist_constraint.html#adc142775611a925dfdc755c0fa35bdbc":[3,0,237,11],
+"class_swing_twist_constraint.html#adef556a69c073651dc5370213dff405e":[3,0,237,10],
 "class_swing_twist_constraint.html#ae2220254397365c2d99a026cdfeb5243":[3,0,237,22],
 "class_swing_twist_constraint.html#ae63b6cda1826e0b1aa6b6960780e92e3":[3,0,237,24],
 "class_swing_twist_constraint.html#ae69c1ec34e58f67f05aea6e393110f92":[3,0,237,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "class_triangle_splitter_fixed_leaf_size.html#a755f2d5fdd0b659ea5691be45fa1ede9":[3,0,259,0],
 "class_triangle_splitter_longest_axis.html":[3,0,260],
 "class_triangle_splitter_longest_axis.html#a45cde2072d3a6c30b46c6afa0e9bec51":[3,0,260,1],
-"class_triangle_splitter_longest_axis.html#a6e0fd86ca2d38f41bd6faffcd94e08a4":[3,0,260,2],
-"class_triangle_splitter_longest_axis.html#a922ae63ab23366905d3a15f5e7c06630":[3,0,260,0],
-"class_triangle_splitter_mean.html":[3,0,261]
+"class_triangle_splitter_longest_axis.html#a6e0fd86ca2d38f41bd6faffcd94e08a4":[3,0,260,2]
 };
