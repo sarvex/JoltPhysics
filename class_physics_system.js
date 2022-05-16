@@ -17,6 +17,7 @@ var class_physics_system =
     [ "GetBodyLockInterfaceNoLock", "class_physics_system.html#ad381ea5bd5568b20ae05c1229dbff49e", null ],
     [ "GetBodyStats", "class_physics_system.html#ad826f67ef4fd3a1457cf9d8d6892d5cb", null ],
     [ "GetBroadPhaseQuery", "class_physics_system.html#a3d621cc72c69b73cdcc13bdb3b0dddc4", null ],
+    [ "GetConstraints", "class_physics_system.html#a69c9f67351312d43f8e1c1f5d23fdf99", null ],
     [ "GetContactListener", "class_physics_system.html#ae7f5894935da5a4652a6d7ac60ad82e0", null ],
     [ "GetDefaultBroadPhaseLayerFilter", "class_physics_system.html#a9473bc5d3e3cd861b58b0db3240b4f1d", null ],
     [ "GetDefaultLayerFilter", "class_physics_system.html#adaf3b2dbc230ee329461e47f096ef467", null ],

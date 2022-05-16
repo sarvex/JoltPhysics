@@ -176,6 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a220ed391139f4ffdb384fe83b44d6439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a220ed391139f4ffdb384fe83b44d6439">RemoveConstraints</a> (<a class="el" href="class_constraint.html">Constraint</a> **inConstraints, int inNumber)</td></tr>
 <tr class="memdesc:a220ed391139f4ffdb384fe83b44d6439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Batch remove constraints. Note that the inConstraints array is allowed to have nullptrs, these will be ignored.  <a href="class_physics_system.html#a220ed391139f4ffdb384fe83b44d6439">More...</a><br /></td></tr>
 <tr class="separator:a220ed391139f4ffdb384fe83b44d6439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c9f67351312d43f8e1c1f5d23fdf99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_constraint_manager_8h.html#addccd48543f71677d821a3aa99c66f41">Constraints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a69c9f67351312d43f8e1c1f5d23fdf99">GetConstraints</a> () const</td></tr>
+<tr class="memdesc:a69c9f67351312d43f8e1c1f5d23fdf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all constraints.  <a href="class_physics_system.html#a69c9f67351312d43f8e1c1f5d23fdf99">More...</a><br /></td></tr>
+<tr class="separator:a69c9f67351312d43f8e1c1f5d23fdf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3cd9f2562f0f051c032b3bc298d9604"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604">OptimizeBroadPhase</a> ()</td></tr>
 <tr class="memdesc:ab3cd9f2562f0f051c032b3bc298d9604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimize the broadphase, needed only if you've added many bodies prior to calling <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">Update()</a> for the first time.  <a href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604">More...</a><br /></td></tr>
 <tr class="separator:ab3cd9f2562f0f051c032b3bc298d9604"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -686,6 +689,33 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Access to the broadphase interface that allows coarse collision queries. </p>
+
+</div>
+</div>
+<a id="a69c9f67351312d43f8e1c1f5d23fdf99" name="a69c9f67351312d43f8e1c1f5d23fdf99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c9f67351312d43f8e1c1f5d23fdf99">&#9670;&nbsp;</a></span>GetConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_constraint_manager_8h.html#addccd48543f71677d821a3aa99c66f41">Constraints</a> PhysicsSystem::GetConstraints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a list of all constraints. </p>
 
 </div>
 </div>

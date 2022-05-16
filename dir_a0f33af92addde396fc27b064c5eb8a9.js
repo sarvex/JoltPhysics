@@ -15,7 +15,8 @@ var dir_a0f33af92addde396fc27b064c5eb8a9 =
     [ "PhysicsLock.h", "_physics_lock_8h.html", "_physics_lock_8h" ],
     [ "PhysicsScene.cpp", "_physics_scene_8cpp.html", "_physics_scene_8cpp" ],
     [ "PhysicsScene.h", "_physics_scene_8h.html", [
-      [ "PhysicsScene", "class_physics_scene.html", "class_physics_scene" ]
+      [ "PhysicsScene", "class_physics_scene.html", "class_physics_scene" ],
+      [ "PhysicsScene::ConnectedConstraint", "class_physics_scene_1_1_connected_constraint.html", "class_physics_scene_1_1_connected_constraint" ]
     ] ],
     [ "PhysicsSettings.h", "_physics_settings_8h.html", "_physics_settings_8h" ],
     [ "PhysicsStepListener.h", "_physics_step_listener_8h.html", [

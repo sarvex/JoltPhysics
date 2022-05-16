@@ -1,6 +1,7 @@
 var class_swing_twist_constraint =
 [
     [ "SwingTwistConstraint", "class_swing_twist_constraint.html#a68c8e6f8d1f25c3d593c7304d6804b6e", null ],
+    [ "GetConstraintSettings", "class_swing_twist_constraint.html#ad3c1a46d28973d5ce39917aa2b7a32b0", null ],
     [ "GetConstraintToBody1", "class_swing_twist_constraint.html#a4b15b5eed50bb023141968a6eb05a307", null ],
     [ "GetConstraintToBody1Matrix", "class_swing_twist_constraint.html#ab89ec6165c3789f22964700f21695c32", null ],
     [ "GetConstraintToBody2", "class_swing_twist_constraint.html#a79760736ee2bc3afecdf80dfe703fa45", null ],
@@ -11,6 +12,7 @@ var class_swing_twist_constraint =
     [ "GetNormalHalfConeAngle", "class_swing_twist_constraint.html#a01fffaa54b35ffbe9321bd6549346b4d", null ],
     [ "GetPlaneHalfConeAngle", "class_swing_twist_constraint.html#a6529b62b9a91f1f1093116a789f1d5ca", null ],
     [ "GetRotationInConstraintSpace", "class_swing_twist_constraint.html#adef556a69c073651dc5370213dff405e", null ],
+    [ "GetSubType", "class_swing_twist_constraint.html#a259cdffe333947fb29e1455619b81dd5", null ],
     [ "GetSwingMotorSettings", "class_swing_twist_constraint.html#adc142775611a925dfdc755c0fa35bdbc", null ],
     [ "GetSwingMotorSettings", "class_swing_twist_constraint.html#a62867e2044909678e7eb8ae1a60fc30e", null ],
     [ "GetSwingMotorState", "class_swing_twist_constraint.html#aff96015babd85fab3b262eee70a2a283", null ],
@@ -26,7 +28,6 @@ var class_swing_twist_constraint =
     [ "GetTwistMotorSettings", "class_swing_twist_constraint.html#aec236c29d446311925a62f2004ae6974", null ],
     [ "GetTwistMotorSettings", "class_swing_twist_constraint.html#ae63b6cda1826e0b1aa6b6960780e92e3", null ],
     [ "GetTwistMotorState", "class_swing_twist_constraint.html#a44ce1ccf1c4d95f88bb6ab2571035196", null ],
-    [ "GetType", "class_swing_twist_constraint.html#ab322f7034625a4491a38d21d3664c443", null ],
     [ "RestoreState", "class_swing_twist_constraint.html#ab8a66fa8ace006007551e20f26859e60", null ],
     [ "SaveState", "class_swing_twist_constraint.html#aee888f6c281abbbccc3e33d108716824", null ],
     [ "SetMaxFrictionTorque", "class_swing_twist_constraint.html#abf0d635feedfe665fa4f7a6e566bf168", null ],

@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a68c8e6f8d1f25c3d593c7304d6804b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct swing twist constraint.  <a href="class_swing_twist_constraint.html#a68c8e6f8d1f25c3d593c7304d6804b6e">More...</a><br /></td></tr>
 <tr class="separator:a68c8e6f8d1f25c3d593c7304d6804b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Generic interface of a constraint</div></td></tr>
-<tr class="memitem:ab322f7034625a4491a38d21d3664c443"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#a2a4cc5b25efd5f8862f80eb2f5fcdc47">EConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#ab322f7034625a4491a38d21d3664c443">GetType</a> () const override</td></tr>
-<tr class="memdesc:ab322f7034625a4491a38d21d3664c443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a constraint.  <a href="class_swing_twist_constraint.html#ab322f7034625a4491a38d21d3664c443">More...</a><br /></td></tr>
-<tr class="separator:ab322f7034625a4491a38d21d3664c443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259cdffe333947fb29e1455619b81dd5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#a259cdffe333947fb29e1455619b81dd5">GetSubType</a> () const override</td></tr>
+<tr class="memdesc:a259cdffe333947fb29e1455619b81dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sub type of a constraint.  <a href="class_swing_twist_constraint.html#a259cdffe333947fb29e1455619b81dd5">More...</a><br /></td></tr>
+<tr class="separator:a259cdffe333947fb29e1455619b81dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51932e901316b06ac2c5a55c5ce54856"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#a51932e901316b06ac2c5a55c5ce54856">SetupVelocityConstraint</a> (float inDeltaTime) override</td></tr>
 <tr class="separator:a51932e901316b06ac2c5a55c5ce54856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf698847ac574454093180b23cc74a4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#acf698847ac574454093180b23cc74a4e">WarmStartVelocityConstraint</a> (float inWarmStartImpulseRatio) override</td></tr>
@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab8a66fa8ace006007551e20f26859e60"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#ab8a66fa8ace006007551e20f26859e60">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) override</td></tr>
 <tr class="memdesc:ab8a66fa8ace006007551e20f26859e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay.  <a href="class_swing_twist_constraint.html#ab8a66fa8ace006007551e20f26859e60">More...</a><br /></td></tr>
 <tr class="separator:ab8a66fa8ace006007551e20f26859e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c1a46d28973d5ce39917aa2b7a32b0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#ad3c1a46d28973d5ce39917aa2b7a32b0">GetConstraintSettings</a> () const override</td></tr>
+<tr class="memdesc:ad3c1a46d28973d5ce39917aa2b7a32b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug function to convert a constraint to its settings, note that this will not save to which bodies the constraint is connected to.  <a href="class_swing_twist_constraint.html#ad3c1a46d28973d5ce39917aa2b7a32b0">More...</a><br /></td></tr>
+<tr class="separator:ad3c1a46d28973d5ce39917aa2b7a32b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab89ec6165c3789f22964700f21695c32"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#ab89ec6165c3789f22964700f21695c32">GetConstraintToBody1Matrix</a> () const override</td></tr>
 <tr class="memdesc:ab89ec6165c3789f22964700f21695c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the transform that transforms from constraint space to body 1 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc.  <a href="class_swing_twist_constraint.html#ab89ec6165c3789f22964700f21695c32">More...</a><br /></td></tr>
 <tr class="separator:ab89ec6165c3789f22964700f21695c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,6 +212,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3c039d1f2a52572f6844f0549783329 inherit pub_methods_class_two_body_constraint"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#ac3c039d1f2a52572f6844f0549783329">TwoBodyConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_two_body_constraint_settings.html">TwoBodyConstraintSettings</a> &amp;inSettings)</td></tr>
 <tr class="memdesc:ac3c039d1f2a52572f6844f0549783329 inherit pub_methods_class_two_body_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_two_body_constraint.html#ac3c039d1f2a52572f6844f0549783329">More...</a><br /></td></tr>
 <tr class="separator:ac3c039d1f2a52572f6844f0549783329 inherit pub_methods_class_two_body_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25655ebd463476c1ada660d3a292d3c7 inherit pub_methods_class_two_body_constraint"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#a2a4cc5b25efd5f8862f80eb2f5fcdc47">EConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#a25655ebd463476c1ada660d3a292d3c7">GetType</a> () const override</td></tr>
+<tr class="memdesc:a25655ebd463476c1ada660d3a292d3c7 inherit pub_methods_class_two_body_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a constraint.  <a href="class_two_body_constraint.html#a25655ebd463476c1ada660d3a292d3c7">More...</a><br /></td></tr>
+<tr class="separator:a25655ebd463476c1ada660d3a292d3c7 inherit pub_methods_class_two_body_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ec4e14ada31bf5172141c2d50663e76 inherit pub_methods_class_two_body_constraint"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#a9ec4e14ada31bf5172141c2d50663e76">IsActive</a> () const override</td></tr>
 <tr class="memdesc:a9ec4e14ada31bf5172141c2d50663e76 inherit pub_methods_class_two_body_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solver interface.  <a href="class_two_body_constraint.html#a9ec4e14ada31bf5172141c2d50663e76">More...</a><br /></td></tr>
 <tr class="separator:a9ec4e14ada31bf5172141c2d50663e76 inherit pub_methods_class_two_body_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,6 +286,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a58b5a94748691b18ecf651ce918ae743 inherit pub_static_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a58b5a94748691b18ecf651ce918ae743">sInternalGetRefCountOffset</a> ()</td></tr>
 <tr class="memdesc:a58b5a94748691b18ecf651ce918ae743 inherit pub_static_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">INTERNAL HELPER FUNCTION USED BY SERIALIZATION.  <a href="class_ref_target.html#a58b5a94748691b18ecf651ce918ae743">More...</a><br /></td></tr>
 <tr class="separator:a58b5a94748691b18ecf651ce918ae743 inherit pub_static_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_constraint"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_constraint')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_constraint.html">Constraint</a></td></tr>
+<tr class="memitem:aa117730922a803f0a12321bcd68583ab inherit pro_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#aa117730922a803f0a12321bcd68583ab">ToConstraintSettings</a> (<a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &amp;outSettings) const</td></tr>
+<tr class="memdesc:aa117730922a803f0a12321bcd68583ab inherit pro_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to copy settings back to constraint settings for this base class.  <a href="class_constraint.html#aa117730922a803f0a12321bcd68583ab">More...</a><br /></td></tr>
+<tr class="separator:aa117730922a803f0a12321bcd68583ab inherit pro_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_two_body_constraint"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_two_body_constraint')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a></td></tr>
 <tr class="memitem:af27aa0e2707d6b96ecbdeb8da8068ea8 inherit pro_attribs_class_two_body_constraint"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#af27aa0e2707d6b96ecbdeb8da8068ea8">mBody1</a></td></tr>
 <tr class="memdesc:af27aa0e2707d6b96ecbdeb8da8068ea8 inherit pro_attribs_class_two_body_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">The two bodies involved.  <a href="class_two_body_constraint.html#af27aa0e2707d6b96ecbdeb8da8068ea8">More...</a><br /></td></tr>
@@ -336,6 +346,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad3c1a46d28973d5ce39917aa2b7a32b0" name="ad3c1a46d28973d5ce39917aa2b7a32b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c1a46d28973d5ce39917aa2b7a32b0">&#9670;&nbsp;</a></span>GetConstraintSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &gt; SwingTwistConstraint::GetConstraintSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Debug function to convert a constraint to its settings, note that this will not save to which bodies the constraint is connected to. </p>
+
+<p>Implements <a class="el" href="class_constraint.html#a2cb32f0fbbc03050fd09c975e01277d2">Constraint</a>.</p>
+
+</div>
+</div>
 <a id="a4b15b5eed50bb023141968a6eb05a307" name="a4b15b5eed50bb023141968a6eb05a307"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b15b5eed50bb023141968a6eb05a307">&#9670;&nbsp;</a></span>GetConstraintToBody1()</h2>
 
@@ -592,6 +631,35 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Get current rotation of constraint in constraint space. Solve: R2 * ConstraintToBody2 = R1 * ConstraintToBody1 * q for q. </p>
+
+</div>
+</div>
+<a id="a259cdffe333947fb29e1455619b81dd5" name="a259cdffe333947fb29e1455619b81dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a259cdffe333947fb29e1455619b81dd5">&#9670;&nbsp;</a></span>GetSubType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a> SwingTwistConstraint::GetSubType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the sub type of a constraint. </p>
+
+<p>Implements <a class="el" href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">Constraint</a>.</p>
 
 </div>
 </div>
@@ -967,35 +1035,6 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab322f7034625a4491a38d21d3664c443" name="ab322f7034625a4491a38d21d3664c443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab322f7034625a4491a38d21d3664c443">&#9670;&nbsp;</a></span>GetType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="_constraint_8h.html#a2a4cc5b25efd5f8862f80eb2f5fcdc47">EConstraintType</a> SwingTwistConstraint::GetType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the type of a constraint. </p>
-
-<p>Implements <a class="el" href="class_constraint.html#ab56e6bf0b53acdae13075d7e580828e6">Constraint</a>.</p>
 
 </div>
 </div>

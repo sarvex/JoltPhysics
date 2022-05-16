@@ -1,6 +1,7 @@
 var class_slider_constraint =
 [
     [ "SliderConstraint", "class_slider_constraint.html#ad70ecf5382d028c817f4ac1544927285", null ],
+    [ "GetConstraintSettings", "class_slider_constraint.html#a79e425837bce0b6d9955ce61fba14c43", null ],
     [ "GetConstraintToBody1Matrix", "class_slider_constraint.html#aa61f48ae475bbe2130bb1053e4358f24", null ],
     [ "GetConstraintToBody2Matrix", "class_slider_constraint.html#a364ce918555ae4df05f788b9e5e041ca", null ],
     [ "GetLimitsMax", "class_slider_constraint.html#a9788e92ed539c24ab428e2e7195fe8de", null ],
@@ -9,13 +10,13 @@ var class_slider_constraint =
     [ "GetMotorSettings", "class_slider_constraint.html#ad920e0c8e131f4c9e3eae8be918daea2", null ],
     [ "GetMotorSettings", "class_slider_constraint.html#a312b98bfdc4c378cdbabdbd7c34e5458", null ],
     [ "GetMotorState", "class_slider_constraint.html#af4b5d7b41aa1514342586fef277fabd5", null ],
+    [ "GetSubType", "class_slider_constraint.html#a4655336347868e54cf484f9f43a830fe", null ],
     [ "GetTargetPosition", "class_slider_constraint.html#ac1c0aa099da5599ddc21d7f0519c72f7", null ],
     [ "GetTargetVelocity", "class_slider_constraint.html#ad704564787a3b73406849659c29f3a6b", null ],
     [ "GetTotalLambdaMotor", "class_slider_constraint.html#a8f67a775520b7f735c77b4aabb9187e4", null ],
     [ "GetTotalLambdaPosition", "class_slider_constraint.html#a7e004ec04d0e7a7fe00ba2b0a8840b6a", null ],
     [ "GetTotalLambdaPositionLimits", "class_slider_constraint.html#a75ac80302b69828523d3fe1aa55348a5", null ],
     [ "GetTotalLambdaRotation", "class_slider_constraint.html#a10e5c1d92324b6df087498f75b4f83e4", null ],
-    [ "GetType", "class_slider_constraint.html#a621270d2f88f79a5f5c81a09995fc68d", null ],
     [ "HasLimits", "class_slider_constraint.html#a7b5b4709994b7a7f4133e0e7d129d3c5", null ],
     [ "RestoreState", "class_slider_constraint.html#a9512c8658bafebac41965f0e5d8b0377", null ],
     [ "SaveState", "class_slider_constraint.html#a7025971cdb5e449293df12e2f4f56e97", null ],

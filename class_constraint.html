@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('class_constraint.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_constraint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Constraint Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
@@ -133,9 +134,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1608cc2c7d701d0e9dbcb5656d5845bb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a1608cc2c7d701d0e9dbcb5656d5845bb">~Constraint</a> ()=default</td></tr>
 <tr class="memdesc:a1608cc2c7d701d0e9dbcb5656d5845bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="class_constraint.html#a1608cc2c7d701d0e9dbcb5656d5845bb">More...</a><br /></td></tr>
 <tr class="separator:a1608cc2c7d701d0e9dbcb5656d5845bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab56e6bf0b53acdae13075d7e580828e6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#a2a4cc5b25efd5f8862f80eb2f5fcdc47">EConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#ab56e6bf0b53acdae13075d7e580828e6">GetType</a> () const =0</td></tr>
-<tr class="memdesc:ab56e6bf0b53acdae13075d7e580828e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a constraint.  <a href="class_constraint.html#ab56e6bf0b53acdae13075d7e580828e6">More...</a><br /></td></tr>
-<tr class="separator:ab56e6bf0b53acdae13075d7e580828e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e290088c6049b1f1d1fb26df96dce3a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#a2a4cc5b25efd5f8862f80eb2f5fcdc47">EConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a6e290088c6049b1f1d1fb26df96dce3a">GetType</a> () const</td></tr>
+<tr class="memdesc:a6e290088c6049b1f1d1fb26df96dce3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a constraint.  <a href="class_constraint.html#a6e290088c6049b1f1d1fb26df96dce3a">More...</a><br /></td></tr>
+<tr class="separator:a6e290088c6049b1f1d1fb26df96dce3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632a8161ad49c443c2e3a8b600a730a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">GetSubType</a> () const =0</td></tr>
+<tr class="memdesc:a632a8161ad49c443c2e3a8b600a730a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sub type of a constraint.  <a href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">More...</a><br /></td></tr>
+<tr class="separator:a632a8161ad49c443c2e3a8b600a730a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6621fbefd246003aece1e9be8a169cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#aa6621fbefd246003aece1e9be8a169cb">SetEnabled</a> (bool inEnabled)</td></tr>
 <tr class="separator:aa6621fbefd246003aece1e9be8a169cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e0b8708469ecb3ea071c1b37ca8ea26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a2e0b8708469ecb3ea071c1b37ca8ea26">GetEnabled</a> () const</td></tr>
@@ -150,6 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a8b58f759bee231ebbfc7147041a0b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a9a8b58f759bee231ebbfc7147041a0b7">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a9a8b58f759bee231ebbfc7147041a0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay.  <a href="class_constraint.html#a9a8b58f759bee231ebbfc7147041a0b7">More...</a><br /></td></tr>
 <tr class="separator:a9a8b58f759bee231ebbfc7147041a0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb32f0fbbc03050fd09c975e01277d2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a2cb32f0fbbc03050fd09c975e01277d2">GetConstraintSettings</a> () const =0</td></tr>
+<tr class="memdesc:a2cb32f0fbbc03050fd09c975e01277d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug function to convert a constraint to its settings, note that this will not save to which bodies the constraint is connected to.  <a href="class_constraint.html#a2cb32f0fbbc03050fd09c975e01277d2">More...</a><br /></td></tr>
+<tr class="separator:a2cb32f0fbbc03050fd09c975e01277d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Solver interface</div></td></tr>
 <tr class="memitem:a2181f0c1fdc1de4b22afcd42e1b2273a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a2181f0c1fdc1de4b22afcd42e1b2273a">IsActive</a> () const</td></tr>
 <tr class="separator:a2181f0c1fdc1de4b22afcd42e1b2273a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,6 +197,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#aaf9b12dcaae80c9d304df7a941d4e21f">operator=</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
 <tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa117730922a803f0a12321bcd68583ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#aa117730922a803f0a12321bcd68583ab">ToConstraintSettings</a> (<a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &amp;outSettings) const</td></tr>
+<tr class="memdesc:aa117730922a803f0a12321bcd68583ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to copy settings back to constraint settings for this base class.  <a href="class_constraint.html#aa117730922a803f0a12321bcd68583ab">More...</a><br /></td></tr>
+<tr class="separator:aa117730922a803f0a12321bcd68583ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -316,6 +329,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a2cb32f0fbbc03050fd09c975e01277d2" name="a2cb32f0fbbc03050fd09c975e01277d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cb32f0fbbc03050fd09c975e01277d2">&#9670;&nbsp;</a></span>GetConstraintSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &gt; Constraint::GetConstraintSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Debug function to convert a constraint to its settings, note that this will not save to which bodies the constraint is connected to. </p>
+
+<p>Implemented in <a class="el" href="class_cone_constraint.html#aa88d6b874c14c0bfb2d435100fef4c04">ConeConstraint</a>, <a class="el" href="class_distance_constraint.html#adaee116897c67e802f2c294c44df106d">DistanceConstraint</a>, <a class="el" href="class_fixed_constraint.html#a038968466ddd1ca74b02572145a7a7dc">FixedConstraint</a>, <a class="el" href="class_hinge_constraint.html#aba9c90a3d3565e738758d6ee5b17dcba">HingeConstraint</a>, <a class="el" href="class_path_constraint.html#a88bfac1b3c744a15f78dbce0d31a4b08">PathConstraint</a>, <a class="el" href="class_point_constraint.html#a8214c8380eabc71845572309a3f49f53">PointConstraint</a>, <a class="el" href="class_six_d_o_f_constraint.html#aec39d055e72169c5f805a00c16b12ff1">SixDOFConstraint</a>, <a class="el" href="class_slider_constraint.html#a79e425837bce0b6d9955ce61fba14c43">SliderConstraint</a>, <a class="el" href="class_swing_twist_constraint.html#ad3c1a46d28973d5ce39917aa2b7a32b0">SwingTwistConstraint</a>, and <a class="el" href="class_vehicle_constraint.html#af953060386f731482956bb772840262c">VehicleConstraint</a>.</p>
+
+</div>
+</div>
 <a id="a2e0b8708469ecb3ea071c1b37ca8ea26" name="a2e0b8708469ecb3ea071c1b37ca8ea26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e0b8708469ecb3ea071c1b37ca8ea26">&#9670;&nbsp;</a></span>GetEnabled()</h2>
 
@@ -343,8 +385,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab56e6bf0b53acdae13075d7e580828e6" name="ab56e6bf0b53acdae13075d7e580828e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab56e6bf0b53acdae13075d7e580828e6">&#9670;&nbsp;</a></span>GetType()</h2>
+<a id="a632a8161ad49c443c2e3a8b600a730a1" name="a632a8161ad49c443c2e3a8b600a730a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a632a8161ad49c443c2e3a8b600a730a1">&#9670;&nbsp;</a></span>GetSubType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a> Constraint::GetSubType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the sub type of a constraint. </p>
+
+<p>Implemented in <a class="el" href="class_cone_constraint.html#a174c2fdca09d8ceddbf14f71384791b7">ConeConstraint</a>, <a class="el" href="class_distance_constraint.html#aca72385bb8b1dede13ca841681e37cae">DistanceConstraint</a>, <a class="el" href="class_fixed_constraint.html#ae4a226e769a4bab140f41f72a2aff9b5">FixedConstraint</a>, <a class="el" href="class_hinge_constraint.html#ac6c68736fa26f85a973b0aa95daa7674">HingeConstraint</a>, <a class="el" href="class_path_constraint.html#a73052367b302ac8b30a9505aa1901795">PathConstraint</a>, <a class="el" href="class_point_constraint.html#a0993bfa066a32b159d45cf54b346163f">PointConstraint</a>, <a class="el" href="class_six_d_o_f_constraint.html#ae13f824a4eddf95835fdeffe61c7ffba">SixDOFConstraint</a>, <a class="el" href="class_slider_constraint.html#a4655336347868e54cf484f9f43a830fe">SliderConstraint</a>, <a class="el" href="class_swing_twist_constraint.html#a259cdffe333947fb29e1455619b81dd5">SwingTwistConstraint</a>, and <a class="el" href="class_vehicle_constraint.html#a989fc35253ed8da61981107b0fc19fba">VehicleConstraint</a>.</p>
+
+</div>
+</div>
+<a id="a6e290088c6049b1f1d1fb26df96dce3a" name="a6e290088c6049b1f1d1fb26df96dce3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e290088c6049b1f1d1fb26df96dce3a">&#9670;&nbsp;</a></span>GetType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,14 +432,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Get the type of a constraint. </p>
 
-<p>Implemented in <a class="el" href="class_cone_constraint.html#aee890c26ed4c4508d954d5a4de5e6d8c">ConeConstraint</a>, <a class="el" href="class_distance_constraint.html#abcdd0ac91c4ef2bd06c2e7c4558a612f">DistanceConstraint</a>, <a class="el" href="class_fixed_constraint.html#aae68856cea7d08a3bf9ccdc8dcc54d4e">FixedConstraint</a>, <a class="el" href="class_hinge_constraint.html#a3e5015a105f9d1d0fc9e6e263e155af1">HingeConstraint</a>, <a class="el" href="class_path_constraint.html#acbf28a034310eaba5910867ebbdc932a">PathConstraint</a>, <a class="el" href="class_point_constraint.html#a3812ede49d7e9a75a57f939373ee7fc6">PointConstraint</a>, <a class="el" href="class_six_d_o_f_constraint.html#a0ba467d799276f765cf54ff298ca6f58">SixDOFConstraint</a>, <a class="el" href="class_slider_constraint.html#a621270d2f88f79a5f5c81a09995fc68d">SliderConstraint</a>, <a class="el" href="class_swing_twist_constraint.html#ab322f7034625a4491a38d21d3664c443">SwingTwistConstraint</a>, and <a class="el" href="class_vehicle_constraint.html#a42f6237b2c8715257f25bddf264f0322">VehicleConstraint</a>.</p>
+<p>Reimplemented in <a class="el" href="class_two_body_constraint.html#a25655ebd463476c1ada660d3a292d3c7">TwoBodyConstraint</a>.</p>
 
 </div>
 </div>
@@ -577,6 +648,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="class_cone_constraint.html#a6d9ec2215d7e54abb3277386ca1201f5">ConeConstraint</a>, <a class="el" href="class_distance_constraint.html#affedf1d2ef0d92264ffaeb579073d5b8">DistanceConstraint</a>, <a class="el" href="class_fixed_constraint.html#afd06d88db92460bdf49fb4bf5c4e0e99">FixedConstraint</a>, <a class="el" href="class_hinge_constraint.html#ab4b3e0e2e12a3c79f7c7dfd4b01be004">HingeConstraint</a>, <a class="el" href="class_path_constraint.html#a4a217906d4d990d4222d2dfbd3e3de5b">PathConstraint</a>, <a class="el" href="class_point_constraint.html#a341bc9c8983b9988ec60e166caed0afe">PointConstraint</a>, <a class="el" href="class_six_d_o_f_constraint.html#a37a955943b8f78e7ff8d98e044981b58">SixDOFConstraint</a>, <a class="el" href="class_slider_constraint.html#a7271357391f44e2ebc647a98fc0ce01b">SliderConstraint</a>, <a class="el" href="class_swing_twist_constraint.html#ae841a8acf92617eca1192909d2885f41">SwingTwistConstraint</a>, and <a class="el" href="class_vehicle_constraint.html#a3706f414ea9608bcffc2b481f6a88549">VehicleConstraint</a>.</p>
+
+</div>
+</div>
+<a id="aa117730922a803f0a12321bcd68583ab" name="aa117730922a803f0a12321bcd68583ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa117730922a803f0a12321bcd68583ab">&#9670;&nbsp;</a></span>ToConstraintSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Constraint::ToConstraintSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>outSettings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to copy settings back to constraint settings for this base class. </p>
 
 </div>
 </div>

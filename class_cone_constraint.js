@@ -1,12 +1,13 @@
 var class_cone_constraint =
 [
     [ "ConeConstraint", "class_cone_constraint.html#a2fcce97ba85a4eba463a59524d9b9f8c", null ],
+    [ "GetConstraintSettings", "class_cone_constraint.html#aa88d6b874c14c0bfb2d435100fef4c04", null ],
     [ "GetConstraintToBody1Matrix", "class_cone_constraint.html#a90969c19baeb56184ffed487ecca0864", null ],
     [ "GetConstraintToBody2Matrix", "class_cone_constraint.html#a49faa7b82a46f13d0cddec8ee9a1986e", null ],
     [ "GetCosHalfConeAngle", "class_cone_constraint.html#a0f739908f826f4db4600278ebd0e05ba", null ],
+    [ "GetSubType", "class_cone_constraint.html#a174c2fdca09d8ceddbf14f71384791b7", null ],
     [ "GetTotalLambdaPosition", "class_cone_constraint.html#af2d889a7774303768a6cde6dee342378", null ],
     [ "GetTotalLambdaRotation", "class_cone_constraint.html#a08b441d44cc4d9adbad89d88d6d48d91", null ],
-    [ "GetType", "class_cone_constraint.html#aee890c26ed4c4508d954d5a4de5e6d8c", null ],
     [ "RestoreState", "class_cone_constraint.html#a1f9682febf21f688361448462dbe785c", null ],
     [ "SaveState", "class_cone_constraint.html#a754754ea8cf871ed812f27bed021fbc9", null ],
     [ "SetHalfConeAngle", "class_cone_constraint.html#ad50d26fc50088ee00e7bb9a7248f5fc4", null ],

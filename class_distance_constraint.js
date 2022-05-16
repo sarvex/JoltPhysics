@@ -1,14 +1,15 @@
 var class_distance_constraint =
 [
     [ "DistanceConstraint", "class_distance_constraint.html#a341078be34cb228a4ab7402c960aacb5", null ],
+    [ "GetConstraintSettings", "class_distance_constraint.html#adaee116897c67e802f2c294c44df106d", null ],
     [ "GetConstraintToBody1Matrix", "class_distance_constraint.html#affc0247d5a56e7448372aea456e0bd04", null ],
     [ "GetConstraintToBody2Matrix", "class_distance_constraint.html#a32c46e7b4a137df6a68f9bd7752ee0cc", null ],
     [ "GetDamping", "class_distance_constraint.html#a20f34f2401dca1b654ff8555d731eae1", null ],
     [ "GetFrequency", "class_distance_constraint.html#a3a4d3fec1569ccad7eb5a5a3d761f48b", null ],
     [ "GetMaxDistance", "class_distance_constraint.html#a4ed1c3635f00b8f94624290bb7b11f4f", null ],
     [ "GetMinDistance", "class_distance_constraint.html#a4417a1efabd5ff92a82b5657479eab93", null ],
+    [ "GetSubType", "class_distance_constraint.html#aca72385bb8b1dede13ca841681e37cae", null ],
     [ "GetTotalLambdaPosition", "class_distance_constraint.html#a9c2f0f9859df29f33e5688f42e14471d", null ],
-    [ "GetType", "class_distance_constraint.html#abcdd0ac91c4ef2bd06c2e7c4558a612f", null ],
     [ "RestoreState", "class_distance_constraint.html#a748c652cfab4475e85d97ed4caf42c79", null ],
     [ "SaveState", "class_distance_constraint.html#a8220e4b735572de4324c0cd1a181150f", null ],
     [ "SetDamping", "class_distance_constraint.html#a46b06500e56c14ef5137ab53a2be496a", null ],

@@ -2,6 +2,7 @@ var class_six_d_o_f_constraint =
 [
     [ "EAxis", "class_six_d_o_f_constraint.html#a6ae2f17a4c67f08fb49cacab7ec0d501", null ],
     [ "SixDOFConstraint", "class_six_d_o_f_constraint.html#a3002dc33540a30ce549738faa272f868", null ],
+    [ "GetConstraintSettings", "class_six_d_o_f_constraint.html#aec39d055e72169c5f805a00c16b12ff1", null ],
     [ "GetConstraintToBody1Matrix", "class_six_d_o_f_constraint.html#a93b7ceef3c7017e4a1a0bc53e29c93d8", null ],
     [ "GetConstraintToBody2Matrix", "class_six_d_o_f_constraint.html#a92d86c092002bec9d22d529f8616aa29", null ],
     [ "GetMaxFriction", "class_six_d_o_f_constraint.html#a874ef6ddc1368b003ba0eb2808adf17c", null ],
@@ -9,6 +10,7 @@ var class_six_d_o_f_constraint =
     [ "GetMotorSettings", "class_six_d_o_f_constraint.html#a12db08dc07d7ae6cf63acdb8e17547b7", null ],
     [ "GetMotorState", "class_six_d_o_f_constraint.html#adcda93c3a6ca21bf6ed39b264a020f38", null ],
     [ "GetRotationInConstraintSpace", "class_six_d_o_f_constraint.html#ae4af627f61bd4bd61d242756dd7f838a", null ],
+    [ "GetSubType", "class_six_d_o_f_constraint.html#ae13f824a4eddf95835fdeffe61c7ffba", null ],
     [ "GetTargetAngularVelocityCS", "class_six_d_o_f_constraint.html#aa8906a979a8a5bfcb1887997849d3f0c", null ],
     [ "GetTargetOrientationCS", "class_six_d_o_f_constraint.html#ab3f325802dc065ba6fbeeea76884e0c8", null ],
     [ "GetTargetPositionCS", "class_six_d_o_f_constraint.html#a5e3a3ca4dd727cabe3fbc97a43fffc1d", null ],
@@ -17,7 +19,6 @@ var class_six_d_o_f_constraint =
     [ "GetTotalLambdaMotorTranslation", "class_six_d_o_f_constraint.html#a244e5b919415ca1feec2d707e3ad64bf", null ],
     [ "GetTotalLambdaPosition", "class_six_d_o_f_constraint.html#a01a2d0f0a38d57af09fb86f5432df79b", null ],
     [ "GetTotalLambdaRotation", "class_six_d_o_f_constraint.html#a660cc3a7a434504917d71b2c463cef47", null ],
-    [ "GetType", "class_six_d_o_f_constraint.html#a0ba467d799276f765cf54ff298ca6f58", null ],
     [ "RestoreState", "class_six_d_o_f_constraint.html#a816d37d27455acd262a58e565445ba8d", null ],
     [ "SaveState", "class_six_d_o_f_constraint.html#ad6062bc0bb66d6bfa9a57e6e4e62fefa", null ],
     [ "SetMaxFriction", "class_six_d_o_f_constraint.html#ab28cc63599921c1b582f71549be647b3", null ],

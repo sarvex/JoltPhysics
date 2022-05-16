@@ -1,6 +1,7 @@
 var class_path_constraint =
 [
     [ "PathConstraint", "class_path_constraint.html#a6a5b13762673f613fd49d5b0d3873853", null ],
+    [ "GetConstraintSettings", "class_path_constraint.html#a88bfac1b3c744a15f78dbce0d31a4b08", null ],
     [ "GetConstraintToBody1Matrix", "class_path_constraint.html#a7fd4ca9762f295af3146258606a6e22a", null ],
     [ "GetConstraintToBody2Matrix", "class_path_constraint.html#aefa354c9926217e88db8741736121f20", null ],
     [ "GetMaxFrictionForce", "class_path_constraint.html#a0de4a86654e7757baf2e0715aae9e221", null ],
@@ -9,6 +10,7 @@ var class_path_constraint =
     [ "GetPositionMotorSettings", "class_path_constraint.html#aae30cd39beec4628b22295eec9fdb66b", null ],
     [ "GetPositionMotorSettings", "class_path_constraint.html#afe1f87898534471bb7dc888dd9676262", null ],
     [ "GetPositionMotorState", "class_path_constraint.html#a2d073636288d7a79e0453fff543c0660", null ],
+    [ "GetSubType", "class_path_constraint.html#a73052367b302ac8b30a9505aa1901795", null ],
     [ "GetTargetPathFraction", "class_path_constraint.html#a48f8818d18d5c46c27a6ba69d91c36b3", null ],
     [ "GetTargetVelocity", "class_path_constraint.html#a9c6d88045a77cb4f442e3ef239b20d84", null ],
     [ "GetTotalLambdaMotor", "class_path_constraint.html#ad9f21a4ed20007ceb8181db0bf999ce3", null ],
@@ -16,7 +18,6 @@ var class_path_constraint =
     [ "GetTotalLambdaPositionLimits", "class_path_constraint.html#afef42c01cab96ed8cb32c607a6a0baf8", null ],
     [ "GetTotalLambdaRotation", "class_path_constraint.html#a7dc7086987fb9a1761fc9fab81ceadb3", null ],
     [ "GetTotalLambdaRotationHinge", "class_path_constraint.html#abb7f43813e7aa47c1719550303e8b768", null ],
-    [ "GetType", "class_path_constraint.html#acbf28a034310eaba5910867ebbdc932a", null ],
     [ "IsActive", "class_path_constraint.html#a5f6d3c7d860ee5c715f8fef818fd4f1f", null ],
     [ "RestoreState", "class_path_constraint.html#ae404de8c3ac283d010ca1e0f637873f1", null ],
     [ "SaveState", "class_path_constraint.html#a488ab67aba069c0fa0c81194afc74bd1", null ],

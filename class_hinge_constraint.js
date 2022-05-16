@@ -1,6 +1,7 @@
 var class_hinge_constraint =
 [
     [ "HingeConstraint", "class_hinge_constraint.html#a7337c51b877bbc1c3848d3de7b3dae8f", null ],
+    [ "GetConstraintSettings", "class_hinge_constraint.html#aba9c90a3d3565e738758d6ee5b17dcba", null ],
     [ "GetConstraintToBody1Matrix", "class_hinge_constraint.html#a2b528317cc292b5538af7df466934016", null ],
     [ "GetConstraintToBody2Matrix", "class_hinge_constraint.html#aae6aa9af08443b65a7ea85323876dde4", null ],
     [ "GetLimitsMax", "class_hinge_constraint.html#a519d665c4924aa96430f28b082f0075f", null ],
@@ -9,13 +10,13 @@ var class_hinge_constraint =
     [ "GetMotorSettings", "class_hinge_constraint.html#a7fe69abe4b705d335b485eaa97b13ef1", null ],
     [ "GetMotorSettings", "class_hinge_constraint.html#a41dac9c0b4fcaf494aea48d3347203fd", null ],
     [ "GetMotorState", "class_hinge_constraint.html#a1dd81b1a4fa3416340a80680124dce2a", null ],
+    [ "GetSubType", "class_hinge_constraint.html#ac6c68736fa26f85a973b0aa95daa7674", null ],
     [ "GetTargetAngle", "class_hinge_constraint.html#a952152a6165614d7e000cc61e8820edf", null ],
     [ "GetTargetAngularVelocity", "class_hinge_constraint.html#ad05474eff39452c49ee10c70b780f687", null ],
     [ "GetTotalLambdaMotor", "class_hinge_constraint.html#ac9320fb87c8a7de22bc822f0f9cf2f74", null ],
     [ "GetTotalLambdaPosition", "class_hinge_constraint.html#af03b0287d856815e5a9cff82588d2578", null ],
     [ "GetTotalLambdaRotation", "class_hinge_constraint.html#a69121251820ce4c305f3275b15242f7a", null ],
     [ "GetTotalLambdaRotationLimits", "class_hinge_constraint.html#a689cbcabdb90d98b59fcdffc5417a3e7", null ],
-    [ "GetType", "class_hinge_constraint.html#a3e5015a105f9d1d0fc9e6e263e155af1", null ],
     [ "HasLimits", "class_hinge_constraint.html#af1934023ab6d537ecc04cb605c6fada3", null ],
     [ "RestoreState", "class_hinge_constraint.html#ab511231f1d1c0ea20d9d7e9a3d996091", null ],
     [ "SaveState", "class_hinge_constraint.html#a5a0a5235be47dfd889f89a4651f36993", null ],

@@ -9,9 +9,7 @@ var dir_166975991df1b4ecc6dd5a6639d45e50 =
     [ "Constraint.cpp", "_constraint_8cpp.html", "_constraint_8cpp" ],
     [ "Constraint.h", "_constraint_8h.html", "_constraint_8h" ],
     [ "ConstraintManager.cpp", "_constraint_manager_8cpp.html", null ],
-    [ "ConstraintManager.h", "_constraint_manager_8h.html", [
-      [ "ConstraintManager", "class_constraint_manager.html", "class_constraint_manager" ]
-    ] ],
+    [ "ConstraintManager.h", "_constraint_manager_8h.html", "_constraint_manager_8h" ],
     [ "ContactConstraintManager.cpp", "_contact_constraint_manager_8cpp.html", null ],
     [ "ContactConstraintManager.h", "_contact_constraint_manager_8h.html", [
       [ "ContactConstraintManager", "class_contact_constraint_manager.html", "class_contact_constraint_manager" ],

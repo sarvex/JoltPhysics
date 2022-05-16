@@ -62,6 +62,7 @@ var hierarchy =
     [ "CollisionDispatch", "class_collision_dispatch.html", null ],
     [ "CollisionGroup", "class_collision_group.html", null ],
     [ "Color", "class_color.html", null ],
+    [ "PhysicsScene::ConnectedConstraint", "class_physics_scene_1_1_connected_constraint.html", null ],
     [ "ContactListener", "class_contact_listener.html", null ],
     [ "ContactManifold", "class_contact_manifold.html", null ],
     [ "ContactSettings", "class_contact_settings.html", null ],

@@ -139,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1a67ebf158316c8ce40768aab624680b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1484650a796607c688529fe600dc9e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body_i_d.html">BodyID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a1484650a796607c688529fe600dc9e9f">CreateAndAddBody</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings, <a class="el" href="_e_activation_8h.html#a4a0a592959c9a1beb4221e8908fce4a6">EActivation</a> inActivationMode)</td></tr>
 <tr class="separator:a1484650a796607c688529fe600dc9e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d2f3a832968329c91af032409abc68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#ac5d2f3a832968329c91af032409abc68">CreateConstraint</a> (const <a class="el" href="class_two_body_constraint_settings.html">TwoBodyConstraintSettings</a> *inSettings, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID1, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID2)</td></tr>
+<tr class="memdesc:ac5d2f3a832968329c91af032409abc68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a two body constraint.  <a href="class_body_interface.html#ac5d2f3a832968329c91af032409abc68">More...</a><br /></td></tr>
+<tr class="separator:ac5d2f3a832968329c91af032409abc68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b4ab713c9ed9369f43930510791562b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a7b4ab713c9ed9369f43930510791562b">ActivateConstraint</a> (const <a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a> *inConstraint)</td></tr>
 <tr class="memdesc:a7b4ab713c9ed9369f43930510791562b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate non-static bodies attached to a constraint.  <a href="class_body_interface.html#a7b4ab713c9ed9369f43930510791562b">More...</a><br /></td></tr>
 <tr class="separator:a7b4ab713c9ed9369f43930510791562b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -842,6 +845,42 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Create a body </p><dl class="section return"><dt>Returns</dt><dd>Created body or null when out of bodies </dd></dl>
+
+</div>
+</div>
+<a id="ac5d2f3a832968329c91af032409abc68" name="ac5d2f3a832968329c91af032409abc68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5d2f3a832968329c91af032409abc68">&#9670;&nbsp;</a></span>CreateConstraint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a> * BodyInterface::CreateConstraint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_two_body_constraint_settings.html">TwoBodyConstraintSettings</a> *&#160;</td>
+          <td class="paramname"><em>inSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a two body constraint. </p>
 
 </div>
 </div>
