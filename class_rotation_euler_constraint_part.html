@@ -136,6 +136,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a40c10735335691be99e7911139dc2884"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_quat.html">Quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#a40c10735335691be99e7911139dc2884">sGetInvInitialOrientation</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2)</td></tr>
 <tr class="memdesc:a40c10735335691be99e7911139dc2884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return inverse of initial rotation from body 1 to body 2 in body 1 space.  <a href="class_rotation_euler_constraint_part.html#a40c10735335691be99e7911139dc2884">More...</a><br /></td></tr>
 <tr class="separator:a40c10735335691be99e7911139dc2884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6757c3b96eff4a145d9228fb1679222d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_quat.html">Quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#a6757c3b96eff4a145d9228fb1679222d">sGetInvInitialOrientationXY</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisX1, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisY1, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisX2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisY2)</td></tr>
+<tr class="memdesc:a6757c3b96eff4a145d9228fb1679222d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return inverse of initial rotation from body 1 to body 2 in body 1 space.  <a href="class_rotation_euler_constraint_part.html#a6757c3b96eff4a145d9228fb1679222d">More...</a><br /></td></tr>
+<tr class="separator:a6757c3b96eff4a145d9228fb1679222d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84f7a33a2d609dd5138c9a7f3f82f65"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_quat.html">Quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotation_euler_constraint_part.html#ae84f7a33a2d609dd5138c9a7f3f82f65">sGetInvInitialOrientationXZ</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisX1, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisZ1, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisX2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAxisZ2)</td></tr>
+<tr class="memdesc:ae84f7a33a2d609dd5138c9a7f3f82f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return inverse of initial rotation from body 1 to body 2 in body 1 space.  <a href="class_rotation_euler_constraint_part.html#ae84f7a33a2d609dd5138c9a7f3f82f65">More...</a><br /></td></tr>
+<tr class="separator:ae84f7a33a2d609dd5138c9a7f3f82f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Constrains rotation around all axis so that only translation is allowed</p>
@@ -383,6 +389,128 @@ E = identity matrix.<br  />
 </div><div class="memdoc">
 
 <p>Return inverse of initial rotation from body 1 to body 2 in body 1 space. </p>
+
+</div>
+</div>
+<a id="a6757c3b96eff4a145d9228fb1679222d" name="a6757c3b96eff4a145d9228fb1679222d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6757c3b96eff4a145d9228fb1679222d">&#9670;&nbsp;</a></span>sGetInvInitialOrientationXY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_quat.html">Quat</a> RotationEulerConstraintPart::sGetInvInitialOrientationXY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisX1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisY1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisX2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisY2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return inverse of initial rotation from body 1 to body 2 in body 1 space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inAxisX1</td><td>Reference axis X for body 1 </td></tr>
+    <tr><td class="paramname">inAxisY1</td><td>Reference axis Y for body 1 </td></tr>
+    <tr><td class="paramname">inAxisX2</td><td>Reference axis X for body 2 </td></tr>
+    <tr><td class="paramname">inAxisY2</td><td>Reference axis Y for body 2 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="ae84f7a33a2d609dd5138c9a7f3f82f65" name="ae84f7a33a2d609dd5138c9a7f3f82f65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84f7a33a2d609dd5138c9a7f3f82f65">&#9670;&nbsp;</a></span>sGetInvInitialOrientationXZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_quat.html">Quat</a> RotationEulerConstraintPart::sGetInvInitialOrientationXZ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisX1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisZ1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisX2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inAxisZ2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return inverse of initial rotation from body 1 to body 2 in body 1 space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inAxisX1</td><td>Reference axis X for body 1 </td></tr>
+    <tr><td class="paramname">inAxisZ1</td><td>Reference axis Z for body 1 </td></tr>
+    <tr><td class="paramname">inAxisX2</td><td>Reference axis X for body 2 </td></tr>
+    <tr><td class="paramname">inAxisZ2</td><td>Reference axis Z for body 2 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><br  />
+ </dd></dl>
 
 </div>
 </div>

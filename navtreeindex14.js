@@ -1,5 +1,15 @@
 var NAVTREEINDEX14 =
 {
+"class_quad_tree.html#ab83e557e1224ba241789ce7d7da982de":[3,0,179,15],
+"class_quad_tree.html#ad819632f6a3b9912462c731eb017cd4f":[3,0,179,26],
+"class_quad_tree.html#adf7d2b7bd81dd1d8a533bfa5df4a239c":[3,0,179,24],
+"class_quad_tree.html#ae87cda722c454860d1566a6c5f4b11dc":[3,0,179,23],
+"class_quad_tree.html#aec53c63c36f1185bd75623cbc27830d6":[3,0,179,3],
+"class_quad_tree.html#af9890e7aa4e8e053fda8e484b3c568e8":[3,0,179,4],
+"class_quat.html":[3,0,180],
+"class_quat.html#a022e859768c59cdbdef45cdacada80d2":[3,0,180,38],
+"class_quat.html#a05bb92518353f7309399282af7e906e3":[3,0,180,33],
+"class_quat.html#a0657861b58c5638d657b9232d0872789":[3,0,180,1],
 "class_quat.html#a108350bfce9aa53b1af87fbe2698f6f4":[3,0,180,20],
 "class_quat.html#a13d0159a54a94e6a90dc5952f454b09e":[3,0,180,13],
 "class_quat.html#a21f44684684b475d9f5d02ed9c580def":[3,0,180,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX14 =
 "class_rotated_translated_shape.html#afb856f2a26b063d3f6d4aff131ce1a31":[3,0,192,15],
 "class_rotated_translated_shape_settings.html":[3,0,193],
 "class_rotated_translated_shape_settings.html#a3e1fba24e7b35c08a2fe248882a31e14":[3,0,193,5],
-"class_rotated_translated_shape_settings.html#a4b1d4bb9af26dc7b4839e5613be1d7e3":[3,0,193,2],
-"class_rotated_translated_shape_settings.html#a6b478d387b165be23ab557798ea6f113":[3,0,193,4],
-"class_rotated_translated_shape_settings.html#aca284712649bfd71718d9d761fc3039f":[3,0,193,1],
-"class_rotated_translated_shape_settings.html#ad5285a469a3df9bfd11c8fd83dc074b9":[3,0,193,0],
-"class_rotated_translated_shape_settings.html#ada2d2b814d70fe2935f1cc2b6bba2382":[3,0,193,3],
-"class_rotation_euler_constraint_part.html":[3,0,194],
-"class_rotation_euler_constraint_part.html#a492a0801dd2881d0ab58f9c8b0abfec8":[3,0,194,8],
-"class_rotation_euler_constraint_part.html#a5580f01673bcbbde31fd75108d2866b4":[3,0,194,3],
-"class_rotation_euler_constraint_part.html#aada1e7c8fcf62c1674aa5080cd70687e":[3,0,194,2],
-"class_rotation_euler_constraint_part.html#ab2276b37dd0f8eaf4229469def2627b6":[3,0,194,6],
-"class_rotation_euler_constraint_part.html#ab5ff022582eb45db942a196a32795661":[3,0,194,1]
+"class_rotated_translated_shape_settings.html#a4b1d4bb9af26dc7b4839e5613be1d7e3":[3,0,193,2]
 };
