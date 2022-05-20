@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"class_oriented_box.html#aa452a08a66dacf55bdfb5d8d0cff7c8c":[3,0,155,2],
 "class_oriented_box.html#aac962fad97b4c7dd85d4a430a7e2f2ca":[3,0,155,3],
 "class_oriented_box.html#aea20adbf3c48427f78ea4c6dfa61fb60":[3,0,155,5],
 "class_path_constraint.html":[3,0,156],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "class_quad_tree.html#a95788f7c5352a8b053be1ac426d5536d":[3,0,179,25],
 "class_quad_tree.html#aa28951f663c136f9b3faee823393cc1b":[3,0,179,10],
 "class_quad_tree.html#aa88f08218784b62ffdf8596c74f690d6":[3,0,179,9],
-"class_quad_tree.html#aaf165671ff225afec0336dca906f9219":[3,0,179,7],
-"class_quad_tree.html#ab5538217d4a9a42986da28d64b65740d":[3,0,179,14]
+"class_quad_tree.html#aaf165671ff225afec0336dca906f9219":[3,0,179,7]
 };

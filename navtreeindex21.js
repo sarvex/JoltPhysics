@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"struct_a_a_box_cast.html#aeace724c59e69d8bcee630641cdab310":[3,0,5,1],
 "struct_add_convex_radius.html":[3,0,6],
 "struct_add_convex_radius.html#a2b18bb69a25bf6973cbe22024a357194":[3,0,6,2],
 "struct_add_convex_radius.html#a7483095d1f4aaf1f8003adb2696d37f6":[3,0,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "struct_physics_settings.html#a739d00b8a125095ee04c70981244f1be":[3,0,164,3],
 "struct_physics_settings.html#a85f7318d995294af04d6a5c0fe0d01a6":[3,0,164,12],
 "struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1":[3,0,164,15],
-"struct_physics_settings.html#a9aff2f46a311da4e48974dce7e3b4cee":[3,0,164,16],
-"struct_physics_settings.html#a9d7cb8a2c982e6c63e4def8fcd88d7fb":[3,0,164,18]
+"struct_physics_settings.html#a9aff2f46a311da4e48974dce7e3b4cee":[3,0,164,16]
 };

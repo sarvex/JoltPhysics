@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('_tick_counter_8h_source.html',''); ini
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// Include for __rdtsc</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#if defined(JPH_PLATFORM_WINDOWS)</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">    #include &lt;intrin.h&gt;</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#elif defined(JPH_CPU_X64) &amp;&amp; defined(JPH_COMPILER_GCC)</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#elif defined(JPH_CPU_X86) &amp;&amp; defined(JPH_COMPILER_GCC)</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">    #include &lt;x86intrin.h&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('_tick_counter_8h_source.html',''); ini
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#if defined(JPH_PLATFORM_BLUE)</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordflow">return</span> JPH_PLATFORM_BLUE_GET_TICKS();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#elif defined(JPH_CPU_X64)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#elif defined(JPH_CPU_X86)</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">return</span> __rdtsc();</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#elif defined(JPH_CPU_ARM64)</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_typedef" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> val;</div>
@@ -134,9 +134,9 @@ $(document).ready(function(){initNavTree('_tick_counter_8h_source.html',''); ini
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><a class="code hl_typedef" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> <a class="code hl_function" href="_tick_counter_8h.html#a36fff9680bfb69300cfbd3624d8c34e6">GetProcessorTicksPerSecond</a>();</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
-<div class="ttc" id="a_core_8h_html_a73da8725998b00321a9db341202d650d"><div class="ttname"><a href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div><div class="ttdeci">#define JPH_NAMESPACE_END</div><div class="ttdef"><b>Definition:</b> Core.h:196</div></div>
-<div class="ttc" id="a_core_8h_html_aca0ba831b19773ec091e57f5cf76a1fb"><div class="ttname"><a href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a></div><div class="ttdeci">uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Core.h:235</div></div>
-<div class="ttc" id="a_core_8h_html_ad14098b68b8c44ea6112601031268405"><div class="ttname"><a href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define JPH_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:190</div></div>
+<div class="ttc" id="a_core_8h_html_a73da8725998b00321a9db341202d650d"><div class="ttname"><a href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div><div class="ttdeci">#define JPH_NAMESPACE_END</div><div class="ttdef"><b>Definition:</b> Core.h:203</div></div>
+<div class="ttc" id="a_core_8h_html_aca0ba831b19773ec091e57f5cf76a1fb"><div class="ttname"><a href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a></div><div class="ttdeci">uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Core.h:242</div></div>
+<div class="ttc" id="a_core_8h_html_ad14098b68b8c44ea6112601031268405"><div class="ttname"><a href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define JPH_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:197</div></div>
 <div class="ttc" id="a_tick_counter_8h_html_a36fff9680bfb69300cfbd3624d8c34e6"><div class="ttname"><a href="_tick_counter_8h.html#a36fff9680bfb69300cfbd3624d8c34e6">GetProcessorTicksPerSecond</a></div><div class="ttdeci">uint64 GetProcessorTicksPerSecond()</div><div class="ttdoc">Get the amount of ticks per second, note that this number will never be fully accurate as the amound ...</div><div class="ttdef"><b>Definition:</b> TickCounter.cpp:108</div></div>
 <div class="ttc" id="a_tick_counter_8h_html_ae23ab4860bcfb31beb5c9905f23426c1"><div class="ttname"><a href="_tick_counter_8h.html#ae23ab4860bcfb31beb5c9905f23426c1">GetProcessorTickCount</a></div><div class="ttdeci">JPH_NAMESPACE_BEGIN JPH_INLINE uint64 GetProcessorTickCount()</div><div class="ttdoc">Functionality to get the processors cycle counter.</div><div class="ttdef"><b>Definition:</b> TickCounter.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
