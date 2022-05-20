@@ -103,8 +103,8 @@ $(document).ready(function(){initNavTree('struct_compound_shape_1_1_collide_poin
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab5a4fd8c47349214d52b78b27d246299"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collide_point_visitor.html#ab5a4fd8c47349214d52b78b27d246299">CollidePointVisitor</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_compound_shape.html">CompoundShape</a> *inShape, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector)</td></tr>
-<tr class="separator:ab5a4fd8c47349214d52b78b27d246299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832d09b2ee2731828915fb29183b5960"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collide_point_visitor.html#a832d09b2ee2731828915fb29183b5960">CollidePointVisitor</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_compound_shape.html">CompoundShape</a> *inShape, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter)</td></tr>
+<tr class="separator:a832d09b2ee2731828915fb29183b5960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab907c8ad14bf917323ed88160cd861d"><td class="memItemLeft" align="right" valign="top">JPH_INLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collide_point_visitor.html#aab907c8ad14bf917323ed88160cd861d">ShouldAbort</a> () const</td></tr>
 <tr class="memdesc:aab907c8ad14bf917323ed88160cd861d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true when collision detection should abort because it's not possible to find a better hit.  <a href="struct_compound_shape_1_1_collide_point_visitor.html#aab907c8ad14bf917323ed88160cd861d">More...</a><br /></td></tr>
 <tr class="separator:aab907c8ad14bf917323ed88160cd861d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,10 +125,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac192bb3d8ea53f93de9e6fb523b2949a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb322db658c73032656a070fad686949"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collide_point_visitor.html#adb322db658c73032656a070fad686949">mSubShapeBits</a></td></tr>
 <tr class="separator:adb322db658c73032656a070fad686949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8c2ccc7305949bb69db4cfcc56cf85"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collide_point_visitor.html#aef8c2ccc7305949bb69db4cfcc56cf85">mShapeFilter</a></td></tr>
+<tr class="separator:aef8c2ccc7305949bb69db4cfcc56cf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab5a4fd8c47349214d52b78b27d246299" name="ab5a4fd8c47349214d52b78b27d246299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5a4fd8c47349214d52b78b27d246299">&#9670;&nbsp;</a></span>CollidePointVisitor()</h2>
+<a id="a832d09b2ee2731828915fb29183b5960" name="a832d09b2ee2731828915fb29183b5960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832d09b2ee2731828915fb29183b5960">&#9670;&nbsp;</a></span>CollidePointVisitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +160,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -326,6 +334,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> CompoundShape::CollidePointVisitor::mPoint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef8c2ccc7305949bb69db4cfcc56cf85" name="aef8c2ccc7305949bb69db4cfcc56cf85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8c2ccc7305949bb69db4cfcc56cf85">&#9670;&nbsp;</a></span>mShapeFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_shape_filter.html">ShapeFilter</a>&amp; CompoundShape::CollidePointVisitor::mShapeFilter</td>
         </tr>
       </table>
 </div><div class="memdoc">

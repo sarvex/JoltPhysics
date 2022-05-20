@@ -2,10 +2,10 @@ var class_offset_center_of_mass_shape =
 [
     [ "OffsetCenterOfMassShape", "class_offset_center_of_mass_shape.html#ad8d092e39b5a6af1b33bd2c26261de11", null ],
     [ "OffsetCenterOfMassShape", "class_offset_center_of_mass_shape.html#a8e82168a95eb463f51e2c109b789c22b", null ],
-    [ "CastRay", "class_offset_center_of_mass_shape.html#aa978dc92c2e0c62062627e8a81dcd5ec", null ],
+    [ "CastRay", "class_offset_center_of_mass_shape.html#a624b715dc926521f7865d86e932cce7d", null ],
     [ "CastRay", "class_offset_center_of_mass_shape.html#a5d0b1db48c88428b7be626d822e0599b", null ],
-    [ "CollectTransformedShapes", "class_offset_center_of_mass_shape.html#ad10d3ec698e55799aa91beeb2641c0d3", null ],
-    [ "CollidePoint", "class_offset_center_of_mass_shape.html#a1c38c23a0c929f79a7e5ac649672029b", null ],
+    [ "CollectTransformedShapes", "class_offset_center_of_mass_shape.html#a188ffe92a93f632954f03730fc1f1aed", null ],
+    [ "CollidePoint", "class_offset_center_of_mass_shape.html#a2acee14056b7beb439004b66f9f76c13", null ],
     [ "GetCenterOfMass", "class_offset_center_of_mass_shape.html#a9479ac77a9f53c5664f85b7a93135d95", null ],
     [ "GetInnerRadius", "class_offset_center_of_mass_shape.html#a032a8fc143be25c8194a28c3a491c702", null ],
     [ "GetLocalBounds", "class_offset_center_of_mass_shape.html#a68d4124fd359bd6f37718080371617f0", null ],

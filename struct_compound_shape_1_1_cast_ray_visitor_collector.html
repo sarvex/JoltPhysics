@@ -103,8 +103,8 @@ $(document).ready(function(){initNavTree('struct_compound_shape_1_1_cast_ray_vis
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae3f99e2d7e252767a5060616c2924a68"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_cast_ray_visitor_collector.html#ae3f99e2d7e252767a5060616c2924a68">CastRayVisitorCollector</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, const <a class="el" href="class_compound_shape.html">CompoundShape</a> *inShape, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;ioCollector)</td></tr>
-<tr class="separator:ae3f99e2d7e252767a5060616c2924a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af17b4ee8b0f590e72d35ced0d45563f0"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_cast_ray_visitor_collector.html#af17b4ee8b0f590e72d35ced0d45563f0">CastRayVisitorCollector</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, const <a class="el" href="class_compound_shape.html">CompoundShape</a> *inShape, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter)</td></tr>
+<tr class="separator:af17b4ee8b0f590e72d35ced0d45563f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcc33d30649befa932d49742db59986d"><td class="memItemLeft" align="right" valign="top">JPH_INLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_cast_ray_visitor_collector.html#adcc33d30649befa932d49742db59986d">ShouldAbort</a> () const</td></tr>
 <tr class="memdesc:adcc33d30649befa932d49742db59986d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true when collision detection should abort because it's not possible to find a better hit.  <a href="struct_compound_shape_1_1_cast_ray_visitor_collector.html#adcc33d30649befa932d49742db59986d">More...</a><br /></td></tr>
 <tr class="separator:adcc33d30649befa932d49742db59986d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,10 +129,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a77fc1dbc8b79d5ec9cb3bf6803f9ca33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a279153b159b17f4bf1fb7a1a4df46122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ray_cast_settings.html">RayCastSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_cast_ray_visitor_collector.html#a279153b159b17f4bf1fb7a1a4df46122">mRayCastSettings</a></td></tr>
 <tr class="separator:a279153b159b17f4bf1fb7a1a4df46122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085af308c94408bd9f45fb3195402ba1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_cast_ray_visitor_collector.html#a085af308c94408bd9f45fb3195402ba1">mShapeFilter</a></td></tr>
+<tr class="separator:a085af308c94408bd9f45fb3195402ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae3f99e2d7e252767a5060616c2924a68" name="ae3f99e2d7e252767a5060616c2924a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3f99e2d7e252767a5060616c2924a68">&#9670;&nbsp;</a></span>CastRayVisitorCollector()</h2>
+<a id="af17b4ee8b0f590e72d35ced0d45563f0" name="af17b4ee8b0f590e72d35ced0d45563f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af17b4ee8b0f590e72d35ced0d45563f0">&#9670;&nbsp;</a></span>CastRayVisitorCollector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +170,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -364,6 +372,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> CompoundShape::CastRayVisitorCollector::mRayCastSettings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a085af308c94408bd9f45fb3195402ba1" name="a085af308c94408bd9f45fb3195402ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085af308c94408bd9f45fb3195402ba1">&#9670;&nbsp;</a></span>mShapeFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_shape_filter.html">ShapeFilter</a>&amp; CompoundShape::CastRayVisitorCollector::mShapeFilter</td>
         </tr>
       </table>
 </div><div class="memdoc">

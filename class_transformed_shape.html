@@ -118,18 +118,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a13cf3ec14c416d9693936f4323977bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60ffc001573e85f25b2f28ea819c76a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a60ffc001573e85f25b2f28ea819c76a3">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, <a class="el" href="class_ray_cast_result.html">RayCastResult</a> &amp;ioHit) const</td></tr>
 <tr class="separator:a60ffc001573e85f25b2f28ea819c76a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a517d7e889e3c713b2912b5e39f4cb806"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a517d7e889e3c713b2912b5e39f4cb806">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, <a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;ioCollector) const</td></tr>
-<tr class="separator:a517d7e889e3c713b2912b5e39f4cb806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dbd1a900a3cd01817c81a00da8c2126"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a0dbd1a900a3cd01817c81a00da8c2126">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector) const</td></tr>
-<tr class="separator:a0dbd1a900a3cd01817c81a00da8c2126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af015a874816a8f44657598dc5b7f6f8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#af015a874816a8f44657598dc5b7f6f8c">CollideShape</a> (const <a class="el" href="class_shape.html">Shape</a> *inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inShapeScale, <a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, const <a class="el" href="class_collide_shape_settings.html">CollideShapeSettings</a> &amp;inCollideShapeSettings, <a class="el" href="_shape_8h.html#af33744a7638d2c8e3ba97737b069f8d2">CollideShapeCollector</a> &amp;ioCollector) const</td></tr>
-<tr class="memdesc:af015a874816a8f44657598dc5b7f6f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collide a shape and report any hits to ioCollector.  <a href="class_transformed_shape.html#af015a874816a8f44657598dc5b7f6f8c">More...</a><br /></td></tr>
-<tr class="separator:af015a874816a8f44657598dc5b7f6f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cf231763f9ffecc614c3d6e05023066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a6cf231763f9ffecc614c3d6e05023066">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, <a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const</td></tr>
+<tr class="separator:a6cf231763f9ffecc614c3d6e05023066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d1199887508e965003f3a163554275"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a04d1199887508e965003f3a163554275">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const</td></tr>
+<tr class="separator:a04d1199887508e965003f3a163554275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45cbd4111ff6924fcff26b1f673f875"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#aa45cbd4111ff6924fcff26b1f673f875">CollideShape</a> (const <a class="el" href="class_shape.html">Shape</a> *inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inShapeScale, <a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, const <a class="el" href="class_collide_shape_settings.html">CollideShapeSettings</a> &amp;inCollideShapeSettings, <a class="el" href="_shape_8h.html#af33744a7638d2c8e3ba97737b069f8d2">CollideShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const</td></tr>
+<tr class="memdesc:aa45cbd4111ff6924fcff26b1f673f875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collide a shape and report any hits to ioCollector.  <a href="class_transformed_shape.html#aa45cbd4111ff6924fcff26b1f673f875">More...</a><br /></td></tr>
+<tr class="separator:aa45cbd4111ff6924fcff26b1f673f875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059b919621c884ddf9c48ab0a7e71f72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a059b919621c884ddf9c48ab0a7e71f72">CastShape</a> (const <a class="el" href="struct_shape_cast.html">ShapeCast</a> &amp;inShapeCast, const <a class="el" href="class_shape_cast_settings.html">ShapeCastSettings</a> &amp;inShapeCastSettings, <a class="el" href="_shape_8h.html#a501dee38fc3089311c7c9408ceda7401">CastShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const</td></tr>
 <tr class="memdesc:a059b919621c884ddf9c48ab0a7e71f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a shape and report any hits to ioCollector.  <a href="class_transformed_shape.html#a059b919621c884ddf9c48ab0a7e71f72">More...</a><br /></td></tr>
 <tr class="separator:a059b919621c884ddf9c48ab0a7e71f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f8347aec8f3d48c817caef84213c23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#aa2f8347aec8f3d48c817caef84213c23">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector) const</td></tr>
-<tr class="separator:aa2f8347aec8f3d48c817caef84213c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5379d6bf4807440be14c96829e7fa5bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a5379d6bf4807440be14c96829e7fa5bd">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const</td></tr>
+<tr class="separator:a5379d6bf4807440be14c96829e7fa5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae561394e4622e907070d6c8e7bfcde19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#ae561394e4622e907070d6c8e7bfcde19">GetTrianglesStart</a> (<a class="el" href="class_transformed_shape.html#aca84b10055165beff1ca288bf6ccfd34">GetTrianglesContext</a> &amp;ioContext, const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox) const</td></tr>
 <tr class="separator:ae561394e4622e907070d6c8e7bfcde19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f4d127145d57e13ff41523a3c8ecd9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a7f4d127145d57e13ff41523a3c8ecd9e">GetTrianglesNext</a> (<a class="el" href="class_transformed_shape.html#aca84b10055165beff1ca288bf6ccfd34">GetTrianglesContext</a> &amp;ioContext, int inMaxTrianglesRequested, <a class="el" href="class_float3.html">Float3</a> *outTriangleVertices, const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> **outMaterials=nullptr) const</td></tr>
@@ -300,8 +300,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a517d7e889e3c713b2912b5e39f4cb806" name="a517d7e889e3c713b2912b5e39f4cb806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a517d7e889e3c713b2912b5e39f4cb806">&#9670;&nbsp;</a></span>CastRay() <span class="overload">[1/2]</span></h2>
+<a id="a6cf231763f9ffecc614c3d6e05023066" name="a6cf231763f9ffecc614c3d6e05023066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf231763f9ffecc614c3d6e05023066">&#9670;&nbsp;</a></span>CastRay() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +322,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em> = <code>{&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -406,8 +412,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2f8347aec8f3d48c817caef84213c23" name="aa2f8347aec8f3d48c817caef84213c23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2f8347aec8f3d48c817caef84213c23">&#9670;&nbsp;</a></span>CollectTransformedShapes()</h2>
+<a id="a5379d6bf4807440be14c96829e7fa5bd" name="a5379d6bf4807440be14c96829e7fa5bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5379d6bf4807440be14c96829e7fa5bd">&#9670;&nbsp;</a></span>CollectTransformedShapes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,7 +428,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em> = <code>{&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -435,8 +447,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0dbd1a900a3cd01817c81a00da8c2126" name="a0dbd1a900a3cd01817c81a00da8c2126"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dbd1a900a3cd01817c81a00da8c2126">&#9670;&nbsp;</a></span>CollidePoint()</h2>
+<a id="a04d1199887508e965003f3a163554275" name="a04d1199887508e965003f3a163554275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d1199887508e965003f3a163554275">&#9670;&nbsp;</a></span>CollidePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +463,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em> = <code>{&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -464,8 +482,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af015a874816a8f44657598dc5b7f6f8c" name="af015a874816a8f44657598dc5b7f6f8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af015a874816a8f44657598dc5b7f6f8c">&#9670;&nbsp;</a></span>CollideShape()</h2>
+<a id="aa45cbd4111ff6924fcff26b1f673f875" name="aa45cbd4111ff6924fcff26b1f673f875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45cbd4111ff6924fcff26b1f673f875">&#9670;&nbsp;</a></span>CollideShape()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,7 +516,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#af33744a7638d2c8e3ba97737b069f8d2">CollideShapeCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em> = <code>{&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

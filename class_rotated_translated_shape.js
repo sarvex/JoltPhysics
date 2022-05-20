@@ -2,10 +2,10 @@ var class_rotated_translated_shape =
 [
     [ "RotatedTranslatedShape", "class_rotated_translated_shape.html#a3b7c51d423749bcb210fcbd7112520e3", null ],
     [ "RotatedTranslatedShape", "class_rotated_translated_shape.html#adb464f1e2b1cc92b8842b8b9c799711f", null ],
-    [ "CastRay", "class_rotated_translated_shape.html#a6db1282cffedcf1cb48924f33a099e1d", null ],
+    [ "CastRay", "class_rotated_translated_shape.html#a397f3571c6e9f7f027b1acd2abaaac35", null ],
     [ "CastRay", "class_rotated_translated_shape.html#ac9ed2a8c195640f6b0b65a06749b3f33", null ],
-    [ "CollectTransformedShapes", "class_rotated_translated_shape.html#a1a985f742d46a6571e19856f620d95e6", null ],
-    [ "CollidePoint", "class_rotated_translated_shape.html#acf57494c81927cca0d2c64d1f353424a", null ],
+    [ "CollectTransformedShapes", "class_rotated_translated_shape.html#a99bfa78dc0fc1967212e73dd3894f648", null ],
+    [ "CollidePoint", "class_rotated_translated_shape.html#ae878ff562cc8dbd769853db0b1fa7271", null ],
     [ "GetCenterOfMass", "class_rotated_translated_shape.html#a7d7b6b0edc6dd89125cab13d77eb3585", null ],
     [ "GetInnerRadius", "class_rotated_translated_shape.html#a2d4eb8d7ec3b1b8e68fccd31bd6ffda9", null ],
     [ "GetLocalBounds", "class_rotated_translated_shape.html#adaffc4cb4b4ecb75c984b4dd655f8e53", null ],

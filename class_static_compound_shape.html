@@ -124,12 +124,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a15254cd1ef605397c34cd1455c3ce317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7704a962778d0a00b4f808fa448c49c5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a7704a962778d0a00b4f808fa448c49c5">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="class_ray_cast_result.html">RayCastResult</a> &amp;ioHit) const override</td></tr>
 <tr class="separator:a7704a962778d0a00b4f808fa448c49c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28fc0cfaeda6116f34dd60ddeb505dc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a28fc0cfaeda6116f34dd60ddeb505dc4">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;ioCollector) const override</td></tr>
-<tr class="separator:a28fc0cfaeda6116f34dd60ddeb505dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa84bf218cbed955dbff451300535d8df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#aa84bf218cbed955dbff451300535d8df">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector) const override</td></tr>
-<tr class="separator:aa84bf218cbed955dbff451300535d8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a898d7b17e77edc0c3f5e1fb9971af445"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a898d7b17e77edc0c3f5e1fb9971af445">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector) const override</td></tr>
-<tr class="separator:a898d7b17e77edc0c3f5e1fb9971af445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76efaa0b18ed8367a5865ce826a1b445"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a76efaa0b18ed8367a5865ce826a1b445">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_ray_cast_settings.html">RayCastSettings</a> &amp;inRayCastSettings, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const override</td></tr>
+<tr class="separator:a76efaa0b18ed8367a5865ce826a1b445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e2ccd7bd10816f6f919ca6aa3a405e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#ab2e2ccd7bd10816f6f919ca6aa3a405e">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const override</td></tr>
+<tr class="separator:ab2e2ccd7bd10816f6f919ca6aa3a405e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ff6b3a60b5da73dfac93fb8d1318bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a48ff6b3a60b5da73dfac93fb8d1318bc">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter) const override</td></tr>
+<tr class="separator:a48ff6b3a60b5da73dfac93fb8d1318bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e78840b9d9ba2b080352b8366f3472c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a5e78840b9d9ba2b080352b8366f3472c">GetIntersectingSubShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> *outSubShapeIndices, int inMaxSubShapeIndices) const override</td></tr>
 <tr class="separator:a5e78840b9d9ba2b080352b8366f3472c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cd2a844ebd860f507e798199dd77583"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_compound_shape.html#a4cd2a844ebd860f507e798199dd77583">GetIntersectingSubShapes</a> (const <a class="el" href="class_oriented_box.html">OrientedBox</a> &amp;inBox, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> *outSubShapeIndices, int inMaxSubShapeIndices) const override</td></tr>
@@ -420,8 +420,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a28fc0cfaeda6116f34dd60ddeb505dc4" name="a28fc0cfaeda6116f34dd60ddeb505dc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28fc0cfaeda6116f34dd60ddeb505dc4">&#9670;&nbsp;</a></span>CastRay() <span class="overload">[1/2]</span></h2>
+<a id="a76efaa0b18ed8367a5865ce826a1b445" name="a76efaa0b18ed8367a5865ce826a1b445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76efaa0b18ed8367a5865ce826a1b445">&#9670;&nbsp;</a></span>CastRay() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +451,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#a09896ea7755d75dc0c2c3e7058a6b85b">CastRayCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em> = <code>{&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -467,7 +473,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Cast a ray against this shape. Allows returning multiple hits through ioCollector. Note that this version is more flexible but also slightly slower than the CastRay function that returns only a single hit. If you want the surface normal of the hit use GetSurfaceNormal(collected sub shape ID, inRay.GetPointOnRay(collected faction)). </p>
 
-<p>Implements <a class="el" href="class_shape.html#abdce097f62485404fdce23f9ddc33078">Shape</a>.</p>
+<p>Implements <a class="el" href="class_shape.html#a54b33219a3685aa4b964f6b69a2cfa7d">Shape</a>.</p>
 
 </div>
 </div>
@@ -516,8 +522,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a898d7b17e77edc0c3f5e1fb9971af445" name="a898d7b17e77edc0c3f5e1fb9971af445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898d7b17e77edc0c3f5e1fb9971af445">&#9670;&nbsp;</a></span>CollectTransformedShapes()</h2>
+<a id="a48ff6b3a60b5da73dfac93fb8d1318bc" name="a48ff6b3a60b5da73dfac93fb8d1318bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ff6b3a60b5da73dfac93fb8d1318bc">&#9670;&nbsp;</a></span>CollectTransformedShapes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +565,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -575,12 +587,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Collect the leaf transformed shapes of all leaf shapes of this shape. inBox is the world space axis aligned box which leaf shapes should collide with. inPositionCOM/inRotation/inScale describes the transform of this shape. inSubShapeIDCeator represents the current sub shape ID of this shape. </p>
 
-<p>Reimplemented from <a class="el" href="class_shape.html#a95eb628e369d0993acf26a20cbceb250">Shape</a>.</p>
+<p>Reimplemented from <a class="el" href="class_shape.html#a3ed865e7eb30221b418cfd61d1430173">Shape</a>.</p>
 
 </div>
 </div>
-<a id="aa84bf218cbed955dbff451300535d8df" name="aa84bf218cbed955dbff451300535d8df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa84bf218cbed955dbff451300535d8df">&#9670;&nbsp;</a></span>CollidePoint()</h2>
+<a id="ab2e2ccd7bd10816f6f919ca6aa3a405e" name="ab2e2ccd7bd10816f6f919ca6aa3a405e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e2ccd7bd10816f6f919ca6aa3a405e">&#9670;&nbsp;</a></span>CollidePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -604,7 +616,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em> = <code>{&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -620,7 +638,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Check if inPoint is inside this shape. For this tests all shapes are treated as if they were solid. Note that inPoint should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from inPoint if you want to test against the shape in the space it was created). For a mesh shape, this test will only provide sensible information if the mesh is a closed manifold. For each shape that collides, ioCollector will receive a hit. </p>
 
-<p>Implements <a class="el" href="class_shape.html#ad187cf1d8f7af2f355dfd4515b545931">Shape</a>.</p>
+<p>Implements <a class="el" href="class_shape.html#af6e77d16736434769d72152bf059a126">Shape</a>.</p>
 
 </div>
 </div>

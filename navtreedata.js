@@ -84,13 +84,13 @@ var NAVTREEINDEX =
 "class_oriented_box.html#aa452a08a66dacf55bdfb5d8d0cff7c8c",
 "class_quad_tree.html#ab5538217d4a9a42986da28d64b65740d",
 "class_rotated_translated_shape_settings.html#a4b1d4bb9af26dc7b4839e5613be1d7e3",
-"class_skeletal_animation_1_1_keyframe.html",
-"class_sub_shape_i_d_pair.html#a6fd1caef92ab138b72a0663030ba1b14",
-"class_triangle_shape_1_1_t_s_get_triangles_context.html#abb0734ba3ab26c205de6f4c3a87e7fe9",
-"class_vec4.html#ae103f6fa940366aed241a62a820d209e",
-"class_wheel_t_v.html",
-"struct_a_a_box_cast.html#aeace724c59e69d8bcee630641cdab310",
-"struct_physics_settings.html#a9d7cb8a2c982e6c63e4def8fcd88d7fb"
+"class_skeletal_animation_1_1_joint_state.html#af8e19b9f29f42e33163c89ddd57fe5c4",
+"class_sub_shape_i_d_pair.html#a553026ae2b87e33df1b3c5a82b48287b",
+"class_triangle_shape_1_1_t_s_get_triangles_context.html#a8c57dd14077aa690d0dde4d1454aaf90",
+"class_vec4.html#ade30350c3a4167764d6b44b43f78e1db",
+"class_wheel_settings_w_v.html#abdbf204dc70e99e88d3c58938ec2360f",
+"struct_a_a_box_cast.html#a342d0b89fc8ef92e9d0fae6dd2f9b288",
+"struct_physics_settings.html#a646cc49b1095c6c682189ba15d4de67f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

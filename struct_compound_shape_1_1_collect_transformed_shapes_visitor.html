@@ -103,8 +103,8 @@ $(document).ready(function(){initNavTree('struct_compound_shape_1_1_collect_tran
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d90a0715a1e31a10a152506513e64ab"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collect_transformed_shapes_visitor.html#a5d90a0715a1e31a10a152506513e64ab">CollectTransformedShapesVisitor</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, const <a class="el" href="class_compound_shape.html">CompoundShape</a> *inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector)</td></tr>
-<tr class="separator:a5d90a0715a1e31a10a152506513e64ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b2dd66eeaafdf0fcb240f1bfd66b44"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collect_transformed_shapes_visitor.html#a68b2dd66eeaafdf0fcb240f1bfd66b44">CollectTransformedShapesVisitor</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, const <a class="el" href="class_compound_shape.html">CompoundShape</a> *inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter)</td></tr>
+<tr class="separator:a68b2dd66eeaafdf0fcb240f1bfd66b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0514f8498006d248fc1ca54e5420ba41"><td class="memItemLeft" align="right" valign="top">JPH_INLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collect_transformed_shapes_visitor.html#a0514f8498006d248fc1ca54e5420ba41">ShouldAbort</a> () const</td></tr>
 <tr class="memdesc:a0514f8498006d248fc1ca54e5420ba41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true when collision detection should abort because it's not possible to find a better hit.  <a href="struct_compound_shape_1_1_collect_transformed_shapes_visitor.html#a0514f8498006d248fc1ca54e5420ba41">More...</a><br /></td></tr>
 <tr class="separator:a0514f8498006d248fc1ca54e5420ba41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,10 +133,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a888023b455a023aa817178a3ccc50797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae36c22c62df54bfaabe0272463b0b32c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collect_transformed_shapes_visitor.html#ae36c22c62df54bfaabe0272463b0b32c">mSubShapeBits</a></td></tr>
 <tr class="separator:ae36c22c62df54bfaabe0272463b0b32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b166da6e14b8694b567f68605c3225"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_compound_shape_1_1_collect_transformed_shapes_visitor.html#ab0b166da6e14b8694b567f68605c3225">mShapeFilter</a></td></tr>
+<tr class="separator:ab0b166da6e14b8694b567f68605c3225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5d90a0715a1e31a10a152506513e64ab" name="a5d90a0715a1e31a10a152506513e64ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d90a0715a1e31a10a152506513e64ab">&#9670;&nbsp;</a></span>CollectTransformedShapesVisitor()</h2>
+<a id="a68b2dd66eeaafdf0fcb240f1bfd66b44" name="a68b2dd66eeaafdf0fcb240f1bfd66b44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b2dd66eeaafdf0fcb240f1bfd66b44">&#9670;&nbsp;</a></span>CollectTransformedShapesVisitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +186,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioCollector</em>&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -408,6 +416,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> CompoundShape::CollectTransformedShapesVisitor::mScale</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0b166da6e14b8694b567f68605c3225" name="ab0b166da6e14b8694b567f68605c3225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b166da6e14b8694b567f68605c3225">&#9670;&nbsp;</a></span>mShapeFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_shape_filter.html">ShapeFilter</a>&amp; CompoundShape::CollectTransformedShapesVisitor::mShapeFilter</td>
         </tr>
       </table>
 </div><div class="memdoc">
