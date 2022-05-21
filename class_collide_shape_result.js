@@ -4,6 +4,7 @@ var class_collide_shape_result =
     [ "CollideShapeResult", "class_collide_shape_result.html#aebc8efc8c03d5f41a895b88d2b0ab4ff", null ],
     [ "CollideShapeResult", "class_collide_shape_result.html#a89e76885c988cdc177f121c6bb18801d", null ],
     [ "GetEarlyOutFraction", "class_collide_shape_result.html#abe452fa6ddc8670a0c020d5420a92f3b", null ],
+    [ "Reversed", "class_collide_shape_result.html#a84eb31fb18eea1a96cadad32a3f6fe4e", null ],
     [ "mBodyID2", "class_collide_shape_result.html#a22e33232d0af6889b6715dfaa460ebbb", null ],
     [ "mContactPointOn1", "class_collide_shape_result.html#a76dd6be632967ea1f0348eca8155be44", null ],
     [ "mContactPointOn2", "class_collide_shape_result.html#a2f09d3bbc9e1563c974836c2327f73a7", null ],
