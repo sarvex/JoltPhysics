@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"class_rotated_translated_shape_settings.html":[3,0,193],
 "class_rotated_translated_shape_settings.html#a3e1fba24e7b35c08a2fe248882a31e14":[3,0,193,5],
 "class_rotated_translated_shape_settings.html#a4b1d4bb9af26dc7b4839e5613be1d7e3":[3,0,193,2],
 "class_rotated_translated_shape_settings.html#a6b478d387b165be23ab557798ea6f113":[3,0,193,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "class_skeletal_animation_1_1_animated_joint.html":[3,0,212,0],
 "class_skeletal_animation_1_1_animated_joint.html#a6f522c5bab57cda9b07238a6eed41637":[3,0,212,0,1],
 "class_skeletal_animation_1_1_animated_joint.html#a9a1ec5412dc0ee2f6f2a4cfdfc8bb435":[3,0,212,0,0],
-"class_skeletal_animation_1_1_joint_state.html":[3,0,212,1],
-"class_skeletal_animation_1_1_joint_state.html#a1481a144208ed55cecd270be18ff0744":[3,0,212,1,0]
+"class_skeletal_animation_1_1_joint_state.html":[3,0,212,1]
 };

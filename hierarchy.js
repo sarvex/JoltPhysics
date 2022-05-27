@@ -437,7 +437,6 @@ var hierarchy =
     ] ],
     [ "StaticArray< BodyPairQueue, cMaxConcurrency >", "class_static_array.html", null ],
     [ "StaticArray< JobHandle, cMaxConcurrency >", "class_static_array.html", null ],
-    [ "StaticArray< Step, cMaxSteps >", "class_static_array.html", null ],
     [ "StaticArray< SubStep, cMaxSubSteps >", "class_static_array.html", null ],
     [ "StaticArray< Vec3, 32 >", "class_static_array.html", null ],
     [ "StaticArray< Vec3, 64 >", "class_static_array.html", null ],
