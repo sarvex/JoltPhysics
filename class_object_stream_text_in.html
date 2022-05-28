@@ -108,7 +108,8 @@ Inheritance diagram for ObjectStreamTextIn:</div>
  <div class="center">
   <img src="class_object_stream_text_in.png" usemap="#ObjectStreamTextIn_map" alt=""/>
   <map id="ObjectStreamTextIn_map" name="ObjectStreamTextIn_map">
-<area href="class_object_stream_in.html" alt="ObjectStreamIn" shape="rect" coords="0,56,121,80"/>
+<area href="class_object_stream_in.html" alt="ObjectStreamIn" shape="rect" coords="0,112,121,136"/>
+<area href="class_i_object_stream_in.html" title="Interface class for reading from an object stream." alt="IObjectStreamIn" shape="rect" coords="0,56,121,80"/>
 <area href="class_object_stream.html" title="Base class for object stream input and output streams." alt="ObjectStream" shape="rect" coords="0,0,121,24"/>
   </map>
 </div></div>
@@ -125,14 +126,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a27fa5f9b8e00504d57a6440c81b3f6ff inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba38d15deacd14fb875da3b6d4a8f2d3 inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#aba38d15deacd14fb875da3b6d4a8f2d3">ReadRTTI</a> ()</td></tr>
 <tr class="separator:aba38d15deacd14fb875da3b6d4a8f2d3 inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4daab06db7b5dd9f474973ade72da4b0 inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#a4daab06db7b5dd9f474973ade72da4b0">ReadClassData</a> (const char *inClassName, void *inInstance)</td></tr>
-<tr class="separator:a4daab06db7b5dd9f474973ade72da4b0 inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e0d94864596b86c7c9df2befa84e14 inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#aa2e0d94864596b86c7c9df2befa84e14">ReadClassData</a> (const char *inClassName, void *inInstance) override</td></tr>
+<tr class="separator:aa2e0d94864596b86c7c9df2befa84e14 inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9918789956492451260e1af1fa1c2db8 inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#a9918789956492451260e1af1fa1c2db8">ReadClassData</a> (const ClassDescription &amp;inClassDesc, void *inInstance)</td></tr>
 <tr class="separator:a9918789956492451260e1af1fa1c2db8 inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacdfa605c531f43c51b7ba1887b2de4c inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#aacdfa605c531f43c51b7ba1887b2de4c">ReadPointerData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, void **inPointer, int inRefCountOffset=-1)</td></tr>
-<tr class="separator:aacdfa605c531f43c51b7ba1887b2de4c inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771b7fa72a91f8141c74425c593723de inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#a771b7fa72a91f8141c74425c593723de">ReadPointerData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, void **inPointer, int inRefCountOffset=-1) override</td></tr>
+<tr class="separator:a771b7fa72a91f8141c74425c593723de inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6fad54cdc53d20f00a438c2b41af54b inherit pub_methods_class_object_stream_in"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_in.html#af6fad54cdc53d20f00a438c2b41af54b">SkipAttributeData</a> (int inArrayDepth, <a class="el" href="_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a">EOSDataType</a> inDataType, const char *inClassName)</td></tr>
 <tr class="separator:af6fad54cdc53d20f00a438c2b41af54b inherit pub_methods_class_object_stream_in"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Input type specific operations</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Read primitives</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Read compounds</div></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Input type specific operations</h2></td></tr>
 <tr class="memitem:adc4196beb9e42a5b479b5cf7c9fbd736"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_text_in.html#adc4196beb9e42a5b479b5cf7c9fbd736">ReadDataType</a> (<a class="el" href="_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a">EOSDataType</a> &amp;outType) override</td></tr>
@@ -281,7 +285,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a7f2d1ab3a5bb3e1de6fa19dc70d66a93">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#abb5a026cb41f9d12c7960fe9d3a5882c">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -309,7 +313,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a364f6944589b1eb9d7ed4548647de1d2">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a289dedcf7a3ae7f67d61dcde32b6282a">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -337,7 +341,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a428cbbead9677815020c3e3a2b8f1760">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a6f31050b3f59099b313c2560e76d18cb">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -365,7 +369,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a797c491ae115f9310ee15bd49bc01230">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#ada80831604546b5105dd70df46366cb8">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -393,7 +397,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#ae89c494e525437e6140f353c22559231">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#aff7f339ee88684c62fdc0d3c4842b994">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -421,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a01f7a4255b5c6c6ab408aaf92f6f5f0d">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a8f2857838aa606be6fc63022f0956cd3">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -449,7 +453,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#afcdd1ec2b11a7837876be22e4b895aa8">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a781398987e2c86e99bfc4d03d99c2914">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -477,7 +481,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#afe47580c61ce6f4764f6f004b33089e5">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#aa1c304d18b225329573b6480ecd3592f">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -505,7 +509,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a6bdb3ce6ab69c6f13825f9e0f0c6e31a">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#aaad93855bb8f16a3a6f58047c166e0ad">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -533,7 +537,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a15c82dc361b061ee0bcad100d73765ee">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a06eea8e1426386cba91596bad580c453">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -561,7 +565,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a7e37ab5f41274b3ac3060ce4739db292">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#ab297957d5d05d6dc1dc66cca1b2cedcc">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -589,7 +593,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#ab6bd6b2e31a43b036151cc9020f3139b">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#ac40f7f79e36b23a9eceec318d5807541">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -617,7 +621,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#ae3456a8e3a73a31468b67416202e4131">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a83e75c9bd735481d1abfffd4606e3357">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -645,7 +649,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a06c361c48ad59094aefff6c70766043a">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a617133ce899879a93e5274b18bef9038">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -673,7 +677,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a734cb0a65171eb047e3766058013ca27">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#adcc4f2c5ca7449d1fca513cf6beba298">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -701,7 +705,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a9975f9d706e5b2730d2eb3bd27e82bbf">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#a55b583284b1fd954240fa72511261c35">IObjectStreamIn</a>.</p>
 
 </div>
 </div>
@@ -729,7 +733,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_in.html#a15e09d6f6f5e5ab23421c920ed74d8d9">ObjectStreamIn</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_in.html#af5648e8c3063f2241764871d244256f8">IObjectStreamIn</a>.</p>
 
 </div>
 </div>

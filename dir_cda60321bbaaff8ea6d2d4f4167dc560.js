@@ -11,10 +11,14 @@ var dir_cda60321bbaaff8ea6d2d4f4167dc560 =
     [ "ObjectStreamBinaryOut.h", "_object_stream_binary_out_8h.html", [
       [ "ObjectStreamBinaryOut", "class_object_stream_binary_out.html", "class_object_stream_binary_out" ]
     ] ],
-    [ "ObjectStreamIn.cpp", "_object_stream_in_8cpp.html", "_object_stream_in_8cpp" ],
-    [ "ObjectStreamIn.h", "_object_stream_in_8h.html", "_object_stream_in_8h" ],
+    [ "ObjectStreamIn.cpp", "_object_stream_in_8cpp.html", null ],
+    [ "ObjectStreamIn.h", "_object_stream_in_8h.html", [
+      [ "ObjectStreamIn", "class_object_stream_in.html", "class_object_stream_in" ]
+    ] ],
     [ "ObjectStreamOut.cpp", "_object_stream_out_8cpp.html", "_object_stream_out_8cpp" ],
-    [ "ObjectStreamOut.h", "_object_stream_out_8h.html", "_object_stream_out_8h" ],
+    [ "ObjectStreamOut.h", "_object_stream_out_8h.html", [
+      [ "ObjectStreamOut", "class_object_stream_out.html", "class_object_stream_out" ]
+    ] ],
     [ "ObjectStreamTextIn.cpp", "_object_stream_text_in_8cpp.html", null ],
     [ "ObjectStreamTextIn.h", "_object_stream_text_in_8h.html", [
       [ "ObjectStreamTextIn", "class_object_stream_text_in.html", "class_object_stream_text_in" ]

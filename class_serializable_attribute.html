@@ -111,16 +111,16 @@ Public Types</h2></td></tr>
 <tr class="separator:af7f01caef8726c642aaeb8ce7016c97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35e667b9f50f27293b7dd1abf0753305"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a35e667b9f50f27293b7dd1abf0753305">pIsType</a> = bool(*)(int inArrayDepth, <a class="el" href="_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a">EOSDataType</a> inDataType, const char *inClassName)</td></tr>
 <tr class="separator:a35e667b9f50f27293b7dd1abf0753305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a067a14c0aebabfd3a23b12e78f633b59"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a067a14c0aebabfd3a23b12e78f633b59">pReadData</a> = bool(*)(<a class="el" href="class_object_stream_in.html">ObjectStreamIn</a> &amp;ioStream, void *inObject)</td></tr>
-<tr class="separator:a067a14c0aebabfd3a23b12e78f633b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a021a42eb3ffb6c79170871359e078033"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a021a42eb3ffb6c79170871359e078033">pWriteData</a> = void(*)(<a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, const void *inObject)</td></tr>
-<tr class="separator:a021a42eb3ffb6c79170871359e078033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c6376ca00e8854041e9280cc4a700c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a4c6376ca00e8854041e9280cc4a700c0">pWriteDataType</a> = void(*)(<a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream)</td></tr>
-<tr class="separator:a4c6376ca00e8854041e9280cc4a700c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5151d0f316587c6baaac9a7f731861b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ac5151d0f316587c6baaac9a7f731861b">pReadData</a> = bool(*)(<a class="el" href="class_i_object_stream_in.html">IObjectStreamIn</a> &amp;ioStream, void *inObject)</td></tr>
+<tr class="separator:ac5151d0f316587c6baaac9a7f731861b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff266618effe94c6ea33145d783337a4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#aff266618effe94c6ea33145d783337a4">pWriteData</a> = void(*)(<a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;ioStream, const void *inObject)</td></tr>
+<tr class="separator:aff266618effe94c6ea33145d783337a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0709b27ded07a2d1baab744a317d576e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a0709b27ded07a2d1baab744a317d576e">pWriteDataType</a> = void(*)(<a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;ioStream)</td></tr>
+<tr class="separator:a0709b27ded07a2d1baab744a317d576e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab8ee3ad5a95fdf86aec0422cac3b7a42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ab8ee3ad5a95fdf86aec0422cac3b7a42">SerializableAttribute</a> (const char *inName, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inMemberOffset, <a class="el" href="class_serializable_attribute.html#af7f01caef8726c642aaeb8ce7016c97a">pGetMemberPrimitiveType</a> inGetMemberPrimitiveType, <a class="el" href="class_serializable_attribute.html#a35e667b9f50f27293b7dd1abf0753305">pIsType</a> inIsType, <a class="el" href="class_serializable_attribute.html#a067a14c0aebabfd3a23b12e78f633b59">pReadData</a> inReadData, <a class="el" href="class_serializable_attribute.html#a021a42eb3ffb6c79170871359e078033">pWriteData</a> inWriteData, <a class="el" href="class_serializable_attribute.html#a4c6376ca00e8854041e9280cc4a700c0">pWriteDataType</a> inWriteDataType)</td></tr>
+<tr class="memitem:ab8ee3ad5a95fdf86aec0422cac3b7a42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ab8ee3ad5a95fdf86aec0422cac3b7a42">SerializableAttribute</a> (const char *inName, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inMemberOffset, <a class="el" href="class_serializable_attribute.html#af7f01caef8726c642aaeb8ce7016c97a">pGetMemberPrimitiveType</a> inGetMemberPrimitiveType, <a class="el" href="class_serializable_attribute.html#a35e667b9f50f27293b7dd1abf0753305">pIsType</a> inIsType, <a class="el" href="class_serializable_attribute.html#ac5151d0f316587c6baaac9a7f731861b">pReadData</a> inReadData, <a class="el" href="class_serializable_attribute.html#aff266618effe94c6ea33145d783337a4">pWriteData</a> inWriteData, <a class="el" href="class_serializable_attribute.html#a0709b27ded07a2d1baab744a317d576e">pWriteDataType</a> inWriteDataType)</td></tr>
 <tr class="memdesc:ab8ee3ad5a95fdf86aec0422cac3b7a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_serializable_attribute.html#ab8ee3ad5a95fdf86aec0422cac3b7a42">More...</a><br /></td></tr>
 <tr class="separator:ab8ee3ad5a95fdf86aec0422cac3b7a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a205bb6313394469d97affd2964046"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ae8a205bb6313394469d97affd2964046">SerializableAttribute</a> (const <a class="el" href="class_serializable_attribute.html">SerializableAttribute</a> &amp;inOther, int inBaseOffset)</td></tr>
@@ -137,15 +137,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab928f1de1446823484b4437a79214924"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ab928f1de1446823484b4437a79214924">IsType</a> (int inArrayDepth, <a class="el" href="_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a">EOSDataType</a> inDataType, const char *inClassName) const</td></tr>
 <tr class="memdesc:ab928f1de1446823484b4437a79214924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this attribute is of a specific type.  <a href="class_serializable_attribute.html#ab928f1de1446823484b4437a79214924">More...</a><br /></td></tr>
 <tr class="separator:ab928f1de1446823484b4437a79214924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafbc91795f5c4932e7385a974278f742"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#aafbc91795f5c4932e7385a974278f742">ReadData</a> (<a class="el" href="class_object_stream_in.html">ObjectStreamIn</a> &amp;ioStream, void *inObject) const</td></tr>
-<tr class="memdesc:aafbc91795f5c4932e7385a974278f742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the data for this attribute into attribute containing class inObject.  <a href="class_serializable_attribute.html#aafbc91795f5c4932e7385a974278f742">More...</a><br /></td></tr>
-<tr class="separator:aafbc91795f5c4932e7385a974278f742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7076b2787ca4e6a5c341cc7430659a91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a7076b2787ca4e6a5c341cc7430659a91">WriteData</a> (<a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, const void *inObject) const</td></tr>
-<tr class="memdesc:a7076b2787ca4e6a5c341cc7430659a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the data for this attribute from attribute containing class inObject.  <a href="class_serializable_attribute.html#a7076b2787ca4e6a5c341cc7430659a91">More...</a><br /></td></tr>
-<tr class="separator:a7076b2787ca4e6a5c341cc7430659a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac77d27a78d492d699cc0328f7e192d04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ac77d27a78d492d699cc0328f7e192d04">WriteDataType</a> (<a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream) const</td></tr>
-<tr class="memdesc:ac77d27a78d492d699cc0328f7e192d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the data type of this attribute to a stream.  <a href="class_serializable_attribute.html#ac77d27a78d492d699cc0328f7e192d04">More...</a><br /></td></tr>
-<tr class="separator:ac77d27a78d492d699cc0328f7e192d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b999830598842432441df6647be298"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#ad8b999830598842432441df6647be298">ReadData</a> (<a class="el" href="class_i_object_stream_in.html">IObjectStreamIn</a> &amp;ioStream, void *inObject) const</td></tr>
+<tr class="memdesc:ad8b999830598842432441df6647be298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the data for this attribute into attribute containing class inObject.  <a href="class_serializable_attribute.html#ad8b999830598842432441df6647be298">More...</a><br /></td></tr>
+<tr class="separator:ad8b999830598842432441df6647be298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d75640f1636e85a47da938b71b3a736"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a2d75640f1636e85a47da938b71b3a736">WriteData</a> (<a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;ioStream, const void *inObject) const</td></tr>
+<tr class="memdesc:a2d75640f1636e85a47da938b71b3a736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the data for this attribute from attribute containing class inObject.  <a href="class_serializable_attribute.html#a2d75640f1636e85a47da938b71b3a736">More...</a><br /></td></tr>
+<tr class="separator:a2d75640f1636e85a47da938b71b3a736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c9f23371b5552485ebf5bfea47afef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a30c9f23371b5552485ebf5bfea47afef">WriteDataType</a> (<a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;ioStream) const</td></tr>
+<tr class="memdesc:a30c9f23371b5552485ebf5bfea47afef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the data type of this attribute to a stream.  <a href="class_serializable_attribute.html#a30c9f23371b5552485ebf5bfea47afef">More...</a><br /></td></tr>
+<tr class="separator:a30c9f23371b5552485ebf5bfea47afef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Attributes are members of classes that need to be serialized. </p>
@@ -180,42 +180,42 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a067a14c0aebabfd3a23b12e78f633b59" name="a067a14c0aebabfd3a23b12e78f633b59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a067a14c0aebabfd3a23b12e78f633b59">&#9670;&nbsp;</a></span>pReadData</h2>
+<a id="ac5151d0f316587c6baaac9a7f731861b" name="ac5151d0f316587c6baaac9a7f731861b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5151d0f316587c6baaac9a7f731861b">&#9670;&nbsp;</a></span>pReadData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_serializable_attribute.html#a067a14c0aebabfd3a23b12e78f633b59">SerializableAttribute::pReadData</a> =  bool (*)(<a class="el" href="class_object_stream_in.html">ObjectStreamIn</a> &amp;ioStream, void *inObject)</td>
+          <td class="memname">using <a class="el" href="class_serializable_attribute.html#ac5151d0f316587c6baaac9a7f731861b">SerializableAttribute::pReadData</a> =  bool (*)(<a class="el" href="class_i_object_stream_in.html">IObjectStreamIn</a> &amp;ioStream, void *inObject)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a021a42eb3ffb6c79170871359e078033" name="a021a42eb3ffb6c79170871359e078033"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a021a42eb3ffb6c79170871359e078033">&#9670;&nbsp;</a></span>pWriteData</h2>
+<a id="aff266618effe94c6ea33145d783337a4" name="aff266618effe94c6ea33145d783337a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff266618effe94c6ea33145d783337a4">&#9670;&nbsp;</a></span>pWriteData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_serializable_attribute.html#a021a42eb3ffb6c79170871359e078033">SerializableAttribute::pWriteData</a> =  void (*)(<a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream, const void *inObject)</td>
+          <td class="memname">using <a class="el" href="class_serializable_attribute.html#aff266618effe94c6ea33145d783337a4">SerializableAttribute::pWriteData</a> =  void (*)(<a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;ioStream, const void *inObject)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4c6376ca00e8854041e9280cc4a700c0" name="a4c6376ca00e8854041e9280cc4a700c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c6376ca00e8854041e9280cc4a700c0">&#9670;&nbsp;</a></span>pWriteDataType</h2>
+<a id="a0709b27ded07a2d1baab744a317d576e" name="a0709b27ded07a2d1baab744a317d576e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0709b27ded07a2d1baab744a317d576e">&#9670;&nbsp;</a></span>pWriteDataType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_serializable_attribute.html#a4c6376ca00e8854041e9280cc4a700c0">SerializableAttribute::pWriteDataType</a> =  void (*)(<a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;ioStream)</td>
+          <td class="memname">using <a class="el" href="class_serializable_attribute.html#a0709b27ded07a2d1baab744a317d576e">SerializableAttribute::pWriteDataType</a> =  void (*)(<a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;ioStream)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -259,19 +259,19 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_serializable_attribute.html#a067a14c0aebabfd3a23b12e78f633b59">pReadData</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_serializable_attribute.html#ac5151d0f316587c6baaac9a7f731861b">pReadData</a>&#160;</td>
           <td class="paramname"><em>inReadData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_serializable_attribute.html#a021a42eb3ffb6c79170871359e078033">pWriteData</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_serializable_attribute.html#aff266618effe94c6ea33145d783337a4">pWriteData</a>&#160;</td>
           <td class="paramname"><em>inWriteData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_serializable_attribute.html#a4c6376ca00e8854041e9280cc4a700c0">pWriteDataType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_serializable_attribute.html#a0709b27ded07a2d1baab744a317d576e">pWriteDataType</a>&#160;</td>
           <td class="paramname"><em>inWriteDataType</em>&#160;</td>
         </tr>
         <tr>
@@ -426,8 +426,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aafbc91795f5c4932e7385a974278f742" name="aafbc91795f5c4932e7385a974278f742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafbc91795f5c4932e7385a974278f742">&#9670;&nbsp;</a></span>ReadData()</h2>
+<a id="ad8b999830598842432441df6647be298" name="ad8b999830598842432441df6647be298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b999830598842432441df6647be298">&#9670;&nbsp;</a></span>ReadData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -438,7 +438,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool SerializableAttribute::ReadData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_object_stream_in.html">ObjectStreamIn</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_object_stream_in.html">IObjectStreamIn</a> &amp;&#160;</td>
           <td class="paramname"><em>ioStream</em>, </td>
         </tr>
         <tr>
@@ -492,8 +492,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7076b2787ca4e6a5c341cc7430659a91" name="a7076b2787ca4e6a5c341cc7430659a91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7076b2787ca4e6a5c341cc7430659a91">&#9670;&nbsp;</a></span>WriteData()</h2>
+<a id="a2d75640f1636e85a47da938b71b3a736" name="a2d75640f1636e85a47da938b71b3a736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d75640f1636e85a47da938b71b3a736">&#9670;&nbsp;</a></span>WriteData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,7 +504,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SerializableAttribute::WriteData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;&#160;</td>
           <td class="paramname"><em>ioStream</em>, </td>
         </tr>
         <tr>
@@ -530,8 +530,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac77d27a78d492d699cc0328f7e192d04" name="ac77d27a78d492d699cc0328f7e192d04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac77d27a78d492d699cc0328f7e192d04">&#9670;&nbsp;</a></span>WriteDataType()</h2>
+<a id="a30c9f23371b5552485ebf5bfea47afef" name="a30c9f23371b5552485ebf5bfea47afef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c9f23371b5552485ebf5bfea47afef">&#9670;&nbsp;</a></span>WriteDataType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +542,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SerializableAttribute::WriteDataType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_object_stream_out.html">ObjectStreamOut</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_object_stream_out.html">IObjectStreamOut</a> &amp;&#160;</td>
           <td class="paramname"><em>ioStream</em></td><td>)</td>
           <td> const</td>
         </tr>

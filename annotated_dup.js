@@ -126,6 +126,8 @@ var annotated_dup =
     [ "IgnoreSingleBodyFilter", "class_ignore_single_body_filter.html", "class_ignore_single_body_filter" ],
     [ "IndexedTriangle", "class_indexed_triangle.html", "class_indexed_triangle" ],
     [ "IndexedTriangleNoMaterial", "class_indexed_triangle_no_material.html", "class_indexed_triangle_no_material" ],
+    [ "IObjectStreamIn", "class_i_object_stream_in.html", "class_i_object_stream_in" ],
+    [ "IObjectStreamOut", "class_i_object_stream_out.html", "class_i_object_stream_out" ],
     [ "IslandBuilder", "class_island_builder.html", "class_island_builder" ],
     [ "JobSystem", "class_job_system.html", "class_job_system" ],
     [ "JobSystemThreadPool", "class_job_system_thread_pool.html", "class_job_system_thread_pool" ],

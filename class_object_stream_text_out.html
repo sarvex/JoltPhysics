@@ -108,7 +108,8 @@ Inheritance diagram for ObjectStreamTextOut:</div>
  <div class="center">
   <img src="class_object_stream_text_out.png" usemap="#ObjectStreamTextOut_map" alt=""/>
   <map id="ObjectStreamTextOut_map" name="ObjectStreamTextOut_map">
-<area href="class_object_stream_out.html" alt="ObjectStreamOut" shape="rect" coords="0,56,131,80"/>
+<area href="class_object_stream_out.html" alt="ObjectStreamOut" shape="rect" coords="0,112,131,136"/>
+<area href="class_i_object_stream_out.html" title="Interface class for writing to an object stream." alt="IObjectStreamOut" shape="rect" coords="0,56,131,80"/>
 <area href="class_object_stream.html" title="Base class for object stream input and output streams." alt="ObjectStream" shape="rect" coords="0,0,131,24"/>
   </map>
 </div></div>
@@ -162,10 +163,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae90b49dd2e05f23afc92697282dc0bc2 inherit pub_methods_class_object_stream_out"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a959db81abfcbd73830c56f52cc953a41 inherit pub_methods_class_object_stream_out"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a959db81abfcbd73830c56f52cc953a41">WriteRTTI</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI)</td></tr>
 <tr class="separator:a959db81abfcbd73830c56f52cc953a41 inherit pub_methods_class_object_stream_out"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ae906eab414c0c34f50182ac952b58 inherit pub_methods_class_object_stream_out"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a55ae906eab414c0c34f50182ac952b58">WriteClassData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, const void *inInstance)</td></tr>
-<tr class="separator:a55ae906eab414c0c34f50182ac952b58 inherit pub_methods_class_object_stream_out"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5196ad5105338e4ba90d92b43527ba41 inherit pub_methods_class_object_stream_out"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a5196ad5105338e4ba90d92b43527ba41">WritePointerData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, const void *inPointer)</td></tr>
-<tr class="separator:a5196ad5105338e4ba90d92b43527ba41 inherit pub_methods_class_object_stream_out"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b57667e92d4f96bff979fb7a3d4f971 inherit pub_methods_class_object_stream_out"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a3b57667e92d4f96bff979fb7a3d4f971">WriteClassData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, const void *inInstance) override</td></tr>
+<tr class="separator:a3b57667e92d4f96bff979fb7a3d4f971 inherit pub_methods_class_object_stream_out"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b354aaac147096b7e213d5f32a3ea3 inherit pub_methods_class_object_stream_out"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_out.html#a66b354aaac147096b7e213d5f32a3ea3">WritePointerData</a> (const <a class="el" href="class_r_t_t_i.html">RTTI</a> *inRTTI, const void *inPointer) override</td></tr>
+<tr class="separator:a66b354aaac147096b7e213d5f32a3ea3 inherit pub_methods_class_object_stream_out"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Output type specific operations</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Write primitives</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Write compounds</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Layout hints (for text output)</div></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Layout hints (for text output)</h2></td></tr>
 <tr class="memitem:acc5aff4eec5365eaf3b43070cd893485"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object_stream_text_out.html#acc5aff4eec5365eaf3b43070cd893485">HintNextItem</a> () override</td></tr>
@@ -274,7 +279,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_object_stream_out.html#a5ce694c98bd654802698742b9ac50991">ObjectStreamOut</a>.</p>
+<p>Reimplemented from <a class="el" href="class_i_object_stream_out.html#ad8f41874c06223db415f29a57f72caa1">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -301,7 +306,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_object_stream_out.html#aea40aa8cb3813fd0195b7e6b7cf81008">ObjectStreamOut</a>.</p>
+<p>Reimplemented from <a class="el" href="class_i_object_stream_out.html#ac24c86e1d5fba43f2dcfdd3557269a3d">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -328,7 +333,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_object_stream_out.html#a894695a2f4609159ee169cb8a361b2fc">ObjectStreamOut</a>.</p>
+<p>Reimplemented from <a class="el" href="class_i_object_stream_out.html#aa414a76c2459d6346da50c61b279f6f3">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -356,7 +361,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a12188b4c469a9c521dfff1175a756be6">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a8610a84161fd3f60736b3403f972ee8f">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -384,7 +389,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a1de6a2a8df9d41183a2d8f85e6e1cb8b">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a6ff7df2bcd8b3a6808f14aea3250a09d">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -412,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#af3479358abacab5c74b435728fb25975">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a687b981cf61a2004438e534b87e3e91d">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -440,7 +445,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a8b33fcf0ac95c157df824016fe8a7197">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a96c7eeb4771f2a811aa36c6fd42cd781">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -468,7 +473,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a3517b77921f2661df8ec24aba5d3b6d1">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#ac5d377beb07d9dfacf1d4e0700bb8c0d">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -496,7 +501,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a6a1f2d5e40b215edae456d7bc2730c3f">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a04ca1de7c6bd48ffab508b1db889ec09">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -524,7 +529,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a991b1eabf0817f7bb9117da56db34257">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a4b0132cf1e5ee6662efcbae07f39274c">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -552,7 +557,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a022f72c952324f98105f0ee6c84c84c8">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a01c3723b59d67ad5e75a3dc56f7737cb">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -580,7 +585,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a63b7a6ff211cc07a7f053acdd6d94c50">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a5b5c4763d26fbda8fc7649e30fe99ea0">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -608,7 +613,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#adb5e324668a9767acc67259964ea4aba">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a397870b50706aeb7f390dd96e08dac3c">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -636,7 +641,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a108c3768d7cb1aa9723bb4c8dab48109">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#af1e0fb440b62b41adcd6306a67147c62">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -664,7 +669,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a00eea766a66d6d78c0ab114125f62a6b">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#ab17016faad9181b3d6dfbda9a48bd335">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -692,7 +697,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a6cdab040c4332a445c6e6695e8c40209">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a66b6becb60ad5aec76867394d52e6cfd">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -720,7 +725,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a00af8cdc22278396af90ce1c0ed38197">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#aecfe9968add8789f6e26723b6e9e651d">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -748,7 +753,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a65580d6ced56280087ef491476802be9">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a45d8dc1ea62d053e6e48cb2e44395968">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -776,7 +781,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a035c47e41de8c933df6da8ba6b29bb10">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a053365595f486c12414c3e41532494e7">IObjectStreamOut</a>.</p>
 
 </div>
 </div>
@@ -804,7 +809,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_object_stream_out.html#a1419ae24077b42064f3165b26c62ed17">ObjectStreamOut</a>.</p>
+<p>Implements <a class="el" href="class_i_object_stream_out.html#a6b47c5c4e89dd367b09a1de57c21bdbc">IObjectStreamOut</a>.</p>
 
 </div>
 </div>

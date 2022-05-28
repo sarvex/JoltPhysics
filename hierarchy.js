@@ -259,13 +259,17 @@ var hierarchy =
       ] ]
     ] ],
     [ "ObjectStream", "class_object_stream.html", [
-      [ "ObjectStreamIn", "class_object_stream_in.html", [
-        [ "ObjectStreamBinaryIn", "class_object_stream_binary_in.html", null ],
-        [ "ObjectStreamTextIn", "class_object_stream_text_in.html", null ]
+      [ "IObjectStreamIn", "class_i_object_stream_in.html", [
+        [ "ObjectStreamIn", "class_object_stream_in.html", [
+          [ "ObjectStreamBinaryIn", "class_object_stream_binary_in.html", null ],
+          [ "ObjectStreamTextIn", "class_object_stream_text_in.html", null ]
+        ] ]
       ] ],
-      [ "ObjectStreamOut", "class_object_stream_out.html", [
-        [ "ObjectStreamBinaryOut", "class_object_stream_binary_out.html", null ],
-        [ "ObjectStreamTextOut", "class_object_stream_text_out.html", null ]
+      [ "IObjectStreamOut", "class_i_object_stream_out.html", [
+        [ "ObjectStreamOut", "class_object_stream_out.html", [
+          [ "ObjectStreamBinaryOut", "class_object_stream_binary_out.html", null ],
+          [ "ObjectStreamTextOut", "class_object_stream_text_out.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "OrientedBox", "class_oriented_box.html", null ],
