@@ -197,8 +197,8 @@ var NAVTREEINDEX20 =
 "globals_vars.html":[4,1,2],
 "globals_w.html":[4,1,0,20],
 "hierarchy.html":[3,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "md__docs__samples.html":[1],
 "namespace_active_edges.html":[2,0,0],
 "namespace_closest_point.html":[2,0,1],
@@ -242,12 +242,12 @@ var NAVTREEINDEX20 =
 "namespaces.html":[2,0],
 "namespacestd.html":[2,0,5],
 "pages.html":[],
-"pch_8cpp.html":[4,0,1,11],
 "struct_a_a_b_b_tree_builder_stats.html":[3,0,2],
 "struct_a_a_b_b_tree_builder_stats.html#a18bfd03d4c5760089e7a6900965a7dc1":[3,0,2,9],
 "struct_a_a_b_b_tree_builder_stats.html#a3864a59872b7d9ae1241a9e2d9561b04":[3,0,2,5],
 "struct_a_a_b_b_tree_builder_stats.html#a567b593b4f4bb7cdc2977a2a624da662":[3,0,2,2],
 "struct_a_a_b_b_tree_builder_stats.html#a5722b3c6619dc1793e79e902685aaaa5":[3,0,2,1],
 "struct_a_a_b_b_tree_builder_stats.html#a62c8f089af5a357cf40d50d27961ee1b":[3,0,2,0],
-"struct_a_a_b_b_tree_builder_stats.html#a7d0f12dbcbee2af06c05d40ae3df5f93":[3,0,2,7]
+"struct_a_a_b_b_tree_builder_stats.html#a7d0f12dbcbee2af06c05d40ae3df5f93":[3,0,2,7],
+"struct_a_a_b_b_tree_builder_stats.html#aa59fbfa1cd92eb27ca7c1e13c4d28163":[3,0,2,3]
 };

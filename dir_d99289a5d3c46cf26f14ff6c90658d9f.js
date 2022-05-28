@@ -11,7 +11,6 @@ var dir_d99289a5d3c46cf26f14ff6c90658d9f =
     [ "TriangleGrouper", "dir_3b340e4d52b4e8b5dc2c6e035ba952f1.html", "dir_3b340e4d52b4e8b5dc2c6e035ba952f1" ],
     [ "TriangleSplitter", "dir_dcf9b35cd7be2ace77df0178104cd92b.html", "dir_dcf9b35cd7be2ace77df0178104cd92b" ],
     [ "Jolt.h", "_jolt_8h.html", null ],
-    [ "pch.cpp", "pch_8cpp.html", null ],
     [ "RegisterTypes.cpp", "_register_types_8cpp.html", "_register_types_8cpp" ],
     [ "RegisterTypes.h", "_register_types_8h.html", "_register_types_8h" ]
 ];

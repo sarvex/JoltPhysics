@@ -89,8 +89,8 @@ var NAVTREEINDEX =
 "class_triangle_shape.html#aea1cb87c9bdf927b353459aec286218f",
 "class_vec4.html#ac1bdb84d53942f36ac3b315ab2451600",
 "class_wheel_settings_w_v.html#a476d921671455235bef7d9e035584e11",
-"struct_a_a_b_b_tree_builder_stats.html#aa59fbfa1cd92eb27ca7c1e13c4d28163",
-"struct_physics_settings.html#a0bd7d6eb98c547488f874a9577fff451"
+"struct_a_a_b_b_tree_builder_stats.html#ab1b2df872750bdff4622582ab59b1aa3",
+"struct_physics_settings.html#a16260f9e775a74e88116f952f5d7e0a5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

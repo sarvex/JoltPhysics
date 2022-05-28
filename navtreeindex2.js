@@ -245,9 +245,9 @@ var NAVTREEINDEX2 =
 "_ray_triangle_8h_source.html":[4,0,1,2,25],
 "_reference_8h.html":[4,0,1,1,31],
 "_reference_8h_source.html":[4,0,1,1,31],
-"_register_types_8cpp.html":[4,0,1,12],
-"_register_types_8cpp.html#a85816665d61c7a3736ef8f286d11f907":[4,0,1,12,0],
-"_register_types_8h.html":[4,0,1,13],
-"_register_types_8h.html#a85816665d61c7a3736ef8f286d11f907":[4,0,1,13,0],
-"_register_types_8h_source.html":[4,0,1,13]
+"_register_types_8cpp.html":[4,0,1,11],
+"_register_types_8cpp.html#a85816665d61c7a3736ef8f286d11f907":[4,0,1,11,0],
+"_register_types_8h.html":[4,0,1,12],
+"_register_types_8h.html#a85816665d61c7a3736ef8f286d11f907":[4,0,1,12,0],
+"_register_types_8h_source.html":[4,0,1,12]
 };

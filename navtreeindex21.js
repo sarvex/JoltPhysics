@@ -1,6 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"struct_a_a_b_b_tree_builder_stats.html#aa59fbfa1cd92eb27ca7c1e13c4d28163":[3,0,2,3],
 "struct_a_a_b_b_tree_builder_stats.html#ab1b2df872750bdff4622582ab59b1aa3":[3,0,2,6],
 "struct_a_a_b_b_tree_builder_stats.html#ab3bb28a53eb8276008b3be628713ab4e":[3,0,2,4],
 "struct_a_a_b_b_tree_builder_stats.html#aee50ad973c7fe3651d81dcd0377b5299":[3,0,2,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX21 =
 "struct_path_constraint_path_hermite_1_1_point.html#a4cd15236568584e92fdd3807a7a50231":[3,0,160,0,2],
 "struct_path_constraint_path_hermite_1_1_point.html#aa269d2329d09267440c119c1d4b74125":[3,0,160,0,0],
 "struct_path_constraint_path_hermite_1_1_point.html#ae184b6a8fe926a6ef48bdacb1057c04e":[3,0,160,0,1],
-"struct_physics_settings.html":[3,0,166]
+"struct_physics_settings.html":[3,0,166],
+"struct_physics_settings.html#a0bd7d6eb98c547488f874a9577fff451":[3,0,166,21]
 };
