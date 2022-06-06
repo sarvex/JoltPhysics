@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kinematic_0',['Kinematic',['../_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8a40c78b58b86002ee38fad2d3c9dd787e',1,'MotionType.h']]]
+  ['jph_5fdeclare_5fprimitive_0',['JPH_DECLARE_PRIMITIVE',['../_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974aa988ddd4859f990b5618fb95f0dbfdaf6',1,'SerializableAttribute.h']]]
 ];

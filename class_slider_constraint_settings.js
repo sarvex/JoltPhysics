@@ -5,6 +5,8 @@ var class_slider_constraint_settings =
     [ "SaveBinaryState", "class_slider_constraint_settings.html#acfae9c6e70eef7f2fdb2d12fd718f187", null ],
     [ "SetPoint", "class_slider_constraint_settings.html#a34683e3a31305b6623cea0ee632c64e4", null ],
     [ "SetSliderAxis", "class_slider_constraint_settings.html#a78a43cf839d05c2679d11080875499df", null ],
+    [ "mDamping", "class_slider_constraint_settings.html#ac2dc80c4a06394c61303b802d0e300b2", null ],
+    [ "mFrequency", "class_slider_constraint_settings.html#af8a69c09159042b1ad556bedf021b46b", null ],
     [ "mLimitsMax", "class_slider_constraint_settings.html#a91634e77db65bc26c41edf00df74d2af", null ],
     [ "mLimitsMin", "class_slider_constraint_settings.html#abe9a0acdb04a3edde746680d7656e388", null ],
     [ "mMaxFrictionForce", "class_slider_constraint_settings.html#a00acc443c620fecba7342534d9ec50eb", null ],

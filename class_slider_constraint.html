@@ -177,6 +177,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9788e92ed539c24ab428e2e7195fe8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b5b4709994b7a7f4133e0e7d129d3c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#a7b5b4709994b7a7f4133e0e7d129d3c5">HasLimits</a> () const</td></tr>
 <tr class="separator:a7b5b4709994b7a7f4133e0e7d129d3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27438183f203ef480aef095215dc58be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#a27438183f203ef480aef095215dc58be">SetFrequency</a> (float inFrequency)</td></tr>
+<tr class="memdesc:a27438183f203ef480aef095215dc58be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the spring frequency for the limits constraint.  <a href="class_slider_constraint.html#a27438183f203ef480aef095215dc58be">More...</a><br /></td></tr>
+<tr class="separator:a27438183f203ef480aef095215dc58be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d6032d10dc09c37ff830ff6df97f36"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#a15d6032d10dc09c37ff830ff6df97f36">GetFrequency</a> () const</td></tr>
+<tr class="separator:a15d6032d10dc09c37ff830ff6df97f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5c65ab466a51bc52ef3207483120ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#ada5c65ab466a51bc52ef3207483120ff">SetDamping</a> (float inDamping)</td></tr>
+<tr class="memdesc:ada5c65ab466a51bc52ef3207483120ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the spring damping for the limits constraint.  <a href="class_slider_constraint.html#ada5c65ab466a51bc52ef3207483120ff">More...</a><br /></td></tr>
+<tr class="separator:ada5c65ab466a51bc52ef3207483120ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c85b2cf963659eb029988268611bc6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#ac9c85b2cf963659eb029988268611bc6">GetDamping</a> () const</td></tr>
+<tr class="separator:ac9c85b2cf963659eb029988268611bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_two_body_constraint"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_two_body_constraint')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a></td></tr>
 <tr class="memitem:ac3c039d1f2a52572f6844f0549783329 inherit pub_methods_class_two_body_constraint"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#ac3c039d1f2a52572f6844f0549783329">TwoBodyConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_two_body_constraint_settings.html">TwoBodyConstraintSettings</a> &amp;inSettings)</td></tr>
 <tr class="memdesc:ac3c039d1f2a52572f6844f0549783329 inherit pub_methods_class_two_body_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_two_body_constraint.html#ac3c039d1f2a52572f6844f0549783329">More...</a><br /></td></tr>
@@ -396,6 +406,56 @@ Additional Inherited Members</h2></td></tr>
 <p>Calculates the transform that transforms from constraint space to body 2 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc. </p>
 
 <p>Implements <a class="el" href="class_two_body_constraint.html#a0966503073a315b6087f10208e8a61ff">TwoBodyConstraint</a>.</p>
+
+</div>
+</div>
+<a id="ac9c85b2cf963659eb029988268611bc6" name="ac9c85b2cf963659eb029988268611bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9c85b2cf963659eb029988268611bc6">&#9670;&nbsp;</a></span>GetDamping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SliderConstraint::GetDamping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15d6032d10dc09c37ff830ff6df97f36" name="a15d6032d10dc09c37ff830ff6df97f36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d6032d10dc09c37ff830ff6df97f36">&#9670;&nbsp;</a></span>GetFrequency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SliderConstraint::GetFrequency </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -812,6 +872,62 @@ Additional Inherited Members</h2></td></tr>
 <p>Saving state for replay. </p>
 
 <p>Reimplemented from <a class="el" href="class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="ada5c65ab466a51bc52ef3207483120ff" name="ada5c65ab466a51bc52ef3207483120ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5c65ab466a51bc52ef3207483120ff">&#9670;&nbsp;</a></span>SetDamping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SliderConstraint::SetDamping </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inDamping</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the spring damping for the limits constraint. </p>
+
+</div>
+</div>
+<a id="a27438183f203ef480aef095215dc58be" name="a27438183f203ef480aef095215dc58be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27438183f203ef480aef095215dc58be">&#9670;&nbsp;</a></span>SetFrequency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SliderConstraint::SetFrequency </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inFrequency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the spring frequency for the limits constraint. </p>
 
 </div>
 </div>
