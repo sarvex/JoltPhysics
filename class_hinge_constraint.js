@@ -4,6 +4,7 @@ var class_hinge_constraint =
     [ "GetConstraintSettings", "class_hinge_constraint.html#aba9c90a3d3565e738758d6ee5b17dcba", null ],
     [ "GetConstraintToBody1Matrix", "class_hinge_constraint.html#a2b528317cc292b5538af7df466934016", null ],
     [ "GetConstraintToBody2Matrix", "class_hinge_constraint.html#aae6aa9af08443b65a7ea85323876dde4", null ],
+    [ "GetCurrentAngle", "class_hinge_constraint.html#a7184e290eab00d8b27ad6366adb131f3", null ],
     [ "GetLimitsMax", "class_hinge_constraint.html#a519d665c4924aa96430f28b082f0075f", null ],
     [ "GetLimitsMin", "class_hinge_constraint.html#a88442c3ae9fa433d4aed1484704d3b6a", null ],
     [ "GetMaxFrictionTorque", "class_hinge_constraint.html#a9695f177868118de9520091ac2eb8585", null ],

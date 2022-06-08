@@ -8,6 +8,7 @@ var class_gear_constraint =
     [ "GetTotalLambda", "class_gear_constraint.html#a0e2ee073695aedec977446582365ed3b", null ],
     [ "RestoreState", "class_gear_constraint.html#acdb35bebda74e178f96d516277dda140", null ],
     [ "SaveState", "class_gear_constraint.html#a31f12343d049e8c9a48136bb1a103b73", null ],
+    [ "SetConstraints", "class_gear_constraint.html#a7464b55c817e3ca115ea18537245ccee", null ],
     [ "SetupVelocityConstraint", "class_gear_constraint.html#aa9f34d205ecc9897c658025438c8a411", null ],
     [ "SolvePositionConstraint", "class_gear_constraint.html#a4c71050abebf55fe2a8f1c5ad7d0e4ee", null ],
     [ "SolveVelocityConstraint", "class_gear_constraint.html#ad15d60113726c103c9971694c47ef58b", null ],

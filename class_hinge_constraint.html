@@ -146,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae6aa9af08443b65a7ea85323876dde4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint.html#aae6aa9af08443b65a7ea85323876dde4">GetConstraintToBody2Matrix</a> () const override</td></tr>
 <tr class="memdesc:aae6aa9af08443b65a7ea85323876dde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the transform that transforms from constraint space to body 2 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc.  <a href="class_hinge_constraint.html#aae6aa9af08443b65a7ea85323876dde4">More...</a><br /></td></tr>
 <tr class="separator:aae6aa9af08443b65a7ea85323876dde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7184e290eab00d8b27ad6366adb131f3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint.html#a7184e290eab00d8b27ad6366adb131f3">GetCurrentAngle</a> () const</td></tr>
+<tr class="memdesc:a7184e290eab00d8b27ad6366adb131f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current rotation angle from the rest position.  <a href="class_hinge_constraint.html#a7184e290eab00d8b27ad6366adb131f3">More...</a><br /></td></tr>
+<tr class="separator:a7184e290eab00d8b27ad6366adb131f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad693d37205991f105a85897e6bfe5732"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint.html#ad693d37205991f105a85897e6bfe5732">SetMaxFrictionTorque</a> (float inFrictionTorque)</td></tr>
 <tr class="separator:ad693d37205991f105a85897e6bfe5732"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9695f177868118de9520091ac2eb8585"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint.html#a9695f177868118de9520091ac2eb8585">GetMaxFrictionTorque</a> () const</td></tr>
@@ -396,6 +399,25 @@ Additional Inherited Members</h2></td></tr>
 <p>Calculates the transform that transforms from constraint space to body 2 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc. </p>
 
 <p>Implements <a class="el" href="class_two_body_constraint.html#a0966503073a315b6087f10208e8a61ff">TwoBodyConstraint</a>.</p>
+
+</div>
+</div>
+<a id="a7184e290eab00d8b27ad6366adb131f3" name="a7184e290eab00d8b27ad6366adb131f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7184e290eab00d8b27ad6366adb131f3">&#9670;&nbsp;</a></span>GetCurrentAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HingeConstraint::GetCurrentAngle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current rotation angle from the rest position. </p>
 
 </div>
 </div>

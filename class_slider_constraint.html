@@ -146,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a364ce918555ae4df05f788b9e5e041ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#a364ce918555ae4df05f788b9e5e041ca">GetConstraintToBody2Matrix</a> () const override</td></tr>
 <tr class="memdesc:a364ce918555ae4df05f788b9e5e041ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the transform that transforms from constraint space to body 2 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc.  <a href="class_slider_constraint.html#a364ce918555ae4df05f788b9e5e041ca">More...</a><br /></td></tr>
 <tr class="separator:a364ce918555ae4df05f788b9e5e041ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30befccebcc95bcaaab4ff784f3867f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#ac30befccebcc95bcaaab4ff784f3867f">GetCurrentPosition</a> () const</td></tr>
+<tr class="memdesc:ac30befccebcc95bcaaab4ff784f3867f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current distance from the rest position.  <a href="class_slider_constraint.html#ac30befccebcc95bcaaab4ff784f3867f">More...</a><br /></td></tr>
+<tr class="separator:ac30befccebcc95bcaaab4ff784f3867f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a029801fabc3867da63ede853dea7627f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint.html#a029801fabc3867da63ede853dea7627f">SetMaxFrictionForce</a> (float inFrictionForce)</td></tr>
 <tr class="memdesc:a029801fabc3867da63ede853dea7627f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Friction control.  <a href="class_slider_constraint.html#a029801fabc3867da63ede853dea7627f">More...</a><br /></td></tr>
 <tr class="separator:a029801fabc3867da63ede853dea7627f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -406,6 +409,25 @@ Additional Inherited Members</h2></td></tr>
 <p>Calculates the transform that transforms from constraint space to body 2 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc. </p>
 
 <p>Implements <a class="el" href="class_two_body_constraint.html#a0966503073a315b6087f10208e8a61ff">TwoBodyConstraint</a>.</p>
+
+</div>
+</div>
+<a id="ac30befccebcc95bcaaab4ff784f3867f" name="ac30befccebcc95bcaaab4ff784f3867f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30befccebcc95bcaaab4ff784f3867f">&#9670;&nbsp;</a></span>GetCurrentPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SliderConstraint::GetCurrentPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current distance from the rest position. </p>
 
 </div>
 </div>

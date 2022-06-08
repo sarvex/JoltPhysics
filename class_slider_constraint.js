@@ -4,6 +4,7 @@ var class_slider_constraint =
     [ "GetConstraintSettings", "class_slider_constraint.html#a79e425837bce0b6d9955ce61fba14c43", null ],
     [ "GetConstraintToBody1Matrix", "class_slider_constraint.html#aa61f48ae475bbe2130bb1053e4358f24", null ],
     [ "GetConstraintToBody2Matrix", "class_slider_constraint.html#a364ce918555ae4df05f788b9e5e041ca", null ],
+    [ "GetCurrentPosition", "class_slider_constraint.html#ac30befccebcc95bcaaab4ff784f3867f", null ],
     [ "GetDamping", "class_slider_constraint.html#ac9c85b2cf963659eb029988268611bc6", null ],
     [ "GetFrequency", "class_slider_constraint.html#a15d6032d10dc09c37ff830ff6df97f36", null ],
     [ "GetLimitsMax", "class_slider_constraint.html#a9788e92ed539c24ab428e2e7195fe8de", null ],
