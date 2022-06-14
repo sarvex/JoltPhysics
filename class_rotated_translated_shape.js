@@ -1,6 +1,6 @@
 var class_rotated_translated_shape =
 [
-    [ "RotatedTranslatedShape", "class_rotated_translated_shape.html#a3b7c51d423749bcb210fcbd7112520e3", null ],
+    [ "RotatedTranslatedShape", "class_rotated_translated_shape.html#a2d80aa08a7ae24694dff0721c3e5cd5c", null ],
     [ "RotatedTranslatedShape", "class_rotated_translated_shape.html#adb464f1e2b1cc92b8842b8b9c799711f", null ],
     [ "CastRay", "class_rotated_translated_shape.html#a397f3571c6e9f7f027b1acd2abaaac35", null ],
     [ "CastRay", "class_rotated_translated_shape.html#ac9ed2a8c195640f6b0b65a06749b3f33", null ],

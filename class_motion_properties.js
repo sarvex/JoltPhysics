@@ -21,7 +21,7 @@ var class_motion_properties =
     [ "GetLocalSpaceInverseInertiaUnchecked", "class_motion_properties.html#a994dad1b2bf71b0f0394bec77fcb9b8e", null ],
     [ "GetMaxAngularVelocity", "class_motion_properties.html#a5c7901aaa430061775c7c39af08168db", null ],
     [ "GetMaxLinearVelocity", "class_motion_properties.html#a322397545544a5b330d68fa894e021cf", null ],
-    [ "GetMotionQuality", "class_motion_properties.html#aebc1ea15acd9bdee1f873fc36775eb2a", null ],
+    [ "GetMotionQuality", "class_motion_properties.html#acd43aa954cec19be744724fd633f892a", null ],
     [ "GetPointVelocityCOM", "class_motion_properties.html#a3b3277de19d5dc081a6e15111f7dc14c", null ],
     [ "MoveKinematic", "class_motion_properties.html#ab85683c657425481988a549637dd1315", null ],
     [ "MultiplyWorldSpaceInverseInertiaByVector", "class_motion_properties.html#aa8a73ea7940a316151262ed9a28c4fbb", null ],

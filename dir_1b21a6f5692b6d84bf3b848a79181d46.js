@@ -77,6 +77,7 @@ var dir_1b21a6f5692b6d84bf3b848a79181d46 =
       [ "STLAlignedAllocator< T, N >", "class_s_t_l_aligned_allocator.html", "class_s_t_l_aligned_allocator" ],
       [ "STLAlignedAllocator< T, N >::rebind< T2 >", "struct_s_t_l_aligned_allocator_1_1rebind.html", "struct_s_t_l_aligned_allocator_1_1rebind" ]
     ] ],
+    [ "STLAllocator.h", "_s_t_l_allocator_8h.html", "_s_t_l_allocator_8h" ],
     [ "STLTempAllocator.h", "_s_t_l_temp_allocator_8h.html", [
       [ "STLTempAllocator< T >", "class_s_t_l_temp_allocator.html", "class_s_t_l_temp_allocator" ],
       [ "STLTempAllocator< T >::rebind< T2 >", "struct_s_t_l_temp_allocator_1_1rebind.html", "struct_s_t_l_temp_allocator_1_1rebind" ]
@@ -99,5 +100,7 @@ var dir_1b21a6f5692b6d84bf3b848a79181d46 =
       [ "TempAllocatorMalloc", "class_temp_allocator_malloc.html", "class_temp_allocator_malloc" ]
     ] ],
     [ "TickCounter.cpp", "_tick_counter_8cpp.html", "_tick_counter_8cpp" ],
-    [ "TickCounter.h", "_tick_counter_8h.html", "_tick_counter_8h" ]
+    [ "TickCounter.h", "_tick_counter_8h.html", "_tick_counter_8h" ],
+    [ "UnorderedMap.h", "_unordered_map_8h.html", "_unordered_map_8h" ],
+    [ "UnorderedSet.h", "_unordered_set_8h.html", "_unordered_set_8h" ]
 ];

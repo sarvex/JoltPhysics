@@ -16,9 +16,7 @@ var dir_cda60321bbaaff8ea6d2d4f4167dc560 =
       [ "ObjectStreamIn", "class_object_stream_in.html", "class_object_stream_in" ]
     ] ],
     [ "ObjectStreamOut.cpp", "_object_stream_out_8cpp.html", "_object_stream_out_8cpp" ],
-    [ "ObjectStreamOut.h", "_object_stream_out_8h.html", [
-      [ "ObjectStreamOut", "class_object_stream_out.html", "class_object_stream_out" ]
-    ] ],
+    [ "ObjectStreamOut.h", "_object_stream_out_8h.html", "_object_stream_out_8h" ],
     [ "ObjectStreamTextIn.cpp", "_object_stream_text_in_8cpp.html", null ],
     [ "ObjectStreamTextIn.h", "_object_stream_text_in_8h.html", [
       [ "ObjectStreamTextIn", "class_object_stream_text_in.html", "class_object_stream_text_in" ]

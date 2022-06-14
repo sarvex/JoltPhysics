@@ -1,6 +1,6 @@
 var class_convex_hull_builder_1_1_edge =
 [
-    [ "Edge", "class_convex_hull_builder_1_1_edge.html#ae62705d275fc51ae314cc502a862e933", null ],
+    [ "Edge", "class_convex_hull_builder_1_1_edge.html#a0d350bab8acf2ad5360554e87c2c5b0e", null ],
     [ "GetPreviousEdge", "class_convex_hull_builder_1_1_edge.html#af8a79bb1db1fa4f8cdbc67dc04261563", null ],
     [ "mFace", "class_convex_hull_builder_1_1_edge.html#abfc9e0d70adde9c5c0118cccaace8677", null ],
     [ "mNeighbourEdge", "class_convex_hull_builder_1_1_edge.html#a0472b2afdf6989d40f9e82067364df1d", null ],

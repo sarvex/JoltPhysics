@@ -3,7 +3,8 @@ var annotated_dup =
     [ "std", "namespacestd.html", [
       [ "hash< JPH::Ref< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_3_01_t_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_ref_3_01_t_01_4_01_4" ],
       [ "hash< JPH::RefConst< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4" ],
-      [ "hash< JPH::StaticArray< T, N > >", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4" ]
+      [ "hash< JPH::StaticArray< T, N > >", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4" ],
+      [ "hash< JPH::String >", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4" ]
     ] ],
     [ "AABBTreeBuilder", "class_a_a_b_b_tree_builder.html", "class_a_a_b_b_tree_builder" ],
     [ "AABBTreeBuilderStats", "struct_a_a_b_b_tree_builder_stats.html", "struct_a_a_b_b_tree_builder_stats" ],
@@ -241,6 +242,7 @@ var annotated_dup =
     [ "StaticCompoundShape", "class_static_compound_shape.html", "class_static_compound_shape" ],
     [ "StaticCompoundShapeSettings", "class_static_compound_shape_settings.html", "class_static_compound_shape_settings" ],
     [ "STLAlignedAllocator", "class_s_t_l_aligned_allocator.html", "class_s_t_l_aligned_allocator" ],
+    [ "STLAllocator", "class_s_t_l_allocator.html", "class_s_t_l_allocator" ],
     [ "STLTempAllocator", "class_s_t_l_temp_allocator.html", "class_s_t_l_temp_allocator" ],
     [ "StreamIn", "class_stream_in.html", "class_stream_in" ],
     [ "StreamInWrapper", "class_stream_in_wrapper.html", "class_stream_in_wrapper" ],

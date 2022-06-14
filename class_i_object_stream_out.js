@@ -15,7 +15,7 @@ var class_i_object_stream_out =
     [ "WritePrimitiveData", "class_i_object_stream_out.html#a01c3723b59d67ad5e75a3dc56f7737cb", null ],
     [ "WritePrimitiveData", "class_i_object_stream_out.html#a5b5c4763d26fbda8fc7649e30fe99ea0", null ],
     [ "WritePrimitiveData", "class_i_object_stream_out.html#a397870b50706aeb7f390dd96e08dac3c", null ],
-    [ "WritePrimitiveData", "class_i_object_stream_out.html#af1e0fb440b62b41adcd6306a67147c62", null ],
+    [ "WritePrimitiveData", "class_i_object_stream_out.html#a38350c40a7079608bdc92e4a1df7725c", null ],
     [ "WritePrimitiveData", "class_i_object_stream_out.html#ab17016faad9181b3d6dfbda9a48bd335", null ],
     [ "WritePrimitiveData", "class_i_object_stream_out.html#a66b6becb60ad5aec76867394d52e6cfd", null ],
     [ "WritePrimitiveData", "class_i_object_stream_out.html#aecfe9968add8789f6e26723b6e9e651d", null ],

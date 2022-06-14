@@ -11,7 +11,7 @@ var struct_physics_settings =
     [ "mLinearCastMaxPenetration", "struct_physics_settings.html#aa5090787a0d12a9e7519da9e752de0e7", null ],
     [ "mLinearCastThreshold", "struct_physics_settings.html#ab5580db2e8580b84eb6be01a24cc54c4", null ],
     [ "mManifoldToleranceSq", "struct_physics_settings.html#ae045877d52a061978eb78569b96b0b62", null ],
-    [ "mMaxInFlightBodyPairs", "struct_physics_settings.html#aa69833c730d6265127b209503d0b520a", null ],
+    [ "mMaxInFlightBodyPairs", "struct_physics_settings.html#a4b51fef768d4839927757e9b3ae65177", null ],
     [ "mMaxPenetrationDistance", "struct_physics_settings.html#a85f7318d995294af04d6a5c0fe0d01a6", null ],
     [ "mMinVelocityForRestitution", "struct_physics_settings.html#a3f68f35ad1244421ad126d3db5a617f3", null ],
     [ "mNumPositionSteps", "struct_physics_settings.html#a16260f9e775a74e88116f952f5d7e0a5", null ],

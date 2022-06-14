@@ -1,7 +1,7 @@
 var class_skeleton =
 [
     [ "Joint", "class_skeleton_1_1_joint.html", "class_skeleton_1_1_joint" ],
-    [ "JointVector", "class_skeleton.html#a56c3e85ed07b80035c3ad7e3d370de8f", null ],
+    [ "JointVector", "class_skeleton.html#abc73ae3dc3fae778e7da6cea24f0897a", null ],
     [ "SkeletonResult", "class_skeleton.html#a5c20e8863abf01154331314d8e72c75e", null ],
     [ "AddJoint", "class_skeleton.html#aa058a06eb2f163d14b481bbd8d602be6", null ],
     [ "AddJoint", "class_skeleton.html#ae52ee99ff637c0ceea37d46ba3b2d712", null ],

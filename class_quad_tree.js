@@ -4,7 +4,7 @@ var class_quad_tree =
     [ "Tracking", "struct_quad_tree_1_1_tracking.html", "struct_quad_tree_1_1_tracking" ],
     [ "UpdateState", "struct_quad_tree_1_1_update_state.html", "struct_quad_tree_1_1_update_state" ],
     [ "Allocator", "class_quad_tree.html#aec53c63c36f1185bd75623cbc27830d6", null ],
-    [ "TrackingVector", "class_quad_tree.html#af9890e7aa4e8e053fda8e484b3c568e8", null ],
+    [ "TrackingVector", "class_quad_tree.html#ad70bd0403f84927b007159eeaebf85c1", null ],
     [ "~QuadTree", "class_quad_tree.html#a236dde2058a3ccf2babbe4a289327b30", null ],
     [ "AddBodiesAbort", "class_quad_tree.html#a3f04fc0ab8ec76c39e7e4ac4679e6ffa", null ],
     [ "AddBodiesFinalize", "class_quad_tree.html#aaf165671ff225afec0336dca906f9219", null ],

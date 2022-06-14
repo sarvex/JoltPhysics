@@ -1,6 +1,6 @@
 var class_triangle =
 [
-    [ "Triangle", "class_triangle.html#abe6f0d035449cb80a7cc4d79baef9c3f", null ],
+    [ "Triangle", "class_triangle.html#ab77028569270c58b230bade2e050f0e8", null ],
     [ "Triangle", "class_triangle.html#aadcfe7dea066a7d1d35d2a6757891a48", null ],
     [ "Triangle", "class_triangle.html#af9b36142778df50bf58383e29bd1b8e6", null ],
     [ "Triangle", "class_triangle.html#ad12125ba229387f758ec414d3014550f", null ],

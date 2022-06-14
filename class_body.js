@@ -4,7 +4,7 @@ var class_body =
       [ "CannotSleep", "class_body.html#a4d36599b8691c422cece99598750f1a9af6565583dd53a537e5c7376048299104", null ],
       [ "CanSleep", "class_body.html#a4d36599b8691c422cece99598750f1a9a93264bf5e739b984ef79c2fbc76863c6", null ]
     ] ],
-    [ "Body", "class_body.html#a7c3824819e50a213b377e0c374dc90b0", null ],
+    [ "Body", "class_body.html#a7d63b6039299773cbb574f8040080ed9", null ],
     [ "~Body", "class_body.html#abe1c4da65568cf7978b6247affc461e3", null ],
     [ "AddAngularImpulse", "class_body.html#aa797042eec783ed27333f529b66221a3", null ],
     [ "AddForce", "class_body.html#add8352d484a2805f114400159151185b", null ],

@@ -1,7 +1,7 @@
 var class_box_shape =
 [
     [ "Box", "class_box_shape_1_1_box.html", "class_box_shape_1_1_box" ],
-    [ "BoxShape", "class_box_shape.html#ad93e2cf19f14b8c8dd938b5c3e4d4b25", null ],
+    [ "BoxShape", "class_box_shape.html#a4004360f2a7438e69fa3d0a252fc8f28", null ],
     [ "BoxShape", "class_box_shape.html#a2088320f53aad4bffd21eac9317e0848", null ],
     [ "BoxShape", "class_box_shape.html#a4ccbcc1c06232059f4b8711cb54d21f8", null ],
     [ "CastRay", "class_box_shape.html#a9c2aaae3c5b69a6154a5ef68b0faf764", null ],

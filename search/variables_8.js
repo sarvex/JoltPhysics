@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['objectstoragesize_0',['ObjectStorageSize',['../class_fixed_size_free_list.html#a574046ef3a420bee3408d5a1930f0952',1,'FixedSizeFreeList']]]
+  ['numchildrenpernode_0',['NumChildrenPerNode',['../class_a_a_b_b_tree_to_buffer.html#a956ca0626883d745209ce9fceb85197c',1,'AABBTreeToBuffer::NumChildrenPerNode()'],['../class_node_codec_quad_tree_half_float.html#a5a852e30e37f354078911cdefdcc846c',1,'NodeCodecQuadTreeHalfFloat::NumChildrenPerNode()']]]
 ];

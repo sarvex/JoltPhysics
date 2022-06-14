@@ -1,6 +1,6 @@
 var class_vehicle_controller =
 [
-    [ "VehicleController", "class_vehicle_controller.html#aa55ba1467967b52c8eceaf2dcf913366", null ],
+    [ "VehicleController", "class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb", null ],
     [ "~VehicleController", "class_vehicle_controller.html#adaf1b8a1da0e7b167c8849e13743809c", null ],
     [ "ConstructWheel", "class_vehicle_controller.html#a67f4c989e175054bb615082afef27c45", null ],
     [ "PostCollide", "class_vehicle_controller.html#a0a005727385292dd06ad30398e1eef0a", null ],

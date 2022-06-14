@@ -1,7 +1,7 @@
 var class_transformed_shape =
 [
     [ "GetTrianglesContext", "class_transformed_shape.html#aca84b10055165beff1ca288bf6ccfd34", null ],
-    [ "TransformedShape", "class_transformed_shape.html#a40ab661f8e28d98a2780dec413c51795", null ],
+    [ "TransformedShape", "class_transformed_shape.html#aa2bca98098fc17f1d18ea542a619eff0", null ],
     [ "TransformedShape", "class_transformed_shape.html#a13cf3ec14c416d9693936f4323977bf1", null ],
     [ "CastRay", "class_transformed_shape.html#a6cf231763f9ffecc614c3d6e05023066", null ],
     [ "CastRay", "class_transformed_shape.html#a60ffc001573e85f25b2f28ea819c76a3", null ],

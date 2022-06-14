@@ -1,6 +1,6 @@
 var class_float2 =
 [
-    [ "Float2", "class_float2.html#a5df392ea8ab3cbd044facb532fd7ddf2", null ],
+    [ "Float2", "class_float2.html#a31453e22a3a71b53b16f33c8ea050fa3", null ],
     [ "Float2", "class_float2.html#a242b0c3c7ee3f270ad64a0a3ee6e0286", null ],
     [ "Float2", "class_float2.html#abb998c59ebedddb6fe8742b7e7f8e990", null ],
     [ "operator!=", "class_float2.html#a96fca2374dcba65591ea81c7d16b9aa9", null ],

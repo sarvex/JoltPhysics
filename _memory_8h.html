@@ -92,70 +92,242 @@ $(document).ready(function(){initNavTree('_memory_8h.html',''); initResizable();
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Memory.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="_memory_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a91074fb218fe28954a0938c099ddd9e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a></td></tr>
+<tr class="memdesc:a91074fb218fe28954a0938c099ddd9e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to override the new and delete functions.  <a href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">More...</a><br /></td></tr>
+<tr class="separator:a91074fb218fe28954a0938c099ddd9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af18828908838938f4deb92fbde4b3015"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#af18828908838938f4deb92fbde4b3015">AllocateFunction</a> = void *(*)(size_t inSize)</td></tr>
+<tr class="separator:af18828908838938f4deb92fbde4b3015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f7cd4691f45cd3537b6e8fd3705eb0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#a57f7cd4691f45cd3537b6e8fd3705eb0">FreeFunction</a> = void(*)(void *inBlock)</td></tr>
+<tr class="separator:a57f7cd4691f45cd3537b6e8fd3705eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34745708a4f5ea89b7059f8f5952d3d6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#a34745708a4f5ea89b7059f8f5952d3d6">AlignedAllocateFunction</a> = void *(*)(size_t inSize, size_t inAlignment)</td></tr>
+<tr class="separator:a34745708a4f5ea89b7059f8f5952d3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5117b9da25ff2a21dfd5c159b36f1e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#ae5117b9da25ff2a21dfd5c159b36f1e1">AlignedFreeFunction</a> = void(*)(void *inBlock)</td></tr>
+<tr class="separator:ae5117b9da25ff2a21dfd5c159b36f1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0e0b680da59763864e9bbd6ba0cfda1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#a0e0b680da59763864e9bbd6ba0cfda1c">AlignedAlloc</a> (size_t inSize, size_t inAlignment)</td></tr>
-<tr class="memdesc:a0e0b680da59763864e9bbd6ba0cfda1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a block of memory aligned to inAlignment bytes of size inSize.  <a href="_memory_8h.html#a0e0b680da59763864e9bbd6ba0cfda1c">More...</a><br /></td></tr>
-<tr class="separator:a0e0b680da59763864e9bbd6ba0cfda1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64b4be42b93e4be685ebced343b7f78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#af64b4be42b93e4be685ebced343b7f78">AlignedFree</a> (void *inBlock)</td></tr>
-<tr class="memdesc:af64b4be42b93e4be685ebced343b7f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free memory block allocated with AlignedAlloc.  <a href="_memory_8h.html#af64b4be42b93e4be685ebced343b7f78">More...</a><br /></td></tr>
-<tr class="separator:af64b4be42b93e4be685ebced343b7f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833946335de93bfe993d882d5e882458"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#a833946335de93bfe993d882d5e882458">RegisterDefaultAllocator</a> ()</td></tr>
+<tr class="memdesc:a833946335de93bfe993d882d5e882458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register platform default allocation / free functions.  <a href="_memory_8h.html#a833946335de93bfe993d882d5e882458">More...</a><br /></td></tr>
+<tr class="separator:a833946335de93bfe993d882d5e882458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a409c61ab5ebd84e8aee6d9f930175a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#af18828908838938f4deb92fbde4b3015">AllocateFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#a409c61ab5ebd84e8aee6d9f930175a00">Allocate</a></td></tr>
+<tr class="separator:a409c61ab5ebd84e8aee6d9f930175a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8618ad315c24ed37db3ad6b2ff60fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a57f7cd4691f45cd3537b6e8fd3705eb0">FreeFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#acb8618ad315c24ed37db3ad6b2ff60fc">Free</a></td></tr>
+<tr class="separator:acb8618ad315c24ed37db3ad6b2ff60fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8854fb6cfcc5836d8e9f6103a3a6c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a34745708a4f5ea89b7059f8f5952d3d6">AlignedAllocateFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#ae8854fb6cfcc5836d8e9f6103a3a6c68">AlignedAllocate</a></td></tr>
+<tr class="separator:ae8854fb6cfcc5836d8e9f6103a3a6c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add39c49c5cd22c9ddbc25aae2c01b5f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#ae5117b9da25ff2a21dfd5c159b36f1e1">AlignedFreeFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_memory_8h.html#add39c49c5cd22c9ddbc25aae2c01b5f3">AlignedFree</a></td></tr>
+<tr class="separator:add39c49c5cd22c9ddbc25aae2c01b5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a91074fb218fe28954a0938c099ddd9e0" name="a91074fb218fe28954a0938c099ddd9e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91074fb218fe28954a0938c099ddd9e0">&#9670;&nbsp;</a></span>JPH_OVERRIDE_NEW_DELETE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_OVERRIDE_NEW_DELETE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    JPH_INLINE <span class="keywordtype">void</span> *<span class="keyword">operator</span> <span class="keyword">new</span> (<span class="keywordtype">size_t</span> inCount)                                          { <span class="keywordflow">return</span> <a class="code hl_variable" href="_memory_8h.html#a409c61ab5ebd84e8aee6d9f930175a00">JPH::Allocate</a>(inCount); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span> *inPointer) <span class="keyword">noexcept</span>                              { <a class="code hl_variable" href="_memory_8h.html#acb8618ad315c24ed37db3ad6b2ff60fc">JPH::Free</a>(inPointer); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> *<span class="keyword">operator</span> <span class="keyword">new</span>[] (<span class="keywordtype">size_t</span> inCount)                                        { <span class="keywordflow">return</span> <a class="code hl_variable" href="_memory_8h.html#a409c61ab5ebd84e8aee6d9f930175a00">JPH::Allocate</a>(inCount); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span>[] (<span class="keywordtype">void</span> *inPointer) <span class="keyword">noexcept</span>                            { <a class="code hl_variable" href="_memory_8h.html#acb8618ad315c24ed37db3ad6b2ff60fc">JPH::Free</a>(inPointer); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> *<span class="keyword">operator</span> <span class="keyword">new</span> (<span class="keywordtype">size_t</span> inCount, align_val_t inAlignment)                 { <span class="keywordflow">return</span> <a class="code hl_variable" href="_memory_8h.html#ae8854fb6cfcc5836d8e9f6103a3a6c68">JPH::AlignedAllocate</a>(inCount, <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(inAlignment)); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span> *inPointer, align_val_t inAlignment) <span class="keyword">noexcept</span>     { <a class="code hl_variable" href="_memory_8h.html#add39c49c5cd22c9ddbc25aae2c01b5f3">JPH::AlignedFree</a>(inPointer); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> *<span class="keyword">operator</span> <span class="keyword">new</span>[] (<span class="keywordtype">size_t</span> inCount, align_val_t inAlignment)               { <span class="keywordflow">return</span> <a class="code hl_variable" href="_memory_8h.html#ae8854fb6cfcc5836d8e9f6103a3a6c68">JPH::AlignedAllocate</a>(inCount, <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(inAlignment)); } \</div>
+<div class="line">    JPH_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span>[] (<span class="keywordtype">void</span> *inPointer, align_val_t inAlignment) <span class="keyword">noexcept</span>   { <a class="code hl_variable" href="_memory_8h.html#add39c49c5cd22c9ddbc25aae2c01b5f3">JPH::AlignedFree</a>(inPointer); }</div>
+<div class="ttc" id="a_memory_8h_html_a409c61ab5ebd84e8aee6d9f930175a00"><div class="ttname"><a href="_memory_8h.html#a409c61ab5ebd84e8aee6d9f930175a00">Allocate</a></div><div class="ttdeci">AllocateFunction Allocate</div><div class="ttdef"><b>Definition:</b> Memory.cpp:56</div></div>
+<div class="ttc" id="a_memory_8h_html_acb8618ad315c24ed37db3ad6b2ff60fc"><div class="ttname"><a href="_memory_8h.html#acb8618ad315c24ed37db3ad6b2ff60fc">Free</a></div><div class="ttdeci">FreeFunction Free</div><div class="ttdef"><b>Definition:</b> Memory.cpp:57</div></div>
+<div class="ttc" id="a_memory_8h_html_add39c49c5cd22c9ddbc25aae2c01b5f3"><div class="ttname"><a href="_memory_8h.html#add39c49c5cd22c9ddbc25aae2c01b5f3">AlignedFree</a></div><div class="ttdeci">AlignedFreeFunction AlignedFree</div><div class="ttdef"><b>Definition:</b> Memory.cpp:59</div></div>
+<div class="ttc" id="a_memory_8h_html_ae8854fb6cfcc5836d8e9f6103a3a6c68"><div class="ttname"><a href="_memory_8h.html#ae8854fb6cfcc5836d8e9f6103a3a6c68">AlignedAllocate</a></div><div class="ttdeci">AlignedAllocateFunction AlignedAllocate</div><div class="ttdef"><b>Definition:</b> Memory.cpp:58</div></div>
+</div><!-- fragment -->
+<p>Macro to override the new and delete functions. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a34745708a4f5ea89b7059f8f5952d3d6" name="a34745708a4f5ea89b7059f8f5952d3d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34745708a4f5ea89b7059f8f5952d3d6">&#9670;&nbsp;</a></span>AlignedAllocateFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="_memory_8h.html#a34745708a4f5ea89b7059f8f5952d3d6">AlignedAllocateFunction</a> =  void *(*)(size_t inSize, size_t inAlignment)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5117b9da25ff2a21dfd5c159b36f1e1" name="ae5117b9da25ff2a21dfd5c159b36f1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5117b9da25ff2a21dfd5c159b36f1e1">&#9670;&nbsp;</a></span>AlignedFreeFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="_memory_8h.html#ae5117b9da25ff2a21dfd5c159b36f1e1">AlignedFreeFunction</a> =  void (*)(void *inBlock)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af18828908838938f4deb92fbde4b3015" name="af18828908838938f4deb92fbde4b3015"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af18828908838938f4deb92fbde4b3015">&#9670;&nbsp;</a></span>AllocateFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="_memory_8h.html#af18828908838938f4deb92fbde4b3015">AllocateFunction</a> =  void *(*)(size_t inSize)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57f7cd4691f45cd3537b6e8fd3705eb0" name="a57f7cd4691f45cd3537b6e8fd3705eb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f7cd4691f45cd3537b6e8fd3705eb0">&#9670;&nbsp;</a></span>FreeFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="_memory_8h.html#a57f7cd4691f45cd3537b6e8fd3705eb0">FreeFunction</a> =  void (*)(void *inBlock)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a0e0b680da59763864e9bbd6ba0cfda1c" name="a0e0b680da59763864e9bbd6ba0cfda1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e0b680da59763864e9bbd6ba0cfda1c">&#9670;&nbsp;</a></span>AlignedAlloc()</h2>
+<a id="a833946335de93bfe993d882d5e882458" name="a833946335de93bfe993d882d5e882458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a833946335de93bfe993d882d5e882458">&#9670;&nbsp;</a></span>RegisterDefaultAllocator()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void * AlignedAlloc </td>
+          <td class="memname">void RegisterDefaultAllocator </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>inSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>inAlignment</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Allocate a block of memory aligned to inAlignment bytes of size inSize. </p>
+<p>Register platform default allocation / free functions. </p>
 
 </div>
 </div>
-<a id="af64b4be42b93e4be685ebced343b7f78" name="af64b4be42b93e4be685ebced343b7f78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af64b4be42b93e4be685ebced343b7f78">&#9670;&nbsp;</a></span>AlignedFree()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ae8854fb6cfcc5836d8e9f6103a3a6c68" name="ae8854fb6cfcc5836d8e9f6103a3a6c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8854fb6cfcc5836d8e9f6103a3a6c68">&#9670;&nbsp;</a></span>AlignedAllocate</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AlignedFree </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>inBlock</em></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="_memory_8h.html#a34745708a4f5ea89b7059f8f5952d3d6">AlignedAllocateFunction</a> AlignedAllocate</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Free memory block allocated with AlignedAlloc. </p>
+</div>
+</div>
+<a id="add39c49c5cd22c9ddbc25aae2c01b5f3" name="add39c49c5cd22c9ddbc25aae2c01b5f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add39c49c5cd22c9ddbc25aae2c01b5f3">&#9670;&nbsp;</a></span>AlignedFree</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_memory_8h.html#ae5117b9da25ff2a21dfd5c159b36f1e1">AlignedFreeFunction</a> AlignedFree</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a409c61ab5ebd84e8aee6d9f930175a00" name="a409c61ab5ebd84e8aee6d9f930175a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409c61ab5ebd84e8aee6d9f930175a00">&#9670;&nbsp;</a></span>Allocate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_memory_8h.html#af18828908838938f4deb92fbde4b3015">AllocateFunction</a> Allocate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb8618ad315c24ed37db3ad6b2ff60fc" name="acb8618ad315c24ed37db3ad6b2ff60fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8618ad315c24ed37db3ad6b2ff60fc">&#9670;&nbsp;</a></span>Free</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_memory_8h.html#a57f7cd4691f45cd3537b6e8fd3705eb0">FreeFunction</a> Free</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

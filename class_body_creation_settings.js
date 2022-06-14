@@ -1,8 +1,8 @@
 var class_body_creation_settings =
 [
     [ "BCSResult", "class_body_creation_settings.html#a3d7ae6cc90958bea23ab0383b6b90cc1", null ],
-    [ "GroupFilterToIDMap", "class_body_creation_settings.html#a52fb1c1c6b12d8d3f680c994dc7507ed", null ],
-    [ "IDToGroupFilterMap", "class_body_creation_settings.html#a44a46ba146d044732cbedabea61fe5ca", null ],
+    [ "GroupFilterToIDMap", "class_body_creation_settings.html#a43a6b0e9c4c9719df5ac9cac9d7f11a9", null ],
+    [ "IDToGroupFilterMap", "class_body_creation_settings.html#a2a2a050e5ec2d7a5cddb9f96d095e917", null ],
     [ "IDToMaterialMap", "class_body_creation_settings.html#a6a54c21035c6e5f7d28236f4f3191e51", null ],
     [ "IDToShapeMap", "class_body_creation_settings.html#a38d63e9e7f85d16ecca1db06ca0dabc8", null ],
     [ "MaterialToIDMap", "class_body_creation_settings.html#a9aeac0cc44189453e939e75f229189f5", null ],

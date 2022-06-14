@@ -1,7 +1,7 @@
 var class_linear_curve =
 [
     [ "Point", "class_linear_curve_1_1_point.html", "class_linear_curve_1_1_point" ],
-    [ "Points", "class_linear_curve.html#afc09ec59834697e97a6ae939f9f8ead6", null ],
+    [ "Points", "class_linear_curve.html#ac5e86231b54adb339250de6c06a77cbc", null ],
     [ "AddPoint", "class_linear_curve.html#aa5b4a499837cb2a3a0c3b9b5eb618a53", null ],
     [ "Clear", "class_linear_curve.html#aff2fa573a7368134091a91bd01274fca", null ],
     [ "GetMaxX", "class_linear_curve.html#aa92a24bc4fff522ea56c5a0dadbf6ff4", null ],

@@ -10,5 +10,5 @@ var class_character_virtual_settings =
     [ "mMinTimeRemaining", "class_character_virtual_settings.html#a43cabe3e717a0d42ce6ba8383760c20f", null ],
     [ "mPenetrationRecoverySpeed", "class_character_virtual_settings.html#a5a58aa76a938c5845f1b375114a4cebb", null ],
     [ "mPredictiveContactDistance", "class_character_virtual_settings.html#aeeefd4daed1e249cc0c98126bd8e4007", null ],
-    [ "mUp", "class_character_virtual_settings.html#afcd0a6f3fcb99ec995349d07a306b9b3", null ]
+    [ "mUp", "class_character_virtual_settings.html#a58049dd9eb7a2238805515411b916753", null ]
 ];

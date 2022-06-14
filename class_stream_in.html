@@ -136,9 +136,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae6b2a43bbd608199dc0c9f865d7e23d1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_stream_in.html#ae6b2a43bbd608199dc0c9f865d7e23d1">Read</a> (vector&lt; T, A &gt; &amp;outT)</td></tr>
 <tr class="memdesc:ae6b2a43bbd608199dc0c9f865d7e23d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a vector of primitives from the binary stream.  <a href="class_stream_in.html#ae6b2a43bbd608199dc0c9f865d7e23d1">More...</a><br /></td></tr>
 <tr class="separator:ae6b2a43bbd608199dc0c9f865d7e23d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7894eca4c48061e169deb4f383eb1049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_in.html#a7894eca4c48061e169deb4f383eb1049">Read</a> (string &amp;outString)</td></tr>
-<tr class="memdesc:a7894eca4c48061e169deb4f383eb1049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a string from the binary stream (reads the number of characters and then the characters)  <a href="class_stream_in.html#a7894eca4c48061e169deb4f383eb1049">More...</a><br /></td></tr>
-<tr class="separator:a7894eca4c48061e169deb4f383eb1049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612ec36f27095aa64d30dd8f58de8992"><td class="memTemplParams" colspan="2">template&lt;class Type , class Traits , class Allocator &gt; </td></tr>
+<tr class="memitem:a612ec36f27095aa64d30dd8f58de8992"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_stream_in.html#a612ec36f27095aa64d30dd8f58de8992">Read</a> (basic_string&lt; Type, Traits, Allocator &gt; &amp;outString)</td></tr>
+<tr class="memdesc:a612ec36f27095aa64d30dd8f58de8992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a string from the binary stream (reads the number of characters and then the characters)  <a href="class_stream_in.html#a612ec36f27095aa64d30dd8f58de8992">More...</a><br /></td></tr>
+<tr class="separator:a612ec36f27095aa64d30dd8f58de8992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73a1ab9b7b8c0807e88b9b969acb24bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_in.html#a73a1ab9b7b8c0807e88b9b969acb24bf">Read</a> (<a class="el" href="class_vec3.html">Vec3</a> &amp;outVec)</td></tr>
 <tr class="memdesc:a73a1ab9b7b8c0807e88b9b969acb24bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a <a class="el" href="class_vec3.html">Vec3</a> (don't read W)  <a href="class_stream_in.html#a73a1ab9b7b8c0807e88b9b969acb24bf">More...</a><br /></td></tr>
 <tr class="separator:a73a1ab9b7b8c0807e88b9b969acb24bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,11 +233,13 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7894eca4c48061e169deb4f383eb1049" name="a7894eca4c48061e169deb4f383eb1049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7894eca4c48061e169deb4f383eb1049">&#9670;&nbsp;</a></span>Read() <span class="overload">[1/4]</span></h2>
+<a id="a612ec36f27095aa64d30dd8f58de8992" name="a612ec36f27095aa64d30dd8f58de8992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612ec36f27095aa64d30dd8f58de8992">&#9670;&nbsp;</a></span>Read() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class Type , class Traits , class Allocator &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -244,7 +247,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void StreamIn::Read </td>
           <td>(</td>
-          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramtype">basic_string&lt; Type, Traits, Allocator &gt; &amp;&#160;</td>
           <td class="paramname"><em>outString</em></td><td>)</td>
           <td></td>
         </tr>

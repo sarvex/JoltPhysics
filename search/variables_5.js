@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initialearlyoutfraction_0',['InitialEarlyOutFraction',['../class_collision_collector_traits_cast_ray.html#ad2a01c00dc5dc3fae86b1b2c08ddfae6',1,'CollisionCollectorTraitsCastRay::InitialEarlyOutFraction()'],['../class_collision_collector_traits_cast_shape.html#a05bb7735aee24a1dbb7da03e0b43323d',1,'CollisionCollectorTraitsCastShape::InitialEarlyOutFraction()'],['../class_collision_collector_traits_collide_shape.html#ab3c91ac7a729d543b263c51194826488',1,'CollisionCollectorTraitsCollideShape::InitialEarlyOutFraction()']]]
+  ['headersize_0',['HeaderSize',['../class_a_a_b_b_tree_to_buffer.html#a950a3efaf390fd647e012bc2179e79ac',1,'AABBTreeToBuffer::HeaderSize()'],['../class_node_codec_quad_tree_half_float.html#a1baa2067968afa2567f2e6081926f80b',1,'NodeCodecQuadTreeHalfFloat::HeaderSize()']]]
 ];

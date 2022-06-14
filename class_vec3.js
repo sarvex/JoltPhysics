@@ -1,6 +1,6 @@
 var class_vec3 =
 [
-    [ "Vec3", "class_vec3.html#aeecf02c008ca1e3a1695d8962a5b24da", null ],
+    [ "Vec3", "class_vec3.html#a44b23ea0a5101da319285c9afe5493b4", null ],
     [ "Vec3", "class_vec3.html#a268ea0715fd0914ffde63ca7451bde61", null ],
     [ "Vec3", "class_vec3.html#a3ab8c224fb2c6be708e58e45fd0ee987", null ],
     [ "Vec3", "class_vec3.html#a67ff481d7a24cf569cb694519dc3ff63", null ],

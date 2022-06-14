@@ -2,7 +2,7 @@ var class_capsule_shape =
 [
     [ "CapsuleNoConvex", "class_capsule_shape_1_1_capsule_no_convex.html", "class_capsule_shape_1_1_capsule_no_convex" ],
     [ "CapsuleWithConvex", "class_capsule_shape_1_1_capsule_with_convex.html", "class_capsule_shape_1_1_capsule_with_convex" ],
-    [ "CapsuleShape", "class_capsule_shape.html#aa42e46fcbcc42ff0a6bd44d256f985cf", null ],
+    [ "CapsuleShape", "class_capsule_shape.html#acd06172be8b996ff941844f1aa3ce35b", null ],
     [ "CapsuleShape", "class_capsule_shape.html#a28722612eca063d47b2e99c5d1a2e16c", null ],
     [ "CapsuleShape", "class_capsule_shape.html#ab5b3085112fe4348a5831f9e94441f7c", null ],
     [ "CastRay", "class_capsule_shape.html#ae1a5536cb1e4855bdd86433e08496b3b", null ],

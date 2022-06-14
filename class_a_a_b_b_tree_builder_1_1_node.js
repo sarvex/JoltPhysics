@@ -6,7 +6,7 @@ var class_a_a_b_b_tree_builder_1_1_node =
     [ "GetLeafNodeCount", "class_a_a_b_b_tree_builder_1_1_node.html#a26388038bedeaa6f463327ca1542fb06", null ],
     [ "GetMaxDepth", "class_a_a_b_b_tree_builder_1_1_node.html#aef9d9d0695306595e4b6f16b2b47e60c", null ],
     [ "GetMinDepth", "class_a_a_b_b_tree_builder_1_1_node.html#a22a2cb2691825e2935516c36bc936875", null ],
-    [ "GetNChildren", "class_a_a_b_b_tree_builder_1_1_node.html#af9825f91f1707247c2d778706be5c285", null ],
+    [ "GetNChildren", "class_a_a_b_b_tree_builder_1_1_node.html#a8babc5943488e1ca48b9768c647f599a", null ],
     [ "GetNodeCount", "class_a_a_b_b_tree_builder_1_1_node.html#ae1245ceb7193257c465b0916c9c19f10", null ],
     [ "GetTriangleCount", "class_a_a_b_b_tree_builder_1_1_node.html#ab9f14f78dc59d08126ca910121c173e0", null ],
     [ "GetTriangleCountInTree", "class_a_a_b_b_tree_builder_1_1_node.html#ad4227473a354d52097ead61c6fa8d992", null ],

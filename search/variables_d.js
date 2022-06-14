@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_0',['x',['../class_float2.html#a9f4577102bc9a7bdf9355b5776301485',1,'Float2::x()'],['../class_float3.html#ac596e0cf37e992db116ebe169ec6cd2d',1,'Float3::x()'],['../class_float4.html#a1d8d54947f537668f63257dabc353ee9',1,'Float4::x()']]]
+  ['w_0',['w',['../class_float4.html#a6d5d9754a656360d126abe8eb5cd2f52',1,'Float4']]]
 ];

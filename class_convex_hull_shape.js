@@ -14,7 +14,7 @@ var class_convex_hull_shape =
     [ "GetInnerRadius", "class_convex_hull_shape.html#a43f64b08407a44d5c441f41ce520dfe5", null ],
     [ "GetLocalBounds", "class_convex_hull_shape.html#a49b4086adc746e5b69c772b4607cd2ec", null ],
     [ "GetMassProperties", "class_convex_hull_shape.html#aef499d89aadc1f62c7d2acc527d54e4f", null ],
-    [ "GetPlanes", "class_convex_hull_shape.html#aae6d560d15a45d3c0da79d0f132b0357", null ],
+    [ "GetPlanes", "class_convex_hull_shape.html#a82497cbbe81983826a5f13a0dd0f3b2b", null ],
     [ "GetStats", "class_convex_hull_shape.html#abdfd4a2a43587db1b5d726c78d3ee2b5", null ],
     [ "GetSubmergedVolume", "class_convex_hull_shape.html#ab7e25e298bc1550a6699db6318260fcc", null ],
     [ "GetSupportFunction", "class_convex_hull_shape.html#ae343a96fe9cce1424f7ddeb7a98a393b", null ],

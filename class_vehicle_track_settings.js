@@ -7,5 +7,5 @@ var class_vehicle_track_settings =
     [ "mDrivenWheel", "class_vehicle_track_settings.html#aff65474e817507daa9d777ebc47d4aa1", null ],
     [ "mInertia", "class_vehicle_track_settings.html#aa8f02b8434926bcb503772b9cf798d00", null ],
     [ "mMaxBrakeTorque", "class_vehicle_track_settings.html#a0bd6cbda956b1149e646733fd5791a68", null ],
-    [ "mWheels", "class_vehicle_track_settings.html#a67c0a6b6788404b8e718769f1b3354e0", null ]
+    [ "mWheels", "class_vehicle_track_settings.html#abdcb4574025a04f9779c86d8bf3f24a4", null ]
 ];

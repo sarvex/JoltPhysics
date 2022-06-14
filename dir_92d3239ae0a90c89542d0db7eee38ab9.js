@@ -8,7 +8,5 @@ var dir_92d3239ae0a90c89542d0db7eee38ab9 =
       [ "AABBTreeBuilder", "class_a_a_b_b_tree_builder.html", "class_a_a_b_b_tree_builder" ],
       [ "AABBTreeBuilder::Node", "class_a_a_b_b_tree_builder_1_1_node.html", "class_a_a_b_b_tree_builder_1_1_node" ]
     ] ],
-    [ "AABBTreeToBuffer.h", "_a_a_b_b_tree_to_buffer_8h.html", [
-      [ "AABBTreeToBuffer< TriangleCodec, NodeCodec >", "class_a_a_b_b_tree_to_buffer.html", "class_a_a_b_b_tree_to_buffer" ]
-    ] ]
+    [ "AABBTreeToBuffer.h", "_a_a_b_b_tree_to_buffer_8h.html", "_a_a_b_b_tree_to_buffer_8h" ]
 ];

@@ -97,6 +97,7 @@ var hierarchy =
     [ "std::hash< JPH::Ref< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_3_01_t_01_4_01_4.html", null ],
     [ "std::hash< JPH::RefConst< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4.html", null ],
     [ "std::hash< JPH::StaticArray< T, N > >", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4.html", null ],
+    [ "std::hash< JPH::String >", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Header", "struct_node_codec_quad_tree_half_float_1_1_header.html", null ],
     [ "HingeRotationConstraintPart", "class_hinge_rotation_constraint_part.html", null ],
     [ "HeightFieldShape::HSGetTrianglesContext", "struct_height_field_shape_1_1_h_s_get_triangles_context.html", null ],
@@ -296,6 +297,7 @@ var hierarchy =
     [ "RayCastSettings", "class_ray_cast_settings.html", null ],
     [ "RayInvDirection", "class_ray_inv_direction.html", null ],
     [ "STLAlignedAllocator< T, N >::rebind< T2 >", "struct_s_t_l_aligned_allocator_1_1rebind.html", null ],
+    [ "STLAllocator< T >::rebind< T2 >", "struct_s_t_l_allocator_1_1rebind.html", null ],
     [ "STLTempAllocator< T >::rebind< T2 >", "struct_s_t_l_temp_allocator_1_1rebind.html", null ],
     [ "Ref< T >", "class_ref.html", null ],
     [ "Ref< Geometry >", "class_ref.html", null ],
@@ -456,6 +458,7 @@ var hierarchy =
     [ "TriangleSplitter::Stats", "struct_triangle_splitter_1_1_stats.html", null ],
     [ "PhysicsUpdateContext::Step", "struct_physics_update_context_1_1_step.html", null ],
     [ "STLAlignedAllocator< T, N >", "class_s_t_l_aligned_allocator.html", null ],
+    [ "STLAllocator< T >", "class_s_t_l_allocator.html", null ],
     [ "STLTempAllocator< T >", "class_s_t_l_temp_allocator.html", null ],
     [ "StaticArray< T, N >::Storage", "struct_static_array_1_1_storage.html", null ],
     [ "StreamIn", "class_stream_in.html", [

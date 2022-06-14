@@ -9,9 +9,9 @@ var _shape_8h =
     [ "CastShapeCollector", "_shape_8h.html#a501dee38fc3089311c7c9408ceda7401", null ],
     [ "CollidePointCollector", "_shape_8h.html#aebaf36faa66f5b466411acbe12342d70", null ],
     [ "CollideShapeCollector", "_shape_8h.html#af33744a7638d2c8e3ba97737b069f8d2", null ],
-    [ "PhysicsMaterialList", "_shape_8h.html#af61529958c37f4fa3864a411641bcbb2", null ],
+    [ "PhysicsMaterialList", "_shape_8h.html#ae22d65df49227119a635532dbc63a9a3", null ],
     [ "PhysicsMaterialRefC", "_shape_8h.html#ae4083d6c957623ad6d3735d1d515b05e", null ],
-    [ "ShapeList", "_shape_8h.html#a9e5b63e2b54c35e7635cf28772fdfc86", null ],
+    [ "ShapeList", "_shape_8h.html#aa3428b3d5af96a1e2200ae7d14057d3c", null ],
     [ "ShapeRefC", "_shape_8h.html#a840e6a4efc782d25701f730eb48ef249", null ],
     [ "TransformedShapeCollector", "_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4", null ],
     [ "EShapeSubType", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551b", [

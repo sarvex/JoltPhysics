@@ -8,7 +8,7 @@ var class_convex_shape =
       [ "ExcludeConvexRadius", "class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06bafc1094532d8eef9e23613fe6846685c1", null ],
       [ "IncludeConvexRadius", "class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06badc738ebd4ba89322ae44c2d1ec8cda9f", null ]
     ] ],
-    [ "ConvexShape", "class_convex_shape.html#a75db1ca8f2da78aa8fb4d9977d4f2392", null ],
+    [ "ConvexShape", "class_convex_shape.html#a6454ef09933ded91976c8f77bec976db", null ],
     [ "ConvexShape", "class_convex_shape.html#a221da2b420dd837cee4aeb37dd3e7078", null ],
     [ "ConvexShape", "class_convex_shape.html#a99d3262f306f702b0e6ae40ab53e6b34", null ],
     [ "CastRay", "class_convex_shape.html#ae1a5536cb1e4855bdd86433e08496b3b", null ],

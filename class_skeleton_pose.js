@@ -1,8 +1,8 @@
 var class_skeleton_pose =
 [
     [ "JointState", "class_skeleton_pose.html#ac2a127126bcbac1a033e75e7371ba94b", null ],
-    [ "JointStateVector", "class_skeleton_pose.html#ac4ca277dc88e078c9b68b0f43a68cece", null ],
-    [ "Mat44Vector", "class_skeleton_pose.html#aa6e60b4c124f5a2618e20a3dc06b0440", null ],
+    [ "JointStateVector", "class_skeleton_pose.html#a9e4d521e23999bef15f0a0fd2b5f4c91", null ],
+    [ "Mat44Vector", "class_skeleton_pose.html#a8539fe080abaa69f63d4a071404c320d", null ],
     [ "CalculateJointMatrices", "class_skeleton_pose.html#a5ede20d56bfae3b3be7c26165a34fdbc", null ],
     [ "GetJoint", "class_skeleton_pose.html#a91f801a519aa40ed65e4ff2aee71bc93", null ],
     [ "GetJoint", "class_skeleton_pose.html#ae567801b0a70313f684d36c3137328ec", null ],

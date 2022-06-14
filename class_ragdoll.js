@@ -1,6 +1,6 @@
 var class_ragdoll =
 [
-    [ "Ragdoll", "class_ragdoll.html#a861ff4e60528b683aca7c80f685b4fec", null ],
+    [ "Ragdoll", "class_ragdoll.html#abf6b6eb34e63af813cc4e394b536208e", null ],
     [ "~Ragdoll", "class_ragdoll.html#afbd932bcd7ceae5811204c5c1219d5ac", null ],
     [ "Activate", "class_ragdoll.html#a584d5a41fd6118589b420ed96272827b", null ],
     [ "AddImpulse", "class_ragdoll.html#a5ea2bcad36c7346ffd9a81dee6ab03d1", null ],
@@ -11,7 +11,7 @@ var class_ragdoll =
     [ "DriveToPoseUsingMotors", "class_ragdoll.html#a367f16f5385eb377e5419d12457c22c6", null ],
     [ "GetBodyCount", "class_ragdoll.html#a6395143c1655e5272eccdf0895d57c53", null ],
     [ "GetBodyID", "class_ragdoll.html#ac57cdfcd77dc9dce4679fcb45012083a", null ],
-    [ "GetBodyIDs", "class_ragdoll.html#a37d764ae43e84d383432b3eb8dbcdfae", null ],
+    [ "GetBodyIDs", "class_ragdoll.html#a98603396696b276256ffe74283a26fca", null ],
     [ "GetConstraint", "class_ragdoll.html#a86b347f11599361d0cf8bddcacad4295", null ],
     [ "GetConstraint", "class_ragdoll.html#a001b9a360f16a8a24d7cc547c763bbd8", null ],
     [ "GetConstraintCount", "class_ragdoll.html#a4aed9348c613c386d5cf32c25e3931f2", null ],

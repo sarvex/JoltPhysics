@@ -1,6 +1,6 @@
 var class_sphere =
 [
-    [ "Sphere", "class_sphere.html#ababfdd319764502b87b48fd1f8c5d696", null ],
+    [ "Sphere", "class_sphere.html#a1c4a9559681c92e3520ba68310805a06", null ],
     [ "Sphere", "class_sphere.html#aad6e2c3173f9261f5aa87a10a03aef94", null ],
     [ "Sphere", "class_sphere.html#aa60bc919d16366e674f90fb6b37bd7a8", null ],
     [ "EncapsulatePoint", "class_sphere.html#ae662c4e0d3f338fe5c5bfa844aaa22ea", null ],

@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('_profiler_8h.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;<a class="el" href="_non_copyable_8h_source.html">Jolt/Core/NonCopyable.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_tick_counter_8h_source.html">Jolt/Core/TickCounter.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_unordered_map_8h_source.html">Jolt/Core/UnorderedMap.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="_profiler_8inl.html">Profiler.inl</a>&quot;</code><br />
 </div>
 <p><a href="_profiler_8h_source.html">Go to the source code of this file.</a></p>
@@ -121,7 +121,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a5455272d603b90d629b74c0d64338173"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">JPH_PROFILE_THREAD_START</a>(name)&#160;&#160;&#160;<a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name)</td></tr>
+<tr class="memitem:a565915a1416629f5e8fd84ab2cbe7a14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a565915a1416629f5e8fd84ab2cbe7a14">JPH_PROFILE_START</a>(name)&#160;&#160;&#160;do { <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a> = new <a class="el" href="class_profiler.html">Profiler</a>; <a class="el" href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">JPH_PROFILE_THREAD_START</a>(name); } while (false)</td></tr>
+<tr class="memdesc:a565915a1416629f5e8fd84ab2cbe7a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start instrumenting program.  <a href="_profiler_8h.html#a565915a1416629f5e8fd84ab2cbe7a14">More...</a><br /></td></tr>
+<tr class="separator:a565915a1416629f5e8fd84ab2cbe7a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4065f7f547ab9ee221c76b6dc313425"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#ad4065f7f547ab9ee221c76b6dc313425">JPH_PROFILE_END</a>()&#160;&#160;&#160;do { <a class="el" href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">JPH_PROFILE_THREAD_END</a>(); delete <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>; <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a> = nullptr; } while (false)</td></tr>
+<tr class="memdesc:ad4065f7f547ab9ee221c76b6dc313425"><td class="mdescLeft">&#160;</td><td class="mdescRight">End instrumenting program.  <a href="_profiler_8h.html#ad4065f7f547ab9ee221c76b6dc313425">More...</a><br /></td></tr>
+<tr class="separator:ad4065f7f547ab9ee221c76b6dc313425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5455272d603b90d629b74c0d64338173"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">JPH_PROFILE_THREAD_START</a>(name)&#160;&#160;&#160;do { if (<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>) <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name); } while (false)</td></tr>
 <tr class="memdesc:a5455272d603b90d629b74c0d64338173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start instrumenting a thread.  <a href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">More...</a><br /></td></tr>
 <tr class="separator:a5455272d603b90d629b74c0d64338173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdb6d6bc05aad36435219ee5f631efc8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">JPH_PROFILE_THREAD_END</a>()&#160;&#160;&#160;do { delete <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a>; <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = nullptr; } while (false)</td></tr>
@@ -137,11 +143,11 @@ Macros</h2></td></tr>
 <tr class="memitem:a9d22d20c7f03e2ec7bf058811b12cb4e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a9d22d20c7f03e2ec7bf058811b12cb4e">JPH_PROFILE_FUNCTION</a>()&#160;&#160;&#160;<a class="el" href="_profiler_8h.html#aeea975f69380f934d24a9169e43bac9b">JPH_PROFILE</a>(JPH_FUNCTION_NAME)</td></tr>
 <tr class="memdesc:a9d22d20c7f03e2ec7bf058811b12cb4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scope profiling for function.  <a href="_profiler_8h.html#a9d22d20c7f03e2ec7bf058811b12cb4e">More...</a><br /></td></tr>
 <tr class="separator:a9d22d20c7f03e2ec7bf058811b12cb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac158343dbc5927ea288d3ef011feb288"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#ac158343dbc5927ea288d3ef011feb288">JPH_PROFILE_NEXTFRAME</a>()&#160;&#160;&#160;<a class="el" href="class_profiler.html#afc3cc44c232d261765b9a305846354cb">Profiler::sInstance.NextFrame</a>()</td></tr>
+<tr class="memitem:ac158343dbc5927ea288d3ef011feb288"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#ac158343dbc5927ea288d3ef011feb288">JPH_PROFILE_NEXTFRAME</a>()&#160;&#160;&#160;<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>-&gt;NextFrame()</td></tr>
 <tr class="memdesc:ac158343dbc5927ea288d3ef011feb288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update frame counter <br  />
   <a href="_profiler_8h.html#ac158343dbc5927ea288d3ef011feb288">More...</a><br /></td></tr>
 <tr class="separator:ac158343dbc5927ea288d3ef011feb288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fd763325a27ec4b58e54119dbf08acb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a7fd763325a27ec4b58e54119dbf08acb">JPH_PROFILE_DUMP</a>(...)&#160;&#160;&#160;<a class="el" href="class_profiler.html#a4a8f82d68bd5c67cf7ad8259487bb821">Profiler::sInstance.Dump</a>(__VA_ARGS__)</td></tr>
+<tr class="memitem:a7fd763325a27ec4b58e54119dbf08acb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a7fd763325a27ec4b58e54119dbf08acb">JPH_PROFILE_DUMP</a>(...)&#160;&#160;&#160;<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>-&gt;Dump(__VA_ARGS__)</td></tr>
 <tr class="memdesc:a7fd763325a27ec4b58e54119dbf08acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump profiling info.  <a href="_profiler_8h.html#a7fd763325a27ec4b58e54119dbf08acb">More...</a><br /></td></tr>
 <tr class="separator:a7fd763325a27ec4b58e54119dbf08acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -175,12 +181,31 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="class_profiler.html#a4a8f82d68bd5c67cf7ad8259487bb821">Profiler::sInstance.Dump</a>(__VA_ARGS__)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>-&gt;Dump(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Dump profiling info. </p>
+
+</div>
+</div>
+<a id="ad4065f7f547ab9ee221c76b6dc313425" name="ad4065f7f547ab9ee221c76b6dc313425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4065f7f547ab9ee221c76b6dc313425">&#9670;&nbsp;</a></span>JPH_PROFILE_END</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_PROFILE_END</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;do { <a class="el" href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">JPH_PROFILE_THREAD_END</a>(); delete <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>; <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a> = nullptr; } while (false)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>End instrumenting program. </p>
 
 </div>
 </div>
@@ -213,13 +238,33 @@ Macros</h2></td></tr>
           <td class="memname">#define JPH_PROFILE_NEXTFRAME</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="class_profiler.html#afc3cc44c232d261765b9a305846354cb">Profiler::sInstance.NextFrame</a>()</td>
+          <td>&#160;&#160;&#160;<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>-&gt;NextFrame()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Update frame counter <br  />
  </p>
+
+</div>
+</div>
+<a id="a565915a1416629f5e8fd84ab2cbe7a14" name="a565915a1416629f5e8fd84ab2cbe7a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a565915a1416629f5e8fd84ab2cbe7a14">&#9670;&nbsp;</a></span>JPH_PROFILE_START</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_PROFILE_START</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name</td><td>)</td>
+          <td>&#160;&#160;&#160;do { <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a> = new <a class="el" href="class_profiler.html">Profiler</a>; <a class="el" href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">JPH_PROFILE_THREAD_START</a>(name); } while (false)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start instrumenting program. </p>
 
 </div>
 </div>
@@ -291,7 +336,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name)</td>
+          <td>&#160;&#160;&#160;do { if (<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>) <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name); } while (false)</td>
         </tr>
       </table>
 </div><div class="memdoc">

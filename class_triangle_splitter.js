@@ -10,8 +10,8 @@ var class_triangle_splitter =
     [ "GetVertices", "class_triangle_splitter.html#a4ca9c0334863bd8615fbe9e498cfde44", null ],
     [ "Split", "class_triangle_splitter.html#ad9cb9d125c24255c964427e186e5076e", null ],
     [ "SplitInternal", "class_triangle_splitter.html#a1264db44ab782cdb4d8e3b7857422c1a", null ],
-    [ "mCentroids", "class_triangle_splitter.html#afdd850918d19cba5139eaaa5190ce2ef", null ],
-    [ "mSortedTriangleIdx", "class_triangle_splitter.html#a86e7bc3a0bf6791a7eff53a5afe64475", null ],
+    [ "mCentroids", "class_triangle_splitter.html#a164a63157cb133c324cd2664f6b6f678", null ],
+    [ "mSortedTriangleIdx", "class_triangle_splitter.html#ae62e9b953580dd5abf55e50985418829", null ],
     [ "mTriangles", "class_triangle_splitter.html#ae13f91686abe55d9a87f2f5685b6268e", null ],
     [ "mVertices", "class_triangle_splitter.html#a537998b55d090598c884630c73bde5f1", null ]
 ];

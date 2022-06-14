@@ -147,8 +147,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a11c1ce0984dccb67176566d78331375e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a> = <a class="el" href="class_shape_settings.html#a988ca04438dfad8edfe4e16d5394b6a8">ShapeSettings::ShapeResult</a></td></tr>
 <tr class="separator:a11c1ce0984dccb67176566d78331375e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1d783dac8baf0e401e2d10d6b29b32d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ad1d783dac8baf0e401e2d10d6b29b32d">VisitedShapes</a> = unordered_set&lt; const <a class="el" href="class_shape.html">Shape</a> * &gt;</td></tr>
-<tr class="separator:ad1d783dac8baf0e401e2d10d6b29b32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff02f0117147a8f7eb43e9c5a50e969"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#afff02f0117147a8f7eb43e9c5a50e969">VisitedShapes</a> = <a class="el" href="_unordered_set_8h.html#a39ce163cb8505dce2cf2963bab501b29">UnorderedSet</a>&lt; const <a class="el" href="class_shape.html">Shape</a> * &gt;</td></tr>
+<tr class="separator:afff02f0117147a8f7eb43e9c5a50e969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -220,7 +220,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a87ae161e649ab6af75a60fe130dd195b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_shape_1_1_stats.html">Stats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a87ae161e649ab6af75a60fe130dd195b">GetStats</a> () const =0</td></tr>
 <tr class="memdesc:a87ae161e649ab6af75a60fe130dd195b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get stats of this shape. Use for logging / data collection purposes only. Does not add values from child shapes, use GetStatsRecursive for this.  <a href="class_shape.html#a87ae161e649ab6af75a60fe130dd195b">More...</a><br /></td></tr>
 <tr class="separator:a87ae161e649ab6af75a60fe130dd195b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae90566019bdce3edf3be921044b38ea6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_shape_1_1_stats.html">Stats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ae90566019bdce3edf3be921044b38ea6">GetStatsRecursive</a> (<a class="el" href="class_shape.html#ad1d783dac8baf0e401e2d10d6b29b32d">VisitedShapes</a> &amp;ioVisitedShapes) const</td></tr>
+<tr class="memitem:ae90566019bdce3edf3be921044b38ea6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_shape_1_1_stats.html">Stats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ae90566019bdce3edf3be921044b38ea6">GetStatsRecursive</a> (<a class="el" href="class_shape.html#afff02f0117147a8f7eb43e9c5a50e969">VisitedShapes</a> &amp;ioVisitedShapes) const</td></tr>
 <tr class="memdesc:ae90566019bdce3edf3be921044b38ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume of this shape (m^3). Note that for compound shapes the volume may be incorrect since child shapes can overlap which is not accounted for.  <a href="class_shape.html#ae90566019bdce3edf3be921044b38ea6">More...</a><br /></td></tr>
 <tr class="separator:ae90566019bdce3edf3be921044b38ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b07e3d1b554ff77d18e86af7cd451b7"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a2b07e3d1b554ff77d18e86af7cd451b7">GetVolume</a> () const =0</td></tr>
@@ -236,8 +236,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3110b9f511287f881d7afaf26871e1b inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#ac3110b9f511287f881d7afaf26871e1b">~RefTarget</a> ()</td></tr>
 <tr class="memdesc:ac3110b9f511287f881d7afaf26871e1b inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">assert no one is referencing us  <a href="class_ref_target.html#ac3110b9f511287f881d7afaf26871e1b">More...</a><br /></td></tr>
 <tr class="separator:ac3110b9f511287f881d7afaf26871e1b inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95564da01497c62572a6718dad400097 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a95564da01497c62572a6718dad400097">SetEmbedded</a> ()</td></tr>
-<tr class="separator:a95564da01497c62572a6718dad400097 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3befa746ea517453572f6f4f5fc3b099 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a3befa746ea517453572f6f4f5fc3b099">SetEmbedded</a> () const</td></tr>
+<tr class="separator:a3befa746ea517453572f6f4f5fc3b099 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fc15bfe979bc43a7fa71c7c34f87ed0 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_target.html">RefTarget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0">operator=</a> (const <a class="el" href="class_ref_target.html">RefTarget</a> &amp;)</td></tr>
 <tr class="memdesc:a1fc15bfe979bc43a7fa71c7c34f87ed0 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0">More...</a><br /></td></tr>
 <tr class="separator:a1fc15bfe979bc43a7fa71c7c34f87ed0 inherit pub_methods_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,36 +272,36 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Binary serialization of the shape. Note that this saves the 'cooked' shape in a format which will not be backwards compatible for newer library versions.</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p ><a class="anchor" id="amgrp76d803198e62ca087e1668df5b76d4a9"></a> In this case you need to recreate the shape from the <a class="el" href="class_shape_settings.html">ShapeSettings</a> object and save it again. The user is expected to call SaveBinaryState followed by SaveMaterialState and SaveSubShapeState. The stream should be stored as is and the material and shape list should be saved using the applications own serialization system (e.g. by assigning an ID to each pointer). When restoring data, call sRestoreFromBinararyState to get the shape and then call RestoreMaterialState and RestoreSubShapeState to restore the pointers to the external objects. </p>
 </td></tr>
-<tr class="memitem:aa623247fbd4f8f5efcea5a1651d70312"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#aa623247fbd4f8f5efcea5a1651d70312">ShapeToIDMap</a> = unordered_map&lt; const <a class="el" href="class_shape.html">Shape</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
-<tr class="separator:aa623247fbd4f8f5efcea5a1651d70312"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a8bf8991076a58a05e43015a95e9004"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a4a8bf8991076a58a05e43015a95e9004">MaterialToIDMap</a> = unordered_map&lt; const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
-<tr class="separator:a4a8bf8991076a58a05e43015a95e9004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a6588afebc44a236d6feb009b5410e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a4a6588afebc44a236d6feb009b5410e2">IDToShapeMap</a> = vector&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;</td></tr>
-<tr class="separator:a4a6588afebc44a236d6feb009b5410e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa14c15359b18950c8c700cc6e160caa3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#aa14c15359b18950c8c700cc6e160caa3">IDToMaterialMap</a> = vector&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_physics_material.html">PhysicsMaterial</a> &gt; &gt;</td></tr>
-<tr class="separator:aa14c15359b18950c8c700cc6e160caa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17f6d90d84ed39971b4408ce427ca1a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#aa17f6d90d84ed39971b4408ce427ca1a">ShapeToIDMap</a> = <a class="el" href="_unordered_map_8h.html#afb92ed4335ee1177f5c41d6fc04a5d5d">UnorderedMap</a>&lt; const <a class="el" href="class_shape.html">Shape</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
+<tr class="separator:aa17f6d90d84ed39971b4408ce427ca1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10a87ae287e21f1eb7d25e5d3a0fda6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ad10a87ae287e21f1eb7d25e5d3a0fda6">MaterialToIDMap</a> = <a class="el" href="_unordered_map_8h.html#afb92ed4335ee1177f5c41d6fc04a5d5d">UnorderedMap</a>&lt; const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
+<tr class="separator:ad10a87ae287e21f1eb7d25e5d3a0fda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b42d6a279c283e615c066bf6946c0a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a48b42d6a279c283e615c066bf6946c0a">IDToShapeMap</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;</td></tr>
+<tr class="separator:a48b42d6a279c283e615c066bf6946c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5536e80a6795d8fdc68da9db38aebd4a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a5536e80a6795d8fdc68da9db38aebd4a">IDToMaterialMap</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_physics_material.html">PhysicsMaterial</a> &gt; &gt;</td></tr>
+<tr class="separator:a5536e80a6795d8fdc68da9db38aebd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0035a8aa07e9e071f6a64edb45146363"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a0035a8aa07e9e071f6a64edb45146363">SaveBinaryState</a> (<a class="el" href="class_stream_out.html">StreamOut</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a0035a8aa07e9e071f6a64edb45146363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the contents of the shape in binary form to inStream.  <a href="class_shape.html#a0035a8aa07e9e071f6a64edb45146363">More...</a><br /></td></tr>
 <tr class="separator:a0035a8aa07e9e071f6a64edb45146363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff903d54f10469f51e1862b32406845"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a6ff903d54f10469f51e1862b32406845">SaveMaterialState</a> (<a class="el" href="_physics_material_8h.html#a1b83937cfd0227fefa6aa764d6a6216d">PhysicsMaterialList</a> &amp;outMaterials) const</td></tr>
+<tr class="memitem:a6ff903d54f10469f51e1862b32406845"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a6ff903d54f10469f51e1862b32406845">SaveMaterialState</a> (<a class="el" href="_physics_material_8h.html#a9523ada17142ddf05aa79e8a98c8abb7">PhysicsMaterialList</a> &amp;outMaterials) const</td></tr>
 <tr class="memdesc:a6ff903d54f10469f51e1862b32406845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs the material references that this shape has to outMaterials.  <a href="class_shape.html#a6ff903d54f10469f51e1862b32406845">More...</a><br /></td></tr>
 <tr class="separator:a6ff903d54f10469f51e1862b32406845"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e823e7198f22ec824cacf9998d9904c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a6e823e7198f22ec824cacf9998d9904c">RestoreMaterialState</a> (const <a class="el" href="_shape_8h.html#ae4083d6c957623ad6d3735d1d515b05e">PhysicsMaterialRefC</a> *inMaterials, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumMaterials)</td></tr>
 <tr class="memdesc:a6e823e7198f22ec824cacf9998d9904c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the material references after calling sRestoreFromBinaryState. Note that the exact same materials need to be provided in the same order as returned by SaveMaterialState.  <a href="class_shape.html#a6e823e7198f22ec824cacf9998d9904c">More...</a><br /></td></tr>
 <tr class="separator:a6e823e7198f22ec824cacf9998d9904c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09215d250a425cca2e9b4bed32761bc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a09215d250a425cca2e9b4bed32761bc4">SaveSubShapeState</a> (<a class="el" href="_shape_8h.html#a9e5b63e2b54c35e7635cf28772fdfc86">ShapeList</a> &amp;outSubShapes) const</td></tr>
+<tr class="memitem:a09215d250a425cca2e9b4bed32761bc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a09215d250a425cca2e9b4bed32761bc4">SaveSubShapeState</a> (<a class="el" href="_shape_8h.html#aa3428b3d5af96a1e2200ae7d14057d3c">ShapeList</a> &amp;outSubShapes) const</td></tr>
 <tr class="memdesc:a09215d250a425cca2e9b4bed32761bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs the shape references that this shape has to outSubShapes.  <a href="class_shape.html#a09215d250a425cca2e9b4bed32761bc4">More...</a><br /></td></tr>
 <tr class="separator:a09215d250a425cca2e9b4bed32761bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4de39f5e4972919f1211ec73520b1d8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ab4de39f5e4972919f1211ec73520b1d8">RestoreSubShapeState</a> (const <a class="el" href="_shape_8h.html#a840e6a4efc782d25701f730eb48ef249">ShapeRefC</a> *inSubShapes, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumShapes)</td></tr>
 <tr class="memdesc:ab4de39f5e4972919f1211ec73520b1d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the shape references after calling sRestoreFromBinaryState. Note that the exact same shapes need to be provided in the same order as returned by SaveSubShapeState.  <a href="class_shape.html#ab4de39f5e4972919f1211ec73520b1d8">More...</a><br /></td></tr>
 <tr class="separator:ab4de39f5e4972919f1211ec73520b1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29511616de01507e714e8187686bc9f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a29511616de01507e714e8187686bc9f1">SaveWithChildren</a> (<a class="el" href="class_stream_out.html">StreamOut</a> &amp;inStream, <a class="el" href="class_shape.html#aa623247fbd4f8f5efcea5a1651d70312">ShapeToIDMap</a> &amp;ioShapeMap, <a class="el" href="class_shape.html#a4a8bf8991076a58a05e43015a95e9004">MaterialToIDMap</a> &amp;ioMaterialMap) const</td></tr>
+<tr class="memitem:a29511616de01507e714e8187686bc9f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a29511616de01507e714e8187686bc9f1">SaveWithChildren</a> (<a class="el" href="class_stream_out.html">StreamOut</a> &amp;inStream, <a class="el" href="class_shape.html#aa17f6d90d84ed39971b4408ce427ca1a">ShapeToIDMap</a> &amp;ioShapeMap, <a class="el" href="class_shape.html#ad10a87ae287e21f1eb7d25e5d3a0fda6">MaterialToIDMap</a> &amp;ioMaterialMap) const</td></tr>
 <tr class="memdesc:a29511616de01507e714e8187686bc9f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save this shape, all its children and its materials. Pass in an empty map in ioShapeMap / ioMaterialMap or reuse the same map while saving multiple shapes to the same stream in order to avoid writing duplicates.  <a href="class_shape.html#a29511616de01507e714e8187686bc9f1">More...</a><br /></td></tr>
 <tr class="separator:a29511616de01507e714e8187686bc9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e4794eda984be9d44335e38824eb1bb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a6e4794eda984be9d44335e38824eb1bb">sRestoreFromBinaryState</a> (<a class="el" href="class_stream_in.html">StreamIn</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a6e4794eda984be9d44335e38824eb1bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="class_shape.html" title="Base class for all shapes (collision volume of a body). Defines a virtual interface for collision det...">Shape</a> of the correct type and restores its contents from the binary stream inStream.  <a href="class_shape.html#a6e4794eda984be9d44335e38824eb1bb">More...</a><br /></td></tr>
 <tr class="separator:a6e4794eda984be9d44335e38824eb1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439b98c1569fb5d44570446306823f5e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a439b98c1569fb5d44570446306823f5e">sRestoreWithChildren</a> (<a class="el" href="class_stream_in.html">StreamIn</a> &amp;inStream, <a class="el" href="class_shape.html#a4a6588afebc44a236d6feb009b5410e2">IDToShapeMap</a> &amp;ioShapeMap, <a class="el" href="class_shape.html#aa14c15359b18950c8c700cc6e160caa3">IDToMaterialMap</a> &amp;ioMaterialMap)</td></tr>
+<tr class="memitem:a439b98c1569fb5d44570446306823f5e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a439b98c1569fb5d44570446306823f5e">sRestoreWithChildren</a> (<a class="el" href="class_stream_in.html">StreamIn</a> &amp;inStream, <a class="el" href="class_shape.html#a48b42d6a279c283e615c066bf6946c0a">IDToShapeMap</a> &amp;ioShapeMap, <a class="el" href="class_shape.html#a5536e80a6795d8fdc68da9db38aebd4a">IDToMaterialMap</a> &amp;ioMaterialMap)</td></tr>
 <tr class="memdesc:a439b98c1569fb5d44570446306823f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore a shape, all its children and materials. Pass in an empty map in ioShapeMap / ioMaterialMap or reuse the same map while reading multiple shapes from the same stream in order to restore duplicates.  <a href="class_shape.html#a439b98c1569fb5d44570446306823f5e">More...</a><br /></td></tr>
 <tr class="separator:a439b98c1569fb5d44570446306823f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -323,42 +323,42 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Base class for all shapes (collision volume of a body). Defines a virtual interface for collision detection. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aa14c15359b18950c8c700cc6e160caa3" name="aa14c15359b18950c8c700cc6e160caa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa14c15359b18950c8c700cc6e160caa3">&#9670;&nbsp;</a></span>IDToMaterialMap</h2>
+<a id="a5536e80a6795d8fdc68da9db38aebd4a" name="a5536e80a6795d8fdc68da9db38aebd4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5536e80a6795d8fdc68da9db38aebd4a">&#9670;&nbsp;</a></span>IDToMaterialMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_shape.html#aa14c15359b18950c8c700cc6e160caa3">Shape::IDToMaterialMap</a> =  vector&lt;<a class="el" href="class_ref.html">Ref</a>&lt;<a class="el" href="class_physics_material.html">PhysicsMaterial</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="class_shape.html#a5536e80a6795d8fdc68da9db38aebd4a">Shape::IDToMaterialMap</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_ref.html">Ref</a>&lt;<a class="el" href="class_physics_material.html">PhysicsMaterial</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4a6588afebc44a236d6feb009b5410e2" name="a4a6588afebc44a236d6feb009b5410e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a6588afebc44a236d6feb009b5410e2">&#9670;&nbsp;</a></span>IDToShapeMap</h2>
+<a id="a48b42d6a279c283e615c066bf6946c0a" name="a48b42d6a279c283e615c066bf6946c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48b42d6a279c283e615c066bf6946c0a">&#9670;&nbsp;</a></span>IDToShapeMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_shape.html#a4a6588afebc44a236d6feb009b5410e2">Shape::IDToShapeMap</a> =  vector&lt;<a class="el" href="class_ref.html">Ref</a>&lt;<a class="el" href="class_shape.html">Shape</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="class_shape.html#a48b42d6a279c283e615c066bf6946c0a">Shape::IDToShapeMap</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_ref.html">Ref</a>&lt;<a class="el" href="class_shape.html">Shape</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4a8bf8991076a58a05e43015a95e9004" name="a4a8bf8991076a58a05e43015a95e9004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a8bf8991076a58a05e43015a95e9004">&#9670;&nbsp;</a></span>MaterialToIDMap</h2>
+<a id="ad10a87ae287e21f1eb7d25e5d3a0fda6" name="ad10a87ae287e21f1eb7d25e5d3a0fda6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10a87ae287e21f1eb7d25e5d3a0fda6">&#9670;&nbsp;</a></span>MaterialToIDMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_shape.html#a4a8bf8991076a58a05e43015a95e9004">Shape::MaterialToIDMap</a> =  unordered_map&lt;const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_shape.html#ad10a87ae287e21f1eb7d25e5d3a0fda6">Shape::MaterialToIDMap</a> =  <a class="el" href="_unordered_map_8h.html#afb92ed4335ee1177f5c41d6fc04a5d5d">UnorderedMap</a>&lt;const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -379,28 +379,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa623247fbd4f8f5efcea5a1651d70312" name="aa623247fbd4f8f5efcea5a1651d70312"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa623247fbd4f8f5efcea5a1651d70312">&#9670;&nbsp;</a></span>ShapeToIDMap</h2>
+<a id="aa17f6d90d84ed39971b4408ce427ca1a" name="aa17f6d90d84ed39971b4408ce427ca1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17f6d90d84ed39971b4408ce427ca1a">&#9670;&nbsp;</a></span>ShapeToIDMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_shape.html#aa623247fbd4f8f5efcea5a1651d70312">Shape::ShapeToIDMap</a> =  unordered_map&lt;const <a class="el" href="class_shape.html">Shape</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_shape.html#aa17f6d90d84ed39971b4408ce427ca1a">Shape::ShapeToIDMap</a> =  <a class="el" href="_unordered_map_8h.html#afb92ed4335ee1177f5c41d6fc04a5d5d">UnorderedMap</a>&lt;const <a class="el" href="class_shape.html">Shape</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad1d783dac8baf0e401e2d10d6b29b32d" name="ad1d783dac8baf0e401e2d10d6b29b32d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1d783dac8baf0e401e2d10d6b29b32d">&#9670;&nbsp;</a></span>VisitedShapes</h2>
+<a id="afff02f0117147a8f7eb43e9c5a50e969" name="afff02f0117147a8f7eb43e9c5a50e969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff02f0117147a8f7eb43e9c5a50e969">&#9670;&nbsp;</a></span>VisitedShapes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_shape.html#ad1d783dac8baf0e401e2d10d6b29b32d">Shape::VisitedShapes</a> =  unordered_set&lt;const <a class="el" href="class_shape.html">Shape</a> *&gt;</td>
+          <td class="memname">using <a class="el" href="class_shape.html#afff02f0117147a8f7eb43e9c5a50e969">Shape::VisitedShapes</a> =  <a class="el" href="_unordered_set_8h.html#a39ce163cb8505dce2cf2963bab501b29">UnorderedSet</a>&lt;const <a class="el" href="class_shape.html">Shape</a> *&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -930,7 +930,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="struct_shape_1_1_stats.html">Shape::Stats</a> Shape::GetStatsRecursive </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_shape.html#ad1d783dac8baf0e401e2d10d6b29b32d">VisitedShapes</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_shape.html#afff02f0117147a8f7eb43e9c5a50e969">VisitedShapes</a> &amp;&#160;</td>
           <td class="paramname"><em>ioVisitedShapes</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1655,7 +1655,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual void Shape::SaveMaterialState </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_physics_material_8h.html#a1b83937cfd0227fefa6aa764d6a6216d">PhysicsMaterialList</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_physics_material_8h.html#a9523ada17142ddf05aa79e8a98c8abb7">PhysicsMaterialList</a> &amp;&#160;</td>
           <td class="paramname"><em>outMaterials</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1685,7 +1685,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual void Shape::SaveSubShapeState </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_shape_8h.html#a9e5b63e2b54c35e7635cf28772fdfc86">ShapeList</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_shape_8h.html#aa3428b3d5af96a1e2200ae7d14057d3c">ShapeList</a> &amp;&#160;</td>
           <td class="paramname"><em>outSubShapes</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1718,13 +1718,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_shape.html#aa623247fbd4f8f5efcea5a1651d70312">ShapeToIDMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_shape.html#aa17f6d90d84ed39971b4408ce427ca1a">ShapeToIDMap</a> &amp;&#160;</td>
           <td class="paramname"><em>ioShapeMap</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_shape.html#a4a8bf8991076a58a05e43015a95e9004">MaterialToIDMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_shape.html#ad10a87ae287e21f1eb7d25e5d3a0fda6">MaterialToIDMap</a> &amp;&#160;</td>
           <td class="paramname"><em>ioMaterialMap</em>&#160;</td>
         </tr>
         <tr>
@@ -1835,13 +1835,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_shape.html#a4a6588afebc44a236d6feb009b5410e2">IDToShapeMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_shape.html#a48b42d6a279c283e615c066bf6946c0a">IDToShapeMap</a> &amp;&#160;</td>
           <td class="paramname"><em>ioShapeMap</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_shape.html#aa14c15359b18950c8c700cc6e160caa3">IDToMaterialMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_shape.html#a5536e80a6795d8fdc68da9db38aebd4a">IDToMaterialMap</a> &amp;&#160;</td>
           <td class="paramname"><em>ioMaterialMap</em>&#160;</td>
         </tr>
         <tr>

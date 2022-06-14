@@ -6,7 +6,7 @@ var _type_declarations_8cpp =
     [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a0d364d20a949b53123721b4a1dadd211", null ],
     [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a2b010525b68e5c2a57eb1025be64d97f", null ],
     [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a9b9cfd1ad3f7bc0cebce9c1b56cb6269", null ],
-    [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a14368ea43f4ce4f5ea0ba52e37759e07", null ],
+    [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a4669015ea8629e3740f310ae91eef460", null ],
     [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a6e266be4d9b6001f95cdc7f0c00a1466", null ],
     [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a2cb138a68f4b62b2f2eca331965db174", null ],
     [ "JPH_IMPLEMENT_RTTI_OUTSIDE_CLASS", "_type_declarations_8cpp.html#a221b2591d49ca3ada970057fcc3f2225", null ],

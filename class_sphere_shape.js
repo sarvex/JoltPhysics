@@ -2,7 +2,7 @@ var class_sphere_shape =
 [
     [ "SphereNoConvex", "class_sphere_shape_1_1_sphere_no_convex.html", "class_sphere_shape_1_1_sphere_no_convex" ],
     [ "SphereWithConvex", "class_sphere_shape_1_1_sphere_with_convex.html", "class_sphere_shape_1_1_sphere_with_convex" ],
-    [ "SphereShape", "class_sphere_shape.html#aa2913c0a53028bbcd613640093f5991e", null ],
+    [ "SphereShape", "class_sphere_shape.html#a6a7e1d71ee2a8f08aa3fe20e079c586e", null ],
     [ "SphereShape", "class_sphere_shape.html#a9a858fa962e57907a10dff50bca7b8b5", null ],
     [ "SphereShape", "class_sphere_shape.html#a500c89d354a98bdec5597e302f9babf3", null ],
     [ "CastRay", "class_sphere_shape.html#a355bc794c757307e88159557d0f43d79", null ],

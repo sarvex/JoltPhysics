@@ -3,7 +3,7 @@ var searchData=
   ['nextframe_0',['NextFrame',['../class_profiler.html#afc3cc44c232d261765b9a305846354cb',1,'Profiler']]],
   ['nibbletobinary_1',['NibbleToBinary',['../_string_tools_8h.html#a479eac2df35b47887f8dbfa014f6923d',1,'NibbleToBinary(uint32 inNibble):&#160;StringTools.cpp'],['../_string_tools_8cpp.html#a479eac2df35b47887f8dbfa014f6923d',1,'NibbleToBinary(uint32 inNibble):&#160;StringTools.cpp']]],
   ['node_2',['Node',['../class_a_a_b_b_tree_builder_1_1_node.html#a8db3648f4a90b334c170c51f4545b2c0',1,'AABBTreeBuilder::Node']]],
-  ['nodeallocate_3',['NodeAllocate',['../class_node_codec_quad_tree_half_float_1_1_encoding_context.html#a52089de2c737077afccd45dbfb8d0e18',1,'NodeCodecQuadTreeHalfFloat::EncodingContext']]],
+  ['nodeallocate_3',['NodeAllocate',['../class_node_codec_quad_tree_half_float_1_1_encoding_context.html#ac621a13ec8689e7cc9ff1fb995115874',1,'NodeCodecQuadTreeHalfFloat::EncodingContext']]],
   ['nodefinalize_4',['NodeFinalize',['../class_node_codec_quad_tree_half_float_1_1_encoding_context.html#a500c6a27c04555f154c00b5ad85654d3',1,'NodeCodecQuadTreeHalfFloat::EncodingContext']]],
   ['noncopyable_5',['NonCopyable',['../class_non_copyable.html#a501d34ffcc34b30de6d541887a901057',1,'NonCopyable::NonCopyable(const NonCopyable &amp;)=delete'],['../class_non_copyable.html#a809b6e4ade7ae32f6d248f2a3b783d45',1,'NonCopyable::NonCopyable()=default']]],
   ['normalized_6',['Normalized',['../class_vec3.html#a0f7559f2691ad67826f42ca19916b7a9',1,'Vec3::Normalized()'],['../class_vec4.html#a5e1fefaa806551ca4fae202b62965e93',1,'Vec4::Normalized()'],['../class_vector.html#a0bd36049fd0025624665df06e1e390ff',1,'Vector::Normalized()'],['../class_quat.html#a9d4b1ee8c4685a4589766e1c8cacc268',1,'Quat::Normalized()']]],
