@@ -27,6 +27,7 @@ var dir_aa37033c5611f3a5cff668cf59181100 =
     ] ],
     [ "Quat.inl", "_quat_8inl.html", null ],
     [ "Swizzle.h", "_swizzle_8h.html", null ],
+    [ "Trigonometry.h", "_trigonometry_8h.html", "_trigonometry_8h" ],
     [ "UVec4.cpp", "_u_vec4_8cpp.html", null ],
     [ "UVec4.h", "_u_vec4_8h.html", [
       [ "UVec4", "class_u_vec4.html", "class_u_vec4" ]

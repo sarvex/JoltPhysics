@@ -30,8 +30,9 @@ var searchData=
   ['trianglesplittermean_2eh_27',['TriangleSplitterMean.h',['../_triangle_splitter_mean_8h.html',1,'']]],
   ['trianglesplittermorton_2ecpp_28',['TriangleSplitterMorton.cpp',['../_triangle_splitter_morton_8cpp.html',1,'']]],
   ['trianglesplittermorton_2eh_29',['TriangleSplitterMorton.h',['../_triangle_splitter_morton_8h.html',1,'']]],
-  ['twobodyconstraint_2ecpp_30',['TwoBodyConstraint.cpp',['../_two_body_constraint_8cpp.html',1,'']]],
-  ['twobodyconstraint_2eh_31',['TwoBodyConstraint.h',['../_two_body_constraint_8h.html',1,'']]],
-  ['typedeclarations_2ecpp_32',['TypeDeclarations.cpp',['../_type_declarations_8cpp.html',1,'']]],
-  ['typedeclarations_2eh_33',['TypeDeclarations.h',['../_type_declarations_8h.html',1,'']]]
+  ['trigonometry_2eh_30',['Trigonometry.h',['../_trigonometry_8h.html',1,'']]],
+  ['twobodyconstraint_2ecpp_31',['TwoBodyConstraint.cpp',['../_two_body_constraint_8cpp.html',1,'']]],
+  ['twobodyconstraint_2eh_32',['TwoBodyConstraint.h',['../_two_body_constraint_8h.html',1,'']]],
+  ['typedeclarations_2ecpp_33',['TypeDeclarations.cpp',['../_type_declarations_8cpp.html',1,'']]],
+  ['typedeclarations_2eh_34',['TypeDeclarations.h',['../_type_declarations_8h.html',1,'']]]
 ];

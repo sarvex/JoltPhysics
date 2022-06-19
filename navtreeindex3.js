@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"_ray_a_a_box8_8h.html#a206c515c138809481c54c52af48355f1":[4,0,1,2,21,0],
 "_ray_a_a_box8_8h_source.html":[4,0,1,2,21],
 "_ray_a_a_box_8h.html":[4,0,1,2,20],
 "_ray_a_a_box_8h.html#a47b273497f8309ea15797696f48f41ad":[4,0,1,2,20,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "_tick_counter_8h.html#ae23ab4860bcfb31beb5c9905f23426c1":[4,0,1,1,46,0],
 "_tick_counter_8h_source.html":[4,0,1,1,46],
 "_tracked_vehicle_controller_8cpp.html":[4,0,1,5,5,0],
-"_tracked_vehicle_controller_8cpp.html#a0749145a349e1a00cb3a991296540235":[4,0,1,5,5,0,1],
-"_tracked_vehicle_controller_8cpp.html#a2f27e133cbe090ced4a2382ffe497b11":[4,0,1,5,5,0,0]
+"_tracked_vehicle_controller_8cpp.html#a0749145a349e1a00cb3a991296540235":[4,0,1,5,5,0,1]
 };

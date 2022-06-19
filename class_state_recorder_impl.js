@@ -2,6 +2,7 @@ var class_state_recorder_impl =
 [
     [ "StateRecorderImpl", "class_state_recorder_impl.html#a032ad810f2ab41da508ff62b35a93286", null ],
     [ "StateRecorderImpl", "class_state_recorder_impl.html#ac2062cdb1fffa9de6f0a4ca56c610573", null ],
+    [ "GetData", "class_state_recorder_impl.html#a369ad05841edbb115007fe8632ce963f", null ],
     [ "IsEOF", "class_state_recorder_impl.html#a3b68bb167e95e3bfe5777fc1c6f5b398", null ],
     [ "IsEqual", "class_state_recorder_impl.html#aeb311a860d29ccff107125d907359466", null ],
     [ "IsFailed", "class_state_recorder_impl.html#a30053c8a2baa5e3cb4e5e26c37afda05", null ],

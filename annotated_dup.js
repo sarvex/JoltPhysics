@@ -4,7 +4,8 @@ var annotated_dup =
       [ "hash< JPH::Ref< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_3_01_t_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_ref_3_01_t_01_4_01_4" ],
       [ "hash< JPH::RefConst< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4" ],
       [ "hash< JPH::StaticArray< T, N > >", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4" ],
-      [ "hash< JPH::String >", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4" ]
+      [ "hash< JPH::String >", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4" ],
+      [ "hash< JPH::SubShapeIDPair >", "structstd_1_1hash_3_01_j_p_h_1_1_sub_shape_i_d_pair_01_4.html", "structstd_1_1hash_3_01_j_p_h_1_1_sub_shape_i_d_pair_01_4" ]
     ] ],
     [ "AABBTreeBuilder", "class_a_a_b_b_tree_builder.html", "class_a_a_b_b_tree_builder" ],
     [ "AABBTreeBuilderStats", "struct_a_a_b_b_tree_builder_stats.html", "struct_a_a_b_b_tree_builder_stats" ],

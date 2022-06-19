@@ -42,6 +42,7 @@ var class_vec4 =
     [ "SetY", "class_vec4.html#a957c474862f9e846a9ff1dce1a930aeb", null ],
     [ "SetZ", "class_vec4.html#a7b9e638ffb2e387617e3d0062c5abfda", null ],
     [ "sGatherFloat4", "class_vec4.html#a8b0e5b020ac6f5248315b94216ae6acc", null ],
+    [ "SinCos", "class_vec4.html#af7e7da5ada5c3e85aac45d62871a867c", null ],
     [ "SplatW", "class_vec4.html#aa890d45169669b6845a2770a72166fcf", null ],
     [ "SplatX", "class_vec4.html#a02525e7f8473c93268058324115eeb02", null ],
     [ "SplatY", "class_vec4.html#a7ea3bcf62a6055b45527f720a51d0005", null ],

@@ -145,12 +145,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99097bb01c8c980e4fe1be3bc63c8415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6ead3c7440e19213eac4119236964d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lock_free_hash_map.html#a7c6ead3c7440e19213eac4119236964d">SetNumBuckets</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNumBuckets)</td></tr>
 <tr class="separator:a7c6ead3c7440e19213eac4119236964d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d07789b4671c0bce47bcb56e1f74083"><td class="memTemplParams" colspan="2">template&lt;class... Params&gt; </td></tr>
-<tr class="memitem:a8d07789b4671c0bce47bcb56e1f74083"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_lock_free_hash_map_1_1_key_value.html">KeyValue</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_lock_free_hash_map.html#a8d07789b4671c0bce47bcb56e1f74083">Create</a> (<a class="el" href="class_l_f_h_m_allocator_context.html">LFHMAllocatorContext</a> &amp;ioContext, const Key &amp;inKey, size_t inKeyHash, int inExtraBytes, Params &amp;&amp;... inConstructorParams)</td></tr>
-<tr class="separator:a8d07789b4671c0bce47bcb56e1f74083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac25e4bb4f54e3afc5caccc9ef2f4ebe6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_lock_free_hash_map_1_1_key_value.html">KeyValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lock_free_hash_map.html#ac25e4bb4f54e3afc5caccc9ef2f4ebe6">Find</a> (const Key &amp;inKey, size_t inKeyHash) const</td></tr>
-<tr class="memdesc:ac25e4bb4f54e3afc5caccc9ef2f4ebe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an element, returns null if not found.  <a href="class_lock_free_hash_map.html#ac25e4bb4f54e3afc5caccc9ef2f4ebe6">More...</a><br /></td></tr>
-<tr class="separator:ac25e4bb4f54e3afc5caccc9ef2f4ebe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a758f6a4dbf7bb4e25bac764a948266"><td class="memTemplParams" colspan="2">template&lt;class... Params&gt; </td></tr>
+<tr class="memitem:a9a758f6a4dbf7bb4e25bac764a948266"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_lock_free_hash_map_1_1_key_value.html">KeyValue</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_lock_free_hash_map.html#a9a758f6a4dbf7bb4e25bac764a948266">Create</a> (<a class="el" href="class_l_f_h_m_allocator_context.html">LFHMAllocatorContext</a> &amp;ioContext, const Key &amp;inKey, <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> inKeyHash, int inExtraBytes, Params &amp;&amp;... inConstructorParams)</td></tr>
+<tr class="separator:a9a758f6a4dbf7bb4e25bac764a948266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0f1e866eba5975400db74cc3da6913"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_lock_free_hash_map_1_1_key_value.html">KeyValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lock_free_hash_map.html#abf0f1e866eba5975400db74cc3da6913">Find</a> (const Key &amp;inKey, <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> inKeyHash) const</td></tr>
+<tr class="memdesc:abf0f1e866eba5975400db74cc3da6913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an element, returns null if not found.  <a href="class_lock_free_hash_map.html#abf0f1e866eba5975400db74cc3da6913">More...</a><br /></td></tr>
+<tr class="separator:abf0f1e866eba5975400db74cc3da6913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1a2bd3a51575e8353470750d0ea9f4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lock_free_hash_map.html#ae1a2bd3a51575e8353470750d0ea9f4b">ToHandle</a> (const <a class="el" href="class_lock_free_hash_map_1_1_key_value.html">KeyValue</a> *inKeyValue) const</td></tr>
 <tr class="memdesc:ae1a2bd3a51575e8353470750d0ea9f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get convert key value pair to uint32 handle.  <a href="class_lock_free_hash_map.html#ae1a2bd3a51575e8353470750d0ea9f4b">More...</a><br /></td></tr>
 <tr class="separator:ae1a2bd3a51575e8353470750d0ea9f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,8 +280,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="a8d07789b4671c0bce47bcb56e1f74083" name="a8d07789b4671c0bce47bcb56e1f74083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d07789b4671c0bce47bcb56e1f74083">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="a9a758f6a4dbf7bb4e25bac764a948266" name="a9a758f6a4dbf7bb4e25bac764a948266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a758f6a4dbf7bb4e25bac764a948266">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,7 +308,7 @@ template&lt;class... Params&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td>
           <td class="paramname"><em>inKeyHash</em>, </td>
         </tr>
         <tr>
@@ -355,8 +355,8 @@ template&lt;class Key , class Value &gt; </div>
 
 </div>
 </div>
-<a id="ac25e4bb4f54e3afc5caccc9ef2f4ebe6" name="ac25e4bb4f54e3afc5caccc9ef2f4ebe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac25e4bb4f54e3afc5caccc9ef2f4ebe6">&#9670;&nbsp;</a></span>Find()</h2>
+<a id="abf0f1e866eba5975400db74cc3da6913" name="abf0f1e866eba5975400db74cc3da6913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf0f1e866eba5975400db74cc3da6913">&#9670;&nbsp;</a></span>Find()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +375,7 @@ template&lt;class Key , class Value &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td>
           <td class="paramname"><em>inKeyHash</em>&#160;</td>
         </tr>
         <tr>

@@ -98,6 +98,7 @@ var hierarchy =
     [ "std::hash< JPH::RefConst< T > >", "structstd_1_1hash_3_01_j_p_h_1_1_ref_const_3_01_t_01_4_01_4.html", null ],
     [ "std::hash< JPH::StaticArray< T, N > >", "structstd_1_1hash_3_01_j_p_h_1_1_static_array_3_01_t_00_01_n_01_4_01_4.html", null ],
     [ "std::hash< JPH::String >", "structstd_1_1hash_3_01_j_p_h_1_1_string_01_4.html", null ],
+    [ "std::hash< JPH::SubShapeIDPair >", "structstd_1_1hash_3_01_j_p_h_1_1_sub_shape_i_d_pair_01_4.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Header", "struct_node_codec_quad_tree_half_float_1_1_header.html", null ],
     [ "HingeRotationConstraintPart", "class_hinge_rotation_constraint_part.html", null ],
     [ "HeightFieldShape::HSGetTrianglesContext", "struct_height_field_shape_1_1_h_s_get_triangles_context.html", null ],
