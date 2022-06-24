@@ -51,6 +51,7 @@ var class_vec4 =
     [ "StoreFloat4", "class_vec4.html#afdfae50fe6a7d86e7d1684fc71be7ed0", null ],
     [ "Swizzle", "class_vec4.html#abc7417303ad93e9bbe7506e7cd045724", null ],
     [ "Swizzle", "class_vec4.html#af28ba6db045e3e38be66dfdc93c78bda", null ],
+    [ "Tan", "class_vec4.html#a3769f486156183d3cbecb6a37291fe5c", null ],
     [ "ToInt", "class_vec4.html#a37a85cfb52ff5a074877db484772cc63", null ],
     [ "operator*", "class_vec4.html#aff8d5cf747d2cfa658ac6bc5822b6434", null ],
     [ "operator<<", "class_vec4.html#a4aa88b04387365a68c74880173fabc60", null ],

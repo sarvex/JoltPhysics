@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"struct_compound_shape_1_1_collide_point_visitor.html#a47156e21c9dd5a4cc626690185907836":[3,0,66,5,5],
 "struct_compound_shape_1_1_collide_point_visitor.html#a7f36227c8d0f4ad5e2cf940616f41670":[3,0,66,5,8],
 "struct_compound_shape_1_1_collide_point_visitor.html#a832d09b2ee2731828915fb29183b5960":[3,0,66,5,0],
 "struct_compound_shape_1_1_collide_point_visitor.html#aab907c8ad14bf917323ed88160cd861d":[3,0,66,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "struct_quad_tree_1_1_add_state.html#a1b7c0c242edfab856c4ccf10bd514f44":[3,0,184,0,0],
 "struct_quad_tree_1_1_add_state.html#a789c4af727fb9a0ab0a0fac83c57ac5f":[3,0,184,0,1],
 "struct_quad_tree_1_1_tracking.html":[3,0,184,1],
-"struct_quad_tree_1_1_tracking.html#a004a8ed217c3b5d7ddc2364cf4884adb":[3,0,184,1,3],
-"struct_quad_tree_1_1_tracking.html#a49de4bd747c49f2b0c9dc0017740ec14":[3,0,184,1,1]
+"struct_quad_tree_1_1_tracking.html#a004a8ed217c3b5d7ddc2364cf4884adb":[3,0,184,1,3]
 };
