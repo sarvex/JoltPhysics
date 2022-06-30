@@ -125,10 +125,14 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa49a23c340decb519ae98cfa2a9e469a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469a">EResult</a> { <a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa505a83f220c02df2f85c3810cd9ceb38">Success</a>
+<tr class="memitem:aa49a23c340decb519ae98cfa2a9e469a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469a">EResult</a> { <br />
+&#160;&#160;<a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa505a83f220c02df2f85c3810cd9ceb38">Success</a>
 , <a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa7cc57ee56f4f29991173f4efa7a469e9">MaxVerticesReached</a>
 , <a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa675071632f91d793892ece6ed205483f">TooFewPoints</a>
-, <a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d">Degenerate</a>
+, <a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa04477b2749feb6999bd3cb1c9f6fd963">TooFewFaces</a>
+, <br />
+&#160;&#160;<a class="el" href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d">Degenerate</a>
+<br />
  }</td></tr>
 <tr class="memdesc:aa49a23c340decb519ae98cfa2a9e469a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_result.html" title="Helper class that either contains a valid result or an error.">Result</a> enum that indicates how the hull got created.  <a href="class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469a">More...</a><br /></td></tr>
 <tr class="separator:aa49a23c340decb519ae98cfa2a9e469a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +248,8 @@ Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="aa49a23c340decb519ae98cfa2a9e469aa7cc57ee56f4f29991173f4efa7a469e9" name="aa49a23c340decb519ae98cfa2a9e469aa7cc57ee56f4f29991173f4efa7a469e9"></a>MaxVerticesReached&#160;</td><td class="fielddoc"><p >Hull building finished successfully, but the desired accuracy was not reached because the max vertices limit was reached. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aa49a23c340decb519ae98cfa2a9e469aa675071632f91d793892ece6ed205483f" name="aa49a23c340decb519ae98cfa2a9e469aa675071632f91d793892ece6ed205483f"></a>TooFewPoints&#160;</td><td class="fielddoc"><p >Too few points to create a hull. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa49a23c340decb519ae98cfa2a9e469aa04477b2749feb6999bd3cb1c9f6fd963" name="aa49a23c340decb519ae98cfa2a9e469aa04477b2749feb6999bd3cb1c9f6fd963"></a>TooFewFaces&#160;</td><td class="fielddoc"><p >Too few faces in the created hull (signifies precision errors during building) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d" name="aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d"></a>Degenerate&#160;</td><td class="fielddoc"><p >Degenerate hull detected. </p>
 </td></tr>

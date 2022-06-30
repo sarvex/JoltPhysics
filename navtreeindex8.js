@@ -143,7 +143,8 @@ var NAVTREEINDEX8 =
 "class_convex_hull_builder.html#a423d9e378746f1e9d6edb19bb2afa11f":[3,0,77,8],
 "class_convex_hull_builder.html#a4e3fbe324250233f9a3d527004d08c09":[3,0,77,10],
 "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469a":[3,0,77,5],
-"class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d":[3,0,77,5,3],
+"class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa04477b2749feb6999bd3cb1c9f6fd963":[3,0,77,5,3],
+"class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d":[3,0,77,5,4],
 "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa505a83f220c02df2f85c3810cd9ceb38":[3,0,77,5,0],
 "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa675071632f91d793892ece6ed205483f":[3,0,77,5,2],
 "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa7cc57ee56f4f29991173f4efa7a469e9":[3,0,77,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "class_convex_shape.html#a7a9e29e9a33f123f0ab8b25dd4e04cc0":[3,0,81,13],
 "class_convex_shape.html#a7c9d827d2e8d38b5ba1ed2d4f9263b15":[3,0,81,12],
 "class_convex_shape.html#a99d3262f306f702b0e6ae40ab53e6b34":[3,0,81,7],
-"class_convex_shape.html#aa0989125373d245ea41cbf5c1db96198":[3,0,81,21],
-"class_convex_shape.html#aa9b6442bec38456b3b263bfc8c9e0c34":[3,0,81,23]
+"class_convex_shape.html#aa0989125373d245ea41cbf5c1db96198":[3,0,81,21]
 };

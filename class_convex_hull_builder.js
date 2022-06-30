@@ -9,6 +9,7 @@ var class_convex_hull_builder =
       [ "Success", "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa505a83f220c02df2f85c3810cd9ceb38", null ],
       [ "MaxVerticesReached", "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa7cc57ee56f4f29991173f4efa7a469e9", null ],
       [ "TooFewPoints", "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa675071632f91d793892ece6ed205483f", null ],
+      [ "TooFewFaces", "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa04477b2749feb6999bd3cb1c9f6fd963", null ],
       [ "Degenerate", "class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa24c813faee6d26cc144bec89a984824d", null ]
     ] ],
     [ "ConvexHullBuilder", "class_convex_hull_builder.html#a245e3c9f2ac5137c9ee5d66c9f7a7b9d", null ],

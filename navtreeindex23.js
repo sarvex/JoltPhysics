@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"struct_quad_tree_1_1_add_state.html":[3,0,184,0],
 "struct_quad_tree_1_1_add_state.html#a1b7c0c242edfab856c4ccf10bd514f44":[3,0,184,0,0],
 "struct_quad_tree_1_1_add_state.html#a789c4af727fb9a0ab0a0fac83c57ac5f":[3,0,184,0,1],
 "struct_quad_tree_1_1_tracking.html":[3,0,184,1],
