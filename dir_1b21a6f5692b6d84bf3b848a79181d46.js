@@ -22,6 +22,7 @@ var dir_1b21a6f5692b6d84bf3b848a79181d46 =
     ] ],
     [ "FPFlushDenormals.h", "_f_p_flush_denormals_8h.html", null ],
     [ "HashCombine.h", "_hash_combine_8h.html", "_hash_combine_8h" ],
+    [ "InsertionSort.h", "_insertion_sort_8h.html", "_insertion_sort_8h" ],
     [ "IssueReporting.cpp", "_issue_reporting_8cpp.html", "_issue_reporting_8cpp" ],
     [ "IssueReporting.h", "_issue_reporting_8h.html", "_issue_reporting_8h" ],
     [ "JobSystem.h", "_job_system_8h.html", "_job_system_8h" ],
@@ -55,6 +56,7 @@ var dir_1b21a6f5692b6d84bf3b848a79181d46 =
     [ "Profiler.cpp", "_profiler_8cpp.html", null ],
     [ "Profiler.h", "_profiler_8h.html", "_profiler_8h" ],
     [ "Profiler.inl", "_profiler_8inl.html", null ],
+    [ "QuickSort.h", "_quick_sort_8h.html", "_quick_sort_8h" ],
     [ "Reference.h", "_reference_8h.html", [
       [ "RefTarget< T >", "class_ref_target.html", "class_ref_target" ],
       [ "RefTargetVirtual", "class_ref_target_virtual.html", "class_ref_target_virtual" ],
