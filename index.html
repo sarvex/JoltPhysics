@@ -365,7 +365,7 @@ JPH_ASSERT(shape_bounds == JPH::AABox(JPH::Vec3(9, -1, -1), JPH::Vec3(11, 1, 1))
 <p >This job will go through all non-contact constraints and determine which constraints are active based on if the bodies that the constraint connects to are active.</p>
 <h2>Build Islands from Constraints</h2>
 <p >This job will go through all non-contact constraints and assign the involved bodies and constraint to the same island. Since we allow concurrent insertion/removal of bodies we do not want to keep island data across multiple simulation steps, so we recreate the islands from scratch every simulation step. The operation is lock-free and O(N) where N is the number of constraints.</p>
-<p >If a constraint connects an active and a non-active body, the non-active body is woken up.</p>
+<p >If a constraint connects an active and a non-active body, the non-active body is woken up. One find collisions job will not start until this job has finished in order to pick up any collision testing for newly activated bodies.</p>
 <h2>Find Collisions</h2>
 <p >This job will do broad and narrow phase checks. Initially a number of jobs are started based on the amount of active bodies. The job will do the following:</p>
 <ul>
