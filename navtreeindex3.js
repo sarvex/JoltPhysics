@@ -186,9 +186,12 @@ var NAVTREEINDEX3 =
 "_skeleton_8cpp.html#a7aca54fb94c9423d77c04278237fab25":[4,0,1,7,2,0],
 "_skeleton_8h.html":[4,0,1,7,3],
 "_skeleton_8h_source.html":[4,0,1,7,3],
-"_skeleton_pose_8cpp.html":[4,0,1,7,4],
-"_skeleton_pose_8h.html":[4,0,1,7,5],
-"_skeleton_pose_8h_source.html":[4,0,1,7,5],
+"_skeleton_mapper_8cpp.html":[4,0,1,7,4],
+"_skeleton_mapper_8h.html":[4,0,1,7,5],
+"_skeleton_mapper_8h_source.html":[4,0,1,7,5],
+"_skeleton_pose_8cpp.html":[4,0,1,7,6],
+"_skeleton_pose_8h.html":[4,0,1,7,7],
+"_skeleton_pose_8h_source.html":[4,0,1,7,7],
 "_slider_constraint_8cpp.html":[4,0,1,5,3,31],
 "_slider_constraint_8cpp.html#a6823d7a30514856c82f8742fa7a1b95e":[4,0,1,5,3,31,0],
 "_slider_constraint_8h.html":[4,0,1,5,3,32],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "_swing_twist_constraint_8cpp.html":[4,0,1,5,3,33],
 "_swing_twist_constraint_8cpp.html#a1513293e8c5fb785aa7142d42159c3f2":[4,0,1,5,3,33,0],
 "_swing_twist_constraint_8h.html":[4,0,1,5,3,34],
-"_swing_twist_constraint_8h_source.html":[4,0,1,5,3,34],
-"_swing_twist_constraint_part_8h.html":[4,0,1,5,3,0,10],
-"_swing_twist_constraint_part_8h_source.html":[4,0,1,5,3,0,10],
-"_swizzle_8h.html":[4,0,1,3,16]
+"_swing_twist_constraint_8h_source.html":[4,0,1,5,3,34]
 };

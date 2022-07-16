@@ -15,6 +15,8 @@ var class_ragdoll =
     [ "GetConstraint", "class_ragdoll.html#a86b347f11599361d0cf8bddcacad4295", null ],
     [ "GetConstraint", "class_ragdoll.html#a001b9a360f16a8a24d7cc547c763bbd8", null ],
     [ "GetConstraintCount", "class_ragdoll.html#a4aed9348c613c386d5cf32c25e3931f2", null ],
+    [ "GetPose", "class_ragdoll.html#a381cdf46c7eed635b7380c1dade77667", null ],
+    [ "GetPose", "class_ragdoll.html#aeb6b26fdc0eefbb815af1d06c9e5da69", null ],
     [ "GetRagdollSettings", "class_ragdoll.html#adf2f2237288c30779260c4b1e744a76d", null ],
     [ "GetRootTransform", "class_ragdoll.html#a7afb3a14510f3fa086b3fef5bef1e408", null ],
     [ "GetWorldSpaceBounds", "class_ragdoll.html#a8ab1cc3715aafa05d4b04647c54282a3", null ],

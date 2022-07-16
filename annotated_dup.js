@@ -228,6 +228,7 @@ var annotated_dup =
     [ "SixDOFConstraintSettings", "class_six_d_o_f_constraint_settings.html", "class_six_d_o_f_constraint_settings" ],
     [ "SkeletalAnimation", "class_skeletal_animation.html", "class_skeletal_animation" ],
     [ "Skeleton", "class_skeleton.html", "class_skeleton" ],
+    [ "SkeletonMapper", "class_skeleton_mapper.html", "class_skeleton_mapper" ],
     [ "SkeletonPose", "class_skeleton_pose.html", "class_skeleton_pose" ],
     [ "SliderConstraint", "class_slider_constraint.html", "class_slider_constraint" ],
     [ "SliderConstraintSettings", "class_slider_constraint_settings.html", "class_slider_constraint_settings" ],

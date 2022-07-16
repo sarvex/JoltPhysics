@@ -140,6 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e5db13680f6f1c62cc5fb4d21ea367f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#a5e5db13680f6f1c62cc5fb4d21ea367f">SetPose</a> (const <a class="el" href="class_mat44.html">Mat44</a> *inJointMatrices, bool inLockBodies=true)</td></tr>
 <tr class="memdesc:a5e5db13680f6f1c62cc5fb4d21ea367f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower level version of SetPose that directly takes the world space joint matrices.  <a href="class_ragdoll.html#a5e5db13680f6f1c62cc5fb4d21ea367f">More...</a><br /></td></tr>
 <tr class="separator:a5e5db13680f6f1c62cc5fb4d21ea367f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6b26fdc0eefbb815af1d06c9e5da69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#aeb6b26fdc0eefbb815af1d06c9e5da69">GetPose</a> (<a class="el" href="class_skeleton_pose.html">SkeletonPose</a> &amp;outPose, bool inLockBodies=true)</td></tr>
+<tr class="memdesc:aeb6b26fdc0eefbb815af1d06c9e5da69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ragdoll pose (uses the world transform of the bodies to calculate the pose)  <a href="class_ragdoll.html#aeb6b26fdc0eefbb815af1d06c9e5da69">More...</a><br /></td></tr>
+<tr class="separator:aeb6b26fdc0eefbb815af1d06c9e5da69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a381cdf46c7eed635b7380c1dade77667"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#a381cdf46c7eed635b7380c1dade77667">GetPose</a> (<a class="el" href="class_mat44.html">Mat44</a> *outJointMatrices, bool inLockBodies=true)</td></tr>
+<tr class="memdesc:a381cdf46c7eed635b7380c1dade77667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower level version of GetPose that directly returns the world space joint matrices.  <a href="class_ragdoll.html#a381cdf46c7eed635b7380c1dade77667">More...</a><br /></td></tr>
+<tr class="separator:a381cdf46c7eed635b7380c1dade77667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5708fad69260914b0fdfd6d80a834d23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#a5708fad69260914b0fdfd6d80a834d23">DriveToPoseUsingKinematics</a> (const <a class="el" href="class_skeleton_pose.html">SkeletonPose</a> &amp;inPose, float inDeltaTime, bool inLockBodies=true)</td></tr>
 <tr class="memdesc:a5708fad69260914b0fdfd6d80a834d23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drive the ragdoll to a specific pose by setting velocities on each of the bodies so that it will reach inPose in inDeltaTime.  <a href="class_ragdoll.html#a5708fad69260914b0fdfd6d80a834d23">More...</a><br /></td></tr>
 <tr class="separator:a5708fad69260914b0fdfd6d80a834d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -654,6 +660,66 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get number of constraints in the ragdoll. </p>
+
+</div>
+</div>
+<a id="a381cdf46c7eed635b7380c1dade77667" name="a381cdf46c7eed635b7380c1dade77667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a381cdf46c7eed635b7380c1dade77667">&#9670;&nbsp;</a></span>GetPose() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ragdoll::GetPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_mat44.html">Mat44</a> *&#160;</td>
+          <td class="paramname"><em>outJointMatrices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inLockBodies</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lower level version of GetPose that directly returns the world space joint matrices. </p>
+
+</div>
+</div>
+<a id="aeb6b26fdc0eefbb815af1d06c9e5da69" name="aeb6b26fdc0eefbb815af1d06c9e5da69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6b26fdc0eefbb815af1d06c9e5da69">&#9670;&nbsp;</a></span>GetPose() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ragdoll::GetPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_skeleton_pose.html">SkeletonPose</a> &amp;&#160;</td>
+          <td class="paramname"><em>outPose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inLockBodies</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the ragdoll pose (uses the world transform of the bodies to calculate the pose) </p>
 
 </div>
 </div>

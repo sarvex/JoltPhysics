@@ -33,6 +33,7 @@ var hierarchy =
     [ "CompoundShape::CastShapeVisitor", "struct_compound_shape_1_1_cast_shape_visitor.html", null ],
     [ "CastSphereVsTriangles", "class_cast_sphere_vs_triangles.html", null ],
     [ "PhysicsUpdateContext::SubStep::CCDBody", "struct_physics_update_context_1_1_sub_step_1_1_c_c_d_body.html", null ],
+    [ "SkeletonMapper::Chain", "class_skeleton_mapper_1_1_chain.html", null ],
     [ "CharacterContactListener", "class_character_contact_listener.html", null ],
     [ "CharacterContactSettings", "class_character_contact_settings.html", null ],
     [ "ConvexHullShape::CHSGetTrianglesContext", "class_convex_hull_shape_1_1_c_h_s_get_triangles_context.html", null ],
@@ -115,6 +116,7 @@ var hierarchy =
     [ "LinearCurve", "class_linear_curve.html", null ],
     [ "DebugRendererRecorder::LineBlob", "struct_debug_renderer_recorder_1_1_line_blob.html", null ],
     [ "DebugRenderer::LOD", "class_debug_renderer_1_1_l_o_d.html", null ],
+    [ "SkeletonMapper::Mapping", "class_skeleton_mapper_1_1_mapping.html", null ],
     [ "MassProperties", "class_mass_properties.html", null ],
     [ "Mat44", "class_mat44.html", null ],
     [ "Matrix< Rows, Cols >", "class_matrix.html", null ],
@@ -399,6 +401,9 @@ var hierarchy =
     [ "RefTarget< Skeleton >", "class_ref_target.html", [
       [ "Skeleton", "class_skeleton.html", null ]
     ] ],
+    [ "RefTarget< SkeletonMapper >", "class_ref_target.html", [
+      [ "SkeletonMapper", "class_skeleton_mapper.html", null ]
+    ] ],
     [ "RefTarget< VehicleCollisionTester >", "class_ref_target.html", [
       [ "VehicleCollisionTester", "class_vehicle_collision_tester.html", [
         [ "VehicleCollisionTesterCastSphere", "class_vehicle_collision_tester_cast_sphere.html", null ],
@@ -518,6 +523,7 @@ var hierarchy =
       [ "TriangleSplitterMorton", "class_triangle_splitter_morton.html", null ]
     ] ],
     [ "TriangleShape::TSGetTrianglesContext", "class_triangle_shape_1_1_t_s_get_triangles_context.html", null ],
+    [ "SkeletonMapper::Unmapped", "class_skeleton_mapper_1_1_unmapped.html", null ],
     [ "BroadPhase::UpdateState", "struct_broad_phase_1_1_update_state.html", null ],
     [ "QuadTree::UpdateState", "struct_quad_tree_1_1_update_state.html", null ],
     [ "UVec4", "class_u_vec4.html", null ],

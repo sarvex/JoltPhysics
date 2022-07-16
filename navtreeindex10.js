@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"class_e_p_a_convex_hull_builder_1_1_points.html":[3,0,96,1],
+"class_e_p_a_convex_hull_builder_1_1_points.html#a5b85570fd72e9b7e9575981fe7464383":[3,0,96,1,0],
+"class_e_p_a_convex_hull_builder_1_1_triangle.html":[3,0,96,2],
 "class_e_p_a_convex_hull_builder_1_1_triangle.html#a0452b1c401d15dcc561dad66766d45a9":[3,0,96,2,4],
 "class_e_p_a_convex_hull_builder_1_1_triangle.html#a0b20e81cb148777b56012bbaf28fb18b":[3,0,96,2,6],
 "class_e_p_a_convex_hull_builder_1_1_triangle.html#a60543dea65ee8e56fa77132610302412":[3,0,96,2,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "class_hinge_constraint.html#ad05474eff39452c49ee10c70b780f687":[3,0,118,13],
 "class_hinge_constraint.html#ad693d37205991f105a85897e6bfe5732":[3,0,118,22],
 "class_hinge_constraint.html#af03b0287d856815e5a9cff82588d2578":[3,0,118,15],
-"class_hinge_constraint.html#af1934023ab6d537ecc04cb605c6fada3":[3,0,118,18],
-"class_hinge_constraint_settings.html":[3,0,119],
-"class_hinge_constraint_settings.html#a153762e4240f8884b3bb718d122bb894":[3,0,119,12],
-"class_hinge_constraint_settings.html#a269eb742fd612f668946d21161a182ac":[3,0,119,6]
+"class_hinge_constraint.html#af1934023ab6d537ecc04cb605c6fada3":[3,0,118,18]
 };
