@@ -123,20 +123,35 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a6a113f4d900ccaaf2bcc52584654f569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bodies that were active at the start of the physics update step. Only these bodies will receive gravity (they are the first N in the active body list).  <a href="struct_physics_update_context_1_1_step.html#a6a113f4d900ccaaf2bcc52584654f569">More...</a><br /></td></tr>
 <tr class="separator:a6a113f4d900ccaaf2bcc52584654f569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e3a6829a7903b95440f30c5ee765df"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a09e3a6829a7903b95440f30c5ee765df">mConstraintReadIdx</a> { 0 }</td></tr>
-<tr class="memdesc:a09e3a6829a7903b95440f30c5ee765df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next constraint for determine active constraints (moved to own cache line since its modified frequently by different jobs)  <a href="struct_physics_update_context_1_1_step.html#a09e3a6829a7903b95440f30c5ee765df">More...</a><br /></td></tr>
+<tr class="memdesc:a09e3a6829a7903b95440f30c5ee765df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next constraint for determine active constraints.  <a href="struct_physics_update_context_1_1_step.html#a09e3a6829a7903b95440f30c5ee765df">More...</a><br /></td></tr>
 <tr class="separator:a09e3a6829a7903b95440f30c5ee765df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e0a019809ed80613a75e3f7b5217c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a77e0a019809ed80613a75e3f7b5217c6">mPadding1</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memdesc:a77e0a019809ed80613a75e3f7b5217c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Padding to avoid sharing cache line with the next atomic.  <a href="struct_physics_update_context_1_1_step.html#a77e0a019809ed80613a75e3f7b5217c6">More...</a><br /></td></tr>
+<tr class="separator:a77e0a019809ed80613a75e3f7b5217c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0ee5aea31c2282efaa0df4b55401424"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#af0ee5aea31c2282efaa0df4b55401424">mNumActiveConstraints</a> { 0 }</td></tr>
 <tr class="memdesc:af0ee5aea31c2282efaa0df4b55401424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of constraints in the mActiveConstraints array.  <a href="struct_physics_update_context_1_1_step.html#af0ee5aea31c2282efaa0df4b55401424">More...</a><br /></td></tr>
 <tr class="separator:af0ee5aea31c2282efaa0df4b55401424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b8740c5f4ed9785bac06320cc762487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a4b8740c5f4ed9785bac06320cc762487">mPadding2</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memdesc:a4b8740c5f4ed9785bac06320cc762487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Padding to avoid sharing cache line with the next atomic.  <a href="struct_physics_update_context_1_1_step.html#a4b8740c5f4ed9785bac06320cc762487">More...</a><br /></td></tr>
+<tr class="separator:a4b8740c5f4ed9785bac06320cc762487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295a55ea8456a023f402bdd731b59922"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a295a55ea8456a023f402bdd731b59922">mStepListenerReadIdx</a> { 0 }</td></tr>
-<tr class="memdesc:a295a55ea8456a023f402bdd731b59922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next step listener to call (moved to own cache line since its modified frequently by different jobs)  <a href="struct_physics_update_context_1_1_step.html#a295a55ea8456a023f402bdd731b59922">More...</a><br /></td></tr>
+<tr class="memdesc:a295a55ea8456a023f402bdd731b59922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next step listener to call.  <a href="struct_physics_update_context_1_1_step.html#a295a55ea8456a023f402bdd731b59922">More...</a><br /></td></tr>
 <tr class="separator:a295a55ea8456a023f402bdd731b59922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b0d33b3a5f7755e033bb2c400ab8ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a16b0d33b3a5f7755e033bb2c400ab8ac">mPadding3</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memdesc:a16b0d33b3a5f7755e033bb2c400ab8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Padding to avoid sharing cache line with the next atomic.  <a href="struct_physics_update_context_1_1_step.html#a16b0d33b3a5f7755e033bb2c400ab8ac">More...</a><br /></td></tr>
+<tr class="separator:a16b0d33b3a5f7755e033bb2c400ab8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8016f86c45bb3092259e91ff0f6c426"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#ad8016f86c45bb3092259e91ff0f6c426">mApplyGravityReadIdx</a> { 0 }</td></tr>
-<tr class="memdesc:ad8016f86c45bb3092259e91ff0f6c426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next body to apply gravity to (moved to own cache line since its modified frequently by different jobs)  <a href="struct_physics_update_context_1_1_step.html#ad8016f86c45bb3092259e91ff0f6c426">More...</a><br /></td></tr>
+<tr class="memdesc:ad8016f86c45bb3092259e91ff0f6c426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next body to apply gravity to.  <a href="struct_physics_update_context_1_1_step.html#ad8016f86c45bb3092259e91ff0f6c426">More...</a><br /></td></tr>
 <tr class="separator:ad8016f86c45bb3092259e91ff0f6c426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c8e8051345d5106cf1cd8ee8df14d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a07c8e8051345d5106cf1cd8ee8df14d3">mPadding4</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memdesc:a07c8e8051345d5106cf1cd8ee8df14d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Padding to avoid sharing cache line with the next atomic.  <a href="struct_physics_update_context_1_1_step.html#a07c8e8051345d5106cf1cd8ee8df14d3">More...</a><br /></td></tr>
+<tr class="separator:a07c8e8051345d5106cf1cd8ee8df14d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f32b22178d4cc044a96d59d41250916"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a5f32b22178d4cc044a96d59d41250916">mActiveBodyReadIdx</a> { 0 }</td></tr>
 <tr class="memdesc:a5f32b22178d4cc044a96d59d41250916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of fist active body that has not yet been processed by the broadphase.  <a href="struct_physics_update_context_1_1_step.html#a5f32b22178d4cc044a96d59d41250916">More...</a><br /></td></tr>
 <tr class="separator:a5f32b22178d4cc044a96d59d41250916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a806337c54e4bd1ef4dcb3eae0dd4ea72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#a806337c54e4bd1ef4dcb3eae0dd4ea72">mPadding5</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memdesc:a806337c54e4bd1ef4dcb3eae0dd4ea72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Padding to avoid sharing cache line with the next atomic.  <a href="struct_physics_update_context_1_1_step.html#a806337c54e4bd1ef4dcb3eae0dd4ea72">More...</a><br /></td></tr>
+<tr class="separator:a806337c54e4bd1ef4dcb3eae0dd4ea72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8fbffcba6d3b5adbdeb98c1d63903fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_update_context.html#a1a8cbbf5b9b0f8bf54cdd936b2a6516e">BodyPairQueues</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html#af8fbffcba6d3b5adbdeb98c1d63903fe">mBodyPairQueues</a></td></tr>
 <tr class="memdesc:af8fbffcba6d3b5adbdeb98c1d63903fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues in which to put body pairs that need to be tested by the narrowphase.  <a href="struct_physics_update_context_1_1_step.html#af8fbffcba6d3b5adbdeb98c1d63903fe">More...</a><br /></td></tr>
 <tr class="separator:af8fbffcba6d3b5adbdeb98c1d63903fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,7 +322,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Next body to apply gravity to (moved to own cache line since its modified frequently by different jobs) </p>
+<p>Next body to apply gravity to. </p>
 
 </div>
 </div>
@@ -403,7 +418,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Next constraint for determine active constraints (moved to own cache line since its modified frequently by different jobs) </p>
+<p>Next constraint for determine active constraints. </p>
 
 </div>
 </div>
@@ -567,6 +582,86 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a77e0a019809ed80613a75e3f7b5217c6" name="a77e0a019809ed80613a75e3f7b5217c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e0a019809ed80613a75e3f7b5217c6">&#9670;&nbsp;</a></span>mPadding1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::Step::mPadding1[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Padding to avoid sharing cache line with the next atomic. </p>
+
+</div>
+</div>
+<a id="a4b8740c5f4ed9785bac06320cc762487" name="a4b8740c5f4ed9785bac06320cc762487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b8740c5f4ed9785bac06320cc762487">&#9670;&nbsp;</a></span>mPadding2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::Step::mPadding2[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Padding to avoid sharing cache line with the next atomic. </p>
+
+</div>
+</div>
+<a id="a16b0d33b3a5f7755e033bb2c400ab8ac" name="a16b0d33b3a5f7755e033bb2c400ab8ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b0d33b3a5f7755e033bb2c400ab8ac">&#9670;&nbsp;</a></span>mPadding3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::Step::mPadding3[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Padding to avoid sharing cache line with the next atomic. </p>
+
+</div>
+</div>
+<a id="a07c8e8051345d5106cf1cd8ee8df14d3" name="a07c8e8051345d5106cf1cd8ee8df14d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c8e8051345d5106cf1cd8ee8df14d3">&#9670;&nbsp;</a></span>mPadding4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::Step::mPadding4[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Padding to avoid sharing cache line with the next atomic. </p>
+
+</div>
+</div>
+<a id="a806337c54e4bd1ef4dcb3eae0dd4ea72" name="a806337c54e4bd1ef4dcb3eae0dd4ea72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a806337c54e4bd1ef4dcb3eae0dd4ea72">&#9670;&nbsp;</a></span>mPadding5</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::Step::mPadding5[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Padding to avoid sharing cache line with the next atomic. </p>
+
+</div>
+</div>
 <a id="a1b194e3913ab9d33310477b671d813aa" name="a1b194e3913ab9d33310477b671d813aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b194e3913ab9d33310477b671d813aa">&#9670;&nbsp;</a></span>mSetupVelocityConstraints</h2>
 
@@ -611,7 +706,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Next step listener to call (moved to own cache line since its modified frequently by different jobs) </p>
+<p>Next step listener to call. </p>
 
 </div>
 </div>
