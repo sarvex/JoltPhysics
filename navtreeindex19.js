@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_triangle_splitter_longest_axis.html#a6e0fd86ca2d38f41bd6faffcd94e08a4":[3,0,270,2],
 "class_triangle_splitter_longest_axis.html#a922ae63ab23366905d3a15f5e7c06630":[3,0,270,0],
 "class_triangle_splitter_mean.html":[3,0,271],
 "class_triangle_splitter_mean.html#a24f3c71cb6b178fc31c5e1c3d71240be":[3,0,271,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "class_vector.html#a23bafdf6c79c71b75937d5a5c8cf2fca":[3,0,281,20],
 "class_vector.html#a31f30c627ca27a20be651946fa685789":[3,0,281,14],
 "class_vector.html#a32ee1f49f9b9b9cc21f202e93aa92344":[3,0,281,22],
-"class_vector.html#a3548d197b9099a6ce78bb9805f6b08ed":[3,0,281,16]
+"class_vector.html#a3548d197b9099a6ce78bb9805f6b08ed":[3,0,281,16],
+"class_vector.html#a4629e622d2f5cabbc8bee88e8ed448f2":[3,0,281,25]
 };

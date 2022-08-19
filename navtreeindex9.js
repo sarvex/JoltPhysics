@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"class_convex_shape.html":[3,0,81],
 "class_convex_shape.html#a063b182d0bc6eddcde2b3fd422fca7a7":[3,0,81,19],
 "class_convex_shape.html#a0d779bf5b8064f81765e07627b770b01":[3,0,81,17],
 "class_convex_shape.html#a1ba0e0da5502685fd59888f3bc9cb73e":[3,0,81,24],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "class_e_p_a_convex_hull_builder.html#aea0c331a90c44fd535337c5d0841103e":[3,0,96,8],
 "class_e_p_a_convex_hull_builder_1_1_edge.html":[3,0,96,0],
 "class_e_p_a_convex_hull_builder_1_1_edge.html#a3198dfe7323ed3f875dca4e00821a53c":[3,0,96,0,2],
-"class_e_p_a_convex_hull_builder_1_1_edge.html#a45f60a45dad1b7eb5e49d513a15229a5":[3,0,96,0,1]
+"class_e_p_a_convex_hull_builder_1_1_edge.html#a45f60a45dad1b7eb5e49d513a15229a5":[3,0,96,0,1],
+"class_e_p_a_convex_hull_builder_1_1_edge.html#aebdd46a0c839c10261765f466b8fa00b":[3,0,96,0,0]
 };
