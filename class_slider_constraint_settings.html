@@ -124,9 +124,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acfae9c6e70eef7f2fdb2d12fd718f187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf465eb2615ffac5ecb0047f682a31c2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_two_body_constraint.html">TwoBodyConstraint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#abf465eb2615ffac5ecb0047f682a31c2">Create</a> (<a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2) const override</td></tr>
 <tr class="separator:abf465eb2615ffac5ecb0047f682a31c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34683e3a31305b6623cea0ee632c64e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a34683e3a31305b6623cea0ee632c64e4">SetPoint</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2)</td></tr>
-<tr class="memdesc:a34683e3a31305b6623cea0ee632c64e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple way of setting the anchor points in world space so that the current relative position is chosen as the '0' position.  <a href="class_slider_constraint_settings.html#a34683e3a31305b6623cea0ee632c64e4">More...</a><br /></td></tr>
-<tr class="separator:a34683e3a31305b6623cea0ee632c64e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78a43cf839d05c2679d11080875499df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a78a43cf839d05c2679d11080875499df">SetSliderAxis</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inSliderAxis)</td></tr>
 <tr class="memdesc:a78a43cf839d05c2679d11080875499df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple way of setting the slider and normal axis in world space (assumes the bodies are already oriented correctly when the constraint is created)  <a href="class_slider_constraint_settings.html#a78a43cf839d05c2679d11080875499df">More...</a><br /></td></tr>
 <tr class="separator:a78a43cf839d05c2679d11080875499df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +159,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afc5127fe325c86046c4765ed89dce4fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_constraint_8h.html#a5951578637c20f8aad819c13ad09b1be">EConstraintSpace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#afc5127fe325c86046c4765ed89dce4fe">mSpace</a> = <a class="el" href="_constraint_8h.html#a5951578637c20f8aad819c13ad09b1bea43c5bd4a88c440bd0862f954e4faa177">EConstraintSpace::WorldSpace</a></td></tr>
 <tr class="memdesc:afc5127fe325c86046c4765ed89dce4fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This determines in which space the constraint is setup, all properties below should be in the specified space.  <a href="class_slider_constraint_settings.html#afc5127fe325c86046c4765ed89dce4fe">More...</a><br /></td></tr>
 <tr class="separator:afc5127fe325c86046c4765ed89dce4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe850cd8587a0738fbf6d7ed60c5e44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#abfe850cd8587a0738fbf6d7ed60c5e44">mAutoDetectPoint</a> = false</td></tr>
+<tr class="memdesc:abfe850cd8587a0738fbf6d7ed60c5e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">When mSpace is WorldSpace mPoint1 and mPoint2 can be automatically calculated based on the positions of the bodies when the constraint is created (the current relative position/orientation is chosen as the '0' position). Set this to false if you want to supply the attachment points yourself.  <a href="class_slider_constraint_settings.html#abfe850cd8587a0738fbf6d7ed60c5e44">More...</a><br /></td></tr>
+<tr class="separator:abfe850cd8587a0738fbf6d7ed60c5e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ebee612382e1e837d31b87d62cd65af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a2ebee612382e1e837d31b87d62cd65af">mPoint1</a> = <a class="el" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>()</td></tr>
 <tr class="separator:a2ebee612382e1e837d31b87d62cd65af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a674de926b2858e971516a15d93e168c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a674de926b2858e971516a15d93e168c0">mSliderAxis1</a> = <a class="el" href="class_vec3.html#a142cc5c79f08229eb11532c26f1a1e90">Vec3::sAxisX</a>()</td></tr>
@@ -328,36 +328,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a34683e3a31305b6623cea0ee632c64e4" name="a34683e3a31305b6623cea0ee632c64e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34683e3a31305b6623cea0ee632c64e4">&#9670;&nbsp;</a></span>SetPoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SliderConstraintSettings::SetPoint </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_body.html">Body</a> &amp;&#160;</td>
-          <td class="paramname"><em>inBody1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_body.html">Body</a> &amp;&#160;</td>
-          <td class="paramname"><em>inBody2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Simple way of setting the anchor points in world space so that the current relative position is chosen as the '0' position. </p>
-
-</div>
-</div>
 <a id="a78a43cf839d05c2679d11080875499df" name="a78a43cf839d05c2679d11080875499df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78a43cf839d05c2679d11080875499df">&#9670;&nbsp;</a></span>SetSliderAxis()</h2>
 
@@ -379,6 +349,22 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="abfe850cd8587a0738fbf6d7ed60c5e44" name="abfe850cd8587a0738fbf6d7ed60c5e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe850cd8587a0738fbf6d7ed60c5e44">&#9670;&nbsp;</a></span>mAutoDetectPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SliderConstraintSettings::mAutoDetectPoint = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>When mSpace is WorldSpace mPoint1 and mPoint2 can be automatically calculated based on the positions of the bodies when the constraint is created (the current relative position/orientation is chosen as the '0' position). Set this to false if you want to supply the attachment points yourself. </p>
+
+</div>
+</div>
 <a id="ac2dc80c4a06394c61303b802d0e300b2" name="ac2dc80c4a06394c61303b802d0e300b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2dc80c4a06394c61303b802d0e300b2">&#9670;&nbsp;</a></span>mDamping</h2>
 
