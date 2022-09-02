@@ -37,7 +37,7 @@ var searchData=
   ['user6_34',['User6',['../_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba10ddead5bb8bcfaa4d62090acd7cdfb2',1,'Shape.h']]],
   ['user7_35',['User7',['../_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba98cd5d17f0660baca7d652995f0d17b6',1,'Shape.h']]],
   ['user8_36',['User8',['../_shape_8h.html#aa332e0529e75b83aad91881c8d32551bad306313ac03787c5f5f41641773bfb9a',1,'Shape.h']]],
-  ['uvec4_37',['UVec4',['../class_u_vec4.html',1,'UVec4'],['../class_u_vec4.html#a371ddfa754dc61e11f2c75f565eab0f9',1,'UVec4::UVec4(uint32 inX, uint32 inY, uint32 inZ, uint32 inW)'],['../class_u_vec4.html#ad935c0ba8397f8e1d7fbba4d70e519dd',1,'UVec4::UVec4(Type inRHS)'],['../class_u_vec4.html#aadc81adaffb695788b5c0859ae3071d3',1,'UVec4::UVec4(const UVec4 &amp;inRHS)=default'],['../class_u_vec4.html#a7ea8efdac690a4877362c8e7abc534c3',1,'UVec4::UVec4()=default']]],
+  ['uvec4_37',['UVec4',['../class_u_vec4.html',1,'UVec4'],['../class_u_vec4.html#a371ddfa754dc61e11f2c75f565eab0f9',1,'UVec4::UVec4(uint32 inX, uint32 inY, uint32 inZ, uint32 inW)'],['../class_u_vec4.html#ad935c0ba8397f8e1d7fbba4d70e519dd',1,'UVec4::UVec4(Type inRHS)'],['../class_u_vec4.html#aadc81adaffb695788b5c0859ae3071d3',1,'UVec4::UVec4(const UVec4 &amp;inRHS)=default'],['../class_u_vec4.html#ade18dcf5276cb800f91e55993f1f5270',1,'UVec4::UVec4()=default']]],
   ['uvec4_2ecpp_38',['UVec4.cpp',['../_u_vec4_8cpp.html',1,'']]],
   ['uvec4_2eh_39',['UVec4.h',['../_u_vec4_8h.html',1,'']]],
   ['uvec4_2einl_40',['UVec4.inl',['../_u_vec4_8inl.html',1,'']]],

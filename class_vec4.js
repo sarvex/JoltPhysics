@@ -1,6 +1,7 @@
 var class_vec4 =
 [
-    [ "Vec4", "class_vec4.html#ac21c3802689ce9821667b2cfc7b5a14b", null ],
+    [ "Type", "class_vec4.html#ab1cfa85755b56ebed7f92a1360e7006d", null ],
+    [ "Vec4", "class_vec4.html#a1940f74df37f29ae6cf77e11bb2e46cd", null ],
     [ "Vec4", "class_vec4.html#a89dc3aa052aaedf229ad80c875ba625a", null ],
     [ "Vec4", "class_vec4.html#a7dcd153f6972570d02a9ec9504ca67bf", null ],
     [ "Vec4", "class_vec4.html#a6615f4d5141a41f8c16a10734fc52391", null ],
@@ -14,6 +15,10 @@ var class_vec4 =
     [ "DotV", "class_vec4.html#aac21b2e88ff0e543a11fd1c4e2c743d8", null ],
     [ "GetSign", "class_vec4.html#a28b864dcc901d9bd5061b34e9551346c", null ],
     [ "GetSignBits", "class_vec4.html#aeccf9a2f8d2742fba6c62d4419cfa5d6", null ],
+    [ "GetW", "class_vec4.html#a3779a0a05de85b286afeb12f65d08090", null ],
+    [ "GetX", "class_vec4.html#aad89aa3a9c4215f45c0dbe1fb65830c3", null ],
+    [ "GetY", "class_vec4.html#aee5a8598cce851f687263d9b3a163989", null ],
+    [ "GetZ", "class_vec4.html#ae5f0ef8f9fd4deb1359806fac122f309", null ],
     [ "IsClose", "class_vec4.html#aad49c5695caae942208e05168c10f086", null ],
     [ "IsNaN", "class_vec4.html#ade30350c3a4167764d6b44b43f78e1db", null ],
     [ "IsNormalized", "class_vec4.html#a9b1dca50b3e7fb2408064eb24a7196ae", null ],

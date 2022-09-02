@@ -1,6 +1,7 @@
 var class_u_vec4 =
 [
-    [ "UVec4", "class_u_vec4.html#a7ea8efdac690a4877362c8e7abc534c3", null ],
+    [ "Type", "class_u_vec4.html#a69cef3d586cde7b42830b7b220149b0c", null ],
+    [ "UVec4", "class_u_vec4.html#ade18dcf5276cb800f91e55993f1f5270", null ],
     [ "UVec4", "class_u_vec4.html#aadc81adaffb695788b5c0859ae3071d3", null ],
     [ "UVec4", "class_u_vec4.html#ad935c0ba8397f8e1d7fbba4d70e519dd", null ],
     [ "UVec4", "class_u_vec4.html#a371ddfa754dc61e11f2c75f565eab0f9", null ],
@@ -14,6 +15,10 @@ var class_u_vec4 =
     [ "Expand4Uint16Hi", "class_u_vec4.html#ac7ecdcc40c2437edb94d824902084471", null ],
     [ "Expand4Uint16Lo", "class_u_vec4.html#a231db23152af3fc49272a7842432b2d8", null ],
     [ "GetTrues", "class_u_vec4.html#a4e62bc4e8238a1742d9cde03a0520252", null ],
+    [ "GetW", "class_u_vec4.html#a8524d1d2a92eb5b564976d7d2a5f8a57", null ],
+    [ "GetX", "class_u_vec4.html#ab2f2894975c86cd37303d8454aa37fcf", null ],
+    [ "GetY", "class_u_vec4.html#a33a55cd5fde9b7bfdbb408faafc1f11b", null ],
+    [ "GetZ", "class_u_vec4.html#a0eeba4ed35bd749af316be5bc0949a0a", null ],
     [ "LogicalShiftLeft", "class_u_vec4.html#a159c5fb6e8cb1c49a87a48d3977b50b6", null ],
     [ "LogicalShiftLeft", "class_u_vec4.html#a2ef3289c1b66cfad1da798a5d3cd412b", null ],
     [ "LogicalShiftRight", "class_u_vec4.html#a42597d44e823feee9c343624b72ece79", null ],

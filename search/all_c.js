@@ -35,7 +35,7 @@ var searchData=
   ['massproperties_2ecpp_32',['MassProperties.cpp',['../_mass_properties_8cpp.html',1,'']]],
   ['massproperties_2eh_33',['MassProperties.h',['../_mass_properties_8h.html',1,'']]],
   ['mat22_34',['Mat22',['../class_dual_axis_constraint_part.html#a435800bba261861cda7de7879cfb7259',1,'DualAxisConstraintPart::Mat22()'],['../class_hinge_rotation_constraint_part.html#ab1f18a0c76566111d337d6d175b8bbc6',1,'HingeRotationConstraintPart::Mat22()']]],
-  ['mat44_35',['Mat44',['../class_mat44.html#ad95a3b3f36bf3216574383e3dfb927ed',1,'Mat44::Mat44()=default'],['../class_mat44.html#a49fc455964e71ee64bb2128da1aa7981',1,'Mat44::Mat44(Vec4Arg inC1, Vec4Arg inC2, Vec4Arg inC3, Vec4Arg inC4)'],['../class_mat44.html#ab804bcb6a2583f7bf966d3d5a3a24161',1,'Mat44::Mat44(const Mat44 &amp;inM2)=default'],['../class_mat44.html#af8719f405d2de3e6310ba091f79aa518',1,'Mat44::Mat44(Type inC1, Type inC2, Type inC3, Type inC4)'],['../class_mat44.html',1,'Mat44']]],
+  ['mat44_35',['Mat44',['../class_mat44.html#ad95a3b3f36bf3216574383e3dfb927ed',1,'Mat44::Mat44()=default'],['../class_mat44.html#a9e544288786bacea509de796f7a2a224',1,'Mat44::Mat44(Vec4Arg inC1, Vec4Arg inC2, Vec4Arg inC3, Vec4Arg inC4)'],['../class_mat44.html#ab804bcb6a2583f7bf966d3d5a3a24161',1,'Mat44::Mat44(const Mat44 &amp;inM2)=default'],['../class_mat44.html#af8719f405d2de3e6310ba091f79aa518',1,'Mat44::Mat44(Type inC1, Type inC2, Type inC3, Type inC4)'],['../class_mat44.html',1,'Mat44']]],
   ['mat44_2eh_36',['Mat44.h',['../_mat44_8h.html',1,'']]],
   ['mat44_2einl_37',['Mat44.inl',['../_mat44_8inl.html',1,'']]],
   ['mat44arg_38',['Mat44Arg',['../_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6',1,'MathTypes.h']]],

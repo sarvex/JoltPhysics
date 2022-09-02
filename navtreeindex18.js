@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_swing_twist_constraint.html#acf698847ac574454093180b23cc74a4e":[3,0,247,43],
 "class_swing_twist_constraint.html#ad3c1a46d28973d5ce39917aa2b7a32b0":[3,0,247,1],
 "class_swing_twist_constraint.html#adc142775611a925dfdc755c0fa35bdbc":[3,0,247,13],
 "class_swing_twist_constraint.html#adef556a69c073651dc5370213dff405e":[3,0,247,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "class_triangle_splitter_fixed_leaf_size.html#a3c4cf349a59b88d2bed3656d82fa5ead":[3,0,269,2],
 "class_triangle_splitter_fixed_leaf_size.html#a6d3cb63db9a9f4d5f48fc0db60ef4717":[3,0,269,1],
 "class_triangle_splitter_fixed_leaf_size.html#a755f2d5fdd0b659ea5691be45fa1ede9":[3,0,269,0],
-"class_triangle_splitter_longest_axis.html":[3,0,270],
-"class_triangle_splitter_longest_axis.html#a45cde2072d3a6c30b46c6afa0e9bec51":[3,0,270,1]
+"class_triangle_splitter_longest_axis.html":[3,0,270]
 };

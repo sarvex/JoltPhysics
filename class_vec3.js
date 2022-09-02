@@ -1,6 +1,7 @@
 var class_vec3 =
 [
-    [ "Vec3", "class_vec3.html#a44b23ea0a5101da319285c9afe5493b4", null ],
+    [ "Type", "class_vec3.html#a113d94ab6f5a2f4fd236b64b9ad7cddc", null ],
+    [ "Vec3", "class_vec3.html#aeecf02c008ca1e3a1695d8962a5b24da", null ],
     [ "Vec3", "class_vec3.html#a268ea0715fd0914ffde63ca7451bde61", null ],
     [ "Vec3", "class_vec3.html#a3ab8c224fb2c6be708e58e45fd0ee987", null ],
     [ "Vec3", "class_vec3.html#a67ff481d7a24cf569cb694519dc3ff63", null ],
@@ -16,6 +17,9 @@ var class_vec3 =
     [ "GetLowestComponentIndex", "class_vec3.html#a502453ae3005d5b84a221adf80721f92", null ],
     [ "GetNormalizedPerpendicular", "class_vec3.html#a24a96972fdbe04ae9a3e340fd4c39b81", null ],
     [ "GetSign", "class_vec3.html#aecf767007e342e11f109b83a09449c7f", null ],
+    [ "GetX", "class_vec3.html#a284e29f161ae7709a934f402bd2a848c", null ],
+    [ "GetY", "class_vec3.html#aac08ebd63b9ab4fa089a5ed3224a8679", null ],
+    [ "GetZ", "class_vec3.html#aeca36d050a7c2b41d3ac0438874d8c60", null ],
     [ "IsClose", "class_vec3.html#a0b134a58f09912cb5cac913313487fad", null ],
     [ "IsNaN", "class_vec3.html#ae2ae38edbb4672657e92bf1c67bb7bea", null ],
     [ "IsNearZero", "class_vec3.html#acee93ea875b86bc0f63edebe2b592dbc", null ],

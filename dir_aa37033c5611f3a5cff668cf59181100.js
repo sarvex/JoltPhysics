@@ -16,7 +16,7 @@ var dir_aa37033c5611f3a5cff668cf59181100 =
     [ "Mat44.h", "_mat44_8h.html", [
       [ "Mat44", "class_mat44.html", "class_mat44" ]
     ] ],
-    [ "Mat44.inl", "_mat44_8inl.html", null ],
+    [ "Mat44.inl", "_mat44_8inl.html", "_mat44_8inl" ],
     [ "Math.h", "_math_8h.html", "_math_8h" ],
     [ "MathTypes.h", "_math_types_8h.html", "_math_types_8h" ],
     [ "Matrix.h", "_matrix_8h.html", [

@@ -2,7 +2,7 @@ var class_mat44 =
 [
     [ "Type", "class_mat44.html#a3aa8910fb3ed0cba6463518fe7d52328", null ],
     [ "Mat44", "class_mat44.html#ad95a3b3f36bf3216574383e3dfb927ed", null ],
-    [ "Mat44", "class_mat44.html#a49fc455964e71ee64bb2128da1aa7981", null ],
+    [ "Mat44", "class_mat44.html#a9e544288786bacea509de796f7a2a224", null ],
     [ "Mat44", "class_mat44.html#ab804bcb6a2583f7bf966d3d5a3a24161", null ],
     [ "Mat44", "class_mat44.html#af8719f405d2de3e6310ba091f79aa518", null ],
     [ "Adjointed3x3", "class_mat44.html#a3b9c1e6d186b9ad59e81255c64049f22", null ],
