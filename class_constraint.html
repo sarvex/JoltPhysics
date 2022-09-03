@@ -142,6 +142,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a632a8161ad49c443c2e3a8b600a730a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">GetSubType</a> () const =0</td></tr>
 <tr class="memdesc:a632a8161ad49c443c2e3a8b600a730a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sub type of a constraint.  <a href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">More...</a><br /></td></tr>
 <tr class="separator:a632a8161ad49c443c2e3a8b600a730a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697eb2fc2cd4dc64be93a8e0269e56b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a697eb2fc2cd4dc64be93a8e0269e56b0">SetNumVelocityStepsOverride</a> (int inN)</td></tr>
+<tr class="memdesc:a697eb2fc2cd4dc64be93a8e0269e56b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for the number of solver velocity iterations to run, the total amount of iterations is the max of <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a> and this for all constraints in the island.  <a href="class_constraint.html#a697eb2fc2cd4dc64be93a8e0269e56b0">More...</a><br /></td></tr>
+<tr class="separator:a697eb2fc2cd4dc64be93a8e0269e56b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242053c026dcd61881f51b4260152bab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a242053c026dcd61881f51b4260152bab">GetNumVelocityStepsOverride</a> () const</td></tr>
+<tr class="separator:a242053c026dcd61881f51b4260152bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a97f4e7f3006bbefe95c44fd4b8348"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a87a97f4e7f3006bbefe95c44fd4b8348">SetNumPositionStepsOverride</a> (int inN)</td></tr>
+<tr class="memdesc:a87a97f4e7f3006bbefe95c44fd4b8348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for the number of position velocity iterations to run, the total amount of iterations is the max of <a class="el" href="struct_physics_settings.html#a16260f9e775a74e88116f952f5d7e0a5" title="Number of solver position iterations to run.">PhysicsSettings::mNumPositionSteps</a> and this for all constraints in the island.  <a href="class_constraint.html#a87a97f4e7f3006bbefe95c44fd4b8348">More...</a><br /></td></tr>
+<tr class="separator:a87a97f4e7f3006bbefe95c44fd4b8348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a889b48a9d451bf6b3308eedc18f66c49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a889b48a9d451bf6b3308eedc18f66c49">GetNumPositionStepsOverride</a> () const</td></tr>
+<tr class="separator:a889b48a9d451bf6b3308eedc18f66c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6621fbefd246003aece1e9be8a169cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#aa6621fbefd246003aece1e9be8a169cb">SetEnabled</a> (bool inEnabled)</td></tr>
 <tr class="separator:aa6621fbefd246003aece1e9be8a169cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e0b8708469ecb3ea071c1b37ca8ea26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a2e0b8708469ecb3ea071c1b37ca8ea26">GetEnabled</a> () const</td></tr>
@@ -387,6 +397,56 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a889b48a9d451bf6b3308eedc18f66c49" name="a889b48a9d451bf6b3308eedc18f66c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a889b48a9d451bf6b3308eedc18f66c49">&#9670;&nbsp;</a></span>GetNumPositionStepsOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Constraint::GetNumPositionStepsOverride </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a242053c026dcd61881f51b4260152bab" name="a242053c026dcd61881f51b4260152bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a242053c026dcd61881f51b4260152bab">&#9670;&nbsp;</a></span>GetNumVelocityStepsOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Constraint::GetNumVelocityStepsOverride </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a632a8161ad49c443c2e3a8b600a730a1" name="a632a8161ad49c443c2e3a8b600a730a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a632a8161ad49c443c2e3a8b600a730a1">&#9670;&nbsp;</a></span>GetSubType()</h2>
 
@@ -556,6 +616,62 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Enable / disable this constraint. This can e.g. be used to implement a breakable constraint by detecting that the constraint impulse (see e.g. <a class="el" href="class_point_constraint.html#a393464647f68f5dbfcdb034b00d4b1d1">PointConstraint::GetTotalLambdaPosition</a>) went over a certain limit and then disabling the constraint. Note that although a disabled constraint will not affect the simulation in any way anymore, it does incur some processing overhead. Alternatively you can remove a constraint from the constraint manager (which may be more costly if you want to disable the constraint for a short while). </p>
+
+</div>
+</div>
+<a id="a87a97f4e7f3006bbefe95c44fd4b8348" name="a87a97f4e7f3006bbefe95c44fd4b8348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a97f4e7f3006bbefe95c44fd4b8348">&#9670;&nbsp;</a></span>SetNumPositionStepsOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Constraint::SetNumPositionStepsOverride </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inN</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Override for the number of position velocity iterations to run, the total amount of iterations is the max of <a class="el" href="struct_physics_settings.html#a16260f9e775a74e88116f952f5d7e0a5" title="Number of solver position iterations to run.">PhysicsSettings::mNumPositionSteps</a> and this for all constraints in the island. </p>
+
+</div>
+</div>
+<a id="a697eb2fc2cd4dc64be93a8e0269e56b0" name="a697eb2fc2cd4dc64be93a8e0269e56b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697eb2fc2cd4dc64be93a8e0269e56b0">&#9670;&nbsp;</a></span>SetNumVelocityStepsOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Constraint::SetNumVelocityStepsOverride </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inN</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Override for the number of solver velocity iterations to run, the total amount of iterations is the max of <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a> and this for all constraints in the island. </p>
 
 </div>
 </div>
