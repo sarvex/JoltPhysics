@@ -37,6 +37,7 @@ var searchData=
   ['cmintrianglearea_34',['cMinTriangleArea',['../class_e_p_a_convex_hull_builder.html#a4aa8fa12b1aa66a498dcca309be791bb',1,'EPAConvexHullBuilder']]],
   ['cnocollisionvalue_35',['cNoCollisionValue',['../namespace_height_field_shape_constants.html#ab430dbc1ec621a77f590c281791c0922',1,'HeightFieldShapeConstants']]],
   ['cnocollisionvalue16_36',['cNoCollisionValue16',['../namespace_height_field_shape_constants.html#ac7f85b459fc57cd090cdd118a0072d4b',1,'HeightFieldShapeConstants']]],
-  ['cnumbitsxy_37',['cNumBitsXY',['../namespace_height_field_shape_constants.html#a19db7caf3f2b0d72c438471292289306',1,'HeightFieldShapeConstants']]],
-  ['cstacksize_38',['cStackSize',['../namespace_height_field_shape_constants.html#a37ca4958b8fd6b37a4982941ca479a85',1,'HeightFieldShapeConstants']]]
+  ['cnomaxslopeangle_37',['cNoMaxSlopeAngle',['../class_character_base.html#a32bda1f36a6c2ba0eb1fec77dfcbb078',1,'CharacterBase']]],
+  ['cnumbitsxy_38',['cNumBitsXY',['../namespace_height_field_shape_constants.html#a19db7caf3f2b0d72c438471292289306',1,'HeightFieldShapeConstants']]],
+  ['cstacksize_39',['cStackSize',['../namespace_height_field_shape_constants.html#a37ca4958b8fd6b37a4982941ca479a85',1,'HeightFieldShapeConstants']]]
 ];

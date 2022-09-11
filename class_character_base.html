@@ -135,6 +135,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c2099dfbf12c1bd6f839a3eda5c9726"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a0c2099dfbf12c1bd6f839a3eda5c9726">SetMaxSlopeAngle</a> (float inMaxSlopeAngle)</td></tr>
 <tr class="memdesc:a0c2099dfbf12c1bd6f839a3eda5c9726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum angle of slope that character can still walk on (radians)  <a href="class_character_base.html#a0c2099dfbf12c1bd6f839a3eda5c9726">More...</a><br /></td></tr>
 <tr class="separator:a0c2099dfbf12c1bd6f839a3eda5c9726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d43079f3b6c40c3fa1ccc30a8682bf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#aa7d43079f3b6c40c3fa1ccc30a8682bf">GetCosMaxSlopeAngle</a> () const</td></tr>
+<tr class="separator:aa7d43079f3b6c40c3fa1ccc30a8682bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46d5822b95a5e771adc1e33f1f9b891c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a46d5822b95a5e771adc1e33f1f9b891c">SetUp</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inUp)</td></tr>
+<tr class="memdesc:a46d5822b95a5e771adc1e33f1f9b891c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the up vector for the character.  <a href="class_character_base.html#a46d5822b95a5e771adc1e33f1f9b891c">More...</a><br /></td></tr>
+<tr class="separator:a46d5822b95a5e771adc1e33f1f9b891c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a437049ade0a3ab8ab7aeafb64f5163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a2a437049ade0a3ab8ab7aeafb64f5163">GetUp</a> () const</td></tr>
+<tr class="separator:a2a437049ade0a3ab8ab7aeafb64f5163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e7e3bcc174d5e498844dcac7f7f173"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a87e7e3bcc174d5e498844dcac7f7f173">IsSlopeTooSteep</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inNormal) const</td></tr>
+<tr class="memdesc:a87e7e3bcc174d5e498844dcac7f7f173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the normal of the ground surface is too steep to walk on.  <a href="class_character_base.html#a87e7e3bcc174d5e498844dcac7f7f173">More...</a><br /></td></tr>
+<tr class="separator:a87e7e3bcc174d5e498844dcac7f7f173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe046cfb3333be1fcb186f42821ddb19"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_shape.html">Shape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#afe046cfb3333be1fcb186f42821ddb19">GetShape</a> () const</td></tr>
 <tr class="memdesc:afe046cfb3333be1fcb186f42821ddb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current shape that the character is using.  <a href="class_character_base.html#afe046cfb3333be1fcb186f42821ddb19">More...</a><br /></td></tr>
 <tr class="separator:afe046cfb3333be1fcb186f42821ddb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +183,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac6c3f8f7a2492d0c0f2eac85a9cc5a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c10220e06a8a5bb274a4b02c28cb0b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_const.html">RefConst</a>&lt; <a class="el" href="class_shape.html">Shape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a5c10220e06a8a5bb274a4b02c28cb0b6">mShape</a></td></tr>
 <tr class="separator:a5c10220e06a8a5bb274a4b02c28cb0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f637f449a17fb6a1b10297764de48b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a5f637f449a17fb6a1b10297764de48b4">mUp</a></td></tr>
+<tr class="separator:a5f637f449a17fb6a1b10297764de48b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da1e29d9257f3cce909487da437a0c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a9da1e29d9257f3cce909487da437a0c9">mCosMaxSlopeAngle</a></td></tr>
 <tr class="separator:a9da1e29d9257f3cce909487da437a0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf96842849baa268527dfa548219510"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a1cf96842849baa268527dfa548219510">mGroundState</a> = <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">EGroundState::InAir</a></td></tr>
@@ -191,6 +203,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2586c1571ba8e5adc511d71f413de2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf9a8bdf6fa420d9615206d196794135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#acf9a8bdf6fa420d9615206d196794135">mGroundUserData</a> = 0</td></tr>
 <tr class="separator:acf9a8bdf6fa420d9615206d196794135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32bda1f36a6c2ba0eb1fec77dfcbb078"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a32bda1f36a6c2ba0eb1fec77dfcbb078">cNoMaxSlopeAngle</a> = 0.9999f</td></tr>
+<tr class="separator:a32bda1f36a6c2ba0eb1fec77dfcbb078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8ce7589bd0e97901030bceeda7a513b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ab8ce7589bd0e97901030bceeda7a513b">GetGroundState</a> () const</td></tr>
 <tr class="memdesc:ab8ce7589bd0e97901030bceeda7a513b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current ground state.  <a href="class_character_base.html#ab8ce7589bd0e97901030bceeda7a513b">More...</a><br /></td></tr>
 <tr class="separator:ab8ce7589bd0e97901030bceeda7a513b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,6 +341,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa7d43079f3b6c40c3fa1ccc30a8682bf" name="aa7d43079f3b6c40c3fa1ccc30a8682bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d43079f3b6c40c3fa1ccc30a8682bf">&#9670;&nbsp;</a></span>GetCosMaxSlopeAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CharacterBase::GetCosMaxSlopeAngle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab677215920d0b4cd10874b3a56a35026" name="ab677215920d0b4cd10874b3a56a35026"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab677215920d0b4cd10874b3a56a35026">&#9670;&nbsp;</a></span>GetGroundBodyID()</h2>
 
@@ -570,6 +609,59 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a2a437049ade0a3ab8ab7aeafb64f5163" name="a2a437049ade0a3ab8ab7aeafb64f5163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a437049ade0a3ab8ab7aeafb64f5163">&#9670;&nbsp;</a></span>GetUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> CharacterBase::GetUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87e7e3bcc174d5e498844dcac7f7f173" name="a87e7e3bcc174d5e498844dcac7f7f173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e7e3bcc174d5e498844dcac7f7f173">&#9670;&nbsp;</a></span>IsSlopeTooSteep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterBase::IsSlopeTooSteep </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inNormal</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the normal of the ground surface is too steep to walk on. </p>
+
+</div>
+</div>
 <a id="ad9d1540df7d44b3aaeee88a527df7d7d" name="ad9d1540df7d44b3aaeee88a527df7d7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9d1540df7d44b3aaeee88a527df7d7d">&#9670;&nbsp;</a></span>RestoreState()</h2>
 
@@ -654,7 +746,57 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a46d5822b95a5e771adc1e33f1f9b891c" name="a46d5822b95a5e771adc1e33f1f9b891c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46d5822b95a5e771adc1e33f1f9b891c">&#9670;&nbsp;</a></span>SetUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterBase::SetUp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inUp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the up vector for the character. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a32bda1f36a6c2ba0eb1fec77dfcbb078" name="a32bda1f36a6c2ba0eb1fec77dfcbb078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32bda1f36a6c2ba0eb1fec77dfcbb078">&#9670;&nbsp;</a></span>cNoMaxSlopeAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float CharacterBase::cNoMaxSlopeAngle = 0.9999f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9da1e29d9257f3cce909487da437a0c9" name="a9da1e29d9257f3cce909487da437a0c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9da1e29d9257f3cce909487da437a0c9">&#9670;&nbsp;</a></span>mCosMaxSlopeAngle</h2>
 
@@ -886,6 +1028,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_physics_system.html">PhysicsSystem</a>* CharacterBase::mSystem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f637f449a17fb6a1b10297764de48b4" name="a5f637f449a17fb6a1b10297764de48b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f637f449a17fb6a1b10297764de48b4">&#9670;&nbsp;</a></span>mUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> CharacterBase::mUp</td>
         </tr>
       </table>
   </td>

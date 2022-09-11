@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f19fb2f4d5e64785c32e01a628e9a3e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_contact_listener.html#a1f19fb2f4d5e64785c32e01a628e9a3e">OnContactAdded</a> (const <a class="el" href="class_character_virtual.html">CharacterVirtual</a> *inCharacter, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID2, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inContactPosition, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inContactNormal, <a class="el" href="class_character_contact_settings.html">CharacterContactSettings</a> &amp;ioSettings)</td></tr>
 <tr class="memdesc:a1f19fb2f4d5e64785c32e01a628e9a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whenever the character collides with a body. Returns true if the contact can push the character.  <a href="class_character_contact_listener.html#a1f19fb2f4d5e64785c32e01a628e9a3e">More...</a><br /></td></tr>
 <tr class="separator:a1f19fb2f4d5e64785c32e01a628e9a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97cc70c173bab6e3cd30fcbfc0415b67"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_contact_listener.html#a97cc70c173bab6e3cd30fcbfc0415b67">OnContactSolve</a> (const <a class="el" href="class_character_virtual.html">CharacterVirtual</a> *inCharacter, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID2, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inContactPosition, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inContactNormal, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inContactVelocity, const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *inContactMaterial, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inCharacterVelocity, <a class="el" href="class_vec3.html">Vec3</a> &amp;ioNewCharacterVelocity)</td></tr>
+<tr class="separator:a97cc70c173bab6e3cd30fcbfc0415b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This class receives callbacks when a virtual character hits something. </p>
@@ -205,6 +207,98 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called whenever the character collides with a body. Returns true if the contact can push the character. </p>
+
+</div>
+</div>
+<a id="a97cc70c173bab6e3cd30fcbfc0415b67" name="a97cc70c173bab6e3cd30fcbfc0415b67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97cc70c173bab6e3cd30fcbfc0415b67">&#9670;&nbsp;</a></span>OnContactSolve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CharacterContactListener::OnContactSolve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_character_virtual.html">CharacterVirtual</a> *&#160;</td>
+          <td class="paramname"><em>inCharacter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSubShapeID2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inContactPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inContactNormal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inContactVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *&#160;</td>
+          <td class="paramname"><em>inContactMaterial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inCharacterVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioNewCharacterVelocity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Called whenever a contact is being used by the solver. Allows the listener to override the resulting character velocity (e.g. by preventing sliding along certain surfaces). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCharacter</td><td><a class="el" href="class_character.html">Character</a> that is being solved </td></tr>
+    <tr><td class="paramname">inBodyID2</td><td><a class="el" href="class_body.html">Body</a> ID of body that is being hit </td></tr>
+    <tr><td class="paramname">inSubShapeID2</td><td>Sub shape ID of shape that is being hit </td></tr>
+    <tr><td class="paramname">inContactPosition</td><td>World space contact position </td></tr>
+    <tr><td class="paramname">inContactNormal</td><td>World space contact normal </td></tr>
+    <tr><td class="paramname">inContactVelocity</td><td>World space velocity of contact point (e.g. for a moving platform) </td></tr>
+    <tr><td class="paramname">inContactMaterial</td><td>Material of contact point </td></tr>
+    <tr><td class="paramname">inCharacterVelocity</td><td>World space velocity of the character prior to hitting this contact </td></tr>
+    <tr><td class="paramname">ioNewCharacterVelocity</td><td>Contains the calculated world space velocity of the character after hitting this contact, this velocity slides along the surface of the contact. Can be modified by the listener to provide an alternative velocity. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -254,6 +254,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetTwistMaxAngle()&#160;:&#160;<a class="el" href="class_swing_twist_constraint.html#a505202f615a1842d430a4caff34b7a7d">SwingTwistConstraint</a></li>
 <li>SetTwistMinAngle()&#160;:&#160;<a class="el" href="class_swing_twist_constraint.html#a0276be01794b613f1e961227e774fb98">SwingTwistConstraint</a></li>
 <li>SetTwistMotorState()&#160;:&#160;<a class="el" href="class_swing_twist_constraint.html#ae69c1ec34e58f67f05aea6e393110f92">SwingTwistConstraint</a></li>
+<li>SetUp()&#160;:&#160;<a class="el" href="class_character_base.html#a46d5822b95a5e771adc1e33f1f9b891c">CharacterBase</a></li>
 <li>SetupVelocityConstraint()&#160;:&#160;<a class="el" href="class_cone_constraint.html#a4cdc1ebd99d91003dbebedd91b1b8a4f">ConeConstraint</a>, <a class="el" href="class_constraint.html#a175a388f9989341951507e08876fdf30">Constraint</a>, <a class="el" href="class_distance_constraint.html#a6783513d7658a4979f309be36a94f2d3">DistanceConstraint</a>, <a class="el" href="class_fixed_constraint.html#a357bd20813fdf9b5d6d6730ea1cb5cb7">FixedConstraint</a>, <a class="el" href="class_gear_constraint.html#aa9f34d205ecc9897c658025438c8a411">GearConstraint</a>, <a class="el" href="class_hinge_constraint.html#a4544b739d29da7059c04dd3ff87ac04f">HingeConstraint</a>, <a class="el" href="class_path_constraint.html#a334e81d911ed028bb007514d7dab7ed8">PathConstraint</a>, <a class="el" href="class_point_constraint.html#a0c951929290c4069a5489beaf3b11c3c">PointConstraint</a>, <a class="el" href="class_pulley_constraint.html#a577d6bca6063a4fe0bbbfb63fc6c1096">PulleyConstraint</a>, <a class="el" href="class_rack_and_pinion_constraint.html#a46f28ec31eb4f5068c20843ec28d9c8f">RackAndPinionConstraint</a>, <a class="el" href="class_six_d_o_f_constraint.html#abee061c8025b392f637e0cd56ac40d8c">SixDOFConstraint</a>, <a class="el" href="class_slider_constraint.html#a2abb17d42a19f2e7110bdd1edbc864bd">SliderConstraint</a>, <a class="el" href="class_swing_twist_constraint.html#a51932e901316b06ac2c5a55c5ce54856">SwingTwistConstraint</a>, <a class="el" href="class_vehicle_constraint.html#a7db85aa03eb1cadb974ca4600204daa5">VehicleConstraint</a></li>
 <li>SetupVelocityConstraints()&#160;:&#160;<a class="el" href="class_contact_constraint_manager.html#a3e175c70964531d96d77791bc45ca960">ContactConstraintManager</a></li>
 <li>SetUserData()&#160;:&#160;<a class="el" href="class_body.html#a3fff2f601caed12dd89c6d7fcb04dad6">Body</a>, <a class="el" href="class_shape.html#abe1ea0795fb422387c3e41f260caea1c">Shape</a></li>
@@ -378,8 +379,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>sRotationZ()&#160;:&#160;<a class="el" href="class_mat44.html#a3d393e34a43a22b0fbd2aba60f364434">Mat44</a></li>
 <li>sScale()&#160;:&#160;<a class="el" href="class_mat44.html#a858ecd5c9c124039f5c7adab5bcf5041">Mat44</a></li>
 <li>sSelect()&#160;:&#160;<a class="el" href="class_u_vec4.html#ae71c2806661a22cb3a5c880a280f30c0">UVec4</a>, <a class="el" href="class_u_vec8.html#af6073e4bae8355de6c0965306f3d8c02">UVec8</a>, <a class="el" href="class_vec3.html#a9f893b7c7bc6ef51c19ceeb3c195dd22">Vec3</a>, <a class="el" href="class_vec4.html#a6ae67a60e24b50c1b59050ef3d171228">Vec4</a>, <a class="el" href="class_vec8.html#ace631572dfd1ef87806ef62714d3fd89">Vec8</a></li>
-<li>sSetupVelocityConstraints()&#160;:&#160;<a class="el" href="class_constraint_manager.html#afe238a7b8236da9b32ab8f5d2805a9b0">ConstraintManager</a></li>
-<li>sSolvePositionConstraints()&#160;:&#160;<a class="el" href="class_constraint_manager.html#a4229723017436afa53da329e916f35be">ConstraintManager</a></li>
+<li>sSetupVelocityConstraints()&#160;:&#160;<a class="el" href="class_constraint_manager.html#a0b35b54ec12600f5d48fbc499a1136eb">ConstraintManager</a></li>
+<li>sSolvePositionConstraints()&#160;:&#160;<a class="el" href="class_constraint_manager.html#ab3345dcd23d6a017cd902f693f3d2016">ConstraintManager</a></li>
 <li>sSolveVelocityConstraints()&#160;:&#160;<a class="el" href="class_constraint_manager.html#ac5b062e8c716c39c1ab6a9596cf38e27">ConstraintManager</a></li>
 <li>sSort4()&#160;:&#160;<a class="el" href="class_vec4.html#a07960f2e43abb163fe7ded729c3cac16">Vec4</a></li>
 <li>sSort4Reverse()&#160;:&#160;<a class="el" href="class_vec4.html#a5474af2152aa33e6b02048aa2b279ece">Vec4</a></li>
@@ -391,13 +392,14 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>Stabilize()&#160;:&#160;<a class="el" href="class_ragdoll_settings.html#ab47bfb4b4c4c9dc780307449f9907bae">RagdollSettings</a></li>
 <li>StateRecorder()&#160;:&#160;<a class="el" href="class_state_recorder.html#ae41b09b37188ba73227dae4e070c53a8">StateRecorder</a></li>
 <li>StateRecorderImpl()&#160;:&#160;<a class="el" href="class_state_recorder_impl.html#a032ad810f2ab41da508ff62b35a93286">StateRecorderImpl</a></li>
-<li>StaticArray()&#160;:&#160;<a class="el" href="class_static_array.html#a9be0006e3a1a001893645dbd5b34b355">StaticArray&lt; T, N &gt;</a></li>
+<li>StaticArray()&#160;:&#160;<a class="el" href="class_static_array.html#a0b1020145a67d2f11ef8b6e21e56efda">StaticArray&lt; T, N &gt;</a></li>
 <li>StaticCompoundShape()&#160;:&#160;<a class="el" href="class_static_compound_shape.html#a38f22b35f96ae12c1b41d6503d47faf7">StaticCompoundShape</a></li>
 <li>Stats()&#160;:&#160;<a class="el" href="struct_shape_1_1_stats.html#a61e3cd06a767754cbc5150fe93f1e5fb">Shape::Stats</a></li>
 <li>Step()&#160;:&#160;<a class="el" href="struct_physics_update_context_1_1_step.html#a9ec562500a7a59cafbf7d6ce138f702a">PhysicsUpdateContext::Step</a></li>
+<li>StickToFloor()&#160;:&#160;<a class="el" href="class_character_virtual.html#a9cfdd1f28dc6e80464a1080cecac4213">CharacterVirtual</a></li>
 <li>STLAlignedAllocator()&#160;:&#160;<a class="el" href="class_s_t_l_aligned_allocator.html#a490bc5212d1eaa558cd629b920f7ab4f">STLAlignedAllocator&lt; T, N &gt;</a></li>
 <li>STLAllocator()&#160;:&#160;<a class="el" href="class_s_t_l_allocator.html#a0971631bbfb181b844ee4f1f6cf987d8">STLAllocator&lt; T &gt;</a></li>
-<li>STLTempAllocator()&#160;:&#160;<a class="el" href="class_s_t_l_temp_allocator.html#a96f2c3cf503f75f1deb7b97ce2d677e2">STLTempAllocator&lt; T &gt;</a></li>
+<li>STLTempAllocator()&#160;:&#160;<a class="el" href="class_s_t_l_temp_allocator.html#a584223fe52d48aafd4ab2b9f3d30ecd8">STLTempAllocator&lt; T &gt;</a></li>
 <li>StoreAppliedImpulses()&#160;:&#160;<a class="el" href="class_contact_constraint_manager.html#ac825a74176ec59d9e2995e67fc8d43c1">ContactConstraintManager</a></li>
 <li>StoreFloat3()&#160;:&#160;<a class="el" href="class_quat.html#ae95e7b6c9f4167b91b674a696c681c6e">Quat</a>, <a class="el" href="class_vec3.html#ab22c62c48d2de13947c0cd3413018364">Vec3</a></li>
 <li>StoreFloat4()&#160;:&#160;<a class="el" href="class_vec4.html#afdfae50fe6a7d86e7d1684fc71be7ed0">Vec4</a></li>
