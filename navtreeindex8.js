@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"class_color.html#afca651317831a93dba25464c5325f0ce":[3,0,65,5],
+"class_color.html#affa4da76e6fbf13ef771c90473426362":[3,0,65,3],
+"class_compound_shape.html":[3,0,66],
+"class_compound_shape.html#a10919d4b9069ed45d39e765f94e44b2c":[3,0,66,45],
+"class_compound_shape.html#a117d02ee25d15fff53f59f29434b3449":[3,0,66,40],
+"class_compound_shape.html#a1e3571fbe4835d1bfec50d9d7a1a2b1f":[3,0,66,34],
+"class_compound_shape.html#a1fe017e41afb14b1192689a5fa81ad2e":[3,0,66,39],
 "class_compound_shape.html#a230f2ff5c2d384c55f7845ff18acc8b0":[3,0,66,48],
 "class_compound_shape.html#a24b8501f64dae77c9cb4cfa408fc7537":[3,0,66,19],
 "class_compound_shape.html#a2c66ad490f6662e3ef81e44cabee11fa":[3,0,66,35],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "class_convex_hull_shape_1_1_hull_no_convex.html#ac12140f541d4dcf2b1c6a58108c0b026":[3,0,79,1,5],
 "class_convex_hull_shape_1_1_hull_no_convex.html#ae04c0e70e714f921fadc87f564dba26e":[3,0,79,1,3],
 "class_convex_hull_shape_1_1_hull_with_convex.html":[3,0,79,2],
-"class_convex_hull_shape_1_1_hull_with_convex.html#a069ec0a55025c42b3496246b949cd596":[3,0,79,2,1],
-"class_convex_hull_shape_1_1_hull_with_convex.html#a0abf6518afb0203d73ed2308d3bb83b1":[3,0,79,2,2],
-"class_convex_hull_shape_1_1_hull_with_convex.html#a2cc182e90ba06f5fdf0db6824c4173ee":[3,0,79,2,0],
-"class_convex_hull_shape_1_1_hull_with_convex_scaled.html":[3,0,79,3],
-"class_convex_hull_shape_1_1_hull_with_convex_scaled.html#a35a3f457cbdae6352227be61c356bba1":[3,0,79,3,1],
-"class_convex_hull_shape_1_1_hull_with_convex_scaled.html#a909efa72b31f796f8b86bc2fbe00d620":[3,0,79,3,0],
-"class_convex_hull_shape_1_1_hull_with_convex_scaled.html#aad0e71dae0215de9d65abee32e3d5bb7":[3,0,79,3,2],
-"class_convex_hull_shape_settings.html":[3,0,80]
+"class_convex_hull_shape_1_1_hull_with_convex.html#a069ec0a55025c42b3496246b949cd596":[3,0,79,2,1]
 };

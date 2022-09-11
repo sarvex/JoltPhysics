@@ -15,6 +15,9 @@ var dir_e6c5fb27ccbee0305acd3bb7c27d0472 =
     [ "HingeRotationConstraintPart.h", "_hinge_rotation_constraint_part_8h.html", [
       [ "HingeRotationConstraintPart", "class_hinge_rotation_constraint_part.html", "class_hinge_rotation_constraint_part" ]
     ] ],
+    [ "IndependentAxisConstraintPart.h", "_independent_axis_constraint_part_8h.html", [
+      [ "IndependentAxisConstraintPart", "class_independent_axis_constraint_part.html", "class_independent_axis_constraint_part" ]
+    ] ],
     [ "PointConstraintPart.h", "_point_constraint_part_8h.html", [
       [ "PointConstraintPart", "class_point_constraint_part.html", "class_point_constraint_part" ]
     ] ],

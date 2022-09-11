@@ -103,6 +103,7 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Header", "struct_node_codec_quad_tree_half_float_1_1_header.html", null ],
     [ "HingeRotationConstraintPart", "class_hinge_rotation_constraint_part.html", null ],
     [ "HeightFieldShape::HSGetTrianglesContext", "struct_height_field_shape_1_1_h_s_get_triangles_context.html", null ],
+    [ "IndependentAxisConstraintPart", "class_independent_axis_constraint_part.html", null ],
     [ "IndexedTriangleNoMaterial", "class_indexed_triangle_no_material.html", [
       [ "IndexedTriangle", "class_indexed_triangle.html", null ]
     ] ],
@@ -189,6 +190,7 @@ var hierarchy =
           [ "HingeConstraint", "class_hinge_constraint.html", null ],
           [ "PathConstraint", "class_path_constraint.html", null ],
           [ "PointConstraint", "class_point_constraint.html", null ],
+          [ "PulleyConstraint", "class_pulley_constraint.html", null ],
           [ "RackAndPinionConstraint", "class_rack_and_pinion_constraint.html", null ],
           [ "SixDOFConstraint", "class_six_d_o_f_constraint.html", null ],
           [ "SliderConstraint", "class_slider_constraint.html", null ],
@@ -333,6 +335,7 @@ var hierarchy =
           [ "HingeConstraintSettings", "class_hinge_constraint_settings.html", null ],
           [ "PathConstraintSettings", "class_path_constraint_settings.html", null ],
           [ "PointConstraintSettings", "class_point_constraint_settings.html", null ],
+          [ "PulleyConstraintSettings", "class_pulley_constraint_settings.html", null ],
           [ "RackAndPinionConstraintSettings", "class_rack_and_pinion_constraint_settings.html", null ],
           [ "SixDOFConstraintSettings", "class_six_d_o_f_constraint_settings.html", null ],
           [ "SliderConstraintSettings", "class_slider_constraint_settings.html", null ],
