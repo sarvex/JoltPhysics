@@ -145,11 +145,11 @@ Public Member Functions</h2></td></tr>
 </p>
 <p >Jacobian:</p>
 <p class="formulaDsp">
-\[J = \begin{bmatrix}n_1 &amp; r_1 \times n_1 &amp; n_2 &amp; r_2 \times n_2\end{bmatrix}\]
+\[J = \begin{bmatrix}n_1 &amp; r_1 \times n_1 &amp; r n_2 &amp; r r_2 \times n_2\end{bmatrix}\]
 </p>
 <p >Effective mass:</p>
 <p class="formulaDsp">
-\[K = m_1^{-1} + r_1 \times n_1 I_1^{-1} r_1 \times n_1 + m_2^{-1} + r_2 \times n_2 I_2^{-1} r_2 \times n_2\]
+\[K = m_1^{-1} + r_1 \times n_1 I_1^{-1} r_1 \times n_1 + r^2 m_2^{-1} + r^2 r_2 \times n_2 I_2^{-1} r_2 \times n_2\]
 </p>
 <p >Used terms (here and below, everything in world space):<br  />
 n1 = (x1 + r1 - f1) / |x1 + r1 - f1|, axis along which the force is applied for body 1<br  />
