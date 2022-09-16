@@ -171,9 +171,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2af17049d2f720a254dc2640425f798f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cdc40301b0300d4050d8875c11c377f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a9cdc40301b0300d4050d8875c11c377f">SetPositionRotationAndVelocity</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inLinearVelocity, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAngularVelocity)</td></tr>
 <tr class="separator:a9cdc40301b0300d4050d8875c11c377f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18efc1ae5268eabc115fe7ba7ed170b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a18efc1ae5268eabc115fe7ba7ed170b9">SetMotionType</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> inMotionType, <a class="el" href="_e_activation_8h.html#a4a0a592959c9a1beb4221e8908fce4a6">EActivation</a> inActivationMode)</td></tr>
-<tr class="memdesc:a18efc1ae5268eabc115fe7ba7ed170b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the body motion type.  <a href="class_body_interface.html#a18efc1ae5268eabc115fe7ba7ed170b9">More...</a><br /></td></tr>
-<tr class="separator:a18efc1ae5268eabc115fe7ba7ed170b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6a8905527bc1a025eda4f97f76f573"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a9f6a8905527bc1a025eda4f97f76f573">GetInverseInertia</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID) const</td></tr>
 <tr class="memdesc:a9f6a8905527bc1a025eda4f97f76f573"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inverse inertia tensor in world space.  <a href="class_body_interface.html#a9f6a8905527bc1a025eda4f97f76f573">More...</a><br /></td></tr>
 <tr class="separator:a9f6a8905527bc1a025eda4f97f76f573"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,6 +265,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1004b641bf6d6af8f18349839ea7707f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d26f5967fd267e154b014a3c3af9c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a6d26f5967fd267e154b014a3c3af9c2e">AddAngularImpulse</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAngularImpulse)</td></tr>
 <tr class="separator:a6d26f5967fd267e154b014a3c3af9c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Body motion type</div></td></tr>
+<tr class="memitem:a18efc1ae5268eabc115fe7ba7ed170b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a18efc1ae5268eabc115fe7ba7ed170b9">SetMotionType</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> inMotionType, <a class="el" href="_e_activation_8h.html#a4a0a592959c9a1beb4221e8908fce4a6">EActivation</a> inActivationMode)</td></tr>
+<tr class="separator:a18efc1ae5268eabc115fe7ba7ed170b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28dc9afdb017050075993e360cfc83ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a28dc9afdb017050075993e360cfc83ec">GetMotionType</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID) const</td></tr>
+<tr class="separator:a28dc9afdb017050075993e360cfc83ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Restitution</div></td></tr>
 <tr class="memitem:a7fb8b9b6e59dfe3f78f9e8e3c2776675"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a7fb8b9b6e59dfe3f78f9e8e3c2776675">SetRestitution</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, float inRestitution)</td></tr>
 <tr class="separator:a7fb8b9b6e59dfe3f78f9e8e3c2776675"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1172,6 +1174,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a28dc9afdb017050075993e360cfc83ec" name="a28dc9afdb017050075993e360cfc83ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28dc9afdb017050075993e360cfc83ec">&#9670;&nbsp;</a></span>GetMotionType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> BodyInterface::GetMotionType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4b8d499ac748154a6bdaf948377a0071" name="a4b8d499ac748154a6bdaf948377a0071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b8d499ac748154a6bdaf948377a0071">&#9670;&nbsp;</a></span>GetObjectLayer()</h2>
 
@@ -1805,8 +1825,6 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Update the body motion type. </p>
 
 </div>
 </div>

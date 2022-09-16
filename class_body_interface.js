@@ -33,6 +33,7 @@ var class_body_interface =
     [ "GetLinearAndAngularVelocity", "class_body_interface.html#ab10d8f90079351e23596e1abadfe7e5d", null ],
     [ "GetLinearVelocity", "class_body_interface.html#a3e25561a23fd268d649e3c968b9ffada", null ],
     [ "GetMaterial", "class_body_interface.html#a4b76f55d8fcbb5bb8c170069d03c1f79", null ],
+    [ "GetMotionType", "class_body_interface.html#a28dc9afdb017050075993e360cfc83ec", null ],
     [ "GetObjectLayer", "class_body_interface.html#a4b8d499ac748154a6bdaf948377a0071", null ],
     [ "GetPointVelocity", "class_body_interface.html#a2af17049d2f720a254dc2640425f798f", null ],
     [ "GetPosition", "class_body_interface.html#a22f14dabb1c60df94f4fe6bbc6d84c7a", null ],
