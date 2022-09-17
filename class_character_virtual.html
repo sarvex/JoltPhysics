@@ -157,8 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a643ed04caa01ba9e4e4fc9d5058dc3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aa87739165551d5e23aa91c94b24058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058">Update</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a5aa87739165551d5e23aa91c94b24058"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5f08935a0be3ec1bb841468b8c8be12"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#ab5f08935a0be3ec1bb841468b8c8be12">CanWalkStairs</a> () const</td></tr>
-<tr class="separator:ab5f08935a0be3ec1bb841468b8c8be12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44f8072c8e2687bbc20452b608fc5fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#af44f8072c8e2687bbc20452b608fc5fe">CanWalkStairs</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inLinearVelocity) const</td></tr>
+<tr class="separator:af44f8072c8e2687bbc20452b608fc5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee269433ae4dee22c427e9f5b52b8458"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#aee269433ae4dee22c427e9f5b52b8458">WalkStairs</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepUp, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepForward, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepForwardTest, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepDownExtra, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:aee269433ae4dee22c427e9f5b52b8458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfdd1f28dc6e80464a1080cecac4213"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a9cfdd1f28dc6e80464a1080cecac4213">StickToFloor</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepDown, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
@@ -354,8 +354,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab5f08935a0be3ec1bb841468b8c8be12" name="ab5f08935a0be3ec1bb841468b8c8be12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5f08935a0be3ec1bb841468b8c8be12">&#9670;&nbsp;</a></span>CanWalkStairs()</h2>
+<a id="af44f8072c8e2687bbc20452b608fc5fe" name="af44f8072c8e2687bbc20452b608fc5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44f8072c8e2687bbc20452b608fc5fe">&#9670;&nbsp;</a></span>CanWalkStairs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,12 +363,18 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool CharacterVirtual::CanWalkStairs </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inLinearVelocity</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This function will return true if the character has moved into a slope that is too steep (e.g. a vertical wall). You would call WalkStairs to attempt to step up stairs. </p>
+<p >This function will return true if the character has moved into a slope that is too steep (e.g. a vertical wall). You would call WalkStairs to attempt to step up stairs. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inLinearVelocity</td><td>The linear velocity that the player desired. This is used to determine if we're pusing into a step. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -1,7 +1,7 @@
 var class_character_virtual =
 [
     [ "CharacterVirtual", "class_character_virtual.html#aae8d3ce9f1208881c5cbd3eb42707434", null ],
-    [ "CanWalkStairs", "class_character_virtual.html#ab5f08935a0be3ec1bb841468b8c8be12", null ],
+    [ "CanWalkStairs", "class_character_virtual.html#af44f8072c8e2687bbc20452b608fc5fe", null ],
     [ "CheckCollision", "class_character_virtual.html#a4f9387d5c212c8d1d0b52e19703b8664", null ],
     [ "GetCenterOfMassTransform", "class_character_virtual.html#ae82d09c4482151440bbee3663b8b6b29", null ],
     [ "GetCharacterPadding", "class_character_virtual.html#a643ed04caa01ba9e4e4fc9d5058dc3d7", null ],
