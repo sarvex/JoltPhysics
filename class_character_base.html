@@ -119,7 +119,7 @@ Inheritance diagram for CharacterBase:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a82dfb80348cdbf3a08f97d54b225f77e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a> { <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777">OnGround</a>
-, <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ead82906db8c91bad0508406f71a9f3b7f">Sliding</a>
+, <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761">OnSteepGround</a>
 , <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">InAir</a>
  }</td></tr>
 <tr class="separator:a82dfb80348cdbf3a08f97d54b225f77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,7 +274,7 @@ Additional Inherited Members</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777" name="a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777"></a>OnGround&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is on the ground and can move freely. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77ead82906db8c91bad0508406f71a9f3b7f" name="a82dfb80348cdbf3a08f97d54b225f77ead82906db8c91bad0508406f71a9f3b7f"></a>Sliding&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is on a slope that is too steep and should start sliding. </p>
+<tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761" name="a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761"></a>OnSteepGround&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is on a slope that is too steep and can't climb up any further. The caller should start applying downward velocity if sliding from the slope is desired. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7" name="a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7"></a>InAir&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is in the air. </p>
 </td></tr>

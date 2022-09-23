@@ -8,5 +8,6 @@ var searchData=
   ['offset_5fnon_5fsignificant_5fmask_5',['OFFSET_NON_SIGNIFICANT_MASK',['../class_node_codec_quad_tree_half_float.html#ad5f38f690477649954508735e66e8f24ab451c34f42d704469b6a7a77af4c5d01',1,'NodeCodecQuadTreeHalfFloat']]],
   ['offsetcenterofmass_6',['OffsetCenterOfMass',['../_shape_8h.html#aa332e0529e75b83aad91881c8d32551bab56bddbe57bc36e5e91ea827e57d3adc',1,'Shape.h']]],
   ['on_7',['On',['../class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9a521c36a31c2762741cf0f8890cbe05e3',1,'DebugRenderer']]],
-  ['onground_8',['OnGround',['../class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777',1,'CharacterBase']]]
+  ['onground_8',['OnGround',['../class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777',1,'CharacterBase']]],
+  ['onsteepground_9',['OnSteepGround',['../class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761',1,'CharacterBase']]]
 ];

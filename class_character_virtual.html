@@ -256,7 +256,7 @@ Public Member Functions</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_class_character_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_character_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_character_base.html">CharacterBase</a></td></tr>
 <tr class="memitem:a82dfb80348cdbf3a08f97d54b225f77e inherit pub_types_class_character_base"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a> { <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777">OnGround</a>
-, <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ead82906db8c91bad0508406f71a9f3b7f">Sliding</a>
+, <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761">OnSteepGround</a>
 , <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">InAir</a>
  }</td></tr>
 <tr class="separator:a82dfb80348cdbf3a08f97d54b225f77e inherit pub_types_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1089,10 +1089,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This is the main update function. It moves the character according to its current velocity. Note it's your own responsibility to apply gravity! </p><dl class="params"><dt>Parameters</dt><dd>
+<p >This is the main update function. It moves the character according to its current velocity (the character is similar to a kinematic body in the sense that you set the velocity and the character will follow unless collision is blocking the way). Note it's your own responsibility to apply gravity to the character velocity! Different surface materials (like ice) can be emulated by getting the ground material and adjusting the velocity and/or the max slope angle accordingly every frame. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inDeltaTime</td><td>Time step to simulate. </td></tr>
-    <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2) </td></tr>
+    <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2). This gravity vector is only used when the character is standing on top of another object to apply downward force. </td></tr>
     <tr><td class="paramname">inBroadPhaseLayerFilter</td><td>Filter that is used to check if the character collides with something in the broadphase. </td></tr>
     <tr><td class="paramname">inObjectLayerFilter</td><td>Filter that is used to check if a character collides with a layer. </td></tr>
     <tr><td class="paramname">inBodyFilter</td><td>Filter that is used to check if a character collides with a body. </td></tr>
@@ -1179,7 +1179,7 @@ Additional Inherited Members</h2></td></tr>
 <p >When stair walking is needed, you can call the WalkStairs function to cast up, forward and down again to try to find a valid position </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inDeltaTime</td><td>Time step to simulate. </td></tr>
-    <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2) </td></tr>
+    <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2). This gravity vector is only used when the character is standing on top of another object to apply downward force. </td></tr>
     <tr><td class="paramname">inStepUp</td><td>The direction and distance to step up (this corresponds to the max step height) </td></tr>
     <tr><td class="paramname">inStepForward</td><td>The direction and distance to step forward after the step up </td></tr>
     <tr><td class="paramname">inStepForwardTest</td><td>When running at a high frequency, inStepForward can be very small and it's likely that you hit the side of the stairs on the way down. This could produce a normal that violates the max slope angle. If this happens, we test again using this distance from the up position to see if we find a valid slope. </td></tr>

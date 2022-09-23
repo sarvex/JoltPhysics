@@ -2,7 +2,7 @@ var class_character_base =
 [
     [ "EGroundState", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e", [
       [ "OnGround", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777", null ],
-      [ "Sliding", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ead82906db8c91bad0508406f71a9f3b7f", null ],
+      [ "OnSteepGround", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761", null ],
       [ "InAir", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7", null ]
     ] ],
     [ "CharacterBase", "class_character_base.html#ae105fe52be09ccb14a7e7aa57b83e8ca", null ],
