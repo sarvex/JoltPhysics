@@ -7,6 +7,7 @@ var struct_physics_update_context_1_1_sub_step =
     [ "mIntegrateVelocity", "struct_physics_update_context_1_1_sub_step.html#ab4253d48385935676e046b527ee23e53", null ],
     [ "mIntegrateVelocityReadIdx", "struct_physics_update_context_1_1_sub_step.html#a039b40959bf4cd5b0ad27618c57c54ec", null ],
     [ "mIsFirst", "struct_physics_update_context_1_1_sub_step.html#afc673036bdc10aa0a55e7a837c1246b1", null ],
+    [ "mIsFirstOfAll", "struct_physics_update_context_1_1_sub_step.html#a47e4da2c06df1ddafd6f6fe56c6f893f", null ],
     [ "mIsLast", "struct_physics_update_context_1_1_sub_step.html#a87a7562a20b856abec32f9382f584095", null ],
     [ "mIsLastOfAll", "struct_physics_update_context_1_1_sub_step.html#a24cdea3b868f58ba8ba5c050bb6e2c98", null ],
     [ "mNextCCDBody", "struct_physics_update_context_1_1_sub_step.html#a3cf0e03fb1cf37054a279d8b3ff1f1bb", null ],
