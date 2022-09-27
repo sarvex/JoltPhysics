@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2d80aa08a7ae24694dff0721c3e5cd5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb464f1e2b1cc92b8842b8b9c799711f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotated_translated_shape.html#adb464f1e2b1cc92b8842b8b9c799711f">RotatedTranslatedShape</a> (const <a class="el" href="class_rotated_translated_shape_settings.html">RotatedTranslatedShapeSettings</a> &amp;inSettings, <a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a> &amp;outResult)</td></tr>
 <tr class="separator:adb464f1e2b1cc92b8842b8b9c799711f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404c0c0433b1c4a0779d5b58ad4f9fb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotated_translated_shape.html#a404c0c0433b1c4a0779d5b58ad4f9fb3">RotatedTranslatedShape</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, const <a class="el" href="class_shape.html">Shape</a> *inShape)</td></tr>
+<tr class="separator:a404c0c0433b1c4a0779d5b58ad4f9fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d164a126cd4dea6185b8fb4ec918199"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_quat.html">Quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rotated_translated_shape.html#a6d164a126cd4dea6185b8fb4ec918199">GetRotation</a> () const</td></tr>
 <tr class="memdesc:a6d164a126cd4dea6185b8fb4ec918199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the rotation that is applied to the inner shape.  <a href="class_rotated_translated_shape.html#a6d164a126cd4dea6185b8fb4ec918199">More...</a><br /></td></tr>
 <tr class="separator:a6d164a126cd4dea6185b8fb4ec918199"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -319,7 +321,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p >A rotated translated shape will rotate and translate a child shape. Shifts the child object so that it is centered around the center of mass. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2d80aa08a7ae24694dff0721c3e5cd5c" name="a2d80aa08a7ae24694dff0721c3e5cd5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d80aa08a7ae24694dff0721c3e5cd5c">&#9670;&nbsp;</a></span>RotatedTranslatedShape() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d80aa08a7ae24694dff0721c3e5cd5c">&#9670;&nbsp;</a></span>RotatedTranslatedShape() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -346,7 +348,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="adb464f1e2b1cc92b8842b8b9c799711f" name="adb464f1e2b1cc92b8842b8b9c799711f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb464f1e2b1cc92b8842b8b9c799711f">&#9670;&nbsp;</a></span>RotatedTranslatedShape() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb464f1e2b1cc92b8842b8b9c799711f">&#9670;&nbsp;</a></span>RotatedTranslatedShape() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,6 +364,40 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a> &amp;&#160;</td>
           <td class="paramname"><em>outResult</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a404c0c0433b1c4a0779d5b58ad4f9fb3" name="a404c0c0433b1c4a0779d5b58ad4f9fb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a404c0c0433b1c4a0779d5b58ad4f9fb3">&#9670;&nbsp;</a></span>RotatedTranslatedShape() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RotatedTranslatedShape::RotatedTranslatedShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a>&#160;</td>
+          <td class="paramname"><em>inRotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape.html">Shape</a> *&#160;</td>
+          <td class="paramname"><em>inShape</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
