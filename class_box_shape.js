@@ -7,6 +7,7 @@ var class_box_shape =
     [ "CastRay", "class_box_shape.html#a9c2aaae3c5b69a6154a5ef68b0faf764", null ],
     [ "CastRay", "class_box_shape.html#afb509d4c0094c0f58a54590e5b801a0f", null ],
     [ "CollidePoint", "class_box_shape.html#ac79f1b2e03b7c9c374f8f8dbeb3104bb", null ],
+    [ "GetConvexRadius", "class_box_shape.html#a3e4280756f0e7d044f6473224f5e5097", null ],
     [ "GetHalfExtent", "class_box_shape.html#a44e8965153d83d24e534d6278f9d6e0d", null ],
     [ "GetInnerRadius", "class_box_shape.html#a50c713511a3e73d2c69cb03843eb06e8", null ],
     [ "GetLocalBounds", "class_box_shape.html#a5abe98f791addef880ea73ea813ec372", null ],

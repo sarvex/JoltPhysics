@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"class_wheel.html#a452fc2b42bb7fb3ffb296008ff19ff84":[3,0,300,32],
+"class_wheel.html#a4ed45e80dae82a05fe3a07bd8f81d96f":[3,0,300,9],
 "class_wheel.html#a4f4df6da668a8f3d147ee53a3c46910c":[3,0,300,5],
 "class_wheel.html#a53ae6143cfd91eba78398b03f427c7ed":[3,0,300,29],
 "class_wheel.html#a568fed5d0dd04fd63020e9253801a34c":[3,0,300,41],
@@ -127,8 +129,8 @@ var NAVTREEINDEX21 =
 "dir_dcf9b35cd7be2ace77df0178104cd92b.html":[4,0,1,9],
 "dir_e6c5fb27ccbee0305acd3bb7c27d0472.html":[4,0,1,5,3,0],
 "files.html":[4,0],
-"functions.html":[3,3,0],
 "functions.html":[3,3,0,0],
+"functions.html":[3,3,0],
 "functions_b.html":[3,3,0,1],
 "functions_c.html":[3,3,0,2],
 "functions_d.html":[3,3,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "globals_vars.html":[4,1,2],
 "globals_w.html":[4,1,0,20],
 "hierarchy.html":[3,2],
-"index.html":[],
-"index.html":[0],
-"md__docs__samples.html":[1]
+"index.html":[]
 };

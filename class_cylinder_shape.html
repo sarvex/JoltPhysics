@@ -170,6 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30d8aeffc7430806287324f7f55eb5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e3891076275d55c6274d3cfd480b18"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_shape.html#a85e3891076275d55c6274d3cfd480b18">GetVolume</a> () const override</td></tr>
 <tr class="separator:a85e3891076275d55c6274d3cfd480b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c725b9796a592daafff0476543c4629"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_shape.html#a4c725b9796a592daafff0476543c4629">GetConvexRadius</a> () const</td></tr>
+<tr class="memdesc:a4c725b9796a592daafff0476543c4629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the convex radius of this cylinder.  <a href="class_cylinder_shape.html#a4c725b9796a592daafff0476543c4629">More...</a><br /></td></tr>
+<tr class="separator:a4c725b9796a592daafff0476543c4629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588bfdea87ca78a28f2c02c4d9d05630"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_shape.html#a588bfdea87ca78a28f2c02c4d9d05630">IsValidScale</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale) const override</td></tr>
 <tr class="separator:a588bfdea87ca78a28f2c02c4d9d05630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2943e795c49300d95d68950231de8a3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_shape.html#af2943e795c49300d95d68950231de8a3">CastRay</a> (const <a class="el" href="struct_ray_cast.html">RayCast</a> &amp;inRay, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="class_ray_cast_result.html">RayCastResult</a> &amp;ioHit) const override</td></tr>
@@ -648,6 +651,33 @@ Additional Inherited Members</h2></td></tr>
 <p >Check if inPoint is inside this shape. For this tests all shapes are treated as if they were solid. Note that inPoint should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from inPoint if you want to test against the shape in the space it was created). For a mesh shape, this test will only provide sensible information if the mesh is a closed manifold. For each shape that collides, ioCollector will receive a hit. </p>
 
 <p>Reimplemented from <a class="el" href="class_convex_shape.html#a6257c07e716aa0654965b5a72ac31d39">ConvexShape</a>.</p>
+
+</div>
+</div>
+<a id="a4c725b9796a592daafff0476543c4629" name="a4c725b9796a592daafff0476543c4629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c725b9796a592daafff0476543c4629">&#9670;&nbsp;</a></span>GetConvexRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CylinderShape::GetConvexRadius </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the convex radius of this cylinder. </p>
 
 </div>
 </div>

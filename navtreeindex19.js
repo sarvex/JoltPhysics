@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a795673261b70c6dcf35cc2b95cc6e901":[3,0,263,1,1],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html":[3,0,263,4],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html#a31081b105365540e856c4e5a264dfe64":[3,0,263,4,0],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html#ab4e4d57f7c4750037a52136fa23d6c5c":[3,0,263,4,1],
 "class_triangle_grouper.html":[3,0,265],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "class_vec3.html#aefba3895f1a98e1a5854b7e79598a408":[3,0,281,13],
 "class_vec3.html#afd477997c0834bd3080156e730ced38d":[3,0,281,56],
 "class_vec4.html":[3,0,282],
-"class_vec4.html#a01e7322229eaf37c8b9479c6e648d221":[3,0,282,29],
-"class_vec4.html#a02525e7f8473c93268058324115eeb02":[3,0,282,52],
-"class_vec4.html#a03151fec0517ac59f467e6400bd2e79d":[3,0,282,26]
+"class_vec4.html#a01e7322229eaf37c8b9479c6e648d221":[3,0,282,29]
 };

@@ -167,6 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa47cad6cf56f35a41e8626c3fd587fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a7afcc6db8041d6e0f335bfee62ec0"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_box_shape.html#a22a7afcc6db8041d6e0f335bfee62ec0">GetVolume</a> () const override</td></tr>
 <tr class="separator:a22a7afcc6db8041d6e0f335bfee62ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4280756f0e7d044f6473224f5e5097"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_box_shape.html#a3e4280756f0e7d044f6473224f5e5097">GetConvexRadius</a> () const</td></tr>
+<tr class="memdesc:a3e4280756f0e7d044f6473224f5e5097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the convex radius of this box.  <a href="class_box_shape.html#a3e4280756f0e7d044f6473224f5e5097">More...</a><br /></td></tr>
+<tr class="separator:a3e4280756f0e7d044f6473224f5e5097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_convex_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_convex_shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_convex_shape.html">ConvexShape</a></td></tr>
 <tr class="memitem:a6454ef09933ded91976c8f77bec976db inherit pub_methods_class_convex_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#a6454ef09933ded91976c8f77bec976db">ConvexShape</a> (<a class="el" href="_shape_8h.html#aa332e0529e75b83aad91881c8d32551b">EShapeSubType</a> inSubType)</td></tr>
 <tr class="memdesc:a6454ef09933ded91976c8f77bec976db inherit pub_methods_class_convex_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_convex_shape.html#a6454ef09933ded91976c8f77bec976db">More...</a><br /></td></tr>
@@ -600,6 +603,33 @@ Additional Inherited Members</h2></td></tr>
 <p >Check if inPoint is inside this shape. For this tests all shapes are treated as if they were solid. Note that inPoint should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from inPoint if you want to test against the shape in the space it was created). For a mesh shape, this test will only provide sensible information if the mesh is a closed manifold. For each shape that collides, ioCollector will receive a hit. </p>
 
 <p>Reimplemented from <a class="el" href="class_convex_shape.html#a6257c07e716aa0654965b5a72ac31d39">ConvexShape</a>.</p>
+
+</div>
+</div>
+<a id="a3e4280756f0e7d044f6473224f5e5097" name="a3e4280756f0e7d044f6473224f5e5097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4280756f0e7d044f6473224f5e5097">&#9670;&nbsp;</a></span>GetConvexRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BoxShape::GetConvexRadius </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the convex radius of this box. </p>
 
 </div>
 </div>
