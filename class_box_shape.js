@@ -14,7 +14,7 @@ var class_box_shape =
     [ "GetMassProperties", "class_box_shape.html#a2a6f91fa07d5ef9ef2541c0acfcdf9e8", null ],
     [ "GetStats", "class_box_shape.html#aa47cad6cf56f35a41e8626c3fd587fb3", null ],
     [ "GetSupportFunction", "class_box_shape.html#a8078cbdc696e4fb8e65fb7c312dfb1f6", null ],
-    [ "GetSupportingFace", "class_box_shape.html#a2822e40ca56436525aef7d33e4c32d80", null ],
+    [ "GetSupportingFace", "class_box_shape.html#a10628c6c084267e249ef86fa924ac620", null ],
     [ "GetSurfaceNormal", "class_box_shape.html#ae279a012b515691509f4d15927925664", null ],
     [ "GetTrianglesNext", "class_box_shape.html#a90ed6d83a46a7311750bfa7877d72def", null ],
     [ "GetTrianglesStart", "class_box_shape.html#a287e16289c491cd9dbd980e59ca7725b", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab2f3679c65f018d1dcb3e462dad0eef0":[3,0,263,0,4],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ada5a0630058e85675e03c6d054b5bff2":[3,0,263,0,3],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ae532afd31a81a660a2602ce779449b23":[3,0,263,0,2],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#af84b416ab6da3ec2c8b3285e18537dc0":[3,0,263,0,0],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html":[3,0,263,1],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a1a7a9c8bdd917bf0e4b95a88694c8630":[3,0,263,1,0],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a50a1460500545669a8ace0085df1de47":[3,0,263,1,3],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a573d120362b45d1088d19c76001507db":[3,0,263,1,2],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a795673261b70c6dcf35cc2b95cc6e901":[3,0,263,1,1],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html":[3,0,263,4],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html#a31081b105365540e856c4e5a264dfe64":[3,0,263,4,0],
@@ -21,7 +29,6 @@ var NAVTREEINDEX19 =
 "class_triangle_shape.html#a41afaef8725be99a40861e777de22119":[3,0,268,13],
 "class_triangle_shape.html#a5a64a59ecb5455540fbff4a1f766d12e":[3,0,268,25],
 "class_triangle_shape.html#a6095d8ea98d3e69ea17834a82ca1126e":[3,0,268,6],
-"class_triangle_shape.html#a8047d2f2d2f0eb78de2e4bdc45b48eeb":[3,0,268,16],
 "class_triangle_shape.html#a846c245654d20a47cd41a4d01a1d035f":[3,0,268,24],
 "class_triangle_shape.html#a8f50dd711b5be7bb02a0dd06e954a8d4":[3,0,268,3],
 "class_triangle_shape.html#aa130f6df7eb934713fce70d29bd5d526":[3,0,268,22],
@@ -30,6 +37,7 @@ var NAVTREEINDEX19 =
 "class_triangle_shape.html#ab632b280870ff67e4c8cdfbbbb05ae64":[3,0,268,23],
 "class_triangle_shape.html#acb85ccdd921dcc7f1018bafd6cc54af0":[3,0,268,11],
 "class_triangle_shape.html#ad05039d8e56aca9a7f1e83453f4e897e":[3,0,268,9],
+"class_triangle_shape.html#ad35f626bfc8807441d6b200ebf74e216":[3,0,268,16],
 "class_triangle_shape.html#ae64007e8a09c522eea94287d25089bb4":[3,0,268,14],
 "class_triangle_shape.html#ae85456e8f22b77ebef19e814221b9ec9":[3,0,268,20],
 "class_triangle_shape.html#aea1cb87c9bdf927b353459aec286218f":[3,0,268,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "class_vec3.html#ae2ae38edbb4672657e92bf1c67bb7bea":[3,0,281,21],
 "class_vec3.html#ae3693c78a72d92e9ab821025f8ed28cf":[3,0,281,54],
 "class_vec3.html#ae8373cd45fbf550d26729f98a68b3e4a":[3,0,281,46],
-"class_vec3.html#ae94bad18d2f3d3b2a75f69022f67c7e0":[3,0,281,11],
-"class_vec3.html#aeca36d050a7c2b41d3ac0438874d8c60":[3,0,281,19],
-"class_vec3.html#aecf767007e342e11f109b83a09449c7f":[3,0,281,16],
-"class_vec3.html#aeeadce7b9b442cccab2d2f3cbde2ccb9":[3,0,281,57],
-"class_vec3.html#aeecf02c008ca1e3a1695d8962a5b24da":[3,0,281,1],
-"class_vec3.html#aefba3895f1a98e1a5854b7e79598a408":[3,0,281,13],
-"class_vec3.html#afd477997c0834bd3080156e730ced38d":[3,0,281,56],
-"class_vec4.html":[3,0,282],
-"class_vec4.html#a01e7322229eaf37c8b9479c6e648d221":[3,0,282,29]
+"class_vec3.html#ae94bad18d2f3d3b2a75f69022f67c7e0":[3,0,281,11]
 };

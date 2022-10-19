@@ -18,7 +18,7 @@ var class_convex_hull_shape =
     [ "GetStats", "class_convex_hull_shape.html#abdfd4a2a43587db1b5d726c78d3ee2b5", null ],
     [ "GetSubmergedVolume", "class_convex_hull_shape.html#ab7e25e298bc1550a6699db6318260fcc", null ],
     [ "GetSupportFunction", "class_convex_hull_shape.html#ae343a96fe9cce1424f7ddeb7a98a393b", null ],
-    [ "GetSupportingFace", "class_convex_hull_shape.html#a05d1f4eb965d1bcb5780ab728cd50a2c", null ],
+    [ "GetSupportingFace", "class_convex_hull_shape.html#a9707b7f687ecaac45496dc111535782e", null ],
     [ "GetSurfaceNormal", "class_convex_hull_shape.html#a586cf0e80d2f705fb104d4b6c3cb5d13", null ],
     [ "GetTrianglesNext", "class_convex_hull_shape.html#a7def260c11540094261de145227efa04", null ],
     [ "GetTrianglesStart", "class_convex_hull_shape.html#a6c4c9fd637e19f6d7d7aa32a0389a6a6", null ],

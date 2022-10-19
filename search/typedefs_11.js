@@ -13,5 +13,5 @@ var searchData=
   ['subshapes_10',['SubShapes',['../class_compound_shape.html#a55fbd4f496242427b0e62d788a597e5b',1,'CompoundShape::SubShapes()'],['../class_compound_shape_settings.html#ac4842f25ad3eada96183eb8a0e1efdac',1,'CompoundShapeSettings::SubShapes()']]],
   ['substeps_11',['SubSteps',['../class_physics_update_context.html#aac38112db4038adfa0a67a9fb2634b54',1,'PhysicsUpdateContext']]],
   ['supportfunction_12',['SupportFunction',['../class_debug_renderer.html#af1cf6a05ac6c0387b26aebe24fe0a0d9',1,'DebugRenderer']]],
-  ['supportingface_13',['SupportingFace',['../class_convex_shape.html#a238f8599d34f5eb8cfd43c6c847fdacc',1,'ConvexShape']]]
+  ['supportingface_13',['SupportingFace',['../class_shape.html#a95d3060318d33c1ef314c5b856a70cb8',1,'Shape']]]
 ];

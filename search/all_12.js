@@ -461,7 +461,7 @@ var searchData=
   ['support_458',['Support',['../class_convex_shape_1_1_support.html',1,'ConvexShape']]],
   ['supportbuffer_459',['SupportBuffer',['../class_convex_shape_1_1_support_buffer.html',1,'ConvexShape']]],
   ['supportfunction_460',['SupportFunction',['../class_debug_renderer.html#af1cf6a05ac6c0387b26aebe24fe0a0d9',1,'DebugRenderer']]],
-  ['supportingface_461',['SupportingFace',['../class_convex_shape.html#a238f8599d34f5eb8cfd43c6c847fdacc',1,'ConvexShape']]],
+  ['supportingface_461',['SupportingFace',['../class_shape.html#a95d3060318d33c1ef314c5b856a70cb8',1,'Shape']]],
   ['sversion_462',['sVersion',['../class_object_stream.html#af44c611aa03b15ebaf81e50dc244151c',1,'ObjectStream']]],
   ['swapshapes_463',['SwapShapes',['../class_contact_manifold.html#a48787ecfb82e124dfa8cd1de71ed8027',1,'ContactManifold']]],
   ['swarmstartvelocityconstraints_464',['sWarmStartVelocityConstraints',['../class_constraint_manager.html#a5dd7f2316a62baa0abf43cd82230ba7a',1,'ConstraintManager']]],
