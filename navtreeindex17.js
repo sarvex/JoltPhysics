@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"class_skeletal_animation_1_1_joint_state.html#a1481a144208ed55cecd270be18ff0744":[3,0,223,1,0],
+"class_skeletal_animation_1_1_joint_state.html#a402db12a064bb22585d499010239d1ce":[3,0,223,1,2],
 "class_skeletal_animation_1_1_joint_state.html#a9f73687fd3e02751c32b6815aa9293c4":[3,0,223,1,1],
 "class_skeletal_animation_1_1_joint_state.html#af8e19b9f29f42e33163c89ddd57fe5c4":[3,0,223,1,3],
 "class_skeletal_animation_1_1_keyframe.html":[3,0,223,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "class_static_compound_shape.html#a834536007f00d3251acbd122afffb16e":[3,0,238,9],
 "class_static_compound_shape.html#ab2e2ccd7bd10816f6f919ca6aa3a405e":[3,0,238,5],
 "class_static_compound_shape.html#ac94ac9145e77b8bbcdb36849a26db213":[3,0,238,10],
-"class_static_compound_shape.html#ad973e13f69ffa355e172f8a37d5fc347":[3,0,238,8],
-"class_static_compound_shape_settings.html":[3,0,239],
-"class_static_compound_shape_settings.html#a354d96bbea984e976b4e0bba6d8e659a":[3,0,239,1]
+"class_static_compound_shape.html#ad973e13f69ffa355e172f8a37d5fc347":[3,0,238,8]
 };
