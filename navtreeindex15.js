@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"class_quat.html#ae95e7b6c9f4167b91b674a696c681c6e":[3,0,188,45],
+"class_quat.html#afa7fe10bf8a457fb2d524791ccd79ec4":[3,0,188,15],
+"class_quat.html#afad087a5997d1318f544b5c9819c4d9b":[3,0,188,48],
+"class_quat.html#afc3276d69ac8713afddf3cf970c27371":[3,0,188,44],
 "class_quat.html#afc3765d179c478cf2c08d76bd9391bfa":[3,0,188,39],
 "class_r_t_t_i.html":[3,0,207],
 "class_r_t_t_i.html#a05e1a68c508992c39107dcdde015138b":[3,0,207,26],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "class_rotation_euler_constraint_part.html#aba8f2a3ca2aa7ab982b16499cf938ee3":[3,0,205,4],
 "class_rotation_euler_constraint_part.html#af37f613895af10af42c71f644fe3f2f5":[3,0,205,0],
 "class_rotation_euler_constraint_part.html#af9a7e556643d4162eb300045d9a40df1":[3,0,205,7],
-"class_rotation_euler_constraint_part.html#afda34f355272d02e5daf8103639b22bf":[3,0,205,5],
-"class_rotation_quat_constraint_part.html":[3,0,206],
-"class_rotation_quat_constraint_part.html#a05fa3097154059e8d7814370182a7aa5":[3,0,206,6],
-"class_rotation_quat_constraint_part.html#a0c752c045f216b2d9c0570faf3f71c44":[3,0,206,0],
-"class_rotation_quat_constraint_part.html#a4aaed47e0905087e32e5dc82f6c4dca5":[3,0,206,1]
+"class_rotation_euler_constraint_part.html#afda34f355272d02e5daf8103639b22bf":[3,0,205,5]
 };

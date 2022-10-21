@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#adf7b4eade64871b3f53059bdacf9aace":[3,0,263,8],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#adf7b4eade64871b3f53059bdacf9aacea20bbfa39a2c203daad6afc217b354199":[3,0,263,8,0],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#adf7b4eade64871b3f53059bdacf9aacea61adc7a5c7a546e8f686916fe0f0029a":[3,0,263,8,2],
+"class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#adf7b4eade64871b3f53059bdacf9aaceae4bc48542d03b13ac031fc67f9eaa79c":[3,0,263,8,1],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html":[3,0,263,0],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fb4bf3fda3a5fe7fede50bdfad3ed17":[3,0,263,0,1],
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab2f3679c65f018d1dcb3e462dad0eef0":[3,0,263,0,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "class_vec3.html#abaa362706e12d5e3fa8d950ba80d173e":[3,0,281,42],
 "class_vec3.html#ac3696d27478b928d1cefab61a5178933":[3,0,281,5],
 "class_vec3.html#aca3385f3736a2231ace7de3a558d2863":[3,0,281,61],
-"class_vec3.html#acee93ea875b86bc0f63edebe2b592dbc":[3,0,281,22],
-"class_vec3.html#ae0bbf04d3791ef12a0b2d114e190ed8e":[3,0,281,31],
-"class_vec3.html#ae0dfbede4fa779658ba48bd13449c3f1":[3,0,281,34],
-"class_vec3.html#ae2ae38edbb4672657e92bf1c67bb7bea":[3,0,281,21],
-"class_vec3.html#ae3693c78a72d92e9ab821025f8ed28cf":[3,0,281,54]
+"class_vec3.html#acee93ea875b86bc0f63edebe2b592dbc":[3,0,281,22]
 };
