@@ -256,7 +256,7 @@ $(document).ready(function(){initNavTree('_closest_point_8h_source.html',''); in
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        <span class="keywordtype">float</span> n_len_sq = n.<a class="code hl_function" href="class_vec3.html#aba501a6a474028084799f871c9083dc1">LengthSq</a>();</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <span class="comment">// Check degenerate</span></div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <span class="keywordflow">if</span> (n_len_sq &lt; <a class="code hl_function" href="_math_8h.html#ae503305e611d695797d7a7a8a55de891">Square</a>(FLT_EPSILON))</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <span class="keywordflow">if</span> (n_len_sq &lt; 1.0e-13f) <span class="comment">// Square(FLT_EPSILON) was too small and caused numerical problems, see test case TestCollideParallelTriangleVsCapsule</span></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        {</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>            <span class="comment">// Degenerate, fallback to edges</span></div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
