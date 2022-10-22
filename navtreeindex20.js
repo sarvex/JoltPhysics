@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"class_vec3.html#ab8c89d26b3b090939173acf1ccd2d2e5":[3,0,281,29],
+"class_vec3.html#aba501a6a474028084799f871c9083dc1":[3,0,281,25],
 "class_vec3.html#abaa362706e12d5e3fa8d950ba80d173e":[3,0,281,42],
 "class_vec3.html#ac3696d27478b928d1cefab61a5178933":[3,0,281,5],
 "class_vec3.html#aca3385f3736a2231ace7de3a558d2863":[3,0,281,61],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "class_vehicle_transmission_settings.html#a3055b6c810a88a1ae3fd2946a1683d5d":[3,0,299,0],
 "class_vehicle_transmission_settings.html#a3632548e7e09e7eb2fc8594ff039265e":[3,0,299,3],
 "class_vehicle_transmission_settings.html#a57d1f98cbd50ba710d6c1941e2788e8f":[3,0,299,4],
-"class_vehicle_transmission_settings.html#a928b1aea1e5cae37d92bd18ccc3ab74c":[3,0,299,7],
-"class_vehicle_transmission_settings.html#a9c89ba7571dd3ba9e5dff909a379ab3f":[3,0,299,6],
-"class_vehicle_transmission_settings.html#ac0a9ec4f7eb2fa4d2bfbb5c49c46171d":[3,0,299,5]
+"class_vehicle_transmission_settings.html#a928b1aea1e5cae37d92bd18ccc3ab74c":[3,0,299,7]
 };

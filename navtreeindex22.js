@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"globals_func_v.html":[4,1,1,17],
+"globals_g.html":[4,1,0,6],
 "globals_h.html":[4,1,0,7],
 "globals_i.html":[4,1,0,8],
 "globals_j.html":[4,1,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "struct_debug_renderer_recorder_1_1_text_blob.html#aa4ba7b0e6adbf3e02a2f36a544ac5531":[3,0,87,3,4],
 "struct_debug_renderer_recorder_1_1_text_blob.html#aabc4e3cc9c5a27ee8b151cbea90e20e3":[3,0,87,3,3],
 "struct_debug_renderer_recorder_1_1_text_blob.html#ad6271bb0149760a239bdf01038714243":[3,0,87,3,2],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html":[3,0,87,4],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html#a1b2be0f1f299107120b2b53588fa94f5":[3,0,87,4,2],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html#a25ce9acc7f799de155e66f799a84def9":[3,0,87,4,0]
+"struct_debug_renderer_recorder_1_1_triangle_blob.html":[3,0,87,4]
 };
