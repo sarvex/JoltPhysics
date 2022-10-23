@@ -101,6 +101,13 @@ var NAVTREEINDEX22 =
 "struct_body_pair.html#af07fc6b828c249ac30e5ad5f406016f8":[3,0,27,0],
 "struct_broad_phase_1_1_update_state.html":[3,0,31,0],
 "struct_broad_phase_1_1_update_state.html#a8460ba8beb83aa9919bf50eac7134ff1":[3,0,31,0,0],
+"struct_character_virtual_1_1_extended_update_settings.html":[3,0,50,0],
+"struct_character_virtual_1_1_extended_update_settings.html#a175073b371406a720d7e381fc9103110":[3,0,50,0,2],
+"struct_character_virtual_1_1_extended_update_settings.html#a3c73356c2fb3d89d86c89c3b9a44f1c7":[3,0,50,0,3],
+"struct_character_virtual_1_1_extended_update_settings.html#a773f3fecf53db30cd8a6381b307a3cb4":[3,0,50,0,4],
+"struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528":[3,0,50,0,1],
+"struct_character_virtual_1_1_extended_update_settings.html#aca652284cd05c703f8248b39f18dc994":[3,0,50,0,0],
+"struct_character_virtual_1_1_extended_update_settings.html#aceded2ed4fa3545ebdd0f8e3c907a21f":[3,0,50,0,5],
 "struct_compound_shape_1_1_cast_ray_visitor.html":[3,0,66,0],
 "struct_compound_shape_1_1_cast_ray_visitor.html#a3d68ed7fbf5ccbb853e1ef47e45e72bb":[3,0,66,0,8],
 "struct_compound_shape_1_1_cast_ray_visitor.html#a45ca32b8515b057633bdea8c47f3f044":[3,0,66,0,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX22 =
 "struct_debug_renderer_recorder_1_1_line_blob.html#a6786f1c01e557def582880cd0a71f96d":[3,0,87,2,1],
 "struct_debug_renderer_recorder_1_1_line_blob.html#a7945ee29c09dfeb43c2e227515d9e263":[3,0,87,2,2],
 "struct_debug_renderer_recorder_1_1_line_blob.html#a8989fefbef3d5563bf87be98e29eca7e":[3,0,87,2,0],
-"struct_debug_renderer_recorder_1_1_text_blob.html":[3,0,87,3],
-"struct_debug_renderer_recorder_1_1_text_blob.html#a389f594ad928cfcbda69be90e2c131e5":[3,0,87,3,1],
-"struct_debug_renderer_recorder_1_1_text_blob.html#a651d2fd99b808d04a93e0cda2894d244":[3,0,87,3,0],
-"struct_debug_renderer_recorder_1_1_text_blob.html#a7f42273b0a4ed68bf7a3ae6322bc925e":[3,0,87,3,5],
-"struct_debug_renderer_recorder_1_1_text_blob.html#aa4ba7b0e6adbf3e02a2f36a544ac5531":[3,0,87,3,4],
-"struct_debug_renderer_recorder_1_1_text_blob.html#aabc4e3cc9c5a27ee8b151cbea90e20e3":[3,0,87,3,3],
-"struct_debug_renderer_recorder_1_1_text_blob.html#ad6271bb0149760a239bdf01038714243":[3,0,87,3,2],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html":[3,0,87,4]
+"struct_debug_renderer_recorder_1_1_text_blob.html":[3,0,87,3]
 };

@@ -91,8 +91,8 @@ var NAVTREEINDEX =
 "class_vec3.html#ab8c89d26b3b090939173acf1ccd2d2e5",
 "class_vehicle_transmission_settings.html#a9c89ba7571dd3ba9e5dff909a379ab3f",
 "globals_func_v.html",
-"struct_debug_renderer_recorder_1_1_triangle_blob.html#a1b2be0f1f299107120b2b53588fa94f5",
-"struct_triangle_splitter_1_1_stats.html#ab1f9c15898ed3aa0fa0586ef851e0863"
+"struct_debug_renderer_recorder_1_1_text_blob.html#a389f594ad928cfcbda69be90e2c131e5",
+"struct_triangle_splitter_1_1_range.html#a360b002f40882d5fa400954934efec22"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

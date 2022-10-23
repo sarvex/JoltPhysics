@@ -81,6 +81,7 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::EncodingContext", "class_node_codec_quad_tree_half_float_1_1_encoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::EncodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html", null ],
     [ "EPAPenetrationDepth", "class_e_p_a_penetration_depth.html", null ],
+    [ "CharacterVirtual::ExtendedUpdateSettings", "struct_character_virtual_1_1_extended_update_settings.html", null ],
     [ "Factory", "class_factory.html", null ],
     [ "Float2", "class_float2.html", null ],
     [ "Float3", "class_float3.html", null ],

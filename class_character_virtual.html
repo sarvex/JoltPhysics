@@ -112,6 +112,12 @@ Inheritance diagram for CharacterVirtual:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_character_virtual_1_1_extended_update_settings.html">ExtendedUpdateSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings struct with settings for ExtendedUpdate.  <a href="struct_character_virtual_1_1_extended_update_settings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aae8d3ce9f1208881c5cbd3eb42707434"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#aae8d3ce9f1208881c5cbd3eb42707434">CharacterVirtual</a> (const <a class="el" href="class_character_virtual_settings.html">CharacterVirtualSettings</a> *inSettings, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="class_physics_system.html">PhysicsSystem</a> *inSystem)</td></tr>
@@ -165,8 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a24e03c41872174bf69e0b2c2cf5175a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfdd1f28dc6e80464a1080cecac4213"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a9cfdd1f28dc6e80464a1080cecac4213">StickToFloor</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepDown, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a9cfdd1f28dc6e80464a1080cecac4213"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6447cb88238be16b429d2c2fbb443090"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a6447cb88238be16b429d2c2fbb443090">ExtendedUpdate</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStickToFloorStepDown, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWalkStairsStepUp, float inWalkStairsMinStepForward, float inWalkStairsStepForwardTest, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWalkStairsStepDownExtra, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
-<tr class="separator:a6447cb88238be16b429d2c2fbb443090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394065d2dd9264be14e3aa111d903abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a394065d2dd9264be14e3aa111d903abd">ExtendedUpdate</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, const <a class="el" href="struct_character_virtual_1_1_extended_update_settings.html">ExtendedUpdateSettings</a> &amp;inSettings, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
+<tr class="separator:a394065d2dd9264be14e3aa111d903abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc">RefreshContacts</a> (const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="memdesc:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function can be used after a character has teleported to determine the new contacts with the world.  <a href="class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc">More...</a><br /></td></tr>
 <tr class="separator:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -499,8 +505,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6447cb88238be16b429d2c2fbb443090" name="a6447cb88238be16b429d2c2fbb443090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6447cb88238be16b429d2c2fbb443090">&#9670;&nbsp;</a></span>ExtendedUpdate()</h2>
+<a id="a394065d2dd9264be14e3aa111d903abd" name="a394065d2dd9264be14e3aa111d903abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a394065d2dd9264be14e3aa111d903abd">&#9670;&nbsp;</a></span>ExtendedUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -520,32 +526,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
-          <td class="paramname"><em>inStickToFloorStepDown</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
-          <td class="paramname"><em>inWalkStairsStepUp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>inWalkStairsMinStepForward</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>inWalkStairsStepForwardTest</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
-          <td class="paramname"><em>inWalkStairsStepDownExtra</em>, </td>
+          <td class="paramtype">const <a class="el" href="struct_character_virtual_1_1_extended_update_settings.html">ExtendedUpdateSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSettings</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -584,11 +566,7 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">inDeltaTime</td><td>Time step to simulate. </td></tr>
     <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2). This gravity vector is only used when the character is standing on top of another object to apply downward force. </td></tr>
-    <tr><td class="paramname">inStickToFloorStepDown</td><td>See StickToFloor inStepDown parameter. </td></tr>
-    <tr><td class="paramname">inWalkStairsStepUp</td><td>See WalkStairs inStepUp parameter. </td></tr>
-    <tr><td class="paramname">inWalkStairsMinStepForward</td><td>See WalkStairs inStepForward parameter. Note that the parameter only indicates a magnitude, direction is taken from current velocity. </td></tr>
-    <tr><td class="paramname">inWalkStairsStepForwardTest</td><td>See WalkStairs inStepForwardTest parameter. Note that the parameter only indicates a magnitude, direction is taken from current velocity. </td></tr>
-    <tr><td class="paramname">inWalkStairsStepDownExtra</td><td>See WalkStairs inStepDownExtra </td></tr>
+    <tr><td class="paramname">inSettings</td><td>A structure containing settings for the algorithm. </td></tr>
     <tr><td class="paramname">inBroadPhaseLayerFilter</td><td>Filter that is used to check if the character collides with something in the broadphase. </td></tr>
     <tr><td class="paramname">inObjectLayerFilter</td><td>Filter that is used to check if a character collides with a layer. </td></tr>
     <tr><td class="paramname">inBodyFilter</td><td>Filter that is used to check if a character collides with a body. </td></tr>
@@ -1313,7 +1291,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">inStepUp</td><td>The direction and distance to step up (this corresponds to the max step height) </td></tr>
     <tr><td class="paramname">inStepForward</td><td>The direction and distance to step forward after the step up </td></tr>
     <tr><td class="paramname">inStepForwardTest</td><td>When running at a high frequency, inStepForward can be very small and it's likely that you hit the side of the stairs on the way down. This could produce a normal that violates the max slope angle. If this happens, we test again using this distance from the up position to see if we find a valid slope. </td></tr>
-    <tr><td class="paramname">inStepDownExtra</td><td>An additional translation that is added when stepping down at the end. Allows you to step further down than up. Set to zero if you don't want this. </td></tr>
+    <tr><td class="paramname">inStepDownExtra</td><td>An additional translation that is added when stepping down at the end. Allows you to step further down than up. Set to zero if you don't want this. Should be in the opposite direction of up. </td></tr>
     <tr><td class="paramname">inBroadPhaseLayerFilter</td><td>Filter that is used to check if the character collides with something in the broadphase. </td></tr>
     <tr><td class="paramname">inObjectLayerFilter</td><td>Filter that is used to check if a character collides with a layer. </td></tr>
     <tr><td class="paramname">inBodyFilter</td><td>Filter that is used to check if a character collides with a body. </td></tr>
