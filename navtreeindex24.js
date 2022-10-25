@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"struct_triangle_splitter_1_1_range.html":[3,0,270,0],
 "struct_triangle_splitter_1_1_range.html#a360b002f40882d5fa400954934efec22":[3,0,270,0,4],
 "struct_triangle_splitter_1_1_range.html#a82090fe51800c354e7b86c60aade57d8":[3,0,270,0,1],
 "struct_triangle_splitter_1_1_range.html#ac12fcc73a1363b85a915d255f01dd176":[3,0,270,0,2],

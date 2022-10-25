@@ -8,5 +8,6 @@ var class_vehicle_transmission_settings =
     [ "mReverseGearRatios", "class_vehicle_transmission_settings.html#ac0a9ec4f7eb2fa4d2bfbb5c49c46171d", null ],
     [ "mShiftDownRPM", "class_vehicle_transmission_settings.html#a9c89ba7571dd3ba9e5dff909a379ab3f", null ],
     [ "mShiftUpRPM", "class_vehicle_transmission_settings.html#a928b1aea1e5cae37d92bd18ccc3ab74c", null ],
+    [ "mSwitchLatency", "class_vehicle_transmission_settings.html#a8c1734a64d58ae36d49082c56d563986", null ],
     [ "mSwitchTime", "class_vehicle_transmission_settings.html#ad890effc2f497795fb22fd56da27888e", null ]
 ];

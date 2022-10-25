@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"globals_func_t.html":[4,1,1,16],
 "globals_func_v.html":[4,1,1,17],
 "globals_g.html":[4,1,0,6],
 "globals_h.html":[4,1,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "struct_debug_renderer_recorder_1_1_line_blob.html":[3,0,87,2],
 "struct_debug_renderer_recorder_1_1_line_blob.html#a6786f1c01e557def582880cd0a71f96d":[3,0,87,2,1],
 "struct_debug_renderer_recorder_1_1_line_blob.html#a7945ee29c09dfeb43c2e227515d9e263":[3,0,87,2,2],
-"struct_debug_renderer_recorder_1_1_line_blob.html#a8989fefbef3d5563bf87be98e29eca7e":[3,0,87,2,0],
-"struct_debug_renderer_recorder_1_1_text_blob.html":[3,0,87,3]
+"struct_debug_renderer_recorder_1_1_line_blob.html#a8989fefbef3d5563bf87be98e29eca7e":[3,0,87,2,0]
 };
