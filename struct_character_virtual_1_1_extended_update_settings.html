@@ -117,7 +117,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a773f3fecf53db30cd8a6381b307a3cb4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_character_virtual_1_1_extended_update_settings.html#a773f3fecf53db30cd8a6381b307a3cb4">mWalkStairsStepForwardTest</a> { 0.15f }</td></tr>
 <tr class="memdesc:a773f3fecf53db30cd8a6381b307a3cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">See WalkStairs inStepForwardTest parameter. Note that the parameter only indicates a magnitude, direction is taken from current velocity.  <a href="struct_character_virtual_1_1_extended_update_settings.html#a773f3fecf53db30cd8a6381b307a3cb4">More...</a><br /></td></tr>
 <tr class="separator:a773f3fecf53db30cd8a6381b307a3cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1710035a7d1b96b4b1d2ba526452528"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528">mWalkStairsCosAngleForwardContact</a> { cos(<a class="el" href="_math_8h.html#afbe004b66eef01ac1585b1ec17c5188f">DegreesToRadians</a>(75.0f)) }</td></tr>
+<tr class="memitem:aa1710035a7d1b96b4b1d2ba526452528"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528">mWalkStairsCosAngleForwardContact</a> { <a class="el" href="_trigonometry_8h.html#a40fafb1c427199b6855d704fc79cd1cf">Cos</a>(<a class="el" href="_math_8h.html#afbe004b66eef01ac1585b1ec17c5188f">DegreesToRadians</a>(75.0f)) }</td></tr>
 <tr class="memdesc:aa1710035a7d1b96b4b1d2ba526452528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cos(angle) where angle is the maximum angle between the ground normal in the horizontal plane and the character forward vector where we're willing to adjust the step forward test towards the contact normal.  <a href="struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528">More...</a><br /></td></tr>
 <tr class="separator:aa1710035a7d1b96b4b1d2ba526452528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c73356c2fb3d89d86c89c3b9a44f1c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_character_virtual_1_1_extended_update_settings.html#a3c73356c2fb3d89d86c89c3b9a44f1c7">mWalkStairsStepDownExtra</a> { <a class="el" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>() }</td></tr>
@@ -150,7 +150,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float CharacterVirtual::ExtendedUpdateSettings::mWalkStairsCosAngleForwardContact { cos(<a class="el" href="_math_8h.html#afbe004b66eef01ac1585b1ec17c5188f">DegreesToRadians</a>(75.0f)) }</td>
+          <td class="memname">float CharacterVirtual::ExtendedUpdateSettings::mWalkStairsCosAngleForwardContact { <a class="el" href="_trigonometry_8h.html#a40fafb1c427199b6855d704fc79cd1cf">Cos</a>(<a class="el" href="_math_8h.html#afbe004b66eef01ac1585b1ec17c5188f">DegreesToRadians</a>(75.0f)) }</td>
         </tr>
       </table>
 </div><div class="memdoc">

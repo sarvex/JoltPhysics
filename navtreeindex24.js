@@ -1,6 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"struct_transformed_convex_object.html":[3,0,261],
 "struct_transformed_convex_object.html#a0fa745b8d15e71629ebb719716d16fa8":[3,0,261,1],
 "struct_transformed_convex_object.html#a4314714041c688936d9c9078af6c37e1":[3,0,261,4],
 "struct_transformed_convex_object.html#a8c84c2341aa11607eea77a7c09329f63":[3,0,261,3],

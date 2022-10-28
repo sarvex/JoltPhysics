@@ -129,9 +129,6 @@ var hierarchy =
     [ "MotionProperties", "class_motion_properties.html", null ],
     [ "MotorSettings", "class_motor_settings.html", null ],
     [ "MeshShape::MSGetTrianglesContext", "struct_mesh_shape_1_1_m_s_get_triangles_context.html", null ],
-    [ "MutexBase", null, [
-      [ "Mutex", "class_mutex.html", null ]
-    ] ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Node", "struct_node_codec_quad_tree_half_float_1_1_node.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >", "class_node_codec_quad_tree_half_float.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [
@@ -448,9 +445,6 @@ var hierarchy =
     ] ],
     [ "ShapeCast", "struct_shape_cast.html", null ],
     [ "ShapeFunctions", "class_shape_functions.html", null ],
-    [ "SharedMutexBase", null, [
-      [ "SharedMutex", "class_shared_mutex.html", null ]
-    ] ],
     [ "SkeletonPose", "class_skeleton_pose.html", null ],
     [ "Sphere", "class_sphere.html", null ],
     [ "SpringPart", "class_spring_part.html", null ],
@@ -554,5 +548,11 @@ var hierarchy =
     [ "Wheel", "class_wheel.html", [
       [ "WheelTV", "class_wheel_t_v.html", null ],
       [ "WheelWV", "class_wheel_w_v.html", null ]
+    ] ],
+    [ "mutex", null, [
+      [ "Mutex", "class_mutex.html", null ]
+    ] ],
+    [ "shared_mutex", null, [
+      [ "SharedMutex", "class_shared_mutex.html", null ]
     ] ]
 ];

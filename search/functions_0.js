@@ -77,5 +77,5 @@ var searchData=
   ['atan_74',['ATan',['../class_vec4.html#a0c3d97968c479dcc0a08b98134c95e02',1,'Vec4::ATan()'],['../_trigonometry_8h.html#a8d7d50cdb10f600d1493bd8a36c4029e',1,'ATan(float inX):&#160;Trigonometry.h']]],
   ['atan2_75',['ATan2',['../_trigonometry_8h.html#a64f4ce00d99917535c674ec5172ccf78',1,'Trigonometry.h']]],
   ['atomicmax_76',['AtomicMax',['../_atomics_8h.html#adda37c39156e9dc280788421bf35f7bf',1,'Atomics.h']]],
-  ['atomicmin_77',['AtomicMin',['../_atomics_8h.html#a131e80fd765e7529fa7525bb321280d2',1,'Atomics.h']]]
+  ['atomicmin_77',['AtomicMin',['../_atomics_8h.html#af71f53f1d43bb24611bd60d7c634a207',1,'Atomics.h']]]
 ];

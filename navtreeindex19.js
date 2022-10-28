@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_triangle.html":[3,0,263],
 "class_triangle.html#a680a9a904aaad1f8a495f8ec667fbf70":[3,0,263,4],
 "class_triangle.html#a7f441edf952be97bf6110750c69b620a":[3,0,263,5],
 "class_triangle.html#aadcfe7dea066a7d1d35d2a6757891a48":[3,0,263,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "class_vec3.html#a81f4448e17219aafda0e3b886709d1f4":[3,0,282,53],
 "class_vec3.html#a846e7ac0cd20c95921db85cddb24a0f8":[3,0,282,60],
 "class_vec3.html#a8d7e6d43ffa3bac48b87aa69c278e420":[3,0,282,32],
-"class_vec3.html#a8dd428d3cc8fff37c91a4c01de2f5078":[3,0,282,39]
+"class_vec3.html#a8dd428d3cc8fff37c91a4c01de2f5078":[3,0,282,39],
+"class_vec3.html#a91b9fad968034550f4681c14273c77d8":[3,0,282,50]
 };
