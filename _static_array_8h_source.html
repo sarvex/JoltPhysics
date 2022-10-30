@@ -129,14 +129,14 @@ $(document).ready(function(){initNavTree('_static_array_8h_source.html',''); ini
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_static_array.html#afa25bd44899d047990eb77e996031756">   39</a></span>                        <a class="code hl_function" href="class_static_array.html#afa25bd44899d047990eb77e996031756">~StaticArray</a>()</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    {</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> (!is_trivially_destructible&lt;T&gt;())</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!is_trivially_destructible&lt;T&gt;())</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <span class="keywordflow">for</span> (T *e = <span class="keyword">reinterpret_cast&lt;</span>T *<span class="keyword">&gt;</span>(mElements), *end = e + mSize; e &lt; end; ++e)</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                e-&gt;~T();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_static_array.html#a2cac2948666824fe7fee27bcf845f17b">   47</a></span>    <span class="keywordtype">void</span>                <a class="code hl_function" href="class_static_array.html#a2cac2948666824fe7fee27bcf845f17b">clear</a>()</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">if</span> (!is_trivially_destructible&lt;T&gt;())</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!is_trivially_destructible&lt;T&gt;())</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">for</span> (T *e = <span class="keyword">reinterpret_cast&lt;</span>T *<span class="keyword">&gt;</span>(mElements), *end = e + mSize; e &lt; end; ++e)</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                e-&gt;~T();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        mSize = 0;</div>
@@ -179,10 +179,10 @@ $(document).ready(function(){initNavTree('_static_array_8h_source.html',''); ini
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="class_static_array.html#af90fb922a70be2d41cc70b243cbc4c64">   96</a></span>    <span class="keywordtype">void</span>                <a class="code hl_function" href="class_static_array.html#af90fb922a70be2d41cc70b243cbc4c64">resize</a>(<a class="code hl_typedef" href="class_static_array.html#a69859b5a0e6cd32048fc1f3188982f3b">size_type</a> inNewSize)</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <a class="code hl_define" href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a>(inNewSize &lt;= N);</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">if</span> (!is_trivially_constructible&lt;T&gt;() &amp;&amp; mSize &lt; inNewSize)</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!is_trivially_constructible&lt;T&gt;())</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            <span class="keywordflow">for</span> (T *element = <span class="keyword">reinterpret_cast&lt;</span>T *<span class="keyword">&gt;</span>(mElements) + mSize, *element_end = <span class="keyword">reinterpret_cast&lt;</span>T *<span class="keyword">&gt;</span>(mElements) + inNewSize; element &lt; element_end; ++element)</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                ::<span class="keyword">new</span> (element) T;</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!is_trivially_destructible&lt;T&gt;() &amp;&amp; mSize &gt; inNewSize)</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!is_trivially_destructible&lt;T&gt;())</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <span class="keywordflow">for</span> (T *element = <span class="keyword">reinterpret_cast&lt;</span>T *<span class="keyword">&gt;</span>(mElements) + inNewSize, *element_end = <span class="keyword">reinterpret_cast&lt;</span>T *<span class="keyword">&gt;</span>(mElements) + mSize; element &lt; element_end; ++element)</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                element-&gt;~T();</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        mSize = inNewSize;</div>
