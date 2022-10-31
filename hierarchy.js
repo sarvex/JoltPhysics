@@ -118,6 +118,7 @@ var hierarchy =
     [ "LockFreeHashMap< Key, Value >::KeyValue", "class_lock_free_hash_map_1_1_key_value.html", null ],
     [ "LinearCurve", "class_linear_curve.html", null ],
     [ "DebugRendererRecorder::LineBlob", "struct_debug_renderer_recorder_1_1_line_blob.html", null ],
+    [ "SkeletonMapper::Locked", "class_skeleton_mapper_1_1_locked.html", null ],
     [ "DebugRenderer::LOD", "class_debug_renderer_1_1_l_o_d.html", null ],
     [ "SkeletonMapper::Mapping", "class_skeleton_mapper_1_1_mapping.html", null ],
     [ "MassProperties", "class_mass_properties.html", null ],

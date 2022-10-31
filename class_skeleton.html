@@ -136,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79ade25d7ec74a8bd21c87062844e21e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton.html#a79ade25d7ec74a8bd21c87062844e21e">CalculateParentJointIndices</a> ()</td></tr>
 <tr class="memdesc:a79ade25d7ec74a8bd21c87062844e21e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in parent joint indices based on name.  <a href="class_skeleton.html#a79ade25d7ec74a8bd21c87062844e21e">More...</a><br /></td></tr>
 <tr class="separator:a79ade25d7ec74a8bd21c87062844e21e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4965d2cd0cf26b47ddc769e51c62fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton.html#aac4965d2cd0cf26b47ddc769e51c62fe">AreJointsCorrectlyOrdered</a> () const</td></tr>
+<tr class="separator:aac4965d2cd0cf26b47ddc769e51c62fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79a39de0388c130dd03acfb1d9e71f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton.html#a79a39de0388c130dd03acfb1d9e71f8d">SaveBinaryState</a> (<a class="el" href="class_stream_out.html">StreamOut</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a79a39de0388c130dd03acfb1d9e71f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the state of this object in binary form to inStream.  <a href="class_skeleton.html#a79a39de0388c130dd03acfb1d9e71f8d">More...</a><br /></td></tr>
 <tr class="separator:a79a39de0388c130dd03acfb1d9e71f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,6 +301,24 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac4965d2cd0cf26b47ddc769e51c62fe" name="aac4965d2cd0cf26b47ddc769e51c62fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac4965d2cd0cf26b47ddc769e51c62fe">&#9670;&nbsp;</a></span>AreJointsCorrectlyOrdered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Skeleton::AreJointsCorrectlyOrdered </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Many of the algorithms that use the <a class="el" href="class_skeleton.html" title="Resource that contains the joint hierarchy for a skeleton.">Skeleton</a> class require that parent joints are in the mJoints array before their children. This function returns true if this is the case, false if not. </p>
 
 </div>
 </div>
