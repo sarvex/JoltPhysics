@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"struct_shape_1_1_stats.html#a97505a3dbba1ee77a2e59c845f7a571a":[3,0,213,1,2],
+"struct_shape_cast.html":[3,0,214],
 "struct_shape_cast.html#a3f560fb219100beed4d35874522edf4b":[3,0,214,5],
 "struct_shape_cast.html#a4529f5d7794da642d080fb9aa43f10fd":[3,0,214,3],
 "struct_shape_cast.html#a4700fa0c87ecdb8fd59fc58cb85b1396":[3,0,214,0],

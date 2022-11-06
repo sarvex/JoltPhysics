@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"class_vehicle_track.html":[3,0,297],
+"class_vehicle_track.html#a0252bddefcd767ca47517706f168bc00":[3,0,297,0],
 "class_vehicle_track.html#a5f6ed5aff504c081d9ad67fc3dc8edec":[3,0,297,2],
 "class_vehicle_track.html#af25ef64c8e7fcdab73dc212f4f40d383":[3,0,297,1],
 "class_vehicle_track_settings.html":[3,0,298],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "functions_vars_r.html":[3,3,2,9],
 "functions_vars_s.html":[3,3,2,10],
 "functions_vars_t.html":[3,3,2,11],
-"functions_vars_w.html":[3,3,2,12],
-"functions_vars_x.html":[3,3,2,13],
-"functions_vars_y.html":[3,3,2,14]
+"functions_vars_w.html":[3,3,2,12]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"functions_vars_x.html":[3,3,2,13],
+"functions_vars_y.html":[3,3,2,14],
 "functions_vars_z.html":[3,3,2,15],
 "functions_w.html":[3,3,0,22],
 "functions_x.html":[3,3,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html#a611d2a998517551ba3d1ad3355033135":[3,0,66,7,4],
 "struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html#a61d8a2add21106dc7b21b46cab11bc93":[3,0,66,7,1],
 "struct_compound_shape_1_1_sub_shape.html":[3,0,66,8],
-"struct_compound_shape_1_1_sub_shape.html#a13d700b0e7064e9ecdf99afdc0262eae":[3,0,66,8,3],
-"struct_compound_shape_1_1_sub_shape.html#a16bb59f7313e95ee322d576f5d2d85a7":[3,0,66,8,10],
-"struct_compound_shape_1_1_sub_shape.html#a18ba22cc1d5ad095bce61a7fcfcbcc25":[3,0,66,8,1]
+"struct_compound_shape_1_1_sub_shape.html#a13d700b0e7064e9ecdf99afdc0262eae":[3,0,66,8,3]
 };
