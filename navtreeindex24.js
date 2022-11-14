@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"struct_shape_1_1_get_triangles_context.html#a762a72b95f7fc1f801dc05bc9aaa755c":[3,0,213,0,0],
+"struct_shape_1_1_stats.html":[3,0,213,1],
+"struct_shape_1_1_stats.html#a478540fbad3d607c5dffb39ced542429":[3,0,213,1,1],
+"struct_shape_1_1_stats.html#a61e3cd06a767754cbc5150fe93f1e5fb":[3,0,213,1,0],
 "struct_shape_1_1_stats.html#a97505a3dbba1ee77a2e59c845f7a571a":[3,0,213,1,2],
 "struct_shape_cast.html":[3,0,214],
 "struct_shape_cast.html#a3f560fb219100beed4d35874522edf4b":[3,0,214,5],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"class_mutable_compound_shape.html#ad787fdba1914f3550e2cf3c4036e99b8":[3,0,145,15],
+"class_mutable_compound_shape.html#afd8f121a563bf40c32b8169765636a2b":[3,0,145,5],
+"class_mutable_compound_shape_settings.html":[3,0,146],
+"class_mutable_compound_shape_settings.html#a3f60b9fb32be86347adb1bfafb5bfd77":[3,0,146,0],
 "class_mutex.html":[3,0,147],
 "class_mutex.html#a546a5b797ba29959357586aa2b3740a8":[3,0,147,2],
 "class_mutex.html#a85bdf2b7c3d9ce789c61f8bc2a127c8a":[3,0,147,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "class_physics_lock.html":[3,0,167],
 "class_physics_material.html":[3,0,168],
 "class_physics_material.html#a1ace7fb4d595955c50f02bd67a108446":[3,0,168,3],
-"class_physics_material.html#a51ea4ae0673771947b5052c9062cf267":[3,0,168,4],
-"class_physics_material.html#a7e57e5082b30e978c7ddd6a8e77c983e":[3,0,168,5],
-"class_physics_material.html#ac6d51eb48cdffbe4bc52c1ea54a988ef":[3,0,168,0],
-"class_physics_material.html#ae60b73113e15d3a4cb0198af49a47a01":[3,0,168,2],
-"class_physics_material.html#af9a5ad5383917d85f97bc81db9786948":[3,0,168,1]
+"class_physics_material.html#a51ea4ae0673771947b5052c9062cf267":[3,0,168,4]
 };
