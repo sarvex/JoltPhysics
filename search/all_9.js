@@ -70,7 +70,7 @@ var searchData=
   ['jph_5fimplement_5fserializable_5fvirtual_5fbase_67',['JPH_IMPLEMENT_SERIALIZABLE_VIRTUAL_BASE',['../_serializable_object_8h.html#aa59eb84cc23028203085e2c3fce663d2',1,'SerializableObject.h']]],
   ['jph_5fimplement_5fserialization_5ffunctions_68',['JPH_IMPLEMENT_SERIALIZATION_FUNCTIONS',['../_serializable_object_8h.html#a9ff80255cadbb579a6be539451245df7',1,'SerializableObject.h']]],
   ['jph_5fmake_5fhash_5fstruct_69',['JPH_MAKE_HASH_STRUCT',['../_hash_combine_8h.html#aedd0cd83dae14bf34f99338587ab043d',1,'HashCombine.h']]],
-  ['jph_5fmake_5fhashable_70',['JPH_MAKE_HASHABLE',['../_hash_combine_8h.html#acb214eb23a4f6646330f74bc5f72c938',1,'JPH_MAKE_HASHABLE():&#160;HashCombine.h'],['../_vec3_8inl.html#abc96ec3d90dc5dc02f759c39265376ee',1,'JPH_MAKE_HASHABLE(JPH::Vec3, t.GetX(), t.GetY(), t.GetZ()) JPH_NAMESPACE_BEGIN void Vec3:&#160;Vec3.inl']]],
+  ['jph_5fmake_5fhashable_70',['JPH_MAKE_HASHABLE',['../_hash_combine_8h.html#acb214eb23a4f6646330f74bc5f72c938',1,'JPH_MAKE_HASHABLE():&#160;HashCombine.h'],['../_d_vec3_8inl.html#ad63a526073dd7f77a10ad035f668caed',1,'JPH_MAKE_HASHABLE(JPH::DVec3, t.GetX(), t.GetY(), t.GetZ()) JPH_NAMESPACE_BEGIN DVec3:&#160;DVec3.inl'],['../_vec3_8inl.html#abc96ec3d90dc5dc02f759c39265376ee',1,'JPH_MAKE_HASHABLE(JPH::Vec3, t.GetX(), t.GetY(), t.GetZ()) JPH_NAMESPACE_BEGIN void Vec3:&#160;Vec3.inl']]],
   ['jph_5fmsvc_5fsuppress_5fwarning_71',['JPH_MSVC_SUPPRESS_WARNING',['../_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8',1,'Core.h']]],
   ['jph_5fnamespace_5fbegin_72',['JPH_NAMESPACE_BEGIN',['../_core_8h.html#ad14098b68b8c44ea6112601031268405',1,'Core.h']]],
   ['jph_5fnamespace_5fend_73',['JPH_NAMESPACE_END',['../_core_8h.html#a73da8725998b00321a9db341202d650d',1,'Core.h']]],

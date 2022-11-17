@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"class_capsule_shape.html#a4db465fc9986e3c869fa5c0b65733403":[3,0,40,7],
+"class_capsule_shape.html#a5eb19a20ae866f171dbbb7b2d5449d1c":[3,0,40,12],
+"class_capsule_shape.html#a5f226d8512e8a2612438200932d3986c":[3,0,40,15],
 "class_capsule_shape.html#a716f8cb75afae9e84d3668f7c6520876":[3,0,40,23],
 "class_capsule_shape.html#a75a13a9c3137ac60110d6fdbc72bddf3":[3,0,40,24],
 "class_capsule_shape.html#a8474d2a38ac14d1d950829f284a0ca97":[3,0,40,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "class_collision_collector.html#aca5d333c728a1e1768694c8845d86783":[3,0,59,0],
 "class_collision_collector.html#ada5357990f959132a05d4d4d21f8c7b3":[3,0,59,9],
 "class_collision_collector_traits_cast_ray.html":[3,0,60],
-"class_collision_collector_traits_cast_shape.html":[3,0,61],
-"class_collision_collector_traits_collide_shape.html":[3,0,62],
-"class_collision_dispatch.html":[3,0,63],
-"class_collision_dispatch.html#a9b0ecb3f10cdac7c5cf648cb2fa0b8e8":[3,0,63,0]
+"class_collision_collector_traits_cast_shape.html":[3,0,61]
 };

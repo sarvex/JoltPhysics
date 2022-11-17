@@ -76,6 +76,7 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::DecodingContext", "class_node_codec_quad_tree_half_float_1_1_decoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html", null ],
     [ "DualAxisConstraintPart", "class_dual_axis_constraint_part.html", null ],
+    [ "DVec3", "class_d_vec3.html", null ],
     [ "DynMatrix", "class_dyn_matrix.html", null ],
     [ "EPAConvexHullBuilder::Edge", "class_e_p_a_convex_hull_builder_1_1_edge.html", null ],
     [ "Ellipse", "class_ellipse.html", null ],

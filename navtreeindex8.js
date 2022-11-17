@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"class_collision_collector_traits_collide_shape.html":[3,0,62],
+"class_collision_dispatch.html":[3,0,63],
+"class_collision_dispatch.html#a9b0ecb3f10cdac7c5cf648cb2fa0b8e8":[3,0,63,0],
 "class_collision_dispatch.html#ad1a72bfcb8688f4eaf881aad847c2319":[3,0,63,1],
 "class_collision_group.html":[3,0,64],
 "class_collision_group.html#a1521cec7d03c83265aecca64ec684433":[3,0,64,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "class_convex_hull_builder_1_1_face.html#ad7bd1a953fcc40b6987a3d51c90f61ce":[3,0,77,1,2],
 "class_convex_hull_builder_1_1_face.html#ad9d4de58a7e80db8bcff6ffe1f88326b":[3,0,77,1,8],
 "class_convex_hull_builder_1_1_face.html#af009d8104d2c16039128bd10007cdeac":[3,0,77,1,5],
-"class_convex_hull_shape.html":[3,0,79],
-"class_convex_hull_shape.html#a0f05c53d66e43a401aca34de00d700c1":[3,0,79,9],
-"class_convex_hull_shape.html#a0f6066d340c3db1d1d06373fa18b4691":[3,0,79,24],
-"class_convex_hull_shape.html#a15bb554d0dcaf667f40bdb13b07f6ccd":[3,0,79,25]
+"class_convex_hull_shape.html":[3,0,79]
 };
