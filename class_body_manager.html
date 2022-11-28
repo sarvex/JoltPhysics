@@ -177,6 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aecdc4718d0c9ccf33f9eaf2a42c6ab79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e13efcbe3e2fab505e2c9047f9d2ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ac8e13efcbe3e2fab505e2c9047f9d2ef">DeactivateBodies</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber)</td></tr>
 <tr class="separator:ac8e13efcbe3e2fab505e2c9047f9d2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af449412eb723ffe93a193d9b9aa86f3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#af449412eb723ffe93a193d9b9aa86f3b">SetMotionQuality</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody, <a class="el" href="_motion_quality_8h.html#af43db3453103c2e62526f54dd8542d3a">EMotionQuality</a> inMotionQuality)</td></tr>
+<tr class="memdesc:af449412eb723ffe93a193d9b9aa86f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the motion quality for a body.  <a href="class_body_manager.html#af449412eb723ffe93a193d9b9aa86f3b">More...</a><br /></td></tr>
+<tr class="separator:af449412eb723ffe93a193d9b9aa86f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f586bcf6721612f3f30e6ce2cd07cc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a6f586bcf6721612f3f30e6ce2cd07cc5">GetActiveBodies</a> (<a class="el" href="_body_manager_8h.html#afc1c8d959352d66db407f29003a66bb8">BodyIDVector</a> &amp;outBodyIDs) const</td></tr>
 <tr class="memdesc:a6f586bcf6721612f3f30e6ce2cd07cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get copy of the list of active bodies under protection of a lock.  <a href="class_body_manager.html#a6f586bcf6721612f3f30e6ce2cd07cc5">More...</a><br /></td></tr>
 <tr class="separator:a6f586bcf6721612f3f30e6ce2cd07cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1165,6 +1168,36 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function to update body's layer (should only be called by the <a class="el" href="class_body_interface.html">BodyInterface</a> since it also requires updating the broadphase) </p>
+
+</div>
+</div>
+<a id="af449412eb723ffe93a193d9b9aa86f3b" name="af449412eb723ffe93a193d9b9aa86f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af449412eb723ffe93a193d9b9aa86f3b">&#9670;&nbsp;</a></span>SetMotionQuality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyManager::SetMotionQuality </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_body.html">Body</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioBody</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_motion_quality_8h.html#af43db3453103c2e62526f54dd8542d3a">EMotionQuality</a>&#160;</td>
+          <td class="paramname"><em>inMotionQuality</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the motion quality for a body. </p>
 
 </div>
 </div>

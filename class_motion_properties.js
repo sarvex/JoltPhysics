@@ -44,7 +44,6 @@ var class_motion_properties =
     [ "SetMassProperties", "class_motion_properties.html#af54234b5b714feb5ac7eaa1b0033a8e7", null ],
     [ "SetMaxAngularVelocity", "class_motion_properties.html#a6665e01c407036815ac084edcf28d53f", null ],
     [ "SetMaxLinearVelocity", "class_motion_properties.html#ac452632a71e6ba6de822339be8c3ee80", null ],
-    [ "SetMotionQuality", "class_motion_properties.html#a4260a450431b8f6e7a7270b1ae52b105", null ],
     [ "SubAngularVelocityStep", "class_motion_properties.html#a98672fc0c6884643944e570e1d78ac07", null ],
     [ "SubLinearVelocityStep", "class_motion_properties.html#a81a597bd1f9f40f3fbf36991203a5280", null ],
     [ "Body", "class_motion_properties.html#a8858f397a273114ddc1443880bb5540e", null ],

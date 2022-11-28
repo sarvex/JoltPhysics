@@ -44,6 +44,7 @@ var class_body_manager =
     [ "SaveState", "class_body_manager.html#a7e29ef49d0427df35ea154d00c355ecb", null ],
     [ "SetBodyActivationListener", "class_body_manager.html#a5f4202f0ef087177b642a93c13d82d9a", null ],
     [ "SetBodyObjectLayerInternal", "class_body_manager.html#ae42a0183320aaebe459af6b0cc937daf", null ],
+    [ "SetMotionQuality", "class_body_manager.html#af449412eb723ffe93a193d9b9aa86f3b", null ],
     [ "TryGetBody", "class_body_manager.html#a57535e1d1645cc00b57fb7e8ecccc259", null ],
     [ "TryGetBody", "class_body_manager.html#ac441f5d6015c113423972740f3e2815f", null ],
     [ "UnlockAllBodies", "class_body_manager.html#a5bfccfc12e83e13bc8ed0ceacff6ccc3", null ],
