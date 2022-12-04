@@ -22,6 +22,7 @@ var dir_a34232518e8eb2f6b4ca842b3eb863dd =
     ] ],
     [ "SkeletonPose.cpp", "_skeleton_pose_8cpp.html", null ],
     [ "SkeletonPose.h", "_skeleton_pose_8h.html", [
-      [ "SkeletonPose", "class_skeleton_pose.html", "class_skeleton_pose" ]
+      [ "SkeletonPose", "class_skeleton_pose.html", "class_skeleton_pose" ],
+      [ "SkeletonPose::DrawSettings", "struct_skeleton_pose_1_1_draw_settings.html", "struct_skeleton_pose_1_1_draw_settings" ]
     ] ]
 ];

@@ -148,6 +148,16 @@ Macros</h2></td></tr>
 <tr class="separator:a19cd70ae9b66fee2faf10a0d00fe8a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f995afb38a0d149ed20606b43a3e2fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a9f995afb38a0d149ed20606b43a3e2fb">JPH_IF_FLOATING_POINT_EXCEPTIONS_ENABLED</a>(...)</td></tr>
 <tr class="separator:a9f995afb38a0d149ed20606b43a3e2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b44b10d432bafc0db7e105e3c246425"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a2b44b10d432bafc0db7e105e3c246425">JPH_IF_SINGLE_PRECISION</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="separator:a2b44b10d432bafc0db7e105e3c246425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa004a0f7df4c0472bb33a149fce1f21c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#aa004a0f7df4c0472bb33a149fce1f21c">JPH_IF_SINGLE_PRECISION_ELSE</a>(s,  d)&#160;&#160;&#160;s</td></tr>
+<tr class="separator:aa004a0f7df4c0472bb33a149fce1f21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53c63d069a8c5c75085ed00c3725e0ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a53c63d069a8c5c75085ed00c3725e0ab">JPH_IF_DOUBLE_PRECISION</a>(...)</td></tr>
+<tr class="separator:a53c63d069a8c5c75085ed00c3725e0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d002cadb39841b46bb93fe8a20e00e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#ab6d002cadb39841b46bb93fe8a20e00e">JPH_IF_DEBUG_RENDERER</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="separator:ab6d002cadb39841b46bb93fe8a20e00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f790aaecc28630723d8d68801ce8865"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a5f790aaecc28630723d8d68801ce8865">JPH_IF_NOT_DEBUG_RENDERER</a>(...)</td></tr>
+<tr class="separator:a5f790aaecc28630723d8d68801ce8865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a719a73b9e445920bf5969f05d01ce69c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a719a73b9e445920bf5969f05d01ce69c">JPH_UNUSED</a>(x)&#160;&#160;&#160;(void)x</td></tr>
 <tr class="separator:a719a73b9e445920bf5969f05d01ce69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -261,6 +271,42 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a id="ab6d002cadb39841b46bb93fe8a20e00e" name="ab6d002cadb39841b46bb93fe8a20e00e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d002cadb39841b46bb93fe8a20e00e">&#9670;&nbsp;</a></span>JPH_IF_DEBUG_RENDERER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_IF_DEBUG_RENDERER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;__VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53c63d069a8c5c75085ed00c3725e0ab" name="a53c63d069a8c5c75085ed00c3725e0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53c63d069a8c5c75085ed00c3725e0ab">&#9670;&nbsp;</a></span>JPH_IF_DOUBLE_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_IF_DOUBLE_PRECISION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9f995afb38a0d149ed20606b43a3e2fb" name="a9f995afb38a0d149ed20606b43a3e2fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f995afb38a0d149ed20606b43a3e2fb">&#9670;&nbsp;</a></span>JPH_IF_FLOATING_POINT_EXCEPTIONS_ENABLED</h2>
 
@@ -309,6 +355,70 @@ Typedefs</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
           <td>&#160;&#160;&#160;__VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f790aaecc28630723d8d68801ce8865" name="a5f790aaecc28630723d8d68801ce8865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f790aaecc28630723d8d68801ce8865">&#9670;&nbsp;</a></span>JPH_IF_NOT_DEBUG_RENDERER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_IF_NOT_DEBUG_RENDERER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b44b10d432bafc0db7e105e3c246425" name="a2b44b10d432bafc0db7e105e3c246425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b44b10d432bafc0db7e105e3c246425">&#9670;&nbsp;</a></span>JPH_IF_SINGLE_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_IF_SINGLE_PRECISION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;__VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa004a0f7df4c0472bb33a149fce1f21c" name="aa004a0f7df4c0472bb33a149fce1f21c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa004a0f7df4c0472bb33a149fce1f21c">&#9670;&nbsp;</a></span>JPH_IF_SINGLE_PRECISION_ELSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_IF_SINGLE_PRECISION_ELSE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;s</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -447,8 +557,8 @@ Typedefs</h2></td></tr>
 <div class="line">    JPH_MSVC_SUPPRESS_WARNING(5264)                                                             <a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">\</a></div>
 <div class="line"><a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">																								\</a></div>
 <div class="line"><a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">	JPH_GCC_SUPPRESS_WARNING</a>(<span class="stringliteral">&quot;-Wstringop-overflow=&quot;</span>)</div>
-<div class="ttc" id="a_core_8h_html_a46d791d2b1f95fa056399441a2ad8667"><div class="ttname"><a href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_GCC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:136</div></div>
-<div class="ttc" id="a_core_8h_html_a7e50ac7352b8f5948a91b543756c84a8"><div class="ttname"><a href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_MSVC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_MSVC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:144</div></div>
+<div class="ttc" id="a_core_8h_html_a46d791d2b1f95fa056399441a2ad8667"><div class="ttname"><a href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_GCC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:140</div></div>
+<div class="ttc" id="a_core_8h_html_a7e50ac7352b8f5948a91b543756c84a8"><div class="ttname"><a href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_MSVC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_MSVC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:148</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -131,6 +131,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9ce63d609aeb2c8fcdff058957d4644f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeef84793af0dbf4397f0e0ca4590a39c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#aeef84793af0dbf4397f0e0ca4590a39c">GetName</a> () const</td></tr>
 <tr class="separator:aeef84793af0dbf4397f0e0ca4590a39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835cd7db4edd6bd36f2130e9498122c2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a835cd7db4edd6bd36f2130e9498122c2"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a835cd7db4edd6bd36f2130e9498122c2">GetMemberPointer</a> (void *inObject) const</td></tr>
+<tr class="memdesc:a835cd7db4edd6bd36f2130e9498122c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the memory location that contains the member.  <a href="class_serializable_attribute.html#a835cd7db4edd6bd36f2130e9498122c2">More...</a><br /></td></tr>
+<tr class="separator:a835cd7db4edd6bd36f2130e9498122c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72008d94009acc09cec81d10486783eb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a72008d94009acc09cec81d10486783eb"><td class="memTemplItemLeft" align="right" valign="top">const T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a72008d94009acc09cec81d10486783eb">GetMemberPointer</a> (const void *inObject) const</td></tr>
+<tr class="separator:a72008d94009acc09cec81d10486783eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6738344c9c5ddbf28680db6511dda210"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_r_t_t_i.html">RTTI</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_serializable_attribute.html#a6738344c9c5ddbf28680db6511dda210">GetMemberPrimitiveType</a> () const</td></tr>
 <tr class="memdesc:a6738344c9c5ddbf28680db6511dda210"><td class="mdescLeft">&#160;</td><td class="mdescRight">In case this attribute contains an <a class="el" href="class_r_t_t_i.html">RTTI</a> type, return it (note that a Array&lt;sometype&gt; will return the rtti of sometype)  <a href="class_serializable_attribute.html#a6738344c9c5ddbf28680db6511dda210">More...</a><br /></td></tr>
 <tr class="separator:a6738344c9c5ddbf28680db6511dda210"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +337,64 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a72008d94009acc09cec81d10486783eb" name="a72008d94009acc09cec81d10486783eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72008d94009acc09cec81d10486783eb">&#9670;&nbsp;</a></span>GetMemberPointer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T * SerializableAttribute::GetMemberPointer </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>inObject</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a835cd7db4edd6bd36f2130e9498122c2" name="a835cd7db4edd6bd36f2130e9498122c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a835cd7db4edd6bd36f2130e9498122c2">&#9670;&nbsp;</a></span>GetMemberPointer() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * SerializableAttribute::GetMemberPointer </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>inObject</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access to the memory location that contains the member. </p>
+
+</div>
+</div>
 <a id="a6738344c9c5ddbf28680db6511dda210" name="a6738344c9c5ddbf28680db6511dda210"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6738344c9c5ddbf28680db6511dda210">&#9670;&nbsp;</a></span>GetMemberPrimitiveType()</h2>
 

@@ -1,6 +1,8 @@
 var class_swing_twist_constraint =
 [
     [ "SwingTwistConstraint", "class_swing_twist_constraint.html#a68c8e6f8d1f25c3d593c7304d6804b6e", null ],
+    [ "DrawConstraint", "class_swing_twist_constraint.html#a7ac554fd24b5b89297f13405808991a6", null ],
+    [ "DrawConstraintLimits", "class_swing_twist_constraint.html#a820235859442463871552b2f24eaf499", null ],
     [ "GetConstraintSettings", "class_swing_twist_constraint.html#ad3c1a46d28973d5ce39917aa2b7a32b0", null ],
     [ "GetConstraintToBody1", "class_swing_twist_constraint.html#a4b15b5eed50bb023141968a6eb05a307", null ],
     [ "GetConstraintToBody1Matrix", "class_swing_twist_constraint.html#ab89ec6165c3789f22964700f21695c32", null ],

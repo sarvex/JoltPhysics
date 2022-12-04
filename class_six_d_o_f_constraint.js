@@ -2,6 +2,8 @@ var class_six_d_o_f_constraint =
 [
     [ "EAxis", "class_six_d_o_f_constraint.html#a6ae2f17a4c67f08fb49cacab7ec0d501", null ],
     [ "SixDOFConstraint", "class_six_d_o_f_constraint.html#a3002dc33540a30ce549738faa272f868", null ],
+    [ "DrawConstraint", "class_six_d_o_f_constraint.html#a3e482be52b58ddefa10fd4fe941b4e79", null ],
+    [ "DrawConstraintLimits", "class_six_d_o_f_constraint.html#ad7cf9ea81cc6d05443936cff5f9f63e0", null ],
     [ "GetConstraintSettings", "class_six_d_o_f_constraint.html#aec39d055e72169c5f805a00c16b12ff1", null ],
     [ "GetConstraintToBody1Matrix", "class_six_d_o_f_constraint.html#a93b7ceef3c7017e4a1a0bc53e29c93d8", null ],
     [ "GetConstraintToBody2Matrix", "class_six_d_o_f_constraint.html#a92d86c092002bec9d22d529f8616aa29", null ],

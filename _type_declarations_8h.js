@@ -1,6 +1,10 @@
 var _type_declarations_8h =
 [
     [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a20b9e1f94beb260fa96e1ac900aff8e1", null ],
+    [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#aabcb11df5f77ac5f46908d0f08a7a41e", null ],
+    [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a56319688fd30d684469b61eabba53ba3", null ],
+    [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a57d279d56c8486e1a79dd733e60b62c8", null ],
+    [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a6cda2aa71873815e5cda4d93d96e0ec5", null ],
     [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a536a9522945b59eb4c9adc268df19f4b", null ],
     [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a6ac38f2ab78e0b6241d63e4d0b656b6e", null ],
     [ "JPH_DECLARE_RTTI_OUTSIDE_CLASS", "_type_declarations_8h.html#a74427de22115f9cffca2f9a6b0cfad49", null ],

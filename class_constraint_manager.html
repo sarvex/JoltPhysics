@@ -128,6 +128,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6620266366dc35c2bf3877530a0d0c2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a6620266366dc35c2bf3877530a0d0c2a">GetActiveConstraints</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inStartConstraintIdx, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inEndConstraintIdx, <a class="el" href="class_constraint.html">Constraint</a> **outActiveConstraints, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &amp;outNumActiveConstraints) const</td></tr>
 <tr class="memdesc:a6620266366dc35c2bf3877530a0d0c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the active constraints of a subset of the constraints.  <a href="class_constraint_manager.html#a6620266366dc35c2bf3877530a0d0c2a">More...</a><br /></td></tr>
 <tr class="separator:a6620266366dc35c2bf3877530a0d0c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfe993a9253a89c1a75f1fa8318a706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#acbfe993a9253a89c1a75f1fa8318a706">DrawConstraints</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const</td></tr>
+<tr class="memdesc:acbfe993a9253a89c1a75f1fa8318a706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw all constraints.  <a href="class_constraint_manager.html#acbfe993a9253a89c1a75f1fa8318a706">More...</a><br /></td></tr>
+<tr class="separator:acbfe993a9253a89c1a75f1fa8318a706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada42a650942ca12b4ffef3bc772ccaed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#ada42a650942ca12b4ffef3bc772ccaed">DrawConstraintLimits</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const</td></tr>
+<tr class="memdesc:ada42a650942ca12b4ffef3bc772ccaed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw all constraint limits.  <a href="class_constraint_manager.html#ada42a650942ca12b4ffef3bc772ccaed">More...</a><br /></td></tr>
+<tr class="separator:ada42a650942ca12b4ffef3bc772ccaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8f3c781d808b7676cb6a7e8e377a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a8e8f3c781d808b7676cb6a7e8e377a3b">DrawConstraintReferenceFrame</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const</td></tr>
+<tr class="memdesc:a8e8f3c781d808b7676cb6a7e8e377a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw all constraint reference frames.  <a href="class_constraint_manager.html#a8e8f3c781d808b7676cb6a7e8e377a3b">More...</a><br /></td></tr>
+<tr class="separator:a8e8f3c781d808b7676cb6a7e8e377a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23b2e8407273d1ecf529f38af334c8cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a23b2e8407273d1ecf529f38af334c8cc">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a23b2e8407273d1ecf529f38af334c8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save state of constraints.  <a href="class_constraint_manager.html#a23b2e8407273d1ecf529f38af334c8cc">More...</a><br /></td></tr>
 <tr class="separator:a23b2e8407273d1ecf529f38af334c8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +212,66 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Add a new constraint. This is thread safe. Note that the inConstraints array is allowed to have nullptrs, these will be ignored. </p>
+
+</div>
+</div>
+<a id="ada42a650942ca12b4ffef3bc772ccaed" name="ada42a650942ca12b4ffef3bc772ccaed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada42a650942ca12b4ffef3bc772ccaed">&#9670;&nbsp;</a></span>DrawConstraintLimits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConstraintManager::DrawConstraintLimits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw all constraint limits. </p>
+
+</div>
+</div>
+<a id="a8e8f3c781d808b7676cb6a7e8e377a3b" name="a8e8f3c781d808b7676cb6a7e8e377a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8f3c781d808b7676cb6a7e8e377a3b">&#9670;&nbsp;</a></span>DrawConstraintReferenceFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConstraintManager::DrawConstraintReferenceFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw all constraint reference frames. </p>
+
+</div>
+</div>
+<a id="acbfe993a9253a89c1a75f1fa8318a706" name="acbfe993a9253a89c1a75f1fa8318a706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbfe993a9253a89c1a75f1fa8318a706">&#9670;&nbsp;</a></span>DrawConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConstraintManager::DrawConstraints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw all constraints. </p>
 
 </div>
 </div>

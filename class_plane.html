@@ -133,6 +133,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab650685703d992f746e1934ffd20850d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_plane.html">Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plane.html#ab650685703d992f746e1934ffd20850d">sFromPointAndNormal</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inNormal)</td></tr>
 <tr class="memdesc:ab650685703d992f746e1934ffd20850d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from point and normal.  <a href="class_plane.html#ab650685703d992f746e1934ffd20850d">More...</a><br /></td></tr>
 <tr class="separator:ab650685703d992f746e1934ffd20850d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ed67db9667cdc78040f503b1bce933"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_plane.html">Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plane.html#a65ed67db9667cdc78040f503b1bce933">sFromPointAndNormal</a> (<a class="el" href="_math_types_8h.html#a943465464cdfbc4fedad29af409c31ff">DVec3Arg</a> inPoint, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inNormal)</td></tr>
+<tr class="memdesc:a65ed67db9667cdc78040f503b1bce933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from point and normal, double precision version that more accurately calculates the plane constant.  <a href="class_plane.html#a65ed67db9667cdc78040f503b1bce933">More...</a><br /></td></tr>
+<tr class="separator:a65ed67db9667cdc78040f503b1bce933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf01f90a7839a26f8d1e0129b661c32d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_plane.html">Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plane.html#acf01f90a7839a26f8d1e0129b661c32d">sFromPointsCCW</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inV1, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inV2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inV3)</td></tr>
 <tr class="memdesc:acf01f90a7839a26f8d1e0129b661c32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create from 3 counter clockwise points.  <a href="class_plane.html#acf01f90a7839a26f8d1e0129b661c32d">More...</a><br /></td></tr>
 <tr class="separator:acf01f90a7839a26f8d1e0129b661c32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,8 +366,46 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a65ed67db9667cdc78040f503b1bce933" name="a65ed67db9667cdc78040f503b1bce933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ed67db9667cdc78040f503b1bce933">&#9670;&nbsp;</a></span>sFromPointAndNormal() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_plane.html">Plane</a> Plane::sFromPointAndNormal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a943465464cdfbc4fedad29af409c31ff">DVec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inNormal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create from point and normal, double precision version that more accurately calculates the plane constant. </p>
+
+</div>
+</div>
 <a id="ab650685703d992f746e1934ffd20850d" name="ab650685703d992f746e1934ffd20850d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab650685703d992f746e1934ffd20850d">&#9670;&nbsp;</a></span>sFromPointAndNormal()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab650685703d992f746e1934ffd20850d">&#9670;&nbsp;</a></span>sFromPointAndNormal() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

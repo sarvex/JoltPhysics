@@ -1,6 +1,7 @@
 var class_distance_constraint =
 [
     [ "DistanceConstraint", "class_distance_constraint.html#a341078be34cb228a4ab7402c960aacb5", null ],
+    [ "DrawConstraint", "class_distance_constraint.html#a77a9f420d8b2e91f852af61cbcecceb0", null ],
     [ "GetConstraintSettings", "class_distance_constraint.html#adaee116897c67e802f2c294c44df106d", null ],
     [ "GetConstraintToBody1Matrix", "class_distance_constraint.html#affc0247d5a56e7448372aea456e0bd04", null ],
     [ "GetConstraintToBody2Matrix", "class_distance_constraint.html#a32c46e7b4a137df6a68f9bd7752ee0cc", null ],

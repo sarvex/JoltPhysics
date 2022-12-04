@@ -186,8 +186,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a063b182d0bc6eddcde2b3fd422fca7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac067fd156edf8fa249c8ed65bc9f5f18"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#ac067fd156edf8fa249c8ed65bc9f5f18">GetTrianglesNext</a> (<a class="el" href="struct_shape_1_1_get_triangles_context.html">GetTrianglesContext</a> &amp;ioContext, int inMaxTrianglesRequested, <a class="el" href="class_float3.html">Float3</a> *outTriangleVertices, const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> **outMaterials=nullptr) const override</td></tr>
 <tr class="separator:ac067fd156edf8fa249c8ed65bc9f5f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad12be26a94d684f063b0caece97b3d7a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#ad12be26a94d684f063b0caece97b3d7a">GetSubmergedVolume</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_plane.html">Plane</a> &amp;inSurface, float &amp;outTotalVolume, float &amp;outSubmergedVolume, <a class="el" href="class_vec3.html">Vec3</a> &amp;outCenterOfBuoyancy) const override</td></tr>
-<tr class="separator:ad12be26a94d684f063b0caece97b3d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e7da39c873a9b8e3c3ffde94d31972"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#a49e7da39c873a9b8e3c3ffde94d31972">GetSubmergedVolume</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_plane.html">Plane</a> &amp;inSurface, float &amp;outTotalVolume, float &amp;outSubmergedVolume, <a class="el" href="class_vec3.html">Vec3</a> &amp;outCenterOfBuoyancy <a class="el" href="_core_8h.html#ab6d002cadb39841b46bb93fe8a20e00e">JPH_IF_DEBUG_RENDERER</a>(, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inBaseOffset)) const override</td></tr>
+<tr class="separator:a49e7da39c873a9b8e3c3ffde94d31972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae043918f1de4d0049c6cb2a92b545e06"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_convex_shape_1_1_support.html">Support</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#ae043918f1de4d0049c6cb2a92b545e06">GetSupportFunction</a> (<a class="el" href="class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06b">ESupportMode</a> inMode, <a class="el" href="class_convex_shape_1_1_support_buffer.html">SupportBuffer</a> &amp;inBuffer, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale) const =0</td></tr>
 <tr class="separator:ae043918f1de4d0049c6cb2a92b545e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39b6d0d9db468564c90488e41b737a08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#a39b6d0d9db468564c90488e41b737a08">SetMaterial</a> (const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *inMaterial)</td></tr>
@@ -201,6 +201,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25975ed48abd058648020ee11498ce4e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#a25975ed48abd058648020ee11498ce4e">GetDensity</a> () const</td></tr>
 <tr class="memdesc:a25975ed48abd058648020ee11498ce4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get density of the shape (kg / m^3)  <a href="class_convex_shape.html#a25975ed48abd058648020ee11498ce4e">More...</a><br /></td></tr>
 <tr class="separator:a25975ed48abd058648020ee11498ce4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8a3a589361aaa51d2bb77c70fea79f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#a6b8a3a589361aaa51d2bb77c70fea79f">DrawGetSupportFunction</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, <a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, bool inDrawSupportDirection) const override</td></tr>
+<tr class="memdesc:a6b8a3a589361aaa51d2bb77c70fea79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the results of the GetSupportFunction with the convex radius added back on to show any errors introduced by this process (only relevant for convex shapes)  <a href="class_convex_shape.html#a6b8a3a589361aaa51d2bb77c70fea79f">More...</a><br /></td></tr>
+<tr class="separator:a6b8a3a589361aaa51d2bb77c70fea79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53dad63ff9dccff4c3feb90d79091ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#ad53dad63ff9dccff4c3feb90d79091ae">DrawGetSupportingFace</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, <a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale) const override</td></tr>
+<tr class="memdesc:ad53dad63ff9dccff4c3feb90d79091ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the results of the GetSupportingFace function to show any errors introduced by this process (only relevant for convex shapes)  <a href="class_convex_shape.html#ad53dad63ff9dccff4c3feb90d79091ae">More...</a><br /></td></tr>
+<tr class="separator:ad53dad63ff9dccff4c3feb90d79091ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c3915087e7b816b583a8041c5701f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#aa9c3915087e7b816b583a8041c5701f6">SaveBinaryState</a> (<a class="el" href="class_stream_out.html">StreamOut</a> &amp;inStream) const override</td></tr>
 <tr class="memdesc:aa9c3915087e7b816b583a8041c5701f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the contents of the shape in binary form to inStream.  <a href="class_convex_shape.html#aa9c3915087e7b816b583a8041c5701f6">More...</a><br /></td></tr>
 <tr class="separator:aa9c3915087e7b816b583a8041c5701f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +246,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30ea165596e01df087f6e4980ed6b0cb inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f8379fa338802436700b86a07fab3be inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_a_a_box.html">AABox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a9f8379fa338802436700b86a07fab3be">GetWorldSpaceBounds</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale) const</td></tr>
 <tr class="separator:a9f8379fa338802436700b86a07fab3be inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc0e48fe3e684665c0b4ba3ec9e9ed6b inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_a_a_box.html">AABox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#adc0e48fe3e684665c0b4ba3ec9e9ed6b">GetWorldSpaceBounds</a> (<a class="el" href="_math_types_8h.html#aaf37cd542ccb684a70ab8e9123af8df5">DMat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale) const</td></tr>
+<tr class="memdesc:adc0e48fe3e684665c0b4ba3ec9e9ed6b inherit pub_methods_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get world space bounds including convex radius.  <a href="class_shape.html#adc0e48fe3e684665c0b4ba3ec9e9ed6b">More...</a><br /></td></tr>
+<tr class="separator:adc0e48fe3e684665c0b4ba3ec9e9ed6b inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249fa4e0fc7fdd25071be9f45db6a25a inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a249fa4e0fc7fdd25071be9f45db6a25a">GetInnerRadius</a> () const =0</td></tr>
 <tr class="separator:a249fa4e0fc7fdd25071be9f45db6a25a inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00d0953c120d9e175960c9e6629f108f inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mass_properties.html">MassProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a00d0953c120d9e175960c9e6629f108f">GetMassProperties</a> () const =0</td></tr>
@@ -254,6 +263,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29de5bb2f770d7e521f0d939436faa1b inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf8d5f8e430acc87c88fbd558407efc7 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_transformed_shape.html">TransformedShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#acf8d5f8e430acc87c88fbd558407efc7">GetSubShapeTransformedShape</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;outRemainder) const</td></tr>
 <tr class="separator:acf8d5f8e430acc87c88fbd558407efc7 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f077aa0ffef0d518ced9b69ca21d18 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a99f077aa0ffef0d518ced9b69ca21d18">GetSubmergedVolume</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_plane.html">Plane</a> &amp;inSurface, float &amp;outTotalVolume, float &amp;outSubmergedVolume, <a class="el" href="class_vec3.html">Vec3</a> &amp;outCenterOfBuoyancy, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inBaseOffset) const =0</td></tr>
+<tr class="separator:a99f077aa0ffef0d518ced9b69ca21d18 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00149d141125f15e56d9aa82f07b6d4 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#af00149d141125f15e56d9aa82f07b6d4">Draw</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, <a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a> inCenterOfMassTransform, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, bool inUseMaterialColors, bool inDrawWireframe) const =0</td></tr>
+<tr class="memdesc:af00149d141125f15e56d9aa82f07b6d4 inherit pub_methods_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the shape at a particular location with a particular color (debugging purposes)  <a href="class_shape.html#af00149d141125f15e56d9aa82f07b6d4">More...</a><br /></td></tr>
+<tr class="separator:af00149d141125f15e56d9aa82f07b6d4 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed865e7eb30221b418cfd61d1430173 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3ed865e7eb30221b418cfd61d1430173">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter) const</td></tr>
 <tr class="separator:a3ed865e7eb30221b418cfd61d1430173 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b4b180a41ffdf7369f79706b0e27570 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a4b4b180a41ffdf7369f79706b0e27570">TransformShape</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector) const</td></tr>
@@ -347,6 +361,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a69184c6cd6ddf309ee9b789300accbb6 inherit pub_static_attribs_class_shape"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a69184c6cd6ddf309ee9b789300accbb6">cGetTrianglesMinTrianglesRequested</a> = 32</td></tr>
 <tr class="memdesc:a69184c6cd6ddf309ee9b789300accbb6 inherit pub_static_attribs_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the minimum amount of triangles that should be requested through GetTrianglesNext.  <a href="class_shape.html#a69184c6cd6ddf309ee9b789300accbb6">More...</a><br /></td></tr>
 <tr class="separator:a69184c6cd6ddf309ee9b789300accbb6 inherit pub_static_attribs_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af317ba0cd0b3cd9e093c2e417f5f230e inherit pub_static_attribs_class_shape"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#af317ba0cd0b3cd9e093c2e417f5f230e">sDrawSubmergedVolumes</a> = false</td></tr>
+<tr class="memdesc:af317ba0cd0b3cd9e093c2e417f5f230e inherit pub_static_attribs_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug helper which draws the intersection between water and the shapes, the center of buoyancy and the submerged volume.  <a href="class_shape.html#af317ba0cd0b3cd9e093c2e417f5f230e">More...</a><br /></td></tr>
+<tr class="separator:af317ba0cd0b3cd9e093c2e417f5f230e inherit pub_static_attribs_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_ref_target"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ref_target')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ref_target.html">RefTarget&lt; Shape &gt;</a></td></tr>
 <tr class="memitem:a12afba0bdae7706a0afd4d96ac128231 inherit pro_attribs_class_ref_target"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">mRefCount</a></td></tr>
 <tr class="memdesc:a12afba0bdae7706a0afd4d96ac128231 inherit pro_attribs_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current reference count.  <a href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">More...</a><br /></td></tr>
@@ -591,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Cast a ray against this shape, returns true if it finds a hit closer than ioHit.mFraction and updates that fraction. Otherwise ioHit is left untouched and the function returns false. Note that the ray should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from <a class="el" href="struct_ray_cast.html#a3d37915d31a650e8d51f96aaaa69c396" title="Origin of the ray.">RayCast::mOrigin</a> if you want to cast against the shape in the space it was created). Convex objects will be treated as solid (meaning if the ray starts inside, you'll get a hit fraction of 0) and back face hits against triangles are returned. If you want the surface normal of the hit use GetSurfaceNormal(ioHit.mSubShapeID2, inRay.GetPointOnRay(ioHit.mFraction)). </p>
+<p >Cast a ray against this shape, returns true if it finds a hit closer than ioHit.mFraction and updates that fraction. Otherwise ioHit is left untouched and the function returns false. Note that the ray should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from <a class="el" href="struct_ray_cast_t.html#ae66dc4b0c20b242f17bcf70cb5507e51" title="Origin of the ray.">RayCast::mOrigin</a> if you want to cast against the shape in the space it was created). Convex objects will be treated as solid (meaning if the ray starts inside, you'll get a hit fraction of 0) and back face hits against triangles are returned. If you want the surface normal of the hit use GetSurfaceNormal(ioHit.mSubShapeID2, inRay.GetPointOnRay(ioHit.mFraction)). </p>
 
 <p>Implements <a class="el" href="class_shape.html#a955ec1953bc94c6c910dc4dc16114732">Shape</a>.</p>
 
@@ -649,6 +666,110 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_shape.html#af6e77d16736434769d72152bf059a126">Shape</a>.</p>
 
 <p>Reimplemented in <a class="el" href="class_box_shape.html#ac79f1b2e03b7c9c374f8f8dbeb3104bb">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a8474d2a38ac14d1d950829f284a0ca97">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#a735042a5743c3f86f5a57efdf0326c85">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#ae24a72e2cc4218687cd7ab1bc1baaa4a">CylinderShape</a>, <a class="el" href="class_sphere_shape.html#ab8223102d141ca2fda0343ddfcb07ab4">SphereShape</a>, and <a class="el" href="class_triangle_shape.html#a30e75a8329213c0df77088b28af7858d">TriangleShape</a>.</p>
+
+</div>
+</div>
+<a id="a6b8a3a589361aaa51d2bb77c70fea79f" name="a6b8a3a589361aaa51d2bb77c70fea79f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8a3a589361aaa51d2bb77c70fea79f">&#9670;&nbsp;</a></span>DrawGetSupportFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConvexShape::DrawGetSupportFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inCenterOfMassTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inScale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a>&#160;</td>
+          <td class="paramname"><em>inColor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inDrawSupportDirection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the results of the GetSupportFunction with the convex radius added back on to show any errors introduced by this process (only relevant for convex shapes) </p>
+
+<p>Reimplemented from <a class="el" href="class_shape.html#aba9738d09ec43b40f10e32d1793b7ef5">Shape</a>.</p>
+
+</div>
+</div>
+<a id="ad53dad63ff9dccff4c3feb90d79091ae" name="ad53dad63ff9dccff4c3feb90d79091ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53dad63ff9dccff4c3feb90d79091ae">&#9670;&nbsp;</a></span>DrawGetSupportingFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConvexShape::DrawGetSupportingFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inCenterOfMassTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inScale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the results of the GetSupportingFace function to show any errors introduced by this process (only relevant for convex shapes) </p>
+
+<p>Reimplemented from <a class="el" href="class_shape.html#a4feaa49afdf6c19764d939dc0bb2698d">Shape</a>.</p>
 
 </div>
 </div>
@@ -734,8 +855,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad12be26a94d684f063b0caece97b3d7a" name="ad12be26a94d684f063b0caece97b3d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad12be26a94d684f063b0caece97b3d7a">&#9670;&nbsp;</a></span>GetSubmergedVolume()</h2>
+<a id="a49e7da39c873a9b8e3c3ffde94d31972" name="a49e7da39c873a9b8e3c3ffde94d31972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e7da39c873a9b8e3c3ffde94d31972">&#9670;&nbsp;</a></span>GetSubmergedVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -776,8 +897,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outCenterOfBuoyancy</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;outCenterOfBuoyancy &#160;</td>
+          <td class="paramname"><em>JPH_IF_DEBUG_RENDERER</em>, RVec3Arg inBaseOffset&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -791,21 +912,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Gets the properties needed to do buoyancy calculations for a body using this shape </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">inCenterOfMassTransform</td><td>Transform that takes this shape (centered around center of mass) to world space </td></tr>
-    <tr><td class="paramname">inScale</td><td>Scale in local space of the shape </td></tr>
-    <tr><td class="paramname">inSurface</td><td>The surface plane of the liquid in world space </td></tr>
-    <tr><td class="paramname">outTotalVolume</td><td>On return this contains the total volume of the shape </td></tr>
-    <tr><td class="paramname">outSubmergedVolume</td><td>On return this contains the submerged volume of the shape </td></tr>
-    <tr><td class="paramname">outCenterOfBuoyancy</td><td>On return this contains the world space center of mass of the submerged volume </td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p>Implements <a class="el" href="class_shape.html#ab3ab834243d410f4074036264928f0ff">Shape</a>.</p>
-
-<p>Reimplemented in <a class="el" href="class_convex_hull_shape.html#ab7e25e298bc1550a6699db6318260fcc">ConvexHullShape</a>, <a class="el" href="class_sphere_shape.html#a8099641beb4ad717e84857905fcd6ce5">SphereShape</a>, and <a class="el" href="class_triangle_shape.html#ae64007e8a09c522eea94287d25089bb4">TriangleShape</a>.</p>
+<p>Reimplemented in <a class="el" href="class_convex_hull_shape.html#ab050ca44e34a8329d661019c379b39c6">ConvexHullShape</a>, <a class="el" href="class_sphere_shape.html#accef575dd77414652ae4c1c0f68b6c88">SphereShape</a>, and <a class="el" href="class_triangle_shape.html#aaf0e4efd78402e813ebd25d219020773">TriangleShape</a>.</p>
 
 </div>
 </div>

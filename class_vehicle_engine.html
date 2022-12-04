@@ -133,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af916ceb8c4a323cee68c72465627901e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad61683b9088153079e3e47334c2caf1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_engine.html#ad61683b9088153079e3e47334c2caf1a">ApplyDamping</a> (float inDeltaTime)</td></tr>
 <tr class="separator:ad61683b9088153079e3e47334c2caf1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b616470faf6ab7c46026706a7c708df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_engine.html#a1b616470faf6ab7c46026706a7c708df">DrawRPM</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inForward, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inUp, float inSize, float inShiftDownRPM, float inShiftUpRPM) const</td></tr>
+<tr class="memdesc:a1b616470faf6ab7c46026706a7c708df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug draw a RPM meter.  <a href="class_vehicle_engine.html#a1b616470faf6ab7c46026706a7c708df">More...</a><br /></td></tr>
+<tr class="separator:a1b616470faf6ab7c46026706a7c708df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14fa6274b90508346dedcc3e21864204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_engine.html#a14fa6274b90508346dedcc3e21864204">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a14fa6274b90508346dedcc3e21864204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_vehicle_engine.html#a14fa6274b90508346dedcc3e21864204">More...</a><br /></td></tr>
 <tr class="separator:a14fa6274b90508346dedcc3e21864204"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,6 +266,66 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clamp the RPM between min and max RPM. </p>
+
+</div>
+</div>
+<a id="a1b616470faf6ab7c46026706a7c708df" name="a1b616470faf6ab7c46026706a7c708df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b616470faf6ab7c46026706a7c708df">&#9670;&nbsp;</a></span>DrawRPM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VehicleEngine::DrawRPM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inForward</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inUp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inShiftDownRPM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inShiftUpRPM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Debug draw a RPM meter. </p>
 
 </div>
 </div>

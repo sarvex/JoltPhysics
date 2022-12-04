@@ -1,6 +1,8 @@
 var class_cone_constraint =
 [
     [ "ConeConstraint", "class_cone_constraint.html#a2fcce97ba85a4eba463a59524d9b9f8c", null ],
+    [ "DrawConstraint", "class_cone_constraint.html#ab5002a97909c7f2c8d4b7b589ee93a46", null ],
+    [ "DrawConstraintLimits", "class_cone_constraint.html#ab9c5d6d9a767242a2d593d5592ca83e2", null ],
     [ "GetConstraintSettings", "class_cone_constraint.html#aa88d6b874c14c0bfb2d435100fef4c04", null ],
     [ "GetConstraintToBody1Matrix", "class_cone_constraint.html#a90969c19baeb56184ffed487ecca0864", null ],
     [ "GetConstraintToBody2Matrix", "class_cone_constraint.html#a49faa7b82a46f13d0cddec8ee9a1986e", null ],

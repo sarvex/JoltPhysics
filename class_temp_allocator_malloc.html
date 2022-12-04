@@ -113,7 +113,7 @@ Inheritance diagram for TempAllocatorMalloc:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a985a35b24e08ce333e10a712578458e6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_temp_allocator_malloc.html#a985a35b24e08ce333e10a712578458e6">Allocate</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inSize) override</td></tr>
-<tr class="memdesc:a985a35b24e08ce333e10a712578458e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates inSize bytes of memory, returned memory address must be 16 byte aligned.  <a href="class_temp_allocator_malloc.html#a985a35b24e08ce333e10a712578458e6">More...</a><br /></td></tr>
+<tr class="memdesc:a985a35b24e08ce333e10a712578458e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates inSize bytes of memory, returned memory address must be JPH_RVECTOR_ALIGNMENT byte aligned.  <a href="class_temp_allocator_malloc.html#a985a35b24e08ce333e10a712578458e6">More...</a><br /></td></tr>
 <tr class="separator:a985a35b24e08ce333e10a712578458e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03b9827f7300d701f22d6ca53ba9d686"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_temp_allocator_malloc.html#a03b9827f7300d701f22d6ca53ba9d686">Free</a> (void *inAddress, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inSize) override</td></tr>
 <tr class="memdesc:a03b9827f7300d701f22d6ca53ba9d686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees inSize bytes of memory located at inAddress.  <a href="class_temp_allocator_malloc.html#a03b9827f7300d701f22d6ca53ba9d686">More...</a><br /></td></tr>
@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Allocates inSize bytes of memory, returned memory address must be 16 byte aligned. </p>
+<p>Allocates inSize bytes of memory, returned memory address must be JPH_RVECTOR_ALIGNMENT byte aligned. </p>
 
 <p>Implements <a class="el" href="class_temp_allocator.html#aa62f890910ee965efea7244953f3c65e">TempAllocator</a>.</p>
 

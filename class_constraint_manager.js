@@ -1,6 +1,9 @@
 var class_constraint_manager =
 [
     [ "Add", "class_constraint_manager.html#ae323401f2d9039dd330b070808c494f7", null ],
+    [ "DrawConstraintLimits", "class_constraint_manager.html#ada42a650942ca12b4ffef3bc772ccaed", null ],
+    [ "DrawConstraintReferenceFrame", "class_constraint_manager.html#a8e8f3c781d808b7676cb6a7e8e377a3b", null ],
+    [ "DrawConstraints", "class_constraint_manager.html#acbfe993a9253a89c1a75f1fa8318a706", null ],
     [ "GetActiveConstraints", "class_constraint_manager.html#a6620266366dc35c2bf3877530a0d0c2a", null ],
     [ "GetConstraints", "class_constraint_manager.html#a28696554e9f5f7b0b2169fa523e80440", null ],
     [ "GetNumConstraints", "class_constraint_manager.html#acd910b293c763c5c5a6f7c29a37721fb", null ],

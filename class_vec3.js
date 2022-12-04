@@ -1,5 +1,6 @@
 var class_vec3 =
 [
+    [ "ArgType", "class_vec3.html#a8f7af7dfc65ee331b1819023c1724c97", null ],
     [ "Type", "class_vec3.html#a113d94ab6f5a2f4fd236b64b9ad7cddc", null ],
     [ "Vec3", "class_vec3.html#aeecf02c008ca1e3a1695d8962a5b24da", null ],
     [ "Vec3", "class_vec3.html#a268ea0715fd0914ffde63ca7451bde61", null ],

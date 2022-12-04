@@ -7,7 +7,7 @@ var class_distance_constraint_settings =
     [ "mFrequency", "class_distance_constraint_settings.html#aa21f3b3768295ccfee82babe57999f20", null ],
     [ "mMaxDistance", "class_distance_constraint_settings.html#a2535335c96322853cd8243a199ce54d1", null ],
     [ "mMinDistance", "class_distance_constraint_settings.html#a7dd98fea4e812f9bc4168804c1bc4742", null ],
-    [ "mPoint1", "class_distance_constraint_settings.html#aa4e3b4478c6e7a70743e903a8570325f", null ],
-    [ "mPoint2", "class_distance_constraint_settings.html#ab2fab8e7e0add7d224da97f9e6595773", null ],
+    [ "mPoint1", "class_distance_constraint_settings.html#a8ca1134032fe38952fcf59be4329c939", null ],
+    [ "mPoint2", "class_distance_constraint_settings.html#a18e1fbea7cbb304ce9e86168c1845475", null ],
     [ "mSpace", "class_distance_constraint_settings.html#a09098a011c7b8061c47260953e49e48b", null ]
 ];

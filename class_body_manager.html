@@ -120,6 +120,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_body_manager_1_1_body_stats.html">BodyStats</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct that counts the number of bodies of each type.  <a href="struct_body_manager_1_1_body_stats.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_body_manager_1_1_draw_settings.html">DrawSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw settings.  <a href="struct_body_manager_1_1_draw_settings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -242,6 +245,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af64512a91a78f48a75c5cead5552e281"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#af64512a91a78f48a75c5cead5552e281">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:af64512a91a78f48a75c5cead5552e281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay. Returns false if failed.  <a href="class_body_manager.html#af64512a91a78f48a75c5cead5552e281">More...</a><br /></td></tr>
 <tr class="separator:af64512a91a78f48a75c5cead5552e281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877463f0189e8e131edec5d83413726b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a877463f0189e8e131edec5d83413726b">Draw</a> (const <a class="el" href="struct_body_manager_1_1_draw_settings.html">DrawSettings</a> &amp;inSettings, const <a class="el" href="struct_physics_settings.html">PhysicsSettings</a> &amp;inPhysicsSettings, <a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, const <a class="el" href="class_body_draw_filter.html">BodyDrawFilter</a> *inBodyFilter=nullptr)</td></tr>
+<tr class="memdesc:a877463f0189e8e131edec5d83413726b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the state of the bodies (debugging purposes)  <a href="class_body_manager.html#a877463f0189e8e131edec5d83413726b">More...</a><br /></td></tr>
+<tr class="separator:a877463f0189e8e131edec5d83413726b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Batch body mutex access (do not use directly)</div></td></tr>
 <tr class="memitem:a4e54107c92d7ac62098e267ab8d16eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2">MutexMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a4e54107c92d7ac62098e267ab8d16eb2">GetAllBodiesMutexMask</a> () const</td></tr>
 <tr class="separator:a4e54107c92d7ac62098e267ab8d16eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -501,6 +507,48 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove a set of bodies from the body manager and frees them. </p>
+
+</div>
+</div>
+<a id="a877463f0189e8e131edec5d83413726b" name="a877463f0189e8e131edec5d83413726b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a877463f0189e8e131edec5d83413726b">&#9670;&nbsp;</a></span>Draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyManager::Draw </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_body_manager_1_1_draw_settings.html">DrawSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_physics_settings.html">PhysicsSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inPhysicsSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_draw_filter.html">BodyDrawFilter</a> *&#160;</td>
+          <td class="paramname"><em>inBodyFilter</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw the state of the bodies (debugging purposes) </p>
 
 </div>
 </div>

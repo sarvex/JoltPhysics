@@ -1,6 +1,7 @@
 var class_pulley_constraint =
 [
     [ "PulleyConstraint", "class_pulley_constraint.html#ac6fed08a3d543db628a269cca927fb63", null ],
+    [ "DrawConstraint", "class_pulley_constraint.html#a7ae0d37c406ebdf990d0596028945409", null ],
     [ "GetConstraintSettings", "class_pulley_constraint.html#a56ea0bb8295e74fff225c54325df0bb4", null ],
     [ "GetConstraintToBody1Matrix", "class_pulley_constraint.html#a8afedbd3de6a5484fda155337ee04b64", null ],
     [ "GetConstraintToBody2Matrix", "class_pulley_constraint.html#aab9c03ae617d8c20d3844f499b33463f", null ],

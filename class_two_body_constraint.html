@@ -138,6 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ec4e14ada31bf5172141c2d50663e76"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#a9ec4e14ada31bf5172141c2d50663e76">IsActive</a> () const override</td></tr>
 <tr class="memdesc:a9ec4e14ada31bf5172141c2d50663e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solver interface.  <a href="class_two_body_constraint.html#a9ec4e14ada31bf5172141c2d50663e76">More...</a><br /></td></tr>
 <tr class="separator:a9ec4e14ada31bf5172141c2d50663e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab88ca80622557a5a14cbc1f2e6d0ec0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#aab88ca80622557a5a14cbc1f2e6d0ec0">DrawConstraintReferenceFrame</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const override</td></tr>
+<tr class="separator:aab88ca80622557a5a14cbc1f2e6d0ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae09dc01720e01f71e480f2ce3da32918"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#ae09dc01720e01f71e480f2ce3da32918">GetBody1</a> () const</td></tr>
 <tr class="memdesc:ae09dc01720e01f71e480f2ce3da32918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the connected bodies.  <a href="class_two_body_constraint.html#ae09dc01720e01f71e480f2ce3da32918">More...</a><br /></td></tr>
 <tr class="separator:ae09dc01720e01f71e480f2ce3da32918"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +179,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e0b8708469ecb3ea071c1b37ca8ea26 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a2e0b8708469ecb3ea071c1b37ca8ea26">GetEnabled</a> () const</td></tr>
 <tr class="memdesc:a2e0b8708469ecb3ea071c1b37ca8ea26 inherit pub_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if a constraint is enabled.  <a href="class_constraint.html#a2e0b8708469ecb3ea071c1b37ca8ea26">More...</a><br /></td></tr>
 <tr class="separator:a2e0b8708469ecb3ea071c1b37ca8ea26 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd05177b26e3251b1a9aff9dded18701 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#acd05177b26e3251b1a9aff9dded18701">DrawConstraint</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const =0</td></tr>
+<tr class="separator:acd05177b26e3251b1a9aff9dded18701 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528e67a83b796e469b10d5c473dc195f inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a528e67a83b796e469b10d5c473dc195f">DrawConstraintLimits</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const</td></tr>
+<tr class="separator:a528e67a83b796e469b10d5c473dc195f inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719b99d4d20e0c67d5412fb40a00ada3 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a719b99d4d20e0c67d5412fb40a00ada3">GetDrawConstraintSize</a> () const</td></tr>
+<tr class="memdesc:a719b99d4d20e0c67d5412fb40a00ada3 inherit pub_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of constraint when drawing it through the debug renderer.  <a href="class_constraint.html#a719b99d4d20e0c67d5412fb40a00ada3">More...</a><br /></td></tr>
+<tr class="separator:a719b99d4d20e0c67d5412fb40a00ada3 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26efcf11518c9b1c2e15821ca7d8937 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#ae26efcf11518c9b1c2e15821ca7d8937">SetDrawConstraintSize</a> (float inSize)</td></tr>
+<tr class="separator:ae26efcf11518c9b1c2e15821ca7d8937 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a829eb3dda397de5cc7a7799ce959cc8b inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a829eb3dda397de5cc7a7799ce959cc8b inherit pub_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b">More...</a><br /></td></tr>
 <tr class="separator:a829eb3dda397de5cc7a7799ce959cc8b inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,6 +242,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af27aa0e2707d6b96ecbdeb8da8068ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a180665fea57c98679a6a25a89057ed06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_two_body_constraint.html#a180665fea57c98679a6a25a89057ed06">mBody2</a></td></tr>
 <tr class="separator:a180665fea57c98679a6a25a89057ed06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_constraint"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_constraint')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_constraint.html">Constraint</a></td></tr>
+<tr class="memitem:af5f5c736eb3830ff27ec07200399dc46 inherit pro_attribs_class_constraint"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#af5f5c736eb3830ff27ec07200399dc46">mDrawConstraintSize</a></td></tr>
+<tr class="memdesc:af5f5c736eb3830ff27ec07200399dc46 inherit pro_attribs_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of constraint when drawing it through the debug renderer.  <a href="class_constraint.html#af5f5c736eb3830ff27ec07200399dc46">More...</a><br /></td></tr>
+<tr class="separator:af5f5c736eb3830ff27ec07200399dc46 inherit pro_attribs_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_ref_target"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ref_target')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ref_target.html">RefTarget&lt; Constraint &gt;</a></td></tr>
 <tr class="memitem:a12afba0bdae7706a0afd4d96ac128231 inherit pro_attribs_class_ref_target"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">mRefCount</a></td></tr>
 <tr class="memdesc:a12afba0bdae7706a0afd4d96ac128231 inherit pro_attribs_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current reference count.  <a href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">More...</a><br /></td></tr>
@@ -342,6 +357,34 @@ Additional Inherited Members</h2></td></tr>
 <p>Link bodies that are connected by this constraint in the island builder. </p>
 
 <p>Implements <a class="el" href="class_constraint.html#af62388f6f234f8cd7d24af34e49180fd">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="aab88ca80622557a5a14cbc1f2e6d0ec0" name="aab88ca80622557a5a14cbc1f2e6d0ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab88ca80622557a5a14cbc1f2e6d0ec0">&#9670;&nbsp;</a></span>DrawConstraintReferenceFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TwoBodyConstraint::DrawConstraintReferenceFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_constraint.html#a9789129d9dcf3f78e84322b374d0a2c9">Constraint</a>.</p>
 
 </div>
 </div>

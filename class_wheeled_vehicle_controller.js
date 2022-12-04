@@ -4,6 +4,7 @@ var class_wheeled_vehicle_controller =
     [ "WheeledVehicleController", "class_wheeled_vehicle_controller.html#ad00936264e25f1902bed6e7c86f198dc", null ],
     [ "AllowSleep", "class_wheeled_vehicle_controller.html#a6125325237cbe777be8aa8c5fc831ce4", null ],
     [ "ConstructWheel", "class_wheeled_vehicle_controller.html#a87526c2489ef5c417f2ef34a69d19cbb", null ],
+    [ "Draw", "class_wheeled_vehicle_controller.html#a254e0402efc01e79154b4bde178918a4", null ],
     [ "GetDifferentialLimitedSlipRatio", "class_wheeled_vehicle_controller.html#a54518ef2b442bd0a1fe7a871d36d167f", null ],
     [ "GetDifferentials", "class_wheeled_vehicle_controller.html#abc5128d2c64bd0081380279ed025e2ed", null ],
     [ "GetDifferentials", "class_wheeled_vehicle_controller.html#a7364b136c27cf5330968729518859a1d", null ],
@@ -17,6 +18,7 @@ var class_wheeled_vehicle_controller =
     [ "SaveState", "class_wheeled_vehicle_controller.html#ad625db11394127fd656e149e5131c10a", null ],
     [ "SetDifferentialLimitedSlipRatio", "class_wheeled_vehicle_controller.html#a18c2ead8335924c4225b2580b2fd6f31", null ],
     [ "SetDriverInput", "class_wheeled_vehicle_controller.html#a3a3b66c895677f66890ddde7b5e6f9ba", null ],
+    [ "SetRPMMeter", "class_wheeled_vehicle_controller.html#a65374d5dabe3c20c393a69ed780de89f", null ],
     [ "SolveLongitudinalAndLateralConstraints", "class_wheeled_vehicle_controller.html#a00e70f705f6b7770e3e1e8461998e0bb", null ],
     [ "mBrakeInput", "class_wheeled_vehicle_controller.html#a88aa09d54f227962f6ccfb84f764e4c3", null ],
     [ "mDifferentialLimitedSlipRatio", "class_wheeled_vehicle_controller.html#aa389a6d0e57e4eb69c7d238be20c6575", null ],
@@ -25,5 +27,7 @@ var class_wheeled_vehicle_controller =
     [ "mForwardInput", "class_wheeled_vehicle_controller.html#a0a8a164e3c506f3763973ac2ae4cc656", null ],
     [ "mHandBrakeInput", "class_wheeled_vehicle_controller.html#a064bc3d019a1997828bc46c9201a0283", null ],
     [ "mRightInput", "class_wheeled_vehicle_controller.html#a5138b0898fa52c09e75c3f583459c519", null ],
+    [ "mRPMMeterPosition", "class_wheeled_vehicle_controller.html#ae747e5529bef6e7f5d5c9ada5fa195b4", null ],
+    [ "mRPMMeterSize", "class_wheeled_vehicle_controller.html#a7f88075b9e61d9a50c6edc663267f73b", null ],
     [ "mTransmission", "class_wheeled_vehicle_controller.html#a22bd29e8d76290ee6fbfb10b8c207f83", null ]
 ];

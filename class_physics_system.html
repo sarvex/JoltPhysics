@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('class_physics_system.html',''); initRe
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_physics_system-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">PhysicsSystem Class Reference</div></div>
 </div><!--header-->
@@ -196,6 +197,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c0936f0d1e9cc6f05a100e48a687bb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a5c0936f0d1e9cc6f05a100e48a687bb6">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a5c0936f0d1e9cc6f05a100e48a687bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay. Returns false if failed.  <a href="class_physics_system.html#a5c0936f0d1e9cc6f05a100e48a687bb6">More...</a><br /></td></tr>
 <tr class="separator:a5c0936f0d1e9cc6f05a100e48a687bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4eda1c25d2c2e57a6964167870fe93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a8d4eda1c25d2c2e57a6964167870fe93">DrawBodies</a> (const <a class="el" href="struct_body_manager_1_1_draw_settings.html">BodyManager::DrawSettings</a> &amp;inSettings, <a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, const <a class="el" href="class_body_draw_filter.html">BodyDrawFilter</a> *inBodyFilter=nullptr)</td></tr>
+<tr class="memdesc:a8d4eda1c25d2c2e57a6964167870fe93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the state of the bodies (debugging purposes)  <a href="class_physics_system.html#a8d4eda1c25d2c2e57a6964167870fe93">More...</a><br /></td></tr>
+<tr class="separator:a8d4eda1c25d2c2e57a6964167870fe93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa500f710dcc423062fd1514fe07780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a4fa500f710dcc423062fd1514fe07780">DrawConstraints</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer)</td></tr>
+<tr class="memdesc:a4fa500f710dcc423062fd1514fe07780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the constraints only (debugging purposes)  <a href="class_physics_system.html#a4fa500f710dcc423062fd1514fe07780">More...</a><br /></td></tr>
+<tr class="separator:a4fa500f710dcc423062fd1514fe07780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58612f2c07412ae75580710d0b0047d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a58612f2c07412ae75580710d0b0047d9">DrawConstraintLimits</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer)</td></tr>
+<tr class="memdesc:a58612f2c07412ae75580710d0b0047d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the constraint limits only (debugging purposes)  <a href="class_physics_system.html#a58612f2c07412ae75580710d0b0047d9">More...</a><br /></td></tr>
+<tr class="separator:a58612f2c07412ae75580710d0b0047d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0535d433ffd7c3d00595ba784ada4f91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a0535d433ffd7c3d00595ba784ada4f91">DrawConstraintReferenceFrame</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer)</td></tr>
+<tr class="memdesc:a0535d433ffd7c3d00595ba784ada4f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the constraint reference frames only (debugging purposes)  <a href="class_physics_system.html#a0535d433ffd7c3d00595ba784ada4f91">More...</a><br /></td></tr>
+<tr class="separator:a0535d433ffd7c3d00595ba784ada4f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad09c12009bbcb0d0e6dbfd9582593be4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#ad09c12009bbcb0d0e6dbfd9582593be4">SetGravity</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity)</td></tr>
 <tr class="memdesc:ad09c12009bbcb0d0e6dbfd9582593be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set gravity value.  <a href="class_physics_system.html#ad09c12009bbcb0d0e6dbfd9582593be4">More...</a><br /></td></tr>
 <tr class="separator:ad09c12009bbcb0d0e6dbfd9582593be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +249,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#aaf9b12dcaae80c9d304df7a941d4e21f">operator=</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
 <tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ab712e87abefb18cec82d9843e60c9bfb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#ab712e87abefb18cec82d9843e60c9bfb">sDrawMotionQualityLinearCast</a> = false</td></tr>
+<tr class="memdesc:ab712e87abefb18cec82d9843e60c9bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw debug info for objects that perform continuous collision detection through the linear cast motion quality.  <a href="class_physics_system.html#ab712e87abefb18cec82d9843e60c9bfb">More...</a><br /></td></tr>
+<tr class="separator:ab712e87abefb18cec82d9843e60c9bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The main class for the physics system. It contains all rigid bodies and simulates them.</p>
@@ -386,6 +405,134 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a new step listener. </p>
+
+</div>
+</div>
+<a id="a8d4eda1c25d2c2e57a6964167870fe93" name="a8d4eda1c25d2c2e57a6964167870fe93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4eda1c25d2c2e57a6964167870fe93">&#9670;&nbsp;</a></span>DrawBodies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsSystem::DrawBodies </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_body_manager_1_1_draw_settings.html">BodyManager::DrawSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_draw_filter.html">BodyDrawFilter</a> *&#160;</td>
+          <td class="paramname"><em>inBodyFilter</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the state of the bodies (debugging purposes) </p>
+
+</div>
+</div>
+<a id="a58612f2c07412ae75580710d0b0047d9" name="a58612f2c07412ae75580710d0b0047d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58612f2c07412ae75580710d0b0047d9">&#9670;&nbsp;</a></span>DrawConstraintLimits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsSystem::DrawConstraintLimits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the constraint limits only (debugging purposes) </p>
+
+</div>
+</div>
+<a id="a0535d433ffd7c3d00595ba784ada4f91" name="a0535d433ffd7c3d00595ba784ada4f91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0535d433ffd7c3d00595ba784ada4f91">&#9670;&nbsp;</a></span>DrawConstraintReferenceFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsSystem::DrawConstraintReferenceFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the constraint reference frames only (debugging purposes) </p>
+
+</div>
+</div>
+<a id="a4fa500f710dcc423062fd1514fe07780" name="a4fa500f710dcc423062fd1514fe07780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa500f710dcc423062fd1514fe07780">&#9670;&nbsp;</a></span>DrawConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsSystem::DrawConstraints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the constraints only (debugging purposes) </p>
 
 </div>
 </div>
@@ -1410,6 +1557,31 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Simulate the system. The world steps for a total of inDeltaTime seconds. This is divided in inCollisionSteps iterations. Each iteration consists of collision detection followed by inIntegrationSubSteps integration steps. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab712e87abefb18cec82d9843e60c9bfb" name="ab712e87abefb18cec82d9843e60c9bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab712e87abefb18cec82d9843e60c9bfb">&#9670;&nbsp;</a></span>sDrawMotionQualityLinearCast</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> bool PhysicsSystem::sDrawMotionQualityLinearCast = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw debug info for objects that perform continuous collision detection through the linear cast motion quality. </p>
 
 </div>
 </div>

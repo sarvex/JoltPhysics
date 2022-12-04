@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('class_skeleton_pose.html',''); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_skeleton_pose-members.html">List of all members</a>  </div>
@@ -104,6 +105,12 @@ $(document).ready(function(){initNavTree('class_skeleton_pose.html',''); initRes
 
 <p><code>#include &lt;<a class="el" href="_skeleton_pose_8h_source.html">SkeletonPose.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_skeleton_pose_1_1_draw_settings.html">DrawSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw settings.  <a href="struct_skeleton_pose_1_1_draw_settings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ac2a127126bcbac1a033e75e7371ba94b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#ac2a127126bcbac1a033e75e7371ba94b">JointState</a> = <a class="el" href="class_skeletal_animation_1_1_joint_state.html">SkeletalAnimation::JointState</a></td></tr>
@@ -115,6 +122,11 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a83a440cd06f24159b01879670c4bf856"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#a83a440cd06f24159b01879670c4bf856">SetRootOffset</a> (<a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inOffset)</td></tr>
+<tr class="memdesc:a83a440cd06f24159b01879670c4bf856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extra offset applied to the root (and therefore also to all of its children)  <a href="class_skeleton_pose.html#a83a440cd06f24159b01879670c4bf856">More...</a><br /></td></tr>
+<tr class="separator:a83a440cd06f24159b01879670c4bf856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1c753663d81c68c7896c95c34a6b2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_real_8h.html#ae088dda635fb0ba1c96ea179d384ca40">RVec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#ace1c753663d81c68c7896c95c34a6b2a">GetRootOffset</a> () const</td></tr>
+<tr class="separator:ace1c753663d81c68c7896c95c34a6b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ede20d56bfae3b3be7c26165a34fdbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#a5ede20d56bfae3b3be7c26165a34fdbc">CalculateJointMatrices</a> ()</td></tr>
 <tr class="memdesc:a5ede20d56bfae3b3be7c26165a34fdbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the joint states to joint matrices.  <a href="class_skeleton_pose.html#a5ede20d56bfae3b3be7c26165a34fdbc">More...</a><br /></td></tr>
 <tr class="separator:a5ede20d56bfae3b3be7c26165a34fdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbbb73391837675160aa67daba69c2eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#abbbb73391837675160aa67daba69c2eb">CalculateLocalSpaceJointMatrices</a> (<a class="el" href="class_mat44.html">Mat44</a> *outMatrices) const</td></tr>
 <tr class="memdesc:abbbb73391837675160aa67daba69c2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs the joint matrices in local space (ensure that outMatrices has <a class="el" href="class_skeleton_pose.html#ada9b4b8c72f7573109277f36c5ad5eb0">GetJointCount()</a> elements, assumes that values in <a class="el" href="class_skeleton_pose.html#a62ddf1ab02eaf223875eeebcb2dfa617">GetJoints()</a> is up to date)  <a href="class_skeleton_pose.html#abbbb73391837675160aa67daba69c2eb">More...</a><br /></td></tr>
 <tr class="separator:abbbb73391837675160aa67daba69c2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5874cab5f76ecc0df0d7d9e93b2eaf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#af5874cab5f76ecc0df0d7d9e93b2eaf8">Draw</a> (const <a class="el" href="struct_skeleton_pose_1_1_draw_settings.html">DrawSettings</a> &amp;inDrawSettings, <a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, <a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a> inOffset=<a class="el" href="class_mat44.html#a1b8c82590f5034e8c7f35157fdfd944f">RMat44::sIdentity</a>()) const</td></tr>
+<tr class="memdesc:af5874cab5f76ecc0df0d7d9e93b2eaf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw current pose.  <a href="class_skeleton_pose.html#af5874cab5f76ecc0df0d7d9e93b2eaf8">More...</a><br /></td></tr>
+<tr class="separator:af5874cab5f76ecc0df0d7d9e93b2eaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Skeleton</div></td></tr>
 <tr class="memitem:a16e37c44ea1f562854d8a6e3d0afafcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_pose.html#a16e37c44ea1f562854d8a6e3d0afafcf">SetSkeleton</a> (const <a class="el" href="class_skeleton.html">Skeleton</a> *inSkeleton)</td></tr>
 <tr class="separator:a16e37c44ea1f562854d8a6e3d0afafcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,6 +266,42 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Outputs the joint matrices in local space (ensure that outMatrices has <a class="el" href="class_skeleton_pose.html#ada9b4b8c72f7573109277f36c5ad5eb0">GetJointCount()</a> elements, assumes that values in <a class="el" href="class_skeleton_pose.html#a62ddf1ab02eaf223875eeebcb2dfa617">GetJoints()</a> is up to date) </p>
+
+</div>
+</div>
+<a id="af5874cab5f76ecc0df0d7d9e93b2eaf8" name="af5874cab5f76ecc0df0d7d9e93b2eaf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5874cab5f76ecc0df0d7d9e93b2eaf8">&#9670;&nbsp;</a></span>Draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SkeletonPose::Draw </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_skeleton_pose_1_1_draw_settings.html">DrawSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inDrawSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inOffset</em> = <code><a class="el" href="class_mat44.html#a1b8c82590f5034e8c7f35157fdfd944f">RMat44::sIdentity</a>()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw current pose. </p>
 
 </div>
 </div>
@@ -483,6 +534,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ace1c753663d81c68c7896c95c34a6b2a" name="ace1c753663d81c68c7896c95c34a6b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1c753663d81c68c7896c95c34a6b2a">&#9670;&nbsp;</a></span>GetRootOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_real_8h.html#ae088dda635fb0ba1c96ea179d384ca40">RVec3</a> SkeletonPose::GetRootOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2e60e72ebf66740c7d9d99274b70efe7" name="a2e60e72ebf66740c7d9d99274b70efe7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e60e72ebf66740c7d9d99274b70efe7">&#9670;&nbsp;</a></span>GetSkeleton()</h2>
 
@@ -505,6 +581,34 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83a440cd06f24159b01879670c4bf856" name="a83a440cd06f24159b01879670c4bf856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a440cd06f24159b01879670c4bf856">&#9670;&nbsp;</a></span>SetRootOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SkeletonPose::SetRootOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inOffset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extra offset applied to the root (and therefore also to all of its children) </p>
 
 </div>
 </div>

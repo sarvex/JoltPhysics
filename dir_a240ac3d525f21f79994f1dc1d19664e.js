@@ -15,7 +15,8 @@ var dir_a240ac3d525f21f79994f1dc1d19664e =
     [ "BodyFilter.h", "_body_filter_8h.html", [
       [ "BodyFilter", "class_body_filter.html", "class_body_filter" ],
       [ "IgnoreSingleBodyFilter", "class_ignore_single_body_filter.html", "class_ignore_single_body_filter" ],
-      [ "IgnoreMultipleBodiesFilter", "class_ignore_multiple_bodies_filter.html", "class_ignore_multiple_bodies_filter" ]
+      [ "IgnoreMultipleBodiesFilter", "class_ignore_multiple_bodies_filter.html", "class_ignore_multiple_bodies_filter" ],
+      [ "BodyDrawFilter", "class_body_draw_filter.html", "class_body_draw_filter" ]
     ] ],
     [ "BodyID.h", "_body_i_d_8h.html", [
       [ "BodyID", "class_body_i_d.html", "class_body_i_d" ]

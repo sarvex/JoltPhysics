@@ -143,6 +143,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73a1ab9b7b8c0807e88b9b969acb24bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_in.html#a73a1ab9b7b8c0807e88b9b969acb24bf">Read</a> (<a class="el" href="class_vec3.html">Vec3</a> &amp;outVec)</td></tr>
 <tr class="memdesc:a73a1ab9b7b8c0807e88b9b969acb24bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a <a class="el" href="class_vec3.html">Vec3</a> (don't read W)  <a href="class_stream_in.html#a73a1ab9b7b8c0807e88b9b969acb24bf">More...</a><br /></td></tr>
 <tr class="separator:a73a1ab9b7b8c0807e88b9b969acb24bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a6c51ed1848c45cd9974cec509020e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_in.html#ae2a6c51ed1848c45cd9974cec509020e">Read</a> (<a class="el" href="class_d_vec3.html">DVec3</a> &amp;outVec)</td></tr>
+<tr class="memdesc:ae2a6c51ed1848c45cd9974cec509020e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a <a class="el" href="class_d_vec3.html">DVec3</a> (don't read W)  <a href="class_stream_in.html#ae2a6c51ed1848c45cd9974cec509020e">More...</a><br /></td></tr>
+<tr class="separator:ae2a6c51ed1848c45cd9974cec509020e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4bea0c5775a7c29522359528d98c654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_in.html#ad4bea0c5775a7c29522359528d98c654">Read</a> (<a class="el" href="class_d_mat44.html">DMat44</a> &amp;outVec)</td></tr>
+<tr class="memdesc:ad4bea0c5775a7c29522359528d98c654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a <a class="el" href="class_d_mat44.html" title="Holds a 4x4 matrix of floats with the last column consisting of doubles.">DMat44</a> (don't read W component of translation)  <a href="class_stream_in.html#ad4bea0c5775a7c29522359528d98c654">More...</a><br /></td></tr>
+<tr class="separator:ad4bea0c5775a7c29522359528d98c654"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Simple binary input stream. </p>
@@ -233,8 +239,64 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad4bea0c5775a7c29522359528d98c654" name="ad4bea0c5775a7c29522359528d98c654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4bea0c5775a7c29522359528d98c654">&#9670;&nbsp;</a></span>Read() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StreamIn::Read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_mat44.html">DMat44</a> &amp;&#160;</td>
+          <td class="paramname"><em>outVec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read a <a class="el" href="class_d_mat44.html" title="Holds a 4x4 matrix of floats with the last column consisting of doubles.">DMat44</a> (don't read W component of translation) </p>
+
+</div>
+</div>
+<a id="ae2a6c51ed1848c45cd9974cec509020e" name="ae2a6c51ed1848c45cd9974cec509020e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a6c51ed1848c45cd9974cec509020e">&#9670;&nbsp;</a></span>Read() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StreamIn::Read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d_vec3.html">DVec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>outVec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read a <a class="el" href="class_d_vec3.html">DVec3</a> (don't read W) </p>
+
+</div>
+</div>
 <a id="a6f7322ce8d07d787701f3417aa46f265" name="a6f7322ce8d07d787701f3417aa46f265"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7322ce8d07d787701f3417aa46f265">&#9670;&nbsp;</a></span>Read() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f7322ce8d07d787701f3417aa46f265">&#9670;&nbsp;</a></span>Read() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +326,7 @@ template&lt;class Type , class Traits , class Allocator &gt; </div>
 </div>
 </div>
 <a id="a4749bd81bb0e47c672fbb63a61971147" name="a4749bd81bb0e47c672fbb63a61971147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4749bd81bb0e47c672fbb63a61971147">&#9670;&nbsp;</a></span>Read() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4749bd81bb0e47c672fbb63a61971147">&#9670;&nbsp;</a></span>Read() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +356,7 @@ template&lt;class T , class A &gt; </div>
 </div>
 </div>
 <a id="a2a6ed7571089f1156ee7a480b67c22d1" name="a2a6ed7571089f1156ee7a480b67c22d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a6ed7571089f1156ee7a480b67c22d1">&#9670;&nbsp;</a></span>Read() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a6ed7571089f1156ee7a480b67c22d1">&#9670;&nbsp;</a></span>Read() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +386,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="a73a1ab9b7b8c0807e88b9b969acb24bf" name="a73a1ab9b7b8c0807e88b9b969acb24bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73a1ab9b7b8c0807e88b9b969acb24bf">&#9670;&nbsp;</a></span>Read() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73a1ab9b7b8c0807e88b9b969acb24bf">&#9670;&nbsp;</a></span>Read() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

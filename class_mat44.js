@@ -1,8 +1,10 @@
 var class_mat44 =
 [
+    [ "ArgType", "class_mat44.html#af683e408c0736cfaeabba6c87f6308ea", null ],
     [ "Type", "class_mat44.html#a3aa8910fb3ed0cba6463518fe7d52328", null ],
     [ "Mat44", "class_mat44.html#ad95a3b3f36bf3216574383e3dfb927ed", null ],
     [ "Mat44", "class_mat44.html#a9e544288786bacea509de796f7a2a224", null ],
+    [ "Mat44", "class_mat44.html#a5448dda46fe8a36d0ae9b6168607e3cb", null ],
     [ "Mat44", "class_mat44.html#ab804bcb6a2583f7bf966d3d5a3a24161", null ],
     [ "Mat44", "class_mat44.html#af8719f405d2de3e6310ba091f79aa518", null ],
     [ "Adjointed3x3", "class_mat44.html#a3b9c1e6d186b9ad59e81255c64049f22", null ],
@@ -56,6 +58,7 @@ var class_mat44 =
     [ "SetRotation", "class_mat44.html#abd5dc78238403195cbd0cde87f40af49", null ],
     [ "SetTranslation", "class_mat44.html#ae89e485f03d9a5dbaf317c057f4eac30", null ],
     [ "StoreFloat4x4", "class_mat44.html#a1f51050b35215131c7da9a7de78a3e1e", null ],
+    [ "ToMat44", "class_mat44.html#a3445a728646fe8ad80381a0e55ea2289", null ],
     [ "Transposed", "class_mat44.html#a388723db2d35de31efcee6ff0cfb711d", null ],
     [ "Transposed3x3", "class_mat44.html#a29830ba9d80d31e00d30abcc0c099e7c", null ],
     [ "operator*", "class_mat44.html#afe860f899612b75ff8be07c018614c5b", null ],

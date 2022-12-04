@@ -1,6 +1,7 @@
 var class_gear_constraint =
 [
     [ "GearConstraint", "class_gear_constraint.html#a0eedf414f9aa01e1ceab2a400c2b2a02", null ],
+    [ "DrawConstraint", "class_gear_constraint.html#a235385454fa5996217ddd2f7085f47d5", null ],
     [ "GetConstraintSettings", "class_gear_constraint.html#a43c6cb408e182a507528fc2397480a62", null ],
     [ "GetConstraintToBody1Matrix", "class_gear_constraint.html#a6e107e42ffd882394b0affda86ef6008", null ],
     [ "GetConstraintToBody2Matrix", "class_gear_constraint.html#a100fdd22b7dc94df36529b4be8c27b60", null ],

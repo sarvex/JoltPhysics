@@ -30,6 +30,9 @@ var namespaces_dup =
       [ "cNumBitsXY", "namespace_height_field_shape_constants.html#a19db7caf3f2b0d72c438471292289306", null ],
       [ "cStackSize", "namespace_height_field_shape_constants.html#a37ca4958b8fd6b37a4982941ca479a85", null ]
     ] ],
+    [ "literals", "namespaceliterals.html", [
+      [ "operator\"\"_r", "namespaceliterals.html#af3efaa9e7258f2fe6e02e8d05931473b", null ]
+    ] ],
     [ "ScaleHelpers", "namespace_scale_helpers.html", [
       [ "CanScaleBeRotated", "namespace_scale_helpers.html#a024fa9a3c672218ce6b7aaa97d953ae1", null ],
       [ "IsInsideOut", "namespace_scale_helpers.html#a968d814e04071d431f79a2ba4e9d4da1", null ],

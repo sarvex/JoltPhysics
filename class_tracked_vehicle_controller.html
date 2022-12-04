@@ -140,6 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a778d53e87c6d3c769079b71961123745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vehicle_track_8h.html#ac48aa2b382da4e4d33f022c79f598719">VehicleTracks</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#a778d53e87c6d3c769079b71961123745">GetTracks</a> ()</td></tr>
 <tr class="memdesc:a778d53e87c6d3c769079b71961123745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tracks this vehicle has (writable interface, allows you to make changes to the configuration which will take effect the next time step)  <a href="class_tracked_vehicle_controller.html#a778d53e87c6d3c769079b71961123745">More...</a><br /></td></tr>
 <tr class="separator:a778d53e87c6d3c769079b71961123745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a678c77ec33688161c4f2ee0a2521deb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#a678c77ec33688161c4f2ee0a2521deb3">SetRPMMeter</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, float inSize)</td></tr>
+<tr class="memdesc:a678c77ec33688161c4f2ee0a2521deb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug drawing of RPM meter.  <a href="class_tracked_vehicle_controller.html#a678c77ec33688161c4f2ee0a2521deb3">More...</a><br /></td></tr>
+<tr class="separator:a678c77ec33688161c4f2ee0a2521deb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_vehicle_controller.html">VehicleController</a></td></tr>
 <tr class="memitem:ad5cad3b5a580aaf05e36e4c350db37cb inherit pub_methods_class_vehicle_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb">VehicleController</a> (<a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;inConstraint)</td></tr>
 <tr class="memdesc:ad5cad3b5a580aaf05e36e4c350db37cb inherit pub_methods_class_vehicle_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor / destructor.  <a href="class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb">More...</a><br /></td></tr>
@@ -188,6 +191,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:acbb1cc373f9ca7da7c9d79bf8195b257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4ad788c5d39ec66561f0fde8bb5be60"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#ac4ad788c5d39ec66561f0fde8bb5be60">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) override</td></tr>
 <tr class="separator:ac4ad788c5d39ec66561f0fde8bb5be60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f56bbde7c73183fb8b2a6cb122976af"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#a9f56bbde7c73183fb8b2a6cb122976af">Draw</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const override</td></tr>
+<tr class="separator:a9f56bbde7c73183fb8b2a6cb122976af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -212,6 +217,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a1488f414bfa1cd59e4165b1157e42858"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vehicle_track_8h.html#ac48aa2b382da4e4d33f022c79f598719">VehicleTracks</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#a1488f414bfa1cd59e4165b1157e42858">mTracks</a></td></tr>
 <tr class="memdesc:a1488f414bfa1cd59e4165b1157e42858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks of the vehicle.  <a href="class_tracked_vehicle_controller.html#a1488f414bfa1cd59e4165b1157e42858">More...</a><br /></td></tr>
 <tr class="separator:a1488f414bfa1cd59e4165b1157e42858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f801cb40d081779ce0f8ddbd4c1e5b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#a1f801cb40d081779ce0f8ddbd4c1e5b6">mRPMMeterPosition</a> { 0, 1, 0 }</td></tr>
+<tr class="memdesc:a1f801cb40d081779ce0f8ddbd4c1e5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position (in local space of the body) of the RPM meter when drawing the constraint.  <a href="class_tracked_vehicle_controller.html#a1f801cb40d081779ce0f8ddbd4c1e5b6">More...</a><br /></td></tr>
+<tr class="separator:a1f801cb40d081779ce0f8ddbd4c1e5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6dab3a895b281053876fc3c2fb2d8a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tracked_vehicle_controller.html#a2c6dab3a895b281053876fc3c2fb2d8a">mRPMMeterSize</a> = 0.5f</td></tr>
+<tr class="memdesc:a2c6dab3a895b281053876fc3c2fb2d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the RPM meter when drawing the constraint.  <a href="class_tracked_vehicle_controller.html#a2c6dab3a895b281053876fc3c2fb2d8a">More...</a><br /></td></tr>
+<tr class="separator:a2c6dab3a895b281053876fc3c2fb2d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_vehicle_controller.html">VehicleController</a></td></tr>
 <tr class="memitem:af93ef5080e32c5558d6b594da7080896 inherit pro_attribs_class_vehicle_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#af93ef5080e32c5558d6b594da7080896">mConstraint</a></td></tr>
 <tr class="memdesc:af93ef5080e32c5558d6b594da7080896 inherit pro_attribs_class_vehicle_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vehicle constraint we belong to.  <a href="class_vehicle_controller.html#af93ef5080e32c5558d6b594da7080896">More...</a><br /></td></tr>
@@ -318,6 +329,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_vehicle_controller.html#a67f4c989e175054bb615082afef27c45">VehicleController</a>.</p>
+
+</div>
+</div>
+<a id="a9f56bbde7c73183fb8b2a6cb122976af" name="a9f56bbde7c73183fb8b2a6cb122976af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f56bbde7c73183fb8b2a6cb122976af">&#9670;&nbsp;</a></span>Draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackedVehicleController::Draw </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html">DebugRenderer</a> *&#160;</td>
+          <td class="paramname"><em>inRenderer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_vehicle_controller.html#a274a1450cbb816e3150d26237bf3725a">VehicleController</a>.</p>
 
 </div>
 </div>
@@ -672,6 +711,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a678c77ec33688161c4f2ee0a2521deb3" name="a678c77ec33688161c4f2ee0a2521deb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a678c77ec33688161c4f2ee0a2521deb3">&#9670;&nbsp;</a></span>SetRPMMeter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackedVehicleController::SetRPMMeter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Debug drawing of RPM meter. </p>
+
+</div>
+</div>
 <a id="a8fdb8ceb2f023e60141688cd680bc0aa" name="a8fdb8ceb2f023e60141688cd680bc0aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8fdb8ceb2f023e60141688cd680bc0aa">&#9670;&nbsp;</a></span>SolveLongitudinalAndLateralConstraints()</h2>
 
@@ -845,6 +922,54 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Value between -1 and 1 indicating an extra multiplier to the rotation rate of the right track (used for steering) </p>
+
+</div>
+</div>
+<a id="a1f801cb40d081779ce0f8ddbd4c1e5b6" name="a1f801cb40d081779ce0f8ddbd4c1e5b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f801cb40d081779ce0f8ddbd4c1e5b6">&#9670;&nbsp;</a></span>mRPMMeterPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> TrackedVehicleController::mRPMMeterPosition { 0, 1, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Position (in local space of the body) of the RPM meter when drawing the constraint. </p>
+
+</div>
+</div>
+<a id="a2c6dab3a895b281053876fc3c2fb2d8a" name="a2c6dab3a895b281053876fc3c2fb2d8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c6dab3a895b281053876fc3c2fb2d8a">&#9670;&nbsp;</a></span>mRPMMeterSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrackedVehicleController::mRPMMeterSize = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of the RPM meter when drawing the constraint. </p>
 
 </div>
 </div>

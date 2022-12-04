@@ -1,6 +1,7 @@
 var class_body_manager =
 [
     [ "BodyStats", "struct_body_manager_1_1_body_stats.html", "struct_body_manager_1_1_body_stats" ],
+    [ "DrawSettings", "struct_body_manager_1_1_draw_settings.html", "struct_body_manager_1_1_draw_settings" ],
     [ "MutexMask", "class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2", null ],
     [ "EShapeColor", "class_body_manager.html#ae1f52f80ea3133d1b767f007f83350e2", [
       [ "InstanceColor", "class_body_manager.html#ae1f52f80ea3133d1b767f007f83350e2a99ee1c53265abeecfe720f4bc3fc44a6", null ],
@@ -17,6 +18,7 @@ var class_body_manager =
     [ "AllocateBody", "class_body_manager.html#ab90b6879d9b21e0301102dd1f5791cb2", null ],
     [ "DeactivateBodies", "class_body_manager.html#ac8e13efcbe3e2fab505e2c9047f9d2ef", null ],
     [ "DestroyBodies", "class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e", null ],
+    [ "Draw", "class_body_manager.html#a877463f0189e8e131edec5d83413726b", null ],
     [ "FreeBody", "class_body_manager.html#ac9b3fea305ee74fb2cb1d70d4773aee0", null ],
     [ "GetActiveBodies", "class_body_manager.html#a6f586bcf6721612f3f30e6ce2cd07cc5", null ],
     [ "GetActiveBodiesUnsafe", "class_body_manager.html#ac82eddab23702dc985be81be36d91afb", null ],

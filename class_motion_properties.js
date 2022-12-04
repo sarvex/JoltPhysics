@@ -28,7 +28,7 @@ var class_motion_properties =
     [ "MoveKinematic", "class_motion_properties.html#ab85683c657425481988a549637dd1315", null ],
     [ "MultiplyWorldSpaceInverseInertiaByVector", "class_motion_properties.html#aa8a73ea7940a316151262ed9a28c4fbb", null ],
     [ "ResetForceAndTorqueInternal", "class_motion_properties.html#adc68299c70c4c3e0c08998dd263846bf", null ],
-    [ "ResetSleepTestSpheres", "class_motion_properties.html#a38b498a170b22c3304623c58316d0591", null ],
+    [ "ResetSleepTestSpheres", "class_motion_properties.html#aad3b333b7af3e3b39be95edf9b69d133", null ],
     [ "RestoreState", "class_motion_properties.html#a09a1e9e46776c7d15cdd2b19c4a146f6", null ],
     [ "SaveState", "class_motion_properties.html#a42eb1fc1f3dc95b2023675e3cd7c1aed", null ],
     [ "SetAngularDamping", "class_motion_properties.html#ae036052c7d094e459a17cdc6c9b8a0ce", null ],

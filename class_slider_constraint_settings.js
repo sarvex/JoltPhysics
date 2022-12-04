@@ -13,8 +13,8 @@ var class_slider_constraint_settings =
     [ "mMotorSettings", "class_slider_constraint_settings.html#a8a2773d9e0482d334b1797cb951d243f", null ],
     [ "mNormalAxis1", "class_slider_constraint_settings.html#ab03298296694d483fbfc756c7b28433b", null ],
     [ "mNormalAxis2", "class_slider_constraint_settings.html#a8f4226328c8052b155b772c932bcb244", null ],
-    [ "mPoint1", "class_slider_constraint_settings.html#a2ebee612382e1e837d31b87d62cd65af", null ],
-    [ "mPoint2", "class_slider_constraint_settings.html#ad1419cecf00ed6e0ebda6bff4950cec7", null ],
+    [ "mPoint1", "class_slider_constraint_settings.html#a090c1e3dd8e6d8651d8287b4dbe5fc46", null ],
+    [ "mPoint2", "class_slider_constraint_settings.html#a067096ef3ef94d99ba6d22b946145759", null ],
     [ "mSliderAxis1", "class_slider_constraint_settings.html#a674de926b2858e971516a15d93e168c0", null ],
     [ "mSliderAxis2", "class_slider_constraint_settings.html#af4319ce1c0bddddfa419bb361565f2e4", null ],
     [ "mSpace", "class_slider_constraint_settings.html#afc5127fe325c86046c4765ed89dce4fe", null ]

@@ -1,5 +1,12 @@
 var dir_aa37033c5611f3a5cff668cf59181100 =
 [
+    [ "DMat44.h", "_d_mat44_8h.html", [
+      [ "DMat44", "class_d_mat44.html", "class_d_mat44" ]
+    ] ],
+    [ "DMat44.inl", "_d_mat44_8inl.html", null ],
+    [ "Double3.h", "_double3_8h.html", [
+      [ "Double3", "class_double3.html", "class_double3" ]
+    ] ],
     [ "DVec3.h", "_d_vec3_8h.html", [
       [ "DVec3", "class_d_vec3.html", "class_d_vec3" ]
     ] ],
@@ -31,6 +38,7 @@ var dir_aa37033c5611f3a5cff668cf59181100 =
       [ "Quat", "class_quat.html", "class_quat" ]
     ] ],
     [ "Quat.inl", "_quat_8inl.html", null ],
+    [ "Real.h", "_real_8h.html", "_real_8h" ],
     [ "Swizzle.h", "_swizzle_8h.html", null ],
     [ "Trigonometry.h", "_trigonometry_8h.html", "_trigonometry_8h" ],
     [ "UVec4.cpp", "_u_vec4_8cpp.html", null ],

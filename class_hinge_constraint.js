@@ -1,6 +1,8 @@
 var class_hinge_constraint =
 [
     [ "HingeConstraint", "class_hinge_constraint.html#a7337c51b877bbc1c3848d3de7b3dae8f", null ],
+    [ "DrawConstraint", "class_hinge_constraint.html#ab73c3ac05525ab37e8dd8875ce74ac74", null ],
+    [ "DrawConstraintLimits", "class_hinge_constraint.html#a7fbe9f4f52961a1fa196122c735249d7", null ],
     [ "GetConstraintSettings", "class_hinge_constraint.html#aba9c90a3d3565e738758d6ee5b17dcba", null ],
     [ "GetConstraintToBody1Matrix", "class_hinge_constraint.html#a2b528317cc292b5538af7df466934016", null ],
     [ "GetConstraintToBody2Matrix", "class_hinge_constraint.html#aae6aa9af08443b65a7ea85323876dde4", null ],

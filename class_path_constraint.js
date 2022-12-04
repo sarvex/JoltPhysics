@@ -1,6 +1,7 @@
 var class_path_constraint =
 [
     [ "PathConstraint", "class_path_constraint.html#a6a5b13762673f613fd49d5b0d3873853", null ],
+    [ "DrawConstraint", "class_path_constraint.html#a538c03ec9bda5767332e77595d1dab9c", null ],
     [ "GetConstraintSettings", "class_path_constraint.html#a88bfac1b3c744a15f78dbce0d31a4b08", null ],
     [ "GetConstraintToBody1Matrix", "class_path_constraint.html#a7fd4ca9762f295af3146258606a6e22a", null ],
     [ "GetConstraintToBody2Matrix", "class_path_constraint.html#aefa354c9926217e88db8741736121f20", null ],

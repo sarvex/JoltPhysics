@@ -1,6 +1,8 @@
 var class_slider_constraint =
 [
     [ "SliderConstraint", "class_slider_constraint.html#ad70ecf5382d028c817f4ac1544927285", null ],
+    [ "DrawConstraint", "class_slider_constraint.html#a09317cd6ab2f56cb7a15a950a420f5f8", null ],
+    [ "DrawConstraintLimits", "class_slider_constraint.html#ae1378d973e0d535040c6bb36eb368dc5", null ],
     [ "GetConstraintSettings", "class_slider_constraint.html#a79e425837bce0b6d9955ce61fba14c43", null ],
     [ "GetConstraintToBody1Matrix", "class_slider_constraint.html#aa61f48ae475bbe2130bb1053e4358f24", null ],
     [ "GetConstraintToBody2Matrix", "class_slider_constraint.html#a364ce918555ae4df05f788b9e5e041ca", null ],

@@ -25,7 +25,7 @@ var class_six_d_o_f_constraint_settings =
     [ "mLimitMin", "class_six_d_o_f_constraint_settings.html#a647d4f74164c943a3a57cd7e2de765d0", null ],
     [ "mMaxFriction", "class_six_d_o_f_constraint_settings.html#a94fa871604ea96b8db52fe4a099029f8", null ],
     [ "mMotorSettings", "class_six_d_o_f_constraint_settings.html#aa78bf1257750bc3d33b7fc7352d2d07a", null ],
-    [ "mPosition1", "class_six_d_o_f_constraint_settings.html#ada74cca0437bb53e7d0901747c42ed67", null ],
-    [ "mPosition2", "class_six_d_o_f_constraint_settings.html#a01b568f4f1819a9c4ec02e08a2c821ee", null ],
+    [ "mPosition1", "class_six_d_o_f_constraint_settings.html#abf8617babef063477401b6a88b4df02d", null ],
+    [ "mPosition2", "class_six_d_o_f_constraint_settings.html#a6718d1e32b2c5933a3d1775ce564bee8", null ],
     [ "mSpace", "class_six_d_o_f_constraint_settings.html#a6cf826e6c54d7f54f704c8579d586001", null ]
 ];

@@ -76,11 +76,15 @@ var dir_1a1d05ab9ff27ca8d1ed94cd62670cdf =
       [ "PhysicsMaterialSimple", "class_physics_material_simple.html", "class_physics_material_simple" ]
     ] ],
     [ "RayCast.h", "_ray_cast_8h.html", [
-      [ "RayCast", "struct_ray_cast.html", "struct_ray_cast" ],
+      [ "RayCastT< Vec, Mat, RayCastType >", "struct_ray_cast_t.html", "struct_ray_cast_t" ],
+      [ "RayCast", "struct_ray_cast.html", null ],
+      [ "RRayCast", "struct_r_ray_cast.html", "struct_r_ray_cast" ],
       [ "RayCastSettings", "class_ray_cast_settings.html", "class_ray_cast_settings" ]
     ] ],
     [ "ShapeCast.h", "_shape_cast_8h.html", [
-      [ "ShapeCast", "struct_shape_cast.html", "struct_shape_cast" ],
+      [ "ShapeCastT< Vec, Mat, ShapeCastType >", "struct_shape_cast_t.html", "struct_shape_cast_t" ],
+      [ "ShapeCast", "struct_shape_cast.html", null ],
+      [ "RShapeCast", "struct_r_shape_cast.html", "struct_r_shape_cast" ],
       [ "ShapeCastSettings", "class_shape_cast_settings.html", "class_shape_cast_settings" ],
       [ "ShapeCastResult", "class_shape_cast_result.html", "class_shape_cast_result" ]
     ] ],

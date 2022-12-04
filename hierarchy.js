@@ -75,6 +75,10 @@ var hierarchy =
     [ "HeightFieldShape::DecodingContext", "class_height_field_shape_1_1_decoding_context.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::DecodingContext", "class_node_codec_quad_tree_half_float_1_1_decoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html", null ],
+    [ "DMat44", "class_d_mat44.html", null ],
+    [ "Double3", "class_double3.html", null ],
+    [ "BodyManager::DrawSettings", "struct_body_manager_1_1_draw_settings.html", null ],
+    [ "SkeletonPose::DrawSettings", "struct_skeleton_pose_1_1_draw_settings.html", null ],
     [ "DualAxisConstraintPart", "class_dual_axis_constraint_part.html", null ],
     [ "DVec3", "class_d_vec3.html", null ],
     [ "DynMatrix", "class_dyn_matrix.html", null ],
@@ -155,6 +159,7 @@ var hierarchy =
       [ "Body", "class_body.html", [
         [ "BodyWithMotionProperties", "class_body_with_motion_properties.html", null ]
       ] ],
+      [ "BodyDrawFilter", "class_body_draw_filter.html", null ],
       [ "BodyFilter", "class_body_filter.html", [
         [ "IgnoreMultipleBodiesFilter", "class_ignore_multiple_bodies_filter.html", null ],
         [ "IgnoreSingleBodyFilter", "class_ignore_single_body_filter.html", null ]
@@ -299,8 +304,14 @@ var hierarchy =
     [ "Quat", "class_quat.html", null ],
     [ "RackAndPinionConstraintPart", "class_rack_and_pinion_constraint_part.html", null ],
     [ "TriangleSplitter::Range", "struct_triangle_splitter_1_1_range.html", null ],
-    [ "RayCast", "struct_ray_cast.html", null ],
     [ "RayCastSettings", "class_ray_cast_settings.html", null ],
+    [ "RayCastT< Vec, Mat, RayCastType >", "struct_ray_cast_t.html", null ],
+    [ "RayCastT< RVec3, RMat44, RRayCast >", "struct_ray_cast_t.html", [
+      [ "RRayCast", "struct_r_ray_cast.html", null ]
+    ] ],
+    [ "RayCastT< Vec3, Mat44, RayCast >", "struct_ray_cast_t.html", [
+      [ "RayCast", "struct_ray_cast.html", null ]
+    ] ],
     [ "RayInvDirection", "class_ray_inv_direction.html", null ],
     [ "STLAlignedAllocator< T, N >::rebind< T2 >", "struct_s_t_l_aligned_allocator_1_1rebind.html", null ],
     [ "STLAllocator< T >::rebind< T2 >", "struct_s_t_l_allocator_1_1rebind.html", null ],
@@ -445,7 +456,13 @@ var hierarchy =
       [ "VehicleControllerSettings", "class_vehicle_controller_settings.html", null ],
       [ "WheelSettings", "class_wheel_settings.html", null ]
     ] ],
-    [ "ShapeCast", "struct_shape_cast.html", null ],
+    [ "ShapeCastT< Vec, Mat, ShapeCastType >", "struct_shape_cast_t.html", null ],
+    [ "ShapeCastT< RVec3, RMat44, RShapeCast >", "struct_shape_cast_t.html", [
+      [ "RShapeCast", "struct_r_shape_cast.html", null ]
+    ] ],
+    [ "ShapeCastT< Vec3, Mat44, ShapeCast >", "struct_shape_cast_t.html", [
+      [ "ShapeCast", "struct_shape_cast.html", null ]
+    ] ],
     [ "ShapeFunctions", "class_shape_functions.html", null ],
     [ "SkeletonPose", "class_skeleton_pose.html", null ],
     [ "Sphere", "class_sphere.html", null ],
