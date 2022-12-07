@@ -1,6 +1,7 @@
 var struct_ray_cast_t =
 [
-    [ "RayCastT", "struct_ray_cast_t.html#a1184ac2df50c4d0c99cbe95b457ee683", null ],
+    [ "RayCastT", "struct_ray_cast_t.html#a3d875537a981684b35d6a1a1cf2e59d2", null ],
+    [ "RayCastT", "struct_ray_cast_t.html#a721f50a5edf395ccc83bbe68e90de3c4", null ],
     [ "RayCastT", "struct_ray_cast_t.html#a1347e0a1a6182923730a694a0f9d4b6e", null ],
     [ "GetPointOnRay", "struct_ray_cast_t.html#abe1d2e9b088ca71ca732e0b5234696fd", null ],
     [ "Transformed", "struct_ray_cast_t.html#a89d5ea77b4b5f8c92e1ec515ea70d14b", null ],
