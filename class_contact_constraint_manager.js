@@ -29,6 +29,6 @@ var class_contact_constraint_manager =
     [ "SolveVelocityConstraints", "class_contact_constraint_manager.html#a6be90138088b291b35baed7974887729", null ],
     [ "SortContacts", "class_contact_constraint_manager.html#af45077f4de2c4ec57ebecf450e9b88f0", null ],
     [ "StoreAppliedImpulses", "class_contact_constraint_manager.html#ac825a74176ec59d9e2995e67fc8d43c1", null ],
-    [ "ValidateContactPoint", "class_contact_constraint_manager.html#a748b8caa1695e7192ae7a59492210a7b", null ],
+    [ "ValidateContactPoint", "class_contact_constraint_manager.html#a4abd47f225871f02cd3a0c964106439d", null ],
     [ "WarmStartVelocityConstraints", "class_contact_constraint_manager.html#a185466194a8e52da526a77bc3b6cc405", null ]
 ];

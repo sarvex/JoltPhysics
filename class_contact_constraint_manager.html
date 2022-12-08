@@ -154,9 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a50938b07679f8a97fff61e98a209c87c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a50938b07679f8a97fff61e98a209c87c">GetMaxConstraints</a> () const</td></tr>
 <tr class="memdesc:a50938b07679f8a97fff61e98a209c87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max number of contact constraints that are allowed.  <a href="class_contact_constraint_manager.html#a50938b07679f8a97fff61e98a209c87c">More...</a><br /></td></tr>
 <tr class="separator:a50938b07679f8a97fff61e98a209c87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a748b8caa1695e7192ae7a59492210a7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_contact_listener_8h.html#a996dd20903cf7428fc11a70e8676b93c">ValidateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a748b8caa1695e7192ae7a59492210a7b">ValidateContactPoint</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_collide_shape_result.html">CollideShapeResult</a> &amp;inCollisionResult) const</td></tr>
-<tr class="memdesc:a748b8caa1695e7192ae7a59492210a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check with the listener if inBody1 and inBody2 could collide, returns false if not.  <a href="class_contact_constraint_manager.html#a748b8caa1695e7192ae7a59492210a7b">More...</a><br /></td></tr>
-<tr class="separator:a748b8caa1695e7192ae7a59492210a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4abd47f225871f02cd3a0c964106439d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_contact_listener_8h.html#a996dd20903cf7428fc11a70e8676b93c">ValidateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a4abd47f225871f02cd3a0c964106439d">ValidateContactPoint</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inBaseOffset, const <a class="el" href="class_collide_shape_result.html">CollideShapeResult</a> &amp;inCollisionResult) const</td></tr>
+<tr class="memdesc:a4abd47f225871f02cd3a0c964106439d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check with the listener if inBody1 and inBody2 could collide, returns false if not.  <a href="class_contact_constraint_manager.html#a4abd47f225871f02cd3a0c964106439d">More...</a><br /></td></tr>
+<tr class="separator:a4abd47f225871f02cd3a0c964106439d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56fbdeb8c26a568919d431973830111a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a56fbdeb8c26a568919d431973830111a">PrepareConstraintBuffer</a> (<a class="el" href="class_physics_update_context.html">PhysicsUpdateContext</a> *inContext)</td></tr>
 <tr class="memdesc:a56fbdeb8c26a568919d431973830111a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the constraint buffer. Should be called before starting collision detection.  <a href="class_contact_constraint_manager.html#a56fbdeb8c26a568919d431973830111a">More...</a><br /></td></tr>
 <tr class="separator:a56fbdeb8c26a568919d431973830111a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1059,8 +1059,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a748b8caa1695e7192ae7a59492210a7b" name="a748b8caa1695e7192ae7a59492210a7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a748b8caa1695e7192ae7a59492210a7b">&#9670;&#160;</a></span>ValidateContactPoint()</h2>
+<a id="a4abd47f225871f02cd3a0c964106439d" name="a4abd47f225871f02cd3a0c964106439d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4abd47f225871f02cd3a0c964106439d">&#9670;&#160;</a></span>ValidateContactPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1079,6 +1079,12 @@ Static Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="class_body.html">Body</a> &amp;&#160;</td>
           <td class="paramname"><em>inBody2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inBaseOffset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
