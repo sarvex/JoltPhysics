@@ -163,6 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa5ea82586d40fbdc0d2930e51b008c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ebec9cb8e8f0f7a4ec68fa0c30bfd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a64ebec9cb8e8f0f7a4ec68fa0c30bfd6">MapReverse</a> (const <a class="el" href="class_mat44.html">Mat44</a> *inPose2ModelSpace, <a class="el" href="class_mat44.html">Mat44</a> *outPose1ModelSpace) const</td></tr>
 <tr class="separator:a64ebec9cb8e8f0f7a4ec68fa0c30bfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b16b76b464cf207878aa382c6cfde4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a21b16b76b464cf207878aa382c6cfde4">GetMappedJointIdx</a> (int inJoint1Idx) const</td></tr>
+<tr class="memdesc:a21b16b76b464cf207878aa382c6cfde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search through the directly mapped joints (mMappings) and find inJoint1Idx, returns the corresponding Joint2Idx or -1 if not found.  <a href="class_skeleton_mapper.html#a21b16b76b464cf207878aa382c6cfde4">More...</a><br /></td></tr>
+<tr class="separator:a21b16b76b464cf207878aa382c6cfde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcd34ef9c18a53f65679b5d671e6147"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a6fcd34ef9c18a53f65679b5d671e6147">IsJointTranslationLocked</a> (int inJoint2Idx) const</td></tr>
+<tr class="memdesc:a6fcd34ef9c18a53f65679b5d671e6147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search through the locked translations (mLockedTranslations) and find if joint inJoint2Idx is locked.  <a href="class_skeleton_mapper.html#a6fcd34ef9c18a53f65679b5d671e6147">More...</a><br /></td></tr>
+<tr class="separator:a6fcd34ef9c18a53f65679b5d671e6147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Access to the mapped joints</div></td></tr>
 <tr class="memitem:a13fa458d09dbb5f053aff54bb009d0eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_skeleton_mapper.html#a6f36fb9bc8686b8ec810c5435c03f419">MappingVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a13fa458d09dbb5f053aff54bb009d0eb">GetMappings</a> () const</td></tr>
 <tr class="separator:a13fa458d09dbb5f053aff54bb009d0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,6 +406,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a21b16b76b464cf207878aa382c6cfde4" name="a21b16b76b464cf207878aa382c6cfde4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b16b76b464cf207878aa382c6cfde4">&#9670;&#160;</a></span>GetMappedJointIdx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SkeletonMapper::GetMappedJointIdx </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inJoint1Idx</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search through the directly mapped joints (mMappings) and find inJoint1Idx, returns the corresponding Joint2Idx or -1 if not found. </p>
+
+</div>
+</div>
 <a id="a120855b77dff525cd820068b115e101f" name="a120855b77dff525cd820068b115e101f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a120855b77dff525cd820068b115e101f">&#9670;&#160;</a></span>GetMappings() <span class="overload">[1/2]</span></h2>
 
@@ -553,6 +579,26 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a6fcd34ef9c18a53f65679b5d671e6147" name="a6fcd34ef9c18a53f65679b5d671e6147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fcd34ef9c18a53f65679b5d671e6147">&#9670;&#160;</a></span>IsJointTranslationLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SkeletonMapper::IsJointTranslationLocked </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inJoint2Idx</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search through the locked translations (mLockedTranslations) and find if joint inJoint2Idx is locked. </p>
 
 </div>
 </div>

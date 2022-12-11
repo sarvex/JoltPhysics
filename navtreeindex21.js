@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"class_u_vec8.html#a2e355553378c7ecbac97bf9a52760f20":[3,0,289,15],
+"class_u_vec8.html#a3269b59051bb75bdb3c9f22ceb272492":[3,0,289,17],
 "class_u_vec8.html#a364573a06edffdbc4b6bcf321932aa2f":[3,0,289,3],
 "class_u_vec8.html#a42797ff3cc1bf751ce42d71302851d13":[3,0,289,12],
 "class_u_vec8.html#a49a21bc576313ae676fb2064904ed506":[3,0,289,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "class_vehicle_constraint.html#af953060386f731482956bb772840262c":[3,0,298,5],
 "class_vehicle_constraint_settings.html":[3,0,299],
 "class_vehicle_constraint_settings.html#a0d879ac8a47fb2584e23c6d0c5254d53":[3,0,299,3],
-"class_vehicle_constraint_settings.html#a16448108c04763f3b069d0e2b2169403":[3,0,299,7],
-"class_vehicle_constraint_settings.html#a6d0f45021a83347450f96d6d597dd922":[3,0,299,2],
-"class_vehicle_constraint_settings.html#a710a5387a975c46e52fb4a860cec6c75":[3,0,299,0]
+"class_vehicle_constraint_settings.html#a16448108c04763f3b069d0e2b2169403":[3,0,299,7]
 };
