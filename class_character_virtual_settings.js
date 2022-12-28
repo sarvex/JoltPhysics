@@ -2,6 +2,7 @@ var class_character_virtual_settings =
 [
     [ "mCharacterPadding", "class_character_virtual_settings.html#a9799feb816f4df4f956ffed435d18b4c", null ],
     [ "mCollisionTolerance", "class_character_virtual_settings.html#ace6da7c342df36edfce5a7aac44b1664", null ],
+    [ "mHitReductionCosMaxAngle", "class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584", null ],
     [ "mMass", "class_character_virtual_settings.html#a71a9f1bf58ebf5c2d8b272f62fb7c734", null ],
     [ "mMaxCollisionIterations", "class_character_virtual_settings.html#a1ddf59bd95417f3b95341f03ade9812b", null ],
     [ "mMaxConstraintIterations", "class_character_virtual_settings.html#a1c5a728c9f0e095f4c76a51e61ff8bb3", null ],

@@ -153,6 +153,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afb718ba333f1f915a205d060097f8a81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual_settings.html#afb718ba333f1f915a205d060097f8a81">mMaxNumHits</a> = 256</td></tr>
 <tr class="memdesc:afb718ba333f1f915a205d060097f8a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max num hits to collect in order to avoid excess of contact points collection.  <a href="class_character_virtual_settings.html#afb718ba333f1f915a205d060097f8a81">More...</a><br /></td></tr>
 <tr class="separator:afb718ba333f1f915a205d060097f8a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae797247a9a90a161abd965a8f56ae584"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584">mHitReductionCosMaxAngle</a> = 0.999f</td></tr>
+<tr class="memdesc:ae797247a9a90a161abd965a8f56ae584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cos(angle) where angle is the maximum angle between two hits contact normals that are allowed to be merged during hit reduction. Default is around 2.5 degrees. Set to -1 to turn off.  <a href="class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584">More...</a><br /></td></tr>
+<tr class="separator:ae797247a9a90a161abd965a8f56ae584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a58aa76a938c5845f1b375114a4cebb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual_settings.html#a5a58aa76a938c5845f1b375114a4cebb">mPenetrationRecoverySpeed</a> = 1.0f</td></tr>
 <tr class="memdesc:a5a58aa76a938c5845f1b375114a4cebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This value governs how fast a penetration will be resolved, 0 = nothing is resolved, 1 = everything in one update.  <a href="class_character_virtual_settings.html#a5a58aa76a938c5845f1b375114a4cebb">More...</a><br /></td></tr>
 <tr class="separator:a5a58aa76a938c5845f1b375114a4cebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,6 +244,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>How far we're willing to penetrate geometry. </p>
+
+</div>
+</div>
+<a id="ae797247a9a90a161abd965a8f56ae584" name="ae797247a9a90a161abd965a8f56ae584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae797247a9a90a161abd965a8f56ae584">&#9670;&#160;</a></span>mHitReductionCosMaxAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CharacterVirtualSettings::mHitReductionCosMaxAngle = 0.999f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cos(angle) where angle is the maximum angle between two hits contact normals that are allowed to be merged during hit reduction. Default is around 2.5 degrees. Set to -1 to turn off. </p>
 
 </div>
 </div>
