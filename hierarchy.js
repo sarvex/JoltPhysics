@@ -232,6 +232,8 @@ var hierarchy =
         [ "DefaultObjectLayerFilter", "class_default_object_layer_filter.html", null ],
         [ "SpecifiedObjectLayerFilter", "class_specified_object_layer_filter.html", null ]
       ] ],
+      [ "ObjectLayerPairFilter", "class_object_layer_pair_filter.html", null ],
+      [ "ObjectVsBroadPhaseLayerFilter", "class_object_vs_broad_phase_layer_filter.html", null ],
       [ "PhysicsSystem", "class_physics_system.html", null ],
       [ "PhysicsUpdateContext", "class_physics_update_context.html", null ],
       [ "ProfileMeasurement", "class_profile_measurement.html", null ],

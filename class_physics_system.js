@@ -32,7 +32,7 @@ var class_physics_system =
     [ "GetNumActiveBodies", "class_physics_system.html#aefb1f3f75c01e49e2e0e25b91e6ddd16", null ],
     [ "GetNumBodies", "class_physics_system.html#a25eb1c752bffdd53c2c7cd610f2708f7", null ],
     [ "GetPhysicsSettings", "class_physics_system.html#a54b6d93365bca8fda1edf68997c29b9e", null ],
-    [ "Init", "class_physics_system.html#a08c391458470c1fa76f088e07729f909", null ],
+    [ "Init", "class_physics_system.html#ae578fcd0c58f678156b7cd8b44f811a6", null ],
     [ "OptimizeBroadPhase", "class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604", null ],
     [ "RemoveConstraint", "class_physics_system.html#a7cdf5d375a54ab6d6b29e3944d8e4266", null ],
     [ "RemoveConstraints", "class_physics_system.html#a220ed391139f4ffdb384fe83b44d6439", null ],
