@@ -481,26 +481,35 @@ $(document).ready(function(){initNavTree('_core_8h_source.html',''); initResizab
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno"><a class="line" href="_core_8h.html#a719a73b9e445920bf5969f05d01ce69c">  378</a></span><span class="preprocessor">#define JPH_UNUSED(x)           (void)x</span></div>
 <div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span> </div>
 <div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span><span class="comment">// Macro to enable floating point precise mode and to disable fused multiply add instructions</span></div>
-<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span><span class="preprocessor">#if defined(JPH_COMPILER_CLANG) || defined(JPH_COMPILER_GCC) || defined(JPH_CROSS_PLATFORM_DETERMINISTIC)</span></div>
-<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>    <span class="comment">// In clang it appears you cannot turn off -ffast-math and -ffp-contract=fast for a code block</span></div>
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>    <span class="comment">// There is #pragma clang fp contract (off) but that doesn&#39;t seem to work under clang 9 &amp; 10 when -ffast-math is specified on the commandline (you override it to turn it on, but not off)</span></div>
-<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>    <span class="comment">// There is #pragma float_control(precise, on) but that doesn&#39;t work under clang 9.</span></div>
-<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>    <span class="comment">// So for now we compile clang without -ffast-math so the macros are empty</span></div>
-<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON</span></div>
-<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF</span></div>
-<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
-<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>    <span class="comment">// Unfortunately there is no way to push the state of fp_contract, so we have to assume it was turned on before JPH_PRECISE_MATH_ON</span></div>
-<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON                     \</span></div>
-<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span><span class="preprocessor">        __pragma(float_control(precise, on, push))  \</span></div>
-<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="preprocessor">        __pragma(fp_contract(off))</span></div>
-<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF                    \</span></div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span><span class="preprocessor">        __pragma(fp_contract(on))                   \</span></div>
-<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span><span class="preprocessor">        __pragma(float_control(pop))</span></div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span><span class="preprocessor">    #error Undefined</span></div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span> </div>
-<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span><span class="preprocessor">#if defined(JPH_COMPILER_GCC) || defined(JPH_CROSS_PLATFORM_DETERMINISTIC)</span></div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>    <span class="comment">// We compile without -ffast-math and -ffp-contract=fast, so we don&#39;t need to disable anything</span></div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON</span></div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF</span></div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span><span class="preprocessor">#elif defined(JPH_COMPILER_CLANG)</span></div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>    <span class="comment">// We compile without -ffast-math because it cannot be turned off for a single compilation unit</span></div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>    <span class="comment">// On clang 14 and later we can turn off float contraction through a pragma, so if FMA is on we can disable it through this macro</span></div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span><span class="preprocessor">    #if __clang_major__ &gt;= 14 &amp;&amp; defined(JPH_USE_FMADD)</span></div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span><span class="preprocessor">        #define JPH_PRECISE_MATH_ON                 \</span></div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span><span class="preprocessor">            _Pragma(&quot;clang fp contract(off)&quot;</span>)</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span><span class="preprocessor">        #define JPH_PRECISE_MATH_OFF                \</span></div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="preprocessor">            _Pragma(&quot;clang fp contract(on)&quot;</span>)</div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span><span class="preprocessor">    #else</span></div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span><span class="preprocessor">        #define JPH_PRECISE_MATH_ON</span></div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span><span class="preprocessor">        #define JPH_PRECISE_MATH_OFF</span></div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span><span class="preprocessor">    #endif</span></div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span><span class="preprocessor">#elif defined(JPH_COMPILER_MSVC)</span></div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>    <span class="comment">// Unfortunately there is no way to push the state of fp_contract, so we have to assume it was turned on before JPH_PRECISE_MATH_ON</span></div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span><span class="preprocessor">    #define JPH_PRECISE_MATH_ON                     \</span></div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span><span class="preprocessor">        __pragma(float_control(precise, on, push))  \</span></div>
+<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span><span class="preprocessor">        __pragma(fp_contract(off))</span></div>
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span><span class="preprocessor">    #define JPH_PRECISE_MATH_OFF                    \</span></div>
+<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span><span class="preprocessor">        __pragma(fp_contract(on))                   \</span></div>
+<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span><span class="preprocessor">        __pragma(float_control(pop))</span></div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span><span class="preprocessor">    #error Undefined</span></div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span> </div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
 <div class="ttc" id="a_core_8h_html_a4ac413403e9ca00d24a3e2f244cf5456"><div class="ttname"><a href="_core_8h.html#a4ac413403e9ca00d24a3e2f244cf5456">JPH_SUPPRESS_WARNINGS_STD_BEGIN</a></div><div class="ttdeci">#define JPH_SUPPRESS_WARNINGS_STD_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:237</div></div>
 <div class="ttc" id="a_core_8h_html_a5522c54735d837fae7d6ba026b858441"><div class="ttname"><a href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></div><div class="ttdeci">uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Core.h:304</div></div>
 <div class="ttc" id="a_core_8h_html_a5f6b64537a538d9204b253532b799467"><div class="ttname"><a href="_core_8h.html#a5f6b64537a538d9204b253532b799467">JPH_SUPPRESS_WARNINGS_STD_END</a></div><div class="ttdeci">#define JPH_SUPPRESS_WARNINGS_STD_END</div><div class="ttdef"><b>Definition:</b> Core.h:247</div></div>
