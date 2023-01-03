@@ -1,5 +1,7 @@
 var struct_character_virtual_1_1_contact =
 [
+    [ "RestoreState", "struct_character_virtual_1_1_contact.html#a952dfd4d7f5eaf9c790ae88d88cdb83a", null ],
+    [ "SaveState", "struct_character_virtual_1_1_contact.html#ae726dbb4b578dfa2f083a74e3eb5c544", null ],
     [ "mBodyB", "struct_character_virtual_1_1_contact.html#a96b288a9886ddc8003154087e32a10ab", null ],
     [ "mCanPushCharacter", "struct_character_virtual_1_1_contact.html#ab702ce98262a29981d4bd1c5f6e86ca5", null ],
     [ "mContactNormal", "struct_character_virtual_1_1_contact.html#a3e0e1203d15a972c0b52b08940439664", null ],
