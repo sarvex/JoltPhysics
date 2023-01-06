@@ -84,7 +84,7 @@ var NAVTREEINDEX =
 "class_mass_properties.html#a8e7cacca84047cc12cf6aaf9f5bf2d95",
 "class_node_codec_quad_tree_half_float_1_1_decoding_context.html",
 "class_physics_material.html#a51ea4ae0673771947b5052c9062cf267",
-"class_quat.html#a646b3edebee182d86159eed987ba91a0",
+"class_quat.html#a7800c0c4cb017273d86793d8a09bf136",
 "class_rotated_translated_shape.html#a801257f7a7ea6c26a728170cbd7ba55f",
 "class_six_d_o_f_constraint.html#abee061c8025b392f637e0cd56ac40d8c",
 "class_sphere_shape_settings.html#abde1ff27c7444e7fa198e9fe1c191a5a",

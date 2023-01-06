@@ -16,7 +16,7 @@ var class_quat =
     [ "GetW", "class_quat.html#a13d0159a54a94e6a90dc5952f454b09e", null ],
     [ "GetX", "class_quat.html#a3fb43a7bca4b20ce7573030fd826aa96", null ],
     [ "GetXYZ", "class_quat.html#afa7fe10bf8a457fb2d524791ccd79ec4", null ],
-    [ "GetXYZW", "class_quat.html#a3d3a4be2202c90a04f26872ab88c4b01", null ],
+    [ "GetXYZW", "class_quat.html#a7800c0c4cb017273d86793d8a09bf136", null ],
     [ "GetY", "class_quat.html#a21f44684684b475d9f5d02ed9c580def", null ],
     [ "GetZ", "class_quat.html#a38dfc20f7628eee4492125a41ad91764", null ],
     [ "Inversed", "class_quat.html#ac04a00570e1a5e96d49398d40d493bf3", null ],

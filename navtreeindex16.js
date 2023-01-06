@@ -1,6 +1,6 @@
 var NAVTREEINDEX16 =
 {
-"class_quat.html#a646b3edebee182d86159eed987ba91a0":[3,0,195,31],
+"class_quat.html#a7800c0c4cb017273d86793d8a09bf136":[3,0,195,16],
 "class_quat.html#a7bb8b016622e5ad8f361c52f9037f1aa":[3,0,195,11],
 "class_quat.html#a7c2cc189b41905f2d02154a2d4863e19":[3,0,195,36],
 "class_quat.html#a8297012460ea2f4851ed1f0f80eeddb9":[3,0,195,37],
