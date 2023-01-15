@@ -1,17 +1,10 @@
 var NAVTREEINDEX23 =
 {
-"files.html":[4,0],
-"functions.html":[3,3,0,0],
-"functions.html":[3,3,0],
-"functions_b.html":[3,3,0,1],
-"functions_c.html":[3,3,0,2],
-"functions_d.html":[3,3,0,3],
-"functions_e.html":[3,3,0,4],
 "functions_enum.html":[3,3,4],
 "functions_eval.html":[3,3,5],
 "functions_f.html":[3,3,0,5],
-"functions_func.html":[3,3,1],
 "functions_func.html":[3,3,1,0],
+"functions_func.html":[3,3,1],
 "functions_func_b.html":[3,3,1,1],
 "functions_func_c.html":[3,3,1,2],
 "functions_func_d.html":[3,3,1,3],
@@ -52,8 +45,8 @@ var NAVTREEINDEX23 =
 "functions_type.html":[3,3,3],
 "functions_u.html":[3,3,0,20],
 "functions_v.html":[3,3,0,21],
-"functions_vars.html":[3,3,2],
 "functions_vars.html":[3,3,2,0],
+"functions_vars.html":[3,3,2],
 "functions_vars_b.html":[3,3,2,1],
 "functions_vars_c.html":[3,3,2,2],
 "functions_vars_g.html":[3,3,2,3],
@@ -249,5 +242,12 @@ var NAVTREEINDEX23 =
 "struct_compound_shape_1_1_cast_ray_visitor.html#a5d6fbbcbcb0a268582642c731d542c8f":[3,0,67,0,9],
 "struct_compound_shape_1_1_cast_ray_visitor.html#a67db40d3d39442109dff46d6c8962f6e":[3,0,67,0,6],
 "struct_compound_shape_1_1_cast_ray_visitor.html#a7668a1ea39d30feee8636f90626320c4":[3,0,67,0,1],
-"struct_compound_shape_1_1_cast_ray_visitor.html#a7adfe292a88805c33097245c07d2d529":[3,0,67,0,0]
+"struct_compound_shape_1_1_cast_ray_visitor.html#a7adfe292a88805c33097245c07d2d529":[3,0,67,0,0],
+"struct_compound_shape_1_1_cast_ray_visitor.html#a848fb221cd472001c314498be3ad4f71":[3,0,67,0,5],
+"struct_compound_shape_1_1_cast_ray_visitor.html#a8b14b4e32934a67cbd94a7ff0f362ac5":[3,0,67,0,7],
+"struct_compound_shape_1_1_cast_ray_visitor.html#aa4f2babd360c7683d26e6d089179999e":[3,0,67,0,4],
+"struct_compound_shape_1_1_cast_ray_visitor.html#abcfb06db0c470f7b887bd1ccbdf293e9":[3,0,67,0,3],
+"struct_compound_shape_1_1_cast_ray_visitor_collector.html":[3,0,67,1],
+"struct_compound_shape_1_1_cast_ray_visitor_collector.html#a085af308c94408bd9f45fb3195402ba1":[3,0,67,1,8],
+"struct_compound_shape_1_1_cast_ray_visitor_collector.html#a279153b159b17f4bf1fb7a1a4df46122":[3,0,67,1,7]
 };

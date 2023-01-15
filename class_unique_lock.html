@@ -121,8 +121,8 @@ Inheritance diagram for UniqueLock&lt; LockType &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a59c3cb736ced8f4fe589feb0eceb3322"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unique_lock.html#a59c3cb736ced8f4fe589feb0eceb3322">UniqueLock</a> (LockType &amp;inLock, <a class="el" href="_physics_lock_8h.html#af16165182b3cc4951befa91f6a796c25">EPhysicsLockTypes</a> inType)</td></tr>
-<tr class="separator:a59c3cb736ced8f4fe589feb0eceb3322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6883cf8bdf6a648a540e5714f49a9605"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unique_lock.html#a6883cf8bdf6a648a540e5714f49a9605">UniqueLock</a> (LockType &amp;inLock <a class="el" href="_issue_reporting_8h.html#a9189784257d6995aa3ecbafbf8bc5bd5">JPH_IF_ENABLE_ASSERTS</a>(, PhysicsLockContext inContext, EPhysicsLockTypes inType))</td></tr>
+<tr class="separator:a6883cf8bdf6a648a540e5714f49a9605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6a03388e3040483ea88e86e9aa2aaae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unique_lock.html#ab6a03388e3040483ea88e86e9aa2aaae">~UniqueLock</a> ()</td></tr>
 <tr class="separator:ab6a03388e3040483ea88e86e9aa2aaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_non_copyable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_non_copyable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_non_copyable.html">NonCopyable</a></td></tr>
@@ -137,8 +137,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class LockType&gt;<br />
 class UniqueLock&lt; LockType &gt;</div><p >Helper class that is similar to std::unique_lock. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a59c3cb736ced8f4fe589feb0eceb3322" name="a59c3cb736ced8f4fe589feb0eceb3322"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59c3cb736ced8f4fe589feb0eceb3322">&#9670;&#160;</a></span>UniqueLock()</h2>
+<a id="a6883cf8bdf6a648a540e5714f49a9605" name="a6883cf8bdf6a648a540e5714f49a9605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6883cf8bdf6a648a540e5714f49a9605">&#9670;&#160;</a></span>UniqueLock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,24 +151,14 @@ template&lt;class LockType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_unique_lock.html">UniqueLock</a>&lt; LockType &gt;<a class="el" href="class_unique_lock.html">::UniqueLock</a> </td>
           <td>(</td>
-          <td class="paramtype">LockType &amp;&#160;</td>
-          <td class="paramname"><em>inLock</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">LockType &amp;inLock &#160;</td>
+          <td class="paramname"><em>JPH_IF_ENABLE_ASSERTS</em>, PhysicsLockContext inContext, EPhysicsLockTypes inType</td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_physics_lock_8h.html#af16165182b3cc4951befa91f6a796c25">EPhysicsLockTypes</a>&#160;</td>
-          <td class="paramname"><em>inType</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

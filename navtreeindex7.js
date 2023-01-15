@@ -1,12 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"class_broad_phase_quad_tree.html#a0314ec8db348c144f5e4c722e5d26bca":[3,0,38,17],
-"class_broad_phase_quad_tree.html#a0345666a910f38b25ec943d17a3131b5":[3,0,38,0],
-"class_broad_phase_quad_tree.html#a0b2255def43618e472f268d426596a46":[3,0,38,8],
-"class_broad_phase_quad_tree.html#a15e9cc48cbd4838fb1f5f64faee99b80":[3,0,38,6],
-"class_broad_phase_quad_tree.html#a1ef1e671fbf1837a502f7033bd946ca3":[3,0,38,15],
-"class_broad_phase_quad_tree.html#a332de5255be585631ba7d353dc45575b":[3,0,38,16],
-"class_broad_phase_quad_tree.html#a5a9eb444b1947b066fe77fc66d7899ff":[3,0,38,21],
 "class_broad_phase_quad_tree.html#a5f3d5a38786504df32579eb87b5c5eb8":[3,0,38,2],
 "class_broad_phase_quad_tree.html#a7873fb8f52203413346e4ba2fbf6859c":[3,0,38,1],
 "class_broad_phase_quad_tree.html#a7d387d77d1d6e8f388dde9470458da81":[3,0,38,14],
@@ -249,5 +242,12 @@ var NAVTREEINDEX7 =
 "class_collide_convex_vs_triangles.html#a97a9af3d0958130bfbcbce4b5f3c81ae":[3,0,54,3],
 "class_collide_convex_vs_triangles.html#aae5e07005177f17412f4102c2a8440b6":[3,0,54,16],
 "class_collide_convex_vs_triangles.html#ab7f021a387977244b9bf2364c2e0f1b9":[3,0,54,12],
-"class_collide_convex_vs_triangles.html#ab9cbc3709c7d17d812ca1eba57f8f436":[3,0,54,1]
+"class_collide_convex_vs_triangles.html#ab9cbc3709c7d17d812ca1eba57f8f436":[3,0,54,1],
+"class_collide_convex_vs_triangles.html#ac938fe2d5f06a8acc3dca0ea0034d7d1":[3,0,54,14],
+"class_collide_convex_vs_triangles.html#ade596a8c8b3a18d72739ead25ef0e569":[3,0,54,0],
+"class_collide_point_result.html":[3,0,55],
+"class_collide_point_result.html#a2fe473a4baa681ab11ce3a291d8a26a8":[3,0,55,0],
+"class_collide_point_result.html#af82d1a1ce22fddff9c57c5970b6f4de3":[3,0,55,1],
+"class_collide_point_result.html#afb9f97847ff73066b54793e15ebb2aa8":[3,0,55,2],
+"class_collide_settings_base.html":[3,0,56]
 };

@@ -1,12 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"class_physics_material.html#a51ea4ae0673771947b5052c9062cf267":[3,0,174,4],
-"class_physics_material.html#a7e57e5082b30e978c7ddd6a8e77c983e":[3,0,174,5],
-"class_physics_material.html#ac6d51eb48cdffbe4bc52c1ea54a988ef":[3,0,174,0],
-"class_physics_material.html#af8673b7c2cefec46b38fd90fb8fe7784":[3,0,174,2],
-"class_physics_material.html#af9a5ad5383917d85f97bc81db9786948":[3,0,174,1],
-"class_physics_material_simple.html":[3,0,175],
-"class_physics_material_simple.html#a3760b4ee0fd7ab82f3767709de168b73":[3,0,175,1],
 "class_physics_material_simple.html#a65bc6aff8e8f375058986d85ec70f611":[3,0,175,4],
 "class_physics_material_simple.html#a686edc9c7407485b239d51e634dccd77":[3,0,175,5],
 "class_physics_material_simple.html#a753a983d027c83d1758d8f89e79d3c7e":[3,0,175,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX15 =
 "class_quat.html#a60f30c650e027a892e699c156c7eca67":[3,0,195,25],
 "class_quat.html#a618a8eb64122263b8c64109f03ac47b5":[3,0,195,7],
 "class_quat.html#a62b95b1c1d36ecbd6f9732ca4789a7bf":[3,0,195,22],
-"class_quat.html#a646b3edebee182d86159eed987ba91a0":[3,0,195,31]
+"class_quat.html#a646b3edebee182d86159eed987ba91a0":[3,0,195,31],
+"class_quat.html#a7800c0c4cb017273d86793d8a09bf136":[3,0,195,16],
+"class_quat.html#a7bb8b016622e5ad8f361c52f9037f1aa":[3,0,195,11],
+"class_quat.html#a7c2cc189b41905f2d02154a2d4863e19":[3,0,195,36],
+"class_quat.html#a8297012460ea2f4851ed1f0f80eeddb9":[3,0,195,37],
+"class_quat.html#a889abe46c8a28cfafa2a20492ecb9b3a":[3,0,195,46],
+"class_quat.html#a9c0afa78ae80b13a6c8adf1240a7c95e":[3,0,195,21],
+"class_quat.html#a9d4b1ee8c4685a4589766e1c8cacc268":[3,0,195,27]
 };
