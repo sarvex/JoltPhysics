@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_tracked_vehicle_controller.html#a66ae1eabf51f75a52b2c53f43228454d":[3,0,269,2],
 "class_tracked_vehicle_controller.html#a678c77ec33688161c4f2ee0a2521deb3":[3,0,269,15],
 "class_tracked_vehicle_controller.html#a6a5ee14fd6717b24367090fa9efb52a3":[3,0,269,0],
 "class_tracked_vehicle_controller.html#a6e29a4c4ab48f2563bd78d839ea38b7b":[3,0,269,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "class_u_vec4.html#af62228e490b01b95d5b008a54746473c":[3,0,290,42],
 "class_u_vec4.html#afa8f229eccfd643197d92382bf8877f7":[3,0,290,47],
 "class_u_vec4.html#afd0bc3823152808c01e8e8ad80ac694a":[3,0,290,51],
-"class_u_vec8.html":[3,0,291],
-"class_u_vec8.html#a01713cf88c3edb46c73aca8927447be3":[3,0,291,0]
+"class_u_vec8.html":[3,0,291]
 };

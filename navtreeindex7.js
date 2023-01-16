@@ -156,10 +156,11 @@ var NAVTREEINDEX7 =
 "class_character_base_settings.html#a97272d417a1fa07e4c9c6213e7d5c291":[3,0,47,4],
 "class_character_base_settings.html#aee9be06866efe751ab7e2df57edee6b1":[3,0,47,2],
 "class_character_contact_listener.html":[3,0,48],
-"class_character_contact_listener.html#a07550deec345e7d94ca05afdd341b11d":[3,0,48,1],
+"class_character_contact_listener.html#a07550deec345e7d94ca05afdd341b11d":[3,0,48,2],
 "class_character_contact_listener.html#a1cbf56ca2333e878c3d7da75b9dfc0ba":[3,0,48,0],
-"class_character_contact_listener.html#a46fc7a819cf904aa3db5cf1648f21530":[3,0,48,3],
-"class_character_contact_listener.html#a4d1a8b09ee3a923d4aa7bc53aec160b6":[3,0,48,2],
+"class_character_contact_listener.html#a46fc7a819cf904aa3db5cf1648f21530":[3,0,48,4],
+"class_character_contact_listener.html#a4d1a8b09ee3a923d4aa7bc53aec160b6":[3,0,48,3],
+"class_character_contact_listener.html#a861889d3b1f2349eb1726ebfd979bf53":[3,0,48,1],
 "class_character_contact_settings.html":[3,0,49],
 "class_character_contact_settings.html#a08d217d923d36ad868fa83b8d1851833":[3,0,49,0],
 "class_character_contact_settings.html#a9e1a4f9fb9e52f755a15af2066cf441b":[3,0,49,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "class_collide_point_result.html":[3,0,55],
 "class_collide_point_result.html#a2fe473a4baa681ab11ce3a291d8a26a8":[3,0,55,0],
 "class_collide_point_result.html#af82d1a1ce22fddff9c57c5970b6f4de3":[3,0,55,1],
-"class_collide_point_result.html#afb9f97847ff73066b54793e15ebb2aa8":[3,0,55,2],
-"class_collide_settings_base.html":[3,0,56]
+"class_collide_point_result.html#afb9f97847ff73066b54793e15ebb2aa8":[3,0,55,2]
 };

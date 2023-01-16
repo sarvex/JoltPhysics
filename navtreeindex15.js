@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"class_physics_material_simple.html#a3760b4ee0fd7ab82f3767709de168b73":[3,0,175,1],
 "class_physics_material_simple.html#a65bc6aff8e8f375058986d85ec70f611":[3,0,175,4],
 "class_physics_material_simple.html#a686edc9c7407485b239d51e634dccd77":[3,0,175,5],
 "class_physics_material_simple.html#a753a983d027c83d1758d8f89e79d3c7e":[3,0,175,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "class_quat.html#a7c2cc189b41905f2d02154a2d4863e19":[3,0,195,36],
 "class_quat.html#a8297012460ea2f4851ed1f0f80eeddb9":[3,0,195,37],
 "class_quat.html#a889abe46c8a28cfafa2a20492ecb9b3a":[3,0,195,46],
-"class_quat.html#a9c0afa78ae80b13a6c8adf1240a7c95e":[3,0,195,21],
-"class_quat.html#a9d4b1ee8c4685a4589766e1c8cacc268":[3,0,195,27]
+"class_quat.html#a9c0afa78ae80b13a6c8adf1240a7c95e":[3,0,195,21]
 };

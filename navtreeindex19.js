@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"class_state_recorder.html#a347912d4c7bbcb1e1c1e3689a3fccd56":[3,0,246,2],
 "class_state_recorder.html#a3818f8d05147108719da00491da8569a":[3,0,246,1],
 "class_state_recorder.html#a94551fc91c9a1580a818dab49ba6e26d":[3,0,246,3],
 "class_state_recorder.html#ae41b09b37188ba73227dae4e070c53a8":[3,0,246,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "class_tracked_vehicle_controller.html#a1f801cb40d081779ce0f8ddbd4c1e5b6":[3,0,269,23],
 "class_tracked_vehicle_controller.html#a2c6dab3a895b281053876fc3c2fb2d8a":[3,0,269,24],
 "class_tracked_vehicle_controller.html#a38308bb8eec8096a3fea79cd00419c64":[3,0,269,11],
-"class_tracked_vehicle_controller.html#a56eef9473ecf210d41d0c7a3994c79cd":[3,0,269,26],
-"class_tracked_vehicle_controller.html#a66ae1eabf51f75a52b2c53f43228454d":[3,0,269,2]
+"class_tracked_vehicle_controller.html#a56eef9473ecf210d41d0c7a3994c79cd":[3,0,269,26]
 };

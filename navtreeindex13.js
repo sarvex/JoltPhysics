@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"class_mat44.html":[3,0,141],
 "class_mat44.html#a03490bf0526b79cc14125d9e6500576e":[3,0,141,26],
 "class_mat44.html#a03967bba6efbe4a03e6f1b888e1436a7":[3,0,141,10],
 "class_mat44.html#a04aad46839683a6d3d82a400c3bbe576":[3,0,141,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a497beb4af569cc217d1b6d8b311f89ae":[3,0,154,0,1],
 "class_node_codec_quad_tree_half_float_1_1_decoding_context.html#aa3ed16d2ad735587cc31672b2db9c6f4":[3,0,154,0,0],
 "class_node_codec_quad_tree_half_float_1_1_encoding_context.html":[3,0,154,1],
-"class_node_codec_quad_tree_half_float_1_1_encoding_context.html#a500c6a27c04555f154c00b5ad85654d3":[3,0,154,1,3],
-"class_node_codec_quad_tree_half_float_1_1_encoding_context.html#a743407baa5c478e69bb3f36dcd4b0e5e":[3,0,154,1,1]
+"class_node_codec_quad_tree_half_float_1_1_encoding_context.html#a500c6a27c04555f154c00b5ad85654d3":[3,0,154,1,3]
 };

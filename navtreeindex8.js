@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"class_collide_settings_base.html":[3,0,56],
 "class_collide_settings_base.html#a0b92708903a65cb2bcc412a49b080736":[3,0,56,3],
 "class_collide_settings_base.html#a0c9c32e2267f57dcc73952e3469512bd":[3,0,56,2],
 "class_collide_settings_base.html#a153906919e1de4a797964973d0164f44":[3,0,56,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "class_contact_constraint_manager.html#ae324c787f7d2ab43ed3adb13d3e7f24e":[3,0,74,22],
 "class_contact_constraint_manager.html#ae52944ca4945e6255a0f31794cf2aed5":[3,0,74,10],
 "class_contact_constraint_manager.html#ae5b233bb1a8124406e995c3841b08e29":[3,0,74,20],
-"class_contact_constraint_manager.html#af45077f4de2c4ec57ebecf450e9b88f0":[3,0,74,27],
-"class_contact_constraint_manager_1_1_contact_allocator.html":[3,0,74,0]
+"class_contact_constraint_manager.html#af45077f4de2c4ec57ebecf450e9b88f0":[3,0,74,27]
 };
