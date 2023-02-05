@@ -132,8 +132,11 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a71029078959636aa6a6bca8ab72f31e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">An extra offset applied to the shape in local space. This allows applying an extra offset to the shape in local space.  <a href="class_character_virtual_settings.html#a71029078959636aa6a6bca8ab72f31e3">More...</a><br /></td></tr>
 <tr class="separator:a71029078959636aa6a6bca8ab72f31e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Movement settings</div></td></tr>
+<tr class="memitem:adc60ceaa1f25e2cd6853b319499f82d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_back_face_mode_8h.html#a3f6892e7ae9fb32f745f39d0fb911d70">EBackFaceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual_settings.html#adc60ceaa1f25e2cd6853b319499f82d1">mBackFaceMode</a> = EBackFaceMode::CollideWithBackFaces</td></tr>
+<tr class="memdesc:adc60ceaa1f25e2cd6853b319499f82d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">When colliding with back faces, the character will not be able to move through back facing triangles. Use this if you have triangles that need to collide on both sides.  <a href="class_character_virtual_settings.html#adc60ceaa1f25e2cd6853b319499f82d1">More...</a><br /></td></tr>
+<tr class="separator:adc60ceaa1f25e2cd6853b319499f82d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeefd4daed1e249cc0c98126bd8e4007"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual_settings.html#aeeefd4daed1e249cc0c98126bd8e4007">mPredictiveContactDistance</a> = 0.1f</td></tr>
-<tr class="memdesc:aeeefd4daed1e249cc0c98126bd8e4007"><td class="mdescLeft">&#160;</td><td class="mdescRight">How far to scan outside of the shape for predictive contacts.  <a href="class_character_virtual_settings.html#aeeefd4daed1e249cc0c98126bd8e4007">More...</a><br /></td></tr>
+<tr class="memdesc:aeeefd4daed1e249cc0c98126bd8e4007"><td class="mdescLeft">&#160;</td><td class="mdescRight">How far to scan outside of the shape for predictive contacts. A value of 0 will most likely cause the character to get stuck as it properly calculate a sliding direction anymore. A value that's too high will cause ghost collisions.  <a href="class_character_virtual_settings.html#aeeefd4daed1e249cc0c98126bd8e4007">More...</a><br /></td></tr>
 <tr class="separator:aeeefd4daed1e249cc0c98126bd8e4007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ddf59bd95417f3b95341f03ade9812b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual_settings.html#a1ddf59bd95417f3b95341f03ade9812b">mMaxCollisionIterations</a> = 5</td></tr>
 <tr class="memdesc:a1ddf59bd95417f3b95341f03ade9812b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max amount of collision loops.  <a href="class_character_virtual_settings.html#a1ddf59bd95417f3b95341f03ade9812b">More...</a><br /></td></tr>
@@ -215,6 +218,22 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains the configuration of a character. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="adc60ceaa1f25e2cd6853b319499f82d1" name="adc60ceaa1f25e2cd6853b319499f82d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc60ceaa1f25e2cd6853b319499f82d1">&#9670;&#160;</a></span>mBackFaceMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_back_face_mode_8h.html#a3f6892e7ae9fb32f745f39d0fb911d70">EBackFaceMode</a> CharacterVirtualSettings::mBackFaceMode = EBackFaceMode::CollideWithBackFaces</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>When colliding with back faces, the character will not be able to move through back facing triangles. Use this if you have triangles that need to collide on both sides. </p>
+
+</div>
+</div>
 <a id="a9799feb816f4df4f956ffed435d18b4c" name="a9799feb816f4df4f956ffed435d18b4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9799feb816f4df4f956ffed435d18b4c">&#9670;&#160;</a></span>mCharacterPadding</h2>
 
@@ -387,7 +406,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>How far to scan outside of the shape for predictive contacts. </p>
+<p>How far to scan outside of the shape for predictive contacts. A value of 0 will most likely cause the character to get stuck as it properly calculate a sliding direction anymore. A value that's too high will cause ghost collisions. </p>
 
 </div>
 </div>

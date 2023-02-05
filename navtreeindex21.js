@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"class_u_vec8.html":[3,0,291],
 "class_u_vec8.html#a01713cf88c3edb46c73aca8927447be3":[3,0,291,0],
 "class_u_vec8.html#a11d69b0b6000ceac965236eb6ff5a4da":[3,0,291,20],
 "class_u_vec8.html#a2e355553378c7ecbac97bf9a52760f20":[3,0,291,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "class_vehicle_constraint.html#af2493620d3e9d960b3cbf0641c182251":[3,0,300,3],
 "class_vehicle_constraint.html#af2a24975a01de3cf22ab55ba2ac6ed74":[3,0,300,15],
 "class_vehicle_constraint.html#af344b4fb6def1c50f03f1c30d9fca3c2":[3,0,300,23],
-"class_vehicle_constraint.html#af953060386f731482956bb772840262c":[3,0,300,5],
-"class_vehicle_constraint_settings.html":[3,0,301]
+"class_vehicle_constraint.html#af953060386f731482956bb772840262c":[3,0,300,5]
 };

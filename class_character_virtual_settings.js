@@ -1,5 +1,6 @@
 var class_character_virtual_settings =
 [
+    [ "mBackFaceMode", "class_character_virtual_settings.html#adc60ceaa1f25e2cd6853b319499f82d1", null ],
     [ "mCharacterPadding", "class_character_virtual_settings.html#a9799feb816f4df4f956ffed435d18b4c", null ],
     [ "mCollisionTolerance", "class_character_virtual_settings.html#ace6da7c342df36edfce5a7aac44b1664", null ],
     [ "mHitReductionCosMaxAngle", "class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584", null ],
