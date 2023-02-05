@@ -151,6 +151,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a251e1c9d8c9c7e40ddabc73420ac9ab1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a251e1c9d8c9c7e40ddabc73420ac9ab1">IsSensor</a> () const</td></tr>
 <tr class="memdesc:a251e1c9d8c9c7e40ddabc73420ac9ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body is a sensor.  <a href="class_body.html#a251e1c9d8c9c7e40ddabc73420ac9ab1">More...</a><br /></td></tr>
 <tr class="separator:a251e1c9d8c9c7e40ddabc73420ac9ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c24ff0c08f1a31fc57d01420f9cae8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a8c24ff0c08f1a31fc57d01420f9cae8b">SetUseManifoldReduction</a> (bool inUseReduction)</td></tr>
+<tr class="separator:a8c24ff0c08f1a31fc57d01420f9cae8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2732111d3d846bfceb19459fa2ee963"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#ae2732111d3d846bfceb19459fa2ee963">GetUseManifoldReduction</a> () const</td></tr>
+<tr class="memdesc:ae2732111d3d846bfceb19459fa2ee963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body can use manifold reduction.  <a href="class_body.html#ae2732111d3d846bfceb19459fa2ee963">More...</a><br /></td></tr>
+<tr class="separator:ae2732111d3d846bfceb19459fa2ee963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a602ae16f05ab73cd5cae80c2fd9b4a0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a602ae16f05ab73cd5cae80c2fd9b4a0d">GetUseManifoldReductionWithBody</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody2) const</td></tr>
+<tr class="memdesc:a602ae16f05ab73cd5cae80c2fd9b4a0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the combination of this body and inBody2 should use manifold reduction.  <a href="class_body.html#a602ae16f05ab73cd5cae80c2fd9b4a0d">More...</a><br /></td></tr>
+<tr class="separator:a602ae16f05ab73cd5cae80c2fd9b4a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146a4745ed28c3d9b06abe02ee3d3490"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a146a4745ed28c3d9b06abe02ee3d3490">GetMotionType</a> () const</td></tr>
 <tr class="memdesc:a146a4745ed28c3d9b06abe02ee3d3490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Motion type of this body.  <a href="class_body.html#a146a4745ed28c3d9b06abe02ee3d3490">More...</a><br /></td></tr>
 <tr class="separator:a146a4745ed28c3d9b06abe02ee3d3490"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1589,6 +1597,61 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ae2732111d3d846bfceb19459fa2ee963" name="ae2732111d3d846bfceb19459fa2ee963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2732111d3d846bfceb19459fa2ee963">&#9670;&#160;</a></span>GetUseManifoldReduction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Body::GetUseManifoldReduction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if this body can use manifold reduction. </p>
+
+</div>
+</div>
+<a id="a602ae16f05ab73cd5cae80c2fd9b4a0d" name="a602ae16f05ab73cd5cae80c2fd9b4a0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a602ae16f05ab73cd5cae80c2fd9b4a0d">&#9670;&#160;</a></span>GetUseManifoldReductionWithBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Body::GetUseManifoldReductionWithBody </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body.html">Body</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBody2</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the combination of this body and inBody2 should use manifold reduction. </p>
+
+</div>
+</div>
 <a id="a48b9455aae90fe4d73302389f6c7d9b5" name="a48b9455aae90fe4d73302389f6c7d9b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48b9455aae90fe4d73302389f6c7d9b5">&#9670;&#160;</a></span>GetUserData()</h2>
 
@@ -2343,6 +2406,33 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8c24ff0c08f1a31fc57d01420f9cae8b" name="a8c24ff0c08f1a31fc57d01420f9cae8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c24ff0c08f1a31fc57d01420f9cae8b">&#9670;&#160;</a></span>SetUseManifoldReduction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Body::SetUseManifoldReduction </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inUseReduction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >If <a class="el" href="struct_physics_settings.html#af715e8c12331e908a82768501d09db97" title="Whether or not to reduce manifolds with similar contact normals into one contact manifold.">PhysicsSettings::mUseManifoldReduction</a> is true, this allows turning off manifold reduction for this specific body. Manifold reduction by default will combine contacts that come from different SubShapeIDs (e.g. different triangles or different compound shapes). If the application requires tracking exactly which SubShapeIDs are in contact, you can turn off manifold reduction. Note that this comes at a performance cost. </p>
 
 </div>
 </div>
