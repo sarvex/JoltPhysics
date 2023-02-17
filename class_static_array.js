@@ -13,7 +13,6 @@ var class_static_array =
     [ "back", "class_static_array.html#a6b5e0b0984bd82a6f09660206a1b4914", null ],
     [ "begin", "class_static_array.html#a39b29025d859bb426416085c054dfb89", null ],
     [ "begin", "class_static_array.html#a671ecdfc35c476a8efd5b11536a1712f", null ],
-    [ "capacity", "class_static_array.html#a1313d0f5827afac5751b7a0a6fc23f83", null ],
     [ "clear", "class_static_array.html#a2cac2948666824fe7fee27bcf845f17b", null ],
     [ "data", "class_static_array.html#a28fd92f5eed107bfaef2e94f23ce4f12", null ],
     [ "data", "class_static_array.html#a7698b4e3e7cf608eeba5a48f25c284d9", null ],

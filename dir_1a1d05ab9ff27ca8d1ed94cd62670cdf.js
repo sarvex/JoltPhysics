@@ -25,6 +25,8 @@ var dir_1a1d05ab9ff27ca8d1ed94cd62670cdf =
     [ "CollisionGroup.cpp", "_collision_group_8cpp.html", "_collision_group_8cpp" ],
     [ "CollisionGroup.h", "_collision_group_8h.html", "_collision_group_8h" ],
     [ "ContactListener.h", "_contact_listener_8h.html", "_contact_listener_8h" ],
+    [ "EstimateCollisionResponse.cpp", "_estimate_collision_response_8cpp.html", "_estimate_collision_response_8cpp" ],
+    [ "EstimateCollisionResponse.h", "_estimate_collision_response_8h.html", "_estimate_collision_response_8h" ],
     [ "GroupFilter.cpp", "_group_filter_8cpp.html", "_group_filter_8cpp" ],
     [ "GroupFilter.h", "_group_filter_8h.html", "_group_filter_8h" ],
     [ "GroupFilterTable.cpp", "_group_filter_table_8cpp.html", "_group_filter_table_8cpp" ],

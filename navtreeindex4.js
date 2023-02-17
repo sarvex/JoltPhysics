@@ -1,5 +1,11 @@
 var NAVTREEINDEX4 =
 {
+"_static_compound_shape_8cpp.html#ac5f468c0b9fc344b1bfc578a0e4d04a7":[4,0,1,5,2,1,34,0],
+"_static_compound_shape_8h.html":[4,0,1,5,2,1,35],
+"_static_compound_shape_8h_source.html":[4,0,1,5,2,1,35],
+"_stream_in_8h.html":[4,0,1,1,42],
+"_stream_in_8h_source.html":[4,0,1,1,42],
+"_stream_out_8h.html":[4,0,1,1,43],
 "_stream_out_8h_source.html":[4,0,1,1,43],
 "_stream_wrapper_8h.html":[4,0,1,1,44],
 "_stream_wrapper_8h_source.html":[4,0,1,1,44],
@@ -49,9 +55,9 @@ var NAVTREEINDEX4 =
 "_tracked_vehicle_controller_8cpp.html#a2f27e133cbe090ced4a2382ffe497b11":[4,0,1,5,5,0,0],
 "_tracked_vehicle_controller_8h.html":[4,0,1,5,5,1],
 "_tracked_vehicle_controller_8h_source.html":[4,0,1,5,5,1],
-"_transformed_shape_8cpp.html":[4,0,1,5,2,44],
-"_transformed_shape_8h.html":[4,0,1,5,2,45],
-"_transformed_shape_8h_source.html":[4,0,1,5,2,45],
+"_transformed_shape_8cpp.html":[4,0,1,5,2,46],
+"_transformed_shape_8h.html":[4,0,1,5,2,47],
+"_transformed_shape_8h_source.html":[4,0,1,5,2,47],
 "_triangle_8h.html":[4,0,1,2,28],
 "_triangle_8h.html#af3a43a2425da3896c3d20b8ea8098af1":[4,0,1,2,28,1],
 "_triangle_8h_source.html":[4,0,1,2,28],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "class_a_a_b_b_tree_builder_1_1_node.html#ae1245ceb7193257c465b0916c9c19f10":[3,0,1,0,7],
 "class_a_a_b_b_tree_builder_1_1_node.html#aef9d9d0695306595e4b6f16b2b47e60c":[3,0,1,0,4],
 "class_a_a_b_b_tree_builder_1_1_node.html#af66f1c559bb11897ba3d2d996b931e5d":[3,0,1,0,2],
-"class_a_a_b_b_tree_to_buffer.html":[3,0,3],
-"class_a_a_b_b_tree_to_buffer.html#a03ce085b937332db1147e9c35b4e091b":[3,0,3,2],
-"class_a_a_b_b_tree_to_buffer.html#a72146720e95aebf8168fd00cd7ef0f1f":[3,0,3,1],
-"class_a_a_b_b_tree_to_buffer.html#a841bb385899da6eb30c41c225ff61ddf":[3,0,3,4],
-"class_a_a_b_b_tree_to_buffer.html#a89411f4596ab17c134c473d165ee42ba":[3,0,3,0],
-"class_a_a_b_b_tree_to_buffer.html#aabe86791c5d2da2af6dcba505090b989":[3,0,3,7],
-"class_a_a_b_b_tree_to_buffer.html#ab50a5ee87130c340d6b3cf8816ebf249":[3,0,3,5]
+"class_a_a_b_b_tree_to_buffer.html":[3,0,3]
 };
