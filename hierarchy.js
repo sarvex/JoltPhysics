@@ -61,6 +61,7 @@ var hierarchy =
     [ "CollisionCollectorTraitsCastShape", "class_collision_collector_traits_cast_shape.html", null ],
     [ "CollisionCollectorTraitsCollideShape", "class_collision_collector_traits_collide_shape.html", null ],
     [ "CollisionDispatch", "class_collision_dispatch.html", null ],
+    [ "CollisionEstimationResult", "struct_collision_estimation_result.html", null ],
     [ "CollisionGroup", "class_collision_group.html", null ],
     [ "Color", "class_color.html", null ],
     [ "PhysicsScene::ConnectedConstraint", "class_physics_scene_1_1_connected_constraint.html", null ],
@@ -111,6 +112,7 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Header", "struct_node_codec_quad_tree_half_float_1_1_header.html", null ],
     [ "HingeRotationConstraintPart", "class_hinge_rotation_constraint_part.html", null ],
     [ "HeightFieldShape::HSGetTrianglesContext", "struct_height_field_shape_1_1_h_s_get_triangles_context.html", null ],
+    [ "CollisionEstimationResult::Impulse", "struct_collision_estimation_result_1_1_impulse.html", null ],
     [ "IndependentAxisConstraintPart", "class_independent_axis_constraint_part.html", null ],
     [ "IndexedTriangleNoMaterial", "class_indexed_triangle_no_material.html", [
       [ "IndexedTriangle", "class_indexed_triangle.html", null ]
@@ -489,6 +491,7 @@ var hierarchy =
       [ "EPAConvexHullBuilder::TriangleQueue", "class_e_p_a_convex_hull_builder_1_1_triangle_queue.html", null ]
     ] ],
     [ "StaticArray< BodyPairQueue, cMaxConcurrency >", "class_static_array.html", null ],
+    [ "StaticArray< Impulse, ContactPoints::Capacity >", "class_static_array.html", null ],
     [ "StaticArray< JobHandle, cMaxConcurrency >", "class_static_array.html", null ],
     [ "StaticArray< Part, 3 >", "class_static_array.html", null ],
     [ "StaticArray< RTTI::BaseClass, 4 >", "class_static_array.html", null ],

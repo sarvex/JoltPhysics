@@ -1,5 +1,6 @@
 var _estimate_collision_response_8h =
 [
-    [ "ContactImpulses", "_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8", null ],
-    [ "EstimateCollisionResponse", "_estimate_collision_response_8h.html#a8fbf0bd8975270a08015545928b08ed8", null ]
+    [ "CollisionEstimationResult", "struct_collision_estimation_result.html", "struct_collision_estimation_result" ],
+    [ "CollisionEstimationResult::Impulse", "struct_collision_estimation_result_1_1_impulse.html", "struct_collision_estimation_result_1_1_impulse" ],
+    [ "EstimateCollisionResponse", "_estimate_collision_response_8h.html#a9482ca40dd71e5cc0db089516a39e224", null ]
 ];

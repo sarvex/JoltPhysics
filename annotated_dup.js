@@ -71,6 +71,7 @@ var annotated_dup =
     [ "CollisionCollectorTraitsCastShape", "class_collision_collector_traits_cast_shape.html", null ],
     [ "CollisionCollectorTraitsCollideShape", "class_collision_collector_traits_collide_shape.html", null ],
     [ "CollisionDispatch", "class_collision_dispatch.html", "class_collision_dispatch" ],
+    [ "CollisionEstimationResult", "struct_collision_estimation_result.html", "struct_collision_estimation_result" ],
     [ "CollisionGroup", "class_collision_group.html", "class_collision_group" ],
     [ "Color", "class_color.html", "class_color" ],
     [ "CompoundShape", "class_compound_shape.html", "class_compound_shape" ],

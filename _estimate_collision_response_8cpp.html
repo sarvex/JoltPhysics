@@ -109,12 +109,12 @@ $(document).ready(function(){initNavTree('_estimate_collision_response_8cpp.html
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac24c12e434e4a8b0b6e2502976ee5764"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_estimate_collision_response_8cpp.html#ac24c12e434e4a8b0b6e2502976ee5764">EstimateCollisionResponse</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold, <a class="el" href="class_vec3.html">Vec3</a> &amp;outLinearVelocity1, <a class="el" href="class_vec3.html">Vec3</a> &amp;outAngularVelocity1, <a class="el" href="class_vec3.html">Vec3</a> &amp;outLinearVelocity2, <a class="el" href="class_vec3.html">Vec3</a> &amp;outAngularVelocity2, <a class="el" href="_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8">ContactImpulses</a> &amp;outContactImpulses, float inCombinedRestitution, float inMinVelocityForRestitution, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumIterations)</td></tr>
-<tr class="separator:ac24c12e434e4a8b0b6e2502976ee5764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64da30a754090f2e72e7cb37b55b035f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_estimate_collision_response_8cpp.html#a64da30a754090f2e72e7cb37b55b035f">EstimateCollisionResponse</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold, <a class="el" href="struct_collision_estimation_result.html">CollisionEstimationResult</a> &amp;outResult, float inCombinedFriction, float inCombinedRestitution, float inMinVelocityForRestitution, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumIterations)</td></tr>
+<tr class="separator:a64da30a754090f2e72e7cb37b55b035f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac24c12e434e4a8b0b6e2502976ee5764" name="ac24c12e434e4a8b0b6e2502976ee5764"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24c12e434e4a8b0b6e2502976ee5764">&#9670;&#160;</a></span>EstimateCollisionResponse()</h2>
+<a id="a64da30a754090f2e72e7cb37b55b035f" name="a64da30a754090f2e72e7cb37b55b035f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64da30a754090f2e72e7cb37b55b035f">&#9670;&#160;</a></span>EstimateCollisionResponse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,32 +140,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outLinearVelocity1</em>, </td>
+          <td class="paramtype"><a class="el" href="struct_collision_estimation_result.html">CollisionEstimationResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>outResult</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outAngularVelocity1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outLinearVelocity2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outAngularVelocity2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8">ContactImpulses</a> &amp;&#160;</td>
-          <td class="paramname"><em>outContactImpulses</em>, </td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inCombinedFriction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -198,14 +180,11 @@ Functions</h2></td></tr>
     <tr><td class="paramname">inBody1</td><td>Colliding body 1 </td></tr>
     <tr><td class="paramname">inBody2</td><td>Colliding body 2 </td></tr>
     <tr><td class="paramname">inManifold</td><td>The collision manifold </td></tr>
-    <tr><td class="paramname">outLinearVelocity1</td><td>Outputs the estimated linear velocity of body 1 after collision </td></tr>
-    <tr><td class="paramname">outAngularVelocity1</td><td>Outputs the estimated angular velocity of body 1 after collision </td></tr>
-    <tr><td class="paramname">outLinearVelocity2</td><td>Outputs the estimated linear velocity of body 2 after collision </td></tr>
-    <tr><td class="paramname">outAngularVelocity2</td><td>Outputs the estimated angular velocity of body 2 after collision </td></tr>
-    <tr><td class="paramname">outContactImpulses</td><td>An array that will contain the estimated contact impulses when the function returns </td></tr>
+    <tr><td class="paramname">outResult</td><td>A structure that contains the estimated contact and friction impulses and the resulting body velocities </td></tr>
+    <tr><td class="paramname">inCombinedFriction</td><td>The combined friction of body 1 and body 2 (see <a class="el" href="class_contact_settings.html#a7a6722d38f6dd9f504412e3663400a2d" title="Combined friction for the body pair (usually calculated by sCombineFriction)">ContactSettings::mCombinedFriction</a>) </td></tr>
     <tr><td class="paramname">inCombinedRestitution</td><td>The combined restitution of body 1 and body 2 (see <a class="el" href="class_contact_settings.html#ade2482177e9dd9c8596a4a1cc6338979" title="Combined restitution for the body pair (usually calculated by sCombineRestitution)">ContactSettings::mCombinedRestitution</a>) </td></tr>
     <tr><td class="paramname">inMinVelocityForRestitution</td><td>Minimal velocity required for restitution to be applied (see <a class="el" href="struct_physics_settings.html#a3f68f35ad1244421ad126d3db5a617f3" title="Minimal velocity needed before a collision can be elastic (unit: m)">PhysicsSettings::mMinVelocityForRestitution</a>) </td></tr>
-    <tr><td class="paramname">inNumIterations</td><td>Number of iterations to use for the impulse estimation (default = 4) </td></tr>
+    <tr><td class="paramname">inNumIterations</td><td>Number of iterations to use for the impulse estimation (see <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a>) </td></tr>
   </table>
   </dd>
 </dl>

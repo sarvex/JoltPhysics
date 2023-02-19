@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"dir_a0f33af92addde396fc27b064c5eb8a9.html":[4,0,1,5],
 "dir_a240ac3d525f21f79994f1dc1d19664e.html":[4,0,1,5,0],
 "dir_a34232518e8eb2f6b4ca842b3eb863dd.html":[4,0,1,7],
 "dir_aa37033c5611f3a5cff668cf59181100.html":[4,0,1,3],
@@ -18,8 +17,8 @@ var NAVTREEINDEX23 =
 "functions_enum.html":[3,3,4],
 "functions_eval.html":[3,3,5],
 "functions_f.html":[3,3,0,5],
-"functions_func.html":[3,3,1],
 "functions_func.html":[3,3,1,0],
+"functions_func.html":[3,3,1],
 "functions_func_b.html":[3,3,1,1],
 "functions_func_c.html":[3,3,1,2],
 "functions_func_d.html":[3,3,1,3],
@@ -60,8 +59,8 @@ var NAVTREEINDEX23 =
 "functions_type.html":[3,3,3],
 "functions_u.html":[3,3,0,20],
 "functions_v.html":[3,3,0,21],
-"functions_vars.html":[3,3,2,0],
 "functions_vars.html":[3,3,2],
+"functions_vars.html":[3,3,2,0],
 "functions_vars_b.html":[3,3,2,1],
 "functions_vars_c.html":[3,3,2,2],
 "functions_vars_g.html":[3,3,2,3],
@@ -82,8 +81,8 @@ var NAVTREEINDEX23 =
 "functions_y.html":[3,3,0,24],
 "functions_z.html":[3,3,0,25],
 "functions_~.html":[3,3,0,26],
-"globals.html":[4,1,0],
 "globals.html":[4,1,0,0],
+"globals.html":[4,1,0],
 "globals_b.html":[4,1,0,1],
 "globals_c.html":[4,1,0,2],
 "globals_d.html":[4,1,0,3],
@@ -130,8 +129,8 @@ var NAVTREEINDEX23 =
 "globals_vars.html":[4,1,2],
 "globals_w.html":[4,1,0,20],
 "hierarchy.html":[3,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "md__docs__samples.html":[1],
 "namespace_active_edges.html":[2,0,0],
 "namespace_closest_point.html":[2,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "struct_character_virtual_1_1_extended_update_settings.html#a1c5ed3a437d5b284f4ce9b271bfebbf8":[3,0,51,1,0],
 "struct_character_virtual_1_1_extended_update_settings.html#a773f3fecf53db30cd8a6381b307a3cb4":[3,0,51,1,4],
 "struct_character_virtual_1_1_extended_update_settings.html#a8cd00377425d16b8b2fbee1eb8dc97dc":[3,0,51,1,3],
-"struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528":[3,0,51,1,1]
+"struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528":[3,0,51,1,1],
+"struct_character_virtual_1_1_extended_update_settings.html#ac716eaa1338501e45efa6b6d0100e931":[3,0,51,1,5]
 };

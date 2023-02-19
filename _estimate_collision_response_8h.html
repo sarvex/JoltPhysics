@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('_estimate_collision_response_8h.html',
 
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">EstimateCollisionResponse.h File Reference</div></div>
 </div><!--header-->
@@ -108,34 +108,22 @@ $(document).ready(function(){initNavTree('_estimate_collision_response_8h.html',
 </div>
 <p><a href="_estimate_collision_response_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a26e5fbadac776e9c67586bf1d44f45f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8">ContactImpulses</a> = <a class="el" href="class_static_array.html">StaticArray</a>&lt; float, ContactPoints::Capacity &gt;</td></tr>
-<tr class="separator:a26e5fbadac776e9c67586bf1d44f45f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_collision_estimation_result.html">CollisionEstimationResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A structure that contains the estimated contact and friction impulses and the resulting body velocities.  <a href="struct_collision_estimation_result.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_collision_estimation_result_1_1_impulse.html">CollisionEstimationResult::Impulse</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8fbf0bd8975270a08015545928b08ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_estimate_collision_response_8h.html#a8fbf0bd8975270a08015545928b08ed8">EstimateCollisionResponse</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold, <a class="el" href="class_vec3.html">Vec3</a> &amp;outLinearVelocity1, <a class="el" href="class_vec3.html">Vec3</a> &amp;outAngularVelocity1, <a class="el" href="class_vec3.html">Vec3</a> &amp;outLinearVelocity2, <a class="el" href="class_vec3.html">Vec3</a> &amp;outAngularVelocity2, <a class="el" href="_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8">ContactImpulses</a> &amp;outContactImpulses, float inCombinedRestitution, float inMinVelocityForRestitution=1.0f, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumIterations=10)</td></tr>
-<tr class="separator:a8fbf0bd8975270a08015545928b08ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9482ca40dd71e5cc0db089516a39e224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_estimate_collision_response_8h.html#a9482ca40dd71e5cc0db089516a39e224">EstimateCollisionResponse</a> (const <a class="el" href="class_body.html">Body</a> &amp;inBody1, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold, <a class="el" href="struct_collision_estimation_result.html">CollisionEstimationResult</a> &amp;outResult, float inCombinedFriction, float inCombinedRestitution, float inMinVelocityForRestitution=1.0f, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumIterations=10)</td></tr>
+<tr class="separator:a9482ca40dd71e5cc0db089516a39e224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a26e5fbadac776e9c67586bf1d44f45f8" name="a26e5fbadac776e9c67586bf1d44f45f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26e5fbadac776e9c67586bf1d44f45f8">&#9670;&#160;</a></span>ContactImpulses</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8">ContactImpulses</a> =  <a class="el" href="class_static_array.html">StaticArray</a>&lt;float, ContactPoints::Capacity&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8fbf0bd8975270a08015545928b08ed8" name="a8fbf0bd8975270a08015545928b08ed8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fbf0bd8975270a08015545928b08ed8">&#9670;&#160;</a></span>EstimateCollisionResponse()</h2>
+<a id="a9482ca40dd71e5cc0db089516a39e224" name="a9482ca40dd71e5cc0db089516a39e224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9482ca40dd71e5cc0db089516a39e224">&#9670;&#160;</a></span>EstimateCollisionResponse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,32 +149,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outLinearVelocity1</em>, </td>
+          <td class="paramtype"><a class="el" href="struct_collision_estimation_result.html">CollisionEstimationResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>outResult</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outAngularVelocity1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outLinearVelocity2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>outAngularVelocity2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_estimate_collision_response_8h.html#a26e5fbadac776e9c67586bf1d44f45f8">ContactImpulses</a> &amp;&#160;</td>
-          <td class="paramname"><em>outContactImpulses</em>, </td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inCombinedFriction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -219,14 +189,11 @@ Functions</h2></td></tr>
     <tr><td class="paramname">inBody1</td><td>Colliding body 1 </td></tr>
     <tr><td class="paramname">inBody2</td><td>Colliding body 2 </td></tr>
     <tr><td class="paramname">inManifold</td><td>The collision manifold </td></tr>
-    <tr><td class="paramname">outLinearVelocity1</td><td>Outputs the estimated linear velocity of body 1 after collision </td></tr>
-    <tr><td class="paramname">outAngularVelocity1</td><td>Outputs the estimated angular velocity of body 1 after collision </td></tr>
-    <tr><td class="paramname">outLinearVelocity2</td><td>Outputs the estimated linear velocity of body 2 after collision </td></tr>
-    <tr><td class="paramname">outAngularVelocity2</td><td>Outputs the estimated angular velocity of body 2 after collision </td></tr>
-    <tr><td class="paramname">outContactImpulses</td><td>An array that will contain the estimated contact impulses when the function returns </td></tr>
+    <tr><td class="paramname">outResult</td><td>A structure that contains the estimated contact and friction impulses and the resulting body velocities </td></tr>
+    <tr><td class="paramname">inCombinedFriction</td><td>The combined friction of body 1 and body 2 (see <a class="el" href="class_contact_settings.html#a7a6722d38f6dd9f504412e3663400a2d" title="Combined friction for the body pair (usually calculated by sCombineFriction)">ContactSettings::mCombinedFriction</a>) </td></tr>
     <tr><td class="paramname">inCombinedRestitution</td><td>The combined restitution of body 1 and body 2 (see <a class="el" href="class_contact_settings.html#ade2482177e9dd9c8596a4a1cc6338979" title="Combined restitution for the body pair (usually calculated by sCombineRestitution)">ContactSettings::mCombinedRestitution</a>) </td></tr>
     <tr><td class="paramname">inMinVelocityForRestitution</td><td>Minimal velocity required for restitution to be applied (see <a class="el" href="struct_physics_settings.html#a3f68f35ad1244421ad126d3db5a617f3" title="Minimal velocity needed before a collision can be elastic (unit: m)">PhysicsSettings::mMinVelocityForRestitution</a>) </td></tr>
-    <tr><td class="paramname">inNumIterations</td><td>Number of iterations to use for the impulse estimation (default = 4) </td></tr>
+    <tr><td class="paramname">inNumIterations</td><td>Number of iterations to use for the impulse estimation (see <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a>) </td></tr>
   </table>
   </dd>
 </dl>
