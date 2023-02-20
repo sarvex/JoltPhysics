@@ -183,7 +183,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This function estimates the contact impulses and body velocity changes as a result of a collision. It can be used in the <a class="el" href="class_contact_listener.html#aeb1d7908c8556ce24448ac572d7ad944">ContactListener::OnContactAdded</a> to determine the strength of the collision to e.g. play a sound or trigger a particle system. It only uses the contact points and restitution to estimate the velocity changes and will ignore friction. This function is accurate when two bodies collide but will not be accurate when more than 2 bodies collide at the same time as it does not know about these other collisions.</p>
+<p >This function estimates the contact impulses and body velocity changes as a result of a collision. It can be used in the <a class="el" href="class_contact_listener.html#aeb1d7908c8556ce24448ac572d7ad944">ContactListener::OnContactAdded</a> to determine the strength of the collision to e.g. play a sound or trigger a particle system. This function is accurate when two bodies collide but will not be accurate when more than 2 bodies collide at the same time as it does not know about these other collisions.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inBody1</td><td>Colliding body 1 </td></tr>
@@ -193,7 +193,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">inCombinedFriction</td><td>The combined friction of body 1 and body 2 (see <a class="el" href="class_contact_settings.html#a7a6722d38f6dd9f504412e3663400a2d" title="Combined friction for the body pair (usually calculated by sCombineFriction)">ContactSettings::mCombinedFriction</a>) </td></tr>
     <tr><td class="paramname">inCombinedRestitution</td><td>The combined restitution of body 1 and body 2 (see <a class="el" href="class_contact_settings.html#ade2482177e9dd9c8596a4a1cc6338979" title="Combined restitution for the body pair (usually calculated by sCombineRestitution)">ContactSettings::mCombinedRestitution</a>) </td></tr>
     <tr><td class="paramname">inMinVelocityForRestitution</td><td>Minimal velocity required for restitution to be applied (see <a class="el" href="struct_physics_settings.html#a3f68f35ad1244421ad126d3db5a617f3" title="Minimal velocity needed before a collision can be elastic (unit: m)">PhysicsSettings::mMinVelocityForRestitution</a>) </td></tr>
-    <tr><td class="paramname">inNumIterations</td><td>Number of iterations to use for the impulse estimation (see <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a>) </td></tr>
+    <tr><td class="paramname">inNumIterations</td><td>Number of iterations to use for the impulse estimation (see <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a>, note you can probably use a lower number for a decent estimate). If you set the number of iterations to 1 then no friction will be calculated. </td></tr>
   </table>
   </dd>
 </dl>
