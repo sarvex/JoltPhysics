@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"struct_character_virtual_1_1_extended_update_settings.html#ac716eaa1338501e45efa6b6d0100e931":[3,0,51,1,5],
 "struct_collision_estimation_result.html":[3,0,65],
 "struct_collision_estimation_result.html#a24e229dac9d990dd915e0365c34d0167":[3,0,65,6],
 "struct_collision_estimation_result.html#a2dda95e1b040950e758d2a15b3cc0aef":[3,0,65,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "struct_physics_settings.html#a9aff2f46a311da4e48974dce7e3b4cee":[3,0,178,16],
 "struct_physics_settings.html#a9d7cb8a2c982e6c63e4def8fcd88d7fb":[3,0,178,18],
 "struct_physics_settings.html#aa5090787a0d12a9e7519da9e752de0e7":[3,0,178,8],
-"struct_physics_settings.html#aae6093b99380ed5b72f5af1cc6529785":[3,0,178,17],
-"struct_physics_settings.html#ab5580db2e8580b84eb6be01a24cc54c4":[3,0,178,9]
+"struct_physics_settings.html#aae6093b99380ed5b72f5af1cc6529785":[3,0,178,17]
 };

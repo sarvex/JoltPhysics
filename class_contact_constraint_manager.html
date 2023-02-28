@@ -169,11 +169,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1527877d78511ca6896722d9416e09d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad54fa2fc8b0cbc1cd6cb5c5846e781be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#ad54fa2fc8b0cbc1cd6cb5c5846e781be">AddContactConstraint</a> (<a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;ioContactAllocator, <a class="el" href="class_contact_constraint_manager.html#a5d7bb30c442d466ba19b92f8b5ffb754">BodyPairHandle</a> inBodyPair, <a class="el" href="class_body.html">Body</a> &amp;inBody1, <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_contact_manifold.html">ContactManifold</a> &amp;inManifold)</td></tr>
 <tr class="separator:ad54fa2fc8b0cbc1cd6cb5c5846e781be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53dd8991bde80970f83be4be9d123534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a53dd8991bde80970f83be4be9d123534">FinalizeContactCache</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inExpectedNumBodyPairs, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inExpectedNumManifolds)</td></tr>
-<tr class="separator:a53dd8991bde80970f83be4be9d123534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03c167c100a86f3944dcfac5f5e38b88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a03c167c100a86f3944dcfac5f5e38b88">ContactPointRemovedCallbacks</a> ()</td></tr>
-<tr class="memdesc:a03c167c100a86f3944dcfac5f5e38b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies the listener of any contact points that were removed. Needs to be callsed after <a class="el" href="class_contact_constraint_manager.html#a53dd8991bde80970f83be4be9d123534">FinalizeContactCache()</a>.  <a href="class_contact_constraint_manager.html#a03c167c100a86f3944dcfac5f5e38b88">More...</a><br /></td></tr>
-<tr class="separator:a03c167c100a86f3944dcfac5f5e38b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9cf92154e49319463950b66e692f56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a3b9cf92154e49319463950b66e692f56">FinalizeContactCacheAndCallContactPointRemovedCallbacks</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inExpectedNumBodyPairs, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inExpectedNumManifolds)</td></tr>
+<tr class="separator:a3b9cf92154e49319463950b66e692f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46532b93dfd2edb0b45be8e5af4a7111"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a46532b93dfd2edb0b45be8e5af4a7111">WereBodiesInContact</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBody1ID, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBody2ID) const</td></tr>
+<tr class="separator:a46532b93dfd2edb0b45be8e5af4a7111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad540014a518a8f5942842e1a347447f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#aad540014a518a8f5942842e1a347447f">GetNumConstraints</a> () const</td></tr>
 <tr class="memdesc:aad540014a518a8f5942842e1a347447f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of contact constraints that were found.  <a href="class_contact_constraint_manager.html#aad540014a518a8f5942842e1a347447f">More...</a><br /></td></tr>
 <tr class="separator:aad540014a518a8f5942842e1a347447f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,33 +414,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a03c167c100a86f3944dcfac5f5e38b88" name="a03c167c100a86f3944dcfac5f5e38b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03c167c100a86f3944dcfac5f5e38b88">&#9670;&#160;</a></span>ContactPointRemovedCallbacks()</h2>
+<a id="a3b9cf92154e49319463950b66e692f56" name="a3b9cf92154e49319463950b66e692f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9cf92154e49319463950b66e692f56">&#9670;&#160;</a></span>FinalizeContactCacheAndCallContactPointRemovedCallbacks()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ContactConstraintManager::ContactPointRemovedCallbacks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Notifies the listener of any contact points that were removed. Needs to be callsed after <a class="el" href="class_contact_constraint_manager.html#a53dd8991bde80970f83be4be9d123534">FinalizeContactCache()</a>. </p>
-
-</div>
-</div>
-<a id="a53dd8991bde80970f83be4be9d123534" name="a53dd8991bde80970f83be4be9d123534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53dd8991bde80970f83be4be9d123534">&#9670;&#160;</a></span>FinalizeContactCache()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ContactConstraintManager::FinalizeContactCache </td>
+          <td class="memname">void ContactConstraintManager::FinalizeContactCacheAndCallContactPointRemovedCallbacks </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td>
           <td class="paramname"><em>inExpectedNumBodyPairs</em>, </td>
@@ -459,7 +439,7 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Finalizes the contact cache, the contact cache that was generated during the calls to AddContactConstraint in this update will be used from now on to read from. inExpectedNumBodyPairs / inExpectedNumManifolds are the amount of body pairs / manifolds found in the previous step and is used to determine the amount of buckets the contact cache hash map will use. </p>
+<p >Finalizes the contact cache, the contact cache that was generated during the calls to AddContactConstraint in this update will be used from now on to read from. After finalizing the contact cache, the contact removed callbacks will be called. inExpectedNumBodyPairs / inExpectedNumManifolds are the amount of body pairs / manifolds found in the previous step and is used to determine the amount of buckets the contact cache hash map will use in the next update. </p>
 
 </div>
 </div>
@@ -1142,6 +1122,35 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Apply last frame's impulses as an initial guess for this frame's impulses. </p>
+
+</div>
+</div>
+<a id="a46532b93dfd2edb0b45be8e5af4a7111" name="a46532b93dfd2edb0b45be8e5af4a7111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46532b93dfd2edb0b45be8e5af4a7111">&#9670;&#160;</a></span>WereBodiesInContact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ContactConstraintManager::WereBodiesInContact </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBody1ID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBody2ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Check if 2 bodies were in contact during the last simulation step. Since contacts are only detected between active bodies, at least one of the bodies must be active. Uses the read collision cache to determine if 2 bodies are in contact. </p>
 
 </div>
 </div>
