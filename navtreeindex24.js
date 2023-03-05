@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"struct_character_virtual_1_1_extended_update_settings.html#a773f3fecf53db30cd8a6381b307a3cb4":[3,0,51,1,4],
+"struct_character_virtual_1_1_extended_update_settings.html#a8cd00377425d16b8b2fbee1eb8dc97dc":[3,0,51,1,3],
+"struct_character_virtual_1_1_extended_update_settings.html#aa1710035a7d1b96b4b1d2ba526452528":[3,0,51,1,1],
 "struct_character_virtual_1_1_extended_update_settings.html#ac716eaa1338501e45efa6b6d0100e931":[3,0,51,1,5],
 "struct_collision_estimation_result.html":[3,0,65],
 "struct_collision_estimation_result.html#a24e229dac9d990dd915e0365c34d0167":[3,0,65,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "struct_physics_settings.html#a739d00b8a125095ee04c70981244f1be":[3,0,178,3],
 "struct_physics_settings.html#a85f7318d995294af04d6a5c0fe0d01a6":[3,0,178,12],
 "struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1":[3,0,178,15],
-"struct_physics_settings.html#a9aff2f46a311da4e48974dce7e3b4cee":[3,0,178,16],
-"struct_physics_settings.html#a9d7cb8a2c982e6c63e4def8fcd88d7fb":[3,0,178,18],
-"struct_physics_settings.html#aa5090787a0d12a9e7519da9e752de0e7":[3,0,178,8],
-"struct_physics_settings.html#aae6093b99380ed5b72f5af1cc6529785":[3,0,178,17]
+"struct_physics_settings.html#a9aff2f46a311da4e48974dce7e3b4cee":[3,0,178,16]
 };
