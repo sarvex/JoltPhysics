@@ -1,5 +1,6 @@
 var class_physics_system =
 [
+    [ "BodiesToSleep", "class_physics_system_1_1_bodies_to_sleep.html", "class_physics_system_1_1_bodies_to_sleep" ],
     [ "BodyStats", "class_physics_system.html#a8298f68e3a5a5990ea4c5391750b3d90", null ],
     [ "PhysicsSystem", "class_physics_system.html#aaefedca1b6619cf11f5c45f7f2176148", null ],
     [ "~PhysicsSystem", "class_physics_system.html#a2f13afc2b367634112f155934af9227e", null ],

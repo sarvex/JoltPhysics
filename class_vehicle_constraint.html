@@ -176,6 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad04e72e964c227c63e9c2c264de269c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#ad04e72e964c227c63e9c2c264de269c9">BuildIslands</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inConstraintIndex, <a class="el" href="class_island_builder.html">IslandBuilder</a> &amp;ioBuilder, <a class="el" href="class_body_manager.html">BodyManager</a> &amp;inBodyManager) override</td></tr>
 <tr class="memdesc:ad04e72e964c227c63e9c2c264de269c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link bodies that are connected by this constraint in the island builder.  <a href="class_vehicle_constraint.html#ad04e72e964c227c63e9c2c264de269c9">More...</a><br /></td></tr>
 <tr class="separator:ad04e72e964c227c63e9c2c264de269c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1637cfc4d982db7ba9116da7986adf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a3e1637cfc4d982db7ba9116da7986adf">BuildIslandSplits</a> (<a class="el" href="class_large_island_splitter.html">LargeIslandSplitter</a> &amp;ioSplitter) const override</td></tr>
+<tr class="memdesc:a3e1637cfc4d982db7ba9116da7986adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link bodies that are connected by this constraint in the same split. Returns the split index.  <a href="class_vehicle_constraint.html#a3e1637cfc4d982db7ba9116da7986adf">More...</a><br /></td></tr>
+<tr class="separator:a3e1637cfc4d982db7ba9116da7986adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2493620d3e9d960b3cbf0641c182251"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#af2493620d3e9d960b3cbf0641c182251">DrawConstraint</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const override</td></tr>
 <tr class="separator:af2493620d3e9d960b3cbf0641c182251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5ecf61104253599b367ce944f9a3dba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#aa5ecf61104253599b367ce944f9a3dba">DrawConstraintLimits</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const override</td></tr>
@@ -220,6 +223,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af62388f6f234f8cd7d24af34e49180fd inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#af62388f6f234f8cd7d24af34e49180fd">BuildIslands</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inConstraintIndex, <a class="el" href="class_island_builder.html">IslandBuilder</a> &amp;ioBuilder, <a class="el" href="class_body_manager.html">BodyManager</a> &amp;inBodyManager)=0</td></tr>
 <tr class="memdesc:af62388f6f234f8cd7d24af34e49180fd inherit pub_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link bodies that are connected by this constraint in the island builder.  <a href="class_constraint.html#af62388f6f234f8cd7d24af34e49180fd">More...</a><br /></td></tr>
 <tr class="separator:af62388f6f234f8cd7d24af34e49180fd inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6388265dbe8e1a92980d796006879798 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a6388265dbe8e1a92980d796006879798">BuildIslandSplits</a> (<a class="el" href="class_large_island_splitter.html">LargeIslandSplitter</a> &amp;ioSplitter) const =0</td></tr>
+<tr class="memdesc:a6388265dbe8e1a92980d796006879798 inherit pub_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link bodies that are connected by this constraint in the same split. Returns the split index.  <a href="class_constraint.html#a6388265dbe8e1a92980d796006879798">More...</a><br /></td></tr>
+<tr class="separator:a6388265dbe8e1a92980d796006879798 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd05177b26e3251b1a9aff9dded18701 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#acd05177b26e3251b1a9aff9dded18701">DrawConstraint</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const =0</td></tr>
 <tr class="separator:acd05177b26e3251b1a9aff9dded18701 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a528e67a83b796e469b10d5c473dc195f inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a528e67a83b796e469b10d5c473dc195f">DrawConstraintLimits</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const</td></tr>
@@ -409,6 +415,36 @@ Additional Inherited Members</h2></td></tr>
 <p>Link bodies that are connected by this constraint in the island builder. </p>
 
 <p>Implements <a class="el" href="class_constraint.html#af62388f6f234f8cd7d24af34e49180fd">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="a3e1637cfc4d982db7ba9116da7986adf" name="a3e1637cfc4d982db7ba9116da7986adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1637cfc4d982db7ba9116da7986adf">&#9670;&#160;</a></span>BuildIslandSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> VehicleConstraint::BuildIslandSplits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_large_island_splitter.html">LargeIslandSplitter</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioSplitter</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Link bodies that are connected by this constraint in the same split. Returns the split index. </p>
+
+<p>Implements <a class="el" href="class_constraint.html#a6388265dbe8e1a92980d796006879798">Constraint</a>.</p>
 
 </div>
 </div>

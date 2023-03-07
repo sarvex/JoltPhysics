@@ -23,5 +23,6 @@ var struct_physics_settings =
     [ "mStepListenersBatchSize", "struct_physics_settings.html#a646cc49b1095c6c682189ba15d4de67f", null ],
     [ "mTimeBeforeSleep", "struct_physics_settings.html#a0bd7d6eb98c547488f874a9577fff451", null ],
     [ "mUseBodyPairContactCache", "struct_physics_settings.html#a5a6d3286936ff2f74d1cf106e8ebf3f6", null ],
+    [ "mUseLargeIslandSplitter", "struct_physics_settings.html#ad391d29bbd9cd0cc0ce6358adb501e97", null ],
     [ "mUseManifoldReduction", "struct_physics_settings.html#af715e8c12331e908a82768501d09db97", null ]
 ];

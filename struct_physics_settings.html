@@ -173,6 +173,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af715e8c12331e908a82768501d09db97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_settings.html#af715e8c12331e908a82768501d09db97">mUseManifoldReduction</a> = true</td></tr>
 <tr class="memdesc:af715e8c12331e908a82768501d09db97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not to reduce manifolds with similar contact normals into one contact manifold.  <a href="struct_physics_settings.html#af715e8c12331e908a82768501d09db97">More...</a><br /></td></tr>
 <tr class="separator:af715e8c12331e908a82768501d09db97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad391d29bbd9cd0cc0ce6358adb501e97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_settings.html#ad391d29bbd9cd0cc0ce6358adb501e97">mUseLargeIslandSplitter</a> = true</td></tr>
+<tr class="memdesc:ad391d29bbd9cd0cc0ce6358adb501e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">If we split up large islands into smaller parallel batches of work (to improve performance)  <a href="struct_physics_settings.html#ad391d29bbd9cd0cc0ce6358adb501e97">More...</a><br /></td></tr>
+<tr class="separator:ad391d29bbd9cd0cc0ce6358adb501e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5386b79ed560a23cdbe06482b5a58de6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_settings.html#a5386b79ed560a23cdbe06482b5a58de6">mAllowSleeping</a> = true</td></tr>
 <tr class="memdesc:a5386b79ed560a23cdbe06482b5a58de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If objects can go to sleep or not.  <a href="struct_physics_settings.html#a5386b79ed560a23cdbe06482b5a58de6">More...</a><br /></td></tr>
 <tr class="separator:a5386b79ed560a23cdbe06482b5a58de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -547,6 +550,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Whether or not to use the body pair cache, which removes the need for narrow phase collision detection when orientation between two bodies didn't change. </p>
+
+</div>
+</div>
+<a id="ad391d29bbd9cd0cc0ce6358adb501e97" name="ad391d29bbd9cd0cc0ce6358adb501e97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad391d29bbd9cd0cc0ce6358adb501e97">&#9670;&#160;</a></span>mUseLargeIslandSplitter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsSettings::mUseLargeIslandSplitter = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If we split up large islands into smaller parallel batches of work (to improve performance) </p>
 
 </div>
 </div>

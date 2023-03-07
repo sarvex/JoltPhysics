@@ -179,6 +179,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af45077f4de2c4ec57ebecf450e9b88f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#af45077f4de2c4ec57ebecf450e9b88f0">SortContacts</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> *inConstraintIdxBegin, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> *inConstraintIdxEnd) const</td></tr>
 <tr class="memdesc:af45077f4de2c4ec57ebecf450e9b88f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort contact constraints deterministically.  <a href="class_contact_constraint_manager.html#af45077f4de2c4ec57ebecf450e9b88f0">More...</a><br /></td></tr>
 <tr class="separator:af45077f4de2c4ec57ebecf450e9b88f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81dea14ac1bd33f74a07085690095403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a81dea14ac1bd33f74a07085690095403">GetAffectedBodies</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inConstraintIdx, const <a class="el" href="class_body.html">Body</a> *&amp;outBody1, const <a class="el" href="class_body.html">Body</a> *&amp;outBody2) const</td></tr>
+<tr class="memdesc:a81dea14ac1bd33f74a07085690095403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the affected bodies for a given constraint.  <a href="class_contact_constraint_manager.html#a81dea14ac1bd33f74a07085690095403">More...</a><br /></td></tr>
+<tr class="separator:a81dea14ac1bd33f74a07085690095403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e175c70964531d96d77791bc45ca960"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a3e175c70964531d96d77791bc45ca960">SetupVelocityConstraints</a> (const <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> *inConstraintIdxBegin, const <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> *inConstraintIdxEnd, float inDeltaTime)</td></tr>
 <tr class="memdesc:a3e175c70964531d96d77791bc45ca960"><td class="mdescLeft">&#160;</td><td class="mdescRight">AddContactConstraint will also setup the velocity constraints for the first sub step. For subsequent sub steps this function must be called prior to warm starting the constraint.  <a href="class_contact_constraint_manager.html#a3e175c70964531d96d77791bc45ca960">More...</a><br /></td></tr>
 <tr class="separator:a3e175c70964531d96d77791bc45ca960"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -459,6 +462,50 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Terminate the constraint buffer. Should be called after simulation ends. </p>
+
+</div>
+</div>
+<a id="a81dea14ac1bd33f74a07085690095403" name="a81dea14ac1bd33f74a07085690095403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81dea14ac1bd33f74a07085690095403">&#9670;&#160;</a></span>GetAffectedBodies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ContactConstraintManager::GetAffectedBodies </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramname"><em>inConstraintIdx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body.html">Body</a> *&amp;&#160;</td>
+          <td class="paramname"><em>outBody1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body.html">Body</a> *&amp;&#160;</td>
+          <td class="paramname"><em>outBody2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the affected bodies for a given constraint. </p>
 
 </div>
 </div>

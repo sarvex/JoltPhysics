@@ -143,6 +143,7 @@ var annotated_dup =
     [ "IslandBuilder", "class_island_builder.html", "class_island_builder" ],
     [ "JobSystem", "class_job_system.html", "class_job_system" ],
     [ "JobSystemThreadPool", "class_job_system_thread_pool.html", "class_job_system_thread_pool" ],
+    [ "LargeIslandSplitter", "class_large_island_splitter.html", "class_large_island_splitter" ],
     [ "LFHMAllocator", "class_l_f_h_m_allocator.html", "class_l_f_h_m_allocator" ],
     [ "LFHMAllocatorContext", "class_l_f_h_m_allocator_context.html", "class_l_f_h_m_allocator_context" ],
     [ "LinearCurve", "class_linear_curve.html", "class_linear_curve" ],

@@ -11,6 +11,8 @@ var dir_a0f33af92addde396fc27b064c5eb8a9 =
     [ "EActivation.h", "_e_activation_8h.html", "_e_activation_8h" ],
     [ "IslandBuilder.cpp", "_island_builder_8cpp.html", null ],
     [ "IslandBuilder.h", "_island_builder_8h.html", "_island_builder_8h" ],
+    [ "LargeIslandSplitter.cpp", "_large_island_splitter_8cpp.html", null ],
+    [ "LargeIslandSplitter.h", "_large_island_splitter_8h.html", "_large_island_splitter_8h" ],
     [ "PhysicsLock.cpp", "_physics_lock_8cpp.html", null ],
     [ "PhysicsLock.h", "_physics_lock_8h.html", "_physics_lock_8h" ],
     [ "PhysicsScene.cpp", "_physics_scene_8cpp.html", "_physics_scene_8cpp" ],

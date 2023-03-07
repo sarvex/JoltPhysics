@@ -3,6 +3,7 @@ var class_vehicle_constraint =
     [ "VehicleConstraint", "class_vehicle_constraint.html#af1d28eee52fc3cb7a2f8b8a81edfc464", null ],
     [ "~VehicleConstraint", "class_vehicle_constraint.html#a9ea9a006933b3e0b1938b3b247957830", null ],
     [ "BuildIslands", "class_vehicle_constraint.html#ad04e72e964c227c63e9c2c264de269c9", null ],
+    [ "BuildIslandSplits", "class_vehicle_constraint.html#a3e1637cfc4d982db7ba9116da7986adf", null ],
     [ "DrawConstraint", "class_vehicle_constraint.html#af2493620d3e9d960b3cbf0641c182251", null ],
     [ "DrawConstraintLimits", "class_vehicle_constraint.html#aa5ecf61104253599b367ce944f9a3dba", null ],
     [ "GetConstraintSettings", "class_vehicle_constraint.html#af953060386f731482956bb772840262c", null ],

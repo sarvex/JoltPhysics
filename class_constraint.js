@@ -3,6 +3,7 @@ var class_constraint =
     [ "Constraint", "class_constraint.html#ae16420a87c4410ab9586397805c909bb", null ],
     [ "~Constraint", "class_constraint.html#a1608cc2c7d701d0e9dbcb5656d5845bb", null ],
     [ "BuildIslands", "class_constraint.html#af62388f6f234f8cd7d24af34e49180fd", null ],
+    [ "BuildIslandSplits", "class_constraint.html#a6388265dbe8e1a92980d796006879798", null ],
     [ "DrawConstraint", "class_constraint.html#acd05177b26e3251b1a9aff9dded18701", null ],
     [ "DrawConstraintLimits", "class_constraint.html#a528e67a83b796e469b10d5c473dc195f", null ],
     [ "DrawConstraintReferenceFrame", "class_constraint.html#a9789129d9dcf3f78e84322b374d0a2c9", null ],

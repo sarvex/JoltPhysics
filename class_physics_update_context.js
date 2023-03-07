@@ -21,5 +21,6 @@ var class_physics_update_context =
     [ "mSteps", "class_physics_update_context.html#a28312d2f14f0c11540c28f7162f927ce", null ],
     [ "mSubStepDeltaTime", "class_physics_update_context.html#a4cf95f3a3b4a5f72ee23dc80a01657ae", null ],
     [ "mTempAllocator", "class_physics_update_context.html#a849d877684ec2ecc251defcfe8c62e91", null ],
+    [ "mUseLargeIslandSplitter", "class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560", null ],
     [ "mWarmStartImpulseRatio", "class_physics_update_context.html#a52d38e3dd5e6fbe7beb3a90b4ea27e1f", null ]
 ];

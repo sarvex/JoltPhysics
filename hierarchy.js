@@ -227,6 +227,7 @@ var hierarchy =
       [ "LFHMAllocatorContext", "class_l_f_h_m_allocator_context.html", [
         [ "ContactConstraintManager::ContactAllocator", "class_contact_constraint_manager_1_1_contact_allocator.html", null ]
       ] ],
+      [ "LargeIslandSplitter", "class_large_island_splitter.html", null ],
       [ "LockFreeHashMap< Key, Value >", "class_lock_free_hash_map.html", null ],
       [ "MutexArray< MutexType >", "class_mutex_array.html", null ],
       [ "NarrowPhaseQuery", "class_narrow_phase_query.html", null ],
@@ -237,6 +238,7 @@ var hierarchy =
       [ "ObjectLayerPairFilter", "class_object_layer_pair_filter.html", null ],
       [ "ObjectVsBroadPhaseLayerFilter", "class_object_vs_broad_phase_layer_filter.html", null ],
       [ "PhysicsSystem", "class_physics_system.html", null ],
+      [ "PhysicsSystem::BodiesToSleep", "class_physics_system_1_1_bodies_to_sleep.html", null ],
       [ "PhysicsUpdateContext", "class_physics_update_context.html", null ],
       [ "ProfileMeasurement", "class_profile_measurement.html", null ],
       [ "ProfileSample", "class_profile_sample.html", null ],
@@ -485,6 +487,8 @@ var hierarchy =
     [ "ShapeFunctions", "class_shape_functions.html", null ],
     [ "SkeletonPose", "class_skeleton_pose.html", null ],
     [ "Sphere", "class_sphere.html", null ],
+    [ "LargeIslandSplitter::Split", "struct_large_island_splitter_1_1_split.html", null ],
+    [ "LargeIslandSplitter::Splits", "class_large_island_splitter_1_1_splits.html", null ],
     [ "SpringPart", "class_spring_part.html", null ],
     [ "StaticArray< T, N >", "class_static_array.html", [
       [ "EPAConvexHullBuilder::Points", "class_e_p_a_convex_hull_builder_1_1_points.html", null ],
