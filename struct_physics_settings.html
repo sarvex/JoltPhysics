@@ -163,6 +163,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aae6093b99380ed5b72f5af1cc6529785"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_settings.html#aae6093b99380ed5b72f5af1cc6529785">mPointVelocitySleepThreshold</a> = 0.03f</td></tr>
 <tr class="memdesc:aae6093b99380ed5b72f5af1cc6529785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity of points on bounding box of object below which an object can be considered sleeping (unit: m/s)  <a href="struct_physics_settings.html#aae6093b99380ed5b72f5af1cc6529785">More...</a><br /></td></tr>
 <tr class="separator:aae6093b99380ed5b72f5af1cc6529785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2d7c40a127dc9c347d3b84b24ab4e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_settings.html#aee2d7c40a127dc9c347d3b84b24ab4e3">mDeterministicSimulation</a> = true</td></tr>
+<tr class="memdesc:aee2d7c40a127dc9c347d3b84b24ab4e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">By default the simulation is deterministic, it is possible to turn this off by setting this setting to false. This will make the simulation run faster but it will no longer be deterministic.  <a href="struct_physics_settings.html#aee2d7c40a127dc9c347d3b84b24ab4e3">More...</a><br /></td></tr>
+<tr class="separator:aee2d7c40a127dc9c347d3b84b24ab4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">These variables are mainly for debugging purposes, they allow turning on/off certain subsystems. You probably want to leave them alone.</div></td></tr>
 <tr class="memitem:ad477a1ff8add4e1f8684b131c1485480"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_settings.html#ad477a1ff8add4e1f8684b131c1485480">mConstraintWarmStart</a> = true</td></tr>
 <tr class="memdesc:ad477a1ff8add4e1f8684b131c1485480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not to use warm starting for constraints (initially applying previous frames impulses)  <a href="struct_physics_settings.html#ad477a1ff8add4e1f8684b131c1485480">More...</a><br /></td></tr>
@@ -313,6 +316,22 @@ Public Attributes</h2></td></tr>
 
 <p>Maximum allowed distance between old and new contact point to preserve contact forces for warm start (units: meter^2) </p>
 <p >1 cm </p>
+
+</div>
+</div>
+<a id="aee2d7c40a127dc9c347d3b84b24ab4e3" name="aee2d7c40a127dc9c347d3b84b24ab4e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2d7c40a127dc9c347d3b84b24ab4e3">&#9670;&#160;</a></span>mDeterministicSimulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsSettings::mDeterministicSimulation = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>By default the simulation is deterministic, it is possible to turn this off by setting this setting to false. This will make the simulation run faster but it will no longer be deterministic. </p>
 
 </div>
 </div>
