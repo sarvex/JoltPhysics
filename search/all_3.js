@@ -29,7 +29,7 @@ var searchData=
   ['degreestoradians_26',['DegreesToRadians',['../_math_8h.html#afbe004b66eef01ac1585b1ec17c5188f',1,'Math.h']]],
   ['deindexify_27',['Deindexify',['../_indexify_8cpp.html#ac61c7f9c3b965f9cbff3cc10733988ec',1,'Deindexify(const VertexList &amp;inVertices, const IndexedTriangleList &amp;inTriangles, TriangleList &amp;outTriangles):&#160;Indexify.cpp'],['../_indexify_8h.html#ac61c7f9c3b965f9cbff3cc10733988ec',1,'Deindexify(const VertexList &amp;inVertices, const IndexedTriangleList &amp;inTriangles, TriangleList &amp;outTriangles):&#160;Indexify.cpp']]],
   ['deque_28',['Deque',['../_a_a_b_b_tree_to_buffer_8h.html#a67d026216193591fdc45e5ac1abebac9',1,'AABBTreeToBuffer.h']]],
-  ['destroybarrier_29',['DestroyBarrier',['../class_job_system_thread_pool.html#a6c9d95a4095243608f621c084a301f5e',1,'JobSystemThreadPool::DestroyBarrier()'],['../class_job_system.html#a51c615924cf4f8eefb8e3fbe72041373',1,'JobSystem::DestroyBarrier()']]],
+  ['destroybarrier_29',['DestroyBarrier',['../class_job_system_with_barrier.html#a4827161974dbd03dff9c84424d75107e',1,'JobSystemWithBarrier::DestroyBarrier()'],['../class_job_system.html#a51c615924cf4f8eefb8e3fbe72041373',1,'JobSystem::DestroyBarrier()']]],
   ['destroybodies_30',['DestroyBodies',['../class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e',1,'BodyManager::DestroyBodies()'],['../class_body_interface.html#a95b819fbbcd8a85c25cbce1a319a9037',1,'BodyInterface::DestroyBodies(const BodyID *inBodyIDs, int inNumber)']]],
   ['destroybody_31',['DestroyBody',['../class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a',1,'BodyInterface']]],
   ['destroybodywithoutid_32',['DestroyBodyWithoutID',['../class_body_interface.html#a6263a2b21c5544789bdf4040deacc377',1,'BodyInterface']]],

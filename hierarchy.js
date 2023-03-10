@@ -220,7 +220,9 @@ var hierarchy =
       [ "GJKClosestPoint", "class_g_j_k_closest_point.html", null ],
       [ "IslandBuilder", "class_island_builder.html", null ],
       [ "JobSystem", "class_job_system.html", [
-        [ "JobSystemThreadPool", "class_job_system_thread_pool.html", null ]
+        [ "JobSystemWithBarrier", "class_job_system_with_barrier.html", [
+          [ "JobSystemThreadPool", "class_job_system_thread_pool.html", null ]
+        ] ]
       ] ],
       [ "JobSystem::Barrier", "class_job_system_1_1_barrier.html", null ],
       [ "LFHMAllocator", "class_l_f_h_m_allocator.html", null ],
@@ -467,6 +469,7 @@ var hierarchy =
     [ "RotationEulerConstraintPart", "class_rotation_euler_constraint_part.html", null ],
     [ "RotationQuatConstraintPart", "class_rotation_quat_constraint_part.html", null ],
     [ "RTTI", "class_r_t_t_i.html", null ],
+    [ "Semaphore", "class_semaphore.html", null ],
     [ "SerializableAttribute", "class_serializable_attribute.html", null ],
     [ "SerializableObject", "class_serializable_object.html", [
       [ "ConstraintSettings", "class_constraint_settings.html", null ],
