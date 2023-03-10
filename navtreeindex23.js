@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"class_wheel_t_v.html#a7189cbd04b92e8babd4fc9e01826d030":[3,0,321,2],
 "class_wheel_t_v.html#a79ab021cdfe7a345e7e72abcfb418679":[3,0,321,7],
 "class_wheel_t_v.html#a84f1cd74d7ee96248d68efe0ddb6fe3f":[3,0,321,0],
 "class_wheel_t_v.html#a91b1fa8cf9b528c3ce45a5512afc106c":[3,0,321,1],
@@ -86,8 +87,8 @@ var NAVTREEINDEX23 =
 "functions_enum.html":[3,3,4],
 "functions_eval.html":[3,3,5],
 "functions_f.html":[3,3,0,5],
-"functions_func.html":[3,3,1],
 "functions_func.html":[3,3,1,0],
+"functions_func.html":[3,3,1],
 "functions_func_b.html":[3,3,1,1],
 "functions_func_c.html":[3,3,1,2],
 "functions_func_d.html":[3,3,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "pages.html":[],
 "struct_a_a_b_b_tree_builder_stats.html":[3,0,2],
 "struct_a_a_b_b_tree_builder_stats.html#a18bfd03d4c5760089e7a6900965a7dc1":[3,0,2,9],
-"struct_a_a_b_b_tree_builder_stats.html#a3864a59872b7d9ae1241a9e2d9561b04":[3,0,2,5],
-"struct_a_a_b_b_tree_builder_stats.html#a567b593b4f4bb7cdc2977a2a624da662":[3,0,2,2]
+"struct_a_a_b_b_tree_builder_stats.html#a3864a59872b7d9ae1241a9e2d9561b04":[3,0,2,5]
 };

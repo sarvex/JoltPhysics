@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"class_large_island_splitter_1_1_splits.html":[3,0,138,1],
 "class_large_island_splitter_1_1_splits.html#a0acc44089e5c254ca53a07d6aa80ffc8":[3,0,138,1,6],
 "class_large_island_splitter_1_1_splits.html#a0f8293e7c474ba25adfc13487fc005cc":[3,0,138,1,0],
 "class_large_island_splitter_1_1_splits.html#a0f8293e7c474ba25adfc13487fc005cca5f10b6f1afc0952ac2cda6048d1ef685":[3,0,138,1,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "class_motion_properties.html#ae036052c7d094e459a17cdc6c9b8a0ce":[3,0,150,31],
 "class_motion_properties.html#ae1d0e7670106211909852cd6844286d9":[3,0,150,2],
 "class_motion_properties.html#af54234b5b714feb5ac7eaa1b0033a8e7":[3,0,150,41],
-"class_motion_properties.html#afb12aa823a651145b46b271570a7af59":[3,0,150,0],
-"class_motor_settings.html":[3,0,151]
+"class_motion_properties.html#afb12aa823a651145b46b271570a7af59":[3,0,150,0]
 };

@@ -227,6 +227,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a09ecc3efc44b912eca30d9dbc05cc558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a09ecc3efc44b912eca30d9dbc05cc558">RefreshContacts</a> (const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="memdesc:a09ecc3efc44b912eca30d9dbc05cc558"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function can be used after a character has teleported to determine the new contacts with the world.  <a href="class_character_virtual.html#a09ecc3efc44b912eca30d9dbc05cc558">More...</a><br /></td></tr>
 <tr class="separator:a09ecc3efc44b912eca30d9dbc05cc558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5817d937424e252d406f71f0ba8771da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a5817d937424e252d406f71f0ba8771da">UpdateGroundVelocity</a> ()</td></tr>
+<tr class="separator:a5817d937424e252d406f71f0ba8771da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8149fcb7a9f932dd5154e23588e20763"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a8149fcb7a9f932dd5154e23588e20763">SetShape</a> (const <a class="el" href="class_shape.html">Shape</a> *inShape, float inMaxPenetrationDepth, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a8149fcb7a9f932dd5154e23588e20763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae70222c609c35c1acd94b9fc24e03681"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#ae70222c609c35c1acd94b9fc24e03681">CheckCollision</a> (<a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inMovementDirection, float inMaxSeparationDistance, const <a class="el" href="class_shape.html">Shape</a> *inShape, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inBaseOffset, <a class="el" href="_shape_8h.html#af33744a7638d2c8e3ba97737b069f8d2">CollideShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter) const</td></tr>
@@ -1666,6 +1668,24 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5817d937424e252d406f71f0ba8771da" name="a5817d937424e252d406f71f0ba8771da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5817d937424e252d406f71f0ba8771da">&#9670;&#160;</a></span>UpdateGroundVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterVirtual::UpdateGroundVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Use the ground body ID to get an updated estimate of the ground velocity. This function can be used if the ground body has moved / changed velocity and you want a new estimate of the ground velocity. It will not perform collision detection, so is less accurate than RefreshContacts but a lot faster. </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"class_closest_hit_collision_collector.html#a770bdcdb6dc04ab4070aad443395e642":[3,0,53,4],
 "class_closest_hit_collision_collector.html#aa9679e95456d67c8f813e6f13de6e65c":[3,0,53,2],
 "class_closest_hit_collision_collector.html#afe58b3f7279a8934bb7faca08f68bdf7":[3,0,53,0],
 "class_collide_convex_vs_triangles.html":[3,0,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "class_contact_constraint_manager.html#a08550dcab7e85e7f82fcc0c7658baa32":[3,0,75,8],
 "class_contact_constraint_manager.html#a1527877d78511ca6896722d9416e09d1":[3,0,75,5],
 "class_contact_constraint_manager.html#a185466194a8e52da526a77bc3b6cc405":[3,0,75,30],
-"class_contact_constraint_manager.html#a2bc5cc8b8d36cf641dc4217fed0e63f6":[3,0,75,19],
-"class_contact_constraint_manager.html#a3b9cf92154e49319463950b66e692f56":[3,0,75,7]
+"class_contact_constraint_manager.html#a2bc5cc8b8d36cf641dc4217fed0e63f6":[3,0,75,19]
 };

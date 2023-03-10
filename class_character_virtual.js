@@ -40,5 +40,6 @@ var class_character_virtual =
     [ "SetShapeOffset", "class_character_virtual.html#a6fd639e0938a0c068ff683a33ee613c9", null ],
     [ "StickToFloor", "class_character_virtual.html#a994b7c0aa38c4930117253eafdd9c9b9", null ],
     [ "Update", "class_character_virtual.html#ab9ce165035699a776a9d0b3e570def01", null ],
+    [ "UpdateGroundVelocity", "class_character_virtual.html#a5817d937424e252d406f71f0ba8771da", null ],
     [ "WalkStairs", "class_character_virtual.html#a7b92d577e9abb6193f971e26df9964f7", null ]
 ];

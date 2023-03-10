@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"class_triangle_splitter_longest_axis.html":[3,0,288],
 "class_triangle_splitter_longest_axis.html#a45cde2072d3a6c30b46c6afa0e9bec51":[3,0,288,1],
 "class_triangle_splitter_longest_axis.html#a6e0fd86ca2d38f41bd6faffcd94e08a4":[3,0,288,2],
 "class_triangle_splitter_longest_axis.html#a922ae63ab23366905d3a15f5e7c06630":[3,0,288,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "class_vec8.html#a535af944b1f32c306fb37a393ec16bd4":[3,0,298,3],
 "class_vec8.html#a5b527ce885b1b22c56173d4e48425bb3":[3,0,298,6],
 "class_vec8.html#a606b5595b25bd34a37820541b9e14c3e":[3,0,298,4],
-"class_vec8.html#a7ba524244b34059777fa93a63d551fda":[3,0,298,10],
-"class_vec8.html#a7e104be6684316118f94a6a0f2a8f488":[3,0,298,16]
+"class_vec8.html#a7ba524244b34059777fa93a63d551fda":[3,0,298,10]
 };
