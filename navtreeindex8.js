@@ -1,5 +1,13 @@
 var NAVTREEINDEX8 =
 {
+"class_character_virtual_settings.html#ace6da7c342df36edfce5a7aac44b1664":[3,0,52,2],
+"class_character_virtual_settings.html#adc60ceaa1f25e2cd6853b319499f82d1":[3,0,52,0],
+"class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584":[3,0,52,3],
+"class_character_virtual_settings.html#aeeefd4daed1e249cc0c98126bd8e4007":[3,0,52,11],
+"class_character_virtual_settings.html#afb718ba333f1f915a205d060097f8a81":[3,0,52,7],
+"class_closest_hit_collision_collector.html":[3,0,53],
+"class_closest_hit_collision_collector.html#a14955035534ef11baa2d3785ba004eee":[3,0,53,3],
+"class_closest_hit_collision_collector.html#a59e5b29507bc2aa633fe55c0bb08ff3e":[3,0,53,1],
 "class_closest_hit_collision_collector.html#a770bdcdb6dc04ab4070aad443395e642":[3,0,53,4],
 "class_closest_hit_collision_collector.html#aa9679e95456d67c8f813e6f13de6e65c":[3,0,53,2],
 "class_closest_hit_collision_collector.html#afe58b3f7279a8934bb7faca08f68bdf7":[3,0,53,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX8 =
 "class_constraint_settings.html#a159e8a4477995e274af2d9f98c44f3c9":[3,0,74,5],
 "class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae":[3,0,74,4],
 "class_constraint_settings.html#a3123d8d5dc6b127c2d19c95f6fe23a74":[3,0,74,2],
-"class_constraint_settings.html#a67f1344ed1a315ab9bb8af855d0a82b5":[3,0,74,0],
-"class_constraint_settings.html#a6bf0946b0358ea3f786c61a280bb6e5a":[3,0,74,6],
-"class_constraint_settings.html#a71f815e6f2e1bd3e0c8be210936b0e79":[3,0,74,1],
-"class_constraint_settings.html#ad2e3913b76c52d885bf88b9e9dc2bfd3":[3,0,74,3],
-"class_contact_constraint_manager.html":[3,0,75],
-"class_contact_constraint_manager.html#a08550dcab7e85e7f82fcc0c7658baa32":[3,0,75,8],
-"class_contact_constraint_manager.html#a1527877d78511ca6896722d9416e09d1":[3,0,75,5],
-"class_contact_constraint_manager.html#a185466194a8e52da526a77bc3b6cc405":[3,0,75,30],
-"class_contact_constraint_manager.html#a2bc5cc8b8d36cf641dc4217fed0e63f6":[3,0,75,19]
+"class_constraint_settings.html#a67f1344ed1a315ab9bb8af855d0a82b5":[3,0,74,0]
 };

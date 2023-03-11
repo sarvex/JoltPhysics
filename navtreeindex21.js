@@ -1,5 +1,13 @@
 var NAVTREEINDEX21 =
 {
+"class_triangle_splitter_binning.html":[3,0,286],
+"class_triangle_splitter_binning.html#a03fd4c136a8b0e6a5eb6220723239490":[3,0,286,2],
+"class_triangle_splitter_binning.html#a528500c9d8c6ba8225ec945e135c9588":[3,0,286,1],
+"class_triangle_splitter_binning.html#a8000c311893ad133eb6fbe7a95ef2fe7":[3,0,286,0],
+"class_triangle_splitter_fixed_leaf_size.html":[3,0,287],
+"class_triangle_splitter_fixed_leaf_size.html#a3c4cf349a59b88d2bed3656d82fa5ead":[3,0,287,2],
+"class_triangle_splitter_fixed_leaf_size.html#a6d3cb63db9a9f4d5f48fc0db60ef4717":[3,0,287,1],
+"class_triangle_splitter_fixed_leaf_size.html#a755f2d5fdd0b659ea5691be45fa1ede9":[3,0,287,0],
 "class_triangle_splitter_longest_axis.html":[3,0,288],
 "class_triangle_splitter_longest_axis.html#a45cde2072d3a6c30b46c6afa0e9bec51":[3,0,288,1],
 "class_triangle_splitter_longest_axis.html#a6e0fd86ca2d38f41bd6faffcd94e08a4":[3,0,288,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX21 =
 "class_vec4.html#aff8d5cf747d2cfa658ac6bc5822b6434":[3,0,297,61],
 "class_vec8.html":[3,0,298],
 "class_vec8.html#a045d854d2e5034a8fdd06b1946143c73":[3,0,298,14],
-"class_vec8.html#a176799d71ae225bcdc87f3c9ed821a4d":[3,0,298,17],
-"class_vec8.html#a246f5b59817c707715bd69d292e7610f":[3,0,298,13],
-"class_vec8.html#a3af12a0d40c2e64712a16b6e5d596eac":[3,0,298,1],
-"class_vec8.html#a4eabbb36d0b5c18dd521daa41d202b3c":[3,0,298,9],
-"class_vec8.html#a50640aa38e3cd80153dbac7f98fe111b":[3,0,298,18],
-"class_vec8.html#a535af944b1f32c306fb37a393ec16bd4":[3,0,298,3],
-"class_vec8.html#a5b527ce885b1b22c56173d4e48425bb3":[3,0,298,6],
-"class_vec8.html#a606b5595b25bd34a37820541b9e14c3e":[3,0,298,4],
-"class_vec8.html#a7ba524244b34059777fa93a63d551fda":[3,0,298,10]
+"class_vec8.html#a176799d71ae225bcdc87f3c9ed821a4d":[3,0,298,17]
 };
