@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"struct_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_block_header.html#a9965a86ef8ae2822aeb95ee98f4811fd":[3,0,278,3,0],
 "struct_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_vertex_data.html":[3,0,278,5],
 "struct_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_vertex_data.html#ad2e1750c341249ae3793b2db7c68648a":[3,0,278,5,0],
 "struct_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_vertex_data.html#ae2776c91a44cddc8ee6daa495c725e2f":[3,0,278,5,1],

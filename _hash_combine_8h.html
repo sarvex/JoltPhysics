@@ -118,6 +118,8 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a396c677c4eb61f19e11cc202aac23c38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#a396c677c4eb61f19e11cc202aac23c38">HashBytes</a> (const void *inData, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inSize, <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> inSeed=0xcbf29ce484222325UL)</td></tr>
 <tr class="separator:a396c677c4eb61f19e11cc202aac23c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce241fe287672b4a559499d341d2ee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#a8ce241fe287672b4a559499d341d2ee7">Hash64</a> (<a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> inValue)</td></tr>
+<tr class="separator:a8ce241fe287672b4a559499d341d2ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f53710c5b84fefd0968e1ebc5810bd3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6f53710c5b84fefd0968e1ebc5810bd3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_hash_combine_8h.html#a6f53710c5b84fefd0968e1ebc5810bd3">HashCombineHelper</a> (size_t &amp;ioSeed, const T &amp;inValue)</td></tr>
 <tr class="memdesc:a6f53710c5b84fefd0968e1ebc5810bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that hashes a single value into ioSeed Taken from: <a href="https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x">https://stackoverflow.com/questions/2590677/how-do-i-combine-hash-values-in-c0x</a>.  <a href="_hash_combine_8h.html#a6f53710c5b84fefd0968e1ebc5810bd3">More...</a><br /></td></tr>
@@ -208,6 +210,39 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8ce241fe287672b4a559499d341d2ee7" name="a8ce241fe287672b4a559499d341d2ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce241fe287672b4a559499d341d2ee7">&#9670;&#160;</a></span>Hash64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> Hash64 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td>
+          <td class="paramname"><em>inValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A 64 bit hash function by Thomas Wang, Jan 1997 See: <a href="http://web.archive.org/web/20071223173210/http://www.concentric.net/~Ttwang/tech/inthash.htm">http://web.archive.org/web/20071223173210/http://www.concentric.net/~Ttwang/tech/inthash.htm</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inValue</td><td>Value to hash </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Hash </dd></dl>
+
+</div>
+</div>
 <a id="a396c677c4eb61f19e11cc202aac23c38" name="a396c677c4eb61f19e11cc202aac23c38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a396c677c4eb61f19e11cc202aac23c38">&#9670;&#160;</a></span>HashBytes()</h2>
 

@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"class_double3.html#a6e5ecbdc4bec96b0a033ad090f0a38ba":[3,0,97,5],
 "class_double3.html#a7cdca7980db4588511c4851369dd9f2c":[3,0,97,7],
 "class_double3.html#ab0081bc08f995dd22c3b96f48ae491d1":[3,0,97,0],
 "class_double3.html#ab5aa082b210fbdd05635916c0ae50be9":[3,0,97,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "class_height_field_shape.html#aee35a24a90e88fd6858a648fcc3e8928":[3,0,122,9],
 "class_height_field_shape.html#aefe0c0c9d3017a94ac8835e84e698e9a":[3,0,122,21],
 "class_height_field_shape_1_1_decoding_context.html":[3,0,122,0],
-"class_height_field_shape_1_1_decoding_context.html#a07f0c967d33e29768081ff5eded07452":[3,0,122,0,1],
-"class_height_field_shape_1_1_decoding_context.html#a7622cbd7f7338a38654def62a270dd34":[3,0,122,0,0]
+"class_height_field_shape_1_1_decoding_context.html#a07f0c967d33e29768081ff5eded07452":[3,0,122,0,1]
 };

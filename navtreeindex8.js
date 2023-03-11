@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"class_character_virtual_settings.html#a9799feb816f4df4f956ffed435d18b4c":[3,0,52,1],
 "class_character_virtual_settings.html#ace6da7c342df36edfce5a7aac44b1664":[3,0,52,2],
 "class_character_virtual_settings.html#adc60ceaa1f25e2cd6853b319499f82d1":[3,0,52,0],
 "class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584":[3,0,52,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "class_constraint_settings.html":[3,0,74],
 "class_constraint_settings.html#a159e8a4477995e274af2d9f98c44f3c9":[3,0,74,5],
 "class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae":[3,0,74,4],
-"class_constraint_settings.html#a3123d8d5dc6b127c2d19c95f6fe23a74":[3,0,74,2],
-"class_constraint_settings.html#a67f1344ed1a315ab9bb8af855d0a82b5":[3,0,74,0]
+"class_constraint_settings.html#a3123d8d5dc6b127c2d19c95f6fe23a74":[3,0,74,2]
 };
