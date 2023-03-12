@@ -137,19 +137,19 @@ JPH::BodyID body_id = ...; // Obtain ID to body
 </ul>
 <p >Next to this there are a number of decorator shapes that change the behavior of their children:</p>
 <ul>
-<li><a class="el" href="class_scaled_shape.html">ScaledShape</a> - This shape can uniformly scale a child shape. Note that if a shape is rotated first and then scaled, you can introduce shearing which is not supported by the library.</li>
+<li><a class="el" href="class_scaled_shape.html">ScaledShape</a> - This shape can scale a child shape. Note that if a shape is rotated first and then scaled, you can introduce shearing which is not supported by the library.</li>
 <li><a class="el" href="class_rotated_translated_shape.html">RotatedTranslatedShape</a> - This shape can rotate and translate a child shape, it can e.g. be used to offset a sphere from the origin.</li>
 <li><a class="el" href="class_offset_center_of_mass_shape.html">OffsetCenterOfMassShape</a> - This shape does not change its child shape but it does shift the calculated center of mass for that shape. It allows you to e.g. shift the center of mass of a vehicle down to improve its handling.</li>
 </ul>
 <h2>Creating Shapes</h2>
-<p >Simple shapes like spheres and boxes can be constructed immediately by simply new-ing them. Other shapes need to be converted into an optimized format in order to be usable in the physics simulation. The uncooked data is usually stored in a <a class="el" href="class_shape_settings.html">Settings</a> object and then converted to cooked format by a <a class="el" href="class_shape_settings.html#a21e53b5758542a5527c7941d61d838fa">Create</a> function that returns a <a class="el" href="class_result.html">Result</a> object that indicates success or failure and provides the cooked object.</p>
+<p >Simple shapes like spheres and boxes can be constructed immediately by simply new-ing them. Other shapes need to be converted into an optimized format in order to be usable in the physics simulation. The uncooked data is usually stored in a <a class="el" href="class_shape_settings.html">ShapeSettings</a> object and then converted to cooked format by a <a class="el" href="class_shape_settings.html#a21e53b5758542a5527c7941d61d838fa">Create</a> function that returns a <a class="el" href="class_result.html">Result</a> object that indicates success or failure and provides the cooked object.</p>
 <p >Creating a convex hull for example looks like: </p><pre class="fragment">// Shapes are refcounted and can be shared between bodies
 JPH::Ref&lt;Shape&gt; shape;
 
 // The ShapeSettings object is only required for building the shape, all information is copied into the Shape class
 {
     // Create an array of vertices
-    vector&lt;JPH::Vec3&gt; vertices = { ... };
+    JPH::Array&lt;JPH::Vec3&gt; vertices = { ... };
 
     // Create the settings object for a convex hull
     JPH::ConvexHullShapeSettings settings(vertices, JPH::cDefaultConvexRadius);
