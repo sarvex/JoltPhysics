@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"namespaceliterals.html":[2,0,4],
+"namespaceliterals.html#af3efaa9e7258f2fe6e02e8d05931473b":[2,0,4,0],
+"namespacemembers.html":[2,1,0],
+"namespacemembers_enum.html":[2,1,3],
 "namespacemembers_eval.html":[2,1,4],
 "namespacemembers_func.html":[2,1,1],
 "namespacemembers_vars.html":[2,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "struct_debug_renderer_recorder_1_1_triangle_blob.html#a0e4f340eeb4bc951608c839d125706b7":[3,0,89,4,1],
 "struct_debug_renderer_recorder_1_1_triangle_blob.html#a25ce9acc7f799de155e66f799a84def9":[3,0,89,4,0],
 "struct_debug_renderer_recorder_1_1_triangle_blob.html#a31f1167b7d3996c0c402d54ebfa0a9d7":[3,0,89,4,3],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html#ad9b9200852056347b72aab08a003e314":[3,0,89,4,2],
-"struct_fixed_size_free_list_1_1_batch.html":[3,0,107,0],
-"struct_fixed_size_free_list_1_1_batch.html#a381cfe3af06bf97888cfbe25909acdae":[3,0,107,0,0],
-"struct_fixed_size_free_list_1_1_batch.html#a5ab07ee680a46976849c6d97ed0c20d3":[3,0,107,0,2],
-"struct_fixed_size_free_list_1_1_batch.html#ae7d23513b20b319c101f195c86a94a79":[3,0,107,0,1]
+"struct_debug_renderer_recorder_1_1_triangle_blob.html#ad9b9200852056347b72aab08a003e314":[3,0,89,4,2]
 };

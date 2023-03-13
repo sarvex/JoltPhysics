@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Jolt Physics: VehicleCollisionTester Class Reference</title>
+<title>Jolt Physics: VehicleCollisionTesterCastCylinder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_vehicle_collision_tester.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('class_vehicle_collision_tester_cast_cylinder.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -100,35 +100,38 @@ $(document).ready(function(){initNavTree('class_vehicle_collision_tester.html','
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_vehicle_collision_tester-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">VehicleCollisionTester Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+<a href="class_vehicle_collision_tester_cast_cylinder-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">VehicleCollisionTesterCastCylinder Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Class that does collision detection between wheels and ground.  
- <a href="class_vehicle_collision_tester.html#details">More...</a></p>
+<p>Collision tester that tests collision using a cylinder shape.  
+ <a href="class_vehicle_collision_tester_cast_cylinder.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_vehicle_collision_tester_8h_source.html">VehicleCollisionTester.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for VehicleCollisionTester:</div>
+Inheritance diagram for VehicleCollisionTesterCastCylinder:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_vehicle_collision_tester.png" usemap="#VehicleCollisionTester_map" alt=""/>
-  <map id="VehicleCollisionTester_map" name="VehicleCollisionTester_map">
-<area href="class_ref_target.html" alt="RefTarget&lt; VehicleCollisionTester &gt;" shape="rect" coords="227,0,444,24"/>
-<area href="class_vehicle_collision_tester_cast_cylinder.html" title="Collision tester that tests collision using a cylinder shape." alt="VehicleCollisionTesterCastCylinder" shape="rect" coords="0,112,217,136"/>
-<area href="class_vehicle_collision_tester_cast_sphere.html" title="Collision tester that tests collision using a sphere cast." alt="VehicleCollisionTesterCastSphere" shape="rect" coords="227,112,444,136"/>
-<area href="class_vehicle_collision_tester_ray.html" title="Collision tester that tests collision using a raycast." alt="VehicleCollisionTesterRay" shape="rect" coords="454,112,671,136"/>
+  <img src="class_vehicle_collision_tester_cast_cylinder.png" usemap="#VehicleCollisionTesterCastCylinder_map" alt=""/>
+  <map id="VehicleCollisionTesterCastCylinder_map" name="VehicleCollisionTesterCastCylinder_map">
+<area href="class_vehicle_collision_tester.html" title="Class that does collision detection between wheels and ground." alt="VehicleCollisionTester" shape="rect" coords="0,56,217,80"/>
+<area href="class_ref_target.html" alt="RefTarget&lt; VehicleCollisionTester &gt;" shape="rect" coords="0,0,217,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0670009febfc98dc1fbbfb35b12f71a3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_collision_tester.html#a0670009febfc98dc1fbbfb35b12f71a3">~VehicleCollisionTester</a> ()=default</td></tr>
-<tr class="memdesc:a0670009febfc98dc1fbbfb35b12f71a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="class_vehicle_collision_tester.html#a0670009febfc98dc1fbbfb35b12f71a3">More...</a><br /></td></tr>
-<tr class="separator:a0670009febfc98dc1fbbfb35b12f71a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2af9d0d5ab81d3321133ec0b408752b7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_collision_tester.html#a2af9d0d5ab81d3321133ec0b408752b7">Collide</a> (<a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem, const <a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;inVehicleConstraint, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inWheelIndex, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inOrigin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDirection, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inVehicleBodyID, <a class="el" href="class_body.html">Body</a> *&amp;outBody, <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;outSubShapeID, <a class="el" href="_real_8h.html#ae088dda635fb0ba1c96ea179d384ca40">RVec3</a> &amp;outContactPosition, <a class="el" href="class_vec3.html">Vec3</a> &amp;outContactNormal, float &amp;outSuspensionLength) const =0</td></tr>
-<tr class="separator:a2af9d0d5ab81d3321133ec0b408752b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416a774b8cf740d496abe37d67d223ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_collision_tester_cast_cylinder.html#a416a774b8cf740d496abe37d67d223ff">VehicleCollisionTesterCastCylinder</a> (<a class="el" href="_object_layer_8h.html#a960eb396e2803ddad87bf25e0dcb4470">ObjectLayer</a> inObjectLayer, float inConvexRadiusFraction=0.1f)</td></tr>
+<tr class="separator:a416a774b8cf740d496abe37d67d223ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc5564939bc37738299098769cbbcbc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_collision_tester_cast_cylinder.html#abdc5564939bc37738299098769cbbcbc">Collide</a> (<a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem, const <a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;inVehicleConstraint, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inWheelIndex, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inOrigin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDirection, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inVehicleBodyID, <a class="el" href="class_body.html">Body</a> *&amp;outBody, <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;outSubShapeID, <a class="el" href="_real_8h.html#ae088dda635fb0ba1c96ea179d384ca40">RVec3</a> &amp;outContactPosition, <a class="el" href="class_vec3.html">Vec3</a> &amp;outContactNormal, float &amp;outSuspensionLength) const override</td></tr>
+<tr class="separator:abdc5564939bc37738299098769cbbcbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_vehicle_collision_tester"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_vehicle_collision_tester')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_vehicle_collision_tester.html">VehicleCollisionTester</a></td></tr>
+<tr class="memitem:a0670009febfc98dc1fbbfb35b12f71a3 inherit pub_methods_class_vehicle_collision_tester"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_collision_tester.html#a0670009febfc98dc1fbbfb35b12f71a3">~VehicleCollisionTester</a> ()=default</td></tr>
+<tr class="memdesc:a0670009febfc98dc1fbbfb35b12f71a3 inherit pub_methods_class_vehicle_collision_tester"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="class_vehicle_collision_tester.html#a0670009febfc98dc1fbbfb35b12f71a3">More...</a><br /></td></tr>
+<tr class="separator:a0670009febfc98dc1fbbfb35b12f71a3 inherit pub_methods_class_vehicle_collision_tester"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af9d0d5ab81d3321133ec0b408752b7 inherit pub_methods_class_vehicle_collision_tester"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_collision_tester.html#a2af9d0d5ab81d3321133ec0b408752b7">Collide</a> (<a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem, const <a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;inVehicleConstraint, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inWheelIndex, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inOrigin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDirection, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inVehicleBodyID, <a class="el" href="class_body.html">Body</a> *&amp;outBody, <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;outSubShapeID, <a class="el" href="_real_8h.html#ae088dda635fb0ba1c96ea179d384ca40">RVec3</a> &amp;outContactPosition, <a class="el" href="class_vec3.html">Vec3</a> &amp;outContactNormal, float &amp;outSuspensionLength) const =0</td></tr>
+<tr class="separator:a2af9d0d5ab81d3321133ec0b408752b7 inherit pub_methods_class_vehicle_collision_tester"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ref_target"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ref_target')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ref_target.html">RefTarget&lt; VehicleCollisionTester &gt;</a></td></tr>
 <tr class="memitem:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17">RefTarget</a> ()=default</td></tr>
 <tr class="memdesc:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17">More...</a><br /></td></tr>
@@ -168,10 +171,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ad37db773efa3c8756f6d95df3862b875 inherit pro_static_attribs_class_ref_target"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Class that does collision detection between wheels and ground. </p>
+<div class="textblock"><p >Collision tester that tests collision using a cylinder shape. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0670009febfc98dc1fbbfb35b12f71a3" name="a0670009febfc98dc1fbbfb35b12f71a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0670009febfc98dc1fbbfb35b12f71a3">&#9670;&#160;</a></span>~VehicleCollisionTester()</h2>
+<a id="a416a774b8cf740d496abe37d67d223ff" name="a416a774b8cf740d496abe37d67d223ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416a774b8cf740d496abe37d67d223ff">&#9670;&#160;</a></span>VehicleCollisionTesterCastCylinder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,26 +183,42 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a> VehicleCollisionTester::~VehicleCollisionTester </td>
+          <td class="memname"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a> VehicleCollisionTesterCastCylinder::VehicleCollisionTesterCastCylinder </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_object_layer_8h.html#a960eb396e2803ddad87bf25e0dcb4470">ObjectLayer</a>&#160;</td>
+          <td class="paramname"><em>inObjectLayer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inConvexRadiusFraction</em> = <code>0.1f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Virtual destructor. </p>
+<p >Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inObjectLayer</td><td>Object layer to test collision with </td></tr>
+    <tr><td class="paramname">inConvexRadiusFraction</td><td>Fraction of half the wheel width (or wheel radius if it is smaller) that is used as the convex radius </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2af9d0d5ab81d3321133ec0b408752b7" name="a2af9d0d5ab81d3321133ec0b408752b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2af9d0d5ab81d3321133ec0b408752b7">&#9670;&#160;</a></span>Collide()</h2>
+<a id="abdc5564939bc37738299098769cbbcbc" name="abdc5564939bc37738299098769cbbcbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc5564939bc37738299098769cbbcbc">&#9670;&#160;</a></span>Collide()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +227,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool VehicleCollisionTester::Collide </td>
+          <td class="memname">bool VehicleCollisionTesterCastCylinder::Collide </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;&#160;</td>
           <td class="paramname"><em>inPhysicsSystem</em>, </td>
@@ -281,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -303,19 +322,20 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True when collision found, false if not </dd></dl>
 
-<p>Implemented in <a class="el" href="class_vehicle_collision_tester_ray.html#abd279ac97d41c77e78c3a2db35cfc874">VehicleCollisionTesterRay</a>, <a class="el" href="class_vehicle_collision_tester_cast_sphere.html#a90248c4019ec139a1a6519d87b50e30f">VehicleCollisionTesterCastSphere</a>, and <a class="el" href="class_vehicle_collision_tester_cast_cylinder.html#abdc5564939bc37738299098769cbbcbc">VehicleCollisionTesterCastCylinder</a>.</p>
+<p>Implements <a class="el" href="class_vehicle_collision_tester.html#a2af9d0d5ab81d3321133ec0b408752b7">VehicleCollisionTester</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>Jolt/Physics/Vehicle/<a class="el" href="_vehicle_collision_tester_8h_source.html">VehicleCollisionTester.h</a></li>
+<li>Jolt/Physics/Vehicle/<a class="el" href="_vehicle_collision_tester_8cpp.html">VehicleCollisionTester.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="class_vehicle_collision_tester.html">VehicleCollisionTester</a></li>
+    <li class="navelem"><a class="el" href="class_vehicle_collision_tester_cast_cylinder.html">VehicleCollisionTesterCastCylinder</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

@@ -308,6 +308,7 @@ var annotated_dup =
     [ "Vector", "class_vector.html", "class_vector" ],
     [ "VehicleAntiRollBar", "class_vehicle_anti_roll_bar.html", "class_vehicle_anti_roll_bar" ],
     [ "VehicleCollisionTester", "class_vehicle_collision_tester.html", "class_vehicle_collision_tester" ],
+    [ "VehicleCollisionTesterCastCylinder", "class_vehicle_collision_tester_cast_cylinder.html", "class_vehicle_collision_tester_cast_cylinder" ],
     [ "VehicleCollisionTesterCastSphere", "class_vehicle_collision_tester_cast_sphere.html", "class_vehicle_collision_tester_cast_sphere" ],
     [ "VehicleCollisionTesterRay", "class_vehicle_collision_tester_ray.html", "class_vehicle_collision_tester_ray" ],
     [ "VehicleConstraint", "class_vehicle_constraint.html", "class_vehicle_constraint" ],

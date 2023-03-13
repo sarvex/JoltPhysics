@@ -444,6 +444,7 @@ var hierarchy =
     ] ],
     [ "RefTarget< VehicleCollisionTester >", "class_ref_target.html", [
       [ "VehicleCollisionTester", "class_vehicle_collision_tester.html", [
+        [ "VehicleCollisionTesterCastCylinder", "class_vehicle_collision_tester_cast_cylinder.html", null ],
         [ "VehicleCollisionTesterCastSphere", "class_vehicle_collision_tester_cast_sphere.html", null ],
         [ "VehicleCollisionTesterRay", "class_vehicle_collision_tester_ray.html", null ]
       ] ]
