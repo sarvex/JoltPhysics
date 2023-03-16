@@ -270,7 +270,9 @@ var hierarchy =
         [ "HeightFieldShape", "class_height_field_shape.html", null ],
         [ "MeshShape", "class_mesh_shape.html", null ]
       ] ],
-      [ "ShapeFilter", "class_shape_filter.html", null ],
+      [ "ShapeFilter", "class_shape_filter.html", [
+        [ "ReversedShapeFilter", "class_reversed_shape_filter.html", null ]
+      ] ],
       [ "SharedLock< LockType >", "class_shared_lock.html", null ],
       [ "TempAllocator", "class_temp_allocator.html", [
         [ "TempAllocatorImpl", "class_temp_allocator_impl.html", null ],

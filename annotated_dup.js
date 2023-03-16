@@ -220,6 +220,7 @@ var annotated_dup =
     [ "RefTarget", "class_ref_target.html", "class_ref_target" ],
     [ "RefTargetVirtual", "class_ref_target_virtual.html", "class_ref_target_virtual" ],
     [ "Result", "class_result.html", "class_result" ],
+    [ "ReversedShapeFilter", "class_reversed_shape_filter.html", "class_reversed_shape_filter" ],
     [ "RotatedTranslatedShape", "class_rotated_translated_shape.html", "class_rotated_translated_shape" ],
     [ "RotatedTranslatedShapeSettings", "class_rotated_translated_shape_settings.html", "class_rotated_translated_shape_settings" ],
     [ "RotationEulerConstraintPart", "class_rotation_euler_constraint_part.html", "class_rotation_euler_constraint_part" ],
