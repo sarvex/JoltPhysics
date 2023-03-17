@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"namespace_scale_helpers.html#a317905196055a0a720d6468cbb4840b9":[2,0,5,5],
+"namespace_scale_helpers.html#a3c182e760f2d4a5b0985b20d50b0c870":[2,0,5,6],
+"namespace_scale_helpers.html#a8ff2f9310527acbb4b02a00150fe02fe":[2,0,5,3],
 "namespace_scale_helpers.html#a968d814e04071d431f79a2ba4e9d4da1":[2,0,5,1],
 "namespace_scale_helpers.html#abf3b185a98bea874b96fa82a0db2d7e2":[2,0,5,2],
 "namespaceliterals.html":[2,0,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "struct_debug_renderer_recorder_1_1_text_blob.html#aabc4e3cc9c5a27ee8b151cbea90e20e3":[3,0,89,3,3],
 "struct_debug_renderer_recorder_1_1_text_blob.html#ab4f54cc8990295747f0ea8953345a64a":[3,0,89,3,1],
 "struct_debug_renderer_recorder_1_1_text_blob.html#ad6271bb0149760a239bdf01038714243":[3,0,89,3,2],
-"struct_debug_renderer_recorder_1_1_text_blob.html#ad7e5b3d003443e4c28617ef14294dac6":[3,0,89,3,4],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html":[3,0,89,4],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html#a0e4f340eeb4bc951608c839d125706b7":[3,0,89,4,1],
-"struct_debug_renderer_recorder_1_1_triangle_blob.html#a25ce9acc7f799de155e66f799a84def9":[3,0,89,4,0]
+"struct_debug_renderer_recorder_1_1_text_blob.html#ad7e5b3d003443e4c28617ef14294dac6":[3,0,89,3,4]
 };

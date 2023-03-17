@@ -6,5 +6,6 @@ var class_constraint_settings =
     [ "mDrawConstraintSize", "class_constraint_settings.html#ad2e3913b76c52d885bf88b9e9dc2bfd3", null ],
     [ "mEnabled", "class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae", null ],
     [ "mNumPositionStepsOverride", "class_constraint_settings.html#a159e8a4477995e274af2d9f98c44f3c9", null ],
-    [ "mNumVelocityStepsOverride", "class_constraint_settings.html#a6bf0946b0358ea3f786c61a280bb6e5a", null ]
+    [ "mNumVelocityStepsOverride", "class_constraint_settings.html#a6bf0946b0358ea3f786c61a280bb6e5a", null ],
+    [ "mUserData", "class_constraint_settings.html#a5f1b930fc3798cce17979e631a2a8a05", null ]
 ];
