@@ -28,6 +28,7 @@ var class_wheel =
     [ "mAngle", "class_wheel.html#ad21c087228b643377f809e61c14fdf1d", null ],
     [ "mAngularVelocity", "class_wheel.html#a240115cc48bddcf81b10c426c3802fe7", null ],
     [ "mAntiRollBarImpulse", "class_wheel.html#a201340ce33a37ff9eb3cc26cf8ae4cc8", null ],
+    [ "mAxlePlaneConstant", "class_wheel.html#aa6aeace443bfd6580ad54a938342ac67", null ],
     [ "mContactBody", "class_wheel.html#acb44fa757ea9d2447e1b2de4f65954ca", null ],
     [ "mContactBodyID", "class_wheel.html#a53ae6143cfd91eba78398b03f427c7ed", null ],
     [ "mContactLateral", "class_wheel.html#ad8cea661025b8c99b3fbd07f67880ebb", null ],
@@ -42,6 +43,5 @@ var class_wheel =
     [ "mSteerAngle", "class_wheel.html#ae6d6847e2825c5e6b1f3203d8fe559fa", null ],
     [ "mSuspensionLength", "class_wheel.html#a49fc75e7639dbf0a484ccd9bf1968ae4", null ],
     [ "mSuspensionMaxUpPart", "class_wheel.html#a568fed5d0dd04fd63020e9253801a34c", null ],
-    [ "mSuspensionPart", "class_wheel.html#a9e9df1e9246d38363edc02b9d1c81ef4", null ],
-    [ "mWSDirection", "class_wheel.html#a725103c1b0a22aeee8790910701ac64f", null ]
+    [ "mSuspensionPart", "class_wheel.html#a9e9df1e9246d38363edc02b9d1c81ef4", null ]
 ];

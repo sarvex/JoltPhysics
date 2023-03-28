@@ -228,9 +228,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad8cea661025b8c99b3fbd07f67880ebb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel.html#ad8cea661025b8c99b3fbd07f67880ebb">mContactLateral</a></td></tr>
 <tr class="memdesc:ad8cea661025b8c99b3fbd07f67880ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_vector.html" title="Templatized vector class.">Vector</a> perpendicular to normal and longitudinal direction in the right direction.  <a href="class_wheel.html#ad8cea661025b8c99b3fbd07f67880ebb">More...</a><br /></td></tr>
 <tr class="separator:ad8cea661025b8c99b3fbd07f67880ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a725103c1b0a22aeee8790910701ac64f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel.html#a725103c1b0a22aeee8790910701ac64f">mWSDirection</a></td></tr>
-<tr class="memdesc:a725103c1b0a22aeee8790910701ac64f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspension spring direction in world space.  <a href="class_wheel.html#a725103c1b0a22aeee8790910701ac64f">More...</a><br /></td></tr>
-<tr class="separator:a725103c1b0a22aeee8790910701ac64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6aeace443bfd6580ad54a938342ac67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_real_8h.html#a6baabe9790f3842ab73110ab342c5c5e">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel.html#aa6aeace443bfd6580ad54a938342ac67">mAxlePlaneConstant</a></td></tr>
+<tr class="memdesc:aa6aeace443bfd6580ad54a938342ac67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant for the contact plane of the axle, defined as ContactNormal . (WorldSpaceSuspensionPoint + SuspensionLength * WorldSpaceSuspensionDirection)  <a href="class_wheel.html#aa6aeace443bfd6580ad54a938342ac67">More...</a><br /></td></tr>
+<tr class="separator:aa6aeace443bfd6580ad54a938342ac67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a201340ce33a37ff9eb3cc26cf8ae4cc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel.html#a201340ce33a37ff9eb3cc26cf8ae4cc8">mAntiRollBarImpulse</a> = 0.0f</td></tr>
 <tr class="memdesc:a201340ce33a37ff9eb3cc26cf8ae4cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of impulse applied to the suspension from the anti-rollbars.  <a href="class_wheel.html#a201340ce33a37ff9eb3cc26cf8ae4cc8">More...</a><br /></td></tr>
 <tr class="separator:a201340ce33a37ff9eb3cc26cf8ae4cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,7 +244,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:ad21c087228b643377f809e61c14fdf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current rotation of the wheel (rad, [0, 2 pi])  <a href="class_wheel.html#ad21c087228b643377f809e61c14fdf1d">More...</a><br /></td></tr>
 <tr class="separator:ad21c087228b643377f809e61c14fdf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e9df1e9246d38363edc02b9d1c81ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_axis_constraint_part.html">AxisConstraintPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel.html#a9e9df1e9246d38363edc02b9d1c81ef4">mSuspensionPart</a></td></tr>
-<tr class="memdesc:a9e9df1e9246d38363edc02b9d1c81ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls movement up/down.  <a href="class_wheel.html#a9e9df1e9246d38363edc02b9d1c81ef4">More...</a><br /></td></tr>
+<tr class="memdesc:a9e9df1e9246d38363edc02b9d1c81ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls movement up/down along the contact normal.  <a href="class_wheel.html#a9e9df1e9246d38363edc02b9d1c81ef4">More...</a><br /></td></tr>
 <tr class="separator:a9e9df1e9246d38363edc02b9d1c81ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a568fed5d0dd04fd63020e9253801a34c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_axis_constraint_part.html">AxisConstraintPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel.html#a568fed5d0dd04fd63020e9253801a34c">mSuspensionMaxUpPart</a></td></tr>
 <tr class="memdesc:a568fed5d0dd04fd63020e9253801a34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a hard limit when reaching the minimal suspension length.  <a href="class_wheel.html#a568fed5d0dd04fd63020e9253801a34c">More...</a><br /></td></tr>
@@ -1029,6 +1029,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="aa6aeace443bfd6580ad54a938342ac67" name="aa6aeace443bfd6580ad54a938342ac67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6aeace443bfd6580ad54a938342ac67">&#9670;&#160;</a></span>mAxlePlaneConstant</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_real_8h.html#a6baabe9790f3842ab73110ab342c5c5e">Real</a> Wheel::mAxlePlaneConstant</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constant for the contact plane of the axle, defined as ContactNormal . (WorldSpaceSuspensionPoint + SuspensionLength * WorldSpaceSuspensionDirection) </p>
+
+</div>
+</div>
 <a id="acb44fa757ea9d2447e1b2de4f65954ca" name="acb44fa757ea9d2447e1b2de4f65954ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb44fa757ea9d2447e1b2de4f65954ca">&#9670;&#160;</a></span>mContactBody</h2>
 
@@ -1385,31 +1409,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Controls movement up/down. </p>
-
-</div>
-</div>
-<a id="a725103c1b0a22aeee8790910701ac64f" name="a725103c1b0a22aeee8790910701ac64f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a725103c1b0a22aeee8790910701ac64f">&#9670;&#160;</a></span>mWSDirection</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> Wheel::mWSDirection</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Suspension spring direction in world space. </p>
+<p>Controls movement up/down along the contact normal. </p>
 
 </div>
 </div>
