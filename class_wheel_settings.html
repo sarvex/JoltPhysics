@@ -171,9 +171,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a498fc7496addb2d3bb1798ffc494d1ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#a498fc7496addb2d3bb1798ffc494d1ae">mPosition</a> { 0, 0, 0 }</td></tr>
 <tr class="memdesc:a498fc7496addb2d3bb1798ffc494d1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attachment point of wheel suspension in local space of the body.  <a href="class_wheel_settings.html#a498fc7496addb2d3bb1798ffc494d1ae">More...</a><br /></td></tr>
 <tr class="separator:a498fc7496addb2d3bb1798ffc494d1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01cef33eef1cfd718a47b8b45564dddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#a01cef33eef1cfd718a47b8b45564dddb">mDirection</a> { 0, -1, 0 }</td></tr>
-<tr class="memdesc:a01cef33eef1cfd718a47b8b45564dddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction of the suspension in local space of the body.  <a href="class_wheel_settings.html#a01cef33eef1cfd718a47b8b45564dddb">More...</a><br /></td></tr>
-<tr class="separator:a01cef33eef1cfd718a47b8b45564dddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1901645636d97056d9966bdcff58d3f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#a1901645636d97056d9966bdcff58d3f4">mSuspensionDirection</a> { 0, -1, 0 }</td></tr>
+<tr class="memdesc:a1901645636d97056d9966bdcff58d3f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction of the suspension in local space of the body, should point down.  <a href="class_wheel_settings.html#a1901645636d97056d9966bdcff58d3f4">More...</a><br /></td></tr>
+<tr class="separator:a1901645636d97056d9966bdcff58d3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ee3a56dcf0f0c4b679d9be1b44e4bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#aa3ee3a56dcf0f0c4b679d9be1b44e4bb">mSteeringAxis</a> { 0, 1, 0 }</td></tr>
+<tr class="memdesc:aa3ee3a56dcf0f0c4b679d9be1b44e4bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction of the steering axis in local space of the body, should point up (e.g. for a bike would be -mSuspensionDirection)  <a href="class_wheel_settings.html#aa3ee3a56dcf0f0c4b679d9be1b44e4bb">More...</a><br /></td></tr>
+<tr class="separator:aa3ee3a56dcf0f0c4b679d9be1b44e4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80888c1fe230a769b72eed7885fe6878"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#a80888c1fe230a769b72eed7885fe6878">mWheelUp</a> { 0, 1, 0 }</td></tr>
+<tr class="memdesc:a80888c1fe230a769b72eed7885fe6878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Up direction when the wheel is in the neutral steering position (usually <a class="el" href="class_vehicle_constraint_settings.html#a90697fd39e19d071664f0fec05d75764" title="Vector indicating the up direction of the vehicle (in local space to the body)">VehicleConstraintSettings::mUp</a> but can be used to give the wheel camber or for a bike would be -mSuspensionDirection)  <a href="class_wheel_settings.html#a80888c1fe230a769b72eed7885fe6878">More...</a><br /></td></tr>
+<tr class="separator:a80888c1fe230a769b72eed7885fe6878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af591b9f4e43a65991bff1706ad62031f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#af591b9f4e43a65991bff1706ad62031f">mWheelForward</a> { 0, 0, 1 }</td></tr>
+<tr class="memdesc:af591b9f4e43a65991bff1706ad62031f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward direction when the wheel is in the neutral steering position (usually <a class="el" href="class_vehicle_constraint_settings.html#a8b5ce772889e8a121a3975f09dc511a0" title="Vector indicating forward direction of the vehicle (in local space to the body)">VehicleConstraintSettings::mForward</a> but can be used to give the wheel toe, does not need to be perpendicular to mWheelUp)  <a href="class_wheel_settings.html#af591b9f4e43a65991bff1706ad62031f">More...</a><br /></td></tr>
+<tr class="separator:af591b9f4e43a65991bff1706ad62031f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afde39534b2ab075300c88a6284aeb904"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheel_settings.html#afde39534b2ab075300c88a6284aeb904">mSuspensionMinLength</a> = 0.3f</td></tr>
 <tr class="memdesc:afde39534b2ab075300c88a6284aeb904"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long the suspension is in max raised position relative to the attachment point (m)  <a href="class_wheel_settings.html#afde39534b2ab075300c88a6284aeb904">More...</a><br /></td></tr>
 <tr class="separator:afde39534b2ab075300c88a6284aeb904"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,22 +284,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a01cef33eef1cfd718a47b8b45564dddb" name="a01cef33eef1cfd718a47b8b45564dddb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01cef33eef1cfd718a47b8b45564dddb">&#9670;&#160;</a></span>mDirection</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> WheelSettings::mDirection { 0, -1, 0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Direction of the suspension in local space of the body. </p>
-
-</div>
-</div>
 <a id="a498fc7496addb2d3bb1798ffc494d1ae" name="a498fc7496addb2d3bb1798ffc494d1ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a498fc7496addb2d3bb1798ffc494d1ae">&#9670;&#160;</a></span>mPosition</h2>
 
@@ -323,6 +316,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa3ee3a56dcf0f0c4b679d9be1b44e4bb" name="aa3ee3a56dcf0f0c4b679d9be1b44e4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ee3a56dcf0f0c4b679d9be1b44e4bb">&#9670;&#160;</a></span>mSteeringAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> WheelSettings::mSteeringAxis { 0, 1, 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Direction of the steering axis in local space of the body, should point up (e.g. for a bike would be -mSuspensionDirection) </p>
+
+</div>
+</div>
 <a id="a71fdb8295a828e8f06f4b4721e7eb213" name="a71fdb8295a828e8f06f4b4721e7eb213"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71fdb8295a828e8f06f4b4721e7eb213">&#9670;&#160;</a></span>mSuspensionDamping</h2>
 
@@ -336,6 +345,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Damping factor of the suspension spring (0 = no damping, 1 = critical damping) </p>
+
+</div>
+</div>
+<a id="a1901645636d97056d9966bdcff58d3f4" name="a1901645636d97056d9966bdcff58d3f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1901645636d97056d9966bdcff58d3f4">&#9670;&#160;</a></span>mSuspensionDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> WheelSettings::mSuspensionDirection { 0, -1, 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Direction of the suspension in local space of the body, should point down. </p>
 
 </div>
 </div>
@@ -400,6 +425,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The natural length (m) of the suspension spring is defined as mSuspensionMaxLength + mSuspensionPreloadLength. Can be used to preload the suspension as the spring is compressed by mSuspensionPreloadLength when the suspension is in max droop position. Note that this means when the vehicle touches the ground there is a discontinuity so it will also make the vehicle more bouncy as we're updating with discrete time steps. </p>
+
+</div>
+</div>
+<a id="af591b9f4e43a65991bff1706ad62031f" name="af591b9f4e43a65991bff1706ad62031f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af591b9f4e43a65991bff1706ad62031f">&#9670;&#160;</a></span>mWheelForward</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> WheelSettings::mWheelForward { 0, 0, 1 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Forward direction when the wheel is in the neutral steering position (usually <a class="el" href="class_vehicle_constraint_settings.html#a8b5ce772889e8a121a3975f09dc511a0" title="Vector indicating forward direction of the vehicle (in local space to the body)">VehicleConstraintSettings::mForward</a> but can be used to give the wheel toe, does not need to be perpendicular to mWheelUp) </p>
+
+</div>
+</div>
+<a id="a80888c1fe230a769b72eed7885fe6878" name="a80888c1fe230a769b72eed7885fe6878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80888c1fe230a769b72eed7885fe6878">&#9670;&#160;</a></span>mWheelUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> WheelSettings::mWheelUp { 0, 1, 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Up direction when the wheel is in the neutral steering position (usually <a class="el" href="class_vehicle_constraint_settings.html#a90697fd39e19d071664f0fec05d75764" title="Vector indicating the up direction of the vehicle (in local space to the body)">VehicleConstraintSettings::mUp</a> but can be used to give the wheel camber or for a bike would be -mSuspensionDirection) </p>
 
 </div>
 </div>

@@ -161,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d90f054b9fa121d8ec9b1e2f0dcba65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a205699c8c9916b774790a8f87a43d61c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_wheel.html">Wheel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a205699c8c9916b774790a8f87a43d61c">GetWheel</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inIdx) const</td></tr>
 <tr class="separator:a205699c8c9916b774790a8f87a43d61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad752f73785ddd88b0e4776101d914f38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#ad752f73785ddd88b0e4776101d914f38">GetWheelLocalBasis</a> (const <a class="el" href="class_wheel.html">Wheel</a> *inWheel, <a class="el" href="class_vec3.html">Vec3</a> &amp;outForward, <a class="el" href="class_vec3.html">Vec3</a> &amp;outUp, <a class="el" href="class_vec3.html">Vec3</a> &amp;outRight) const</td></tr>
+<tr class="separator:ad752f73785ddd88b0e4776101d914f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26fa80f7292448dd869df47c46a30adf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a26fa80f7292448dd869df47c46a30adf">GetWheelLocalTransform</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inWheelIndex, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWheelRight, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWheelUp) const</td></tr>
 <tr class="separator:a26fa80f7292448dd869df47c46a30adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4e43b201b7379b643820447daae173c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_real_8h.html#ab2b99ab2c9bab2170e4744e9fb519625">RMat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#ab4e43b201b7379b643820447daae173c">GetWheelWorldTransform</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inWheelIndex, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWheelRight, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWheelUp) const</td></tr>
@@ -755,6 +757,55 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad752f73785ddd88b0e4776101d914f38" name="ad752f73785ddd88b0e4776101d914f38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad752f73785ddd88b0e4776101d914f38">&#9670;&#160;</a></span>GetWheelLocalBasis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VehicleConstraint::GetWheelLocalBasis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_wheel.html">Wheel</a> *&#160;</td>
+          <td class="paramname"><em>inWheel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>outForward</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>outUp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>outRight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Get the basis vectors for the wheel in local space to the vehicle body (note: basis does not rotate when the wheel rotates arounds its axis) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inWheel</td><td><a class="el" href="class_wheel.html" title="Base class for runtime data for a wheel, each VehicleController can implement a derived class of this...">Wheel</a> to fetch basis for </td></tr>
+    <tr><td class="paramname">outForward</td><td>Forward vector for the wheel </td></tr>
+    <tr><td class="paramname">outUp</td><td>Up vector for the wheel </td></tr>
+    <tr><td class="paramname">outRight</td><td>Right vector for the wheel </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
