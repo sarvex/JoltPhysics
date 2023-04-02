@@ -157,6 +157,8 @@ var annotated_dup =
     [ "MinkowskiDifference", "struct_minkowski_difference.html", "struct_minkowski_difference" ],
     [ "MortonCode", "class_morton_code.html", null ],
     [ "MotionProperties", "class_motion_properties.html", "class_motion_properties" ],
+    [ "MotorcycleController", "class_motorcycle_controller.html", "class_motorcycle_controller" ],
+    [ "MotorcycleControllerSettings", "class_motorcycle_controller_settings.html", "class_motorcycle_controller_settings" ],
     [ "MotorSettings", "class_motor_settings.html", "class_motor_settings" ],
     [ "MutableCompoundShape", "class_mutable_compound_shape.html", "class_mutable_compound_shape" ],
     [ "MutableCompoundShapeSettings", "class_mutable_compound_shape_settings.html", "class_mutable_compound_shape_settings" ],

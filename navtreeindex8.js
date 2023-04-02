@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"class_character_virtual_settings.html#a6187712f620530e0b086a0437690929f":[3,0,52,8],
+"class_character_virtual_settings.html#a71029078959636aa6a6bca8ab72f31e3":[3,0,52,12],
+"class_character_virtual_settings.html#a71a9f1bf58ebf5c2d8b272f62fb7c734":[3,0,52,4],
+"class_character_virtual_settings.html#a9799feb816f4df4f956ffed435d18b4c":[3,0,52,1],
 "class_character_virtual_settings.html#ace6da7c342df36edfce5a7aac44b1664":[3,0,52,2],
 "class_character_virtual_settings.html#adc60ceaa1f25e2cd6853b319499f82d1":[3,0,52,0],
 "class_character_virtual_settings.html#ae797247a9a90a161abd965a8f56ae584":[3,0,52,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "class_constraint_manager.html#acd910b293c763c5c5a6f7c29a37721fb":[3,0,73,6],
 "class_constraint_manager.html#ada42a650942ca12b4ffef3bc772ccaed":[3,0,73,1],
 "class_constraint_manager.html#ae323401f2d9039dd330b070808c494f7":[3,0,73,0],
-"class_constraint_manager.html#ae8d4baabaedc6f26b774d40b71b6bf85":[3,0,73,7],
-"class_constraint_manager.html#aef2a29f192caeb1209dfc1a6db0afb96":[3,0,73,11],
-"class_constraint_settings.html":[3,0,74],
-"class_constraint_settings.html#a159e8a4477995e274af2d9f98c44f3c9":[3,0,74,5],
-"class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae":[3,0,74,4]
+"class_constraint_manager.html#ae8d4baabaedc6f26b774d40b71b6bf85":[3,0,73,7]
 };

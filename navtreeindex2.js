@@ -78,6 +78,10 @@ var NAVTREEINDEX2 =
 "_motor_settings_8h.html#a691a2387946263d993fa8e1c9488bc2ba88156d46910a2d733443c339a9231d12":[4,0,1,5,3,18,1,1],
 "_motor_settings_8h.html#a691a2387946263d993fa8e1c9488bc2bad15305d7a4e34e02489c74a5ef542f36":[4,0,1,5,3,18,1,0],
 "_motor_settings_8h_source.html":[4,0,1,5,3,18],
+"_motorcycle_controller_8cpp.html":[4,0,1,5,5,0],
+"_motorcycle_controller_8cpp.html#aa283374558777814feb8215807c1f470":[4,0,1,5,5,0,0],
+"_motorcycle_controller_8h.html":[4,0,1,5,5,1],
+"_motorcycle_controller_8h_source.html":[4,0,1,5,5,1],
 "_mutable_compound_shape_8cpp.html":[4,0,1,5,2,1,20],
 "_mutable_compound_shape_8cpp.html#ac8f982526acd7284d64a445a2ac95488":[4,0,1,5,2,1,20,0],
 "_mutable_compound_shape_8h.html":[4,0,1,5,2,1,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "_quat_8h.html":[4,0,1,3,18],
 "_quat_8h_source.html":[4,0,1,3,18],
 "_quat_8inl.html":[4,0,1,3,19],
-"_quick_sort_8h.html":[4,0,1,1,35],
-"_quick_sort_8h.html#a09973cb7cb8a1e98a51005ecedaf6eff":[4,0,1,1,35,1],
-"_quick_sort_8h.html#a7f9496a620493fec0bb6e08af489dc27":[4,0,1,1,35,3],
-"_quick_sort_8h.html#aa6450fb30b4a42e991c89908bd3575b9":[4,0,1,1,35,2],
-"_quick_sort_8h.html#ada159782c0a49512044e5eb1cdb97684":[4,0,1,1,35,0]
+"_quick_sort_8h.html":[4,0,1,1,35]
 };

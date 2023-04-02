@@ -1,5 +1,7 @@
 var dir_581cdd6ad79c50f327179442908d53d5 =
 [
+    [ "MotorcycleController.cpp", "_motorcycle_controller_8cpp.html", "_motorcycle_controller_8cpp" ],
+    [ "MotorcycleController.h", "_motorcycle_controller_8h.html", "_motorcycle_controller_8h" ],
     [ "TrackedVehicleController.cpp", "_tracked_vehicle_controller_8cpp.html", "_tracked_vehicle_controller_8cpp" ],
     [ "TrackedVehicleController.h", "_tracked_vehicle_controller_8h.html", "_tracked_vehicle_controller_8h" ],
     [ "VehicleAntiRollBar.cpp", "_vehicle_anti_roll_bar_8cpp.html", "_vehicle_anti_roll_bar_8cpp" ],

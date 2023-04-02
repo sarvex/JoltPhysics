@@ -454,13 +454,17 @@ var hierarchy =
     [ "RefTarget< VehicleController >", "class_ref_target.html", [
       [ "VehicleController", "class_vehicle_controller.html", [
         [ "TrackedVehicleController", "class_tracked_vehicle_controller.html", null ],
-        [ "WheeledVehicleController", "class_wheeled_vehicle_controller.html", null ]
+        [ "WheeledVehicleController", "class_wheeled_vehicle_controller.html", [
+          [ "MotorcycleController", "class_motorcycle_controller.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "RefTarget< VehicleControllerSettings >", "class_ref_target.html", [
       [ "VehicleControllerSettings", "class_vehicle_controller_settings.html", [
         [ "TrackedVehicleControllerSettings", "class_tracked_vehicle_controller_settings.html", null ],
-        [ "WheeledVehicleControllerSettings", "class_wheeled_vehicle_controller_settings.html", null ]
+        [ "WheeledVehicleControllerSettings", "class_wheeled_vehicle_controller_settings.html", [
+          [ "MotorcycleControllerSettings", "class_motorcycle_controller_settings.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "RefTarget< WheelSettings >", "class_ref_target.html", [
