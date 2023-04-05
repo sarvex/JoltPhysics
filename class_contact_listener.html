@@ -122,7 +122,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aef8f0cac1d560622743420afcd1ce17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A listener class that receives collision contact events events. It can be registered with the <a class="el" href="class_contact_constraint_manager.html">ContactConstraintManager</a> (or <a class="el" href="class_physics_system.html">PhysicsSystem</a>). </p>
+<div class="textblock"><p >A listener class that receives collision contact events events. It can be registered with the <a class="el" href="class_contact_constraint_manager.html">ContactConstraintManager</a> (or <a class="el" href="class_physics_system.html">PhysicsSystem</a>). Note that contact listener callbacks are called from multiple threads at the same time when all bodies are locked, you're only allowed to read from the bodies and you can't change physics state. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a577b31dbf6d6e5a6ada2864a0b3f70bd" name="a577b31dbf6d6e5a6ada2864a0b3f70bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a577b31dbf6d6e5a6ada2864a0b3f70bd">&#9670;&#160;</a></span>~ContactListener()</h2>
