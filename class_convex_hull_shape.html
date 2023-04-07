@@ -199,6 +199,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a611a3efc9d9016c15917bf329eadf2ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_hull_shape.html#a611a3efc9d9016c15917bf329eadf2ec">GetPoint</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inIndex) const</td></tr>
 <tr class="memdesc:a611a3efc9d9016c15917bf329eadf2ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a vertex of this convex hull relative to the center of mass.  <a href="class_convex_hull_shape.html#a611a3efc9d9016c15917bf329eadf2ec">More...</a><br /></td></tr>
 <tr class="separator:a611a3efc9d9016c15917bf329eadf2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93a52de78a436f3c3a54c72a9c9e1e05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_hull_shape.html#a93a52de78a436f3c3a54c72a9c9e1e05">GetNumFaces</a> () const</td></tr>
+<tr class="memdesc:a93a52de78a436f3c3a54c72a9c9e1e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of faces in this convex hull.  <a href="class_convex_hull_shape.html#a93a52de78a436f3c3a54c72a9c9e1e05">More...</a><br /></td></tr>
+<tr class="separator:a93a52de78a436f3c3a54c72a9c9e1e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b08042d580d3cecbef5cb5e7dd179f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_hull_shape.html#a57b08042d580d3cecbef5cb5e7dd179f">GetNumVerticesInFace</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inFaceIndex) const</td></tr>
+<tr class="memdesc:a57b08042d580d3cecbef5cb5e7dd179f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of vertices in a face.  <a href="class_convex_hull_shape.html#a57b08042d580d3cecbef5cb5e7dd179f">More...</a><br /></td></tr>
+<tr class="separator:a57b08042d580d3cecbef5cb5e7dd179f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264fca49465c3fcfd2b261b6ee795f3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_hull_shape.html#a264fca49465c3fcfd2b261b6ee795f3a">GetFaceVertices</a> (<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inFaceIndex, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inMaxVertices, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> *outVertices) const</td></tr>
+<tr class="separator:a264fca49465c3fcfd2b261b6ee795f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_convex_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_convex_shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_convex_shape.html">ConvexShape</a></td></tr>
 <tr class="memitem:a6454ef09933ded91976c8f77bec976db inherit pub_methods_class_convex_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_convex_shape.html#a6454ef09933ded91976c8f77bec976db">ConvexShape</a> (<a class="el" href="_shape_8h.html#aa332e0529e75b83aad91881c8d32551b">EShapeSubType</a> inSubType)</td></tr>
 <tr class="memdesc:a6454ef09933ded91976c8f77bec976db inherit pub_methods_class_convex_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_convex_shape.html#a6454ef09933ded91976c8f77bec976db">More...</a><br /></td></tr>
@@ -835,6 +843,57 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a264fca49465c3fcfd2b261b6ee795f3a" name="a264fca49465c3fcfd2b261b6ee795f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a264fca49465c3fcfd2b261b6ee795f3a">&#9670;&#160;</a></span>GetFaceVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> ConvexHullShape::GetFaceVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td>
+          <td class="paramname"><em>inFaceIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td>
+          <td class="paramname"><em>inMaxVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> *&#160;</td>
+          <td class="paramname"><em>outVertices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Get the vertices indices of a face </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inFaceIndex</td><td>Index of the face. </td></tr>
+    <tr><td class="paramname">inMaxVertices</td><td>Maximum number of vertices to return. </td></tr>
+    <tr><td class="paramname">outVertices</td><td>Array of vertices indices, must be at least inMaxVertices in size, the vertices are returned in counter clockwise order and the positions can be obtained using GetPoint(index). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of vertices in face, if this is bigger than inMaxVertices, not all vertices were retrieved. </dd></dl>
+
+</div>
+</div>
 <a id="a43f64b08407a44d5c441f41ce520dfe5" name="a43f64b08407a44d5c441f41ce520dfe5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43f64b08407a44d5c441f41ce520dfe5">&#9670;&#160;</a></span>GetInnerRadius()</h2>
 
@@ -921,6 +980,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a93a52de78a436f3c3a54c72a9c9e1e05" name="a93a52de78a436f3c3a54c72a9c9e1e05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93a52de78a436f3c3a54c72a9c9e1e05">&#9670;&#160;</a></span>GetNumFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> ConvexHullShape::GetNumFaces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of faces in this convex hull. </p>
+
+</div>
+</div>
 <a id="adb56ee374395d692a32d08975e8d91ff" name="adb56ee374395d692a32d08975e8d91ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb56ee374395d692a32d08975e8d91ff">&#9670;&#160;</a></span>GetNumPoints()</h2>
 
@@ -945,6 +1031,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the number of vertices in this convex hull. </p>
+
+</div>
+</div>
+<a id="a57b08042d580d3cecbef5cb5e7dd179f" name="a57b08042d580d3cecbef5cb5e7dd179f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b08042d580d3cecbef5cb5e7dd179f">&#9670;&#160;</a></span>GetNumVerticesInFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> ConvexHullShape::GetNumVerticesInFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td>
+          <td class="paramname"><em>inFaceIndex</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of vertices in a face. </p>
 
 </div>
 </div>

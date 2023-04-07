@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"class_serializable_object.html":[3,0,228],
+"class_serializable_object.html#afad98c73b77e9cef11cf5083a5866d49":[3,0,228,0],
+"class_shape.html":[3,0,229],
 "class_shape.html#a0035a8aa07e9e071f6a64edb45146363":[3,0,229,45],
 "class_shape.html#a00d0953c120d9e175960c9e6629f108f":[3,0,229,22],
 "class_shape.html#a09215d250a425cca2e9b4bed32761bc4":[3,0,229,47],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "class_skeleton_pose.html#a91f801a519aa40ed65e4ff2aee71bc93":[3,0,244,8],
 "class_skeleton_pose.html#a9c8491b64eb337b033003d67f9c1d962":[3,0,244,14],
 "class_skeleton_pose.html#a9e4d521e23999bef15f0a0fd2b5f4c91":[3,0,244,2],
-"class_skeleton_pose.html#aa8669194e2646ec9de2fbab978e299be":[3,0,244,11],
-"class_skeleton_pose.html#abbbb73391837675160aa67daba69c2eb":[3,0,244,6],
-"class_skeleton_pose.html#ac2a127126bcbac1a033e75e7371ba94b":[3,0,244,1],
-"class_skeleton_pose.html#ace1c753663d81c68c7896c95c34a6b2a":[3,0,244,17]
+"class_skeleton_pose.html#aa8669194e2646ec9de2fbab978e299be":[3,0,244,11]
 };
